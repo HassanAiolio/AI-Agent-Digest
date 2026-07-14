@@ -1,9 +1,9 @@
 {
   "date": "2026-07-14",
-  "generated_at": "2026-07-14T17:41:03+00:00",
+  "generated_at": "2026-07-14T18:30:56+00:00",
   "stats": {
-    "fetched": 239,
-    "new_after_dedupe": 237,
+    "fetched": 237,
+    "new_after_dedupe": 235,
     "published": 29,
     "failed_sources": [],
     "summarizer": "groq"
@@ -19,7 +19,7 @@
       "score": 7.5,
       "id": "1ea825757c5c071e57078aba09fef8c08f4ee179",
       "summary": "JobHop v2 dataset released with 440,000 resumes",
-      "detail": "JobHop v2 improves upon the original release with broader coverage and richer annotations, including ESCO occupational codes and quarter-level temporal information.",
+      "detail": "The dataset is constructed through end-to-end large language model extraction and comprises career trajectories annotated with ESCO occupational codes and quarter-level temporal information. This dataset can be used for workforce planning, job recommendation, and labour market analysis.",
       "key_points": [
         "440,000 resumes",
         "355,315 trajectories"
@@ -37,13 +37,10 @@
       "points": null,
       "score": 7.0,
       "id": "82d35999a3cc825b701e52562f38686fdd1a61e0",
-      "summary": "Codeforces Round 1111 starts on July 18",
-      "detail": "The contest is open to all participants.",
-      "key_points": [
-        "2.0h",
-        "Sat 18 Jul 14:35 UTC"
-      ],
-      "tag": "Contest",
+      "summary": "CF contest, 2.0h, starts Sat 18 Jul 14:35 UTC",
+      "detail": "CF contest, 2.0h, starts Sat 18 Jul 14:35 UTC",
+      "key_points": [],
+      "tag": "",
       "highlight": true,
       "image": ""
     },
@@ -57,10 +54,8 @@
       "score": 6.5,
       "id": "7e4df50c7d8a19b08b4d11999892075a5aebfdb0",
       "summary": "MET introduced for multilingual moral reasoning",
-      "detail": "MET addresses gaps in multilingual moral decision-making by introducing a theory-grounded prompting method and a culturally situated moral decision-making benchmark.",
-      "key_points": [
-        "MCLASH benchmark"
-      ],
+      "detail": "MET is a two-step prompting method built on expert-curated, theory-based grounds drawn from psychology and moral philosophy. It addresses the gaps in existing work by introducing a multilingual moral decision-making benchmark and a theory-grounded reasoning method.",
+      "key_points": [],
       "tag": "Research",
       "highlight": true,
       "image": ""
@@ -75,12 +70,12 @@
       "score": 6.5,
       "id": "62a445dbd0986420b07c3b6f78170310e49210c4",
       "summary": "VoxENES 2026 benchmark for speech spoofing detectors",
-      "detail": "VoxENES 2026 highlights the temporal generalization gap in current detectors and evaluates their performance against modern speech synthesis methods.",
+      "detail": "The benchmark evaluates the performance of speech spoofing detectors against contemporary speech synthesis methods and post-processing conditions. The results highlight the reliance on brittle artifacts in current detectors and the need for more robust methods.",
       "key_points": [
         "53,628 audio samples",
         "10 synthesis methods"
       ],
-      "tag": "Research",
+      "tag": "Release",
       "highlight": true,
       "image": ""
     },
@@ -94,9 +89,9 @@
       "score": 5.0,
       "id": "92ab1f77dd8ccf54b1a22b176d3dac5b102b2d7c",
       "summary": "Managing AI investments in the agentic era",
-      "detail": "Enterprises can manage AI investments by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+      "detail": "Enterprises can manage AI investments by measuring useful work per dollar, improving efficiency, and scaling high-value workflows. This approach can help organizations maximize the benefits of AI while minimizing costs.",
       "key_points": [],
-      "tag": "Analysis",
+      "tag": "",
       "highlight": true,
       "image": "https://images.ctfassets.net/kftzwdyauwt9/1f3fCCk8KKldaYmrCqQ6tt/3193a26fa6ff6423b4235b0661de239f/Frame-1.png?w=1600&h=900&fit=fill"
     }
@@ -117,7 +112,7 @@
           "score": 7.5,
           "id": "1ea825757c5c071e57078aba09fef8c08f4ee179",
           "summary": "JobHop v2 dataset released with 440,000 resumes",
-          "detail": "JobHop v2 improves upon the original release with broader coverage and richer annotations, including ESCO occupational codes and quarter-level temporal information.",
+          "detail": "The dataset is constructed through end-to-end large language model extraction and comprises career trajectories annotated with ESCO occupational codes and quarter-level temporal information. This dataset can be used for workforce planning, job recommendation, and labour market analysis.",
           "key_points": [
             "440,000 resumes",
             "355,315 trajectories"
@@ -136,10 +131,8 @@
           "score": 6.5,
           "id": "7e4df50c7d8a19b08b4d11999892075a5aebfdb0",
           "summary": "MET introduced for multilingual moral reasoning",
-          "detail": "MET addresses gaps in multilingual moral decision-making by introducing a theory-grounded prompting method and a culturally situated moral decision-making benchmark.",
-          "key_points": [
-            "MCLASH benchmark"
-          ],
+          "detail": "MET is a two-step prompting method built on expert-curated, theory-based grounds drawn from psychology and moral philosophy. It addresses the gaps in existing work by introducing a multilingual moral decision-making benchmark and a theory-grounded reasoning method.",
+          "key_points": [],
           "tag": "Research",
           "highlight": true,
           "image": ""
@@ -154,12 +147,12 @@
           "score": 6.5,
           "id": "62a445dbd0986420b07c3b6f78170310e49210c4",
           "summary": "VoxENES 2026 benchmark for speech spoofing detectors",
-          "detail": "VoxENES 2026 highlights the temporal generalization gap in current detectors and evaluates their performance against modern speech synthesis methods.",
+          "detail": "The benchmark evaluates the performance of speech spoofing detectors against contemporary speech synthesis methods and post-processing conditions. The results highlight the reliance on brittle artifacts in current detectors and the need for more robust methods.",
           "key_points": [
             "53,628 audio samples",
             "10 synthesis methods"
           ],
-          "tag": "Research",
+          "tag": "Release",
           "highlight": true,
           "image": ""
         },
@@ -173,9 +166,9 @@
           "score": 5.0,
           "id": "92ab1f77dd8ccf54b1a22b176d3dac5b102b2d7c",
           "summary": "Managing AI investments in the agentic era",
-          "detail": "Enterprises can manage AI investments by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+          "detail": "Enterprises can manage AI investments by measuring useful work per dollar, improving efficiency, and scaling high-value workflows. This approach can help organizations maximize the benefits of AI while minimizing costs.",
           "key_points": [],
-          "tag": "Analysis",
+          "tag": "",
           "highlight": true,
           "image": "https://images.ctfassets.net/kftzwdyauwt9/1f3fCCk8KKldaYmrCqQ6tt/3193a26fa6ff6423b4235b0661de239f/Frame-1.png?w=1600&h=900&fit=fill"
         },
@@ -189,10 +182,8 @@
           "score": 3.0,
           "id": "4977e5401721f35554f44363ca7714465b070cec",
           "summary": "Claude Science AI workbench released",
-          "detail": "Claude Science is a customizable app that integrates tools and packages for researchers, producing auditable artifacts and providing flexible access to computing resources.",
-          "key_points": [
-            "June 30, 2026"
-          ],
+          "detail": "Claude Science is a customizable app that integrates tools and packages researchers use, produces auditable artifacts, and provides flexible access to computing resources. It can help scientists streamline their workflows and improve productivity.",
+          "key_points": [],
           "tag": "Release",
           "highlight": false,
           "image": "https://cdn.sanity.io/images/4zrzovbb/website/0c547c61b24e6ad4985c64f04f212c7411609bfa-2880x1620.png"
@@ -207,7 +198,7 @@
           "score": 3.0,
           "id": "e4b2f0a95227383f058aab6a318b57b2a14a1ad8",
           "summary": "Fable 5 redeployed globally",
-          "detail": "Fable 5 returns globally, and an industry-wide framework for scoring jailbreak severity is proposed in partnership with other companies.",
+          "detail": "Fable 5 is being redeployed globally, and an industry-wide framework for scoring jailbreak severity is being proposed. This framework can help standardize the evaluation of jailbreaks and improve overall security.",
           "key_points": [
             "July 1"
           ],
@@ -225,7 +216,7 @@
           "score": 3.0,
           "id": "77ccb073c59f37527555ab5c2638078d073d9c8d",
           "summary": "ATL Saathi AI tool launched",
-          "detail": "ATL Saathi is a Gemini-powered AI tool that empowers Indian educators in robotics labs, launched by Google and AIM.",
+          "detail": "ATL Saathi is a Gemini-powered AI tool that empowers Indian educators in robotics labs. It can help teachers develop innovative projects and improve student learning outcomes.",
           "key_points": [],
           "tag": "News",
           "highlight": false,
@@ -241,9 +232,9 @@
           "score": 3.0,
           "id": "cca00ce687818d9ad6ab3e2102fc448804cde0b7",
           "summary": "ChatGPT Work for data science teams",
-          "detail": "Data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, and other analyses from real work inputs.",
+          "detail": "ChatGPT Work can help data science teams build root-cause briefs, impact readouts, and other documents from real work inputs. It can improve productivity and streamline workflows.",
           "key_points": [],
-          "tag": "Analysis",
+          "tag": "",
           "highlight": false,
           "image": "https://images.ctfassets.net/kftzwdyauwt9/3pOt7hjYa1nUIIMMXdoEhD/b6493d0ba6756155a3ef880758e0a0b0/Academy-SEO.png?w=1600&h=900&fit=fill"
         },
@@ -257,9 +248,9 @@
           "score": 3.0,
           "id": "248b5ff0699922b23d03bcc7a466036dd8ca62b4",
           "summary": "ChatGPT Work for sales teams",
-          "detail": "Sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, and other sales materials from real work inputs.",
+          "detail": "ChatGPT Work can help sales teams create pipeline briefs, meeting prep packets, and other documents from real work inputs. It can improve sales productivity and effectiveness.",
           "key_points": [],
-          "tag": "Analysis",
+          "tag": "",
           "highlight": false,
           "image": "https://images.ctfassets.net/kftzwdyauwt9/3pOt7hjYa1nUIIMMXdoEhD/b6493d0ba6756155a3ef880758e0a0b0/Academy-SEO.png?w=1600&h=900&fit=fill"
         },
@@ -272,14 +263,12 @@
           "points": null,
           "score": 3.0,
           "id": "0a35825f6246687a494a577bc7dc62929e81cee0",
-          "summary": "Public invited to submit AI questions",
-          "detail": "The public is invited to submit their hardest questions about AI, and the company will address them and show their work.",
-          "key_points": [
-            "July 9, 2026"
-          ],
+          "summary": "Anthropic invites public questions on AI",
+          "detail": "Anthropic is asking the public for their hardest questions about AI and committing to show their work as they address them. This approach can help build trust and improve transparency in AI development.",
+          "key_points": [],
           "tag": "News",
           "highlight": false,
-          "image": ""
+          "image": "https://cdn.sanity.io/images/4zrzovbb/website/b3ddb82292e92030f4677d004bf0d7d795be7bd1-1200x630.jpg"
         }
       ]
     },
@@ -298,8 +287,10 @@
           "score": 4.5,
           "id": "804de74e882fafa0cdf569b4a04c5ad7d4774e05",
           "summary": "Solar Dev Board for ESP32",
-          "detail": "A new development board for the ESP32 chip is available, featuring a solar panel and other components for development and prototyping.",
-          "key_points": [],
+          "detail": "The Solar Dev Board is a development board for the ESP32 chip that can be used in a variety of situations. It is a versatile and useful tool for developers and makers.",
+          "key_points": [
+            "ESP32"
+          ],
           "tag": "Repo",
           "highlight": false,
           "image": "https://hackaday.com/wp-content/uploads/2026/07/solar_board_v1.png"
@@ -314,9 +305,10 @@
           "score": 3.0,
           "id": "4a72797ac35891612fb43926e32c20ac1d34e52e",
           "summary": "Call for topics for 2026 Maintainers Summit",
-          "detail": "The Maintainers Summit is an annual gathering of kernel developers and maintainers to discuss development-process issues, and topic proposals are being accepted until July 24.",
+          "detail": "The Maintainers Summit is an annual gathering of kernel developers and maintainers to discuss development-process issues. The call for topics is now open, and submissions are due by July 24.",
           "key_points": [
-            "July 24 deadline"
+            "July 24",
+            "October 8"
           ],
           "tag": "Contest",
           "highlight": false,
@@ -331,12 +323,10 @@
           "points": null,
           "score": 3.0,
           "id": "24b084c3b494f25a022af0b7bb214c7289c9a191",
-          "summary": "Debian, Fedora, and others issue security updates",
-          "detail": "The updates address various vulnerabilities in packages such as chromium and libxfont.",
-          "key_points": [
-            "Monday"
-          ],
-          "tag": "News",
+          "summary": "Security updates have been issued by Debian (chromium, libxfont, mesa, opam, and wireless-regdb), Fedora (acl, attr, chromium, cjson, composer, docker-compose, jfrog-cli, librabbitmq, libssh2, libXfont2, log4cxx, OpenIma…",
+          "detail": "Security updates have been issued by Debian (chromium, libxfont, mesa, opam, and wireless-regdb), Fedora (acl, attr, chromium, cjson, composer, docker-compose, jfrog-cli, librabbitmq, libssh2, libXfont2, log4cxx, OpenImageIO, openssh, p11-kit, perl-Crypt-DSA, perl-HTML-Gumbo, prometheus, python-dulwich, python-idna, python-pillow, python-tornado, sssd, tmux, upower, webkitgtk, xorg-x11-server, and xorg-x11-server-Xwayland), Mageia (libarchive and vim), Oracle (389-ds:1.4, buildah, cups, edk2, freerdp, golang, grafana, gstreamer1-plugins-bad-free, gstreamer1-plugins-good, gstreamer1-plugins-ugl…",
+          "key_points": [],
+          "tag": "",
           "highlight": false,
           "image": ""
         },
@@ -349,12 +339,10 @@
           "points": null,
           "score": 3.0,
           "id": "86308db36a38a69f42549ac99b4b1b830117e8ca",
-          "summary": "AlmaLinux, Debian, and others issue security updates",
-          "detail": "The updates fix vulnerabilities in packages like kernel and libreoffice.",
-          "key_points": [
-            "Tuesday"
-          ],
-          "tag": "News",
+          "summary": "Security updates have been issued by AlmaLinux (389-ds:1.4, buildah, freeipmi, freerdp, gegl, gimp, golang, kernel, libreoffice, maven:3.9, openexr, perl-DBI, plexus-utils, podman, tomcat, tomcat9, xorg-x11-server, and x…",
+          "detail": "Security updates have been issued by AlmaLinux (389-ds:1.4, buildah, freeipmi, freerdp, gegl, gimp, golang, kernel, libreoffice, maven:3.9, openexr, perl-DBI, plexus-utils, podman, tomcat, tomcat9, xorg-x11-server, and xorg-x11-server-Xwayland), Debian (imagemagick, p7zip, and redis), Fedora (breezy, calibre, and golang-github-openprinting-ipp-usb), Mageia (ffmpeg, gzip, haproxy, libheif, libtiff, libxml2, packages, perl-List-SomeUtils-XS, and perl-Socket), SUSE (alsa, chromedriver, curl, dhcpcd, docker-compose, glibc, haproxy, ImageMagick, jq, kernel, kubernetes, libpng15, libredwg-devel, lib…",
+          "key_points": [],
+          "tag": "",
           "highlight": false,
           "image": ""
         },
@@ -367,10 +355,10 @@
           "points": null,
           "score": 3.0,
           "id": "f981bf77e256e7eeb5ee19241337a143d6d3eda9",
-          "summary": "Tetragon sends packets directly from BPF",
-          "detail": "This improvement removes the need for a user-space agent, enhancing security.",
+          "summary": "Tetragon , the BPF-based security monitoring tool, uses BPF to monitor different aspects of a running kernel and enforce user-specified policies. It sends its data to a user-space process, which forwards the data to a ce…",
+          "detail": "Tetragon , the BPF-based security monitoring tool, uses BPF to monitor different aspects of a running kernel and enforce user-specified policies. It sends its data to a user-space process, which forwards the data to a central monitoring service elsewhere in the network, however. This presents a point of vulnerability: if an attacker can kill Tetragon's user-space agent, it won't be able to properly report on the situation. Song Liu, Mahé Tardy, and Liam Wiseheart spoke about their work removing the need for the user-space agent at the 2026 Linux Storage, Filesystem, Memory-Management, and BPF …",
           "key_points": [],
-          "tag": "Research",
+          "tag": "",
           "highlight": false,
           "image": ""
         },
@@ -383,10 +371,10 @@
           "points": null,
           "score": 3.0,
           "id": "22a0d236596d7312317ac486d840e26494e37778",
-          "summary": "Cisco uses BPF to prevent kernel exploits",
-          "detail": "The technique reduces the time needed to respond to kernel vulnerabilities.",
+          "summary": "Cisco has some unusual challenges when it comes to deploying security patches across the company's many devices running custom kernels. John Fastabend spoke about his work preventing exploits with BPF at the 2026 Linux S…",
+          "detail": "Cisco has some unusual challenges when it comes to deploying security patches across the company's many devices running custom kernels. John Fastabend spoke about his work preventing exploits with BPF at the 2026 Linux Storage, Filesystem, Memory-Management, and BPF Summit . The technique could substantially reduce the time necessary to respond to kernel vulnerabilities, but it will not be fully effective unless more hooks are added to the kernel.",
           "key_points": [],
-          "tag": "Research",
+          "tag": "",
           "highlight": false,
           "image": ""
         }
@@ -406,13 +394,10 @@
           "points": null,
           "score": 7.0,
           "id": "82d35999a3cc825b701e52562f38686fdd1a61e0",
-          "summary": "Codeforces Round 1111 starts on July 18",
-          "detail": "The contest is open to all participants.",
-          "key_points": [
-            "2.0h",
-            "Sat 18 Jul 14:35 UTC"
-          ],
-          "tag": "Contest",
+          "summary": "CF contest, 2.0h, starts Sat 18 Jul 14:35 UTC",
+          "detail": "CF contest, 2.0h, starts Sat 18 Jul 14:35 UTC",
+          "key_points": [],
+          "tag": "",
           "highlight": true,
           "image": ""
         }
@@ -432,10 +417,10 @@
           "points": 95,
           "score": 4.5,
           "id": "86dc4b5041ced2a81f58a709a1379dc1de738dc6",
-          "summary": "Jacquard is a new programming language",
-          "detail": "It was designed by analyzing ASTs of mainstream languages and creating a new structure.",
+          "summary": "I&#x27;m fascinated by the generative AI wave rolling over us, and wondered if AI could create a language that it might prefer using over the ones created by and for humans.<p>To create the design, I had AI analyze the A…",
+          "detail": "I&#x27;m fascinated by the generative AI wave rolling over us, and wondered if AI could create a language that it might prefer using over the ones created by and for humans.<p>To create the design, I had AI analyze the ASTs of several mainstream languages plus a few of the conceptually groundbreaking but esoteric ones (listed in the README) and then create a new structure and new syntax. It was named after the Jacquard machine (<a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Jacquard_machine\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Jacquard_machine</a>), a p…",
           "key_points": [],
-          "tag": "Repo",
+          "tag": "",
           "highlight": false,
           "image": "https://opengraph.githubassets.com/084d623c017306aedcd572ab831e85a0e4eb604a104dbf89ea88a8ca5c441436/jbwinters/jacquard-lang"
         },
@@ -448,10 +433,10 @@
           "points": null,
           "score": 3.0,
           "id": "1c4c516db4d2e111f273869b154ae7ab2226fece",
-          "summary": "Complexity theory of randomized testing is presented",
-          "detail": "The theory provides a foundation for random generators in software testing.",
+          "summary": "Randomised testing is a widely-used approach to software validation, yet its theoretical foundations remain thin. In particular, the fundamental question of what it means for a set of inputs to be \\emph{generable} has go…",
+          "detail": "Randomised testing is a widely-used approach to software validation, yet its theoretical foundations remain thin. In particular, the fundamental question of what it means for a set of inputs to be \\emph{generable} has gone unanswered in both the literature and folklore. We present the first complexity-theoretic foundations for random generators in software testing. We model generators as Turing transducers that consume random bits and produce string-encoded outputs, and show that the theoretically generable languages coincide exactly with the recursively enumerable languages. This has direct i…",
           "key_points": [],
-          "tag": "Research",
+          "tag": "",
           "highlight": false,
           "image": ""
         },
@@ -464,10 +449,10 @@
           "points": null,
           "score": 3.0,
           "id": "c2ace212501317173aa8783ebe2ca52ef4013b60",
-          "summary": "Convergence analysis for thread synchronization",
-          "detail": "The analysis helps compilers determine when barriers are necessary.",
+          "summary": "We introduce a notion of convergence for the nodes and edges of a control-flow graph that captures whether a barrier placed at that location is guaranteed to synchronize all threads of a thread block in every execution. …",
+          "detail": "We introduce a notion of convergence for the nodes and edges of a control-flow graph that captures whether a barrier placed at that location is guaranteed to synchronize all threads of a thread block in every execution. Convergence analysis lets a compiler determine when a barrier lies in a uniformly executed region and therefore avoid the code transformations otherwise required to implement thread-block barriers correctly on warp-synchronous hardware. We formalize convergent nodes, convergent edges, and well-synchronized programs; give two inference rules (a branch rule and a merge rule); and…",
           "key_points": [],
-          "tag": "Research",
+          "tag": "",
           "highlight": false,
           "image": ""
         },
@@ -480,10 +465,10 @@
           "points": null,
           "score": 2.5,
           "id": "ecc8cde3419e363ea8c153591c17bdc5cf1a1821",
-          "summary": "Parcas is a separation logic for parallel time complexity",
-          "detail": "It abstracts from machine specifics and uses work and span credits.",
+          "summary": "We present Parcas, a concurrent separation logic for verifying the parallel time complexity of fork-join programs. In order to abstract from the specifics of the machine, time complexity for parallel programs is given in…",
+          "detail": "We present Parcas, a concurrent separation logic for verifying the parallel time complexity of fork-join programs. In order to abstract from the specifics of the machine, time complexity for parallel programs is given in terms of two metrics: the work, measuring the total number of operations, and the span, measuring the longest chain of sequential dependencies. Together, these two metrics determine the running time on any number of processors. For proving bounds on the work and span, Parcas is equipped with work credits and span credits, logical devices that represent permissions to incur cos…",
           "key_points": [],
-          "tag": "Research",
+          "tag": "",
           "highlight": false,
           "image": ""
         },
@@ -496,10 +481,10 @@
           "points": null,
           "score": 2.5,
           "id": "a86553c9e0ca3ee41f6f507b5e0b0409a0834460",
-          "summary": "AutoSLO is a latency-SLO-aware workload management framework",
-          "detail": "It operates across three timescales to manage cloud data warehouses.",
+          "summary": "Modern cloud data warehouses decouple compute from storage, making it easy for organizations to access the same underlying data with multiple compute clusters. This flexibility is often used for performance isolation amo…",
+          "detail": "Modern cloud data warehouses decouple compute from storage, making it easy for organizations to access the same underlying data with multiple compute clusters. This flexibility is often used for performance isolation among diverse workloads, so that each workload meets its latency service-level objective (SLO) more reliably. For example, interactive dashboards, ad hoc analysis, and batch jobs can each run on separate clusters. However, this dedicated-cluster approach requires each compute cluster to be continuously scaled to adapt to workload evolution, with over-provisioning wasting resources…",
           "key_points": [],
-          "tag": "Research",
+          "tag": "",
           "highlight": false,
           "image": ""
         },
@@ -512,10 +497,10 @@
           "points": null,
           "score": 2.5,
           "id": "9688dae81286282395cc5e5f445708cba07d2913",
-          "summary": "Mizzle is a concurrent incorrectness logic",
-          "detail": "It prevents false alarms in agentic bug finding by requiring machine-checked proofs.",
+          "summary": "Large language models are increasingly used to find bugs in real-world programs, but they also produce a flood of false alarms that waste developers' time. We propose a method to prevent these false alarms by requiring a…",
+          "detail": "Large language models are increasingly used to find bugs in real-world programs, but they also produce a flood of false alarms that waste developers' time. We propose a method to prevent these false alarms by requiring an LLM to accompany each bug report with a machine-checked proof, in a program logic, that the reported bug is real. We follow the approach of incorrectness logics, whose under-approximate reasoning establishes that a claimed behavior is genuinely reachable, and hence a true positive. In our case, however, the logic must model a realistic programming language, have a mechanizati…",
           "key_points": [],
-          "tag": "Research",
+          "tag": "",
           "highlight": false,
           "image": ""
         }
@@ -535,10 +520,10 @@
           "points": 39234,
           "score": 3.0,
           "id": "18a46c87eccea15cfa9ad6b23ab639d01d8827bd",
-          "summary": "LizardByte/Sunshine is a self-hosted game stream host",
-          "detail": "It is designed for Moonlight game streaming.",
+          "summary": "Self-hosted game stream host for Moonlight.",
+          "detail": "Self-hosted game stream host for Moonlight.",
           "key_points": [],
-          "tag": "Repo",
+          "tag": "",
           "highlight": false,
           "image": "https://repository-images.githubusercontent.com/438803890/cee99a24-0230-411e-b444-3e261c8b01d3"
         },
@@ -552,8 +537,10 @@
           "score": 3.0,
           "id": "453843e16a94d717c20bea85256ea86ae4c9c86c",
           "summary": "WeChat local data CLI released",
-          "detail": "The CLI utilizes a daemon architecture, allowing for efficient data management. This tool can be useful for developers working with WeChat data.",
-          "key_points": [],
+          "detail": "The CLI uses a daemon architecture, allowing for efficient data management. This tool can be useful for developers working with WeChat data.",
+          "key_points": [
+            "Rust"
+          ],
           "tag": "Repo",
           "highlight": false,
           "image": "https://opengraph.githubassets.com/d3ca42df9423d68d3dea46ed14e816217400766f8f737ecd24eabdc24c0fd3f0/jackwener/wx-cli"
@@ -564,15 +551,15 @@
           "source": "GitHub trending",
           "section": "repos",
           "published": null,
-          "points": 85980,
+          "points": 86027,
           "score": 2.5,
           "id": "dd6a9d14a094d1594baeb964ac415610498cc4a0",
           "summary": "Graphify-Labs/graphify AI coding assistant",
-          "detail": "Graphify can handle various file types, including code, SQL schemas, and documents. It integrates multiple AI coding assistants, such as Claude Code and Codex.",
+          "detail": "Graphify can handle various file types, including code, SQL schemas, and documents. It creates a queryable knowledge graph, making it easier to navigate and understand complex projects.",
           "key_points": [],
           "tag": "Repo",
           "highlight": false,
-          "image": "https://opengraph.githubassets.com/e3cf95fb36718c79f298c91b8512c70c33504d5781137e904692205605fced9f/Graphify-Labs/graphify"
+          "image": "https://opengraph.githubassets.com/b96f8ee828df80574a60225a6bf6b1d21d9bdf7b4f55ce491fd661827f187e96/Graphify-Labs/graphify"
         },
         {
           "title": "PrefectHQ/prefect",
@@ -580,15 +567,17 @@
           "source": "GitHub trending · python",
           "section": "repos",
           "published": null,
-          "points": 23363,
+          "points": 23365,
           "score": 2.5,
           "id": "82d4a2769261ee0119968dff24a051d69416ad1c",
           "summary": "Prefect workflow orchestration framework",
-          "detail": "Prefect is designed for building resilient data pipelines in Python. It provides a flexible framework for workflow management.",
-          "key_points": [],
+          "detail": "Prefect is designed to build resilient data pipelines, providing a robust framework for managing complex workflows. It can be used in a variety of applications, from data science to DevOps.",
+          "key_points": [
+            "Python"
+          ],
           "tag": "Repo",
           "highlight": false,
-          "image": "https://opengraph.githubassets.com/9d99290d0fea21c88a11d4b0ffdd5729bfd1e189f30d9261275c621fd12f9265/PrefectHQ/prefect"
+          "image": "https://opengraph.githubassets.com/0e9d7c0a2f3aa15fe4a39155b44d9c64efdc32fc3078087e592ff9104b7560b3/PrefectHQ/prefect"
         },
         {
           "title": "PrimeIntellect-ai/verifiers",
@@ -596,15 +585,18 @@
           "source": "GitHub trending · python",
           "section": "repos",
           "published": null,
-          "points": 4348,
+          "points": 4349,
           "score": 2.5,
           "id": "f0b48247395f126c953f93799b57db84c5f3486c",
           "summary": "PrimeIntellect-ai/verifiers library released",
-          "detail": "The library is designed for RL environments and evaluations. It provides a set of tools for reinforcement learning development.",
-          "key_points": [],
+          "detail": "The library provides a set of tools for evaluating and improving reinforcement learning environments. It can be used to develop more efficient and effective RL models.",
+          "key_points": [
+            "Python",
+            "RL"
+          ],
           "tag": "Repo",
           "highlight": false,
-          "image": "https://opengraph.githubassets.com/1fd4f7fbccfac92b39c1880420de03f1ac009ba468f5a8fa6ae584587d1500b1/PrimeIntellect-ai/verifiers"
+          "image": "https://opengraph.githubassets.com/3a62e8d3676f2bb454d37bed5f63646e2d061f7a9e8b1377631241382740d763/PrimeIntellect-ai/verifiers"
         },
         {
           "title": "UZ-SLAMLab/ORB_SLAM3",
@@ -616,8 +608,10 @@
           "score": 2.5,
           "id": "31bfd7b181d67987a758e562c2311fe33fdb53b5",
           "summary": "ORB-SLAM3 library released",
-          "detail": "ORB-SLAM3 is an open-source library for visual, visual-inertial, and multi-map SLAM. It provides an accurate and efficient solution for SLAM tasks.",
-          "key_points": [],
+          "detail": "ORB-SLAM3 is an open-source library for visual, visual-inertial, and multi-map SLAM. It provides an accurate and efficient solution for various SLAM applications.",
+          "key_points": [
+            "C++"
+          ],
           "tag": "Repo",
           "highlight": false,
           "image": "https://opengraph.githubassets.com/0732971f296783a1a9f592aef5bd08a45bb93c160f02b5e60d8cb89b3ca86f49/UZ-SLAMLab/ORB_SLAM3"
