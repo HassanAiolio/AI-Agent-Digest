@@ -82,6 +82,23 @@ def _call_groq(model: str, prompt: str, timeout: int) -> str:
     return resp.json()["choices"][0]["message"]["content"]
 
 
+def _retry_after(e: requests.exceptions.HTTPError) -> float | None:
+    """Seconds to wait before retrying a 429, per Groq's own guidance.
+    Prefer the Retry-After header; Groq also states the wait in the error
+    body (e.g. "Please try again in 7.66s") when the header is absent."""
+    resp = e.response
+    if resp is None:
+        return None
+    header = resp.headers.get("retry-after")
+    if header:
+        try:
+            return float(header)
+        except ValueError:
+            pass
+    m = re.search(r"try again in (\d+(?:\.\d+)?)s", resp.text or "", re.I)
+    return float(m.group(1)) if m else None
+
+
 def _parse(text: str) -> dict[str, dict]:
     text = re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.M).strip()
     data = json.loads(text)
@@ -118,6 +135,7 @@ def summarize_all(buckets: dict[str, list[Item]], gcfg: dict) -> bool:
     pause = float(gcfg.get("sleep_between_calls", 3))
 
     used_api = False
+    consecutive_batch_failures = 0
     for start in range(0, len(items), batch_size):
         batch = items[start:start + batch_size]
         lines = "\n\n".join(
@@ -126,7 +144,7 @@ def summarize_all(buckets: dict[str, list[Item]], gcfg: dict) -> bool:
             for it in batch
         )
         prompt = PROMPT.format(tags=", ".join(TAGS), items=lines)
-        quota_exhausted = False
+        batch_ok = False
         max_attempts = 4
         for attempt in range(1, max_attempts + 1):
             try:
@@ -139,23 +157,36 @@ def summarize_all(buckets: dict[str, list[Item]], gcfg: dict) -> bool:
                         it.tag = r["tag"]
                         it.key_points = r["key_points"]
                 used_api = True
+                batch_ok = True
                 break
             except requests.exceptions.HTTPError as e:
                 log.warning("groq batch failed (attempt %d): %s", attempt, e)
-                if e.response is not None and e.response.status_code == 429:
-                    quota_exhausted = True
+                if attempt >= max_attempts:
                     break
-                # 503 ("model overloaded") and similar are transient capacity
-                # blips — retry with backoff instead of giving up after one try.
-                if attempt < max_attempts:
+                if e.response is not None and e.response.status_code == 429:
+                    # Free-tier 429s are almost always a per-minute rate
+                    # limit that clears in seconds, not a hard daily quota.
+                    # Groq tells us exactly how long to wait — respect it
+                    # instead of giving up on the whole run over one hit.
+                    wait = _retry_after(e)
+                    time.sleep(min(wait, 60) if wait else min(pause * 2 ** attempt, 30))
+                else:
+                    # 503 ("model overloaded") and similar are transient
+                    # capacity blips — retry with backoff.
                     time.sleep(min(pause * 2 ** attempt, 30))
             except Exception as e:
                 log.warning("groq batch failed (attempt %d): %s", attempt, e)
                 if attempt < max_attempts:
                     time.sleep(min(pause * 2 ** attempt, 30))
-        if quota_exhausted:
-            log.warning("groq quota/rate limit exhausted — shipping fallback "
-                        "summaries for remaining items")
-            break
+        if batch_ok:
+            consecutive_batch_failures = 0
+        else:
+            consecutive_batch_failures += 1
+            log.warning("batch starting at item %d exhausted retries — "
+                        "keeping fallback summaries for it", start)
+            if consecutive_batch_failures >= 2:
+                log.warning("groq failing consistently — shipping fallback "
+                            "summaries for remaining items")
+                break
         time.sleep(pause)
     return used_api
