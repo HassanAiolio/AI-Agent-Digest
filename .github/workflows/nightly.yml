@@ -30,7 +30,7 @@ jobs:
 
       - name: Run pipeline
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python pipeline/main.py
 
       - name: Commit data (this push triggers the Vercel deploy)
@@ -40,10 +40,23 @@ jobs:
           git add data/
           if git diff --cached --quiet; then
             echo "No changes to commit"
-          else
-            git commit -m "digest: $(date -u +%F)"
-            git push
+            exit 0
           fi
+          git commit -m "digest: $(date -u +%F)"
+          # main can move between checkout and push (a manual push, or another
+          # run). Retry with rebase instead of failing outright; on conflict
+          # in data/ always keep this run's freshly generated output.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "push rejected (attempt $attempt) — rebasing onto latest main"
+            git fetch origin main
+            git rebase -X theirs origin/main
+            sleep $(( (RANDOM % 8) + 3 ))
+          done
+          echo "::error::failed to push digest commit after retries"
+          exit 1
 
       # Optional dead-man's switch: create a free check at healthchecks.io,
       # store its ping URL as the HEALTHCHECK_URL secret, and it will email
