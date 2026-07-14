@@ -5,14 +5,14 @@ One request per batch of items (default 12), so a typical night costs
 malformed response — degrades to truncated abstracts instead of killing
 the run. The digest always ships.
 
-The prompt asks for an *adaptive* structure per item: a always-present
-one-line summary (the safe fallback shape), plus an optional tag
-(what kind of thing this is) and optional key_points — short factual
-bullets (numbers, dates, license, benchmark deltas) pulled out only when
-the source text actually has them. A blog opinion piece gets a plain
-summary and no bullets; a model release gets a tag + 2-3 hard facts.
-That way the reader gets exactly as much structure as the item earns,
-without clicking through.
+The prompt asks for an *adaptive* structure per item, split across what's
+always visible on the card (summary, tag, key_points) and what's behind a
+click (detail). The card must be self-sufficient: summary carries the
+headline fact instead of vague description, and key_points surfaces the
+hard numbers (size, benchmark deltas, license, dates) right there — a
+reader who never clicks still gets the important stuff. "detail" is bonus
+depth for whoever does click (context, comparison, caveats), not a second
+copy of facts that belong on the card.
 """
 from __future__ import annotations
 
@@ -34,28 +34,34 @@ TAGS = ["Release", "Research", "Contest", "Repo", "Analysis", "News"]
 
 PROMPT = """You are writing entries for a nightly technical digest read by a \
 software engineer interested in AI/ML, embedded systems, competitive \
-programming, and CS research. The reader wants to skim your entries and \
-never need to click through to the source.
+programming, and CS research. Most readers only ever look at the card — \
+summary, tag, and key_points — and never click through. That card alone \
+must carry every important fact. "detail" is a bonus for the few who do \
+click for more depth; it must never be the ONLY place a key fact appears.
 
 For each item below, produce:
-- "summary": one or two sentences (max 45 words total), concrete and \
-factual, no hype words, no "this paper presents". Lead with what it is or \
-what changed, then why it matters if that fits.
-- "detail": a longer version for a reader who clicks to expand, 3-5 \
-sentences (max 100 words), concrete and factual. Cover what it is, what's \
-new or different about it, and the concrete implication or use case. Still \
-no hype, no filler, no "this paper presents" — every sentence should carry \
-a fact. This should let the reader skip the source entirely.
-- "tag": the single best fit from {tags}, or "" if none fit well.
+- "summary": 1-2 sentences (max 45 words), concrete and factual, no hype \
+words, no "this paper presents". Lead with what it is or what changed. If \
+there's a headline number, date, or name that matters, put it in this \
+sentence itself — not only in key_points. A reader who reads only this \
+sentence should still walk away with the single most important fact.
 - "key_points": a JSON array of 0-3 short factual strings (max 8 words \
-each) — concrete extractable facts like model size, benchmark numbers, \
-license, dates, version, deadline. ONLY include facts that are explicitly \
-present in the text below. Leave this an empty array for opinion pieces, \
-essays, or anything without hard facts to extract. Do not invent facts.
+each) — the concrete numbers a reader would otherwise have to click \
+through for: model size, benchmark deltas, license, price, dates, \
+version, deadline. These render right on the card next to the summary. \
+ONLY include facts explicitly present in the text below — never invent \
+one. Empty array for opinion pieces or anything with no hard facts.
+- "detail": 3-5 sentences (max 100 words) of material that is NOT already \
+in summary or key_points — added context, how it compares to prior work, \
+a caveat, a secondary use case, or why it matters beyond the headline \
+fact. If you truly have nothing to add, still write 1-2 sentences of real \
+elaboration rather than restating the summary in different words. No \
+hype, no filler.
+- "tag": the single best fit from {tags}, or "" if none fit well.
 
 Respond with ONLY a JSON object, no markdown fences, in this exact shape:
-{{"items": [{{"id": "<id>", "summary": "<text>", "detail": "<text>", \
-"tag": "<tag or empty>", "key_points": ["<fact>", ...]}}, ...]}}
+{{"items": [{{"id": "<id>", "summary": "<text>", "key_points": ["<fact>", ...], \
+"detail": "<text>", "tag": "<tag or empty>"}}]}}
 
 Items:
 {items}"""

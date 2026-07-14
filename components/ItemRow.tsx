@@ -25,7 +25,6 @@ export default function ItemRow({
 }) {
   const [open, setOpen] = useState(false);
   const pct = Math.max(8, Math.round((item.score / maxScore) * 100));
-  const hasDetail = Boolean(item.detail) || item.key_points.length > 0;
 
   return (
     <article className={["item", emphasized && "item-highlight", open && "item-open"].filter(Boolean).join(" ")}>
@@ -72,17 +71,20 @@ export default function ItemRow({
         </span>
       </div>
       {item.summary && <p className="summary">{item.summary}</p>}
+      {item.key_points.length > 0 && (
+        <ul className="key-points">
+          {item.key_points.map((p, i) => (
+            <li key={i}>{p}</li>
+          ))}
+        </ul>
+      )}
       <div className={open ? "detail detail-open" : "detail"}>
         <div className="detail-inner">
-          {item.detail && <p className="detail-text">{item.detail}</p>}
-          {item.key_points.length > 0 && (
-            <ul className="key-points">
-              {item.key_points.map((p, i) => (
-                <li key={i}>{p}</li>
-              ))}
-            </ul>
+          {item.detail ? (
+            <p className="detail-text">{item.detail}</p>
+          ) : (
+            item.summary && <p className="detail-text">{item.summary}</p>
           )}
-          {!hasDetail && item.summary && <p className="detail-text">{item.summary}</p>}
           <a className="read-source" href={item.url} target="_blank" rel="noopener noreferrer">
             Read source ↗
           </a>
