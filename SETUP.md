@@ -14,7 +14,7 @@ each run takes 2-5 minutes).
 
 | Secret | Required | What it is |
 |---|---|---|
-| `GEMINI_API_KEY` | yes | From https://aistudio.google.com/apikey (free tier) |
+| `GROQ_API_KEY` | yes | From https://console.groq.com/keys (free tier) |
 | `HEALTHCHECK_URL` | no | Ping URL from a free https://healthchecks.io check |
 
 That's the full list. No Vercel token is needed: Vercel's Git integration
@@ -41,11 +41,11 @@ pip install -r pipeline/requirements.txt
 # Offline logic test (no network, no key):
 python pipeline/test_pipeline.py
 
-# Real fetch, no Gemini:
+# Real fetch, no Groq:
 python pipeline/main.py --no-summarize
 
-# Real fetch + Gemini:
-GEMINI_API_KEY=... python pipeline/main.py
+# Real fetch + Groq:
+GROQ_API_KEY=... python pipeline/main.py
 ```
 
 Inspect `data/digest.json`, then `npm install && npm run dev` and check
@@ -61,7 +61,11 @@ Everything editorial lives in `pipeline/config.yaml`: sources, section caps,
 keyword weights, the negative-keyword list that filters funding/corporate
 news, thresholds. Getting too much noise from Hacker News → raise
 `route_threshold` or `min_points`. A section always empty → lower
-`include_threshold` or add keywords.
+`include_threshold` or add keywords. `highlights.count` controls how many
+top-scoring items surface in the "top picks" bar at the top of the page
+(set to 0 to disable it). `groq.model` picks which Groq-hosted model
+summarizes — check https://console.groq.com/docs/models for current
+options and swap freely; the pipeline doesn't care which one you use.
 
 ## Failure modes, ranked by likelihood
 
@@ -70,9 +74,9 @@ news, thresholds. Getting too much noise from Hacker News → raise
    zero rows. Effect: no repos section that night. Fix: update `_parse_page()`.
 2. **Anthropic news scraper** (`fetchers/anthropic_news.py`). Same deal,
    no official RSS. Fix: update `_parse()`.
-3. **Gemini free-tier quota changes.** Google has shrunk free quotas before.
+3. **Groq free-tier quota/rate-limit changes.** Free tiers get adjusted.
    The pipeline degrades to truncated abstracts and the site shows
-   "summaries: raw abstracts (Gemini unavailable)" so you notice without
+   "summaries: raw abstracts (Groq unavailable)" so you notice without
    reading logs.
 4. **Feed URL rot.** A lab moves its RSS URL roughly once a year. The source
    fails, gets listed in `failed_sources`, shown on the site, everything else

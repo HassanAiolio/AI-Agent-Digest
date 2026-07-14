@@ -5,12 +5,15 @@ timezone: Europe/Paris
 lookback_hours: 30          # slightly over 24h so a late/failed run doesn't drop items
 seen_retention_days: 90     # prune dedupe DB entries older than this
 
-gemini:
-  model: gemini-flash-latest
+groq:
+  model: llama-3.3-70b-versatile   # swap for whatever Groq model you prefer
   max_items_per_call: 12    # items per batched summarization call
   max_abstract_chars: 900   # truncate abstracts sent to the model
   request_timeout: 60
   sleep_between_calls: 3    # seconds; stay polite with the free tier
+
+highlights:
+  count: 5   # top-scoring items across all sections, surfaced at the top of the page
 
 sections:
   - id: ai-ml

@@ -157,6 +157,39 @@ a:focus-visible, button:focus-visible {
   font-size: 14.5px;
   max-width: 64ch;
 }
+.item .tag {
+  font-size: 10.5px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--trace);
+  border: 1px solid var(--trace-dim);
+  border-radius: 2px;
+  padding: 1px 6px;
+}
+.item .key-points {
+  margin: 8px 0 0;
+  padding-left: 18px;
+  max-width: 64ch;
+  color: var(--ink-2);
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+.item .key-points li { margin: 2px 0; }
+
+/* ---- Highlights (top picks) ---- */
+.section.highlights .item {
+  padding: 22px 20px;
+  margin-bottom: 12px;
+  border: 1px solid var(--hairline);
+  border-bottom: 1px solid var(--hairline);
+  border-radius: 4px;
+  background: var(--panel);
+}
+.section.highlights .item h3 { font-size: 19px; }
+.section.highlights .section-head .count {
+  text-transform: none;
+  font-style: italic;
+}
 
 /* Signature element: the signal bar. Width encodes relevance score
    relative to the strongest item in the section. */

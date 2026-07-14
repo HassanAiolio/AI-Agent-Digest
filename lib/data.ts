@@ -11,6 +11,9 @@ export interface DigestItem {
   score: number;
   id: string;
   summary: string;
+  key_points: string[];
+  tag: string;
+  highlight: boolean;
 }
 
 export interface DigestSection {
@@ -30,6 +33,7 @@ export interface Digest {
     failed_sources?: string[];
     summarizer?: string;
   };
+  highlights: DigestItem[];
   sections: DigestSection[];
 }
 

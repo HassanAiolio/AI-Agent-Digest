@@ -16,10 +16,18 @@ function host(url: string): string {
   }
 }
 
-function ItemRow({ item, maxScore }: { item: DigestItem; maxScore: number }) {
+function ItemRow({
+  item,
+  maxScore,
+  emphasized,
+}: {
+  item: DigestItem;
+  maxScore: number;
+  emphasized?: boolean;
+}) {
   const pct = Math.max(8, Math.round((item.score / maxScore) * 100));
   return (
-    <article className="item">
+    <article className={emphasized ? "item item-highlight" : "item"}>
       <h3>
         <a href={item.url} target="_blank" rel="noopener noreferrer">
           {item.title}
@@ -29,12 +37,20 @@ function ItemRow({ item, maxScore }: { item: DigestItem; maxScore: number }) {
         <span className="signal" title={`relevance ${item.score}`} aria-hidden="true">
           <span style={{ width: `${pct}%` }} />
         </span>
+        {item.tag && <span className="tag">{item.tag}</span>}
         <span>{item.source}</span>
         <span>{host(item.url)}</span>
         {item.points != null && <span>{item.points.toLocaleString()} pts</span>}
         {item.published && <span>{item.published.slice(0, 10)}</span>}
       </div>
       {item.summary && <p className="summary">{item.summary}</p>}
+      {item.key_points?.length > 0 && (
+        <ul className="key-points">
+          {item.key_points.map((p, i) => (
+            <li key={i}>{p}</li>
+          ))}
+        </ul>
+      )}
     </article>
   );
 }
@@ -63,7 +79,7 @@ export default function DigestView({ digest, isArchive }: { digest: Digest; isAr
             {stats.fetched ?? "?"} fetched → {stats.published ?? "?"} published
           </span>
           {stats.summarizer === "fallback" && (
-            <span className="degraded">summaries: raw abstracts (Gemini unavailable)</span>
+            <span className="degraded">summaries: raw abstracts (Groq unavailable)</span>
           )}
           {failed.length > 0 && (
             <span className="degraded">sources down: {failed.join(", ")}</span>
@@ -73,6 +89,24 @@ export default function DigestView({ digest, isArchive }: { digest: Digest; isAr
 
       {digest.sections.length === 0 && (
         <p className="empty">Nothing cleared the relevance bar tonight.</p>
+      )}
+
+      {digest.highlights?.length > 0 && (
+        <section className="section highlights">
+          <div className="section-head">
+            <span className="tier">★</span>
+            <h2>Tonight&rsquo;s top picks</h2>
+            <span className="count">read these, skip the rest</span>
+          </div>
+          {digest.highlights.map((item) => (
+            <ItemRow
+              key={item.id}
+              item={item}
+              maxScore={Math.max(...digest.highlights.map((i) => i.score), 1)}
+              emphasized
+            />
+          ))}
+        </section>
       )}
 
       {digest.sections.map((section) => {

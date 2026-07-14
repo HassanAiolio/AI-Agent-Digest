@@ -1,9 +1,18 @@
-"""Summarization via the Gemini API free tier, batched to stay far under quota.
+"""Summarization via the Groq API free tier, batched to stay far under quota.
 
 One request per batch of items (default 12), so a typical night costs
 ~4-8 requests total. Any failure — missing key, quota change, network,
 malformed response — degrades to truncated abstracts instead of killing
 the run. The digest always ships.
+
+The prompt asks for an *adaptive* structure per item: a always-present
+one-line summary (the safe fallback shape), plus an optional tag
+(what kind of thing this is) and optional key_points — short factual
+bullets (numbers, dates, license, benchmark deltas) pulled out only when
+the source text actually has them. A blog opinion piece gets a plain
+summary and no bullets; a model release gets a tag + 2-3 hard facts.
+That way the reader gets exactly as much structure as the item earns,
+without clicking through.
 """
 from __future__ import annotations
 
@@ -19,20 +28,29 @@ from models import Item
 
 log = logging.getLogger("summarize")
 
-ENDPOINT = ("https://generativelanguage.googleapis.com/v1beta/models/"
-            "{model}:generateContent")
+ENDPOINT = "https://api.groq.com/openai/v1/chat/completions"
 
-PROMPT = """You are writing one-line entries for a nightly technical digest \
-read by a software engineer interested in AI/ML, embedded systems, \
-competitive programming, and CS research.
+TAGS = ["Release", "Research", "Contest", "Repo", "Analysis", "News"]
 
-For each item below, write a single summary of at most 35 words: concrete, \
+PROMPT = """You are writing entries for a nightly technical digest read by a \
+software engineer interested in AI/ML, embedded systems, competitive \
+programming, and CS research. The reader wants to skim your entries and \
+never need to click through to the source.
+
+For each item below, produce:
+- "summary": one or two sentences (max 45 words total), concrete and \
 factual, no hype words, no "this paper presents". Lead with what it is or \
-what changed. If the item is a contest or a model release, state the key \
-facts (date, size, license) when present.
+what changed, then why it matters if that fits.
+- "tag": the single best fit from {tags}, or "" if none fit well.
+- "key_points": a JSON array of 0-3 short factual strings (max 8 words \
+each) — concrete extractable facts like model size, benchmark numbers, \
+license, dates, version, deadline. ONLY include facts that are explicitly \
+present in the text below. Leave this an empty array for opinion pieces, \
+essays, or anything without hard facts to extract. Do not invent facts.
 
-Respond with ONLY a JSON array, no markdown fences, in this exact shape:
-[{{"id": "<id>", "summary": "<text>"}}, ...]
+Respond with ONLY a JSON object, no markdown fences, in this exact shape:
+{{"items": [{{"id": "<id>", "summary": "<text>", "tag": "<tag or empty>", \
+"key_points": ["<fact>", ...]}}, ...]}}
 
 Items:
 {items}"""
@@ -43,46 +61,57 @@ def _fallback(it: Item) -> str:
     return (text[:220] + "…") if len(text) > 220 else text
 
 
-def _call_gemini(model: str, prompt: str, timeout: int) -> str:
-    key = os.environ["GEMINI_API_KEY"]
+def _call_groq(model: str, prompt: str, timeout: int) -> str:
+    key = os.environ["GROQ_API_KEY"]
     resp = requests.post(
-        ENDPOINT.format(model=model),
-        headers={"x-goog-api-key": key},
+        ENDPOINT,
+        headers={
+            "Authorization": f"Bearer {key}",
+            "Content-Type": "application/json",
+        },
         json={
-            "contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {
-                "temperature": 0.2,
-                "maxOutputTokens": 8192,
-                # 2.5+ Flash models think by default and thinking tokens count
-                # against maxOutputTokens, truncating the JSON output. This
-                # task needs no reasoning, so turn thinking off entirely.
-                "thinkingConfig": {"thinkingBudget": 0},
-            },
+            "model": model,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0.2,
+            "max_tokens": 4096,
+            "response_format": {"type": "json_object"},
         },
         timeout=timeout,
     )
     resp.raise_for_status()
-    return resp.json()["candidates"][0]["content"]["parts"][0]["text"]
+    return resp.json()["choices"][0]["message"]["content"]
 
 
-def _parse(text: str) -> dict[str, str]:
+def _parse(text: str) -> dict[str, dict]:
     text = re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.M).strip()
     data = json.loads(text)
-    return {d["id"]: d["summary"].strip() for d in data
-            if isinstance(d, dict) and d.get("id") and d.get("summary")}
+    items = data["items"] if isinstance(data, dict) else data
+    out = {}
+    for d in items:
+        if not (isinstance(d, dict) and d.get("id") and d.get("summary")):
+            continue
+        tag = d.get("tag") or ""
+        points = d.get("key_points") or []
+        out[d["id"]] = {
+            "summary": d["summary"].strip(),
+            "tag": tag if tag in TAGS else "",
+            "key_points": [p.strip() for p in points if isinstance(p, str) and p.strip()][:3],
+        }
+    return out
 
 
 def summarize_all(buckets: dict[str, list[Item]], gcfg: dict) -> bool:
-    """Fill item.summary in place. Returns True if Gemini was used."""
+    """Fill item.summary (and tag/key_points where warranted) in place.
+    Returns True if Groq was used."""
     items = [it for bucket in buckets.values() for it in bucket]
     for it in items:
         it.summary = _fallback(it)  # safe default before any API call
 
-    if not os.environ.get("GEMINI_API_KEY"):
-        log.warning("GEMINI_API_KEY not set — shipping fallback summaries")
+    if not os.environ.get("GROQ_API_KEY"):
+        log.warning("GROQ_API_KEY not set — shipping fallback summaries")
         return False
 
-    model = gcfg.get("model", "gemini-flash-latest")
+    model = gcfg.get("model", "llama-3.3-70b-versatile")
     batch_size = int(gcfg.get("max_items_per_call", 12))
     max_chars = int(gcfg.get("max_abstract_chars", 900))
     timeout = int(gcfg.get("request_timeout", 60))
@@ -96,33 +125,36 @@ def summarize_all(buckets: dict[str, list[Item]], gcfg: dict) -> bool:
             f"text: {it.abstract[:max_chars]}"
             for it in batch
         )
+        prompt = PROMPT.format(tags=", ".join(TAGS), items=lines)
         quota_exhausted = False
         max_attempts = 4
         for attempt in range(1, max_attempts + 1):
             try:
-                raw = _call_gemini(model, PROMPT.format(items=lines), timeout)
-                summaries = _parse(raw)
+                raw = _call_groq(model, prompt, timeout)
+                results = _parse(raw)
                 for it in batch:
-                    if it.id in summaries:
-                        it.summary = summaries[it.id]
+                    r = results.get(it.id)
+                    if r:
+                        it.summary = r["summary"]
+                        it.tag = r["tag"]
+                        it.key_points = r["key_points"]
                 used_api = True
                 break
             except requests.exceptions.HTTPError as e:
-                log.warning("gemini batch failed (attempt %d): %s", attempt, e)
+                log.warning("groq batch failed (attempt %d): %s", attempt, e)
                 if e.response is not None and e.response.status_code == 429:
                     quota_exhausted = True
                     break
                 # 503 ("model overloaded") and similar are transient capacity
-                # blips per Google's own guidance — retry with backoff instead
-                # of giving up after one retry.
+                # blips — retry with backoff instead of giving up after one try.
                 if attempt < max_attempts:
                     time.sleep(min(pause * 2 ** attempt, 30))
             except Exception as e:
-                log.warning("gemini batch failed (attempt %d): %s", attempt, e)
+                log.warning("groq batch failed (attempt %d): %s", attempt, e)
                 if attempt < max_attempts:
                     time.sleep(min(pause * 2 ** attempt, 30))
         if quota_exhausted:
-            log.warning("gemini quota/billing exhausted — shipping fallback "
+            log.warning("groq quota/rate limit exhausted — shipping fallback "
                         "summaries for remaining items")
             break
         time.sleep(pause)

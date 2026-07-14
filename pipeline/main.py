@@ -33,7 +33,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", default=str(Path(__file__).parent / "config.yaml"))
     parser.add_argument("--no-summarize", action="store_true",
-                        help="skip Gemini, use fallback summaries")
+                        help="skip Groq, use fallback summaries")
     args = parser.parse_args()
 
     cfg = yaml.safe_load(Path(args.config).read_text(encoding="utf-8"))
@@ -56,9 +56,9 @@ def main() -> int:
         for bucket in buckets.values():
             for it in bucket:
                 it.summary = _fallback(it)
-        used_gemini = False
+        used_groq = False
     else:
-        used_gemini = summarize_all(buckets, cfg["gemini"])
+        used_groq = summarize_all(buckets, cfg["groq"])
 
     kept = [it for b in buckets.values() for it in b]
     stats = {
@@ -66,7 +66,7 @@ def main() -> int:
         "new_after_dedupe": len(fresh),
         "published": len(kept),
         "failed_sources": failed_sources,
-        "summarizer": "gemini" if used_gemini else "fallback",
+        "summarizer": "groq" if used_groq else "fallback",
     }
     output.write(buckets, cfg, digest_date, stats, DATA)
     db.mark(kept, digest_date)

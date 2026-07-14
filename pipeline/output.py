@@ -10,6 +10,12 @@ from models import Item
 
 def write(buckets: dict[str, list[Item]], cfg: dict, digest_date: str,
           stats: dict, data_dir: Path) -> dict:
+    count = int(cfg.get("highlights", {}).get("count", 0))
+    all_items = [it for b in buckets.values() for it in b]
+    top = sorted(all_items, key=lambda i: (-i.score, i.title))[:count]
+    for it in top:
+        it.highlight = True
+
     sections = []
     for s in cfg["sections"]:
         items = buckets.get(s["id"], [])
@@ -26,6 +32,7 @@ def write(buckets: dict[str, list[Item]], cfg: dict, digest_date: str,
         "date": digest_date,
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "stats": stats,
+        "highlights": [it.public_dict() for it in top],
         "sections": sections,
     }
 

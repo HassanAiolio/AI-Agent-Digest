@@ -82,6 +82,8 @@ def run():
     loaded = json.loads((tmp / "data" / "digest.json").read_text())
     assert loaded["date"] == date1 and loaded["sections"]
     assert (tmp / "data" / "archive" / f"{date1}.json").exists()
+    hi_count = int(CFG.get("highlights", {}).get("count", 0))
+    assert len(loaded["highlights"]) == min(hi_count, len(kept))
 
     db.mark(kept, date1)
 
