@@ -2,7 +2,10 @@
 
 One repo does everything. GitHub Actions runs the Python pipeline nightly,
 commits the results to `data/`, and that push triggers Vercel to rebuild the
-static Next.js site from the committed JSON. There is no server anywhere.
+Next.js site from the committed JSON. Almost everything is static; the one
+exception is `/api/feedback`, a small Vercel serverless function that lets
+the site commit your like/dislike votes back to the repo so the next
+pipeline run can learn from them (see "Preference learning" below).
 
 ## 1. Repo
 
@@ -17,11 +20,8 @@ each run takes 2-5 minutes).
 | `GROQ_API_KEY` | yes | From https://console.groq.com/keys (free tier) |
 | `HEALTHCHECK_URL` | no | Ping URL from a free https://healthchecks.io check |
 
-That's the full list. No Vercel token is needed: Vercel's Git integration
-deploys on every push to `main`, including the bot's nightly data commit.
-
-Nothing goes in Vercel's env vars. The site reads committed JSON at build
-time; it makes zero API calls.
+No Vercel token is needed for deploys: Vercel's Git integration deploys on
+every push to `main`, including the bot's nightly data commit.
 
 ## 3. Vercel
 
@@ -30,6 +30,15 @@ time; it makes zero API calls.
    No build settings to change.
 3. Deploy. The seed data in `data/digest.json` renders immediately, so you
    can verify the site before the pipeline ever runs.
+4. **Env vars** (Vercel → Project → Settings → Environment Variables) — only
+   needed for like/dislike sync; the site works without them, votes just
+   stay local to your browser:
+
+   | Variable | Required | What it is |
+   |---|---|---|
+   | `GITHUB_TOKEN` | for preference sync | A GitHub personal access token (fine-grained, scoped to just this repo, "Contents: Read and write" permission) |
+   | `GITHUB_REPO` | for preference sync | `"owner/repo"`, e.g. `HassanAiolio/AI-Agent-Digest` |
+   | `GITHUB_BRANCH` | no | Defaults to `main` |
 
 ## 4. Test one full run before trusting the cron
 
@@ -67,6 +76,29 @@ top-scoring items surface in the "top picks" bar at the top of the page
 summarizes — check https://console.groq.com/docs/models for current
 options and swap freely; the pipeline doesn't care which one you use.
 
+## Preference learning (like/dislike)
+
+Every item has ▲/▼ buttons. Clicking one:
+
+1. Saves instantly to `localStorage` and re-sorts/re-ranks what you see
+   right away, purely in the browser — works even if the sync below is
+   never configured.
+2. Fires a best-effort `POST /api/feedback`, which commits the vote into
+   `data/feedback.json` in the repo (same "commit generated data" pattern
+   as the nightly bot). If `GITHUB_TOKEN`/`GITHUB_REPO` aren't set, or the
+   request fails, this step silently no-ops — your local vote still stands.
+
+At the next pipeline run, `pipeline/preferences.py` reads `feedback.json`,
+aggregates your votes into a small per-tag and per-source affinity score
+(clamped so one voting streak can't dominate), and folds it into each
+item's score *after* scoring/routing and summarization — so it only
+reorders what already cleared the relevance bar and got a tag from Groq.
+A disliked source/tag sinks in its section and is less likely to be
+picked as a highlight; it's never silently excluded from the digest
+entirely. Tune the weights in `pipeline/preferences.py` (`TAG_WEIGHT`,
+`SOURCE_WEIGHT`, `CLAMP`) if you want the learning to be more or less
+aggressive.
+
 ## Failure modes, ranked by likelihood
 
 1. **GitHub trending scraper** (`pipeline/fetchers/github_trending.py`).
@@ -81,6 +113,11 @@ options and swap freely; the pipeline doesn't care which one you use.
 4. **Feed URL rot.** A lab moves its RSS URL roughly once a year. The source
    fails, gets listed in `failed_sources`, shown on the site, everything else
    continues.
+5. **Feedback sync failing** (missing/expired `GITHUB_TOKEN`, wrong
+   `GITHUB_REPO`, or a race with the nightly bot's own commit). `/api/feedback`
+   retries a few times internally and fails soft either way — like/dislike
+   still works locally in the browser, it just won't shape future nights
+   until sync is fixed.
 
 ## How you'll know a night silently failed
 

@@ -17,6 +17,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 import yaml
 
 import output
+import preferences
 from dedupe import SeenDB, dedupe
 from fetchers import fetch_all
 from scoring import Scorer
@@ -52,13 +53,21 @@ def main() -> int:
     buckets = Scorer(cfg).route_and_filter(fresh)
 
     if args.no_summarize:
-        from summarize import _fallback
+        from summarize import _fallback, _fallback_detail
         for bucket in buckets.values():
             for it in bucket:
                 it.summary = _fallback(it)
+                it.detail = _fallback_detail(it)
         used_groq = False
     else:
         used_groq = summarize_all(buckets, cfg["groq"])
+
+    # Learned like/dislike affinity, synced from the site via /api/feedback.
+    # Applied after summarize (tag needs the LLM) and after scoring already
+    # decided inclusion — this only reorders what's already in, so a learned
+    # dislike sinks an item instead of silently hiding it.
+    affinity = preferences.load_affinity(DATA / "feedback.json")
+    preferences.apply(buckets, affinity)
 
     kept = [it for b in buckets.values() for it in b]
     stats = {

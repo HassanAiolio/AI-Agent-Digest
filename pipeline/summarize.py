@@ -41,6 +41,11 @@ For each item below, produce:
 - "summary": one or two sentences (max 45 words total), concrete and \
 factual, no hype words, no "this paper presents". Lead with what it is or \
 what changed, then why it matters if that fits.
+- "detail": a longer version for a reader who clicks to expand, 3-5 \
+sentences (max 100 words), concrete and factual. Cover what it is, what's \
+new or different about it, and the concrete implication or use case. Still \
+no hype, no filler, no "this paper presents" — every sentence should carry \
+a fact. This should let the reader skip the source entirely.
 - "tag": the single best fit from {tags}, or "" if none fit well.
 - "key_points": a JSON array of 0-3 short factual strings (max 8 words \
 each) — concrete extractable facts like model size, benchmark numbers, \
@@ -49,16 +54,24 @@ present in the text below. Leave this an empty array for opinion pieces, \
 essays, or anything without hard facts to extract. Do not invent facts.
 
 Respond with ONLY a JSON object, no markdown fences, in this exact shape:
-{{"items": [{{"id": "<id>", "summary": "<text>", "tag": "<tag or empty>", \
-"key_points": ["<fact>", ...]}}, ...]}}
+{{"items": [{{"id": "<id>", "summary": "<text>", "detail": "<text>", \
+"tag": "<tag or empty>", "key_points": ["<fact>", ...]}}, ...]}}
 
 Items:
 {items}"""
 
 
+def _truncate(text: str, chars: int) -> str:
+    text = " ".join(text.split())
+    return (text[:chars] + "…") if len(text) > chars else text
+
+
 def _fallback(it: Item) -> str:
-    text = " ".join(it.abstract.split())
-    return (text[:220] + "…") if len(text) > 220 else text
+    return _truncate(it.abstract, 220)
+
+
+def _fallback_detail(it: Item) -> str:
+    return _truncate(it.abstract, 600)
 
 
 def _call_groq(model: str, prompt: str, timeout: int) -> str:
@@ -73,7 +86,7 @@ def _call_groq(model: str, prompt: str, timeout: int) -> str:
             "model": model,
             "messages": [{"role": "user", "content": prompt}],
             "temperature": 0.2,
-            "max_tokens": 4096,
+            "max_tokens": 6144,  # detail field adds ~100 words/item over the old summary-only shape
             "response_format": {"type": "json_object"},
         },
         timeout=timeout,
@@ -111,6 +124,7 @@ def _parse(text: str) -> dict[str, dict]:
         points = d.get("key_points") or []
         out[d["id"]] = {
             "summary": d["summary"].strip(),
+            "detail": (d.get("detail") or "").strip(),
             "tag": tag if tag in TAGS else "",
             "key_points": [p.strip() for p in points if isinstance(p, str) and p.strip()][:3],
         }
@@ -123,6 +137,7 @@ def summarize_all(buckets: dict[str, list[Item]], gcfg: dict) -> bool:
     items = [it for bucket in buckets.values() for it in bucket]
     for it in items:
         it.summary = _fallback(it)  # safe default before any API call
+        it.detail = _fallback_detail(it)
 
     if not os.environ.get("GROQ_API_KEY"):
         log.warning("GROQ_API_KEY not set — shipping fallback summaries")
@@ -154,6 +169,7 @@ def summarize_all(buckets: dict[str, list[Item]], gcfg: dict) -> bool:
                     r = results.get(it.id)
                     if r:
                         it.summary = r["summary"]
+                        it.detail = r["detail"] or it.detail
                         it.tag = r["tag"]
                         it.key_points = r["key_points"]
                 used_api = True

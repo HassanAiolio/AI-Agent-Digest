@@ -11,6 +11,7 @@ export interface DigestItem {
   score: number;
   id: string;
   summary: string;
+  detail: string;
   key_points: string[];
   tag: string;
   highlight: boolean;

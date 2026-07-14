@@ -1,5 +1,9 @@
+"use client";
+import { useMemo } from "react";
 import type { Digest, DigestItem } from "@/lib/data";
+import { useFeedback } from "@/lib/feedback";
 import Freshness from "./Freshness";
+import ItemRow from "./ItemRow";
 
 function displayDate(iso: string): string {
   const d = new Date(iso + "T12:00:00Z");
@@ -8,56 +12,26 @@ function displayDate(iso: string): string {
     .toUpperCase();
 }
 
-function host(url: string): string {
-  try {
-    return new URL(url).hostname.replace(/^www\./, "");
-  } catch {
-    return "";
-  }
-}
-
-function ItemRow({
-  item,
-  maxScore,
-  emphasized,
-}: {
-  item: DigestItem;
-  maxScore: number;
-  emphasized?: boolean;
-}) {
-  const pct = Math.max(8, Math.round((item.score / maxScore) * 100));
-  return (
-    <article className={emphasized ? "item item-highlight" : "item"}>
-      <h3>
-        <a href={item.url} target="_blank" rel="noopener noreferrer">
-          {item.title}
-        </a>
-      </h3>
-      <div className="meta">
-        <span className="signal" title={`relevance ${item.score}`} aria-hidden="true">
-          <span style={{ width: `${pct}%` }} />
-        </span>
-        {item.tag && <span className="tag">{item.tag}</span>}
-        <span>{item.source}</span>
-        <span>{host(item.url)}</span>
-        {item.points != null && <span>{item.points.toLocaleString()} pts</span>}
-        {item.published && <span>{item.published.slice(0, 10)}</span>}
-      </div>
-      {item.summary && <p className="summary">{item.summary}</p>}
-      {item.key_points?.length > 0 && (
-        <ul className="key-points">
-          {item.key_points.map((p, i) => (
-            <li key={i}>{p}</li>
-          ))}
-        </ul>
-      )}
-    </article>
+function personalize(items: DigestItem[], boost: (tag: string, source: string) => number): DigestItem[] {
+  return [...items].sort(
+    (a, b) => b.score + boost(b.tag, b.source) - (a.score + boost(a.tag, a.source)),
   );
 }
 
 export default function DigestView({ digest, isArchive }: { digest: Digest; isArchive?: boolean }) {
   const { stats } = digest;
   const failed = stats.failed_sources ?? [];
+  const { castVote, getVote, boost } = useFeedback();
+
+  const highlights = useMemo(
+    () => personalize(digest.highlights ?? [], boost),
+    [digest.highlights, boost],
+  );
+  const sections = useMemo(
+    () => digest.sections.map((s) => ({ ...s, items: personalize(s.items, boost) })),
+    [digest.sections, boost],
+  );
+
   return (
     <main>
       <header className="masthead">
@@ -91,25 +65,28 @@ export default function DigestView({ digest, isArchive }: { digest: Digest; isAr
         <p className="empty">Nothing cleared the relevance bar tonight.</p>
       )}
 
-      {digest.highlights?.length > 0 && (
+      {highlights.length > 0 && (
         <section className="section highlights">
           <div className="section-head">
             <span className="tier">★</span>
             <h2>Tonight&rsquo;s top picks</h2>
             <span className="count">read these, skip the rest</span>
           </div>
-          {digest.highlights.map((item) => (
-            <ItemRow
-              key={item.id}
-              item={item}
-              maxScore={Math.max(...digest.highlights.map((i) => i.score), 1)}
-              emphasized
-            />
+          {highlights.map((item, i) => (
+            <div key={item.id} className="item-enter" style={{ animationDelay: `${Math.min(i, 8) * 35}ms` }}>
+              <ItemRow
+                item={item}
+                maxScore={Math.max(...highlights.map((it) => it.score), 1)}
+                emphasized
+                vote={getVote(item.id)}
+                onVote={(v) => castVote(item.id, item.tag, item.source, v)}
+              />
+            </div>
           ))}
         </section>
       )}
 
-      {digest.sections.map((section) => {
+      {sections.map((section) => {
         const maxScore = Math.max(...section.items.map((i) => i.score), 1);
         return (
           <section key={section.id} className="section">
@@ -118,8 +95,15 @@ export default function DigestView({ digest, isArchive }: { digest: Digest; isAr
               <h2>{section.title}</h2>
               <span className="count">{section.items.length} items</span>
             </div>
-            {section.items.map((item) => (
-              <ItemRow key={item.id} item={item} maxScore={maxScore} />
+            {section.items.map((item, i) => (
+              <div key={item.id} className="item-enter" style={{ animationDelay: `${Math.min(i, 8) * 35}ms` }}>
+                <ItemRow
+                  item={item}
+                  maxScore={maxScore}
+                  vote={getVote(item.id)}
+                  onVote={(v) => castVote(item.id, item.tag, item.source, v)}
+                />
+              </div>
             ))}
           </section>
         );

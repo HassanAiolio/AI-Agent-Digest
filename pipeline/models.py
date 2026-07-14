@@ -18,6 +18,7 @@ class Item:
     score: float = 0.0
     id: str = ""                     # sha1 of canonical URL, set by dedupe stage
     summary: str = ""                # filled by summarizer (or fallback)
+    detail: str = ""                 # longer summary, shown on click-to-expand
     key_points: list[str] = field(default_factory=list)  # optional extracted facts
     tag: str = ""                    # optional content-type label, e.g. "Release"
     highlight: bool = False          # true for the night's top cross-section picks

@@ -12,10 +12,11 @@ sys.path.insert(0, str(Path(__file__).parent))
 import yaml
 
 import output
+import preferences
 from dedupe import SeenDB, canonical_url, dedupe
 from models import Item
 from scoring import Scorer
-from summarize import _fallback
+from summarize import _fallback, _fallback_detail
 
 CFG = yaml.safe_load((Path(__file__).parent / "config.yaml").read_text())
 
@@ -78,6 +79,17 @@ def run():
     kept = [i for b in buckets.values() for i in b]
     for it in kept:
         it.summary = _fallback(it)
+        it.detail = _fallback_detail(it)
+
+    # preferences: a learned tag affinity should reorder a bucket without
+    # adding/removing anything (inclusion was already decided by scoring).
+    a = Item(title="A", url="https://a", source="src-a", section="x", tag="Research", score=5.0)
+    b = Item(title="B", url="https://b", source="src-b", section="x", tag="Release", score=4.0)
+    pref_buckets = {"x": [a, b]}
+    preferences.apply(pref_buckets, {"tags": {"Release": 3.0}, "sources": {}})
+    assert pref_buckets["x"][0].title == "B", "positive tag affinity should outrank a higher raw score"
+    assert a.score == 5.0, "unaffected item's score must not change"
+
     doc = output.write(buckets, CFG, date1, {"fetched": 6}, tmp / "data")
     loaded = json.loads((tmp / "data" / "digest.json").read_text())
     assert loaded["date"] == date1 and loaded["sections"]
@@ -95,6 +107,17 @@ def run():
     # Next night: everything already published is gone.
     fresh3 = dedupe(fake_items(), db, "2026-07-15")
     assert not any(i.id in {k.id for k in kept} for i in fresh3), "seen-DB leak"
+
+    # feedback.json round-trip: dict-keyed-by-id, as /api/feedback writes it
+    feedback_path = tmp / "feedback.json"
+    feedback_path.write_text(json.dumps({
+        "id1": {"vote": 1, "tag": "Release", "source": "openai blog"},
+        "id2": {"vote": -1, "tag": "Release", "source": "openai blog"},
+        "id3": {"vote": 1, "tag": "Release", "source": "openai blog"},
+    }), encoding="utf-8")
+    affinity = preferences.load_affinity(feedback_path)
+    assert affinity["tags"]["Release"] == 1.0, "net of +1-1+1 votes should be +1"
+    assert preferences.load_affinity(tmp / "missing.json") == {"tags": {}, "sources": {}}
 
     print("ALL PIPELINE TESTS PASSED")
     print(json.dumps(doc, indent=2)[:600])

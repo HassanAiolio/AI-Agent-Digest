@@ -50,6 +50,10 @@ a:focus-visible, button:focus-visible {
   outline: 2px solid var(--trace);
   outline-offset: 2px;
 }
+a, button {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation; /* removes the ~300ms tap delay on mobile browsers */
+}
 
 .wrap {
   max-width: 780px;
@@ -133,15 +137,33 @@ a:focus-visible, button:focus-visible {
 .item {
   padding: 18px 0 16px;
   border-bottom: 1px solid var(--hairline);
+  transition: background-color 160ms ease;
 }
-.item h3 {
-  margin: 0 0 4px;
+.item-open .item-title .chevron { transform: rotate(90deg); }
+.item h3 { margin: 0 0 4px; line-height: 1.35; }
+.item-title button {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+  width: 100%;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
   font-size: 17.5px;
   font-weight: 600;
-  line-height: 1.35;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
 }
-.item h3 a { text-decoration: none; }
-.item h3 a:hover { color: var(--trace); text-decoration: underline; }
+.item-title button:hover { color: var(--trace); }
+.item-title .chevron {
+  flex: none;
+  color: var(--trace);
+  font-size: 12px;
+  transition: transform 160ms ease;
+}
 .item .meta {
   font-family: var(--mono);
   font-size: 12px;
@@ -166,8 +188,44 @@ a:focus-visible, button:focus-visible {
   border-radius: 2px;
   padding: 1px 6px;
 }
+
+/* ---- Vote buttons ---- */
+.votes { display: inline-flex; gap: 2px; margin-left: auto; }
+.vote-btn {
+  border: 1px solid var(--hairline);
+  background: none;
+  color: var(--ink-3);
+  border-radius: 3px;
+  width: 20px;
+  height: 18px;
+  line-height: 1;
+  font-size: 10px;
+  cursor: pointer;
+  transition: transform 120ms ease, color 120ms ease, border-color 120ms ease, background-color 120ms ease;
+}
+.vote-btn:hover { border-color: var(--trace); color: var(--trace); }
+.vote-btn:active { transform: scale(0.85); }
+.vote-up[aria-pressed="true"] { background: var(--trace); border-color: var(--trace); color: var(--panel); }
+.vote-down[aria-pressed="true"] { background: var(--warn); border-color: var(--warn); color: var(--panel); }
+
+/* ---- Expand-to-detail panel ---- */
+.detail {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 220ms ease;
+}
+.detail.detail-open { grid-template-rows: 1fr; }
+.detail-inner { overflow: hidden; min-height: 0; }
+.detail.detail-open .detail-inner { padding-top: 10px; }
+.detail-text {
+  margin: 0 0 8px;
+  color: var(--ink-2);
+  font-size: 14px;
+  line-height: 1.55;
+  max-width: 64ch;
+}
 .item .key-points {
-  margin: 8px 0 0;
+  margin: 0 0 10px;
   padding-left: 18px;
   max-width: 64ch;
   color: var(--ink-2);
@@ -175,6 +233,23 @@ a:focus-visible, button:focus-visible {
   line-height: 1.5;
 }
 .item .key-points li { margin: 2px 0; }
+.read-source {
+  display: inline-block;
+  padding: 4px 0; /* extra tap-target height without changing the visual line */
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--trace);
+  text-decoration: none;
+  border-bottom: 1px solid var(--trace-dim);
+}
+.read-source:hover { border-color: var(--trace); }
+
+/* ---- Entrance animation ---- */
+@keyframes item-enter {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.item-enter { animation: item-enter 320ms ease both; }
 
 /* ---- Highlights (top picks) ---- */
 .section.highlights .item {
@@ -184,8 +259,10 @@ a:focus-visible, button:focus-visible {
   border-bottom: 1px solid var(--hairline);
   border-radius: 4px;
   background: var(--panel);
+  transition: transform 160ms ease, border-color 160ms ease;
 }
-.section.highlights .item h3 { font-size: 19px; }
+.section.highlights .item:hover { transform: translateY(-2px); border-color: var(--trace-dim); }
+.section.highlights .item-title button { font-size: 19px; }
 .section.highlights .section-head .count {
   text-transform: none;
   font-style: italic;
@@ -238,4 +315,26 @@ footer.colophon {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 8px;
+}
+
+/* ---- Mobile ---- */
+@media (max-width: 640px) {
+  .wrap { padding: 0 16px 72px; }
+  .eyebrow { flex-wrap: wrap; gap: 8px 16px; }
+  .section-head { flex-wrap: wrap; row-gap: 4px; }
+  .section-head .count { margin-left: 0; }
+
+  /* The relevance bar is the least essential meta item on a narrow screen —
+     shrink it so tag/source/date don't get squeezed into constant wrapping. */
+  .signal { width: 46px; }
+
+  /* Vote buttons are the only real tap targets on the row; below the ~44px
+     comfortable-touch guideline on desktop is fine with a mouse, but two
+     20x18px buttons 2px apart is a mis-tap trap with a thumb. */
+  .votes { gap: 10px; }
+  .vote-btn { width: 34px; height: 30px; font-size: 12px; }
+
+  .section.highlights .item { padding: 16px; }
+  .item-title button { font-size: 16.5px; }
+  .section.highlights .item-title button { font-size: 17.5px; }
 }
