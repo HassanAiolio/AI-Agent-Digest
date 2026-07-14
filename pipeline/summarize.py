@@ -47,10 +47,17 @@ def _call_gemini(model: str, prompt: str, timeout: int) -> str:
     key = os.environ["GEMINI_API_KEY"]
     resp = requests.post(
         ENDPOINT.format(model=model),
-        params={"key": key},
+        headers={"x-goog-api-key": key},
         json={
             "contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {"temperature": 0.2, "maxOutputTokens": 2048},
+            "generationConfig": {
+                "temperature": 0.2,
+                "maxOutputTokens": 8192,
+                # 2.5+ Flash models think by default and thinking tokens count
+                # against maxOutputTokens, truncating the JSON output. This
+                # task needs no reasoning, so turn thinking off entirely.
+                "thinkingConfig": {"thinkingBudget": 0},
+            },
         },
         timeout=timeout,
     )
@@ -75,7 +82,7 @@ def summarize_all(buckets: dict[str, list[Item]], gcfg: dict) -> bool:
         log.warning("GEMINI_API_KEY not set — shipping fallback summaries")
         return False
 
-    model = gcfg.get("model", "gemini-2.5-flash")
+    model = gcfg.get("model", "gemini-flash-latest")
     batch_size = int(gcfg.get("max_items_per_call", 12))
     max_chars = int(gcfg.get("max_abstract_chars", 900))
     timeout = int(gcfg.get("request_timeout", 60))
@@ -89,7 +96,9 @@ def summarize_all(buckets: dict[str, list[Item]], gcfg: dict) -> bool:
             f"text: {it.abstract[:max_chars]}"
             for it in batch
         )
-        for attempt in (1, 2):
+        quota_exhausted = False
+        max_attempts = 4
+        for attempt in range(1, max_attempts + 1):
             try:
                 raw = _call_gemini(model, PROMPT.format(items=lines), timeout)
                 summaries = _parse(raw)
@@ -98,8 +107,23 @@ def summarize_all(buckets: dict[str, list[Item]], gcfg: dict) -> bool:
                         it.summary = summaries[it.id]
                 used_api = True
                 break
+            except requests.exceptions.HTTPError as e:
+                log.warning("gemini batch failed (attempt %d): %s", attempt, e)
+                if e.response is not None and e.response.status_code == 429:
+                    quota_exhausted = True
+                    break
+                # 503 ("model overloaded") and similar are transient capacity
+                # blips per Google's own guidance — retry with backoff instead
+                # of giving up after one retry.
+                if attempt < max_attempts:
+                    time.sleep(min(pause * 2 ** attempt, 30))
             except Exception as e:
                 log.warning("gemini batch failed (attempt %d): %s", attempt, e)
-                time.sleep(pause * 2)
+                if attempt < max_attempts:
+                    time.sleep(min(pause * 2 ** attempt, 30))
+        if quota_exhausted:
+            log.warning("gemini quota/billing exhausted — shipping fallback "
+                        "summaries for remaining items")
+            break
         time.sleep(pause)
     return used_api

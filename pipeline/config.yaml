@@ -6,7 +6,7 @@ lookback_hours: 30          # slightly over 24h so a late/failed run doesn't dro
 seen_retention_days: 90     # prune dedupe DB entries older than this
 
 gemini:
-  model: gemini-2.5-flash
+  model: gemini-flash-latest
   max_items_per_call: 12    # items per batched summarization call
   max_abstract_chars: 900   # truncate abstracts sent to the model
   request_timeout: 60
@@ -173,7 +173,9 @@ sources:
     kind: rss
     section: ai-ml
     weight: 3
-    url: https://ai.meta.com/blog/rss/
+    # ai.meta.com/blog/rss/ 404s (no official feed, page is JS-rendered).
+    # Meta Engineering's feed covers AI/infra content; keyword scoring filters the rest.
+    url: https://engineering.fb.com/feed/
   - name: huggingface-blog
     kind: rss
     section: ai-ml

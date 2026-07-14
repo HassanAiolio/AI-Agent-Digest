@@ -1,10 +1,10 @@
 {
   "date": "2026-07-14",
-  "generated_at": "2026-07-14T02:45:00+00:00",
+  "generated_at": "2026-07-14T13:14:12+00:00",
   "stats": {
-    "fetched": 187,
-    "new_after_dedupe": 64,
-    "published": 6,
+    "fetched": 234,
+    "new_after_dedupe": 231,
+    "published": 29,
     "failed_sources": [],
     "summarizer": "gemini"
   },
@@ -15,26 +15,114 @@
       "tier": 1,
       "items": [
         {
-          "title": "Sample: Scaling laws for sparse mixture-of-experts models",
-          "url": "https://arxiv.org/abs/2607.01234",
-          "source": "arXiv cs.LG",
+          "title": "JobHop v2: A Large-Scale Career Trajectory Dataset from Unstructured Resumes",
+          "url": "https://arxiv.org/abs/2607.11715v1",
+          "source": "arXiv cs.CL",
           "section": "ai-ml",
-          "published": "2026-07-13T18:02:00+00:00",
+          "published": "2026-07-13T15:42:06+00:00",
           "points": null,
-          "score": 9.5,
-          "id": "seed-1",
-          "summary": "Seed data. Replace by running the pipeline once: python pipeline/main.py. This entry demonstrates the layout with a typical arXiv item."
+          "score": 12.5,
+          "id": "1ea825757c5c071e57078aba09fef8c08f4ee179",
+          "summary": "JobHop v2 is a career trajectory dataset containing 355,315 multilingual resumes annotated with ESCO occupational codes, quarter-level temporal data, and normalized education levels, extracted from unstructured text using LLMs."
         },
         {
-          "title": "Sample: Open-weight 8B reasoning model released under Apache 2.0",
-          "url": "https://huggingface.co",
-          "source": "HF trending",
+          "title": "MET: Theory-Grounded and Culture-Aware Multilingual Moral Reasoning",
+          "url": "https://arxiv.org/abs/2607.11736v1",
+          "source": "arXiv cs.CL",
           "section": "ai-ml",
-          "published": "2026-07-13T09:00:00+00:00",
-          "points": 412,
-          "score": 6.0,
-          "id": "seed-2",
-          "summary": "Seed data showing a model-release entry with points and a shorter signal bar, since its relevance score is lower than the item above."
+          "published": "2026-07-13T15:59:25+00:00",
+          "points": null,
+          "score": 9.5,
+          "id": "7e4df50c7d8a19b08b4d11999892075a5aebfdb0",
+          "summary": "MET is a two-step prompting method for multilingual moral reasoning based on expert-curated moral theory, evaluated on MCLASH, a new benchmark for culturally situated moral intuitions across languages."
+        },
+        {
+          "title": "Agent Hacks Agent: Autoresearch for Production-Agent Red-Teaming",
+          "url": "https://arxiv.org/abs/2607.11698v1",
+          "source": "arXiv cs.CR",
+          "section": "ai-ml",
+          "published": "2026-07-13T15:31:04+00:00",
+          "points": null,
+          "score": 8.5,
+          "id": "13d2a9e0cf18584d8b4de6438b5dd329f7ad599d",
+          "summary": "AHA is an automated red-teaming framework that uses an agentic research loop to discover, verify, and map reusable vulnerability knowledge in production LLM agents into a Vulnerability Concept Graph."
+        },
+        {
+          "title": "Encoder-Side Neuron Identification and Amplification for Acoustic Perception in Large Audio-Language Models",
+          "url": "https://arxiv.org/abs/2607.11801v1",
+          "source": "arXiv cs.SD",
+          "section": "ai-ml",
+          "published": "2026-07-13T16:53:08+00:00",
+          "points": null,
+          "score": 8.5,
+          "id": "d6d5eec4ca379024f00b1ef2847ce8e216c9568b",
+          "summary": "IAAN is a training-free inference method that improves audio-language models on non-semantic speech attributes by identifying and amplifying acoustic-sensitive feed-forward neurons within the audio encoder."
+        },
+        {
+          "title": "Evidence-Backed Video Question Answering",
+          "url": "https://arxiv.org/abs/2607.11862v1",
+          "source": "arXiv cs.CV",
+          "section": "ai-ml",
+          "published": "2026-07-13T17:49:10+00:00",
+          "points": null,
+          "score": 8.5,
+          "id": "b9df99cf10b76e256e5223dd8cc20774b004a935",
+          "summary": "E-VQA is a video question answering task requiring models to output both a semantic answer and precise spatio-temporal evidence, supported by the new human-verified ST-Evidence benchmark."
+        },
+        {
+          "title": "From Global to Factor-Wise Expert Composition in Discrete Diffusion Models",
+          "url": "https://arxiv.org/abs/2607.11758v1",
+          "source": "arXiv cs.LG",
+          "section": "ai-ml",
+          "published": "2026-07-13T16:22:01+00:00",
+          "points": null,
+          "score": 8.5,
+          "id": "eaa7d63a83ae0d83aa96e2082199b23d91a6d16a",
+          "summary": "FactorDiff is a factor-wise composition framework for discrete diffusion models that decomposes samples into smaller factors and dynamically routes each factor to the most relevant pre-trained expert during sampling."
+        },
+        {
+          "title": "NeuralActuator: Neural Actuation Modeling for Robot Dynamics and External Force Perception",
+          "url": "https://arxiv.org/abs/2607.11734v1",
+          "source": "arXiv cs.RO",
+          "section": "ai-ml",
+          "published": "2026-07-13T15:58:34+00:00",
+          "points": null,
+          "score": 8.5,
+          "id": "b6c4c0167577dc9e89a6a0650c300e20500baebb",
+          "summary": "NeuralActuator is a neural actuator model that predicts simulator-equivalent efforts, external forces, and motor conditions for low-cost robots, trained on the new Neural Actuation Dataset."
+        },
+        {
+          "title": "StoryTeller: Training-Free Narrative Grounding for Long-Form Audio Description",
+          "url": "https://arxiv.org/abs/2607.11798v1",
+          "source": "arXiv cs.CV",
+          "section": "ai-ml",
+          "published": "2026-07-13T16:50:03+00:00",
+          "points": null,
+          "score": 8.5,
+          "id": "d303fa1b220cceae616afe3838e157bc9a361929",
+          "summary": "StoryTeller is a training-free framework for long-form audio description that maintains a narrative memory across scenes to generate contextually coherent descriptions for blind and low-vision audiences."
+        },
+        {
+          "title": "VoxENES 2026: Benchmarking Generalization of Speech Spoofing Detectors Against LLM-Era TTS and Voice Conversion",
+          "url": "https://arxiv.org/abs/2607.11706v1",
+          "source": "arXiv cs.SD",
+          "section": "ai-ml",
+          "published": "2026-07-13T15:35:29+00:00",
+          "points": null,
+          "score": 8.5,
+          "id": "62a445dbd0986420b07c3b6f78170310e49210c4",
+          "summary": "VoxENES 2026 is a bilingual speech spoofing benchmark of 53,628 samples from 10 modern synthesis methods, revealing that existing detectors degrade significantly under real-world post-processing conditions."
+        },
+        {
+          "title": "When Local Monitors Miss Compositional Harm: Diagnosing Distributed Backdoors in Multi-Agent Systems",
+          "url": "https://arxiv.org/abs/2607.11751v1",
+          "source": "arXiv cs.CR",
+          "section": "ai-ml",
+          "published": "2026-07-13T16:08:46+00:00",
+          "points": null,
+          "score": 8.5,
+          "id": "cb6ebfceec7db51e361372116a4838a6c1b53c27",
+          "summary": "A study on multi-agent LLM security formalizes the observability boundary of local runtime monitors, proving they cannot detect distributed backdoor attacks where individual payload fragments appear entirely benign."
         }
       ]
     },
@@ -44,15 +132,70 @@
       "tier": 2,
       "items": [
         {
-          "title": "Sample: Writing a bare-metal RISC-V bootloader in Rust",
-          "url": "https://example.com/riscv-bootloader",
-          "source": "Hacker News",
+          "title": "Get your ESP32 Sunny Side Up with this Solar Dev Board",
+          "url": "https://hackaday.com/2026/07/13/get-your-esp32-sunny-side-up-with-this-solar-dev-board/",
+          "source": "hackaday",
           "section": "embedded",
-          "published": "2026-07-13T21:40:00+00:00",
-          "points": 156,
-          "score": 8.0,
-          "id": "seed-3",
-          "summary": "Seed data. A routed Hacker News item that matched embedded-systems keywords strongly enough to clear the routing threshold."
+          "published": "2026-07-13T23:00:15+00:00",
+          "points": null,
+          "score": 4.5,
+          "id": "804de74e882fafa0cdf569b4a04c5ad7d4774e05",
+          "summary": "A new solar-powered development board has been designed specifically for the ESP32 microcontroller, targeting low-power and outdoor IoT applications."
+        },
+        {
+          "title": "Security updates for Monday",
+          "url": "https://lwn.net/Articles/1082642/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-07-13T12:40:26+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "24b084c3b494f25a022af0b7bb214c7289c9a191",
+          "summary": "Security updates have been released for multiple Linux distributions, including Debian, Fedora, Mageia, Oracle Linux, Slackware, and SUSE, covering packages such as chromium, openssh, and the kernel."
+        },
+        {
+          "title": "[$] Shielding running kernels against exploits with BPF",
+          "url": "https://lwn.net/Articles/1081546/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-07-13T14:14:08+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "22a0d236596d7312317ac486d840e26494e37778",
+          "summary": "A technique using BPF to shield running Linux kernels against exploits, potentially reducing vulnerability response times, though requiring more kernel hooks to be fully effective."
+        },
+        {
+          "title": "Final normal Debian bookworm release",
+          "url": "https://lwn.net/Articles/1082647/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-07-13T13:26:16+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "33df47e66da297875816a686c0cae297358ad8ea",
+          "summary": "Debian announced the final normal update for Debian 12 (\"bookworm\"), with long-term-support updates continuing until 2028. Debian 13 (\"trixie\") also received a security update."
+        },
+        {
+          "title": "Can’t Find That ISA Sound Card? No Worries!",
+          "url": "https://hackaday.com/2026/07/13/cant-find-that-isa-sound-card-no-worries/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-07-14T02:00:18+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "24d66447b7feffded6ee770ad6f20774bb270e33",
+          "summary": "A project addressing the scarcity of vintage ISA sound cards for retrocomputing enthusiasts by recreating or emulating the hardware."
+        },
+        {
+          "title": "It’s A Spectrum, With An RP2350 ULA",
+          "url": "https://hackaday.com/2026/07/13/its-a-spectrum-with-an-rp2350-ula/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-07-13T18:30:37+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "6c4a8276eccc14aea0e415e6b2e1c75bfabdabfc",
+          "summary": "An implementation of a ZX Spectrum ULA (Uncommitted Logic Array) using the Raspberry Pi RP2350 microcontroller."
         }
       ]
     },
@@ -62,15 +205,88 @@
       "tier": 3,
       "items": [
         {
-          "title": "Sample: Upcoming Codeforces Round (Div. 2)",
-          "url": "https://codeforces.com/contests",
+          "title": "Upcoming: Codeforces Round (Div. 2)",
+          "url": "https://codeforces.com/contests/2247",
           "source": "Codeforces",
           "section": "competitive",
-          "published": "2026-07-17T17:35:00+00:00",
+          "published": "2026-07-18T14:35:00+00:00",
           "points": null,
-          "score": 3.0,
-          "id": "seed-4",
-          "summary": "Seed data. Contest announcements come from the official Codeforces API with start time and duration."
+          "score": 7.0,
+          "id": "82d35999a3cc825b701e52562f38686fdd1a61e0",
+          "summary": "Codeforces Round (Div. 2) is scheduled for Saturday, July 18 at 14:35 UTC, with a duration of 2.0 hours."
+        }
+      ]
+    },
+    {
+      "id": "cs-research",
+      "title": "CS research",
+      "tier": 4,
+      "items": [
+        {
+          "title": "Show HN: Jacquard, a programming language for AI-written, human-reviewed code",
+          "url": "https://github.com/jbwinters/jacquard-lang",
+          "source": "Hacker News",
+          "section": "cs-research",
+          "published": "2026-07-13T15:56:02+00:00",
+          "points": 92,
+          "score": 6.0,
+          "id": "86dc4b5041ced2a81f58a709a1379dc1de738dc6",
+          "summary": "Jacquard is a programming language designed by AI for AI-written, human-reviewed code, featuring explicit permission requirements for filesystem access and visible side effects in function signatures."
+        },
+        {
+          "title": "Complexity Theory of Randomised Testing",
+          "url": "https://arxiv.org/abs/2607.11811v1",
+          "source": "arXiv cs.PL",
+          "section": "cs-research",
+          "published": "2026-07-13T17:08:03+00:00",
+          "points": null,
+          "score": 4.5,
+          "id": "1c4c516db4d2e111f273869b154ae7ab2226fece",
+          "summary": "A complexity-theoretic foundation for randomized testing that models generators as Turing transducers, proving theoretically generable languages coincide with recursively enumerable languages."
+        },
+        {
+          "title": "On Thread Convergence",
+          "url": "https://arxiv.org/abs/2607.11636v1",
+          "source": "arXiv cs.PL",
+          "section": "cs-research",
+          "published": "2026-07-13T14:53:37+00:00",
+          "points": null,
+          "score": 4.5,
+          "id": "c2ace212501317173aa8783ebe2ca52ef4013b60",
+          "summary": "A formal notion of control-flow graph convergence that helps compilers identify safe barrier locations, avoiding unnecessary code transformations for thread-block barriers on warp-synchronous hardware."
+        },
+        {
+          "title": "A Separation Logic for Parallel Time Complexity with Work and Span Credits",
+          "url": "https://arxiv.org/abs/2607.11582v1",
+          "source": "arXiv cs.PL",
+          "section": "cs-research",
+          "published": "2026-07-13T14:02:55+00:00",
+          "points": null,
+          "score": 3.5,
+          "id": "ecc8cde3419e363ea8c153591c17bdc5cf1a1821",
+          "summary": "Parcas is a concurrent separation logic for verifying parallel time complexity in fork-join programs, utilizing work and span credits to bound execution costs."
+        },
+        {
+          "title": "AutoSLO: Practical Latency SLOs on Cloud Data Warehouses -- Extended Version",
+          "url": "https://arxiv.org/abs/2607.11770v1",
+          "source": "arXiv cs.DB",
+          "section": "cs-research",
+          "published": "2026-07-13T16:28:41+00:00",
+          "points": null,
+          "score": 3.5,
+          "id": "a86553c9e0ca3ee41f6f507b5e0b0409a0834460",
+          "summary": "AutoSLO is a latency-SLO-aware workload management framework for multi-cluster cloud data warehouses that dynamically scales compute clusters to optimize resource usage and prevent SLO violations."
+        },
+        {
+          "title": "Mizzle: A Complete Concurrent Incorrectness Logic for Preventing False Alarms in Agentic Bug Finding",
+          "url": "https://arxiv.org/abs/2607.11611v1",
+          "source": "arXiv cs.PL",
+          "section": "cs-research",
+          "published": "2026-07-13T14:33:08+00:00",
+          "points": null,
+          "score": 3.5,
+          "id": "9688dae81286282395cc5e5f445708cba07d2913",
+          "summary": "Mizzle is a mechanized concurrent incorrectness separation logic for OCaml, designed to eliminate LLM-generated bug-finding false alarms by requiring machine-checked proofs of reachability."
         }
       ]
     },
@@ -80,15 +296,70 @@
       "tier": 5,
       "items": [
         {
-          "title": "example/awesome-inference",
-          "url": "https://github.com/trending",
+          "title": "LizardByte/Sunshine",
+          "url": "https://github.com/LizardByte/Sunshine",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 39222,
+          "score": 4.0,
+          "id": "18a46c87eccea15cfa9ad6b23ab639d01d8827bd",
+          "summary": "Sunshine is an open-source, self-hosted game stream host for the Moonlight client, written in C++."
+        },
+        {
+          "title": "Graphify-Labs/graphify",
+          "url": "https://github.com/Graphify-Labs/graphify",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 85681,
+          "score": 3.0,
+          "id": "dd6a9d14a094d1594baeb964ac415610498cc4a0",
+          "summary": "Graphify is an AI coding assistant tool that parses codebases, database schemas, documentation, and media into a single queryable knowledge graph for LLMs."
+        },
+        {
+          "title": "PrefectHQ/prefect",
+          "url": "https://github.com/PrefectHQ/prefect",
           "source": "GitHub trending · python",
           "section": "repos",
           "published": null,
-          "points": 2450,
-          "score": 4.0,
-          "id": "seed-5",
-          "summary": "Seed data. Trending repos are scraped (no official API); each repo appears in exactly one digest thanks to the seen-DB."
+          "points": 23348,
+          "score": 3.0,
+          "id": "82d4a2769261ee0119968dff24a051d69416ad1c",
+          "summary": "Prefect is an open-source workflow orchestration framework designed to build, observe, and manage resilient data pipelines in Python."
+        },
+        {
+          "title": "PrimeIntellect-ai/verifiers",
+          "url": "https://github.com/PrimeIntellect-ai/verifiers",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 4344,
+          "score": 3.0,
+          "id": "f0b48247395f126c953f93799b57db84c5f3486c",
+          "summary": "Verifiers is a Python library designed for reinforcement learning environments and evaluations, focusing on verifiable reward functions and training setups."
+        },
+        {
+          "title": "UZ-SLAMLab/ORB_SLAM3",
+          "url": "https://github.com/UZ-SLAMLab/ORB_SLAM3",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 8824,
+          "score": 3.0,
+          "id": "31bfd7b181d67987a758e562c2311fe33fdb53b5",
+          "summary": "ORB-SLAM3 is an open-source C++ library for visual, visual-inertial, and multi-map SLAM, supporting monocular, stereo, and RGB-D cameras."
+        },
+        {
+          "title": "ZLMediaKit/ZLMediaKit",
+          "url": "https://github.com/ZLMediaKit/ZLMediaKit",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 17288,
+          "score": 3.0,
+          "id": "31ddd25b89e4c82b824ff1eb0f885ee6bebaa23c",
+          "summary": "ZLMediaKit is a high-performance, C++11-based media server and client framework supporting WebRTC, RTSP, RTMP, HTTP-FLV, SRT, and GB28181 protocols."
         }
       ]
     }
