@@ -18,10 +18,21 @@ each run takes 2-5 minutes).
 | Secret | Required | What it is |
 |---|---|---|
 | `GROQ_API_KEY` | yes | From https://console.groq.com/keys (free tier) |
+| `VERCEL_DEPLOY_HOOK_URL` | yes | See below — without it, Vercel won't redeploy the bot's data commits |
 | `HEALTHCHECK_URL` | no | Ping URL from a free https://healthchecks.io check |
 
-No Vercel token is needed for deploys: Vercel's Git integration deploys on
-every push to `main`, including the bot's nightly data commit.
+**Why a deploy hook is required, not optional:** Vercel's Git integration
+holds deployments from commits whose author isn't a recognized account
+pending manual approval — the nightly bot's commits (`digest-bot
+<actions@users.noreply.github.com>`) hit this every time, so the push
+alone silently never deploys (check Vercel → Deployments; bot commits show
+"Blocked" while your own commits show "Ready"). A Deploy Hook triggers a
+build via a direct API call instead of inferring intent from git
+authorship, sidestepping that check entirely.
+
+Create one at Vercel → Project → Settings → Git → Deploy Hooks (name it
+anything, branch `main`), then add the generated URL as the
+`VERCEL_DEPLOY_HOOK_URL` secret above.
 
 ## 3. Vercel
 

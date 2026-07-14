@@ -58,6 +58,22 @@ jobs:
           echo "::error::failed to push digest commit after retries"
           exit 1
 
+      # Vercel's Git integration holds deployments from commits whose author
+      # isn't a recognized account (like this bot) pending manual approval,
+      # so the push above alone won't actually redeploy the site. A Deploy
+      # Hook triggers a build directly via API instead of inferring intent
+      # from git authorship, which sidesteps that entirely.
+      - name: Trigger Vercel deploy
+        if: ${{ success() }}
+        env:
+          HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -n "$HOOK_URL" ]; then
+            curl -fsS -X POST "$HOOK_URL" > /dev/null
+          else
+            echo "::warning::VERCEL_DEPLOY_HOOK_URL not set — Vercel may not redeploy this commit"
+          fi
+
       # Optional dead-man's switch: create a free check at healthchecks.io,
       # store its ping URL as the HEALTHCHECK_URL secret, and it will email
       # you when a night silently doesn't run.
