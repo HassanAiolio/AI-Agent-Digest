@@ -1,9 +1,9 @@
 {
   "date": "2026-07-14",
-  "generated_at": "2026-07-14T16:48:06+00:00",
+  "generated_at": "2026-07-14T17:41:03+00:00",
   "stats": {
-    "fetched": 237,
-    "new_after_dedupe": 235,
+    "fetched": 239,
+    "new_after_dedupe": 237,
     "published": 29,
     "failed_sources": [],
     "summarizer": "groq"
@@ -18,13 +18,15 @@
       "points": null,
       "score": 7.5,
       "id": "1ea825757c5c071e57078aba09fef8c08f4ee179",
-      "summary": "JobHop v2 dataset released, containing 355,315 career trajectories.",
+      "summary": "JobHop v2 dataset released with 440,000 resumes",
+      "detail": "JobHop v2 improves upon the original release with broader coverage and richer annotations, including ESCO occupational codes and quarter-level temporal information.",
       "key_points": [
         "440,000 resumes",
         "355,315 trajectories"
       ],
       "tag": "Release",
-      "highlight": true
+      "highlight": true,
+      "image": ""
     },
     {
       "title": "Upcoming: Codeforces Round 1111 (Div. 2)",
@@ -35,13 +37,15 @@
       "points": null,
       "score": 7.0,
       "id": "82d35999a3cc825b701e52562f38686fdd1a61e0",
-      "summary": "Codeforces Round 1111 starts Sat 18 Jul 14:35 UTC.",
+      "summary": "Codeforces Round 1111 starts on July 18",
+      "detail": "The contest is open to all participants.",
       "key_points": [
-        "Sat 18 Jul 14:35 UTC",
-        "2.0h"
+        "2.0h",
+        "Sat 18 Jul 14:35 UTC"
       ],
       "tag": "Contest",
-      "highlight": true
+      "highlight": true,
+      "image": ""
     },
     {
       "title": "MET: Theory-Grounded and Culture-Aware Multilingual Moral Reasoning",
@@ -52,10 +56,14 @@
       "points": null,
       "score": 6.5,
       "id": "7e4df50c7d8a19b08b4d11999892075a5aebfdb0",
-      "summary": "MET introduced for multilingual moral reasoning.",
-      "key_points": [],
+      "summary": "MET introduced for multilingual moral reasoning",
+      "detail": "MET addresses gaps in multilingual moral decision-making by introducing a theory-grounded prompting method and a culturally situated moral decision-making benchmark.",
+      "key_points": [
+        "MCLASH benchmark"
+      ],
       "tag": "Research",
-      "highlight": true
+      "highlight": true,
+      "image": ""
     },
     {
       "title": "VoxENES 2026: Benchmarking Generalization of Speech Spoofing Detectors Against LLM-Era TTS and Voice Conversion",
@@ -66,30 +74,31 @@
       "points": null,
       "score": 6.5,
       "id": "62a445dbd0986420b07c3b6f78170310e49210c4",
-      "summary": "VoxENES 2026 benchmark for speech spoofing detectors released.",
+      "summary": "VoxENES 2026 benchmark for speech spoofing detectors",
+      "detail": "VoxENES 2026 highlights the temporal generalization gap in current detectors and evaluates their performance against modern speech synthesis methods.",
       "key_points": [
         "53,628 audio samples",
-        "10 methods",
-        "28.98% EER"
+        "10 synthesis methods"
       ],
-      "tag": "Release",
-      "highlight": true
+      "tag": "Research",
+      "highlight": true,
+      "image": ""
     },
     {
-      "title": "Get your ESP32 Sunny Side Up with this Solar Dev Board",
-      "url": "https://hackaday.com/2026/07/13/get-your-esp32-sunny-side-up-with-this-solar-dev-board/",
-      "source": "hackaday",
-      "section": "embedded",
-      "published": "2026-07-13T23:00:15+00:00",
+      "title": "How to manage AI investments in the agentic era",
+      "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+      "source": "openai blog",
+      "section": "ai-ml",
+      "published": "2026-07-14T10:00:00+00:00",
       "points": null,
-      "score": 4.5,
-      "id": "804de74e882fafa0cdf569b4a04c5ad7d4774e05",
-      "summary": "Solar dev board for ESP32 introduced.",
-      "key_points": [
-        "ESP32"
-      ],
-      "tag": "Repo",
-      "highlight": true
+      "score": 5.0,
+      "id": "92ab1f77dd8ccf54b1a22b176d3dac5b102b2d7c",
+      "summary": "Managing AI investments in the agentic era",
+      "detail": "Enterprises can manage AI investments by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+      "key_points": [],
+      "tag": "Analysis",
+      "highlight": true,
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/1f3fCCk8KKldaYmrCqQ6tt/3193a26fa6ff6423b4235b0661de239f/Frame-1.png?w=1600&h=900&fit=fill"
     }
   ],
   "sections": [
@@ -107,13 +116,15 @@
           "points": null,
           "score": 7.5,
           "id": "1ea825757c5c071e57078aba09fef8c08f4ee179",
-          "summary": "JobHop v2 dataset released, containing 355,315 career trajectories.",
+          "summary": "JobHop v2 dataset released with 440,000 resumes",
+          "detail": "JobHop v2 improves upon the original release with broader coverage and richer annotations, including ESCO occupational codes and quarter-level temporal information.",
           "key_points": [
             "440,000 resumes",
             "355,315 trajectories"
           ],
           "tag": "Release",
-          "highlight": true
+          "highlight": true,
+          "image": ""
         },
         {
           "title": "MET: Theory-Grounded and Culture-Aware Multilingual Moral Reasoning",
@@ -124,10 +135,14 @@
           "points": null,
           "score": 6.5,
           "id": "7e4df50c7d8a19b08b4d11999892075a5aebfdb0",
-          "summary": "MET introduced for multilingual moral reasoning.",
-          "key_points": [],
+          "summary": "MET introduced for multilingual moral reasoning",
+          "detail": "MET addresses gaps in multilingual moral decision-making by introducing a theory-grounded prompting method and a culturally situated moral decision-making benchmark.",
+          "key_points": [
+            "MCLASH benchmark"
+          ],
           "tag": "Research",
-          "highlight": true
+          "highlight": true,
+          "image": ""
         },
         {
           "title": "VoxENES 2026: Benchmarking Generalization of Speech Spoofing Detectors Against LLM-Era TTS and Voice Conversion",
@@ -138,14 +153,31 @@
           "points": null,
           "score": 6.5,
           "id": "62a445dbd0986420b07c3b6f78170310e49210c4",
-          "summary": "VoxENES 2026 benchmark for speech spoofing detectors released.",
+          "summary": "VoxENES 2026 benchmark for speech spoofing detectors",
+          "detail": "VoxENES 2026 highlights the temporal generalization gap in current detectors and evaluates their performance against modern speech synthesis methods.",
           "key_points": [
             "53,628 audio samples",
-            "10 methods",
-            "28.98% EER"
+            "10 synthesis methods"
           ],
-          "tag": "Release",
-          "highlight": true
+          "tag": "Research",
+          "highlight": true,
+          "image": ""
+        },
+        {
+          "title": "How to manage AI investments in the agentic era",
+          "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-07-14T10:00:00+00:00",
+          "points": null,
+          "score": 5.0,
+          "id": "92ab1f77dd8ccf54b1a22b176d3dac5b102b2d7c",
+          "summary": "Managing AI investments in the agentic era",
+          "detail": "Enterprises can manage AI investments by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+          "key_points": [],
+          "tag": "Analysis",
+          "highlight": true,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/1f3fCCk8KKldaYmrCqQ6tt/3193a26fa6ff6423b4235b0661de239f/Frame-1.png?w=1600&h=900&fit=fill"
         },
         {
           "title": "Announcements Jun 30, 2026 Claude Science, an AI workbench for scientists, is now available Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources.",
@@ -156,10 +188,14 @@
           "points": null,
           "score": 3.0,
           "id": "4977e5401721f35554f44363ca7714465b070cec",
-          "summary": "Claude Science AI workbench for scientists released.",
-          "key_points": [],
-          "tag": "News",
-          "highlight": false
+          "summary": "Claude Science AI workbench released",
+          "detail": "Claude Science is a customizable app that integrates tools and packages for researchers, producing auditable artifacts and providing flexible access to computing resources.",
+          "key_points": [
+            "June 30, 2026"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://cdn.sanity.io/images/4zrzovbb/website/0c547c61b24e6ad4985c64f04f212c7411609bfa-2880x1620.png"
         },
         {
           "title": "Announcements Jun 30, 2026 Redeploying Fable 5 Fable 5 returns globally July 1. We're also proposing an industry-wide framework for scoring jailbreak severity, together with Amazon, Microsoft, Google, and other Glasswing partners.",
@@ -170,12 +206,14 @@
           "points": null,
           "score": 3.0,
           "id": "e4b2f0a95227383f058aab6a318b57b2a14a1ad8",
-          "summary": "Fable 5 to be redeployed globally.",
+          "summary": "Fable 5 redeployed globally",
+          "detail": "Fable 5 returns globally, and an industry-wide framework for scoring jailbreak severity is proposed in partnership with other companies.",
           "key_points": [
             "July 1"
           ],
           "tag": "News",
-          "highlight": false
+          "highlight": false,
+          "image": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
         },
         {
           "title": "Empowering India’s next generation of innovators with ATL Saathi",
@@ -186,10 +224,12 @@
           "points": null,
           "score": 3.0,
           "id": "77ccb073c59f37527555ab5c2638078d073d9c8d",
-          "summary": "ATL Saathi AI tool launched for Indian educators.",
+          "summary": "ATL Saathi AI tool launched",
+          "detail": "ATL Saathi is a Gemini-powered AI tool that empowers Indian educators in robotics labs, launched by Google and AIM.",
           "key_points": [],
           "tag": "News",
-          "highlight": false
+          "highlight": false,
+          "image": "https://lh3.googleusercontent.com/0BYvIo8ObViyRtRGOYajXHdEGUFX6cKMTQ6lxys98kN0sB6H7rrTo1pdW8M4kCUGnBnidJWbIr6VvcxGKDEDD4YxOVqYRlyxj_a48uqNw_AytF7c-A=w1200-h630-n-nu-rw"
         },
         {
           "title": "How data science teams use ChatGPT Work",
@@ -200,10 +240,12 @@
           "points": null,
           "score": 3.0,
           "id": "cca00ce687818d9ad6ab3e2102fc448804cde0b7",
-          "summary": "ChatGPT Work for data science teams introduced.",
+          "summary": "ChatGPT Work for data science teams",
+          "detail": "Data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, and other analyses from real work inputs.",
           "key_points": [],
-          "tag": "",
-          "highlight": false
+          "tag": "Analysis",
+          "highlight": false,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/3pOt7hjYa1nUIIMMXdoEhD/b6493d0ba6756155a3ef880758e0a0b0/Academy-SEO.png?w=1600&h=900&fit=fill"
         },
         {
           "title": "How sales teams use ChatGPT Work",
@@ -214,10 +256,12 @@
           "points": null,
           "score": 3.0,
           "id": "248b5ff0699922b23d03bcc7a466036dd8ca62b4",
-          "summary": "ChatGPT Work for sales teams introduced.",
+          "summary": "ChatGPT Work for sales teams",
+          "detail": "Sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, and other sales materials from real work inputs.",
           "key_points": [],
-          "tag": "",
-          "highlight": false
+          "tag": "Analysis",
+          "highlight": false,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/3pOt7hjYa1nUIIMMXdoEhD/b6493d0ba6756155a3ef880758e0a0b0/Academy-SEO.png?w=1600&h=900&fit=fill"
         },
         {
           "title": "Inviting hard questions Announcements Jul 9, 2026 We’re asking the public for their hardest questions about AI, and committing to show our work as we address them.",
@@ -228,26 +272,14 @@
           "points": null,
           "score": 3.0,
           "id": "0a35825f6246687a494a577bc7dc62929e81cee0",
-          "summary": "Public invited to submit hard AI questions.",
+          "summary": "Public invited to submit AI questions",
+          "detail": "The public is invited to submit their hardest questions about AI, and the company will address them and show their work.",
           "key_points": [
-            "July 9"
+            "July 9, 2026"
           ],
           "tag": "News",
-          "highlight": false
-        },
-        {
-          "title": "Modernizing the Meta Ads Service With an Open-Source Kernel Scheduler",
-          "url": "https://engineering.fb.com/2026/07/13/ml-applications/modernizing-the-meta-ads-service-with-an-open-source-kernel-scheduler/",
-          "source": "meta ai blog",
-          "section": "ai-ml",
-          "published": "2026-07-13T16:00:50+00:00",
-          "points": null,
-          "score": 3.0,
-          "id": "55867aa7898afa89fc0f3b0752487b40a4689dba",
-          "summary": "Meta Ads Service modernized with open-source kernel scheduler.",
-          "key_points": [],
-          "tag": "News",
-          "highlight": false
+          "highlight": false,
+          "image": ""
         }
       ]
     },
@@ -265,12 +297,12 @@
           "points": null,
           "score": 4.5,
           "id": "804de74e882fafa0cdf569b4a04c5ad7d4774e05",
-          "summary": "Solar dev board for ESP32 introduced.",
-          "key_points": [
-            "ESP32"
-          ],
+          "summary": "Solar Dev Board for ESP32",
+          "detail": "A new development board for the ESP32 chip is available, featuring a solar panel and other components for development and prototyping.",
+          "key_points": [],
           "tag": "Repo",
-          "highlight": true
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/07/solar_board_v1.png"
         },
         {
           "title": "Call for topics for the 2026 Maintainers Summit",
@@ -281,13 +313,14 @@
           "points": null,
           "score": 3.0,
           "id": "4a72797ac35891612fb43926e32c20ac1d34e52e",
-          "summary": "Call for topics for 2026 Maintainers Summit.",
+          "summary": "Call for topics for 2026 Maintainers Summit",
+          "detail": "The Maintainers Summit is an annual gathering of kernel developers and maintainers to discuss development-process issues, and topic proposals are being accepted until July 24.",
           "key_points": [
-            "October 8",
-            "July 24"
+            "July 24 deadline"
           ],
           "tag": "Contest",
-          "highlight": false
+          "highlight": false,
+          "image": ""
         },
         {
           "title": "Security updates for Monday",
@@ -298,14 +331,14 @@
           "points": null,
           "score": 3.0,
           "id": "24b084c3b494f25a022af0b7bb214c7289c9a191",
-          "summary": "Debian, Fedora, Mageia, Oracle, Slackware, and SUSE issued security updates.",
+          "summary": "Debian, Fedora, and others issue security updates",
+          "detail": "The updates address various vulnerabilities in packages such as chromium and libxfont.",
           "key_points": [
-            "Debian",
-            "Fedora",
-            "Mageia"
+            "Monday"
           ],
           "tag": "News",
-          "highlight": false
+          "highlight": false,
+          "image": ""
         },
         {
           "title": "Security updates for Tuesday",
@@ -316,14 +349,14 @@
           "points": null,
           "score": 3.0,
           "id": "86308db36a38a69f42549ac99b4b1b830117e8ca",
-          "summary": "AlmaLinux, Debian, Fedora, Mageia, SUSE, and Ubuntu issued security updates.",
+          "summary": "AlmaLinux, Debian, and others issue security updates",
+          "detail": "The updates fix vulnerabilities in packages like kernel and libreoffice.",
           "key_points": [
-            "AlmaLinux",
-            "Debian",
-            "Fedora"
+            "Tuesday"
           ],
           "tag": "News",
-          "highlight": false
+          "highlight": false,
+          "image": ""
         },
         {
           "title": "[$] Sending packets directly from BPF",
@@ -334,10 +367,12 @@
           "points": null,
           "score": 3.0,
           "id": "f981bf77e256e7eeb5ee19241337a143d6d3eda9",
-          "summary": "Tetragon sends packets directly from BPF.",
+          "summary": "Tetragon sends packets directly from BPF",
+          "detail": "This improvement removes the need for a user-space agent, enhancing security.",
           "key_points": [],
           "tag": "Research",
-          "highlight": false
+          "highlight": false,
+          "image": ""
         },
         {
           "title": "[$] Shielding running kernels against exploits with BPF",
@@ -348,10 +383,12 @@
           "points": null,
           "score": 3.0,
           "id": "22a0d236596d7312317ac486d840e26494e37778",
-          "summary": "Cisco uses BPF to prevent kernel exploits.",
+          "summary": "Cisco uses BPF to prevent kernel exploits",
+          "detail": "The technique reduces the time needed to respond to kernel vulnerabilities.",
           "key_points": [],
           "tag": "Research",
-          "highlight": false
+          "highlight": false,
+          "image": ""
         }
       ]
     },
@@ -369,13 +406,15 @@
           "points": null,
           "score": 7.0,
           "id": "82d35999a3cc825b701e52562f38686fdd1a61e0",
-          "summary": "Codeforces Round 1111 starts Sat 18 Jul 14:35 UTC.",
+          "summary": "Codeforces Round 1111 starts on July 18",
+          "detail": "The contest is open to all participants.",
           "key_points": [
-            "Sat 18 Jul 14:35 UTC",
-            "2.0h"
+            "2.0h",
+            "Sat 18 Jul 14:35 UTC"
           ],
           "tag": "Contest",
-          "highlight": true
+          "highlight": true,
+          "image": ""
         }
       ]
     },
@@ -393,10 +432,12 @@
           "points": 95,
           "score": 4.5,
           "id": "86dc4b5041ced2a81f58a709a1379dc1de738dc6",
-          "summary": "Jacquard is a programming language for AI-written code.",
+          "summary": "Jacquard is a new programming language",
+          "detail": "It was designed by analyzing ASTs of mainstream languages and creating a new structure.",
           "key_points": [],
           "tag": "Repo",
-          "highlight": false
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/084d623c017306aedcd572ab831e85a0e4eb604a104dbf89ea88a8ca5c441436/jbwinters/jacquard-lang"
         },
         {
           "title": "Complexity Theory of Randomised Testing",
@@ -407,10 +448,12 @@
           "points": null,
           "score": 3.0,
           "id": "1c4c516db4d2e111f273869b154ae7ab2226fece",
-          "summary": "Randomised testing has complexity-theoretic foundations.",
+          "summary": "Complexity theory of randomized testing is presented",
+          "detail": "The theory provides a foundation for random generators in software testing.",
           "key_points": [],
           "tag": "Research",
-          "highlight": false
+          "highlight": false,
+          "image": ""
         },
         {
           "title": "On Thread Convergence",
@@ -421,10 +464,12 @@
           "points": null,
           "score": 3.0,
           "id": "c2ace212501317173aa8783ebe2ca52ef4013b60",
-          "summary": "Convergence analysis determines thread synchronization.",
+          "summary": "Convergence analysis for thread synchronization",
+          "detail": "The analysis helps compilers determine when barriers are necessary.",
           "key_points": [],
           "tag": "Research",
-          "highlight": false
+          "highlight": false,
+          "image": ""
         },
         {
           "title": "A Separation Logic for Parallel Time Complexity with Work and Span Credits",
@@ -435,10 +480,12 @@
           "points": null,
           "score": 2.5,
           "id": "ecc8cde3419e363ea8c153591c17bdc5cf1a1821",
-          "summary": "Parcas is a separation logic for parallel time complexity.",
+          "summary": "Parcas is a separation logic for parallel time complexity",
+          "detail": "It abstracts from machine specifics and uses work and span credits.",
           "key_points": [],
           "tag": "Research",
-          "highlight": false
+          "highlight": false,
+          "image": ""
         },
         {
           "title": "AutoSLO: Practical Latency SLOs on Cloud Data Warehouses -- Extended Version",
@@ -449,10 +496,12 @@
           "points": null,
           "score": 2.5,
           "id": "a86553c9e0ca3ee41f6f507b5e0b0409a0834460",
-          "summary": "AutoSLO manages latency SLOs on cloud data warehouses.",
+          "summary": "AutoSLO is a latency-SLO-aware workload management framework",
+          "detail": "It operates across three timescales to manage cloud data warehouses.",
           "key_points": [],
           "tag": "Research",
-          "highlight": false
+          "highlight": false,
+          "image": ""
         },
         {
           "title": "Mizzle: A Complete Concurrent Incorrectness Logic for Preventing False Alarms in Agentic Bug Finding",
@@ -463,10 +512,12 @@
           "points": null,
           "score": 2.5,
           "id": "9688dae81286282395cc5e5f445708cba07d2913",
-          "summary": "Mizzle prevents false alarms in agentic bug finding.",
+          "summary": "Mizzle is a concurrent incorrectness logic",
+          "detail": "It prevents false alarms in agentic bug finding by requiring machine-checked proofs.",
           "key_points": [],
           "tag": "Research",
-          "highlight": false
+          "highlight": false,
+          "image": ""
         }
       ]
     },
@@ -481,13 +532,15 @@
           "source": "GitHub trending · c++",
           "section": "repos",
           "published": null,
-          "points": 39233,
+          "points": 39234,
           "score": 3.0,
           "id": "18a46c87eccea15cfa9ad6b23ab639d01d8827bd",
-          "summary": "LizardByte/Sunshine is a self-hosted game stream host.",
+          "summary": "LizardByte/Sunshine is a self-hosted game stream host",
+          "detail": "It is designed for Moonlight game streaming.",
           "key_points": [],
           "tag": "Repo",
-          "highlight": false
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/438803890/cee99a24-0230-411e-b444-3e261c8b01d3"
         },
         {
           "title": "jackwener/wx-cli",
@@ -495,13 +548,15 @@
           "source": "GitHub trending · rust",
           "section": "repos",
           "published": null,
-          "points": 4023,
+          "points": 4025,
           "score": 3.0,
           "id": "453843e16a94d717c20bea85256ea86ae4c9c86c",
-          "summary": "WeChat data CLI tool created",
+          "summary": "WeChat local data CLI released",
+          "detail": "The CLI utilizes a daemon architecture, allowing for efficient data management. This tool can be useful for developers working with WeChat data.",
           "key_points": [],
           "tag": "Repo",
-          "highlight": false
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/d3ca42df9423d68d3dea46ed14e816217400766f8f737ecd24eabdc24c0fd3f0/jackwener/wx-cli"
         },
         {
           "title": "Graphify-Labs/graphify",
@@ -509,16 +564,15 @@
           "source": "GitHub trending",
           "section": "repos",
           "published": null,
-          "points": 85924,
+          "points": 85980,
           "score": 2.5,
           "id": "dd6a9d14a094d1594baeb964ac415610498cc4a0",
-          "summary": "AI coding assistant released",
-          "key_points": [
-            "Claude Code",
-            "Codex"
-          ],
+          "summary": "Graphify-Labs/graphify AI coding assistant",
+          "detail": "Graphify can handle various file types, including code, SQL schemas, and documents. It integrates multiple AI coding assistants, such as Claude Code and Codex.",
+          "key_points": [],
           "tag": "Repo",
-          "highlight": false
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/e3cf95fb36718c79f298c91b8512c70c33504d5781137e904692205605fced9f/Graphify-Labs/graphify"
         },
         {
           "title": "PrefectHQ/prefect",
@@ -526,15 +580,15 @@
           "source": "GitHub trending · python",
           "section": "repos",
           "published": null,
-          "points": 23360,
+          "points": 23363,
           "score": 2.5,
           "id": "82d4a2769261ee0119968dff24a051d69416ad1c",
-          "summary": "Workflow framework updated",
-          "key_points": [
-            "Python"
-          ],
+          "summary": "Prefect workflow orchestration framework",
+          "detail": "Prefect is designed for building resilient data pipelines in Python. It provides a flexible framework for workflow management.",
+          "key_points": [],
           "tag": "Repo",
-          "highlight": false
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/9d99290d0fea21c88a11d4b0ffdd5729bfd1e189f30d9261275c621fd12f9265/PrefectHQ/prefect"
         },
         {
           "title": "PrimeIntellect-ai/verifiers",
@@ -545,12 +599,12 @@
           "points": 4348,
           "score": 2.5,
           "id": "f0b48247395f126c953f93799b57db84c5f3486c",
-          "summary": "RL library created",
-          "key_points": [
-            "Python"
-          ],
+          "summary": "PrimeIntellect-ai/verifiers library released",
+          "detail": "The library is designed for RL environments and evaluations. It provides a set of tools for reinforcement learning development.",
+          "key_points": [],
           "tag": "Repo",
-          "highlight": false
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/1fd4f7fbccfac92b39c1880420de03f1ac009ba468f5a8fa6ae584587d1500b1/PrimeIntellect-ai/verifiers"
         },
         {
           "title": "UZ-SLAMLab/ORB_SLAM3",
@@ -561,12 +615,12 @@
           "points": 8824,
           "score": 2.5,
           "id": "31bfd7b181d67987a758e562c2311fe33fdb53b5",
-          "summary": "SLAM library updated",
-          "key_points": [
-            "C++"
-          ],
+          "summary": "ORB-SLAM3 library released",
+          "detail": "ORB-SLAM3 is an open-source library for visual, visual-inertial, and multi-map SLAM. It provides an accurate and efficient solution for SLAM tasks.",
+          "key_points": [],
           "tag": "Repo",
-          "highlight": false
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/0732971f296783a1a9f592aef5bd08a45bb93c160f02b5e60d8cb89b3ca86f49/UZ-SLAMLab/ORB_SLAM3"
         }
       ]
     }
