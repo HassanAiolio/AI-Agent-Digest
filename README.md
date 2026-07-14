@@ -21,5 +21,13 @@ in your browser via `localStorage`, and best-effort syncs to the repo so
 `pipeline/preferences.py` can learn your taste and shape future nights
 (see "Preference learning" in SETUP.md).
 
+Also in the UI: best-effort thumbnails scraped from each item's `og:image`;
+items you've already expanded dim slightly so a return visit shows what's
+new; a manual light/dark toggle next to the nav; a filter box to search
+titles/sources/tags across the whole night; sections you don't care about
+fold shut and stay folded; a copy-link button next to "Read source"; and
+`j`/`k`/`enter`/`o` keyboard shortcuts to navigate, expand, and open the
+source without touching the mouse.
+
 See SETUP.md for installation, testing, and failure modes.
 Tune sources and relevance in pipeline/config.yaml.

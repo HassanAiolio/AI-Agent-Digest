@@ -75,6 +75,9 @@ top-scoring items surface in the "top picks" bar at the top of the page
 (set to 0 to disable it). `groq.model` picks which Groq-hosted model
 summarizes — check https://console.groq.com/docs/models for current
 options and swap freely; the pipeline doesn't care which one you use.
+`images.enabled: false` turns off the og:image thumbnail scraping
+(`pipeline/images.py`) if it ever proves too slow or too flaky for a
+particular night; the site already renders fine with no thumbnails.
 
 ## Preference learning (like/dislike)
 
@@ -118,6 +121,10 @@ aggressive.
    retries a few times internally and fails soft either way — like/dislike
    still works locally in the browser, it just won't shape future nights
    until sync is fixed.
+6. **No thumbnail for an item.** `pipeline/images.py` best-effort scrapes
+   `og:image` from the item's own page; sites with no such tag, that block
+   scraping, or that time out just ship with no image — lowest-severity
+   failure mode in the whole pipeline, purely cosmetic.
 
 ## How you'll know a night silently failed
 

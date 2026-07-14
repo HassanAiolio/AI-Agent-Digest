@@ -16,6 +16,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;600&display=swap"
           rel="stylesheet"
         />
+        {/* Applies a saved manual theme override before first paint, so
+            toggling never causes a flash of the wrong theme on reload. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "try{var t=localStorage.getItem('digest:theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}",
+          }}
+        />
       </head>
       <body>
         <div className="wrap">{children}</div>

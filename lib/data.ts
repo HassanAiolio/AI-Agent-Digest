@@ -15,6 +15,7 @@ export interface DigestItem {
   key_points: string[];
   tag: string;
   highlight: boolean;
+  image: string;
 }
 
 export interface DigestSection {

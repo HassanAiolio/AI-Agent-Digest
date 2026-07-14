@@ -15,6 +15,10 @@ groq:
 highlights:
   count: 5   # top-scoring items across all sections, surfaced at the top of the page
 
+images:
+  enabled: true
+  timeout: 5   # seconds per og:image request; a slow site just ships with no thumbnail
+
 sections:
   - id: ai-ml
     title: AI & ML

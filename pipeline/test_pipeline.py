@@ -11,6 +11,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 import yaml
 
+import images
 import output
 import preferences
 from dedupe import SeenDB, canonical_url, dedupe
@@ -118,6 +119,13 @@ def run():
     affinity = preferences.load_affinity(feedback_path)
     assert affinity["tags"]["Release"] == 1.0, "net of +1-1+1 votes should be +1"
     assert preferences.load_affinity(tmp / "missing.json") == {"tags": {}, "sources": {}}
+
+    # images: arXiv/Codeforces are skipped outright (no network call needed
+    # to know they never have a useful preview image); an ordinary blog
+    # post is not.
+    assert images._skip(Item(title="t", url="https://arxiv.org/abs/1", source="arXiv cs.LG"))
+    assert images._skip(Item(title="t", url="https://codeforces.com/c/1", source="Codeforces"))
+    assert not images._skip(Item(title="t", url="https://openai.com/x", source="openai blog"))
 
     print("ALL PIPELINE TESTS PASSED")
     print(json.dumps(doc, indent=2)[:600])

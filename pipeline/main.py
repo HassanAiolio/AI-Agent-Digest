@@ -16,6 +16,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 import yaml
 
+import images
 import output
 import preferences
 from dedupe import SeenDB, dedupe
@@ -51,6 +52,9 @@ def main() -> int:
     db = SeenDB(str(DATA / "seen.sqlite"))
     fresh = dedupe(items, db, digest_date)
     buckets = Scorer(cfg).route_and_filter(fresh)
+
+    # Best-effort thumbnails, only for the items that survived routing.
+    images.attach_images(buckets, cfg.get("images", {}))
 
     if args.no_summarize:
         from summarize import _fallback, _fallback_detail
