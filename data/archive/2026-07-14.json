@@ -1,12 +1,12 @@
 {
   "date": "2026-07-14",
-  "generated_at": "2026-07-14T16:14:53+00:00",
+  "generated_at": "2026-07-14T16:41:16+00:00",
   "stats": {
-    "fetched": 239,
-    "new_after_dedupe": 237,
+    "fetched": 237,
+    "new_after_dedupe": 235,
     "published": 29,
     "failed_sources": [],
-    "summarizer": "fallback"
+    "summarizer": "groq"
   },
   "highlights": [
     {
@@ -18,9 +18,12 @@
       "points": null,
       "score": 7.5,
       "id": "1ea825757c5c071e57078aba09fef8c08f4ee179",
-      "summary": "Large-scale, richly annotated career trajectory data underpins workforce planning, job recommendation, and labour market analysis, yet publicly available datasets are either small, closed to independent use, or built fro…",
-      "key_points": [],
-      "tag": "",
+      "summary": "JobHop v2 is a large-scale career trajectory dataset. It has 355,315 career trajectories.",
+      "key_points": [
+        "440,000 resumes",
+        "355,315 trajectories"
+      ],
+      "tag": "Research",
       "highlight": true
     },
     {
@@ -32,9 +35,12 @@
       "points": null,
       "score": 7.0,
       "id": "82d35999a3cc825b701e52562f38686fdd1a61e0",
-      "summary": "CF contest, 2.0h, starts Sat 18 Jul 14:35 UTC",
-      "key_points": [],
-      "tag": "",
+      "summary": "Codeforces Round 1111 starts Sat 18 Jul 14:35 UTC.",
+      "key_points": [
+        "2.0h",
+        "Sat 18 Jul 14:35 UTC"
+      ],
+      "tag": "Contest",
       "highlight": true
     },
     {
@@ -46,9 +52,9 @@
       "points": null,
       "score": 6.5,
       "id": "7e4df50c7d8a19b08b4d11999892075a5aebfdb0",
-      "summary": "Language models are increasingly used for moral decision-making across diverse linguistic and cultural contexts, yet existing work overlooks multilinguality on three aspects: 1) multilingual evaluation benchmarks use dir…",
+      "summary": "MET is a multilingual moral reasoning model. It uses theory-grounded reasoning.",
       "key_points": [],
-      "tag": "",
+      "tag": "Research",
       "highlight": true
     },
     {
@@ -60,9 +66,13 @@
       "points": null,
       "score": 6.5,
       "id": "62a445dbd0986420b07c3b6f78170310e49210c4",
-      "summary": "Modern LLM-driven text-to-speech (TTS) and voice conversion (VC) systems produce synthetic speech that differs from the generators represented in many legacy spoofing benchmarks. This mismatch creates a temporal generali…",
-      "key_points": [],
-      "tag": "",
+      "summary": "VoxENES 2026 is a speech spoofing detector benchmark. It has 53,628 audio samples.",
+      "key_points": [
+        "53,628 samples",
+        "10 methods",
+        "28.98% EER"
+      ],
+      "tag": "Research",
       "highlight": true
     },
     {
@@ -74,9 +84,11 @@
       "points": null,
       "score": 4.5,
       "id": "804de74e882fafa0cdf569b4a04c5ad7d4774e05",
-      "summary": "There are a lot of ESP32-based development boards out there– and why not? It’s a versatile chip that can be used in all sorts of situations, and people want boards …read more",
-      "key_points": [],
-      "tag": "",
+      "summary": "A solar dev board is available. It is for ESP32.",
+      "key_points": [
+        "ESP32"
+      ],
+      "tag": "Repo",
       "highlight": true
     }
   ],
@@ -95,9 +107,12 @@
           "points": null,
           "score": 7.5,
           "id": "1ea825757c5c071e57078aba09fef8c08f4ee179",
-          "summary": "Large-scale, richly annotated career trajectory data underpins workforce planning, job recommendation, and labour market analysis, yet publicly available datasets are either small, closed to independent use, or built fro…",
-          "key_points": [],
-          "tag": "",
+          "summary": "JobHop v2 is a large-scale career trajectory dataset. It has 355,315 career trajectories.",
+          "key_points": [
+            "440,000 resumes",
+            "355,315 trajectories"
+          ],
+          "tag": "Research",
           "highlight": true
         },
         {
@@ -109,9 +124,9 @@
           "points": null,
           "score": 6.5,
           "id": "7e4df50c7d8a19b08b4d11999892075a5aebfdb0",
-          "summary": "Language models are increasingly used for moral decision-making across diverse linguistic and cultural contexts, yet existing work overlooks multilinguality on three aspects: 1) multilingual evaluation benchmarks use dir…",
+          "summary": "MET is a multilingual moral reasoning model. It uses theory-grounded reasoning.",
           "key_points": [],
-          "tag": "",
+          "tag": "Research",
           "highlight": true
         },
         {
@@ -123,9 +138,13 @@
           "points": null,
           "score": 6.5,
           "id": "62a445dbd0986420b07c3b6f78170310e49210c4",
-          "summary": "Modern LLM-driven text-to-speech (TTS) and voice conversion (VC) systems produce synthetic speech that differs from the generators represented in many legacy spoofing benchmarks. This mismatch creates a temporal generali…",
-          "key_points": [],
-          "tag": "",
+          "summary": "VoxENES 2026 is a speech spoofing detector benchmark. It has 53,628 audio samples.",
+          "key_points": [
+            "53,628 samples",
+            "10 methods",
+            "28.98% EER"
+          ],
+          "tag": "Research",
           "highlight": true
         },
         {
@@ -137,9 +156,11 @@
           "points": null,
           "score": 3.0,
           "id": "4977e5401721f35554f44363ca7714465b070cec",
-          "summary": "",
-          "key_points": [],
-          "tag": "",
+          "summary": "Claude Science is an AI workbench for scientists. It is now available.",
+          "key_points": [
+            "Jun 30, 2026"
+          ],
+          "tag": "News",
           "highlight": false
         },
         {
@@ -151,9 +172,12 @@
           "points": null,
           "score": 3.0,
           "id": "e4b2f0a95227383f058aab6a318b57b2a14a1ad8",
-          "summary": "",
-          "key_points": [],
-          "tag": "",
+          "summary": "Fable 5 is redeploying globally. It has a jailbreak severity framework.",
+          "key_points": [
+            "Jul 1",
+            "Fable 5"
+          ],
+          "tag": "News",
           "highlight": false
         },
         {
@@ -165,9 +189,9 @@
           "points": null,
           "score": 3.0,
           "id": "77ccb073c59f37527555ab5c2638078d073d9c8d",
-          "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
+          "summary": "ATL Saathi is an AI tool for educators. It is Gemini-powered.",
           "key_points": [],
-          "tag": "",
+          "tag": "News",
           "highlight": false
         },
         {
@@ -179,7 +203,7 @@
           "points": null,
           "score": 3.0,
           "id": "cca00ce687818d9ad6ab3e2102fc448804cde0b7",
-          "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+          "summary": "ChatGPT Work helps data science teams. It builds briefs and specs.",
           "key_points": [],
           "tag": "",
           "highlight": false
@@ -193,7 +217,7 @@
           "points": null,
           "score": 3.0,
           "id": "248b5ff0699922b23d03bcc7a466036dd8ca62b4",
-          "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+          "summary": "ChatGPT Work helps sales teams. It creates briefs and plans.",
           "key_points": [],
           "tag": "",
           "highlight": false
@@ -207,9 +231,11 @@
           "points": null,
           "score": 3.0,
           "id": "0a35825f6246687a494a577bc7dc62929e81cee0",
-          "summary": "",
-          "key_points": [],
-          "tag": "",
+          "summary": "Anthropic is asking for hard AI questions. It will show its work.",
+          "key_points": [
+            "Jul 9, 2026"
+          ],
+          "tag": "News",
           "highlight": false
         },
         {
@@ -221,9 +247,9 @@
           "points": null,
           "score": 3.0,
           "id": "55867aa7898afa89fc0f3b0752487b40a4689dba",
-          "summary": "TL; DR At Meta’s scale, a few milliseconds of latency degradation can have a significant negative impact on ads performance. When a Linux kernel upgrade risked regressing latency across Meta’s ad serving fleet, we turned…",
+          "summary": "Meta's ads service uses a kernel scheduler. It is open-source.",
           "key_points": [],
-          "tag": "",
+          "tag": "News",
           "highlight": false
         }
       ]
@@ -242,9 +268,11 @@
           "points": null,
           "score": 4.5,
           "id": "804de74e882fafa0cdf569b4a04c5ad7d4774e05",
-          "summary": "There are a lot of ESP32-based development boards out there– and why not? It’s a versatile chip that can be used in all sorts of situations, and people want boards …read more",
-          "key_points": [],
-          "tag": "",
+          "summary": "A solar dev board is available. It is for ESP32.",
+          "key_points": [
+            "ESP32"
+          ],
+          "tag": "Repo",
           "highlight": true
         },
         {
@@ -256,9 +284,12 @@
           "points": null,
           "score": 3.0,
           "id": "4a72797ac35891612fb43926e32c20ac1d34e52e",
-          "summary": "The Maintainers Summit is an annual, invitation-only gathering of kernel developers and maintainers to discuss development-process issues; see LWN's 2025 Maintainers Summit coverage for an example. The call for topics fo…",
-          "key_points": [],
-          "tag": "",
+          "summary": "The 2026 Maintainers Summit is calling for topics. It is in Prague.",
+          "key_points": [
+            "Oct 8",
+            "Jul 24"
+          ],
+          "tag": "Contest",
           "highlight": false
         },
         {
@@ -270,9 +301,9 @@
           "points": null,
           "score": 3.0,
           "id": "24b084c3b494f25a022af0b7bb214c7289c9a191",
-          "summary": "Security updates have been issued by Debian (chromium, libxfont, mesa, opam, and wireless-regdb), Fedora (acl, attr, chromium, cjson, composer, docker-compose, jfrog-cli, librabbitmq, libssh2, libXfont2, log4cxx, OpenIma…",
+          "summary": "Debian, Fedora, Mageia, Oracle, Slackware, and SUSE issued security updates.",
           "key_points": [],
-          "tag": "",
+          "tag": "News",
           "highlight": false
         },
         {
@@ -284,9 +315,9 @@
           "points": null,
           "score": 3.0,
           "id": "86308db36a38a69f42549ac99b4b1b830117e8ca",
-          "summary": "Security updates have been issued by AlmaLinux (389-ds:1.4, buildah, freeipmi, freerdp, gegl, gimp, golang, kernel, libreoffice, maven:3.9, openexr, perl-DBI, plexus-utils, podman, tomcat, tomcat9, xorg-x11-server, and x…",
+          "summary": "AlmaLinux, Debian, Fedora, Mageia, SUSE, and Ubuntu issued security updates.",
           "key_points": [],
-          "tag": "",
+          "tag": "News",
           "highlight": false
         },
         {
@@ -298,9 +329,9 @@
           "points": null,
           "score": 3.0,
           "id": "f981bf77e256e7eeb5ee19241337a143d6d3eda9",
-          "summary": "Tetragon , the BPF-based security monitoring tool, uses BPF to monitor different aspects of a running kernel and enforce user-specified policies. It sends its data to a user-space process, which forwards the data to a ce…",
+          "summary": "Tetragon uses BPF to monitor kernel aspects and enforce policies.",
           "key_points": [],
-          "tag": "",
+          "tag": "Research",
           "highlight": false
         },
         {
@@ -312,9 +343,9 @@
           "points": null,
           "score": 3.0,
           "id": "22a0d236596d7312317ac486d840e26494e37778",
-          "summary": "Cisco has some unusual challenges when it comes to deploying security patches across the company's many devices running custom kernels. John Fastabend spoke about his work preventing exploits with BPF at the 2026 Linux S…",
+          "summary": "Cisco uses BPF to prevent kernel exploits.",
           "key_points": [],
-          "tag": "",
+          "tag": "Research",
           "highlight": false
         }
       ]
@@ -333,9 +364,12 @@
           "points": null,
           "score": 7.0,
           "id": "82d35999a3cc825b701e52562f38686fdd1a61e0",
-          "summary": "CF contest, 2.0h, starts Sat 18 Jul 14:35 UTC",
-          "key_points": [],
-          "tag": "",
+          "summary": "Codeforces Round 1111 starts Sat 18 Jul 14:35 UTC.",
+          "key_points": [
+            "2.0h",
+            "Sat 18 Jul 14:35 UTC"
+          ],
+          "tag": "Contest",
           "highlight": true
         }
       ]
@@ -354,9 +388,9 @@
           "points": 95,
           "score": 4.5,
           "id": "86dc4b5041ced2a81f58a709a1379dc1de738dc6",
-          "summary": "I&#x27;m fascinated by the generative AI wave rolling over us, and wondered if AI could create a language that it might prefer using over the ones created by and for humans.<p>To create the design, I had AI analyze the A…",
+          "summary": "Jacquard is a programming language designed by AI.",
           "key_points": [],
-          "tag": "",
+          "tag": "Repo",
           "highlight": false
         },
         {
@@ -368,9 +402,9 @@
           "points": null,
           "score": 3.0,
           "id": "1c4c516db4d2e111f273869b154ae7ab2226fece",
-          "summary": "Randomised testing is a widely-used approach to software validation, yet its theoretical foundations remain thin. In particular, the fundamental question of what it means for a set of inputs to be \\emph{generable} has go…",
+          "summary": "Randomised testing has new complexity-theoretic foundations.",
           "key_points": [],
-          "tag": "",
+          "tag": "Research",
           "highlight": false
         },
         {
@@ -382,9 +416,9 @@
           "points": null,
           "score": 3.0,
           "id": "c2ace212501317173aa8783ebe2ca52ef4013b60",
-          "summary": "We introduce a notion of convergence for the nodes and edges of a control-flow graph that captures whether a barrier placed at that location is guaranteed to synchronize all threads of a thread block in every execution. …",
+          "summary": "Convergence analysis helps compilers optimize thread-block barriers.",
           "key_points": [],
-          "tag": "",
+          "tag": "Research",
           "highlight": false
         },
         {
@@ -396,9 +430,9 @@
           "points": null,
           "score": 2.5,
           "id": "ecc8cde3419e363ea8c153591c17bdc5cf1a1821",
-          "summary": "We present Parcas, a concurrent separation logic for verifying the parallel time complexity of fork-join programs. In order to abstract from the specifics of the machine, time complexity for parallel programs is given in…",
+          "summary": "Parcas is a separation logic for verifying parallel time complexity.",
           "key_points": [],
-          "tag": "",
+          "tag": "Research",
           "highlight": false
         },
         {
@@ -410,9 +444,9 @@
           "points": null,
           "score": 2.5,
           "id": "a86553c9e0ca3ee41f6f507b5e0b0409a0834460",
-          "summary": "Modern cloud data warehouses decouple compute from storage, making it easy for organizations to access the same underlying data with multiple compute clusters. This flexibility is often used for performance isolation amo…",
+          "summary": "AutoSLO is a latency-SLO-aware workload management framework.",
           "key_points": [],
-          "tag": "",
+          "tag": "Research",
           "highlight": false
         },
         {
@@ -424,9 +458,9 @@
           "points": null,
           "score": 2.5,
           "id": "9688dae81286282395cc5e5f445708cba07d2913",
-          "summary": "Large language models are increasingly used to find bugs in real-world programs, but they also produce a flood of false alarms that waste developers' time. We propose a method to prevent these false alarms by requiring a…",
+          "summary": "Mizzle is an incorrectness logic for preventing false alarms in bug finding.",
           "key_points": [],
-          "tag": "",
+          "tag": "Research",
           "highlight": false
         }
       ]
@@ -442,12 +476,12 @@
           "source": "GitHub trending · c++",
           "section": "repos",
           "published": null,
-          "points": 39230,
+          "points": 39233,
           "score": 3.0,
           "id": "18a46c87eccea15cfa9ad6b23ab639d01d8827bd",
-          "summary": "Self-hosted game stream host for Moonlight.",
+          "summary": "LizardByte/Sunshine is a self-hosted game stream host.",
           "key_points": [],
-          "tag": "",
+          "tag": "Repo",
           "highlight": false
         },
         {
@@ -456,7 +490,7 @@
           "source": "GitHub trending · rust",
           "section": "repos",
           "published": null,
-          "points": 4021,
+          "points": 4023,
           "score": 3.0,
           "id": "453843e16a94d717c20bea85256ea86ae4c9c86c",
           "summary": "WeChat local data CLI with daemon architecture",
@@ -470,7 +504,7 @@
           "source": "GitHub trending",
           "section": "repos",
           "published": null,
-          "points": 85891,
+          "points": 85919,
           "score": 2.5,
           "id": "dd6a9d14a094d1594baeb964ac415610498cc4a0",
           "summary": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. Ap…",
@@ -484,7 +518,7 @@
           "source": "GitHub trending · python",
           "section": "repos",
           "published": null,
-          "points": 23359,
+          "points": 23360,
           "score": 2.5,
           "id": "82d4a2769261ee0119968dff24a051d69416ad1c",
           "summary": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
