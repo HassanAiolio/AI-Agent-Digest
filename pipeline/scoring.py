@@ -26,6 +26,12 @@ def _compile(words: dict[str, float]) -> list[tuple[re.Pattern, float]]:
     return out
 
 
+def _source_group(source: str) -> str:
+    """Group items for max_per_source: first word of the display source,
+    e.g. 'arXiv cs.LG' and 'arXiv cs.CL' both group under 'arxiv'."""
+    return source.split()[0].lower() if source else ""
+
+
 class Scorer:
     def __init__(self, cfg: dict):
         sc = cfg["scoring"]
@@ -38,9 +44,19 @@ class Scorer:
         }
         self.sections = [s["id"] for s in cfg["sections"]]
         self.caps = {s["id"]: int(s["max_items"]) for s in cfg["sections"]}
+        self.per_source_caps = {
+            s["id"]: int(s["max_per_source"])
+            for s in cfg["sections"] if s.get("max_per_source") is not None
+        }
 
-    def _keyword_score(self, text: str, section: str) -> float:
-        return sum(w for pat, w in self.keywords.get(section, []) if pat.search(text))
+    def _keyword_score(self, title: str, abstract: str, section: str) -> float:
+        total = 0.0
+        for pat, w in self.keywords.get(section, []):
+            if pat.search(title):
+                total += w
+            elif pat.search(abstract):
+                total += w * 0.5
+        return total
 
     def _penalty(self, text: str) -> float:
         return sum(w for pat, w in self.negative if pat.search(text))
@@ -49,11 +65,12 @@ class Scorer:
         buckets: dict[str, list[Item]] = {s: [] for s in self.sections}
         dropped = 0
         for it in items:
-            text = f"{it.title} {it.abstract}".lower()
-            penalty = self._penalty(text)
+            title = it.title.lower()
+            abstract = it.abstract.lower()
+            penalty = self._penalty(f"{title} {abstract}")
 
             if it.section:  # fixed section
-                kw = self._keyword_score(text, it.section)
+                kw = self._keyword_score(title, abstract, it.section)
                 it.score = round(it.weight + kw - penalty, 2)
                 if it.score >= self.include_threshold and it.section in buckets:
                     buckets[it.section].append(it)
@@ -62,7 +79,7 @@ class Scorer:
             else:  # route to best section
                 best, best_kw = None, 0.0
                 for s in self.sections:
-                    k = self._keyword_score(text, s)
+                    k = self._keyword_score(title, abstract, s)
                     if k > best_kw:
                         best, best_kw = s, k
                 if best is None or best_kw - penalty < self.route_threshold:
@@ -74,7 +91,22 @@ class Scorer:
 
         for s, bucket in buckets.items():
             bucket.sort(key=lambda i: (-i.score, i.title))
-            del bucket[self.caps[s]:]
+            cap = self.caps[s]
+            per_source_cap = self.per_source_caps.get(s)
+            if per_source_cap is None:
+                del bucket[cap:]
+                continue
+            selected: list[Item] = []
+            counts: dict[str, int] = {}
+            for it in bucket:
+                if len(selected) >= cap:
+                    break
+                grp = _source_group(it.source)
+                if counts.get(grp, 0) >= per_source_cap:
+                    continue
+                counts[grp] = counts.get(grp, 0) + 1
+                selected.append(it)
+            buckets[s] = selected
 
         kept = sum(len(b) for b in buckets.values())
         log.info("scoring: %d kept across sections, %d dropped", kept, dropped)
