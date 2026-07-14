@@ -1,0 +1,96 @@
+{
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T02:45:00+00:00",
+  "stats": {
+    "fetched": 187,
+    "new_after_dedupe": 64,
+    "published": 6,
+    "failed_sources": [],
+    "summarizer": "gemini"
+  },
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "Sample: Scaling laws for sparse mixture-of-experts models",
+          "url": "https://arxiv.org/abs/2607.01234",
+          "source": "arXiv cs.LG",
+          "section": "ai-ml",
+          "published": "2026-07-13T18:02:00+00:00",
+          "points": null,
+          "score": 9.5,
+          "id": "seed-1",
+          "summary": "Seed data. Replace by running the pipeline once: python pipeline/main.py. This entry demonstrates the layout with a typical arXiv item."
+        },
+        {
+          "title": "Sample: Open-weight 8B reasoning model released under Apache 2.0",
+          "url": "https://huggingface.co",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-07-13T09:00:00+00:00",
+          "points": 412,
+          "score": 6.0,
+          "id": "seed-2",
+          "summary": "Seed data showing a model-release entry with points and a shorter signal bar, since its relevance score is lower than the item above."
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "Sample: Writing a bare-metal RISC-V bootloader in Rust",
+          "url": "https://example.com/riscv-bootloader",
+          "source": "Hacker News",
+          "section": "embedded",
+          "published": "2026-07-13T21:40:00+00:00",
+          "points": 156,
+          "score": 8.0,
+          "id": "seed-3",
+          "summary": "Seed data. A routed Hacker News item that matched embedded-systems keywords strongly enough to clear the routing threshold."
+        }
+      ]
+    },
+    {
+      "id": "competitive",
+      "title": "Competitive programming",
+      "tier": 3,
+      "items": [
+        {
+          "title": "Sample: Upcoming Codeforces Round (Div. 2)",
+          "url": "https://codeforces.com/contests",
+          "source": "Codeforces",
+          "section": "competitive",
+          "published": "2026-07-17T17:35:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "seed-4",
+          "summary": "Seed data. Contest announcements come from the official Codeforces API with start time and duration."
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "example/awesome-inference",
+          "url": "https://github.com/trending",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 2450,
+          "score": 4.0,
+          "id": "seed-5",
+          "summary": "Seed data. Trending repos are scraped (no official API); each repo appears in exactly one digest thanks to the seen-DB."
+        }
+      ]
+    }
+  ]
+}
