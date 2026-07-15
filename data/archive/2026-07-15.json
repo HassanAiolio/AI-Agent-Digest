@@ -1,10 +1,10 @@
 {
   "date": "2026-07-15",
-  "generated_at": "2026-07-15T05:15:39+00:00",
+  "generated_at": "2026-07-15T09:50:57+00:00",
   "stats": {
-    "fetched": 234,
-    "new_after_dedupe": 217,
-    "published": 28,
+    "fetched": 219,
+    "new_after_dedupe": 204,
+    "published": 29,
     "failed_sources": [],
     "summarizer": "groq"
   },
@@ -18,11 +18,11 @@
       "points": null,
       "score": 11.5,
       "id": "db932a558e4f03e353177525282cc8d391f4ca67",
-      "summary": "Study adapts reasoning model for thermal energy storage control using reinforcement learning with verifiable rewards.",
-      "detail": "The model is trained as an upper-level scheduler that outputs hourly heat-pump setpoints from text-based states and forecasts, and is evaluated on a simple office-building TES benchmark.",
+      "summary": "Study adapts reasoning model for thermal energy storage control",
+      "detail": "The model uses reinforcement learning with verifiable rewards and is trained as an upper-level scheduler. It outputs hourly heat-pump setpoints from text-based states and forecasts.",
       "key_points": [
         "30 training prompts",
-        "70 emissions reduction"
+        "reduces emissions"
       ],
       "tag": "Research",
       "highlight": true,
@@ -37,8 +37,8 @@
       "points": null,
       "score": 8.5,
       "id": "44255aada07dc53937377a71edb4236f1feac17e",
-      "summary": "Researchers propose E3, a task-aware execution-scope estimation method for AI agents.",
-      "detail": "E3 estimates an initial operating point, executes a minimum viable path, and expands scope only when verification fails, reducing unnecessary computations.",
+      "summary": "Agents lack task-aware execution-scope estimation",
+      "detail": "The proposed E3 approach estimates an initial operating point, executes a minimum viable path, and expands scope only when verification fails. This approach matches the strong baseline on the MSE-Bench.",
       "key_points": [
         "121 edits",
         "MSE-Bench"
@@ -56,8 +56,8 @@
       "points": null,
       "score": 7.5,
       "id": "3ecad8063874529c7454e719b43b8860b73bbc23",
-      "summary": "Audio-native speech recognition uses a frozen discrete-diffusion language model.",
-      "detail": "The model generates text by uniform, random-token discrete diffusion, and is trained with a lightweight projector and low-rank adapters to attend to the new modality.",
+      "summary": "Discrete-diffusion language model for speech recognition",
+      "detail": "The model generates text by uniform, random-token discrete diffusion and uses a frozen Whisper encoder to supply acoustic features. Low-rank adapters enable the frozen backbone to attend to the new modality.",
       "key_points": [
         "26B model",
         "42M parameters"
@@ -75,10 +75,10 @@
       "points": null,
       "score": 7.0,
       "id": "56ba470b6ff55bb294bc55f20da9fded81ce806e",
-      "summary": "Spectral::Cup 2026 Round 3",
-      "detail": "Codeforces contest with Div. 1 and Div. 2.",
+      "summary": "Spectral::Cup 2026 Round 3 starts July 16",
+      "detail": "The contest is a Codeforces round with a duration of 2.5 hours.",
       "key_points": [
-        "Thu 16 Jul",
+        "July 16",
         "2.5h"
       ],
       "tag": "Contest",
@@ -86,22 +86,20 @@
       "image": ""
     },
     {
-      "title": "Building Extensible Program Logics through Effect Handlers",
-      "url": "https://arxiv.org/abs/2607.12642v1",
-      "source": "arXiv cs.LO",
-      "section": "cs-research",
-      "published": "2026-07-14T11:21:43+00:00",
-      "points": null,
-      "score": 3.0,
-      "id": "6f458ea82374737b4bc99c9586e1b004989b833f",
-      "summary": "Extensible program logics",
-      "detail": "Developing program logics with reusable components.",
-      "key_points": [
-        "Effect handlers"
-      ],
-      "tag": "Research",
+      "title": "Guardian Angels: LLM Personalization for Productivity and Security",
+      "url": "https://gwern.net/guardian-angel",
+      "source": "Hacker News",
+      "section": "ai-ml",
+      "published": "2026-07-14T12:50:29+00:00",
+      "points": 84,
+      "score": 4.0,
+      "id": "414c9c74c82c5152a6df5f15f2cde5441c8fca24",
+      "summary": "LLM personalization for productivity and security",
+      "detail": "No additional information available.",
+      "key_points": [],
+      "tag": "",
       "highlight": true,
-      "image": ""
+      "image": "https://gwern.net/doc/ai/nn/transformer/gpt/dall-e/4o/2026-06-13-gwern-gpt55pro-claude48opus-chatgptimages20-gaplusquill-guardianangellogo.jpg"
     }
   ],
   "sections": [
@@ -119,11 +117,11 @@
           "points": null,
           "score": 11.5,
           "id": "db932a558e4f03e353177525282cc8d391f4ca67",
-          "summary": "Study adapts reasoning model for thermal energy storage control using reinforcement learning with verifiable rewards.",
-          "detail": "The model is trained as an upper-level scheduler that outputs hourly heat-pump setpoints from text-based states and forecasts, and is evaluated on a simple office-building TES benchmark.",
+          "summary": "Study adapts reasoning model for thermal energy storage control",
+          "detail": "The model uses reinforcement learning with verifiable rewards and is trained as an upper-level scheduler. It outputs hourly heat-pump setpoints from text-based states and forecasts.",
           "key_points": [
             "30 training prompts",
-            "70 emissions reduction"
+            "reduces emissions"
           ],
           "tag": "Research",
           "highlight": true,
@@ -138,8 +136,8 @@
           "points": null,
           "score": 8.5,
           "id": "44255aada07dc53937377a71edb4236f1feac17e",
-          "summary": "Researchers propose E3, a task-aware execution-scope estimation method for AI agents.",
-          "detail": "E3 estimates an initial operating point, executes a minimum viable path, and expands scope only when verification fails, reducing unnecessary computations.",
+          "summary": "Agents lack task-aware execution-scope estimation",
+          "detail": "The proposed E3 approach estimates an initial operating point, executes a minimum viable path, and expands scope only when verification fails. This approach matches the strong baseline on the MSE-Bench.",
           "key_points": [
             "121 edits",
             "MSE-Bench"
@@ -157,8 +155,8 @@
           "points": null,
           "score": 7.5,
           "id": "3ecad8063874529c7454e719b43b8860b73bbc23",
-          "summary": "Audio-native speech recognition uses a frozen discrete-diffusion language model.",
-          "detail": "The model generates text by uniform, random-token discrete diffusion, and is trained with a lightweight projector and low-rank adapters to attend to the new modality.",
+          "summary": "Discrete-diffusion language model for speech recognition",
+          "detail": "The model generates text by uniform, random-token discrete diffusion and uses a frozen Whisper encoder to supply acoustic features. Low-rank adapters enable the frozen backbone to attend to the new modality.",
           "key_points": [
             "26B model",
             "42M parameters"
@@ -166,6 +164,22 @@
           "tag": "Research",
           "highlight": true,
           "image": ""
+        },
+        {
+          "title": "Guardian Angels: LLM Personalization for Productivity and Security",
+          "url": "https://gwern.net/guardian-angel",
+          "source": "Hacker News",
+          "section": "ai-ml",
+          "published": "2026-07-14T12:50:29+00:00",
+          "points": 84,
+          "score": 4.0,
+          "id": "414c9c74c82c5152a6df5f15f2cde5441c8fca24",
+          "summary": "LLM personalization for productivity and security",
+          "detail": "No additional information available.",
+          "key_points": [],
+          "tag": "",
+          "highlight": true,
+          "image": "https://gwern.net/doc/ai/nn/transformer/gpt/dall-e/4o/2026-06-13-gwern-gpt55pro-claude48opus-chatgptimages20-gaplusquill-guardianangellogo.jpg"
         },
         {
           "title": "Jul 14, 2026 Announcements Anthropic commits $10 million to Canadian AI research",
@@ -176,10 +190,11 @@
           "points": null,
           "score": 3.0,
           "id": "142f89762aff6d559cc14b697d1280ddd46a79ff",
-          "summary": "Anthropic commits $10 million to Canadian AI research.",
-          "detail": "The investment aims to support AI research and development in Canada.",
+          "summary": "Anthropic commits $10 million to Canadian AI research",
+          "detail": "The commitment aims to support Canadian AI research and development.",
           "key_points": [
-            "$10 million"
+            "$10 million",
+            "Jul 14, 2026"
           ],
           "tag": "News",
           "highlight": false,
@@ -194,10 +209,12 @@
           "points": null,
           "score": 3.0,
           "id": "678cf57f2568974e339137f1cdabb19b61696591",
-          "summary": "Anthropic introduces Claude for Teachers.",
-          "detail": "Claude is a tool designed to support teachers in their work, but details are not provided.",
-          "key_points": [],
-          "tag": "",
+          "summary": "Introducing Claude for Teachers",
+          "detail": "No additional information available.",
+          "key_points": [
+            "Jul 14, 2026"
+          ],
+          "tag": "News",
           "highlight": false,
           "image": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
         },
@@ -210,9 +227,11 @@
           "points": null,
           "score": 3.0,
           "id": "32c6c3db74853e73dcd1c4d3629a1446290af4d9",
-          "summary": "Anthropic announces Fable 5's cyber safeguards and jailbreak framework.",
-          "detail": "The announcement provides more information on the security features of Fable 5, but details are not provided.",
-          "key_points": [],
+          "summary": "Fable 5’s cyber safeguards and jailbreak framework",
+          "detail": "No additional information available.",
+          "key_points": [
+            "Jul 2, 2026"
+          ],
           "tag": "News",
           "highlight": false,
           "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Lock&backgroundColor=cactus"
@@ -223,14 +242,14 @@
           "source": "HF trending",
           "section": "ai-ml",
           "published": "2026-07-03T09:24:41.000Z",
-          "points": 237,
+          "points": 239,
           "score": 1.5,
           "id": "2110958d64696c1c1b002b434737e1fa92857828",
-          "summary": "Model GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF is available.",
-          "detail": "The model is a text-generation model, but details about its architecture and capabilities are not provided.",
+          "summary": "GnLOLot/MiniCPM5-1B-Claude model",
+          "detail": "The model is a text-generation model available on the HF trending platform.",
           "key_points": [
             "89,892 downloads",
-            "237 likes"
+            "239 likes"
           ],
           "tag": "Repo",
           "highlight": false,
@@ -242,14 +261,14 @@
           "source": "HF trending",
           "section": "ai-ml",
           "published": "2026-04-17T00:15:26.000Z",
-          "points": 2737,
+          "points": 2743,
           "score": 1.5,
           "id": "c41cb4ccecccde3276accd7cf12903839dba46b1",
-          "summary": "Model HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive is available.",
-          "detail": "The model is an image-text-to-text model, but details about its architecture and capabilities are not provided.",
+          "summary": "HauhauCS/Qwen3.6-35B-A3B model",
+          "detail": "The model is an image-text-to-text model available on the HF trending platform.",
           "key_points": [
             "2,443,871 downloads",
-            "2737 likes"
+            "2743 likes"
           ],
           "tag": "Repo",
           "highlight": false,
@@ -261,14 +280,14 @@
           "source": "HF trending",
           "section": "ai-ml",
           "published": "2026-06-22T02:22:59.000Z",
-          "points": 541,
+          "points": 543,
           "score": 1.5,
           "id": "5d2f95a3c39113a913a66a0c37ce76b8891e324c",
-          "summary": "Model InternScience/Agents-A1 is available.",
-          "detail": "The model is a text-generation model, but details about its architecture and capabilities are not provided.",
+          "summary": "InternScience/Agents-A1 model",
+          "detail": "The model is a text-generation model available on the HF trending platform.",
           "key_points": [
             "30,539 downloads",
-            "541 likes"
+            "543 likes"
           ],
           "tag": "Repo",
           "highlight": false,
@@ -290,8 +309,8 @@
           "points": null,
           "score": 2.0,
           "id": "af4b82566308eb45ae216e276bb5a0d1249b994d",
-          "summary": "Linux.org story is posted by Rob Kennedy.",
-          "detail": "The story tells the history of Linux.org, one of the earliest Linux-related websites, and its recent rebirth.",
+          "summary": "Linux.org story and rebirth",
+          "detail": "The site was founded by Michael McLagan to provide a place for people to learn about Linux and follow the movement as it grew.",
           "key_points": [
             "May 1994",
             "Linus Torvalds"
@@ -309,8 +328,8 @@
           "points": null,
           "score": 1.5,
           "id": "2fc10158e7e034e12ffb40c678ddcc630ee53fea",
-          "summary": "2026 Frikkin Lasers Challenge: Laser Bandsaw is announced.",
-          "detail": "The challenge is a contest where participants can create innovative projects using lasers, but details are not provided.",
+          "summary": "2026 Frikkin Lasers Challenge: Laser Bandsaw",
+          "detail": "The challenge involves creating a manually-controlled laser cutter.",
           "key_points": [],
           "tag": "Contest",
           "highlight": false,
@@ -325,10 +344,13 @@
           "points": null,
           "score": 1.5,
           "id": "8825a98c345fae29b1ba0aa5770d55f36b120abb",
-          "summary": "AIM-ing For a More Open Platform Than Discord is discussed.",
-          "detail": "The article discusses the history of AIM and its comparison to Discord, highlighting the need for a more open platform.",
-          "key_points": [],
-          "tag": "Analysis",
+          "summary": "AOL's AIM supported until 2017",
+          "detail": "AIM was an instant messenger that was supported for a long time, even after Discord launched.",
+          "key_points": [
+            "2017",
+            "2 years"
+          ],
+          "tag": "News",
           "highlight": false,
           "image": "https://hackaday.com/wp-content/uploads/2026/07/OpenOscar.png"
         },
@@ -342,12 +364,11 @@
           "score": 1.5,
           "id": "92738778d561c1f1c685b70268771f6c07ce3562",
           "summary": "Asus tablet repairability scored",
-          "detail": "The score involves documentation and spare parts availability.",
+          "detail": "The repairability score involves documentation and availability of spare parts.",
           "key_points": [
-            "France",
             "5 criteria"
           ],
-          "tag": "News",
+          "tag": "Analysis",
           "highlight": false,
           "image": "https://hackaday.com/wp-content/uploads/2026/07/asus_rog_flow_perfect_repairability_score_ifixit_youtube.jpg"
         },
@@ -361,10 +382,8 @@
           "score": 1.5,
           "id": "9e9cbfa0656ce75c6ea51972c3234d893532f111",
           "summary": "Fibrous muscles for robots",
-          "detail": "Current robotics development is not yet close to human-like capabilities.",
-          "key_points": [
-            "Humanoid robotics"
-          ],
+          "detail": "Fibrous muscles can be used in humanoid robotics for more human-like movement.",
+          "key_points": [],
           "tag": "Research",
           "highlight": false,
           "image": "https://hackaday.com/wp-content/uploads/2026/07/Electrofluidic-Fiber-Muscles-on-Science-Robotics-0-29-screenshot.png"
@@ -379,10 +398,8 @@
           "score": 1.5,
           "id": "cfb421585795f3f0bc7fc8c74e4270fe298baf14",
           "summary": "DIY full body VR tracking",
-          "detail": "Repurposing hardware for affordable VR tracking.",
-          "key_points": [
-            "Vive Tracker Lite"
-          ],
+          "detail": "The Vive Tracker Lite project repurposes old hardware for full body tracking.",
+          "key_points": [],
           "tag": "Repo",
           "highlight": false,
           "image": "https://hackaday.com/wp-content/uploads/2026/07/vive-wand-tracker-banner.png"
@@ -403,10 +420,10 @@
           "points": null,
           "score": 7.0,
           "id": "56ba470b6ff55bb294bc55f20da9fded81ce806e",
-          "summary": "Spectral::Cup 2026 Round 3",
-          "detail": "Codeforces contest with Div. 1 and Div. 2.",
+          "summary": "Spectral::Cup 2026 Round 3 starts July 16",
+          "detail": "The contest is a Codeforces round with a duration of 2.5 hours.",
           "key_points": [
-            "Thu 16 Jul",
+            "July 16",
             "2.5h"
           ],
           "tag": "Contest",
@@ -429,30 +446,9 @@
           "points": null,
           "score": 3.0,
           "id": "6f458ea82374737b4bc99c9586e1b004989b833f",
-          "summary": "Extensible program logics",
-          "detail": "Developing program logics with reusable components.",
-          "key_points": [
-            "Effect handlers"
-          ],
-          "tag": "Research",
-          "highlight": true,
-          "image": ""
-        },
-        {
-          "title": "Parallelizing Legacy Mesh Generation Software: Lessons Learned from a Pseudo-Constrained Parallel Data Refinement Approach for Advancing Front Local Reconnection",
-          "url": "https://arxiv.org/abs/2607.12253v1",
-          "source": "arXiv cs.DC",
-          "section": "cs-research",
-          "published": "2026-07-14T01:32:07+00:00",
-          "points": null,
-          "score": 3.0,
-          "id": "abc4da0e59a4efa413a340ead5ba35384d1b0531",
-          "summary": "Parallelizing mesh generation",
-          "detail": "Lessons learned from parallelizing legacy software.",
-          "key_points": [
-            "11x speedup",
-            "16 CPU cores"
-          ],
+          "summary": "Extensible program logics proposed",
+          "detail": "The approach uses effect handlers to build program logics, making it easier to develop new logics.",
+          "key_points": [],
           "tag": "Research",
           "highlight": false,
           "image": ""
@@ -466,11 +462,9 @@
           "points": null,
           "score": 2.5,
           "id": "3c43f7e431b102609028bc4869d69a750b14cf6e",
-          "summary": "Cross-core inference offload",
-          "detail": "Operating-system service for asymmetric dual-core microcontrollers.",
-          "key_points": [
-            "Dual-core MCUs"
-          ],
+          "summary": "Dual-core microcontroller inference offload",
+          "detail": "The approach uses a message-based OS service to offload inference to a capable core.",
+          "key_points": [],
           "tag": "Research",
           "highlight": false,
           "image": ""
@@ -485,28 +479,8 @@
           "score": 2.5,
           "id": "38ce1393e7f270c739424d23ce225afec091ac1e",
           "summary": "Inference pipelines as OS objects",
-          "detail": "Making inference pipelines a first-class OS concern.",
-          "key_points": [
-            "Priority scheduling"
-          ],
-          "tag": "Research",
-          "highlight": false,
-          "image": ""
-        },
-        {
-          "title": "Profiling and Scheduling Complex O-RAN Applications Across the 5G Edge and Cloud",
-          "url": "https://arxiv.org/abs/2607.12230v1",
-          "source": "arXiv cs.DC",
-          "section": "cs-research",
-          "published": "2026-07-14T00:23:52+00:00",
-          "points": null,
-          "score": 2.5,
-          "id": "e9089f3657c0f3e935a19af63b8e2104d957f9fc",
-          "summary": "Profiling O-RAN applications",
-          "detail": "End-to-end framework for profiling and scheduling complex applications.",
-          "key_points": [
-            "5G edge"
-          ],
+          "detail": "The approach makes the inference pipeline a first-class OS object, improving priority scheduling and streaming.",
+          "key_points": [],
           "tag": "Research",
           "highlight": false,
           "image": ""
@@ -520,11 +494,41 @@
           "points": null,
           "score": 2.0,
           "id": "8d02bca221fa3aceb89c589dbd0e9375a9c1e911",
-          "summary": "Quantum weakest preconditions",
-          "detail": "Revisiting quantum weakest preconditions for program verification.",
-          "key_points": [
-            "Expected runtime analysis"
-          ],
+          "summary": "Quantum weakest preconditions revisited",
+          "detail": "The approach introduces a novel pre-expectation framework for expected runtime analysis of quantum programs.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": ""
+        },
+        {
+          "title": "When is LLM-Based Program Reasoning Correct? A Completion Semantics for LLM-Based Code Inference",
+          "url": "https://arxiv.org/abs/2607.12490v1",
+          "source": "arXiv cs.PL",
+          "section": "cs-research",
+          "published": "2026-07-14T08:23:24+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "d40b853ddeb5fa1cbc7222bb4682f4e02c894089",
+          "summary": "LLM-based program reasoning correctness",
+          "detail": "The approach introduces completion semantics for LLM-based program reasoning, defining correctness relative to a completion model.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": ""
+        },
+        {
+          "title": "GRAFT: Graph-Matched Retrieval and Fusion of Tables in Data Lakes",
+          "url": "https://arxiv.org/abs/2607.12717v1",
+          "source": "arXiv cs.DB",
+          "section": "cs-research",
+          "published": "2026-07-14T12:42:22+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "d950c2a366e11f0febee9551a63ecff6afd78c33",
+          "summary": "GRAFT: Graph-matched table retrieval",
+          "detail": "The approach casts table retrieval as a graph matching problem, introducing a log-determinant reward.",
+          "key_points": [],
           "tag": "Research",
           "highlight": false,
           "image": ""
@@ -542,17 +546,15 @@
           "source": "GitHub trending · rust",
           "section": "repos",
           "published": null,
-          "points": 7489,
+          "points": 7493,
           "score": 2.5,
           "id": "2b87f6c2803dc241c51fdb2f98f38394847defea",
-          "summary": "Distributed inference framework",
-          "detail": "A Rust framework for distributed inference serving.",
-          "key_points": [
-            "Datacenter scale"
-          ],
+          "summary": "ai-dynamo: Distributed inference framework",
+          "detail": "The framework is designed for datacenter-scale distributed inference serving.",
+          "key_points": [],
           "tag": "Repo",
           "highlight": false,
-          "image": "https://opengraph.githubassets.com/5fa28c0e389af6ad3dd6d02fd9966e4f48ccd7f299487cebfdea017a1a83fdc5/ai-dynamo/dynamo"
+          "image": "https://opengraph.githubassets.com/02eaea37552396cbb424bbe84ab3213733e15b5791775b8cc7e515d859d2943b/ai-dynamo/dynamo"
         },
         {
           "title": "geode-sdk/geode",
@@ -560,14 +562,12 @@
           "source": "GitHub trending · c++",
           "section": "repos",
           "published": null,
-          "points": 2658,
+          "points": 2656,
           "score": 2.5,
           "id": "64e07407dc03bb18c3f184f25c3bc14cd98f7280",
           "summary": "Geometry Dash modding framework",
-          "detail": "A framework for modding Geometry Dash.",
-          "key_points": [
-            "C++"
-          ],
+          "detail": "This framework allows for the creation of custom mods for Geometry Dash, a popular rhythm-based platformer game. It provides a set of tools and APIs for modders to extend the game's functionality.",
+          "key_points": [],
           "tag": "Repo",
           "highlight": false,
           "image": "https://repository-images.githubusercontent.com/449738859/a877409c-2584-4448-abba-b2975a958a29"
@@ -578,15 +578,15 @@
           "source": "GitHub trending · c++",
           "section": "repos",
           "published": null,
-          "points": 38817,
+          "points": 38818,
           "score": 2.5,
           "id": "a5ec1ab21b87fe050af68798d94636b81d973918",
-          "summary": "GoogleTest framework",
-          "detail": "GoogleTest is a testing and mocking framework for C++ applications, providing a rich set of assertions and testing utilities. It is widely used in the industry for unit testing and integration testing.",
+          "summary": "Google Testing Framework",
+          "detail": "GoogleTest is a widely-used C++ testing framework developed by Google. It provides a lot of features for writing and running tests, including test discovery and mocking.",
           "key_points": [],
           "tag": "Repo",
           "highlight": false,
-          "image": "https://opengraph.githubassets.com/873ab849a5dd7c75106d5f505f2e9f9490c340e83f71a1616e0a73c860735422/google/googletest"
+          "image": "https://opengraph.githubassets.com/0114a217fdea3576d5433dfd1014d7d997b4771d28812d9b1c6a5412097df80a/google/googletest"
         },
         {
           "title": "jrouwe/JoltPhysics",
@@ -594,11 +594,11 @@
           "source": "GitHub trending · c++",
           "section": "repos",
           "published": null,
-          "points": 10912,
+          "points": 10924,
           "score": 2.5,
           "id": "6fb329816e6085e424affb193fbd15b77014d0fa",
-          "summary": "JoltPhysics library",
-          "detail": "JoltPhysics is a multi-core friendly physics library, suitable for games and VR applications, with notable users including Horizon Forbidden West and Death Stranding 2. It provides efficient collision detection and rigid body physics.",
+          "summary": "Jolt Physics library",
+          "detail": "Jolt Physics is a multi-core friendly physics library written in C++. It is suitable for games and VR applications, and has been used in several high-profile games. It provides features such as rigid body dynamics and collision detection.",
           "key_points": [],
           "tag": "Repo",
           "highlight": false,
@@ -610,15 +610,15 @@
           "source": "GitHub trending · python",
           "section": "repos",
           "published": null,
-          "points": 166047,
+          "points": 166161,
           "score": 2.5,
           "id": "8d319652f14e2c9b8e52876942138d38a8ba7725",
-          "summary": "Markitdown tool",
-          "detail": "Markitdown is a Python tool for converting files and office documents to Markdown format, providing an easy way to convert documents to a lightweight markup language. It supports various file formats and office documents.",
+          "summary": "Python Markdown converter",
+          "detail": "This Python tool allows users to convert files and office documents to Markdown format. It provides a simple and efficient way to convert documents, making it easier to work with Markdown files.",
           "key_points": [],
           "tag": "Repo",
           "highlight": false,
-          "image": "https://opengraph.githubassets.com/16434c6a93563e51b9b6768c7bc8b92400dbb56a92164a96c00b0ca09ca39427/microsoft/markitdown"
+          "image": "https://opengraph.githubassets.com/20fa2d4cf645b44d8a123d6c45b8666406b51d316057b114b777d679268619cb/microsoft/markitdown"
         },
         {
           "title": "sdatkinson/NeuralAmpModelerCore",
@@ -626,15 +626,15 @@
           "source": "GitHub trending · c++",
           "section": "repos",
           "published": null,
-          "points": 782,
+          "points": 784,
           "score": 2.5,
           "id": "0b3488df10ba8abd4d64fbefa9f76c3561e435b7",
           "summary": "NeuralAmpModelerCore library",
-          "detail": "NeuralAmpModelerCore is a core DSP library for NAM plugins, providing a foundation for digital signal processing applications. It is written in C++ and is part of the NeuralAmpModeler project.",
+          "detail": "This is a core DSP library for NAM plugins, providing a set of digital signal processing functions. It is written in C++ and is designed to be used in audio processing applications.",
           "key_points": [],
           "tag": "Repo",
           "highlight": false,
-          "image": "https://opengraph.githubassets.com/b3a44e9c27c79a05a7b1dc75c6eef547dac342cb767e3290c0036a37731b3c27/sdatkinson/NeuralAmpModelerCore"
+          "image": "https://opengraph.githubassets.com/03099b80882fcb049fcc406a289dcbfd551882fe5c54d3d76d2e43dcad80e6d9/sdatkinson/NeuralAmpModelerCore"
         }
       ]
     }
