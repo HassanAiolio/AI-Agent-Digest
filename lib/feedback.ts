@@ -11,6 +11,7 @@ export interface Vote {
 type Votes = Record<string, Vote>;
 
 const STORAGE_KEY = "digest:feedback:v1";
+const OWNER_KEY = "digest:owner-key";
 const CLAMP = 3;
 const TAG_WEIGHT = 0.6;
 const SOURCE_WEIGHT = 0.4;
@@ -32,40 +33,63 @@ function writeVotes(votes: Votes) {
   }
 }
 
-/** Client-side like/dislike: instant local re-ranking via localStorage, plus
- * a best-effort sync to /api/feedback so the nightly pipeline can learn the
- * same preference server-side (see pipeline/preferences.py). If the sync
- * fails or the endpoint isn't configured, the local vote still applies —
- * syncing is a bonus, never a requirement for the feature to work. */
+/** The owner unlocks vote syncing once per browser by visiting
+ * /?owner=<FEEDBACK_KEY>. The key is kept in localStorage and scrubbed from
+ * the address bar so it doesn't end up in history or a shared link. */
+function ownerKey(): string | null {
+  try {
+    const url = new URL(window.location.href);
+    const fromUrl = url.searchParams.get("owner");
+    if (fromUrl) {
+      window.localStorage.setItem(OWNER_KEY, fromUrl);
+      url.searchParams.delete("owner");
+      window.history.replaceState(null, "", url.pathname + url.search + url.hash);
+      return fromUrl;
+    }
+    return window.localStorage.getItem(OWNER_KEY);
+  } catch {
+    return null;
+  }
+}
+
+/** Client-side like/dislike: instant local re-ranking via localStorage for
+ * everyone. For the owner (see ownerKey), each vote is also synced to
+ * /api/feedback so the nightly pipeline learns the same preference. */
 export function useFeedback() {
   const [votes, setVotes] = useState<Votes>({});
+  const [key, setKey] = useState<string | null>(null);
 
   useEffect(() => {
     setVotes(readVotes());
+    setKey(ownerKey());
   }, []);
 
-  const castVote = useCallback((id: string, tag: string, source: string, value: 1 | -1) => {
-    setVotes((prev) => {
-      const next = { ...prev };
-      const clearing = next[id]?.vote === value;
-      if (clearing) {
-        delete next[id];
-      } else {
-        next[id] = { vote: value, tag, source, ts: new Date().toISOString() };
-      }
-      writeVotes(next);
-      // Trailing slash avoids an extra 308-redirect hop from next.config's
-      // trailingSlash: true (which applies to route handlers too).
-      fetch("/api/feedback/", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ id, tag, source, vote: clearing ? 0 : value }),
-      }).catch(() => {
-        /* best-effort; localStorage already has the vote either way */
+  const castVote = useCallback(
+    (id: string, tag: string, source: string, title: string, value: 1 | -1) => {
+      setVotes((prev) => {
+        const next = { ...prev };
+        const clearing = next[id]?.vote === value;
+        if (clearing) {
+          delete next[id];
+        } else {
+          next[id] = { vote: value, tag, source, ts: new Date().toISOString() };
+        }
+        writeVotes(next);
+        if (key) {
+          // Trailing slash avoids an extra 308 from next.config's trailingSlash.
+          fetch("/api/feedback/", {
+            method: "POST",
+            headers: { "Content-Type": "application/json", "x-feedback-key": key },
+            body: JSON.stringify({ id, tag, source, title, vote: clearing ? 0 : value }),
+          }).catch(() => {
+            /* best-effort; localStorage already has the vote either way */
+          });
+        }
+        return next;
       });
-      return next;
-    });
-  }, []);
+    },
+    [key],
+  );
 
   const affinity = useMemo(() => {
     const tags: Record<string, number> = {};
@@ -88,5 +112,5 @@ export function useFeedback() {
 
   const getVote = useCallback((id: string) => votes[id]?.vote, [votes]);
 
-  return { castVote, getVote, boost };
+  return { castVote, getVote, boost, syncing: Boolean(key) };
 }

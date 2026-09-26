@@ -33,5 +33,11 @@ export function useCollapsedSections() {
     });
   }, []);
 
-  return { collapsed, toggle };
+  /** Unfold without toggling — used when jumping to a card inside a folded
+   * section. Not persisted: the reader's saved preference stays folded. */
+  const expand = useCallback((id: string) => {
+    setCollapsed((prev) => (prev[id] ? { ...prev, [id]: false } : prev));
+  }, []);
+
+  return { collapsed, toggle, expand };
 }

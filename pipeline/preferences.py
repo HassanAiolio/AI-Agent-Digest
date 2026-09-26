@@ -55,16 +55,31 @@ def load_affinity(path: Path) -> dict[str, dict[str, float]]:
     return {"tags": tags, "sources": sources}
 
 
-def apply(buckets: dict[str, list[Item]], affinity: dict[str, dict[str, float]]) -> None:
-    """Boosts item.score in place from learned affinity, then re-sorts each
-    bucket. Never adds or removes items — inclusion was already decided."""
+def load_raw(path: Path) -> dict:
+    """The feedback store as-is ({id: {vote, tag, source, title, ts}}), for
+    semantic.taste_boost(). Empty on missing/malformed file."""
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError, OSError):
+        return {}
+    return raw if isinstance(raw, dict) else {}
+
+
+def apply(buckets: dict[str, list[Item]], affinity: dict[str, dict[str, float]],
+          taste: dict[str, float] | None = None) -> None:
+    """Boosts item.score in place from learned affinity (tag/source) and the
+    optional per-item semantic taste boost, then re-sorts each bucket. Never
+    adds or removes items — inclusion was already decided."""
     tags = affinity.get("tags", {})
     sources = affinity.get("sources", {})
-    if not tags and not sources:
+    taste = taste or {}
+    if not tags and not sources and not taste:
         return
     for bucket in buckets.values():
         for it in bucket:
-            boost = tags.get(it.tag, 0.0) * TAG_WEIGHT + sources.get(it.source, 0.0) * SOURCE_WEIGHT
+            boost = (tags.get(it.tag, 0.0) * TAG_WEIGHT
+                     + sources.get(it.source, 0.0) * SOURCE_WEIGHT
+                     + taste.get(it.id, 0.0))
             if boost:
                 it.score = round(it.score + boost, 2)
         bucket.sort(key=lambda i: (-i.score, i.title))

@@ -10,6 +10,8 @@ here is caught and treated as "no image", nothing more.
 from __future__ import annotations
 
 import logging
+from concurrent.futures import ThreadPoolExecutor
+from urllib.parse import urljoin, urlsplit
 
 import requests
 from bs4 import BeautifulSoup
@@ -37,9 +39,15 @@ def _fetch_og_image(url: str, timeout: int) -> str | None:
         soup = BeautifulSoup(resp.text, "html.parser")
         for prop in ("og:image", "twitter:image"):
             tag = soup.find("meta", attrs={"property": prop}) or soup.find("meta", attrs={"name": prop})
-            content = tag.get("content") if tag else None
-            if content and content.strip():
-                return content.strip()
+            content = (tag.get("content") or "").strip() if tag else ""
+            if not content:
+                continue
+            # og:image is often relative ("/img/card.png") or protocol-
+            # relative; resolve against the page. Only https is kept: the
+            # site is served over https and next/image rejects anything else.
+            absolute = urljoin(resp.url or url, content)
+            if urlsplit(absolute).scheme == "https":
+                return absolute
     except Exception as e:
         log.debug("no image for %s: %s", url, e)
     return None
@@ -51,10 +59,15 @@ def attach_images(buckets: dict[str, list[Item]], cfg: dict) -> None:
         return
     timeout = int(cfg.get("timeout", 5))
 
+    workers = int(cfg.get("workers", 8))
+
     candidates = [it for b in buckets.values() for it in b if not _skip(it)]
+    # I/O-bound and independent per item: a thread pool turns ~25 serial
+    # 5-second worst cases into a couple of seconds total.
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        results = list(pool.map(lambda it: _fetch_og_image(it.url, timeout), candidates))
     found = 0
-    for it in candidates:
-        image = _fetch_og_image(it.url, timeout)
+    for it, image in zip(candidates, results):
         if image:
             it.image = image
             found += 1

@@ -35,7 +35,7 @@ export function useReadState() {
   const markRead = useCallback((id: string) => {
     setRead((prev) => {
       if (prev[id]) return prev;
-      let next = { ...prev, [id]: Date.now() };
+      const next = { ...prev, [id]: Date.now() };
       const keys = Object.keys(next);
       if (keys.length > MAX_ENTRIES) {
         keys.sort((a, b) => next[a] - next[b]);

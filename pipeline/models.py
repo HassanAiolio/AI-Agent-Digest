@@ -23,11 +23,17 @@ class Item:
     tag: str = ""                    # optional content-type label, e.g. "Release"
     highlight: bool = False          # true for the night's top cross-section picks
     image: str = ""                  # optional og:image URL, best-effort
+    # Upcoming events (contests) that should show every night until they
+    # start, instead of once and then being swallowed by the seen-DB.
+    evergreen: bool = False
+    # Most similar item from a recent past edition, set by semantic.py:
+    # {"title", "url", "date", "id"}. Empty when nothing is close enough.
+    related: dict = field(default_factory=dict)
 
     def public_dict(self) -> dict:
         d = asdict(self)
-        d.pop("weight", None)
-        d.pop("abstract", None)
+        for private in ("weight", "abstract", "evergreen"):
+            d.pop(private, None)
         return d
 
 

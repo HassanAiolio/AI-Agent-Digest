@@ -7,17 +7,46 @@ seen_retention_days: 90     # prune dedupe DB entries older than this
 
 groq:
   model: openai/gpt-oss-120b   # swap for whatever Groq model you prefer
-  max_items_per_call: 12    # items per batched summarization call
+  # Tried with the same prompt when the primary model keeps failing, before
+  # falling back to raw abstracts. Separate model = separate rate limits.
+  # (llama-3.1-8b-instant was retired; check GET /openai/v1/models.)
+  fallback_model: openai/gpt-oss-20b
+  # gpt-oss reasoning tokens count against max_tokens; "low" keeps them to
+  # a few hundred so the JSON answer isn't cut off mid-object.
+  reasoning_effort: low
+  # Small batches keep each request inside the free tier's per-minute token
+  # budget (Groq counts max_tokens up front). 12 per batch is what made busy
+  # nights fall back to raw abstracts.
+  max_items_per_call: 6
+  output_tokens_per_item: 320   # max_tokens per request = this x batch size + 300
   max_abstract_chars: 900   # truncate abstracts sent to the model
   request_timeout: 60
-  sleep_between_calls: 3    # seconds; stay polite with the free tier
+  sleep_between_calls: 3    # seconds; base for retry backoff
 
 highlights:
   count: 5   # top-scoring items across all sections, surfaced at the top of the page
 
+brief:
+  enabled: true     # the Morning-Brew-style lede at the top of the page
+  max_items: 14     # items the brief is written from (highlights first)
+  max_tokens: 2200
+
+weekly:
+  enabled: true
+  weekday: 7        # ISO weekday the recap is written on (7 = Sunday)
+
+semantic:
+  # Local sentence embeddings (fastembed, no API). Any failure = skipped.
+  enabled: true
+  dedupe_threshold: 0.925   # cosine above this = same story; 0.92 starts merging LWN's weekly "Security updates for <day>"
+  related_days: 14          # how far back "Previously in the digest" looks
+  related_threshold: 0.78  # calibrated on the Jul-Sep 2026 archive
+  taste_weight: 1.5         # max score boost/penalty from liked/disliked titles
+
 images:
   enabled: true
   timeout: 5   # seconds per og:image request; a slow site just ships with no thumbnail
+  workers: 8   # parallel requests
 
 sections:
   - id: ai-ml
@@ -212,11 +241,13 @@ sources:
     url: https://lwn.net/headlines/rss
 
   # ---- Tier 3: Competitive programming ----
+  # Contests render in the "Upcoming" calendar every night until they
+  # start (evergreen), not as one-off section items.
   - name: codeforces-contests
     kind: codeforces
     section: competitive
     weight: 3
-    horizon_days: 10            # announce contests starting within N days
+    horizon_days: 10            # show contests starting within N days
 
   # ---- Tier 4: CS research ----
   - name: arxiv-systems
