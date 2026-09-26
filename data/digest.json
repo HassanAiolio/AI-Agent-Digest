@@ -1,13 +1,105 @@
 {
   "date": "2026-09-26",
-  "generated_at": "2026-09-26T07:55:39+00:00",
+  "generated_at": "2026-09-26T12:38:29+00:00",
   "stats": {
-    "fetched": 140,
-    "new_after_dedupe": 94,
+    "fetched": 148,
+    "new_after_dedupe": 103,
     "published": 15,
     "failed_sources": [],
-    "summarizer": "groq"
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 13,
+      "supported": 13,
+      "dropped": 0,
+      "unverifiable": 0,
+      "summaries_reverted": 0,
+      "rate": 1.0
+    },
+    "brief": "llm"
   },
+  "brief": {
+    "greeting": "Good morning. Your inbox just got a kernel upgrade and a bug tracker that lives inside Git.",
+    "stories": [
+      {
+        "kicker": "Kernel",
+        "headline": "Two new Linux stable kernels land Friday",
+        "body": "**Stable releases, no surprises:** Greg Kroah‑Hartman shipped 7.2.8 and 6.18.54, each packing a batch of critical fixes for distro maintainers. The updates span core subsystems and driver patches, so your servers and dev boards stay patched without a reboot frenzy.",
+        "why": "Staying on the latest stable kernels reduces exposure to known exploits and crashes.",
+        "ids": [
+          "db298ef2cc24d31e03d4161288dacecd7893f389"
+        ]
+      },
+      {
+        "kicker": "Git",
+        "headline": "Git‑bug brings offline bug tracking to repos",
+        "body": "**Bug reports, now version‑controlled:** Git‑bug embeds a distributed, offline‑first tracker directly inside any Git repo, letting you file and close issues without a separate server. It syncs via normal Git pushes, so the history stays immutable and portable.",
+        "why": "You can manage bugs alongside code, eliminating a third‑party tracker for small teams.",
+        "ids": [
+          "8fc9916b017847469524a4382a7c022a73a46648"
+        ]
+      },
+      {
+        "kicker": "AI",
+        "headline": "Proaction claims 60% sales lift with Codex stack",
+        "body": "**AI‑powered dev boost:** Proaction reports a 60% jump in sales and saves over 75 hours by using Codex, GPT‑Live‑1, and GPT‑6 Astra for its fleet‑management codebase. The tools auto‑generated boilerplate and caught bugs before they shipped.",
+        "why": "Seeing real ROI from LLMs shows they’re ready for production pipelines.",
+        "ids": [
+          "d2d497e5eee41848c95c5b8ff6ce37155518b6a0"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Security:** Friday patches hit AlmaLinux, Debian, Fedora, and more.",
+        "id": "f812961b32c0fed44bcabfb549f0807c70997d3f"
+      },
+      {
+        "text": "**Summit:** Git 3.0 and LLM tooling discussed at 2026 contributors’ meetup.",
+        "id": "5d6d5bc0c03d1cd256404fc533952af8e0db172f"
+      },
+      {
+        "text": "**Audio model:** Edge0/Audio8‑ASR‑Infinite logged 7,859 downloads.",
+        "id": "2d569a17795f12b9dec6d7afce2bb1511ad5aa52"
+      },
+      {
+        "text": "**SQL Doom:** Hackaday shows how to code a DOOM engine in SQL.",
+        "id": "e8e3beccd03d990c54a2179af1c7bf2342b7f0c5"
+      },
+      {
+        "text": "**Runner images:** GitHub Actions now offers official CI images.",
+        "id": "67ebfe922122c3d1231ca5f1ceaccf75bd65070d"
+      },
+      {
+        "text": "**Thrift:** Apache’s cross‑language RPC framework climbs trending list.",
+        "id": "61942df3ff74446934cbd2fea2cdf5f5008c5e24"
+      }
+    ],
+    "number": {
+      "value": "60%",
+      "label": "sales increase reported by Proaction after LLM integration",
+      "id": "d2d497e5eee41848c95c5b8ff6ce37155518b6a0"
+    },
+    "sign_off": "Catch you tomorrow – keep those kernels clean.",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "78a08888d733bc445720b89f6b25742d608e01b2",
+      "title": "Codeforces Round 1124 (Div. 1)",
+      "url": "https://codeforces.com/contests/2268",
+      "source": "Codeforces",
+      "starts": "2026-09-26T14:35:00+00:00",
+      "detail": "CF contest, 2.5h, starts Sat 26 Sep 14:35 UTC"
+    },
+    {
+      "id": "ebf03e607de3a161ea1734ff822a3706276e5776",
+      "title": "Codeforces Round 1124 (Div. 2)",
+      "url": "https://codeforces.com/contests/2269",
+      "source": "Codeforces",
+      "starts": "2026-09-26T14:35:00+00:00",
+      "detail": "CF contest, 2.5h, starts Sat 26 Sep 14:35 UTC"
+    }
+  ],
   "highlights": [
     {
       "title": "Security updates for Friday",
@@ -18,12 +110,13 @@
       "points": null,
       "score": 4.5,
       "id": "f812961b32c0fed44bcabfb549f0807c70997d3f",
-      "summary": "Friday's security updates cover dozens of packages across AlmaLinux, Debian, Fedora, Mageia, Oracle, Slackware, and SUSE, including kernel, OpenSSL, and PostgreSQL.",
-      "detail": "Updates address recent CVEs in the listed packages, improving system security. Administrators should apply them promptly to mitigate potential exploits. The breadth of affected distributions highlights coordinated effort across Linux ecosystems.",
+      "summary": "Friday security updates were released for multiple Linux distributions, covering kernel, libraries, and applications across AlmaLinux, Debian, Fedora, Mageia, Oracle, Slackware, and SUSE.",
+      "detail": "Updates include critical components such as OpenSSL, PostgreSQL, and various firmware packages. Administrators should apply them promptly to mitigate disclosed vulnerabilities.",
       "key_points": [],
       "tag": "News",
       "highlight": true,
-      "image": ""
+      "image": "",
+      "related": {}
     },
     {
       "title": "Git-bug: Distributed, offline-first bug tracker embedded in Git",
@@ -31,31 +124,16 @@
       "source": "Hacker News",
       "section": "embedded",
       "published": "2026-09-25T11:38:31+00:00",
-      "points": 333,
+      "points": 339,
       "score": 4.0,
       "id": "8fc9916b017847469524a4382a7c022a73a46648",
-      "summary": "Git-bug is a distributed, offline‑first bug tracker that lives inside Git repositories.",
-      "detail": "Git‑bug stores bug reports as Git objects, enabling versioned history and offline collaboration. It works without a central server, syncing through standard Git pushes and pulls. The tool is licensed under MIT.",
+      "summary": "Git-bug is a distributed, offline‑first bug tracker that is embedded directly within Git repositories.",
+      "detail": "The tool enables developers to manage issues without a separate server, syncing bug data through normal Git operations. It is positioned as a lightweight alternative to traditional issue trackers.",
       "key_points": [],
       "tag": "Repo",
       "highlight": true,
-      "image": "https://repository-images.githubusercontent.com/140680839/98c44d00-69a6-11e9-9a1c-a6265bc3bcd9"
-    },
-    {
-      "title": "Hackaday Podcast Episode 388: RAM-Swapping on Raspberry Pi, Raindrops on Radar, and a Fine Mesh",
-      "url": "https://hackaday.com/2026/09/25/hackaday-podcast-episode-388-ram-swapping-on-raspberry-pi-raindrops-on-radar-and-a-fine-mesh/",
-      "source": "hackaday",
-      "section": "embedded",
-      "published": "2026-09-25T17:00:44+00:00",
-      "points": null,
-      "score": 3.0,
-      "id": "816278af276339937c4f423e15c05dd4509b41c4",
-      "summary": "Hackaday Podcast Episode 388 covers RAM‑swapping on Raspberry Pi, raindrop detection radar, and fine‑mesh networking, plus hacker advice.",
-      "detail": "Episode 388 features a deep dive into RAM‑swapping techniques that extend Raspberry Pi memory, a radar project detecting raindrops for atmospheric studies, and a discussion on fine‑mesh network design. Hosts also share mentorship advice for emerging hackers.",
-      "key_points": [],
-      "tag": "News",
-      "highlight": true,
-      "image": "https://hackaday.com/wp-content/uploads/2016/05/microphone.jpg"
+      "image": "https://repository-images.githubusercontent.com/140680839/98c44d00-69a6-11e9-9a1c-a6265bc3bcd9",
+      "related": {}
     },
     {
       "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
@@ -66,31 +144,58 @@
       "points": null,
       "score": 3.0,
       "id": "d2d497e5eee41848c95c5b8ff6ce37155518b6a0",
-      "summary": "Proaction reports a 60% sales increase and over 75 saved hours by using Codex, GPT‑Live‑1, and GPT‑6 Astra for fleet‑management development.",
-      "detail": "Codex, GPT‑Live‑1, and GPT‑6 Astra are OpenAI models that generate code and automate deployment pipelines. Proaction integrated them into its fleet‑management platform, reducing manual coding effort. The time savings allowed engineers to focus on feature development, contributing to the sales lift.",
+      "summary": "Proaction reports a 60% sales increase and saves over 75 hours using Codex, GPT‑Live‑1, and GPT‑6 Astra for fleet‑management development.",
+      "detail": "The company attributes faster build and operation cycles to the AI models, allowing quicker product releases. The reported gains combine both revenue growth and operational efficiency, though exact cost savings are not disclosed.",
       "key_points": [
         "60% sales increase",
         "75+ hours saved"
       ],
       "tag": "News",
       "highlight": true,
-      "image": "https://images.ctfassets.net/kftzwdyauwt9/2ZDFcePalT1BpkNxHdwpnS/521705b27328ebf7f7449136dcd428c2/proaction-option-a-seo-og.png?w=1600&h=900&fit=fill"
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/2ZDFcePalT1BpkNxHdwpnS/521705b27328ebf7f7449136dcd428c2/proaction-option-a-seo-og.png?w=1600&h=900&fit=fill",
+      "related": {}
     },
     {
-      "title": "google/langextract",
-      "url": "https://github.com/google/langextract",
-      "source": "GitHub trending · python",
-      "section": "repos",
-      "published": null,
-      "points": 38876,
-      "score": 2.5,
-      "id": "3bc32fdc778d8c275a51ebcf7c566d6d74a915d0",
-      "summary": "google/langextract is a Python library that extracts structured data from unstructured text using LLMs with source grounding and interactive visualization.",
-      "detail": "langextract leverages large language models to parse free‑form text and output JSON or CSV structures, preserving citations to the original passages. Interactive visualizations help users explore extraction results. The library is compatible with popular LLM APIs.",
+      "title": "A summary from the 2026 Git Contributors' Summit",
+      "url": "https://lwn.net/Articles/1096819/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-09-25T15:12:05+00:00",
+      "points": null,
+      "score": 2.0,
+      "id": "5d6d5bc0c03d1cd256404fc533952af8e0db172f",
+      "summary": "Johannes Schindelin posted a summary of the 2026 Git Contributors' Summit, covering Git 3.0, security processes, documentation, the pluggable object database, and LLM usage.",
+      "detail": "The summit highlighted ongoing work to modernize Git's architecture and integrate AI assistance into development workflows. Discussions also addressed improving security review pipelines and expanding documentation.",
       "key_points": [],
-      "tag": "Repo",
+      "tag": "News",
       "highlight": true,
-      "image": "https://opengraph.githubassets.com/ecb6646257699dd71f7b26706603336dc66d49c29dbdf04539d65e112364db74/google/langextract"
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "Two stable kernels for Friday",
+      "url": "https://lwn.net/Articles/1096818/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-09-25T15:13:25+00:00",
+      "points": null,
+      "score": 2.0,
+      "id": "db298ef2cc24d31e03d4161288dacecd7893f389",
+      "summary": "Greg Kroah-Hartman released Linux kernel stable versions 7.2.8 and 6.18.54, both containing numerous important fixes.",
+      "detail": "Both kernels address bugs across multiple subsystems, improving security and stability. Users of distributions that track these stable branches are advised to upgrade promptly to benefit from the patches.",
+      "key_points": [
+        "7.2.8",
+        "6.18.54"
+      ],
+      "tag": "Release",
+      "highlight": true,
+      "image": "",
+      "related": {
+        "title": "Three new stable kernels",
+        "url": "https://lwn.net/Articles/1095703/",
+        "date": "2026-09-22",
+        "id": "bbd89503ea1fbbc6360fb1e303a746602685dd29"
+      }
     }
   ],
   "sections": [
@@ -108,15 +213,16 @@
           "points": null,
           "score": 3.0,
           "id": "d2d497e5eee41848c95c5b8ff6ce37155518b6a0",
-          "summary": "Proaction reports a 60% sales increase and over 75 saved hours by using Codex, GPT‑Live‑1, and GPT‑6 Astra for fleet‑management development.",
-          "detail": "Codex, GPT‑Live‑1, and GPT‑6 Astra are OpenAI models that generate code and automate deployment pipelines. Proaction integrated them into its fleet‑management platform, reducing manual coding effort. The time savings allowed engineers to focus on feature development, contributing to the sales lift.",
+          "summary": "Proaction reports a 60% sales increase and saves over 75 hours using Codex, GPT‑Live‑1, and GPT‑6 Astra for fleet‑management development.",
+          "detail": "The company attributes faster build and operation cycles to the AI models, allowing quicker product releases. The reported gains combine both revenue growth and operational efficiency, though exact cost savings are not disclosed.",
           "key_points": [
             "60% sales increase",
             "75+ hours saved"
           ],
           "tag": "News",
           "highlight": true,
-          "image": "https://images.ctfassets.net/kftzwdyauwt9/2ZDFcePalT1BpkNxHdwpnS/521705b27328ebf7f7449136dcd428c2/proaction-option-a-seo-og.png?w=1600&h=900&fit=fill"
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/2ZDFcePalT1BpkNxHdwpnS/521705b27328ebf7f7449136dcd428c2/proaction-option-a-seo-og.png?w=1600&h=900&fit=fill",
+          "related": {}
         },
         {
           "title": "Model: Edge0/Audio8-ASR-Infinite",
@@ -124,18 +230,19 @@
           "source": "HF trending",
           "section": "ai-ml",
           "published": "2026-09-21T15:03:21.000Z",
-          "points": 675,
+          "points": 705,
           "score": 1.5,
           "id": "2d569a17795f12b9dec6d7afce2bb1511ad5aa52",
-          "summary": "Edge0/Audio8-ASR-Infinite is an automatic speech recognition model with 2,853 downloads and 675 likes on Hugging Face.",
-          "detail": "The model is part of Edge0's suite for low‑latency speech recognition on embedded devices. Its popularity on Hugging Face reflects community interest in open‑source ASR solutions. Likes indicate positive reception among developers.",
+          "summary": "Edge0/Audio8-ASR-Infinite model on Hugging Face has been downloaded 7,859 times and received 705 likes.",
+          "detail": "The model targets automatic speech recognition and is listed under the ASR category. Its popularity reflects community interest, but performance metrics are not provided in the brief.",
           "key_points": [
-            "2,853 downloads",
-            "675 likes"
+            "7,859 downloads",
+            "705 likes"
           ],
           "tag": "Repo",
           "highlight": false,
-          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Edge0/Audio8-ASR-Infinite.png"
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Edge0/Audio8-ASR-Infinite.png",
+          "related": {}
         },
         {
           "title": "Model: abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
@@ -143,18 +250,19 @@
           "source": "HF trending",
           "section": "ai-ml",
           "published": "2026-09-20T15:51:13.000Z",
-          "points": 1841,
+          "points": 1871,
           "score": 1.5,
           "id": "ea2b8da28677d9e420b3274c4cc17f455825358e",
-          "summary": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF is a text‑to‑image model with 715,906 downloads and 1,841 likes on Hugging Face.",
-          "detail": "Qwen‑Image‑2.1‑Uncensored‑GGUF provides uncensored image generation in the efficient GGUF format, facilitating deployment on limited hardware. Its high download count shows strong demand for open‑source text‑to‑image tools. The repository includes conversion scripts.",
+          "summary": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF model has amassed 876,673 downloads and 1,871 likes on Hugging Face.",
+          "detail": "This text‑to‑image model is part of the GGUF family and is noted for being uncensored. High download counts suggest broad adoption, though no benchmark data is included.",
           "key_points": [
-            "715,906 downloads",
-            "1,841 likes"
+            "876,673 downloads",
+            "1,871 likes"
           ],
           "tag": "Repo",
           "highlight": false,
-          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/abenzerps/Qwen-Image-2.1-Uncensored-GGUF.png"
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/abenzerps/Qwen-Image-2.1-Uncensored-GGUF.png",
+          "related": {}
         }
       ]
     },
@@ -172,12 +280,13 @@
           "points": null,
           "score": 4.5,
           "id": "f812961b32c0fed44bcabfb549f0807c70997d3f",
-          "summary": "Friday's security updates cover dozens of packages across AlmaLinux, Debian, Fedora, Mageia, Oracle, Slackware, and SUSE, including kernel, OpenSSL, and PostgreSQL.",
-          "detail": "Updates address recent CVEs in the listed packages, improving system security. Administrators should apply them promptly to mitigate potential exploits. The breadth of affected distributions highlights coordinated effort across Linux ecosystems.",
+          "summary": "Friday security updates were released for multiple Linux distributions, covering kernel, libraries, and applications across AlmaLinux, Debian, Fedora, Mageia, Oracle, Slackware, and SUSE.",
+          "detail": "Updates include critical components such as OpenSSL, PostgreSQL, and various firmware packages. Administrators should apply them promptly to mitigate disclosed vulnerabilities.",
           "key_points": [],
           "tag": "News",
           "highlight": true,
-          "image": ""
+          "image": "",
+          "related": {}
         },
         {
           "title": "Git-bug: Distributed, offline-first bug tracker embedded in Git",
@@ -185,31 +294,16 @@
           "source": "Hacker News",
           "section": "embedded",
           "published": "2026-09-25T11:38:31+00:00",
-          "points": 333,
+          "points": 339,
           "score": 4.0,
           "id": "8fc9916b017847469524a4382a7c022a73a46648",
-          "summary": "Git-bug is a distributed, offline‑first bug tracker that lives inside Git repositories.",
-          "detail": "Git‑bug stores bug reports as Git objects, enabling versioned history and offline collaboration. It works without a central server, syncing through standard Git pushes and pulls. The tool is licensed under MIT.",
+          "summary": "Git-bug is a distributed, offline‑first bug tracker that is embedded directly within Git repositories.",
+          "detail": "The tool enables developers to manage issues without a separate server, syncing bug data through normal Git operations. It is positioned as a lightweight alternative to traditional issue trackers.",
           "key_points": [],
           "tag": "Repo",
           "highlight": true,
-          "image": "https://repository-images.githubusercontent.com/140680839/98c44d00-69a6-11e9-9a1c-a6265bc3bcd9"
-        },
-        {
-          "title": "Hackaday Podcast Episode 388: RAM-Swapping on Raspberry Pi, Raindrops on Radar, and a Fine Mesh",
-          "url": "https://hackaday.com/2026/09/25/hackaday-podcast-episode-388-ram-swapping-on-raspberry-pi-raindrops-on-radar-and-a-fine-mesh/",
-          "source": "hackaday",
-          "section": "embedded",
-          "published": "2026-09-25T17:00:44+00:00",
-          "points": null,
-          "score": 3.0,
-          "id": "816278af276339937c4f423e15c05dd4509b41c4",
-          "summary": "Hackaday Podcast Episode 388 covers RAM‑swapping on Raspberry Pi, raindrop detection radar, and fine‑mesh networking, plus hacker advice.",
-          "detail": "Episode 388 features a deep dive into RAM‑swapping techniques that extend Raspberry Pi memory, a radar project detecting raindrops for atmospheric studies, and a discussion on fine‑mesh network design. Hosts also share mentorship advice for emerging hackers.",
-          "key_points": [],
-          "tag": "News",
-          "highlight": true,
-          "image": "https://hackaday.com/wp-content/uploads/2016/05/microphone.jpg"
+          "image": "https://repository-images.githubusercontent.com/140680839/98c44d00-69a6-11e9-9a1c-a6265bc3bcd9",
+          "related": {}
         },
         {
           "title": "A summary from the 2026 Git Contributors' Summit",
@@ -220,12 +314,13 @@
           "points": null,
           "score": 2.0,
           "id": "5d6d5bc0c03d1cd256404fc533952af8e0db172f",
-          "summary": "The 2026 Git Contributors' Summit summary notes discussions on Git 3.0, security processes, documentation, pluggable object database, and LLM integration.",
-          "detail": "The summit previewed Git 3.0's planned features, such as improved performance and new plumbing commands. Security process enhancements aim to streamline vulnerability handling. Integration of LLMs into Git tooling was a notable topic.",
+          "summary": "Johannes Schindelin posted a summary of the 2026 Git Contributors' Summit, covering Git 3.0, security processes, documentation, the pluggable object database, and LLM usage.",
+          "detail": "The summit highlighted ongoing work to modernize Git's architecture and integrate AI assistance into development workflows. Discussions also addressed improving security review pipelines and expanding documentation.",
           "key_points": [],
-          "tag": "Analysis",
-          "highlight": false,
-          "image": ""
+          "tag": "News",
+          "highlight": true,
+          "image": "",
+          "related": {}
         },
         {
           "title": "Two stable kernels for Friday",
@@ -236,15 +331,21 @@
           "points": null,
           "score": 2.0,
           "id": "db298ef2cc24d31e03d4161288dacecd7893f389",
-          "summary": "Linux stable kernels 7.2.8 and 6.18.54 were released, each containing multiple fixes.",
-          "detail": "Kernel 7.2.8 belongs to the 7.x long‑term series, while 6.18.54 continues the 6.18 stable branch. Both releases incorporate bug fixes, driver updates, and security patches. Users of affected hardware are encouraged to upgrade.",
+          "summary": "Greg Kroah-Hartman released Linux kernel stable versions 7.2.8 and 6.18.54, both containing numerous important fixes.",
+          "detail": "Both kernels address bugs across multiple subsystems, improving security and stability. Users of distributions that track these stable branches are advised to upgrade promptly to benefit from the patches.",
           "key_points": [
             "7.2.8",
             "6.18.54"
           ],
           "tag": "Release",
-          "highlight": false,
-          "image": ""
+          "highlight": true,
+          "image": "",
+          "related": {
+            "title": "Three new stable kernels",
+            "url": "https://lwn.net/Articles/1095703/",
+            "date": "2026-09-22",
+            "id": "bbd89503ea1fbbc6360fb1e303a746602685dd29"
+          }
         },
         {
           "title": "Abusing SQL to Play DOOM",
@@ -255,12 +356,30 @@
           "points": null,
           "score": 1.5,
           "id": "e8e3beccd03d990c54a2179af1c7bf2342b7f0c5",
-          "summary": "Hackaday article shows how SQL can be abused to implement a playable DOOM engine.",
-          "detail": "The article demonstrates constructing a DOOM game engine entirely in SQL, leveraging recursive queries and stored procedures. It showcases SQL's Turing‑complete capabilities beyond traditional data management. Code snippets are provided for replication.",
+          "summary": "A Hackaday article explores using SQL as a programming language to implement a DOOM engine.",
+          "detail": "The piece demonstrates that SQL's procedural extensions can express game logic, showing a novel, though impractical, use case for database queries beyond data management.",
           "key_points": [],
           "tag": "News",
           "highlight": false,
-          "image": "https://hackaday.com/wp-content/uploads/2026/09/doom-sql-main.png"
+          "image": "https://hackaday.com/wp-content/uploads/2026/09/doom-sql-main.png",
+          "related": {}
+        },
+        {
+          "title": "Easy Ways Sink a Hardware Startup",
+          "url": "https://hackaday.com/2026/09/26/easy-ways-sink-a-hardware-startup/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-09-26T08:00:46+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "267e53693a4949725e928f451288fde0346457dd",
+          "summary": "Hackaday outlines five common mistakes that can cause hardware startups to fail, based on observations by Ryan Walker.",
+          "detail": "The article revisits earlier advice, emphasizing disciplined engineering, realistic budgeting, and clear market focus as critical factors for early-stage hardware companies.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2017/11/lifeoncontract-featured.jpg",
+          "related": {}
         }
       ]
     },
@@ -270,100 +389,106 @@
       "tier": 5,
       "items": [
         {
-          "title": "google/langextract",
-          "url": "https://github.com/google/langextract",
-          "source": "GitHub trending · python",
-          "section": "repos",
-          "published": null,
-          "points": 38876,
-          "score": 2.5,
-          "id": "3bc32fdc778d8c275a51ebcf7c566d6d74a915d0",
-          "summary": "google/langextract is a Python library that extracts structured data from unstructured text using LLMs with source grounding and interactive visualization.",
-          "detail": "langextract leverages large language models to parse free‑form text and output JSON or CSV structures, preserving citations to the original passages. Interactive visualizations help users explore extraction results. The library is compatible with popular LLM APIs.",
-          "key_points": [],
-          "tag": "Repo",
-          "highlight": true,
-          "image": "https://opengraph.githubassets.com/ecb6646257699dd71f7b26706603336dc66d49c29dbdf04539d65e112364db74/google/langextract"
-        },
-        {
-          "title": "Alban1911/Rose",
-          "url": "https://github.com/Alban1911/Rose",
-          "source": "GitHub trending · python",
-          "section": "repos",
-          "published": null,
-          "points": 590,
-          "score": 2.0,
-          "id": "750fac72f6e29b7c5ec4e440f07ab98762176c90",
-          "summary": "Alban1911/Rose is a Python project titled 'League, unlocked'.",
-          "detail": "Rose appears to be a Python project related to unlocking features in a league‑style system, possibly a game or competition platform. The repository includes minimal documentation and a setup script.",
-          "key_points": [],
-          "tag": "Repo",
-          "highlight": false,
-          "image": "https://repository-images.githubusercontent.com/1199389540/35233398-c100-4d62-957e-9469d2c0eae8"
-        },
-        {
-          "title": "AlexandreRouma/SDRPlusPlus",
-          "url": "https://github.com/AlexandreRouma/SDRPlusPlus",
-          "source": "GitHub trending · c++",
-          "section": "repos",
-          "published": null,
-          "points": 6369,
-          "score": 2.0,
-          "id": "f234ee8dc70e3121d8d1681647802a413b429571",
-          "summary": "AlexandreRouma/SDRPlusPlus is a cross‑platform software‑defined radio application written in C++.",
-          "detail": "SDRPlusPlus supports Windows, macOS, and Linux, offering a modular architecture for signal processing, device control, and spectrum analysis. Written in modern C++, it integrates with popular SDR hardware like RTL‑SDR and Airspy.",
-          "key_points": [],
-          "tag": "Repo",
-          "highlight": false,
-          "image": "https://repository-images.githubusercontent.com/271154586/4fe3cb1a-03d7-485a-b4b5-7c3d4527303f"
-        },
-        {
-          "title": "CodeZeno/Claude-Code-Usage-Monitor",
-          "url": "https://github.com/CodeZeno/Claude-Code-Usage-Monitor",
-          "source": "GitHub trending · rust",
-          "section": "repos",
-          "published": null,
-          "points": 537,
-          "score": 2.0,
-          "id": "db7d1f56c46f24d57e5f9a7cc2d3cb1879eea62b",
-          "summary": "A free, open‑source Windows taskbar widget that monitors usage limits and reset times for Claude Code, Codex, Cursor and other AI assistants.",
-          "detail": "The widget resides in the Windows taskbar and provides a real‑time visual indicator of remaining quota. It can be configured with API keys for each service and supports multiple models, helping developers stay within usage caps.",
-          "key_points": [],
-          "tag": "Repo",
-          "highlight": false,
-          "image": "https://opengraph.githubassets.com/5cf4f4d5dae061493aa0368994fe7b5966c043bf2e0643a5c1b884d3f5e01595/CodeZeno/Claude-Code-Usage-Monitor"
-        },
-        {
-          "title": "akitaonrails/ai-usagebar",
-          "url": "https://github.com/akitaonrails/ai-usagebar",
-          "source": "GitHub trending · rust",
-          "section": "repos",
-          "published": null,
-          "points": 575,
-          "score": 2.0,
-          "id": "ed01c9de56d704744af8ca9d2f5f9bd23efa681e",
-          "summary": "A Rust‑implemented Waybar widget that displays current plan usage and remaining credits for Claude, GPT, GLM, and OpenRouter services.",
-          "detail": "Designed for Linux desktop panels using Waybar, the widget reads credit information via each service's API. Inspired by claudebar/codexbar, it offers customizable appearance and alerts, reducing the risk of unexpected quota exhaustion.",
-          "key_points": [],
-          "tag": "Repo",
-          "highlight": false,
-          "image": "https://opengraph.githubassets.com/8930d064c2079712abead5fb1248ff3086391dfe3170e14328738a990e4632d4/akitaonrails/ai-usagebar"
-        },
-        {
-          "title": "androoAGI/starnet",
-          "url": "https://github.com/androoAGI/starnet",
+          "title": "actions/runner-images",
+          "url": "https://github.com/actions/runner-images",
           "source": "GitHub trending",
           "section": "repos",
           "published": null,
-          "points": 568,
+          "points": 13218,
           "score": 2.0,
-          "id": "cdf12198dd26ff95dcf5cf870be753f1f1741cb4",
-          "summary": "A local‑first desktop application that presents a pixel‑art station where user‑provided AI agents execute tasks using your own API keys.",
-          "detail": "The app runs entirely on the user's machine, visualizing agents as pixel characters that perform real work. It supports bringing any compatible API key, enabling experimentation with autonomous AI crews without cloud dependencies.",
+          "id": "67ebfe922122c3d1231ca5f1ceaccf75bd65070d",
+          "summary": "GitHub Actions provides official runner images for CI workflows.",
+          "detail": "These images include pre‑installed runtimes and tools, allowing developers to run jobs without building custom environments, and are updated regularly to include security patches.",
           "key_points": [],
           "tag": "Repo",
           "highlight": false,
-          "image": "https://opengraph.githubassets.com/f9d20f1c513460abcdea51fcfa1c79185ef3bc62ba90bdc7a9da26889ed7b825/androoAGI/starnet"
+          "image": "https://opengraph.githubassets.com/ab3d6f86b47ad80417a72c5b487c3330bc931984ff4d22e1cb3948e4ad4683b5/actions/runner-images",
+          "related": {}
+        },
+        {
+          "title": "anthropics/claude-code-action",
+          "url": "https://github.com/anthropics/claude-code-action",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 8974,
+          "score": 2.0,
+          "id": "7773ad411618332005517d93e1b78b74a5be6540",
+          "summary": "The anthropics/claude-code-action repository offers a GitHub Action to run Claude code generation.",
+          "detail": "Integrating this action enables automated code suggestions within CI pipelines, leveraging Anthropic's Claude model for code completion tasks.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/f4434ce7f79b587f9608916b55c9032b4ef98e48211f995065cff8849b360a87/anthropics/claude-code-action",
+          "related": {}
+        },
+        {
+          "title": "apache/thrift",
+          "url": "https://github.com/apache/thrift",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 10960,
+          "score": 2.0,
+          "id": "61942df3ff74446934cbd2fea2cdf5f5008c5e24",
+          "summary": "The apache/thrift repository hosts the Apache Thrift cross-language RPC framework written in C++.",
+          "detail": "Thrift facilitates efficient communication between services written in different languages, providing code generation and serialization utilities for high‑performance distributed systems.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/bbba8720c6ed5a5aec32060bdda8758d02f9b7916b2e9e35242b195a2cf469f6/apache/thrift",
+          "related": {}
+        },
+        {
+          "title": "base/base",
+          "url": "https://github.com/base/base",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 899,
+          "score": 2.0,
+          "id": "4dbff062fd7eb5dc0750a0a1eab880df933db0d8",
+          "summary": "Base is a Rust collection of components required to run the Base system.",
+          "detail": "The repository aggregates the essential libraries and utilities for the Base platform, aiming to simplify setup and integration for developers working with the ecosystem.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/4f28786ca74c31d7c7fb7da984cf7f64eb75f6c9d14c5044a32ca541ead1b3be/base/base",
+          "related": {}
+        },
+        {
+          "title": "bmad-code-org/BMAD-METHOD",
+          "url": "https://github.com/bmad-code-org/BMAD-METHOD",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 53474,
+          "score": 2.0,
+          "id": "f950ed2c763dbc2e7a0591cdc18189c21e3b86a2",
+          "summary": "BMAD-METHOD is a Python project proposing a new approach to agile AI-driven development.",
+          "detail": "The repository outlines a methodology intended to accelerate AI development cycles, emphasizing flexibility and rapid iteration, though specific performance metrics are not provided.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/72a115f674f4ae6711aa7c7d0d50115aa8053d48b84a647bcdd068192ac7b41d/bmad-code-org/BMAD-METHOD",
+          "related": {}
+        },
+        {
+          "title": "bootandy/dust",
+          "url": "https://github.com/bootandy/dust",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 12375,
+          "score": 2.0,
+          "id": "cfaa10aec817bf25e7906fe468d8ceffc5eaec31",
+          "summary": "Dust is a Rust implementation of a more intuitive disk usage analyzer, similar to du.",
+          "detail": "Designed to improve usability over traditional du, dust offers clearer output and faster performance by leveraging Rust's safety and concurrency features.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/c4a1d69e1a065d316a5e7db4ee667aec06242d2a1a7ef4aa917be57e96ba7c95/bootandy/dust",
+          "related": {}
         }
       ]
     }
