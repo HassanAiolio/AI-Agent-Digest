@@ -1714,6 +1714,11 @@
 "title": "Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary",
 "url": "https://github.com/vercel-labs/scriptc"
 },
+"2e18c6e34256db014993bc37ff0a8ad9c951af46": {
+"date": "2026-09-27",
+"title": "Model: nvidia/Nemotron-3-Diarization",
+"url": "https://huggingface.co/nvidia/Nemotron-3-Diarization"
+},
 "2e74d0228d63bddb2160d88b164fe5cb75af4408": {
 "date": "2026-09-04",
 "title": "addyosmani/agent-skills",
@@ -2079,6 +2084,11 @@
 "title": "MTIA 300: Meta’s First Training Chip with Built-in NICs and Communication-Offloading Engines",
 "url": "https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/"
 },
+"3acc55b4e4fa773d3429b91288891601973a97b7": {
+"date": "2026-09-27",
+"title": "derv82/wifit3",
+"url": "https://github.com/derv82/wifit3"
+},
 "3b0eb6d5ba669839c9e4eb1db11564ccbe977c33": {
 "date": "2026-09-25",
 "title": "Standalone DJ System Runs On ESP32",
@@ -2299,6 +2309,11 @@
 "title": "drogonframework/drogon",
 "url": "https://github.com/drogonframework/drogon"
 },
+"404dff4b1ceac4718063664630d84f793e1c6137": {
+"date": "2026-09-27",
+"title": "dream-num/univer",
+"url": "https://github.com/dream-num/univer"
+},
 "406d04c444253b205076e8f6b089007584c496c4": {
 "date": "2026-07-26",
 "title": "Model: thinkingmachines/Inkling",
@@ -2309,6 +2324,11 @@
 "title": "Model: OpenMOSS-Team/MOSS-Transcribe-Diarize",
 "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize"
 },
+"413f1a4f31037bd8660e98f9ba0bdecb2feb6a96": {
+"date": "2026-09-27",
+"title": "Cheap Yellow Display Dreams of PDA",
+"url": "https://hackaday.com/2026/09/26/cheap-yellow-display-dreams-of-pda/"
+},
 "414c9c74c82c5152a6df5f15f2cde5441c8fca24": {
 "date": "2026-07-15",
 "title": "Guardian Angels: LLM Personalization for Productivity and Security",
@@ -2318,6 +2338,11 @@
 "date": "2026-09-09",
 "title": "Exploring the Genesis Platform Capabilities to Accelerate Scientific Discovery in OPAL",
 "url": "https://arxiv.org/abs/2609.08844v1"
+},
+"41acd146b75e05f5daaacde0e86bdb1c89eae8fc": {
+"date": "2026-09-27",
+"title": "A Modular Macro Keypad",
+"url": "https://hackaday.com/2026/09/26/a-modular-macro-keypad/"
 },
 "426afbfe0397c54fbd0a9e4fc30b72e936928c9d": {
 "date": "2026-07-21",
@@ -3494,6 +3519,11 @@
 "title": "Jul 14, 2026 Product Introducing Claude for Teachers",
 "url": "https://www.anthropic.com/news/claude-for-teachers"
 },
+"6790a6c53c6649e4dd0f49771edfd7ec1242ff17": {
+"date": "2026-09-27",
+"title": "bregman-arie/devops-exercises",
+"url": "https://github.com/bregman-arie/devops-exercises"
+},
 "6792737161cd4b1be6df32fc4fcfce558a21aada": {
 "date": "2026-08-13",
 "title": "DexterSQL: Deep Schema Exploration and Rule-based Correction for Text-to-SQL Generation",
@@ -4293,6 +4323,11 @@
 "date": "2026-07-19",
 "title": "ESP32-driven Roulette Wheel Could Have Used a 555, but That Didn’t have WiFi",
 "url": "https://hackaday.com/2026/07/18/esp32-driven-roulette-wheel-could-have-used-a-555-but-that-didnt-have-wifi/"
+},
+"82ccd6b1ac2a4632741c44e78134c50e28f34e91": {
+"date": "2026-09-27",
+"title": "esphome/esphome",
+"url": "https://github.com/esphome/esphome"
 },
 "82d35999a3cc825b701e52562f38686fdd1a61e0": {
 "date": "2026-07-14",
@@ -5364,6 +5399,11 @@
 "title": "SpriteOvO/AirPodsDesktop",
 "url": "https://github.com/SpriteOvO/AirPodsDesktop"
 },
+"a59d5e645baa61d621a4c48008e481c6d20b5b70": {
+"date": "2026-09-27",
+"title": "Basically, Galvanizing Metal Without Acid",
+"url": "https://hackaday.com/2026/09/26/basically-galvanizing-metal-without-acid/"
+},
 "a5ec1ab21b87fe050af68798d94636b81d973918": {
 "date": "2026-07-15",
 "title": "google/googletest",
@@ -5533,6 +5573,11 @@
 "date": "2026-09-08",
 "title": "vinta/awesome-python",
 "url": "https://github.com/vinta/awesome-python"
+},
+"aaa25709d1d90455cd6035799962f519250f9154": {
+"date": "2026-09-27",
+"title": "A Pocket-Sized Digital Fish Tank",
+"url": "https://hackaday.com/2026/09/26/a-pocket-sized-digital-fish-tank/"
 },
 "aab5296bb2be6d762ebd950ed874d1b39bb1f5a3": {
 "date": "2026-09-19",
@@ -5773,6 +5818,11 @@
 "date": "2026-07-16",
 "title": "Inkling – Open-Weights 975B Parameter LLM",
 "url": "https://thinkingmachines.ai/inkling/"
+},
+"b0e74563df1b8f5b4df13eed45834cb5bcf67a02": {
+"date": "2026-09-27",
+"title": "Model: StarDoc-AI/TeleOCR",
+"url": "https://huggingface.co/StarDoc-AI/TeleOCR"
 },
 "b14c7ff6c7aee57b0df31570b4c69bafcf43236d": {
 "date": "2026-07-21",
@@ -6418,6 +6468,11 @@
 "date": "2026-09-17",
 "title": "AUPE: Collaborative byzantine fault-tolerant peer-sampling",
 "url": "https://arxiv.org/abs/2609.18563v1"
+},
+"c7b5b1b48e9288adb65d82a2734738f4fa7eb861": {
+"date": "2026-09-27",
+"title": "The Least Annoying of All Evils",
+"url": "https://hackaday.com/2026/09/26/the-least-annoying-of-all-evils/"
 },
 "c7c5eb70477711799f7f842094b7a337c2e3fad6": {
 "date": "2026-09-09",
@@ -7374,6 +7429,11 @@
 "title": "Security updates for Tuesday",
 "url": "https://lwn.net/Articles/1087068/"
 },
+"e1dfc1bffef1bd04a2e2447b77ba666a29f6e2dc": {
+"date": "2026-09-27",
+"title": "feigeCode/navop",
+"url": "https://github.com/feigeCode/navop"
+},
 "e1e4a65c7071bea80da286d1dd1ba13e95db7277": {
 "date": "2026-07-18",
 "title": "Hackaday Podcast Episode 378: C Coders, Ceramic Printers, and Shadow Archives",
@@ -8194,6 +8254,11 @@
 "title": "Security updates for Wednesday",
 "url": "https://lwn.net/Articles/1084210/"
 },
+"f7b924deeab1ada9dce41fc484dc6faabfe62986": {
+"date": "2026-09-27",
+"title": "GDB 18.1 released",
+"url": "https://lwn.net/Articles/1096897/"
+},
 "f7cfdfd7bcc39abd56d5784ec638c99a8319617d": {
 "date": "2026-07-24",
 "title": "alibaba/open-code-review",
@@ -8383,6 +8448,11 @@
 "date": "2026-08-14",
 "title": "Domas: Bypassing memory protection with AMD's memory controllers",
 "url": "https://lwn.net/Articles/1088778/"
+},
+"fd3957c011884772cd464fe0d59e2e6a8c53d8ef": {
+"date": "2026-09-27",
+"title": "envoyproxy/envoy",
+"url": "https://github.com/envoyproxy/envoy"
 },
 "fd5b733b3580dcf8f00fb935ffa25a6d22161c53": {
 "date": "2026-08-08",

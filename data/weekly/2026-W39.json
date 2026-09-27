@@ -1,0 +1,193 @@
+{
+  "week": "2026-W39",
+  "start": "2026-09-21",
+  "end": "2026-09-27",
+  "title": "Agents, Benchmarks, and Embedded Hacks",
+  "intro": "This week the AI world kept building smarter agents and tougher benchmarks, while the hardware side saw a flood of open‑source tools and security patches. Engineers got fresh data to train on and new boards to tinker with.",
+  "themes": [
+    {
+      "headline": "Agent Harnesses Get a Makeover",
+      "body": "**Lead‑in:** Researchers are converging on the idea of a reusable \"harness\" for LLM agents. Papers like Grow the Harness, Harness‑Zero, and RRSI propose distilling, regularizing, and iteratively improving shared control logic, while MAGIC and COMPASS explore graph‑based coordination and spatial transformers for multi‑agent teamwork. Together they signal a shift from monolithic prompts to modular, reusable agent components.",
+      "items": [
+        {
+          "id": "76147feec83c2324b9c2661e02ba5e0564986ff6",
+          "title": "Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents",
+          "url": "https://arxiv.org/abs/2609.26760v1",
+          "date": "2026-09-23",
+          "source": "arXiv cs.AI",
+          "section": "AI & ML"
+        },
+        {
+          "id": "3c0948c47a505040ba1c79907a5068d2036268b4",
+          "title": "Harness-Zero: Harness Distillation via Agent-as-Harness",
+          "url": "https://arxiv.org/abs/2609.24974v1",
+          "date": "2026-09-22",
+          "source": "arXiv cs.AI",
+          "section": "AI & ML"
+        },
+        {
+          "id": "1fd62c8a9d92c47312b5d1eba94fcc073172c7ed",
+          "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+          "url": "https://arxiv.org/abs/2609.24972v1",
+          "date": "2026-09-22",
+          "source": "arXiv cs.LG",
+          "section": "AI & ML"
+        },
+        {
+          "id": "bc183de7d79d9cb79a831b98c868814f4d9198c0",
+          "title": "MAGIC: Mixed-Granularity Agent Graphs via Incremental Construction with Dense-Reward Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2609.26667v1",
+          "date": "2026-09-23",
+          "source": "arXiv cs.LG",
+          "section": "AI & ML"
+        },
+        {
+          "id": "cc6d0f1737e9f9e523dbd134959ec35f86e6f879",
+          "title": "Controlling Collectives of AI Agents in Reasoning Space with Spatial Transformers",
+          "url": "https://arxiv.org/abs/2609.28247v1",
+          "date": "2026-09-24",
+          "source": "arXiv cs.RO",
+          "section": "AI & ML"
+        }
+      ]
+    },
+    {
+      "headline": "Benchmarks Go Domain‑Specific",
+      "body": "**Lead‑in:** New evaluation suites are targeting narrow, high‑impact domains. BRIE offers a living benchmark for EHR question answering, validated by clinicians, while SWE‑Serve provides 53 production‑inference tasks for agentic engineering. These datasets push models to prove usefulness beyond generic NLP, emphasizing reliability in health and deployment contexts.",
+      "items": [
+        {
+          "id": "f39c2221f5095d00d2bfb63794e9ce3c520f43c7",
+          "title": "A Living Benchmark for Information Retrieval from Electronic Health Records",
+          "url": "https://arxiv.org/abs/2609.30205v1",
+          "date": "2026-09-25",
+          "source": "arXiv cs.AI",
+          "section": "AI & ML"
+        },
+        {
+          "id": "779d18aa30235662f18954d7bdf555684610afb3",
+          "title": "SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving",
+          "url": "https://arxiv.org/abs/2609.26777v1",
+          "date": "2026-09-23",
+          "source": "arXiv cs.AI",
+          "section": "AI & ML"
+        }
+      ]
+    },
+    {
+      "headline": "Embedded DIY and Security Surge",
+      "body": "**Lead‑in:** The hardware community is buzzing with open‑source releases and critical patches. CERN’s colibri VHDL library, ESP32‑based audio spectrum and lighting projects, and a modular macro keypad showcase the maker spirit, while Friday’s multi‑distro security updates and the Linux 7.3‑rc4 prepatch remind engineers to stay patched.",
+      "items": [
+        {
+          "id": "cac65aa5ca8f637f845dfa6591882557603f149b",
+          "title": "FPGA for All — CERN Releases “colibri” VHDL Library",
+          "url": "https://hackaday.com/2026/09/24/fpga-for-all-cern-releases-colibri-vhdl-library/",
+          "date": "2026-09-25",
+          "source": "hackaday",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "853a2b29c74bed0098628842d04f51fd83965956",
+          "title": "Audio Spectrum Analyzer on an ESP32 Display Board",
+          "url": "https://hackaday.com/2026/09/23/audio-spectrum-analyzer-on-an-esp32-display-board/",
+          "date": "2026-09-24",
+          "source": "hackaday",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "c2b8d24cbbc0e273c80891f00a009acbbfefc95e",
+          "title": "ESP32 Replacement for Lighting Display Controller",
+          "url": "https://hackaday.com/2026/09/22/esp32-replacement-for-lighting-display-controller/",
+          "date": "2026-09-23",
+          "source": "hackaday",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "41acd146b75e05f5daaacde0e86bdb1c89eae8fc",
+          "title": "A Modular Macro Keypad",
+          "url": "https://hackaday.com/2026/09/26/a-modular-macro-keypad/",
+          "date": "2026-09-27",
+          "source": "hackaday",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "f812961b32c0fed44bcabfb549f0807c70997d3f",
+          "title": "Security updates for Friday",
+          "url": "https://lwn.net/Articles/1096637/",
+          "date": "2026-09-26",
+          "source": "lwn",
+          "section": "Embedded & systems"
+        }
+      ]
+    },
+    {
+      "headline": "Systems Research Tackles Memory and Consensus",
+      "body": "**Lead‑in:** On the CS front, xTier demonstrates kernel‑resident learned memory tiering for CXL servers using eBPF, while Hydrozoan and Flamingo propose latency‑adaptive DAG consensus and load‑balancing for Byzantine fault‑tolerant systems. These works aim to make large‑scale infrastructure both faster and more resilient.",
+      "items": [
+        {
+          "id": "270fd4bc90e87b3f1f0fcdfa9ad08965ae17b396",
+          "title": "xTier: Intelligent Tiering for CXL-Enabled Memory",
+          "url": "https://arxiv.org/abs/2609.27266v1",
+          "date": "2026-09-24",
+          "source": "arXiv cs.OS",
+          "section": "CS research"
+        },
+        {
+          "id": "534de9595e7db5530677289a5ee82abcdf08bc16",
+          "title": "Hydrozoan: Latency-Adaptive DAG Consensus under Mixed Byzantine and Crash Faults",
+          "url": "https://arxiv.org/abs/2609.25918v1",
+          "date": "2026-09-23",
+          "source": "arXiv cs.DC",
+          "section": "CS research"
+        },
+        {
+          "id": "a10b5ea6683141ac1768c076038485e4fa8eae81",
+          "title": "Flamingo: On Load Balancing in DAG-based Consensus Protocols",
+          "url": "https://arxiv.org/abs/2609.28361v1",
+          "date": "2026-09-24",
+          "source": "arXiv cs.DC",
+          "section": "CS research"
+        }
+      ]
+    }
+  ],
+  "numbers": [
+    {
+      "value": "159.3M",
+      "label": "parameters in the Mizar audio‑language model",
+      "item": {
+        "id": "64e1b525340e79960e8f543a970cece9e087b9b0",
+        "title": "Mizar: A 159M-Parameter Audio-Language Model for Audio Understanding",
+        "url": "https://arxiv.org/abs/2609.28344v1",
+        "date": "2026-09-24",
+        "source": "arXiv cs.SD",
+        "section": "AI & ML"
+      }
+    },
+    {
+      "value": "52.92%",
+      "label": "mean accuracy of Mizar on the MM benchmark",
+      "item": {
+        "id": "64e1b525340e79960e8f543a970cece9e087b9b0",
+        "title": "Mizar: A 159M-Parameter Audio-Language Model for Audio Understanding",
+        "url": "https://arxiv.org/abs/2609.28344v1",
+        "date": "2026-09-24",
+        "source": "arXiv cs.SD",
+        "section": "AI & ML"
+      }
+    },
+    {
+      "value": "6.8 GB",
+      "label": "size of the archive Meta’s Muse AI sent back",
+      "item": {
+        "id": "5635ba4ca03cc5bf2d52d9a299f7e9ee35093241",
+        "title": "I asked Meta’s Muse for its filesystem and it sent me 6.8GB",
+        "url": "https://mouse.dev/blog/muse-runtime-export/",
+        "date": "2026-09-23",
+        "source": "Hacker News",
+        "section": "CS research"
+      }
+    }
+  ],
+  "watch": "Next week keep an eye on how the new agent harness frameworks are adopted in production benchmarks and whether the emerging CXL tiering tricks make it into mainstream kernels.",
+  "item_count": 157
+}
