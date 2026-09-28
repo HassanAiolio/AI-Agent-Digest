@@ -754,6 +754,11 @@
 "title": "Supercon is Nigh!",
 "url": "https://hackaday.com/2026/09/12/supercon-is-nigh/"
 },
+"14d6d1760fccb3c1e4db2af508a8878c05e55c94": {
+"date": "2026-09-28",
+"title": "InfinityLoop1308/PipePipe",
+"url": "https://github.com/InfinityLoop1308/PipePipe"
+},
 "14fd05ad34f9923ee3b272a35b3cb1238aa811dc": {
 "date": "2026-07-30",
 "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
@@ -1843,6 +1848,11 @@
 "date": "2026-09-16",
 "title": "Nested Parallel von Neumann Architecture and Nested BSP",
 "url": "https://arxiv.org/abs/2609.16787v1"
+},
+"3280d88cfc32724f226618ab0279e83312eb0171": {
+"date": "2026-09-28",
+"title": "Model: XingChen-AGI/TeleOCR",
+"url": "https://huggingface.co/XingChen-AGI/TeleOCR"
 },
 "32c6c3db74853e73dcd1c4d3629a1446290af4d9": {
 "date": "2026-07-15",
@@ -3849,10 +3859,20 @@
 "title": "Get Your Monitor Transmitting VHF with a Browser Tool",
 "url": "https://hackaday.com/2026/08/30/get-your-monitor-transmitting-vhf-with-a-browser-tool/"
 },
+"71ac5a164a1de7a9396615377f75ea47f3c91e5c": {
+"date": "2026-09-28",
+"title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+"url": "https://arxiv.org/abs/2609.25021"
+},
 "71f142981da7c3c8c2cea5b680fd35847dd25bb1": {
 "date": "2026-07-29",
 "title": "Upcoming: Educational Codeforces Round 193 (Rated for Div. 2)",
 "url": "https://codeforces.com/contests/2253"
+},
+"723478c364ca5ceac67ed918b731628692a43e14": {
+"date": "2026-09-28",
+"title": "Defeating Satellite Spoofing with Galileo’s Encryption",
+"url": "https://hackaday.com/2026/09/27/defeating-satellite-spoofing-with-galileos-encryption/"
 },
 "72b1b6b9302658ba898d940ce04d827495fd738f": {
 "date": "2026-09-18",
@@ -4108,6 +4128,11 @@
 "date": "2026-09-17",
 "title": "[$] Ways to encrypt data on servers",
 "url": "https://lwn.net/Articles/1092553/"
+},
+"7d9d82fa7b0996bfabe6eebf52cc42762f0d14f3": {
+"date": "2026-09-28",
+"title": "The412Banner/winlator-contents",
+"url": "https://github.com/The412Banner/winlator-contents"
 },
 "7dc3bc3c2e2b4049773eb68f36fc0f6bed92e007": {
 "date": "2026-08-10",
@@ -4894,6 +4919,11 @@
 "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
 "url": "https://huggingface.co/blog/Hcompany/neomme"
 },
+"96a884f1397c43b54cd7b74347c2be884d53f869": {
+"date": "2026-09-28",
+"title": "bevyengine/bevy",
+"url": "https://github.com/bevyengine/bevy"
+},
 "96f619842baac539bf734fcc632cb8c59dd08932": {
 "date": "2026-09-09",
 "title": "Disassembling a Mini Air Blower to Make RC Airplanes",
@@ -5108,6 +5138,11 @@
 "date": "2026-09-04",
 "title": "From Data Querying to Data Investigations: Rethinking Natural Language Interfaces for Databases",
 "url": "https://arxiv.org/abs/2609.03898v1"
+},
+"9ca92b27b401d430cea599506b57c36e3f4b70e9": {
+"date": "2026-09-28",
+"title": "EbookFoundation/free-programming-books",
+"url": "https://github.com/EbookFoundation/free-programming-books"
 },
 "9cf27244675af85a58ad562b9ea8b8d8b57c2505": {
 "date": "2026-09-06",
@@ -5824,6 +5859,11 @@
 "title": "Model: StarDoc-AI/TeleOCR",
 "url": "https://huggingface.co/StarDoc-AI/TeleOCR"
 },
+"b0fef4d688896e897f3fbd0d2ef33d43ea4d8ac4": {
+"date": "2026-09-28",
+"title": "Enormous Fluid Simulation on Flip Dots is also Enormous Amount of Work",
+"url": "https://hackaday.com/2026/09/27/enormous-fluid-simulation-on-flip-dots-is-also-enormous-amount-of-work/"
+},
 "b14c7ff6c7aee57b0df31570b4c69bafcf43236d": {
 "date": "2026-07-21",
 "title": "Catanzaro: Some changes to GNOME security tracking",
@@ -5898,6 +5938,11 @@
 "date": "2026-09-18",
 "title": "Chronicle: Cut-Point Replay for Regression Testing of LLM Agents",
 "url": "https://arxiv.org/abs/2609.20625v1"
+},
+"b3d1a245c99eaef1f5c224bb21381c57da5948be": {
+"date": "2026-09-28",
+"title": "Going on a Tangent with the Intel 8087’s Hybrid CORDIC Algorithm",
+"url": "https://hackaday.com/2026/09/27/going-on-a-tangent-with-the-intel-8087s-hybrid-cordic-algorithm/"
 },
 "b3d6245033600a8259e4118d15c0c32a781a6a07": {
 "date": "2026-09-05",
@@ -6054,6 +6099,11 @@
 "title": "NationalSecurityAgency/ghidra",
 "url": "https://github.com/NationalSecurityAgency/ghidra"
 },
+"b9a9cda9cf37882b062bf3d10d47fc1f1e1a9815": {
+"date": "2026-09-28",
+"title": "cataclysmbn/Cataclysm-BN",
+"url": "https://github.com/cataclysmbn/Cataclysm-BN"
+},
 "b9cbf56e7f64b2d5fac4afa5c33c73ecf4b1e807": {
 "date": "2026-09-16",
 "title": "A Vision-Language Foundation Model for Precise and Comprehensive Brain Tumor Diagnosis from Preoperative Multimodal Data",
@@ -6159,6 +6209,11 @@
 "title": "FedA2L: Adaptive layer-wise learning rate adjustment in decentralized federated learning",
 "url": "https://arxiv.org/abs/2608.09208v1"
 },
+"be219bd0337154c5b931a1c49770d778166a3246": {
+"date": "2026-09-28",
+"title": "An IR Blaster Project, in a Nutshell",
+"url": "https://hackaday.com/2026/09/28/an-ir-blaster-project-in-a-nutshell/"
+},
 "be4a3c5426264d710c57171337575b69c5e0e6ab": {
 "date": "2026-09-04",
 "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
@@ -6213,6 +6268,11 @@
 "date": "2026-09-21",
 "title": "FareedKhan-dev/train-llm-from-scratch",
 "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch"
+},
+"c09f0d40ed19cff13e11fd788c7f6d588eb4f00f": {
+"date": "2026-09-28",
+"title": "Center-Pivot System Modified to Mow Lawn",
+"url": "https://hackaday.com/2026/09/27/center-pivot-system-modified-to-mow-lawn/"
 },
 "c0cb54cd5584231f603e1aaa6ef0a79a1b3eca68": {
 "date": "2026-08-17",
@@ -6549,6 +6609,11 @@
 "title": "higgsfield-ai/higgsfield",
 "url": "https://github.com/higgsfield-ai/higgsfield"
 },
+"c9dccabf83334318fce7ac594d354f4094b43ea3": {
+"date": "2026-09-28",
+"title": "Kernel prepatch 7.3-rc5",
+"url": "https://lwn.net/Articles/1096959/"
+},
 "ca08b1c29b3dcb3dce5103e7b5f099ded6d5bf31": {
 "date": "2026-08-29",
 "title": "abhigyanpatwari/GitNexus",
@@ -6843,6 +6908,11 @@
 "date": "2026-08-07",
 "title": "[$] Bringing BPF to binfmt_misc",
 "url": "https://lwn.net/Articles/1086947/"
+},
+"d242d07dbb0944cb5a3f3e8a0e4277d29b5d7e5b": {
+"date": "2026-09-28",
+"title": "Model: Contrastive-LM/CLM-v0.1-8B",
+"url": "https://huggingface.co/Contrastive-LM/CLM-v0.1-8B"
 },
 "d2ca577e4393d831212497e7859e87f86b2725f9": {
 "date": "2026-08-14",
@@ -7813,6 +7883,11 @@
 "date": "2026-09-22",
 "title": "Inside Petal: Building the World’s First Petabit-Class Transoceanic Subsea Cable",
 "url": "https://engineering.fb.com/2026/09/21/connectivity/petal-petabit-transoceanic-subsea-cable/"
+},
+"eb9dbdcbe989c1df664d431dffe3a5c6cfbbf5ff": {
+"date": "2026-09-28",
+"title": "denisidoro/navi",
+"url": "https://github.com/denisidoro/navi"
 },
 "ebad2045270fc73ee580a0c761dca3638a39d358": {
 "date": "2026-08-22",
