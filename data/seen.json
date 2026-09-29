@@ -1769,6 +1769,11 @@
 "title": "GCWing/OpenBitFun",
 "url": "https://github.com/GCWing/OpenBitFun"
 },
+"305d7bdc7eba439a14652446fcc0f85db3f03074": {
+"date": "2026-09-29",
+"title": "Security updates for Monday",
+"url": "https://lwn.net/Articles/1097191/"
+},
 "305f03a4aa6aa16d7e1ec597ef4e03503e16523b": {
 "date": "2026-09-09",
 "title": "Introducing ChatGPT Images 2.5",
@@ -2064,6 +2069,11 @@
 "title": "Upcoming: Codeforces Round (Div. 2)",
 "url": "https://codeforces.com/contests/2256"
 },
+"39e0c0d20f7d0b5171ce832ef6c080bcde113dad": {
+"date": "2026-09-29",
+"title": "Metal Gear Solid Moves From PlayStation to ESP32",
+"url": "https://hackaday.com/2026/09/29/metal-gear-solid-moves-from-playstation-to-esp32/"
+},
 "3a0994dbed9e06da9300a03f77e3cb6d35875659": {
 "date": "2026-07-17",
 "title": "Detecting LLM-Generated Texts with “Classical” Machine Learning",
@@ -2083,6 +2093,11 @@
 "date": "2026-08-01",
 "title": "Model: unsloth/DeepSeek-V4-Flash-0731-GGUF",
 "url": "https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF"
+},
+"3a411b84f077efb091461d0a99a6ad71dc2e1c0c": {
+"date": "2026-09-29",
+"title": "ThirteenAG/WidescreenFixesPack",
+"url": "https://github.com/ThirteenAG/WidescreenFixesPack"
 },
 "3a8585570cab21df194c4115cce4c90cdf272f31": {
 "date": "2026-08-11",
@@ -2739,6 +2754,11 @@
 "title": "NVIDIA/cosmos-framework",
 "url": "https://github.com/NVIDIA/cosmos-framework"
 },
+"4f131ba86c413479be96b7681aa006695ebc6054": {
+"date": "2026-09-29",
+"title": "Reasoning with Continuous Latent Diffusion",
+"url": "https://arxiv.org/abs/2609.35694v1"
+},
 "4f13f19c95a450cdc8531075e08b673bbdd044ca": {
 "date": "2026-07-27",
 "title": "ValveSoftware/Proton",
@@ -2779,6 +2799,11 @@
 "title": "There’s Whole Computer Inside This Mouse",
 "url": "https://hackaday.com/2026/09/05/theres-whole-computer-inside-this-mouse/"
 },
+"5136b4775f01edbaa01dfc1248034782b06fa354": {
+"date": "2026-09-29",
+"title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+"url": "https://stateofutopia.com/experiments/microllmlab/"
+},
 "513ad6acdf15c6ad9dac5b95c611cf1323c9e8cb": {
 "date": "2026-08-26",
 "title": "mklinux-v7.0-mk2 released",
@@ -2798,6 +2823,11 @@
 "date": "2026-09-04",
 "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
 "url": "https://openai.com/index/daybreak-for-frontline-defenders"
+},
+"519655950107760c5b55e803d130f4daafad0a12": {
+"date": "2026-09-29",
+"title": "ESP32S3 cluster running 1.58-bit (BitNet) Language model",
+"url": "https://github.com/Low-Zi-Hong/ESP32s3-LLM-Cluster"
 },
 "519f8aafdecae90966b4373d589da81760d03a34": {
 "date": "2026-08-16",
@@ -3814,6 +3844,11 @@
 "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
 "url": "https://news.ycombinator.com/item?id=48968606"
 },
+"7066b0ea25feda0704fcb8dd7a6675e1dfeb3840": {
+"date": "2026-09-29",
+"title": "Show HN: HN.watch – Videos of all Hacker News posts",
+"url": "https://hn.watch/"
+},
 "7082a2096d6c4524e55c30f2aa9e21caf48bfd92": {
 "date": "2026-09-16",
 "title": "Verifiable Social Reasoning for LLM Assistants",
@@ -3913,6 +3948,11 @@
 "date": "2026-08-04",
 "title": "Security updates for Monday",
 "url": "https://lwn.net/Articles/1086897/"
+},
+"73e440f85ed996a1382f9b553faf93aa09f36962": {
+"date": "2026-09-29",
+"title": "samugit83/redamon",
+"url": "https://github.com/samugit83/redamon"
 },
 "73fd34ef09c47bde12c4e6d6eaa2fd19035aa0b7": {
 "date": "2026-07-20",
@@ -4114,6 +4154,11 @@
 "title": "The Best of Times, the Worst of Times: Moment-Based Analysis of Probabilistic Cost Structures",
 "url": "https://arxiv.org/abs/2607.25361v1"
 },
+"7cefbac1aa2dfc9745b3d7c396bcc4c7affcbf38": {
+"date": "2026-09-29",
+"title": "Semantic Prefix Oracles for LLM Decoding: Contracts and Differential Validation",
+"url": "https://arxiv.org/abs/2609.35425v1"
+},
 "7d39bdfc71151e3651a6771c30cc11482bc018a6": {
 "date": "2026-08-31",
 "title": "majd/ipatool",
@@ -4218,6 +4263,11 @@
 "date": "2026-08-12",
 "title": "Apple Silicon and macOS VMs: Faster LLM Inference with llama.cpp",
 "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md"
+},
+"800fd261a3e6425dc504decb6ac643e398cb4cd3": {
+"date": "2026-09-29",
+"title": "On Asynchrony and Reversibility in CCS",
+"url": "https://arxiv.org/abs/2609.34925v1"
 },
 "80172d986bcb4f741f2bb4e0a31c88045ccbdd3b": {
 "date": "2026-09-18",
@@ -4408,6 +4458,11 @@
 "date": "2026-08-11",
 "title": "neuml/txtai",
 "url": "https://github.com/neuml/txtai"
+},
+"853437979bd59fdb279b849a6b20a1e8749161da": {
+"date": "2026-09-29",
+"title": "Argus: Agentic, Reference-Calibrated, Tree-Guided, System-Software-Level Bottleneck Localization",
+"url": "https://arxiv.org/abs/2609.35508v1"
 },
 "853a2b29c74bed0098628842d04f51fd83965956": {
 "date": "2026-09-24",
@@ -4889,6 +4944,11 @@
 "title": "NVIDIA-NeMo/Speech",
 "url": "https://github.com/NVIDIA-NeMo/Speech"
 },
+"9552195c964ddb7b23252953cea23af16e9f5c33": {
+"date": "2026-09-29",
+"title": "Holo4: powering generalist computer-use agents",
+"url": "https://huggingface.co/blog/Hcompany/holo4"
+},
 "95ae803fbccd218976830de083c703329435e8fb": {
 "date": "2026-08-08",
 "title": "Security updates for Friday",
@@ -5143,6 +5203,11 @@
 "date": "2026-09-28",
 "title": "EbookFoundation/free-programming-books",
 "url": "https://github.com/EbookFoundation/free-programming-books"
+},
+"9ce4e19e8916dda4dcf2717e6efb07652a37c682": {
+"date": "2026-09-29",
+"title": "TokenCast: Forecasting Token Consumption During LLM Agent Execution",
+"url": "https://arxiv.org/abs/2609.35760v1"
 },
 "9cf27244675af85a58ad562b9ea8b8d8b57c2505": {
 "date": "2026-09-06",
@@ -5528,6 +5593,11 @@
 "date": "2026-08-07",
 "title": "PLoRA: An NDP-Enhanced Pooled-Memory System for Cost-Efficient Multi-LoRA Serving",
 "url": "https://arxiv.org/abs/2608.05483v1"
+},
+"a84c480767b342f5bd3fadaf872301b5b52f29ff": {
+"date": "2026-09-29",
+"title": "Show HN: PaperMono, e-ink fridge magnet shopping list with mobile web page",
+"url": "https://github.com/seamusc/papermono-shopping-list"
 },
 "a86553c9e0ca3ee41f6f507b5e0b0409a0834460": {
 "date": "2026-07-14",
@@ -5974,6 +6044,11 @@
 "title": "A 386 PC For Your RP2350",
 "url": "https://hackaday.com/2026/09/13/a-386-pc-for-your-rp2350/"
 },
+"b474ccb4ddc60cbf2ad6c50709c021ac4a1c9516": {
+"date": "2026-09-29",
+"title": "Model: Viggle/Qwen-Image-2.1-viggle-turbo",
+"url": "https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo"
+},
 "b536429e7025e7acc6ea30bfbee40c0422c4a0b1": {
 "date": "2026-08-05",
 "title": "Model: EschaLabs/Qwen3.6-35B-A3B-Escha-W2",
@@ -6204,6 +6279,11 @@
 "title": "Building an Arch Linux aarch64 port for Holo Core (Collabora blog)",
 "url": "https://lwn.net/Articles/1083392/"
 },
+"bdc5b9e45f571f9bf791046f6d71b82af20feb14": {
+"date": "2026-09-29",
+"title": "Detanup01/gbe_fork",
+"url": "https://github.com/Detanup01/gbe_fork"
+},
 "be125ebd874bef61d4cf1a649f5c6f831efa34c5": {
 "date": "2026-08-11",
 "title": "FedA2L: Adaptive layer-wise learning rate adjustment in decentralized federated learning",
@@ -6278,6 +6358,11 @@
 "date": "2026-08-17",
 "title": "Hackaday Links: August 16, 2026",
 "url": "https://hackaday.com/2026/08/16/hackaday-links-august-16-2026/"
+},
+"c0dcfb7a648b71a005e0c2f059a8b57f0d74984a": {
+"date": "2026-09-29",
+"title": "Monitoring and Verification of Multitenant Kubernetes Clusters using TLA+ Trace Checking",
+"url": "https://arxiv.org/abs/2609.34881v1"
 },
 "c0e9bfb426573132760dd1052c06834d369efc2c": {
 "date": "2026-08-26",
@@ -6469,6 +6554,11 @@
 "title": "IncSFS: Incremental Full-Sparse Flow-Sensitive Pointer Analysis for C/C++",
 "url": "https://arxiv.org/abs/2608.24391v1"
 },
+"c580c743e6d433c54d6caa10f258c8b2f4ba2955": {
+"date": "2026-09-29",
+"title": "Git v2.56.0 released",
+"url": "https://lwn.net/Articles/1097213/"
+},
 "c59a5c9b73ea01b00ac5aacce13bbaa3740f8e44": {
 "date": "2026-09-04",
 "title": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center",
@@ -6508,6 +6598,11 @@
 "date": "2026-08-06",
 "title": "Security updates for Wednesday",
 "url": "https://lwn.net/Articles/1087318/"
+},
+"c70184feffa65f5211fbabe129b65e3a0e2276ce": {
+"date": "2026-09-29",
+"title": "[$] Reducing undefined behavior in the C language",
+"url": "https://lwn.net/Articles/1095811/"
 },
 "c703ca8c2001b3de021955679a1a26317704d8bd": {
 "date": "2026-09-18",
@@ -6814,6 +6909,11 @@
 "title": "Training a 3.8B LLM to 0.384 CORE for $998",
 "url": "https://hugovergnes.github.io/little-lm-3-8b/"
 },
+"cf468ec39dd67f092816e8f2d846aee26f3a6e5e": {
+"date": "2026-09-29",
+"title": "Towards safety cases for frontier AI training",
+"url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training"
+},
 "cfaa10aec817bf25e7906fe468d8ceffc5eaec31": {
 "date": "2026-09-26",
 "title": "bootandy/dust",
@@ -6838,6 +6938,11 @@
 "date": "2026-09-20",
 "title": "Using Azo Photoisomerization to Alter Semiconductor Film Properties",
 "url": "https://hackaday.com/2026/09/19/using-azo-photoisomerization-to-alter-semiconductor-film-properties/"
+},
+"cfe8e900401f31bb533781d0249e35adbec60569": {
+"date": "2026-09-29",
+"title": "How we will do better for Australia",
+"url": "https://openai.com/index/how-we-will-do-better-for-australia"
 },
 "cfed5a1603aa26abfdbba3f874452333fb7ae656": {
 "date": "2026-08-20",
@@ -7444,6 +7549,11 @@
 "title": "Four weekend stable kernel updates",
 "url": "https://lwn.net/Articles/1087949/"
 },
+"e03344a99dbbb74a79ca301ba0b3f31cd632b166": {
+"date": "2026-09-29",
+"title": "KV-streams for Efficient Compaction in Agentic Reinforcement Learning",
+"url": "https://arxiv.org/abs/2609.35750v1"
+},
 "e08d7895ed9660110a3ff28501c855325d68fe1d": {
 "date": "2026-09-10",
 "title": "UnsafeChecker: Finding Soundness Bugs in Rust Safe Abstractions",
@@ -7559,6 +7669,11 @@
 "title": "[$] Lockless MPSC FIFO queues for io_uring",
 "url": "https://lwn.net/Articles/1081871/"
 },
+"e34b8a6f171d61f3eba81f6d96b16269b187de47": {
+"date": "2026-09-29",
+"title": "Jet Megatextures Demo for ESP32-S3",
+"url": "https://hackaday.com/2026/09/28/jet-megatextures-demo-for-esp32-s3/"
+},
 "e35b5ddd99aca51b49d1f061374e2ed841a16c51": {
 "date": "2026-08-22",
 "title": "Hackaday Podcast Episode 383: QR Codes, Caving Gear, and the Old School Way to Learn Electronics",
@@ -7608,6 +7723,11 @@
 "date": "2026-08-20",
 "title": "ChatGPT Ads expands across Europe",
 "url": "https://openai.com/index/chatgpt-ads-expands-across-europe"
+},
+"e49b8615b8ac1246136e4cbd3768ee2a1d9400f9": {
+"date": "2026-09-29",
+"title": "Rizzo-AI-Academy/rizzo-pii",
+"url": "https://github.com/Rizzo-AI-Academy/rizzo-pii"
 },
 "e4b2f0a95227383f058aab6a318b57b2a14a1ad8": {
 "date": "2026-07-14",
@@ -7703,6 +7823,11 @@
 "date": "2026-08-16",
 "title": "MeisApps/pcbu-desktop",
 "url": "https://github.com/MeisApps/pcbu-desktop"
+},
+"e6e66f01aaff68a3c460e047e92dc90c59c70efc": {
+"date": "2026-09-29",
+"title": "Torch-PIM: Automated Profile-Guided PIM Offloading for PyTorch",
+"url": "https://arxiv.org/abs/2609.34657v1"
 },
 "e6f38ed5179716bf44ce557098a56be1155e5bab": {
 "date": "2026-08-10",
@@ -8124,6 +8249,11 @@
 "title": "Diagnosing High-Performance BFT Consensus via Mixture Modeling of Block Time Distributions",
 "url": "https://arxiv.org/abs/2608.01934v1"
 },
+"f1f2aad2f8cd02932fbc1f49003a86a9677a3fb1": {
+"date": "2026-09-29",
+"title": "Session Type State Spaces Form Lattices",
+"url": "https://arxiv.org/abs/2609.34927v1"
+},
 "f1f7a62026fe6c750f8e6aafebe2ec8e2f5e2f53": {
 "date": "2026-08-18",
 "title": "Launch HN: Speko (YC S26) – OpenRouter for Voice AI",
@@ -8243,6 +8373,11 @@
 "date": "2026-08-07",
 "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
 "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/"
+},
+"f6067de44f71b13075e180feaa9ea600fc108ec3": {
+"date": "2026-09-29",
+"title": "SerenityOS/serenity",
+"url": "https://github.com/SerenityOS/serenity"
 },
 "f62f10cec2f60ef2d4716223596dfdcba85a81c8": {
 "date": "2026-09-14",
@@ -8443,6 +8578,11 @@
 "date": "2026-09-05",
 "title": "Grml 2026.09 released",
 "url": "https://lwn.net/Articles/1092660/"
+},
+"f9c73702769a6dd8d63ab5782fdf0035226c942a": {
+"date": "2026-09-29",
+"title": "PrismLauncher/PrismLauncher",
+"url": "https://github.com/PrismLauncher/PrismLauncher"
 },
 "f9e1ef66ab3da5c60dafd5b54edf0f328df3b39e": {
 "date": "2026-08-13",
