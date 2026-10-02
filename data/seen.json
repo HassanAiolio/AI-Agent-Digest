@@ -464,6 +464,11 @@
 "title": "Model: meta-models/Muse-Glimmer-30B",
 "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
 },
+"0bf00b70dbd762e2fc6e7d79a9e93a081692953e": {
+"date": "2026-10-02",
+"title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+"url": "https://huggingface.co/blog/allenai/olmocore3"
+},
 "0c42f57d5906be60b531f4739a8a61a4a73a8f39": {
 "date": "2026-08-26",
 "title": "MemPalace/mempalace",
@@ -654,6 +659,11 @@
 "title": "Detecting DBMS Bugs by Constructing Equivalent Representations of Intermediate Query Results",
 "url": "https://arxiv.org/abs/2608.30385v1"
 },
+"110f629b9b8c54e9b56a88d8d3c9d31dc952edd2": {
+"date": "2026-10-02",
+"title": "Faynt: Scaling and Optimizing Policies for Competitive Melee",
+"url": "https://arxiv.org/abs/2610.02144v1"
+},
 "111943343d4f7edc962cadba307e733276d77a00": {
 "date": "2026-09-15",
 "title": "Model: tencent/AuK",
@@ -678,6 +688,11 @@
 "date": "2026-09-11",
 "title": "Model: nex-agi/Nex-N2.5-mini",
 "url": "https://huggingface.co/nex-agi/Nex-N2.5-mini"
+},
+"1173a9b615cab22b7c1d1ac37a581eef2497f486": {
+"date": "2026-10-02",
+"title": "YesterMester/TheSimpsonsGameRecomp",
+"url": "https://github.com/YesterMester/TheSimpsonsGameRecomp"
 },
 "117d2cb5f38ac92cd1847dee375ec1daf579a2ff": {
 "date": "2026-08-09",
@@ -838,6 +853,11 @@
 "date": "2026-09-10",
 "title": "Security updates for Wednesday",
 "url": "https://lwn.net/Articles/1093342/"
+},
+"16190b01d7691d9fa5c1d1f17c5d134048c0baa3": {
+"date": "2026-10-02",
+"title": "dmtrKovalenko/fframes",
+"url": "https://github.com/dmtrKovalenko/fframes"
 },
 "16654ceafc31892fb722a9036af04178d842fcfc": {
 "date": "2026-08-24",
@@ -1043,6 +1063,11 @@
 "date": "2026-08-28",
 "title": "Performance Foundations of Parallel & Distributed Reasoning Language Models",
 "url": "https://arxiv.org/abs/2608.27046v1"
+},
+"1abdf52d4510b88b8d1ca3a47be69428a643d663": {
+"date": "2026-10-02",
+"title": "Model: Cloudflare/clef",
+"url": "https://huggingface.co/Cloudflare/clef"
 },
 "1ad840f582c7ef60e0a99ed36d772977f40bda6b": {
 "date": "2026-09-14",
@@ -1594,6 +1619,11 @@
 "title": "Retrotechtacular: A View of the Moon from 1964",
 "url": "https://hackaday.com/2026/08/09/retrotechtacular-a-view-of-the-moon-from-1964/"
 },
+"27ff405c50557986de5a26a711444ad6a090be5f": {
+"date": "2026-10-02",
+"title": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
+"url": "https://arxiv.org/abs/2610.02206v1"
+},
 "282122cf76b391c6162441906abf7c41aacdb5db": {
 "date": "2026-08-27",
 "title": "MetaSieve: Faster Relational Deep Learning through SQL-Based Metapath Selection",
@@ -1789,6 +1819,11 @@
 "title": "Flowseal/zapret-discord-youtube",
 "url": "https://github.com/Flowseal/zapret-discord-youtube"
 },
+"2f8052860aa2d6d2ddf9cbf360a4069ebb1547b3": {
+"date": "2026-10-02",
+"title": "Rust 1.99.0 released",
+"url": "https://lwn.net/Articles/1098068/"
+},
 "2f92a8ca47fb31cce7ea14f80f46a6a31b87d29e": {
 "date": "2026-09-16",
 "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
@@ -1873,6 +1908,11 @@
 "date": "2026-08-07",
 "title": "Comfy-Org/workflow_templates",
 "url": "https://github.com/Comfy-Org/workflow_templates"
+},
+"317971da35b148b97cc4914c72e77fb99e55982a": {
+"date": "2026-10-02",
+"title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
+"url": "https://blog.cloudflare.com/clef-decision-models/"
 },
 "31bfd7b181d67987a758e562c2311fe33fdb53b5": {
 "date": "2026-07-14",
@@ -1989,6 +2029,11 @@
 "title": "3D On The Playdate Handheld",
 "url": "https://hackaday.com/2026/07/25/3d-on-the-playdate-handheld/"
 },
+"346fb52f73863793c2fff6f3bdd53ad0d5cb7c1d": {
+"date": "2026-10-02",
+"title": "Security updates for Thursday",
+"url": "https://lwn.net/Articles/1098067/"
+},
 "34a18febd9a9e1cd9f686af91a7a06c860891767": {
 "date": "2026-07-16",
 "title": "From Interpretation to Compilation: Compilation-Based Execution of Semantic Operators [Vision]",
@@ -2043,6 +2088,11 @@
 "date": "2026-08-04",
 "title": "K-Dense-AI/scientific-agent-skills",
 "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+},
+"370f19c125da23e32f436813b9486806b461ab29": {
+"date": "2026-10-02",
+"title": "GridSMR: Causal Compression for Sharded Blockchains",
+"url": "https://arxiv.org/abs/2610.01443v1"
 },
 "3733ca5e7ba69bd4ab17e516a69f9a1ee96e692d": {
 "date": "2026-09-03",
@@ -2623,6 +2673,11 @@
 "date": "2026-09-30",
 "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
 "url": "https://huggingface.co/blog/nvidia/kumo-tabular"
+},
+"494e7307546ba56d21a5efa1f59611451a96f042": {
+"date": "2026-10-02",
+"title": "PrimeIntellect-ai/prime-agent",
+"url": "https://github.com/PrimeIntellect-ai/prime-agent"
 },
 "4960a35db25e6d2717922222af7e5f24cb1f87ee": {
 "date": "2026-07-25",
@@ -3519,6 +3574,16 @@
 "title": "HunxByts/GhostTrack",
 "url": "https://github.com/HunxByts/GhostTrack"
 },
+"63211fb0b2100dd2b5cdd92b94d99c51641df11b": {
+"date": "2026-10-02",
+"title": "[$] Coping with the onslaught of kernel security bugs",
+"url": "https://lwn.net/Articles/1096908/"
+},
+"63221bbd48597189db24088dc2c49b8c10cb2cd6": {
+"date": "2026-10-02",
+"title": "LightningMods/Itemzflow",
+"url": "https://github.com/LightningMods/Itemzflow"
+},
 "6339199c0d41a0665c9bdaadbeca6ff25da7c767": {
 "date": "2026-08-15",
 "title": "ilya-zlobintsev/LACT",
@@ -3989,6 +4054,11 @@
 "title": "0xPlaygrounds/rig",
 "url": "https://github.com/0xPlaygrounds/rig"
 },
+"70fe22e0cfc9cf9871e2592599d083fb0a5a84f6": {
+"date": "2026-10-02",
+"title": "GPU-Initiated Communication: Dissecting Down to the Bone",
+"url": "https://arxiv.org/abs/2610.01380v1"
+},
 "711f2660966290a48c1113a5ad11c626ed0e9f6c": {
 "date": "2026-07-20",
 "title": "Automated Pressure Advance Using a Bed-Leveling Sensor",
@@ -4089,6 +4159,11 @@
 "title": "Granite 4.2 LLMs: How They're Built",
 "url": "https://huggingface.co/blog/ibm-granite/granite-4-2"
 },
+"74607161981788316130c0c8d889d40914399391": {
+"date": "2026-10-02",
+"title": "JoinGR: Learning to Traverse Join Graphs for Table Retrieval",
+"url": "https://arxiv.org/abs/2610.01064v1"
+},
 "74d485671222f8437724da35614dd4303b225d10": {
 "date": "2026-08-25",
 "title": "3D-Printed Skin Gives Robots the Sensation of Touch",
@@ -4148,6 +4223,11 @@
 "date": "2026-09-26",
 "title": "anthropics/claude-code-action",
 "url": "https://github.com/anthropics/claude-code-action"
+},
+"778c8331a8a4ef7576790f7c1756d55bfff40e52": {
+"date": "2026-10-02",
+"title": "Prune First, Decide Fast: Scalable Semantic Query Processing with JEVDB",
+"url": "https://arxiv.org/abs/2610.02046v1"
 },
 "779d18aa30235662f18954d7bdf555684610afb3": {
 "date": "2026-09-23",
@@ -4333,6 +4413,11 @@
 "date": "2026-07-14",
 "title": "MET: Theory-Grounded and Culture-Aware Multilingual Moral Reasoning",
 "url": "https://arxiv.org/abs/2607.11736v1"
+},
+"7e67b43cf9d0e609b77c8416e1333d34aa00dfc5": {
+"date": "2026-10-02",
+"title": "The eternal complement",
+"url": "https://openai.com/index/the-eternal-complement"
 },
 "7e7d1ddb9c9f4530fd558b50a35c6979fcce5d96": {
 "date": "2026-07-17",
@@ -4979,6 +5064,11 @@
 "title": "JustFit: 200K-Token LLM Serving on a 24 GiB Laptop with Just-in-Time State Management",
 "url": "https://arxiv.org/abs/2609.17475v1"
 },
+"91d1779c50424b7e0c6b8167f7c3d3ba1e4f7741": {
+"date": "2026-10-02",
+"title": "How to speed up the Rust compiler in September 2026",
+"url": "https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html"
+},
 "91f6c042e793eee0ee2aec09f994a9b663fdba7c": {
 "date": "2026-08-18",
 "title": "Model: nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
@@ -5519,6 +5609,11 @@
 "title": "Gitlawb/openclaude",
 "url": "https://github.com/Gitlawb/openclaude"
 },
+"a1462bb75d9b078452234a6c47ece54d25daac2d": {
+"date": "2026-10-02",
+"title": "Various Projects Find Hidden SDR Capabilities in ESP32 Microcontrollers",
+"url": "https://www.rtl-sdr.com/various-projects-independently-find-hidden-sdr-capabilities-in-esp32-microcontrollers/"
+},
 "a16be7309fbbf1efcf22ea55d1b9a1e95fd77dab": {
 "date": "2026-09-08",
 "title": "Free-TV/IPTV",
@@ -5749,6 +5844,11 @@
 "title": "ETAS: An Effect-Typed Language for Agent Systems",
 "url": "https://arxiv.org/abs/2607.17780v1"
 },
+"a80484c2d5849bdb14051812d38a301cb6633866": {
+"date": "2026-10-02",
+"title": "How Albertsons Companies is reimagining retail from the inside out",
+"url": "https://openai.com/index/albertsons-reimagining-retail"
+},
 "a8333a98f994e2bf5d356497d6dbf8e4fade871f": {
 "date": "2026-08-07",
 "title": "PLoRA: An NDP-Enhanced Pooled-Memory System for Cost-Efficient Multi-LoRA Serving",
@@ -5768,6 +5868,11 @@
 "date": "2026-09-10",
 "title": "NVIDIA/nccl",
 "url": "https://github.com/NVIDIA/nccl"
+},
+"a885ed61f54a415a08d1866acde4d0ebc6368a44": {
+"date": "2026-10-02",
+"title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+"url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
 },
 "a89f2df24b6c86a5d8e317900a4aa477fdd5e30a": {
 "date": "2026-07-29",
@@ -6494,6 +6599,11 @@
 "title": "EviRover: Reinforcing Agentic Perception Beyond a Glance",
 "url": "https://arxiv.org/abs/2609.40230v1"
 },
+"be9c9704586096aa972110f9c7f0d8a93dde35a0": {
+"date": "2026-10-02",
+"title": "TACO: Ternary Absolute-max Column-wise One-sparse Optimizer for LLM Fine-Tuning",
+"url": "https://arxiv.org/abs/2610.02199v1"
+},
 "bedf3b3b52035ff493755733756228fad261301a": {
 "date": "2026-10-01",
 "title": "FissionReady: Joint Workload and Power Scheduling for Data Centers Powered by Small Modular Reactors",
@@ -6874,6 +6984,11 @@
 "title": "Model: huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
 "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF"
 },
+"c87c661524d5c89a13c5b65ac1a82af5a057e660": {
+"date": "2026-10-02",
+"title": "Friedrich-M/UniMate",
+"url": "https://github.com/Friedrich-M/UniMate"
+},
 "c89447e4cc8f9029069d6c0e916f82fe5cead153": {
 "date": "2026-08-01",
 "title": "Model: deepseek-ai/DeepSeek-V4-Flash-0731",
@@ -7134,6 +7249,11 @@
 "title": "Latent Reward Registers for Diffusion Preference Alignment",
 "url": "https://arxiv.org/abs/2608.03929v1"
 },
+"cf02407e6e3b0e81e4f1cc7dd416694481cfacdf": {
+"date": "2026-10-02",
+"title": "Model: PSRben/VisionHOPE",
+"url": "https://huggingface.co/PSRben/VisionHOPE"
+},
 "cf374b609ab644ddc776a114ae01ae204145ab41": {
 "date": "2026-09-11",
 "title": "Training a 3.8B LLM to 0.384 CORE for $998",
@@ -7143,6 +7263,11 @@
 "date": "2026-09-29",
 "title": "Towards safety cases for frontier AI training",
 "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training"
+},
+"cf8e622fe4cf1b66e05fdcd14225a47f983960b3": {
+"date": "2026-10-02",
+"title": "EasyTier/EasyTier",
+"url": "https://github.com/EasyTier/EasyTier"
 },
 "cfaa10aec817bf25e7906fe468d8ceffc5eaec31": {
 "date": "2026-09-26",
@@ -7784,6 +7909,11 @@
 "title": "Nasiko-Labs/nasiko",
 "url": "https://github.com/Nasiko-Labs/nasiko"
 },
+"dfeb1b1e3b8f4d67a8d4c22d05a9fbf25fc61293": {
+"date": "2026-10-02",
+"title": "Archiving The World’s Oldest Webcam Feed",
+"url": "https://hackaday.com/2026/10/01/archiving-the-worlds-oldest-webcam-feed/"
+},
 "dfedfa4966b602195df85786c0cf603c85c9fec5": {
 "date": "2026-07-21",
 "title": "ggml-org/ggml",
@@ -8018,6 +8148,11 @@
 "date": "2026-08-29",
 "title": "apache/opendal",
 "url": "https://github.com/apache/opendal"
+},
+"e597298fe2b9ac6802978e3b2f31934d433eda13": {
+"date": "2026-10-02",
+"title": "A Mechanical Radio, Sort Of",
+"url": "https://hackaday.com/2026/10/01/a-mechanical-radio-sort-of/"
 },
 "e5b664a37aa39848f2818dc3bf1d6e3bf5ae4443": {
 "date": "2026-08-11",
@@ -8423,6 +8558,11 @@
 "date": "2026-07-22",
 "title": "The State of Simulation for Physical AI: An Overview",
 "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai"
+},
+"ef0cb323503a7d95abb7da95da35fa99329a87ff": {
+"date": "2026-10-02",
+"title": "WIP: DBWorkout: A Gamified SQL Practice Platform to Support Formative Learning in Database Courses",
+"url": "https://arxiv.org/abs/2610.01174v1"
 },
 "ef72eaf47a1179f89c27619345666839a0491af6": {
 "date": "2026-08-03",
