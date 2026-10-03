@@ -854,6 +854,11 @@
 "title": "Security updates for Wednesday",
 "url": "https://lwn.net/Articles/1093342/"
 },
+"16169d530ca6c4a06d081d1401b1e8a9334c6d57": {
+"date": "2026-10-03",
+"title": "ayghri/i-have-adhd",
+"url": "https://github.com/ayghri/i-have-adhd"
+},
 "16190b01d7691d9fa5c1d1f17c5d134048c0baa3": {
 "date": "2026-10-02",
 "title": "dmtrKovalenko/fframes",
@@ -938,6 +943,11 @@
 "date": "2026-08-17",
 "title": "A 3rd World Embedded Engineer Responds to \"RISC-V They Should Have Known Better\"",
 "url": "https://rvembedded.com/blog_post/12/"
+},
+"17e4b58b233a9d6e1b7e904714c6741057e62b18": {
+"date": "2026-10-03",
+"title": "2026 Retrocomputing Challenge: Lunar Lander on the PDP-1",
+"url": "https://hackaday.com/2026/10/02/2026-retrocomputing-challenge-lunar-lander-on-the-pdp-1/"
 },
 "17f1f5a23ab807509cfd9ed4f6d08cac03329d95": {
 "date": "2026-08-18",
@@ -1114,6 +1124,11 @@
 "title": "Retrieved but not ranked: surface-form bias in structural retrieval, from mathematics to agent trajectories",
 "url": "https://arxiv.org/abs/2609.01556v1"
 },
+"1b58b0fa67afeb5d0b4c60b57338ced31045eac0": {
+"date": "2026-10-03",
+"title": "cloudflare/workerd",
+"url": "https://github.com/cloudflare/workerd"
+},
 "1b5d0fc8dd5ff9771323fb5d5dc83a2569ae4c13": {
 "date": "2026-08-04",
 "title": "firecrawl/pdf-inspector",
@@ -1289,6 +1304,11 @@
 "title": "Towards Datalog on Quantum Annealers: Compiling Recursive Logic Programs with Bottom-up Semantics to 2-local Ising Models",
 "url": "https://arxiv.org/abs/2608.04645v1"
 },
+"1fb256ce62b78d40de29de3e5fd15a4d696f7982": {
+"date": "2026-10-03",
+"title": "cursor/plugins",
+"url": "https://github.com/cursor/plugins"
+},
 "1fd62c8a9d92c47312b5d1eba94fcc073172c7ed": {
 "date": "2026-09-22",
 "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
@@ -1388,6 +1408,11 @@
 "date": "2026-09-09",
 "title": "Anti-Doomscroll Tamagotchi Only Lives if You Do",
 "url": "https://hackaday.com/2026/09/08/anti-doomscroll-tamagotchi-only-lives-if-you-do/"
+},
+"227410b9506e3d01d28a92fd047595c27b6d198a": {
+"date": "2026-10-03",
+"title": "2026 Retrocomputing Challenge: A Homebrew Computer In Only Three ICs",
+"url": "https://hackaday.com/2026/10/02/2026-retrocomputing-challenge-a-homebrew-computer-in-only-three-ics2026-retrocomputing-challenge-a-homebrew-computer-in-only-3-ics/"
 },
 "22915ca8a27338bffdf8780d1f76e125a675532a": {
 "date": "2026-09-03",
@@ -1954,6 +1979,11 @@
 "title": "Model: XingChen-AGI/TeleOCR",
 "url": "https://huggingface.co/XingChen-AGI/TeleOCR"
 },
+"32961532a9dd7d3a95404e145a182a80768cf1fc": {
+"date": "2026-10-03",
+"title": "Linux Test Project suite stable release for September 2026",
+"url": "https://lwn.net/Articles/1098313/"
+},
 "32c6c3db74853e73dcd1c4d3629a1446290af4d9": {
 "date": "2026-07-15",
 "title": "Jul 2, 2026 Announcements More details on Fable 5’s cyber safeguards and our jailbreak framework",
@@ -2063,6 +2093,11 @@
 "date": "2026-07-27",
 "title": "Model: unsloth/Laguna-S-2.1-GGUF",
 "url": "https://huggingface.co/unsloth/Laguna-S-2.1-GGUF"
+},
+"3577570198f46e55bc455931499eec1fffe53895": {
+"date": "2026-10-03",
+"title": "From the creator of Redis; run LLM locally with ds4",
+"url": "https://dwarfstar.sh/"
 },
 "358b32b98ea1608fc4a02108a2e8aa52e90f7563": {
 "date": "2026-07-24",
@@ -2578,6 +2613,11 @@
 "date": "2026-08-25",
 "title": "HKUDS/Vibe-Trading",
 "url": "https://github.com/HKUDS/Vibe-Trading"
+},
+"4543fe55cde7adb06dd0bffe7dad7d4302166c5c": {
+"date": "2026-10-03",
+"title": "Effect-TS/effect",
+"url": "https://github.com/Effect-TS/effect"
 },
 "457aebfc529ca099cfba62beae0b11dc18f28e5a": {
 "date": "2026-09-30",
@@ -3294,6 +3334,11 @@
 "title": "Gemini Omni 1.1 Flash lets you build with more control",
 "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/"
 },
+"5b70e11d6ccb65e932c0aabc534cdb2d9a0c43e1": {
+"date": "2026-10-03",
+"title": "Security updates for Friday",
+"url": "https://lwn.net/Articles/1098312/"
+},
 "5bbf41891b9eaae1794699d301b55b9e20e2a6a6": {
 "date": "2026-08-27",
 "title": "Model: Qwen/Qwen3.8-Flash-Next",
@@ -3333,6 +3378,11 @@
 "date": "2026-08-19",
 "title": "How Much Memory Does Your Agent Actually Need?",
 "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm"
+},
+"5d095f0fff9f11a9734afc3f0aa568baa7558a71": {
+"date": "2026-10-03",
+"title": "[$] Beyond the &",
+"url": "https://lwn.net/Articles/1096028/"
 },
 "5d0f60a28a52a447713238b4f492b7f739f2817a": {
 "date": "2026-07-25",
@@ -3839,6 +3889,11 @@
 "title": "geo-tp/ESP32-Bit-Pirate",
 "url": "https://github.com/geo-tp/ESP32-Bit-Pirate"
 },
+"6afa9a1d6353a81d097c35ae45914c4e226252d5": {
+"date": "2026-10-03",
+"title": "coreyhaines31/marketingskills",
+"url": "https://github.com/coreyhaines31/marketingskills"
+},
 "6b0d858609490b1135ceb9a1a5388875b7ab08e4": {
 "date": "2026-09-25",
 "title": "Schedules Are Solvable Symbols: Tuning-Free Compilation of Tile Programs on Dataflow Architectures",
@@ -4158,6 +4213,11 @@
 "date": "2026-08-26",
 "title": "Granite 4.2 LLMs: How They're Built",
 "url": "https://huggingface.co/blog/ibm-granite/granite-4-2"
+},
+"742f47978a6f66229dcf08be5963afe3f523198f": {
+"date": "2026-10-03",
+"title": "firebase/firebase-ios-sdk",
+"url": "https://github.com/firebase/firebase-ios-sdk"
 },
 "74607161981788316130c0c8d889d40914399391": {
 "date": "2026-10-02",
@@ -4934,6 +4994,11 @@
 "title": "MemSpec: Memory-Aware Runtime for Adaptive Draft Scheduling in Speculative Decoding on Edge Devices",
 "url": "https://arxiv.org/abs/2608.10362v1"
 },
+"8e206c4d9ed6ea5b326e3f64cf71247a89bf9979": {
+"date": "2026-10-03",
+"title": "A model guide for the GPT-6 family",
+"url": "https://openai.com/index/practical-guide-building-gpt-6"
+},
 "8e41caaf2b1f249bdd6d1de9c111651cf3dd7e10": {
 "date": "2026-09-25",
 "title": "Forte: A sensitivity type system for imperative Rust",
@@ -5618,6 +5683,11 @@
 "date": "2026-09-08",
 "title": "Free-TV/IPTV",
 "url": "https://github.com/Free-TV/IPTV"
+},
+"a182d435a94e30bb4589f58a98d92739bd2ad8e7": {
+"date": "2026-10-03",
+"title": "Model: orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF",
+"url": "https://huggingface.co/orcarouter/OrcaSAQ-2-Cyber-27B-Uncensored-GGUF"
 },
 "a185af3deb5df46b8ed3154d3ddb90080db81b15": {
 "date": "2026-07-23",
@@ -6379,6 +6449,11 @@
 "title": "Neroued/ninfer",
 "url": "https://github.com/Neroued/ninfer"
 },
+"b63c85d8bb32b687f9fff144acba5d4518048316": {
+"date": "2026-10-03",
+"title": "Electronic Busy Board is Fun for Kids and Hackers",
+"url": "https://hackaday.com/2026/10/02/electronic-busy-board-is-fun-for-kids-and-hackers/"
+},
 "b65a4e5f564e99bdcdb54407b6dbfdba390f25b9": {
 "date": "2026-09-05",
 "title": "Model: ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
@@ -6528,6 +6603,11 @@
 "date": "2026-09-23",
 "title": "MAGIC: Mixed-Granularity Agent Graphs via Incremental Construction with Dense-Reward Reinforcement Learning",
 "url": "https://arxiv.org/abs/2609.26667v1"
+},
+"bc371631f4a4bebb66de98f9e2aa3602c020896f": {
+"date": "2026-10-03",
+"title": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+"url": "https://www.anthropic.com/news/claude-frontier-academy"
 },
 "bc41dbccca0a59907a9fef5fdac47aabf0244d0f": {
 "date": "2026-08-08",
@@ -6773,6 +6853,11 @@
 "date": "2026-07-19",
 "title": "microsoft/microsoft-ui-xaml",
 "url": "https://github.com/microsoft/microsoft-ui-xaml"
+},
+"c3530cb12d1318c65471b052622ad383cf17f6bc": {
+"date": "2026-10-03",
+"title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+"url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q"
 },
 "c35dbcc419801bfa76fa1948c6e8219fcd86053c": {
 "date": "2026-08-15",
@@ -7524,6 +7609,11 @@
 "title": "From Research Questions to Columns: Operationalization-Aware Data Discovery",
 "url": "https://arxiv.org/abs/2608.04536v1"
 },
+"d599f0a282be129fcd4b84962346f2b0c0ebfef2": {
+"date": "2026-10-03",
+"title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+"url": "https://huggingface.co/blog/allenai/astabrief"
+},
 "d60fa671cb33392cd60833f69e33a3d4d7b98b40": {
 "date": "2026-07-22",
 "title": "Two-Level Meta-Rubrics for Evaluating Open-Ended Generation: GAMUT, a Benchmark for Factual Completeness",
@@ -7723,6 +7813,11 @@
 "date": "2026-08-26",
 "title": "Disrupting a new covert influence campaign from Russia",
 "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia"
+},
+"da99a1199a5c8ed98691b6793c6626c9e8141aa4": {
+"date": "2026-10-03",
+"title": "Model: Cloudflare/clef-flash",
+"url": "https://huggingface.co/Cloudflare/clef-flash"
 },
 "dad630ccec1b9759358a3290b6e78566c77239af": {
 "date": "2026-07-19",
