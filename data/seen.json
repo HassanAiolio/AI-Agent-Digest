@@ -614,6 +614,11 @@
 "title": "Beyond Score Prediction: LLM-Based Essay Scoring and Feedback Generation via Reinforcement Learning with Rubric Rewards",
 "url": "https://arxiv.org/abs/2607.19219v1"
 },
+"0f24fd84d2eb47557281f36a8a5f32d9f8e46563": {
+"date": "2026-10-04",
+"title": "cloudflare/cloudflare-os",
+"url": "https://github.com/cloudflare/cloudflare-os"
+},
 "0f512533a211305b97b784b486eee166316c2675": {
 "date": "2026-09-30",
 "title": "SPLASH: Switching Parallel Layouts of Attention with Seamless Handoff for LLM Serving",
@@ -1063,6 +1068,11 @@
 "date": "2026-08-12",
 "title": "Fredolx/open-tv",
 "url": "https://github.com/Fredolx/open-tv"
+},
+"1a68d11d98bfb38333812374800bb8168a69052c": {
+"date": "2026-10-04",
+"title": "kth-competitive-programming/kactl",
+"url": "https://github.com/kth-competitive-programming/kactl"
 },
 "1a7e718e3bad3a321d0f808415905a9fd26c8e5a": {
 "date": "2026-07-31",
@@ -1554,6 +1564,11 @@
 "title": "Four stable kernels for Monday",
 "url": "https://lwn.net/Articles/1086900/"
 },
+"25d8a55d768fa345a5f0e6dcbd9e6303976bd8f5": {
+"date": "2026-10-04",
+"title": "2026 Retrocomputer Challenge: Vectron65 Plus Puts the Emphasis on Plus",
+"url": "https://hackaday.com/2026/10/03/2026-retrocomputer-challenge-vectron65-plus-puts-the-emphasis-on-plus/"
+},
 "25de7fad3b62f944b1d0d7effcc56a499a2e054e": {
 "date": "2026-08-18",
 "title": "Mechanizing Choreographic Programs and Hoare Logic with State Transformers",
@@ -1719,6 +1734,11 @@
 "title": "Mixed Choice Multiparty Session Types, Precisely",
 "url": "https://arxiv.org/abs/2608.10704v1"
 },
+"2b2041c9e97d4bef8542a6bb28213e391b8183b0": {
+"date": "2026-10-04",
+"title": "Model: Aleph-Alpha/Kolibri-1",
+"url": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+},
 "2b395b0c409e89d3b83b7bb6032f4894fcabc296": {
 "date": "2026-08-19",
 "title": "SpacehuhnTech/WiFiDuck",
@@ -1878,6 +1898,11 @@
 "date": "2026-09-18",
 "title": "GCWing/OpenBitFun",
 "url": "https://github.com/GCWing/OpenBitFun"
+},
+"304a460f0627840f7a27e693a0d4dad7624360b9": {
+"date": "2026-10-04",
+"title": "Zig 0.17 released",
+"url": "https://lwn.net/Articles/1098412/"
 },
 "305d7bdc7eba439a14652446fcc0f85db3f03074": {
 "date": "2026-09-29",
@@ -2319,6 +2344,11 @@
 "title": "Model: MiniMaxAI/MiniMax-H3",
 "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3"
 },
+"3d11435e29f6d85c81a4395b8a3e5f55b9668f87": {
+"date": "2026-10-04",
+"title": "Seven stable kernels for Saturday",
+"url": "https://lwn.net/Articles/1098404/"
+},
 "3d1cc9ff69f60294ee6efb7af7090fbd340b5d6b": {
 "date": "2026-09-01",
 "title": "Projection-Free Bandit Online Optimization for Multi-Agent Systems with Dynamic Regret",
@@ -2574,6 +2604,11 @@
 "title": "Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution",
 "url": "https://arxiv.org/abs/2607.13034v1"
 },
+"44378d009090cf08dad2b517eadf9351f63c1bdd": {
+"date": "2026-10-04",
+"title": "agno-agi/agno",
+"url": "https://github.com/agno-agi/agno"
+},
 "449fc3ec3469efed801a7b468691b21f456ca9df": {
 "date": "2026-07-29",
 "title": "Don't ask an LLM for a confidence score",
@@ -2623,6 +2658,11 @@
 "date": "2026-09-30",
 "title": "Modelling Shared-Space Coordination in mCRL2: a Bach-to-mCRL2 Translation Framework",
 "url": "https://arxiv.org/abs/2609.37726v1"
+},
+"45d53ae466660bd029da656d7c4a8766b4666ff2": {
+"date": "2026-10-04",
+"title": "FTL: A new operating system for clouds",
+"url": "https://ftl-os.org/"
 },
 "4609711d6398baad02acc1177bbc868fb4b777ad": {
 "date": "2026-09-21",
@@ -2883,6 +2923,11 @@
 "date": "2026-09-07",
 "title": "Sumanth077/Hands-On-AI-Engineering",
 "url": "https://github.com/Sumanth077/Hands-On-AI-Engineering"
+},
+"4e0cc916eed745b88dcc910ddda8ad83dee3011c": {
+"date": "2026-10-04",
+"title": "cjpais/Handy",
+"url": "https://github.com/cjpais/Handy"
 },
 "4e291b29108aed18c91837b9c59e60e78f79816d": {
 "date": "2026-08-22",
@@ -4854,6 +4899,11 @@
 "title": "dail8859/NotepadNext",
 "url": "https://github.com/dail8859/NotepadNext"
 },
+"89764eae00994ca8ac3f14f46dfe626a5f9aca4b": {
+"date": "2026-10-04",
+"title": "The Agent Said It Was Done. The Database Disagreed.",
+"url": "https://huggingface.co/blog/microsoft/thinkingbox"
+},
 "89bfcaf71374655cc0af88943f49267601fb1b37": {
 "date": "2026-07-23",
 "title": "[$] Attaching programs to multiple tracepoints",
@@ -5394,6 +5444,11 @@
 "title": "LLM-as-a-Coach: Experiential Learning for Non-Verifiable Tasks",
 "url": "https://arxiv.org/abs/2607.18110v1"
 },
+"9a14422b82b9b3e36471621a13f3a8cf078c55c6": {
+"date": "2026-10-04",
+"title": "Aleph Alpha Kolibri: How the sovereign German LLM works",
+"url": "https://tej.as/blog/aleph-alpha-kolibri"
+},
 "9a3fa895a64e96bab354fa13efdb0f461e39ee92": {
 "date": "2026-07-29",
 "title": "ros-navigation/navigation2",
@@ -5528,6 +5583,11 @@
 "date": "2026-07-29",
 "title": "usestrix/strix",
 "url": "https://github.com/usestrix/strix"
+},
+"9d35a4d0d2d47826b1b913dd53fca801f61f8f4e": {
+"date": "2026-10-04",
+"title": "Play PlayStation 2 and XBox 1 Games on Your Jailbroken PS5",
+"url": "https://hackaday.com/2026/10/03/play-playstation-2-and-xbox-1-games-on-your-jailbroken-ps5/"
 },
 "9d4123f33b8f95b802861a39cd9dd6522f1ca414": {
 "date": "2026-08-07",
@@ -5709,6 +5769,11 @@
 "title": "Show HN: We built open OpenRouter that turns usage into a better model",
 "url": "https://github.com/experientiallabs/experiential"
 },
+"a1d8f6379606f79d15ce7e59132a839f613427ad": {
+"date": "2026-10-04",
+"title": "The ESP32, An SDR In Itself",
+"url": "https://hackaday.com/2026/10/03/the-esp32-an-sdr-in-itself/"
+},
 "a25bf88b71e105ef6d6265f9beaa16d15bfaf1a4": {
 "date": "2026-09-03",
 "title": "Security updates for Wednesday",
@@ -5838,6 +5903,11 @@
 "date": "2026-09-11",
 "title": "alsk1992/CloddsBot",
 "url": "https://github.com/alsk1992/CloddsBot"
+},
+"a650c74fe354cb9f07b74f64ee2a44ec35c59eab": {
+"date": "2026-10-04",
+"title": "Kolibri: A Sovereign Open-Weight Model",
+"url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/"
 },
 "a66426e24c718f793696339dd69cde4d77dcea42": {
 "date": "2026-08-20",
@@ -6813,6 +6883,11 @@
 "date": "2026-08-06",
 "title": "Accelerating C/C++ Pointer Analysis via Compiler-Based Offline Simplifications",
 "url": "https://arxiv.org/abs/2608.04466v1"
+},
+"c24dd7387835101237b13fefd0c5439b5fd705e9": {
+"date": "2026-10-04",
+"title": "arc53/DocsGPT",
+"url": "https://github.com/arc53/DocsGPT"
 },
 "c291374370a8ba639aa4aee515945df5c30245a7": {
 "date": "2026-08-25",
@@ -8239,6 +8314,11 @@
 "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
 "url": "https://huggingface.co/blog/multi-vector-encoder"
 },
+"e53f91b8c346871134bb705daf85e250c15961bd": {
+"date": "2026-10-04",
+"title": "calesthio/OpenMontage",
+"url": "https://github.com/calesthio/OpenMontage"
+},
 "e55ebaf7adcb0b97b62cb3fae0c008ff76a0d5f5": {
 "date": "2026-08-29",
 "title": "apache/opendal",
@@ -8858,6 +8938,11 @@
 "date": "2026-07-25",
 "title": "OtterMind/Chat2DB",
 "url": "https://github.com/OtterMind/Chat2DB"
+},
+"f5c56fa495a34cc421d10c643cab40638cf3370c": {
+"date": "2026-10-04",
+"title": "A Good DIY Solder Stencil Begins With a Cleanly-Sliced Soda Can",
+"url": "https://hackaday.com/2026/10/03/a-good-diy-solder-stencil-begins-with-a-cleanly-sliced-soda-can/"
 },
 "f5de8c0fcf346920be160ee56627b1db112e3893": {
 "date": "2026-10-01",

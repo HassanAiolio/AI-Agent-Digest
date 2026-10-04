@@ -1,0 +1,193 @@
+{
+  "week": "2026-W40",
+  "start": "2026-09-28",
+  "end": "2026-10-04",
+  "title": "Agents, ESP32, and Kernel Crunch",
+  "intro": "This week the AI world doubled down on agentic tooling while makers turned ESP32s into radios and retro consoles. Meanwhile, kernel maintainers wrestled with a flood of security patches.",
+  "themes": [
+    {
+      "headline": "Agentic Benchmarks Multiply",
+      "body": "A slew of new benchmarks and metrics are sharpening how we evaluate LLM agents. KaliBench catalogues 8,504 query‑command pairs across 1,642 tools, while UserProxyBench shows a 15.2‑point reward swing when swapping user simulators. TokenCast adds live token‑consumption forecasts, and KV‑streams promise 2.6–5× faster context compaction. Together they map a richer landscape for measuring agent reliability and efficiency.",
+      "items": [
+        {
+          "id": "27ff405c50557986de5a26a711444ad6a090be5f",
+          "title": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
+          "url": "https://arxiv.org/abs/2610.02206v1",
+          "date": "2026-10-02",
+          "source": "arXiv cs.CL",
+          "section": "AI & ML"
+        },
+        {
+          "id": "fff9c30c1ce274ddb42dac1749af76570824f76a",
+          "title": "UserProxyBench: Evaluating LLM User Simulators for Agent Benchmarks and Training",
+          "url": "https://arxiv.org/abs/2609.38043v1",
+          "date": "2026-09-30",
+          "source": "arXiv cs.AI",
+          "section": "AI & ML"
+        },
+        {
+          "id": "9ce4e19e8916dda4dcf2717e6efb07652a37c682",
+          "title": "TokenCast: Forecasting Token Consumption During LLM Agent Execution",
+          "url": "https://arxiv.org/abs/2609.35760v1",
+          "date": "2026-09-29",
+          "source": "arXiv cs.LG",
+          "section": "AI & ML"
+        },
+        {
+          "id": "e03344a99dbbb74a79ca301ba0b3f31cd632b166",
+          "title": "KV-streams for Efficient Compaction in Agentic Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2609.35750v1",
+          "date": "2026-09-29",
+          "source": "arXiv cs.LG",
+          "section": "AI & ML"
+        }
+      ]
+    },
+    {
+      "headline": "ESP32 Becomes a Swiss‑Army Chip",
+      "body": "The ESP32 is proving its versatility beyond IoT. Hackaday highlighted its hidden SDR receiver, while multiple projects showcased SDR capabilities and a Jet Megatextures demo that brings mipmapped 3D rendering to the S3 variant. Even a full Metal Gear Solid port runs on the modest microcontroller, underscoring a trend of squeezing classic and modern workloads onto cheap silicon.",
+      "items": [
+        {
+          "id": "a1d8f6379606f79d15ce7e59132a839f613427ad",
+          "title": "The ESP32, An SDR In Itself",
+          "url": "https://hackaday.com/2026/10/03/the-esp32-an-sdr-in-itself/",
+          "date": "2026-10-04",
+          "source": "hackaday",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "e34b8a6f171d61f3eba81f6d96b16269b187de47",
+          "title": "Jet Megatextures Demo for ESP32-S3",
+          "url": "https://hackaday.com/2026/09/28/jet-megatextures-demo-for-esp32-s3/",
+          "date": "2026-09-29",
+          "source": "hackaday",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "39e0c0d20f7d0b5171ce832ef6c080bcde113dad",
+          "title": "Metal Gear Solid Moves From PlayStation to ESP32",
+          "url": "https://hackaday.com/2026/09/29/metal-gear-solid-moves-from-playstation-to-esp32/",
+          "date": "2026-09-29",
+          "source": "hackaday",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "a1462bb75d9b078452234a6c47ece54d25daac2d",
+          "title": "Various Projects Find Hidden SDR Capabilities in ESP32 Microcontrollers",
+          "url": "https://www.rtl-sdr.com/various-projects-independently-find-hidden-sdr-capabilities-in-esp32-microcontrollers/",
+          "date": "2026-10-02",
+          "source": "Hacker News",
+          "section": "Embedded & systems"
+        }
+      ]
+    },
+    {
+      "headline": "Kernel Security Surge",
+      "body": "Linux kernel maintainers faced an onslaught of patches this week. Security updates rolled out for major distros on Monday and Friday, while the 7.3‑rc5 prepatch arrived with no major alarms. At Kernel Recipes, Greg Kroah‑Hartman urged calm amid a flood of LLM‑generated bug reports, and talks linked PostgreSQL performance to kernel behavior.",
+      "items": [
+        {
+          "id": "5b70e11d6ccb65e932c0aabc534cdb2d9a0c43e1",
+          "title": "Security updates for Friday",
+          "url": "https://lwn.net/Articles/1098312/",
+          "date": "2026-10-03",
+          "source": "lwn",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "305d7bdc7eba439a14652446fcc0f85db3f03074",
+          "title": "Security updates for Monday",
+          "url": "https://lwn.net/Articles/1097191/",
+          "date": "2026-09-29",
+          "source": "lwn",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "c9dccabf83334318fce7ac594d354f4094b43ea3",
+          "title": "Kernel prepatch 7.3-rc5",
+          "url": "https://lwn.net/Articles/1096959/",
+          "date": "2026-09-28",
+          "source": "lwn",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "63211fb0b2100dd2b5cdd92b94d99c51641df11b",
+          "title": "[$] Coping with the onslaught of kernel security bugs",
+          "url": "https://lwn.net/Articles/1096908/",
+          "date": "2026-10-02",
+          "source": "lwn",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "dfa5dcc7a3330d421efa2914612b85e3096825ec",
+          "title": "[$] The kernel from a PostgreSQL point of view",
+          "url": "https://lwn.net/Articles/1096827/",
+          "date": "2026-09-30",
+          "source": "lwn",
+          "section": "Embedded & systems"
+        }
+      ]
+    },
+    {
+      "headline": "New OS and Compiler Tweaks",
+      "body": "Cloud‑native operating systems and compiler speedups made headlines. FTL debuted as a fresh OS for cloud workloads, and a Hacker News post shared tricks that shaved compile times for the Rust compiler in September. Both signal ongoing pushes for performance at the system level.",
+      "items": [
+        {
+          "id": "45d53ae466660bd029da656d7c4a8766b4666ff2",
+          "title": "FTL: A new operating system for clouds",
+          "url": "https://ftl-os.org/",
+          "date": "2026-10-04",
+          "source": "Hacker News",
+          "section": "CS research"
+        },
+        {
+          "id": "91d1779c50424b7e0c6b8167f7c3d3ba1e4f7741",
+          "title": "How to speed up the Rust compiler in September 2026",
+          "url": "https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html",
+          "date": "2026-10-02",
+          "source": "Hacker News",
+          "section": "CS research"
+        }
+      ]
+    }
+  ],
+  "numbers": [
+    {
+      "value": "8,504",
+      "label": "query‑command pairs in KaliBench",
+      "item": {
+        "id": "27ff405c50557986de5a26a711444ad6a090be5f",
+        "title": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
+        "url": "https://arxiv.org/abs/2610.02206v1",
+        "date": "2026-10-02",
+        "source": "arXiv cs.CL",
+        "section": "AI & ML"
+      }
+    },
+    {
+      "value": "2.6–5×",
+      "label": "speedup from KV‑streams for context compaction",
+      "item": {
+        "id": "e03344a99dbbb74a79ca301ba0b3f31cd632b166",
+        "title": "KV-streams for Efficient Compaction in Agentic Reinforcement Learning",
+        "url": "https://arxiv.org/abs/2609.35750v1",
+        "date": "2026-09-29",
+        "source": "arXiv cs.LG",
+        "section": "AI & ML"
+      }
+    },
+    {
+      "value": "15.2",
+      "label": "point reward change when swapping user proxies",
+      "item": {
+        "id": "fff9c30c1ce274ddb42dac1749af76570824f76a",
+        "title": "UserProxyBench: Evaluating LLM User Simulators for Agent Benchmarks and Training",
+        "url": "https://arxiv.org/abs/2609.38043v1",
+        "date": "2026-09-30",
+        "source": "arXiv cs.AI",
+        "section": "AI & ML"
+      }
+    }
+  ],
+  "watch": "Next week keep an eye on how meta‑reasoning agents and ESP32 SDR projects mature, and whether the kernel bug‑report flood stabilizes.",
+  "item_count": 162
+}
