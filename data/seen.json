@@ -269,6 +269,11 @@
 "title": "String Diagrams for Process Mining",
 "url": "https://arxiv.org/abs/2609.20478v1"
 },
+"0786cd2f41211ab3772c785a359b6edba0c1d85d": {
+"date": "2026-10-05",
+"title": "azahar-emu/azahar",
+"url": "https://github.com/azahar-emu/azahar"
+},
 "07c71cb2bb6099421865ce28b2b4162e151ab176": {
 "date": "2026-09-25",
 "title": "Fosowl/agenticSeek",
@@ -2544,6 +2549,11 @@
 "title": "A Modular Macro Keypad",
 "url": "https://hackaday.com/2026/09/26/a-modular-macro-keypad/"
 },
+"41e6bb97138e7ec67c5f6043c13ed358d2be94d0": {
+"date": "2026-10-05",
+"title": "Kernel prepatch 7.3-rc6",
+"url": "https://lwn.net/Articles/1098476/"
+},
 "426afbfe0397c54fbd0a9e4fc30b72e936928c9d": {
 "date": "2026-07-21",
 "title": "[$] Fedora grapples with change",
@@ -2688,6 +2698,11 @@
 "date": "2026-07-16",
 "title": "Local DoS attack vectors in seunshare 3.10 (SUSE Security Team Blog)",
 "url": "https://lwn.net/Articles/1083076/"
+},
+"475ac33afe189ead314783febc7dd40d596ecb19": {
+"date": "2026-10-05",
+"title": "getsentry/sentry",
+"url": "https://github.com/getsentry/sentry"
 },
 "47ea2608803ce8c476715976dc0111d59f1e2d3a": {
 "date": "2026-09-02",
@@ -3259,6 +3274,11 @@
 "title": "Upcoming: Spectral::Cup 2026 Round 3 (Codeforces Round 1110, Div. 1 + Div. 2)",
 "url": "https://codeforces.com/contests/2245"
 },
+"5778328b4d9c17352644ff6063e881a63de8254a": {
+"date": "2026-10-05",
+"title": "Model: ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+"url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF"
+},
 "579c2c1e19ae3d24518191560330ebdf4be1d9f7": {
 "date": "2026-09-04",
 "title": "[$] Recent work in memory tiering",
@@ -3378,6 +3398,11 @@
 "date": "2026-08-28",
 "title": "Gemini Omni 1.1 Flash lets you build with more control",
 "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/"
+},
+"5b3937b8361e90103f7365f85b1487b34ee080c7": {
+"date": "2026-10-05",
+"title": "antirez/ds4",
+"url": "https://github.com/antirez/ds4"
 },
 "5b70e11d6ccb65e932c0aabc534cdb2d9a0c43e1": {
 "date": "2026-10-03",
@@ -4308,6 +4333,11 @@
 "date": "2026-09-23",
 "title": "Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents",
 "url": "https://arxiv.org/abs/2609.26760v1"
+},
+"7647acd3ff8102ab660ec8cdc48714df5a2e3dd3": {
+"date": "2026-10-05",
+"title": "It’s GW-BASIC, Jim, But Not as We Know It",
+"url": "https://hackaday.com/2026/10/04/its-gw-basic-jim-but-not-as-we-know-it/"
 },
 "76987e3090aa53d67f54b982bd8ebd4d44053f6c": {
 "date": "2026-07-17",
@@ -5284,6 +5314,11 @@
 "title": "Why We Created Yet Another Memory Framework: Understanding MGA's Role in Next-Gen Database Systems",
 "url": "https://arxiv.org/abs/2608.22853v1"
 },
+"945480d6feb36c003ce08568a6fd239063e38deb": {
+"date": "2026-10-05",
+"title": "Motion Control via Belt",
+"url": "https://hackaday.com/2026/10/04/motion-control-via-belt/"
+},
 "94c78b2d7b96405d6301c1d6fad3c6b46ac06a86": {
 "date": "2026-08-09",
 "title": "Robotic Screw and Bolt Sorter Seeks a New Challenge",
@@ -5889,6 +5924,11 @@
 "title": "Basically, Galvanizing Metal Without Acid",
 "url": "https://hackaday.com/2026/09/26/basically-galvanizing-metal-without-acid/"
 },
+"a5ba6fe32f2877d2f8f360de017b84f563245502": {
+"date": "2026-10-05",
+"title": "AVR Laptop Pushes the Limits of 8-Bit",
+"url": "https://hackaday.com/2026/10/04/avr-laptop-pushes-the-limits-of-8-bit/"
+},
 "a5ec1ab21b87fe050af68798d94636b81d973918": {
 "date": "2026-07-15",
 "title": "google/googletest",
@@ -6304,6 +6344,11 @@
 "title": "Model: Qwen/Qwen3.8-27B-FP8",
 "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8"
 },
+"aff9572d8ad60d97af34bfe4c68e17d8b1e45d54": {
+"date": "2026-10-05",
+"title": "Hackaday Links: October 3, 2026",
+"url": "https://hackaday.com/2026/10/04/hackaday-links-october-3-2026/"
+},
 "b01a8b2e6bf980ac97da1c54f06c4a9953e75303": {
 "date": "2026-08-08",
 "title": "denoland/celld",
@@ -6608,6 +6653,11 @@
 "date": "2026-08-19",
 "title": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
 "url": "https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI"
+},
+"b90d38864385652536accc20aa4a5750d48611c8": {
+"date": "2026-10-05",
+"title": "ecruells/resident-evil-pc-decomp",
+"url": "https://github.com/ecruells/resident-evil-pc-decomp"
 },
 "b97146283b4a40b6f95472c5997a4dd63c7d7885": {
 "date": "2026-08-28",
@@ -7278,6 +7328,11 @@
 "date": "2026-08-07",
 "title": "PLB: Priority-Aware Load Balancing for Replicated Databases under Constrained Resources",
 "url": "https://arxiv.org/abs/2608.06140v1"
+},
+"cb97d21a32795d49c6c0049cc553ed011a15523e": {
+"date": "2026-10-05",
+"title": "caddyserver/caddy",
+"url": "https://github.com/caddyserver/caddy"
 },
 "cbc2a405f16fdad1ce4f0937d1d39bfdb31dd370": {
 "date": "2026-08-27",
@@ -8494,6 +8549,11 @@
 "title": "astral-sh/ruff",
 "url": "https://github.com/astral-sh/ruff"
 },
+"e9fecc0b009fd09a7e81ef5c35af12d93b044ff2": {
+"date": "2026-10-05",
+"title": "tester-army/e2e",
+"url": "https://github.com/tester-army/e2e"
+},
 "ea2b8da28677d9e420b3274c4cc17f455825358e": {
 "date": "2026-09-26",
 "title": "Model: abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
@@ -8914,6 +8974,11 @@
 "title": "Model: google-bert/bert-base-uncased",
 "url": "https://huggingface.co/google-bert/bert-base-uncased"
 },
+"f4fd56c51bb3ba09b9c4402dc5e41001771d2afe": {
+"date": "2026-10-05",
+"title": "Conveyor Belt GBoard Brings the Keys to You",
+"url": "https://hackaday.com/2026/10/05/conveyor-belt-gboard-brings-the-keys-to-you/"
+},
 "f511e53c7714ba8963a792bec914570325e961b1": {
 "date": "2026-08-28",
 "title": "ScalableCapital/scalable-cli",
@@ -9058,6 +9123,11 @@
 "date": "2026-07-24",
 "title": "alibaba/open-code-review",
 "url": "https://github.com/alibaba/open-code-review"
+},
+"f7d816a4792ab8aa47b3cd6a89ae6d2b6081b400": {
+"date": "2026-10-05",
+"title": "Model: Venastine-Research/Xing4.0-29B-A4B-GGUF",
+"url": "https://huggingface.co/Venastine-Research/Xing4.0-29B-A4B-GGUF"
 },
 "f7da873386c908832ffe28d912a75348bbca8417": {
 "date": "2026-08-04",
