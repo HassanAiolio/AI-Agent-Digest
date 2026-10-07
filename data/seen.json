@@ -479,6 +479,11 @@
 "title": "Qoreo: Choreographic Programming for Quantum Distributed Systems",
 "url": "https://arxiv.org/abs/2607.20391v1"
 },
+"0bcdb04f2da441f5092d275a3caed6604fc36026": {
+"date": "2026-10-07",
+"title": "OpenSSH 10.6 released",
+"url": "https://lwn.net/Articles/1098980/"
+},
 "0bec3843bf5be0d9381ae882a73983064fb7c233": {
 "date": "2026-08-12",
 "title": "Model: meta-models/Muse-Glimmer-30B",
@@ -638,6 +643,11 @@
 "date": "2026-10-04",
 "title": "cloudflare/cloudflare-os",
 "url": "https://github.com/cloudflare/cloudflare-os"
+},
+"0f4636c78d4c72f007d0e247b63beb1cfc2ccbc8": {
+"date": "2026-10-07",
+"title": "Security updates for Tuesday",
+"url": "https://lwn.net/Articles/1098979/"
 },
 "0f512533a211305b97b784b486eee166316c2675": {
 "date": "2026-09-30",
@@ -823,6 +833,11 @@
 "date": "2026-09-28",
 "title": "InfinityLoop1308/PipePipe",
 "url": "https://github.com/InfinityLoop1308/PipePipe"
+},
+"14f321c495182c592ba5354b601448d9c62eefbb": {
+"date": "2026-10-07",
+"title": "cathrynlavery/diagram-design",
+"url": "https://github.com/cathrynlavery/diagram-design"
 },
 "14fd05ad34f9923ee3b272a35b3cb1238aa811dc": {
 "date": "2026-07-30",
@@ -1088,6 +1103,11 @@
 "date": "2026-08-12",
 "title": "Fredolx/open-tv",
 "url": "https://github.com/Fredolx/open-tv"
+},
+"1a2244ec9808b405b00d57c3f7c2a296f05c3e63": {
+"date": "2026-10-07",
+"title": "Contextual Chain: Lightweight Continuity Authentication for Intermittently Connected Devices",
+"url": "https://arxiv.org/abs/2610.08262v1"
 },
 "1a68d11d98bfb38333812374800bb8168a69052c": {
 "date": "2026-10-04",
@@ -1389,6 +1409,11 @@
 "title": "OntoAligner-Ensemble: Voting-Based Fusion across Heterogeneous Ontology Alignment Techniques",
 "url": "https://arxiv.org/abs/2608.31137v1"
 },
+"20ce62c23a3ff28f7e3252b1b8724542288dd7c1": {
+"date": "2026-10-07",
+"title": "Cost-Effective Numerical QA over Semi-Structured Table: Structuring, Resolution, Planning",
+"url": "https://arxiv.org/abs/2610.07749v1"
+},
 "20f7b651838966f37744adcab45a7d0af961a21d": {
 "date": "2026-07-21",
 "title": "TabbyML/tabby",
@@ -1523,6 +1548,11 @@
 "date": "2026-09-09",
 "title": "Zie619/n8n-workflows",
 "url": "https://github.com/Zie619/n8n-workflows"
+},
+"2435ebd74585591829f3cd36a5ccda2903dc2ac2": {
+"date": "2026-10-07",
+"title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+"url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/"
 },
 "245afaedf7182cacb25dc9676f3f547fc19ba24d": {
 "date": "2026-08-05",
@@ -2114,6 +2144,11 @@
 "title": "Edison Motors Offering All-Mechanical Trucks, At Least to Start",
 "url": "https://hackaday.com/2026/08/17/edison-motors-offering-all-mechanical-trucks-at-least-to-start/"
 },
+"342677ae7eadb2eb62e4a38c30f07848c459226e": {
+"date": "2026-10-07",
+"title": "How Jump Trading is scaling quant research with ChatGPT",
+"url": "https://openai.com/index/jump-trading"
+},
 "3429c7218e4f7d019ade07a0c0f3647b2004398c": {
 "date": "2026-08-23",
 "title": "affaan-m/ECC",
@@ -2658,6 +2693,11 @@
 "date": "2026-10-04",
 "title": "agno-agi/agno",
 "url": "https://github.com/agno-agi/agno"
+},
+"449f4225e94c88b7020cf97a9edd8f505d64c611": {
+"date": "2026-10-07",
+"title": "[$] Python's two modules for random numbers",
+"url": "https://lwn.net/Articles/1097468/"
 },
 "449fc3ec3469efed801a7b468691b21f456ca9df": {
 "date": "2026-07-29",
@@ -3309,6 +3349,11 @@
 "title": "flashinfer-ai/flashinfer",
 "url": "https://github.com/flashinfer-ai/flashinfer"
 },
+"56020628fd3262dfbd8380334ea9cfc191bee70c": {
+"date": "2026-10-07",
+"title": "dortania/OpenCore-Legacy-Patcher",
+"url": "https://github.com/dortania/OpenCore-Legacy-Patcher"
+},
 "5635ba4ca03cc5bf2d52d9a299f7e9ee35093241": {
 "date": "2026-09-23",
 "title": "I asked Meta’s Muse for its filesystem and it sent me 6.8GB",
@@ -3388,6 +3433,11 @@
 "date": "2026-08-27",
 "title": "Security updates for Wednesday",
 "url": "https://lwn.net/Articles/1090732/"
+},
+"58bc9b76217208cdac38595199d456be69d65673": {
+"date": "2026-10-07",
+"title": "Evidence-Bound Reasoning: Neuro-Semantic Verification of Biomedical AI in Glioblastoma Radiogenomics",
+"url": "https://arxiv.org/abs/2610.08660v1"
 },
 "590ddd1d5b16d5a6eaa7bf51d2e4723a9e1a30b1": {
 "date": "2026-08-06",
@@ -3689,6 +3739,11 @@
 "title": "Tencent/ncnn",
 "url": "https://github.com/Tencent/ncnn"
 },
+"60ef2af305e795fe7c29ac5334b70c4a29353c7c": {
+"date": "2026-10-07",
+"title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+"url": "https://openai.com/index/atlassian-partnership"
+},
 "61310b6b72e8b8a4baa03848c8e39cedeeee1964": {
 "date": "2026-09-06",
 "title": "If at First You Don’t Succeed…",
@@ -3698,6 +3753,11 @@
 "date": "2026-09-22",
 "title": "Diolinux/PhotoGIMP",
 "url": "https://github.com/Diolinux/PhotoGIMP"
+},
+"618e8fb74c6c24a0fd55bce49b1a1f055fb8155b": {
+"date": "2026-10-07",
+"title": "anthropics/knowledge-work-plugins",
+"url": "https://github.com/anthropics/knowledge-work-plugins"
 },
 "61942df3ff74446934cbd2fea2cdf5f5008c5e24": {
 "date": "2026-09-26",
@@ -3963,6 +4023,11 @@
 "date": "2026-08-18",
 "title": "Model: JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
 "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF"
+},
+"68d950c4f847eaaf3d616af66d2e8aedadcd9587": {
+"date": "2026-10-07",
+"title": "6G NeXt - Towards 6G Split Computing Network Applications: Use Cases and Architecture",
+"url": "https://arxiv.org/abs/2610.08352v1"
 },
 "68e9fb1705e10808889d0fbe1c1f512e694cac7a": {
 "date": "2026-08-22",
@@ -4588,6 +4653,11 @@
 "date": "2026-08-19",
 "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
 "url": "https://openai.com/index/asana"
+},
+"7d8321c30b48b6e40a60524e22c876373e781db7": {
+"date": "2026-10-07",
+"title": "ggml-org/llama.cpp",
+"url": "https://github.com/ggml-org/llama.cpp"
 },
 "7d94073753e942585766513d356eebfc0b46eb7c": {
 "date": "2026-09-17",
@@ -5559,6 +5629,11 @@
 "title": "CHARM: A Multimodal Graph Foundation Model with Hierarchical Context Modeling for Zero-Shot Transfer",
 "url": "https://arxiv.org/abs/2607.26023v1"
 },
+"9964af802e9c5fdee2b956b6ca12adb5b9c62816": {
+"date": "2026-10-07",
+"title": "Advancing computer use with Ironclad",
+"url": "https://openai.com/index/advancing-computer-use-with-ironclad"
+},
 "99a91df48bfac49bf79b660e0747865cc37b33db": {
 "date": "2026-10-06",
 "title": "Model: autotrust/JEV-27B-VL",
@@ -5738,6 +5813,11 @@
 "date": "2026-09-11",
 "title": "Model: WarmBloodAban/Minimax-h3_Singularity",
 "url": "https://huggingface.co/WarmBloodAban/Minimax-h3_Singularity"
+},
+"9e679cfc6307cb1dadc0c16553c94abde45e9118": {
+"date": "2026-10-07",
+"title": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?",
+"url": "https://arxiv.org/abs/2610.08775v1"
 },
 "9e9cbfa0656ce75c6ea51972c3234d893532f111": {
 "date": "2026-07-15",
@@ -6334,6 +6414,11 @@
 "title": "Model: GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking",
 "url": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking"
 },
+"ad054f0f568be0a598f6444a3d8c4ff7e69cc413": {
+"date": "2026-10-07",
+"title": "SmallTV Hacking With Surprisingly Little Fuss",
+"url": "https://hackaday.com/2026/10/06/smalltv-hacking-with-surprisingly-little-fuss/"
+},
 "ad18a56beeeddea5aed3dd77cb357521867cdb63": {
 "date": "2026-07-18",
 "title": "tirth8205/code-review-graph",
@@ -6558,6 +6643,11 @@
 "date": "2026-09-30",
 "title": "A Simple Solution for Streamlining Battery Recycling",
 "url": "https://hackaday.com/2026/09/30/a-simple-solution-for-streamlining-battery-recycling/"
+},
+"b2958ac814c0e14764192f2b043cb590268b16d3": {
+"date": "2026-10-07",
+"title": "DySCo: Dynamic Sharding for Collaborative Edge-Cloud LLM Inference with Depth-Synchronized Batching",
+"url": "https://arxiv.org/abs/2610.08268v1"
 },
 "b29da0f232fe22ad1f1972e797b1c34937190319": {
 "date": "2026-08-08",
@@ -6804,6 +6894,11 @@
 "title": "SpecTrum: Specification-Guided Differential Fuzzing for Ethereum Consensus Clients",
 "url": "https://arxiv.org/abs/2608.17738v1"
 },
+"ba649422ea9b7584d6fa62333029e6ab37a1f0cf": {
+"date": "2026-10-07",
+"title": "[$] Last rites for Gentoo's Chromium package",
+"url": "https://lwn.net/Articles/1097760/"
+},
 "ba91a991ca6b0678d3b8c99144bcc955dd653e24": {
 "date": "2026-09-11",
 "title": "Rethinking Sparse Formats for RISC-V: A Hierarchical Approach to High-Performance SpMV",
@@ -6833,6 +6928,11 @@
 "date": "2026-09-22",
 "title": "Three new stable kernels",
 "url": "https://lwn.net/Articles/1095703/"
+},
+"bbff35becad7ca5af6b678bf03dc8feacba5cd5d": {
+"date": "2026-10-07",
+"title": "Model: Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw",
+"url": "https://huggingface.co/Infatoshi/GLM-5.3-UNCENSORED-EXL3-3.0bpw"
 },
 "bc183de7d79d9cb79a831b98c868814f4d9198c0": {
 "date": "2026-09-23",
@@ -7439,6 +7539,11 @@
 "title": "hyperium/hyper",
 "url": "https://github.com/hyperium/hyper"
 },
+"cb5fefbce0623c184b3a689344441cff7784a414": {
+"date": "2026-10-07",
+"title": "DIY Algae Biodiesel is Harder Than You Think",
+"url": "https://hackaday.com/2026/10/06/diy-algae-biodiesel-is-harder-than-you-think/"
+},
 "cb6ebfceec7db51e361372116a4838a6c1b53c27": {
 "date": "2026-07-14",
 "title": "When Local Monitors Miss Compositional Harm: Diagnosing Distributed Backdoors in Multi-Agent Systems",
@@ -7999,6 +8104,11 @@
 "title": "Security updates for Thursday",
 "url": "https://lwn.net/Articles/1094962/"
 },
+"d89053e4611235f92128187d9bb52499420c819d": {
+"date": "2026-10-07",
+"title": "falcosecurity/falco",
+"url": "https://github.com/falcosecurity/falco"
+},
 "d8a0b20a46765a24808f7253ec3711064c2610b3": {
 "date": "2026-09-12",
 "title": "lkimuk/ReArk",
@@ -8319,6 +8429,11 @@
 "title": "Asahi Linux now supports M3-series Macs",
 "url": "https://lwn.net/Articles/1092768/"
 },
+"e13c5e7df4322d3916de080d890f9c46ab2755e2": {
+"date": "2026-10-07",
+"title": "Cleave: Scaling Tensor Program Optimization via Decoupled Algebraic Search and Operator Scheduling",
+"url": "https://arxiv.org/abs/2610.07742v1"
+},
 "e16b03a4b4d178884ba2d2a0fe280a15ad03199a": {
 "date": "2026-09-19",
 "title": "PaddlePaddle/PaddleOCR",
@@ -8499,6 +8614,11 @@
 "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
 "url": "https://huggingface.co/blog/multi-vector-encoder"
 },
+"e52c9ec261811a18d133d4835f52a7e9fd3efed4": {
+"date": "2026-10-07",
+"title": "Beyond Marginal Monitoring: Distributed Joint-Distribution Testing for Data Concept Drift in Large Scale E-Commerce Operations",
+"url": "https://arxiv.org/abs/2610.08132v1"
+},
 "e53f91b8c346871134bb705daf85e250c15961bd": {
 "date": "2026-10-04",
 "title": "calesthio/OpenMontage",
@@ -8533,6 +8653,11 @@
 "date": "2026-08-26",
 "title": "yhirose/cpp-httplib",
 "url": "https://github.com/yhirose/cpp-httplib"
+},
+"e5fdc92139fff718623f3bdff7ebfd623e56f8c4": {
+"date": "2026-10-07",
+"title": "NTS: Authenticated Time at Meta",
+"url": "https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/"
 },
 "e6109c84f0854fcb253beb4519f25c0d912d835b": {
 "date": "2026-07-20",
@@ -8743,6 +8868,11 @@
 "date": "2026-08-09",
 "title": "ClementTsang/bottom",
 "url": "https://github.com/ClementTsang/bottom"
+},
+"eb1569caa0b7d2c3ec88515bdb98f9650b0be004": {
+"date": "2026-10-07",
+"title": "Expanding the Cyber Verification Program",
+"url": "https://www.anthropic.com/news/cyber-verification-program"
 },
 "eb569c2b0b5f78bbf70721c207bfc182b793d9b4": {
 "date": "2026-08-08",
@@ -8993,6 +9123,11 @@
 "date": "2026-07-17",
 "title": "MM-IssueLoc: A Controlled Benchmark for Evaluating Visual Evidence in Multimodal Repository-Level Issue Localization",
 "url": "https://arxiv.org/abs/2607.15205v1"
+},
+"f0f7ba9044369227f0b054abb6697d4ad150b076": {
+"date": "2026-10-07",
+"title": "WorldSolver: Can LLM Agents Simulate the Physical Dynamics via Solver Generation?",
+"url": "https://arxiv.org/abs/2610.08720v1"
 },
 "f1138dfc64a8ac4fcb1103f420137018d8fcd3df": {
 "date": "2026-08-15",
@@ -9503,6 +9638,11 @@
 "date": "2026-07-30",
 "title": "sgl-project/sglang",
 "url": "https://github.com/sgl-project/sglang"
+},
+"fe3b64d1c15ad7ad1bc18589e98ba4af8911e1c0": {
+"date": "2026-10-07",
+"title": "deepseek-ai/DeepGEMM",
+"url": "https://github.com/deepseek-ai/DeepGEMM"
 },
 "fe44bb74545b425fe91c19fe37078f9e9ba100ba": {
 "date": "2026-08-27",
