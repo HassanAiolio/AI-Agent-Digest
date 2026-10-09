@@ -44,6 +44,11 @@
 "title": "PCSX2/pcsx2",
 "url": "https://github.com/PCSX2/pcsx2"
 },
+"01acbcb529a798a311ab1171ec5e8f39cda5ee41": {
+"date": "2026-10-09",
+"title": "Belt File from Old Mixer and Junk Bin Parts",
+"url": "https://hackaday.com/2026/10/09/belt-file-from-old-mixer-and-junk-bin-parts/"
+},
 "02047e027b6aac83af38c9bd3bb9c9702e4b04f6": {
 "date": "2026-09-23",
 "title": "Proof-of-Retention: A Framework for Auditable Cross-Organization Data Sharing",
@@ -724,6 +729,11 @@
 "title": "Model: tencent/AuK",
 "url": "https://huggingface.co/tencent/AuK"
 },
+"112b5f00879d4fef3be367032aa59a57159f98cd": {
+"date": "2026-10-09",
+"title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+"url": "https://openai.com/index/oracle"
+},
 "115db91213e6982d76acf5fce72d242f4f66d302": {
 "date": "2026-08-06",
 "title": "vercel/next.js",
@@ -883,6 +893,11 @@
 "date": "2026-08-23",
 "title": "Open-Source ExpressLRS Receiver Reaches for Range",
 "url": "https://hackaday.com/2026/08/22/open-source-expresslrs-receiver-reaches-for-range/"
+},
+"15674fb790b6de4747abba3f665678c6ec9d8c12": {
+"date": "2026-10-09",
+"title": "CursorTouch/Windows-MCP",
+"url": "https://github.com/CursorTouch/Windows-MCP"
 },
 "156ca7b7665f1c8db1b9b1e5c692c413365d2dc6": {
 "date": "2026-07-24",
@@ -2109,6 +2124,11 @@
 "title": "Model: XingChen-AGI/TeleOCR",
 "url": "https://huggingface.co/XingChen-AGI/TeleOCR"
 },
+"3295fd7388cdcc6b9960f1a156f29a0ebf71bbe0": {
+"date": "2026-10-09",
+"title": "Sub-1-Bit LLM Compression via Latent Factorization",
+"url": "https://github.com/SamsungLabs/LittleBit"
+},
 "32961532a9dd7d3a95404e145a182a80768cf1fc": {
 "date": "2026-10-03",
 "title": "Linux Test Project suite stable release for September 2026",
@@ -2194,6 +2214,11 @@
 "title": "3D On The Playdate Handheld",
 "url": "https://hackaday.com/2026/07/25/3d-on-the-playdate-handheld/"
 },
+"3455af03ab080c295ba799676c96821b1ba9fd44": {
+"date": "2026-10-09",
+"title": "[$] An update on Rust's project goals",
+"url": "https://lwn.net/Articles/1098617/"
+},
 "346e64efaba68c245a6cd04e51cd0e42f92d2b96": {
 "date": "2026-10-08",
 "title": "Keep That Old Radio Alive With An ESP32",
@@ -2254,6 +2279,11 @@
 "title": "LibreOffice 26.8 released",
 "url": "https://lwn.net/Articles/1090606/"
 },
+"360a27564bca9bba59e9a509dfbba694959e4601": {
+"date": "2026-10-09",
+"title": "Building on our commitment to American scientific discovery",
+"url": "https://www.anthropic.com/news/genesis-mission-commitment"
+},
 "3669fd3f8ccb34c6897ee301a86e54b387fc71ef": {
 "date": "2026-07-31",
 "title": "Model: Audio8/Audio8-TTS-Preview-0.6b",
@@ -2283,6 +2313,11 @@
 "date": "2026-09-10",
 "title": "Decentralized network congestion control for DAG-based distributed ledger system",
 "url": "https://arxiv.org/abs/2609.09961v1"
+},
+"379d46fede6498f634a3bc8bdadff92fae36e9e0": {
+"date": "2026-10-09",
+"title": "facebook/rebalancer",
+"url": "https://github.com/facebook/rebalancer"
 },
 "37c9890bc32e7cee73233632c06a3e0ba488e007": {
 "date": "2026-07-24",
@@ -2408,6 +2443,11 @@
 "date": "2026-08-29",
 "title": "Car: Dolphin 26.08 and KIO performance improvements",
 "url": "https://lwn.net/Articles/1091177/"
+},
+"3b5c4dee73adab4ad920d30411802f79459eb606": {
+"date": "2026-10-09",
+"title": "Digital Signage in the Browser With Just a Click",
+"url": "https://hackaday.com/2026/10/08/digital-signage-in-the-browser-with-just-a-click/"
 },
 "3b5f2688fec1191a6e1065794360de4557d49aa5": {
 "date": "2026-09-02",
@@ -4419,6 +4459,11 @@
 "title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
 "url": "https://arxiv.org/abs/2609.25021"
 },
+"71bfef6e482616886184bb34ddc4b1665ac9e7ed": {
+"date": "2026-10-09",
+"title": "Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict",
+"url": "https://arxiv.org/abs/2610.12360v1"
+},
 "71f142981da7c3c8c2cea5b680fd35847dd25bb1": {
 "date": "2026-07-29",
 "title": "Upcoming: Educational Codeforces Round 193 (Rated for Div. 2)",
@@ -4453,6 +4498,11 @@
 "date": "2026-08-14",
 "title": "Security updates for Thursday",
 "url": "https://lwn.net/Articles/1088715/"
+},
+"73640fd3b02e6699d0a85512afba837014a288c3": {
+"date": "2026-10-09",
+"title": "Introducing the Garlic-Powered Door and Window Sensor",
+"url": "https://hackaday.com/2026/10/08/introducing-the-garlic-powered-door-and-window-sensor/"
 },
 "7366ec388a657b3e39d5e90b056a31aa3ebcf2cc": {
 "date": "2026-07-22",
@@ -4573,6 +4623,11 @@
 "date": "2026-09-23",
 "title": "SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving",
 "url": "https://arxiv.org/abs/2609.26777v1"
+},
+"77b3f0b977bcd0cf8a3ea095450042b41a6ee975": {
+"date": "2026-10-09",
+"title": "Introducing the Anthropic Cyber Mission",
+"url": "https://www.anthropic.com/news/anthropic-cyber-mission"
 },
 "77ccb073c59f37527555ab5c2638078d073d9c8d": {
 "date": "2026-07-14",
@@ -5168,6 +5223,11 @@
 "date": "2026-10-04",
 "title": "The Agent Said It Was Done. The Database Disagreed.",
 "url": "https://huggingface.co/blog/microsoft/thinkingbox"
+},
+"8976fd056479d4fd7a434e405ce40d4d83418a2c": {
+"date": "2026-10-09",
+"title": "Long Text to Predictive Features: LLM-Guided Blockwise Feature Engineering via Executable Program Search",
+"url": "https://arxiv.org/abs/2610.12390v1"
 },
 "89bfcaf71374655cc0af88943f49267601fb1b37": {
 "date": "2026-07-23",
@@ -5829,6 +5889,11 @@
 "title": "anthropics/claude-code",
 "url": "https://github.com/anthropics/claude-code"
 },
+"9c2d068d7763775f9e60273879157e77cefd83b7": {
+"date": "2026-10-09",
+"title": "IAmTomShaw/f1-race-replay",
+"url": "https://github.com/IAmTomShaw/f1-race-replay"
+},
 "9c2d2be8f2107b43c705d7c2088e8a082181ad84": {
 "date": "2026-08-13",
 "title": "Putting sign language AI into users’ hands",
@@ -5938,6 +6003,11 @@
 "date": "2026-09-01",
 "title": "Model: deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
 "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
+},
+"9f4670d83de9867d7b77b39f5cd50cc1eec98393": {
+"date": "2026-10-09",
+"title": "[$] The [vx]swap showdown",
+"url": "https://lwn.net/Articles/1098399/"
 },
 "9f4e37a5d6672cd17ae7fd6f8c6307774e7b3b25": {
 "date": "2026-07-20",
@@ -6348,6 +6418,11 @@
 "date": "2026-08-09",
 "title": "Model: nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
 "url": "https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B"
+},
+"a936db7d1415bbcbeb0c726b5b3b3bd1e987924a": {
+"date": "2026-10-09",
+"title": "Security updates for Thursday",
+"url": "https://lwn.net/Articles/1099388/"
 },
 "a94b058b2749f6fc62d29067d7fb1838546639b9": {
 "date": "2026-07-19",
@@ -7529,6 +7604,11 @@
 "title": "Friedrich-M/UniMate",
 "url": "https://github.com/Friedrich-M/UniMate"
 },
+"c885ca783131e8ec0b36372d2b16fa4db463c543": {
+"date": "2026-10-09",
+"title": "OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure-Aware Optimal Transport",
+"url": "https://arxiv.org/abs/2610.12375v1"
+},
 "c89447e4cc8f9029069d6c0e916f82fe5cead153": {
 "date": "2026-08-01",
 "title": "Model: deepseek-ai/DeepSeek-V4-Flash-0731",
@@ -7593,6 +7673,11 @@
 "date": "2026-08-29",
 "title": "abhigyanpatwari/GitNexus",
 "url": "https://github.com/abhigyanpatwari/GitNexus"
+},
+"ca1ec6c6a1a1314d953bafc0b010c073f56e9464": {
+"date": "2026-10-09",
+"title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+"url": "https://openai.com/index/pollo-ai"
 },
 "ca32ab541fca3588a253cd4a30a7e26c6afe6f4f": {
 "date": "2026-07-30",
@@ -7994,6 +8079,11 @@
 "title": "Fast and Memory Efficient Offload Training Framework with Hybrid XPU Computation",
 "url": "https://arxiv.org/abs/2610.09657v1"
 },
+"d40aae393b587da59a9ac9de6295ade30b590e62": {
+"date": "2026-10-09",
+"title": "2026 Usage Policy update",
+"url": "https://www.anthropic.com/news/2026-usage-policy-update"
+},
 "d40b853ddeb5fa1cbc7222bb4682f4e02c894089": {
 "date": "2026-07-15",
 "title": "When is LLM-Based Program Reasoning Correct? A Completion Semantics for LLM-Based Code Inference",
@@ -8158,6 +8248,11 @@
 "date": "2026-09-04",
 "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
 "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
+},
+"d773b1ea0eda0d15edfe4b501bbf35d571525968": {
+"date": "2026-10-09",
+"title": "TigerVNC/tigervnc",
+"url": "https://github.com/TigerVNC/tigervnc"
 },
 "d78f4d84c117556c7efbc15519550c1eeec8e1ea": {
 "date": "2026-10-08",
@@ -8759,6 +8854,11 @@
 "title": "A Mechanical Radio, Sort Of",
 "url": "https://hackaday.com/2026/10/01/a-mechanical-radio-sort-of/"
 },
+"e5a57828bd180e48a5ca67bee355a50758aa02b8": {
+"date": "2026-10-09",
+"title": "open-source-parsers/jsoncpp",
+"url": "https://github.com/open-source-parsers/jsoncpp"
+},
 "e5b664a37aa39848f2818dc3bf1d6e3bf5ae4443": {
 "date": "2026-08-11",
 "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
@@ -9199,6 +9299,11 @@
 "title": "[$] Development statistics for the 7.2 kernel",
 "url": "https://lwn.net/Articles/1088776/"
 },
+"eeb0715de50ebbe6942951f3aa432d88c4435163": {
+"date": "2026-10-09",
+"title": "SethRobinson/Patchy",
+"url": "https://github.com/SethRobinson/Patchy"
+},
 "eed16821fcdd7ed97aaa56134b9a84cc7af6e3de": {
 "date": "2026-07-22",
 "title": "The State of Simulation for Physical AI: An Overview",
@@ -9483,6 +9588,11 @@
 "date": "2026-08-26",
 "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
 "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing"
+},
+"f6d3626eb7c890d94bb50058e6f90af5d255e4a4": {
+"date": "2026-10-09",
+"title": "LegalOn halves Codex costs while maintaining development speed",
+"url": "https://openai.com/index/legalon-halves-codex-costs"
 },
 "f718787cf9fa1c526de4aceab722d83c13d97ad3": {
 "date": "2026-09-10",
