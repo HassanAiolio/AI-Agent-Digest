@@ -819,6 +819,11 @@
 "title": "apache/maka",
 "url": "https://github.com/apache/maka"
 },
+"137db262de4d370ee69858894d849c5dec0e42ba": {
+"date": "2026-10-10",
+"title": "Let's Encrypt moving to 64-day certificate lifetimes in 2027",
+"url": "https://lwn.net/Articles/1099588/"
+},
 "13988d8e06cfa0f53b38ae315840cde7a825d12a": {
 "date": "2026-07-22",
 "title": "Firefox 153 released",
@@ -828,6 +833,11 @@
 "date": "2026-08-15",
 "title": "Python packaging council candidates announced",
 "url": "https://lwn.net/Articles/1088920/"
+},
+"13d2575360f49dfc793a0547b5b5b7bae9b9bc46": {
+"date": "2026-10-10",
+"title": "Model: LiquidAI/d1-3B",
+"url": "https://huggingface.co/LiquidAI/d1-3B"
 },
 "13d2a9e0cf18584d8b4de6438b5dd329f7ad599d": {
 "date": "2026-07-14",
@@ -2759,6 +2769,11 @@
 "title": "EXPLAIN Yourself! Finding Query Planner Stalls Across DBMSes",
 "url": "https://arxiv.org/abs/2608.23402v1"
 },
+"43ef54e74d2760825c3095138c358b1ef26e90ae": {
+"date": "2026-10-10",
+"title": "Impactful scheduling for GPU clusters",
+"url": "https://huggingface.co/blog/allenai/impactful-scheduling"
+},
 "43fb7434706a80db678a50da8f5d2dc530893a2a": {
 "date": "2026-09-03",
 "title": "ScrapeGraphAI/Scrapegraph-ai",
@@ -2888,6 +2903,11 @@
 "date": "2026-07-19",
 "title": "Three stable kernel updates",
 "url": "https://lwn.net/Articles/1083462/"
+},
+"481f8bd7cecf7f8bc5b81e4f49cf422daf6115e8": {
+"date": "2026-10-10",
+"title": "[$] Adding kernel control-flow-integrity checking to GCC",
+"url": "https://lwn.net/Articles/1098670/"
 },
 "482649fe0a6ee691dcc1a90c515f6890745ae92d": {
 "date": "2026-08-15",
@@ -3603,6 +3623,11 @@
 "date": "2026-10-03",
 "title": "Security updates for Friday",
 "url": "https://lwn.net/Articles/1098312/"
+},
+"5b90f980564f8a82ae5013d8da13a74f96cc49be": {
+"date": "2026-10-10",
+"title": "Model: Cactus-Compute/whistle",
+"url": "https://huggingface.co/Cactus-Compute/whistle"
 },
 "5bbf41891b9eaae1794699d301b55b9e20e2a6a6": {
 "date": "2026-08-27",
@@ -4374,6 +4399,11 @@
 "title": "Building Extensible Program Logics through Effect Handlers",
 "url": "https://arxiv.org/abs/2607.12642v1"
 },
+"6f83c4b98e8b1cbc97b0129ecd48ebe1d1ada31e": {
+"date": "2026-10-10",
+"title": "bojieli/ai-agent-book",
+"url": "https://github.com/bojieli/ai-agent-book"
+},
 "6fb329816e6085e424affb193fbd15b77014d0fa": {
 "date": "2026-07-15",
 "title": "jrouwe/JoltPhysics",
@@ -4678,6 +4708,11 @@
 "date": "2026-07-19",
 "title": "\"Half a Second\" — a book on the XZ backdoor",
 "url": "https://lwn.net/Articles/1083466/"
+},
+"7941af6584c4cea5b52340df7685426c59aeec78": {
+"date": "2026-10-10",
+"title": "Model: Qwen/Qwen-Image-2.1-Turbo",
+"url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo"
 },
 "794a1823fe97b296c912e3056c17a340a78a4d26": {
 "date": "2026-08-30",
@@ -5023,6 +5058,11 @@
 "date": "2026-07-24",
 "title": "Multimmit: Extending Blocks for Faster Finality",
 "url": "https://arxiv.org/abs/2607.21021v1"
+},
+"82a590028c82e53696c781f26f2850fad3a18c92": {
+"date": "2026-10-10",
+"title": "Tencent-Hunyuan/Hy-MT2",
+"url": "https://github.com/Tencent-Hunyuan/Hy-MT2"
 },
 "82abff7b3503643608c07d4bfa2d8e2306c5f52c": {
 "date": "2026-07-19",
@@ -5454,6 +5494,11 @@
 "title": "Efficient Linkage-Based Compartmentalization on CHERI",
 "url": "https://arxiv.org/abs/2609.36731v1"
 },
+"90995f7dbc9c26746d9c1348259bf95f75d89e72": {
+"date": "2026-10-10",
+"title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+"url": "https://openai.com/index/asana-browser-agent"
+},
 "909aab01f7102fd9edbcfa4ecd92392b4b8be5e8": {
 "date": "2026-07-23",
 "title": "ZSeven-W/openpencil",
@@ -5639,6 +5684,11 @@
 "title": "Holo4: powering generalist computer-use agents",
 "url": "https://huggingface.co/blog/Hcompany/holo4"
 },
+"9561795fe14deeb81ed92c06b3582593338a1858": {
+"date": "2026-10-10",
+"title": "Security updates for Friday",
+"url": "https://lwn.net/Articles/1099587/"
+},
 "95ae803fbccd218976830de083c703329435e8fb": {
 "date": "2026-08-08",
 "title": "Security updates for Friday",
@@ -5818,6 +5868,11 @@
 "date": "2026-10-08",
 "title": "Indexing Designs and Adaptive Data Distribution Optimization for In-Memory Databases on Hybrid DDR--CXL Memory",
 "url": "https://arxiv.org/abs/2610.09414v1"
+},
+"9a75aafc0f232f11cd056b828b730c35405025ca": {
+"date": "2026-10-10",
+"title": "headroomlabs-ai/headroom",
+"url": "https://github.com/headroomlabs-ai/headroom"
 },
 "9a91e87a23f2b01f91d7d6364fa7d27cd647bdd4": {
 "date": "2026-08-02",
@@ -6028,6 +6083,11 @@
 "date": "2026-09-02",
 "title": "apurvsinghgautam/robin",
 "url": "https://github.com/apurvsinghgautam/robin"
+},
+"9fb1ac358db9501189b1261d37b72693fd867e82": {
+"date": "2026-10-10",
+"title": "[$] The state of systemd: 2026 edition",
+"url": "https://lwn.net/Articles/1099024/"
 },
 "9fc2e7f3625486a92fddc69e19a80ea89029fc5f": {
 "date": "2026-09-20",
@@ -7534,6 +7594,11 @@
 "title": "Security updates for Tuesday",
 "url": "https://lwn.net/Articles/1083948/"
 },
+"c6713b0aa2c19e626e1ec1902c25e1a3f406fe2a": {
+"date": "2026-10-10",
+"title": "Python 3.15 released",
+"url": "https://lwn.net/Articles/1099602/"
+},
 "c67f554997b671d055ba4694214cc8b66bdf5caf": {
 "date": "2026-08-06",
 "title": "Security updates for Wednesday",
@@ -8549,6 +8614,11 @@
 "title": "ast-grep/ast-grep",
 "url": "https://github.com/ast-grep/ast-grep"
 },
+"de8bd8ec3e0c22975708f1e4c30efc410ecd484a": {
+"date": "2026-10-10",
+"title": "Embedded 3D Printing with Liquids on a Bricked Prusa FDM Printer",
+"url": "https://hackaday.com/2026/10/09/embedded-3d-printing-with-liquids-on-a-bricked-prusa-fdm-printer/"
+},
 "de8c107f3b16cad5bd6a4464547700687929e57f": {
 "date": "2026-08-05",
 "title": "SieveIVF: Threshold-Aware IVF Execution for Large-Scale Training Data Deduplication",
@@ -8693,6 +8763,11 @@
 "date": "2026-07-30",
 "title": "Keychron announces first open-source firmware for gaming mice",
 "url": "https://www.digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice"
+},
+"e2820020cd6d32b258f6f4536b58e81fe49dc5e8": {
+"date": "2026-10-10",
+"title": "BerriAI/litellm",
+"url": "https://github.com/BerriAI/litellm"
 },
 "e2a96c3697a1139d7b30fa9454a7379a03a0ea4b": {
 "date": "2026-08-13",
@@ -9269,10 +9344,20 @@
 "title": "OrcaSlicer/OrcaSlicer",
 "url": "https://github.com/OrcaSlicer/OrcaSlicer"
 },
+"edd58468d564448f5fe7e63ada47c987b79bf809": {
+"date": "2026-10-10",
+"title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+"url": "https://openai.com/index/sophos"
+},
 "ede4bdc97de2f6a3bbc286a6eb7375e271cdc6a9": {
 "date": "2026-08-26",
 "title": "SkillForge: Evolving Verifiable Skills for Reinforcement Learning Agents",
 "url": "https://arxiv.org/abs/2608.24747v1"
+},
+"ee01dbe9c6eeb5a198791deb4fa30d921d7f0fd8": {
+"date": "2026-10-10",
+"title": "DamRsn/NeuralNote",
+"url": "https://github.com/DamRsn/NeuralNote"
 },
 "ee205def567bc5671cf9b7d4b46b092c2dc7d1aa": {
 "date": "2026-09-16",
@@ -9898,6 +9983,11 @@
 "date": "2026-08-27",
 "title": "Intelligent transcription with Gemini 3.5 Transcribe",
 "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/"
+},
+"fe4700f2d2f1ec0ff4d04374732baf5573e35eda": {
+"date": "2026-10-10",
+"title": "Robbyant/lingbot-map",
+"url": "https://github.com/Robbyant/lingbot-map"
 },
 "fea9ae47ebf2b0f008c28ac07afb6f217ce27df3": {
 "date": "2026-08-07",
