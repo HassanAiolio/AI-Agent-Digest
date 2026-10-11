@@ -1,0 +1,454 @@
+{
+  "date": "2026-10-11",
+  "generated_at": "2026-10-11T09:09:53+00:00",
+  "stats": {
+    "fetched": 100,
+    "new_after_dedupe": 60,
+    "published": 13,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 9,
+      "supported": 9,
+      "dropped": 0,
+      "unverifiable": 1,
+      "summaries_reverted": 0,
+      "rate": 1.0
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. The AI model just hit 27 billion parameters while a new board costs less than a decent laptop.",
+    "stories": [
+      {
+        "kicker": "AI models",
+        "headline": "Underdog‑Saluki hits 27 B parameters",
+        "body": "**Massive text generator drops:** ConwayResearch released a 27‑billion‑parameter model on Hugging Face, already pulled 59 191 downloads and earned 295 likes. It’s a hefty alternative to the usual closed‑source behemoths.",
+        "why": "If you need a big language model without a corporate price tag, this is now an option.",
+        "ids": [
+          "b9364b1f5672672514fcf7660def93be91eb3c24"
+        ]
+      },
+      {
+        "kicker": "Runtime",
+        "headline": "Deno ships modern JS/TS runtime",
+        "body": "**Rust‑built JavaScript engine lands:** The Deno project announced a new runtime for JavaScript and TypeScript, compiled with Rust and the V8 engine. It promises tighter security defaults and faster startup.",
+        "why": "Engineers can prototype server‑side scripts without the baggage of Node’s legacy APIs.",
+        "ids": [
+          "9539e1841be211b495206dcbb9e3aa55681b38aa"
+        ]
+      },
+      {
+        "kicker": "Embedded",
+        "headline": "Radxa Dragon Q8B priced at $209",
+        "body": "**High‑end SBC hits bargain shelf:** Hackaday reports the Radxa Dragon Q8B board, featuring a Qualcomm SC8280XP and 8 GB LPDDR4X, now sells for $209 plus shipping in 2026. It rivals the Raspberry Pi 5 on specs.",
+        "why": "A cheap, powerful board lets you push AI inference or 4K media on the edge.",
+        "ids": [
+          "6a4996b7d763eead052ce71d46ffd4f9239cc878"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Gaming firmware:** slot adds Game Boy features to the RG SP handheld (id bd8055e3)",
+        "id": "bd8055e3921a38382b55141acd5e1d4b59310e66"
+      },
+      {
+        "text": "**Plex client:** plx-native streams 4K HEVC at 60 fps on LG webOS TVs (id 275dd849)",
+        "id": "275dd84943a9a3f0c3fba6d83f4c49c5476a2725"
+      },
+      {
+        "text": "**Red‑team tool:** Decepticon automates penetration testing in Python (id 48e2323d)",
+        "id": "48e2323d9000979b86bb8cb085a0bf7547053818"
+      },
+      {
+        "text": "**Classic port:** DevilutionX brings Diablo to modern OSes (id b21f3380)",
+        "id": "b21f338065e1dc04157149ee54ce16edcd6bd793"
+      },
+      {
+        "text": "**Tutorial series:** hello‑agents teaches autonomous agents from scratch (id 5535012b)",
+        "id": "5535012bfb20c047a83888e0295142a849121971"
+      }
+    ],
+    "number": {
+      "value": "27B",
+      "label": "parameter count of the new text‑generation model",
+      "id": "b9364b1f5672672514fcf7660def93be91eb3c24"
+    },
+    "sign_off": "Catch you tomorrow – keep those compilers warm.",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "c83b8cbebae11ded58ed9c872e5af5594c7a8cd7",
+      "title": "Codeforces Round 1127 (Div. 1, Based on Mexican Olympiad in Informatics 2026)",
+      "url": "https://codeforces.com/contests/2273",
+      "source": "Codeforces",
+      "starts": "2026-10-11T18:35:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sun 11 Oct 18:35 UTC"
+    },
+    {
+      "id": "b1ac8b0608a5bdd0b172f4e55a682465b7ea26c9",
+      "title": "Codeforces Round 1127 (Div. 2, Based on Mexican Olympiad in Informatics 2026)",
+      "url": "https://codeforces.com/contests/2274",
+      "source": "Codeforces",
+      "starts": "2026-10-11T18:35:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sun 11 Oct 18:35 UTC"
+    },
+    {
+      "id": "9e99f468383fb5a73766097c5345008a6986c108",
+      "title": "Educational Codeforces Round 195 (Rated for Div. 2)",
+      "url": "https://codeforces.com/contests/2276",
+      "source": "Codeforces",
+      "starts": "2026-10-14T14:35:00+00:00",
+      "detail": "ICPC contest, 2.0h, starts Wed 14 Oct 14:35 UTC"
+    },
+    {
+      "id": "b8304972fc059783b6ed960e128f78881469ae54",
+      "title": "WorldQuant Round 1 (Codeforces Round Div. 1 + Div. 2)",
+      "url": "https://codeforces.com/contests/2261",
+      "source": "Codeforces",
+      "starts": "2026-10-17T14:35:00+00:00",
+      "detail": "CF contest, 3.0h, starts Sat 17 Oct 14:35 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "BitterSecurity/Decepticon",
+      "url": "https://github.com/BitterSecurity/Decepticon",
+      "source": "GitHub trending · python",
+      "section": "repos",
+      "published": null,
+      "points": 5880,
+      "score": 2.0,
+      "id": "48e2323d9000979b86bb8cb085a0bf7547053818",
+      "summary": "BitterSecurity released Decepticon, an autonomous hacking agent designed for red‑team operations, written in Python.",
+      "detail": "Decepticon can self‑propagate, select targets, and execute payloads without manual intervention. It is intended for controlled penetration testing environments and includes configurable modules for evasion and persistence.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://opengraph.githubassets.com/1a16c5a3ebfcdb399cdd87ff0ea9a705aeb0e790aee120425cc7b6c50db41183/BitterSecurity/Decepticon",
+      "related": {}
+    },
+    {
+      "title": "BrandonKowalski/slot",
+      "url": "https://github.com/BrandonKowalski/slot",
+      "source": "GitHub trending · rust",
+      "section": "repos",
+      "published": null,
+      "points": 114,
+      "score": 2.0,
+      "id": "bd8055e3921a38382b55141acd5e1d4b59310e66",
+      "summary": "BrandonKowalski published slot, a custom firmware for the RG SP handheld that adds Game Boy‑centric features.",
+      "detail": "The firmware replaces the stock OS, enabling homebrew execution and enhanced control over audio/video output. It is built in Rust for safety and performance, targeting developers interested in retro gaming on modern hardware.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://opengraph.githubassets.com/ab69ac9ceea65627170ac648a89021de440ca478a5d9a68264188fa9c176ef92/BrandonKowalski/slot",
+      "related": {}
+    },
+    {
+      "title": "GLinnik21/plx-native",
+      "url": "https://github.com/GLinnik21/plx-native",
+      "source": "GitHub trending · rust",
+      "section": "repos",
+      "published": null,
+      "points": 569,
+      "score": 2.0,
+      "id": "275dd84943a9a3f0c3fba6d83f4c49c5476a2725",
+      "summary": "GLinnik21 created plx-native, an unofficial Plex client for LG webOS TVs that runs at 60 fps with native 4K HEVC and Dolby Vision support.",
+      "detail": "Unlike typical Plex apps that rely on Chromium or WebView, plx-native uses a lightweight native UI, reducing latency and power consumption. It is open‑source and aims to provide a smoother streaming experience on LG hardware.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://opengraph.githubassets.com/3e56f7a5a375993e10edaed968d33706f6fcb85a25c2631512fb997e0a918d9a/GLinnik21/plx-native",
+      "related": {}
+    },
+    {
+      "title": "datawhalechina/hello-agents",
+      "url": "https://github.com/datawhalechina/hello-agents",
+      "source": "GitHub trending · python",
+      "section": "repos",
+      "published": null,
+      "points": 82507,
+      "score": 2.0,
+      "id": "5535012bfb20c047a83888e0295142a849121971",
+      "summary": "datawhalechina released hello‑agents, a Chinese tutorial series teaching the principles and implementation of autonomous agents from scratch.",
+      "detail": "The repository includes step‑by‑step notebooks, code examples, and exercises covering reinforcement learning, planning, and multi‑agent coordination. It targets learners building foundational AI agent skills.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://opengraph.githubassets.com/a358cfc683f34a34f626fae8e58b4c0efc9c2f74ec72941d85bbf56422dd5e7c/datawhalechina/hello-agents",
+      "related": {}
+    },
+    {
+      "title": "denoland/deno",
+      "url": "https://github.com/denoland/deno",
+      "source": "GitHub trending · rust",
+      "section": "repos",
+      "published": null,
+      "points": 108733,
+      "score": 2.0,
+      "id": "9539e1841be211b495206dcbb9e3aa55681b38aa",
+      "summary": "The Deno project announced a modern runtime for JavaScript and TypeScript, built with Rust and V8.",
+      "detail": "Deno emphasizes security by default, includes a built‑in package manager, and supports TypeScript without external tooling. It aims to simplify server‑side scripting while offering performance comparable to Node.js.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://opengraph.githubassets.com/fcd99cca00e629b9ea85dafa7b5bf5684d55c690b704c07c36f862a2e729ce14/denoland/deno",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "Model: ConwayResearch/Underdog-Saluki-27B-1.0",
+          "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-08T01:47:26.000Z",
+          "points": 295,
+          "score": 1.5,
+          "id": "b9364b1f5672672514fcf7660def93be91eb3c24",
+          "summary": "ConwayResearch released Underdog‑Saluki‑27B‑1.0, a 27‑billion‑parameter text‑generation model on Hugging Face, with 59 191 downloads and 295 likes.",
+          "detail": "The model targets general‑purpose language generation and is hosted under the ConwayResearch organization. It joins a growing set of large‑scale open models released in 2024, offering an alternative to proprietary offerings. Licensing details are not specified in the brief excerpt.",
+          "key_points": [
+            "27B parameters",
+            "59,191 downloads",
+            "295 likes"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/ConwayResearch/Underdog-Saluki-27B-1.0.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "Mars Pathfinder: What Really Happened?",
+          "url": "https://hackaday.com/2026/10/11/mars-pathfinder-what-really-happened/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-11T08:00:04+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "9d67ed885247f3ca1aaf624be6a3a957d7a2c2ca",
+          "summary": "Hackaday revisits the 1997 Mars Pathfinder mission, analyzing what went wrong after its initial success.",
+          "detail": "The article recounts the mission timeline, the Sojourner rover’s operations, and later anomalies that affected the lander. It provides context for current Mars exploration challenges without presenting new data.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/mars.png",
+          "related": {}
+        },
+        {
+          "title": "Poking at the Radxa Dragon Q8B Raspberry Pi 5 Killer",
+          "url": "https://hackaday.com/2026/10/10/poking-at-the-radxa-dragon-q8b-raspberry-pi-5-killer/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-10T23:00:10+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "6a4996b7d763eead052ce71d46ffd4f9239cc878",
+          "summary": "Radxa Dragon Q8B board, featuring a Qualcomm SC8280XP and 8 GB LPDDR4X, is priced at $209 plus shipping in 2026.",
+          "detail": "Targeted as a high‑performance alternative to the Raspberry Pi 5, the Dragon Q8B offers a desktop‑class ARM processor. Availability and shipping costs may vary, and the price reflects its niche positioning in the single‑board market.",
+          "key_points": [
+            "$209 price",
+            "Qualcomm SC8280XP",
+            "8 GB LPDDR4X"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/radxa_dragon_q8b_vs_raspberry_pi_5_jeff_geerling_youtube.jpg",
+          "related": {}
+        },
+        {
+          "title": "Restoring an Altimeter Watch to Former Heights",
+          "url": "https://hackaday.com/2026/10/10/restoring-an-altimeter-watch-to-former-heights/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-10T17:00:39+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "0c9a12ba2fd4e88ce689430011556e96828d21a2",
+          "summary": "Hackaday details the process of restoring a vintage altimeter watch to working condition.",
+          "detail": "The piece walks through sourcing a broken unit, diagnosing faults, and repairing the mechanical and electronic components. It highlights the value of low‑cost hardware salvage for hobbyists.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/altimeter_watch.png",
+          "related": {}
+        },
+        {
+          "title": "Slim Type for Small Screens, with PixelFonts",
+          "url": "https://hackaday.com/2026/10/10/slim-type-for-small-screens-with-pixelfonts/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-11T05:00:55+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "ebfdce88f11d6851bb462fcf728e7874e8bbde95",
+          "summary": "Hackaday introduces PixelFonts, a family of condensed fonts designed for readability on small displays.",
+          "detail": "Created by mcer12, the fonts balance legibility and space efficiency, making them suitable for wearables and IoT screens. The project includes multiple weights and open‑source licensing for easy integration.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/PixelFonts-title.png",
+          "related": {}
+        },
+        {
+          "title": "The Weirdest Video Games were Hacks",
+          "url": "https://hackaday.com/2026/10/10/the-weirdest-video-games-were-hacks/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-10T14:00:53+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "f6ba968dd6484b474a79d58a3fbe50a0aa05a1fe",
+          "summary": "Hackaday reports on Throaty Mumbo’s project recreating forgotten VHS‑tape‑based video games as modern hacks.",
+          "detail": "The initiative revives obscure game titles by extracting their code and adapting it for contemporary platforms, showcasing both preservation and creative remixing within the retro‑gaming community.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/dragon-s-lair-full-playthrough-hdumvfgwgp8-webm-shot0007_featured.png",
+          "related": {}
+        },
+        {
+          "title": "Unique Archeological Discovery Sheds Light on Neanderthal Wooden Tool Usage",
+          "url": "https://hackaday.com/2026/10/10/unique-archeological-discovery-sheds-light-on-neanderthal-wooden-tool-usage/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-11T02:00:46+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "c6e20b54aca49bb855263140fc9762dcc9166d9c",
+          "summary": "Archaeologists identified the Abric Romaní limestone caves in Spain as a rare site showing continuous humanoid occupation and evidence of Neanderthal wooden tool use.",
+          "detail": "The site’s stratigraphy spans thousands of years, allowing researchers to trace cultural layers. Wood fragments and wear patterns suggest deliberate tool manufacturing, a behavior previously undocumented for Neanderthals. This finding challenges assumptions about their technological capabilities.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/sciadv.aeh2287-f1.jpg",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "BitterSecurity/Decepticon",
+          "url": "https://github.com/BitterSecurity/Decepticon",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 5880,
+          "score": 2.0,
+          "id": "48e2323d9000979b86bb8cb085a0bf7547053818",
+          "summary": "BitterSecurity released Decepticon, an autonomous hacking agent designed for red‑team operations, written in Python.",
+          "detail": "Decepticon can self‑propagate, select targets, and execute payloads without manual intervention. It is intended for controlled penetration testing environments and includes configurable modules for evasion and persistence.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://opengraph.githubassets.com/1a16c5a3ebfcdb399cdd87ff0ea9a705aeb0e790aee120425cc7b6c50db41183/BitterSecurity/Decepticon",
+          "related": {}
+        },
+        {
+          "title": "BrandonKowalski/slot",
+          "url": "https://github.com/BrandonKowalski/slot",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 114,
+          "score": 2.0,
+          "id": "bd8055e3921a38382b55141acd5e1d4b59310e66",
+          "summary": "BrandonKowalski published slot, a custom firmware for the RG SP handheld that adds Game Boy‑centric features.",
+          "detail": "The firmware replaces the stock OS, enabling homebrew execution and enhanced control over audio/video output. It is built in Rust for safety and performance, targeting developers interested in retro gaming on modern hardware.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://opengraph.githubassets.com/ab69ac9ceea65627170ac648a89021de440ca478a5d9a68264188fa9c176ef92/BrandonKowalski/slot",
+          "related": {}
+        },
+        {
+          "title": "GLinnik21/plx-native",
+          "url": "https://github.com/GLinnik21/plx-native",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 569,
+          "score": 2.0,
+          "id": "275dd84943a9a3f0c3fba6d83f4c49c5476a2725",
+          "summary": "GLinnik21 created plx-native, an unofficial Plex client for LG webOS TVs that runs at 60 fps with native 4K HEVC and Dolby Vision support.",
+          "detail": "Unlike typical Plex apps that rely on Chromium or WebView, plx-native uses a lightweight native UI, reducing latency and power consumption. It is open‑source and aims to provide a smoother streaming experience on LG hardware.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://opengraph.githubassets.com/3e56f7a5a375993e10edaed968d33706f6fcb85a25c2631512fb997e0a918d9a/GLinnik21/plx-native",
+          "related": {}
+        },
+        {
+          "title": "datawhalechina/hello-agents",
+          "url": "https://github.com/datawhalechina/hello-agents",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 82507,
+          "score": 2.0,
+          "id": "5535012bfb20c047a83888e0295142a849121971",
+          "summary": "datawhalechina released hello‑agents, a Chinese tutorial series teaching the principles and implementation of autonomous agents from scratch.",
+          "detail": "The repository includes step‑by‑step notebooks, code examples, and exercises covering reinforcement learning, planning, and multi‑agent coordination. It targets learners building foundational AI agent skills.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://opengraph.githubassets.com/a358cfc683f34a34f626fae8e58b4c0efc9c2f74ec72941d85bbf56422dd5e7c/datawhalechina/hello-agents",
+          "related": {}
+        },
+        {
+          "title": "denoland/deno",
+          "url": "https://github.com/denoland/deno",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 108733,
+          "score": 2.0,
+          "id": "9539e1841be211b495206dcbb9e3aa55681b38aa",
+          "summary": "The Deno project announced a modern runtime for JavaScript and TypeScript, built with Rust and V8.",
+          "detail": "Deno emphasizes security by default, includes a built‑in package manager, and supports TypeScript without external tooling. It aims to simplify server‑side scripting while offering performance comparable to Node.js.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://opengraph.githubassets.com/fcd99cca00e629b9ea85dafa7b5bf5684d55c690b704c07c36f862a2e729ce14/denoland/deno",
+          "related": {}
+        },
+        {
+          "title": "diasurgical/DevilutionX",
+          "url": "https://github.com/diasurgical/DevilutionX",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 9814,
+          "score": 2.0,
+          "id": "b21f338065e1dc04157149ee54ce16edcd6bd793",
+          "summary": "DevilutionX is an open-source project that ports the original Diablo game to run on modern operating systems.",
+          "detail": "The repository provides updated code, build scripts, and compatibility layers to allow the classic game to compile and execute on current Windows, Linux, and macOS platforms. It aims to preserve the original experience while supporting contemporary hardware and software environments.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/143324737/c7716900-6a39-11ea-988a-7a822c0ac651",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}

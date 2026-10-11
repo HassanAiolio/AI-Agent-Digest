@@ -549,6 +549,11 @@
 "title": "[$] Changes in shadow-utils password-expiration features",
 "url": "https://lwn.net/Articles/1086949/"
 },
+"0c9a12ba2fd4e88ce689430011556e96828d21a2": {
+"date": "2026-10-11",
+"title": "Restoring an Altimeter Watch to Former Heights",
+"url": "https://hackaday.com/2026/10/10/restoring-an-altimeter-watch-to-former-heights/"
+},
 "0cc58d109536126d1bfe5e5fa669d18298aad1b7": {
 "date": "2026-08-24",
 "title": "Malware infects Android-based automotive head unit firmware",
@@ -1748,6 +1753,11 @@
 "date": "2026-09-11",
 "title": "A Model-Centric DevOps Architecture for DEVS-Based Digital Twin Simulation Services",
 "url": "https://arxiv.org/abs/2609.11122v1"
+},
+"275dd84943a9a3f0c3fba6d83f4c49c5476a2725": {
+"date": "2026-10-11",
+"title": "GLinnik21/plx-native",
+"url": "https://github.com/GLinnik21/plx-native"
 },
 "278a42d7ea86182729afa9fd3530ee767c9b4c9b": {
 "date": "2026-07-21",
@@ -2949,6 +2959,11 @@
 "title": "Small, Free, and Effective: Orchestrating Open-Weight Small Language Models to Outperform Single LLM for Malware Analysis",
 "url": "https://arxiv.org/abs/2607.20216v1"
 },
+"48e2323d9000979b86bb8cb085a0bf7547053818": {
+"date": "2026-10-11",
+"title": "BitterSecurity/Decepticon",
+"url": "https://github.com/BitterSecurity/Decepticon"
+},
 "48eb5bd3f40dfbf823577cad56b6a2820eb457ec": {
 "date": "2026-08-13",
 "title": "An Extended Tutorial and Vocabulary for Relational Language Design in an Era of AI-Assisted Query Generation",
@@ -3423,6 +3438,11 @@
 "date": "2026-09-08",
 "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
 "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
+},
+"5535012bfb20c047a83888e0295142a849121971": {
+"date": "2026-10-11",
+"title": "datawhalechina/hello-agents",
+"url": "https://github.com/datawhalechina/hello-agents"
 },
 "55366f18f0a620f5d5542af3f070a8f5157ec913": {
 "date": "2026-08-20",
@@ -4198,6 +4218,11 @@
 "date": "2026-08-13",
 "title": "Security updates for Wednesday",
 "url": "https://lwn.net/Articles/1088476/"
+},
+"6a4996b7d763eead052ce71d46ffd4f9239cc878": {
+"date": "2026-10-11",
+"title": "Poking at the Radxa Dragon Q8B Raspberry Pi 5 Killer",
+"url": "https://hackaday.com/2026/10/10/poking-at-the-radxa-dragon-q8b-raspberry-pi-5-killer/"
 },
 "6a6575eb1ea149e40b1fe45033ad101079bf4eff": {
 "date": "2026-09-01",
@@ -5674,6 +5699,11 @@
 "title": "Robotic Screw and Bolt Sorter Seeks a New Challenge",
 "url": "https://hackaday.com/2026/08/08/robotic-screw-and-bolt-sorter-seeks-a-new-challenge/"
 },
+"9539e1841be211b495206dcbb9e3aa55681b38aa": {
+"date": "2026-10-11",
+"title": "denoland/deno",
+"url": "https://github.com/denoland/deno"
+},
 "953b22d0c1c257f8be8f264b8e9230d9a909c3ef": {
 "date": "2026-08-06",
 "title": "NVIDIA-NeMo/Speech",
@@ -6013,6 +6043,11 @@
 "date": "2026-07-24",
 "title": "KroQuant: Kronecker-Structured Block Transforms for Efficient Post-Training Quantization of Diffusion Transformers",
 "url": "https://arxiv.org/abs/2607.21446v1"
+},
+"9d67ed885247f3ca1aaf624be6a3a957d7a2c2ca": {
+"date": "2026-10-11",
+"title": "Mars Pathfinder: What Really Happened?",
+"url": "https://hackaday.com/2026/10/11/mars-pathfinder-what-really-happened/"
 },
 "9db5af845cc9656206655943f683585edf195021": {
 "date": "2026-07-25",
@@ -6854,6 +6889,11 @@
 "title": "PlotJuggler/PlotJuggler",
 "url": "https://github.com/PlotJuggler/PlotJuggler"
 },
+"b21f338065e1dc04157149ee54ce16edcd6bd793": {
+"date": "2026-10-11",
+"title": "diasurgical/DevilutionX",
+"url": "https://github.com/diasurgical/DevilutionX"
+},
 "b22f7dd2f70f41d92929a9fff29adc0f632791c3": {
 "date": "2026-08-02",
 "title": "Browser-based 3D Editor Covers The Basics While Staying Local",
@@ -7094,6 +7134,11 @@
 "title": "ecruells/resident-evil-pc-decomp",
 "url": "https://github.com/ecruells/resident-evil-pc-decomp"
 },
+"b9364b1f5672672514fcf7660def93be91eb3c24": {
+"date": "2026-10-11",
+"title": "Model: ConwayResearch/Underdog-Saluki-27B-1.0",
+"url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0"
+},
 "b97146283b4a40b6f95472c5997a4dd63c7d7885": {
 "date": "2026-08-28",
 "title": "NationalSecurityAgency/ghidra",
@@ -7213,6 +7258,11 @@
 "date": "2026-07-23",
 "title": "Building AI infrastructure with the Effingham County community",
 "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community"
+},
+"bd8055e3921a38382b55141acd5e1d4b59310e66": {
+"date": "2026-10-11",
+"title": "BrandonKowalski/slot",
+"url": "https://github.com/BrandonKowalski/slot"
 },
 "bd995f0cb469c90efe498b6411c73aafb03860c4": {
 "date": "2026-09-02",
@@ -7603,6 +7653,11 @@
 "date": "2026-08-06",
 "title": "Security updates for Wednesday",
 "url": "https://lwn.net/Articles/1087318/"
+},
+"c6e20b54aca49bb855263140fc9762dcc9166d9c": {
+"date": "2026-10-11",
+"title": "Unique Archeological Discovery Sheds Light on Neanderthal Wooden Tool Usage",
+"url": "https://hackaday.com/2026/10/10/unique-archeological-discovery-sheds-light-on-neanderthal-wooden-tool-usage/"
 },
 "c70184feffa65f5211fbabe129b65e3a0e2276ce": {
 "date": "2026-09-29",
@@ -9234,6 +9289,11 @@
 "title": "vercel-labs/skills",
 "url": "https://github.com/vercel-labs/skills"
 },
+"ebfdce88f11d6851bb462fcf728e7874e8bbde95": {
+"date": "2026-10-11",
+"title": "Slim Type for Small Screens, with PixelFonts",
+"url": "https://hackaday.com/2026/10/10/slim-type-for-small-screens-with-pixelfonts/"
+},
 "ec16b54353b3850d944acf65f3e9b541e11e4863": {
 "date": "2026-09-22",
 "title": "Tiga: Compiling Graph Message Passing at Scale",
@@ -9673,6 +9733,11 @@
 "date": "2026-08-26",
 "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
 "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing"
+},
+"f6ba968dd6484b474a79d58a3fbe50a0aa05a1fe": {
+"date": "2026-10-11",
+"title": "The Weirdest Video Games were Hacks",
+"url": "https://hackaday.com/2026/10/10/the-weirdest-video-games-were-hacks/"
 },
 "f6d3626eb7c890d94bb50058e6f90af5d255e4a4": {
 "date": "2026-10-09",

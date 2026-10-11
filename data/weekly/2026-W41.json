@@ -1,0 +1,193 @@
+{
+  "week": "2026-W41",
+  "start": "2026-10-05",
+  "end": "2026-10-11",
+  "title": "Agents, Efficiency, and Kernel Crunch",
+  "intro": "LLM agents kept the spotlight, but the week also saw a push for leaner models and a flurry of kernel hardening. Engineers got new benchmarks, tighter runtimes, and a reminder to patch their systems.",
+  "themes": [
+    {
+      "headline": "LLM Agents Get Real‑World Tests",
+      "body": "**Lead‑in:** From bottling to bargaining, researchers rolled out a suite of benchmarks to see how agents fare outside the lab. Agent‑in‑a‑Bottle measured cheap, task‑specific solutions, while WorldSolver asked agents to generate physics solvers across 168 tasks. BazaarBench probed safety in decentralized marketplaces, and a new humility metric checked how agents handle contradictory evidence. Together they map a growing ecosystem of agent evaluation.",
+      "items": [
+        {
+          "id": "9e679cfc6307cb1dadc0c16553c94abde45e9118",
+          "title": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?",
+          "url": "https://arxiv.org/abs/2610.08775v1",
+          "date": "2026-10-07",
+          "source": "arXiv cs.AI",
+          "section": "AI & ML"
+        },
+        {
+          "id": "f0f7ba9044369227f0b054abb6697d4ad150b076",
+          "title": "WorldSolver: Can LLM Agents Simulate the Physical Dynamics via Solver Generation?",
+          "url": "https://arxiv.org/abs/2610.08720v1",
+          "date": "2026-10-07",
+          "source": "arXiv cs.AI",
+          "section": "AI & ML"
+        },
+        {
+          "id": "61e4770c46f84c140e9bd9f38b398553e33a9f0d",
+          "title": "BazaarBench: Delegation Safety in Decentralized C2C Marketplaces Run by LLM Agents",
+          "url": "https://arxiv.org/abs/2610.06748v1",
+          "date": "2026-10-06",
+          "source": "arXiv cs.MA",
+          "section": "AI & ML"
+        },
+        {
+          "id": "71bfef6e482616886184bb34ddc4b1665ac9e7ed",
+          "title": "Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict",
+          "url": "https://arxiv.org/abs/2610.12360v1",
+          "date": "2026-10-09",
+          "source": "arXiv cs.AI",
+          "section": "AI & ML"
+        }
+      ]
+    },
+    {
+      "headline": "Trimming the Fat: Model & Memory Hacks",
+      "body": "**Lead‑in:** Efficiency was the name of the game, with several tricks to shave latency and memory. ResidualQuant introduced 2‑bit residuals for KV‑cache quantization, while LLM‑BlockFE turned long‑text feature extraction into offline programs, eliminating runtime calls. EmbeddingGemma 2 offered a lightweight multimodal embedder, and diffusion‑transformer token mapping let users query image generators in plain language. The trend points to tighter, cheaper inference pipelines.",
+      "items": [
+        {
+          "id": "db985b950bbfe931a18d07d1fb389a0e7285dfc1",
+          "title": "ResidualQuant: KV Cache Quantization for Looped Transformers with 2-Bit Residuals",
+          "url": "https://arxiv.org/abs/2610.10381v1",
+          "date": "2026-10-08",
+          "source": "arXiv cs.LG",
+          "section": "AI & ML"
+        },
+        {
+          "id": "8976fd056479d4fd7a434e405ce40d4d83418a2c",
+          "title": "Long Text to Predictive Features: LLM-Guided Blockwise Feature Engineering via Executable Program Search",
+          "url": "https://arxiv.org/abs/2610.12390v1",
+          "date": "2026-10-09",
+          "source": "arXiv cs.LG",
+          "section": "AI & ML"
+        },
+        {
+          "id": "2435ebd74585591829f3cd36a5ccda2903dc2ac2",
+          "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+          "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+          "date": "2026-10-07",
+          "source": "deepmind blog",
+          "section": "AI & ML"
+        },
+        {
+          "id": "c65d26d8439885526efee5411d578f22707dc65c",
+          "title": "Learning to Read the Contextual Tokens in Diffusion Transformers",
+          "url": "https://arxiv.org/abs/2610.06844v1",
+          "date": "2026-10-06",
+          "source": "arXiv cs.CV",
+          "section": "AI & ML"
+        }
+      ]
+    },
+    {
+      "headline": "Kernel & Security Sprint",
+      "body": "**Lead‑in:** The Linux kernel and distro maintainers were busy polishing the foundations. Security updates hit major distros on Friday and Thursday, while GCC gained forward‑edge control‑flow integrity checks for the kernel. The pre‑patch 7.3‑rc6 landed without delay, and the ongoing swap‑layer debate highlighted unresolved persistence issues. It’s a reminder that low‑level hardening remains a weekly ritual.",
+      "items": [
+        {
+          "id": "9561795fe14deeb81ed92c06b3582593338a1858",
+          "title": "Security updates for Friday",
+          "url": "https://lwn.net/Articles/1099587/",
+          "date": "2026-10-10",
+          "source": "lwn",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "481f8bd7cecf7f8bc5b81e4f49cf422daf6115e8",
+          "title": "[$] Adding kernel control-flow-integrity checking to GCC",
+          "url": "https://lwn.net/Articles/1098670/",
+          "date": "2026-10-10",
+          "source": "lwn",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "41e6bb97138e7ec67c5f6043c13ed358d2be94d0",
+          "title": "Kernel prepatch 7.3-rc6",
+          "url": "https://lwn.net/Articles/1098476/",
+          "date": "2026-10-05",
+          "source": "lwn",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "9f4670d83de9867d7b77b39f5cd50cc1eec98393",
+          "title": "[$] The [vx]swap showdown",
+          "url": "https://lwn.net/Articles/1098399/",
+          "date": "2026-10-09",
+          "source": "lwn",
+          "section": "Embedded & systems"
+        }
+      ]
+    },
+    {
+      "headline": "Algorithmic Speedups in Research",
+      "body": "**Lead‑in:** Academic breakthroughs kept the pace fast. ReDSEa’s heterogeneous tool‑chain delivered up to 88× speedup for SVD on ARM + AI accelerators, while a new deterministic algorithm broke the 3ⁿ barrier for min‑sum subset convolution with O*(2.9997ⁿ). Cleave’s decoupled compiler approach further streamlined tensor program optimization. These results hint at faster, more scalable compute pipelines.",
+      "items": [
+        {
+          "id": "46e6064e39d17e7fe11b9cdfd4adc76064c32b56",
+          "title": "Acceleration of Data Analytics on Heterogeneous Supercloud Systems",
+          "url": "https://arxiv.org/abs/2610.06291v1",
+          "date": "2026-10-06",
+          "source": "arXiv cs.DC",
+          "section": "CS research"
+        },
+        {
+          "id": "ec21659ae94f33517167196a43697f8e62115ea8",
+          "title": "Truly Sub-$3^n$ Min-Sum Subset Convolution and Join Ordering",
+          "url": "https://arxiv.org/abs/2610.10282v1",
+          "date": "2026-10-08",
+          "source": "arXiv cs.DS",
+          "section": "CS research"
+        },
+        {
+          "id": "e13c5e7df4322d3916de080d890f9c46ab2755e2",
+          "title": "Cleave: Scaling Tensor Program Optimization via Decoupled Algebraic Search and Operator Scheduling",
+          "url": "https://arxiv.org/abs/2610.07742v1",
+          "date": "2026-10-07",
+          "source": "arXiv cs.PL",
+          "section": "CS research"
+        }
+      ]
+    }
+  ],
+  "numbers": [
+    {
+      "value": "168",
+      "label": "WorldSolver simulation tasks across 61 papers",
+      "item": {
+        "id": "f0f7ba9044369227f0b054abb6697d4ad150b076",
+        "title": "WorldSolver: Can LLM Agents Simulate the Physical Dynamics via Solver Generation?",
+        "url": "https://arxiv.org/abs/2610.08720v1",
+        "date": "2026-10-07",
+        "source": "arXiv cs.AI",
+        "section": "AI & ML"
+      }
+    },
+    {
+      "value": "88×",
+      "label": "Speedup for SVD on heterogeneous supercloud system",
+      "item": {
+        "id": "46e6064e39d17e7fe11b9cdfd4adc76064c32b56",
+        "title": "Acceleration of Data Analytics on Heterogeneous Supercloud Systems",
+        "url": "https://arxiv.org/abs/2610.06291v1",
+        "date": "2026-10-06",
+        "source": "arXiv cs.DC",
+        "section": "CS research"
+      }
+    },
+    {
+      "value": "20%",
+      "label": "Token reduction for coding agents using headroom library",
+      "item": {
+        "id": "9a75aafc0f232f11cd056b828b730c35405025ca",
+        "title": "headroomlabs-ai/headroom",
+        "url": "https://github.com/headroomlabs-ai/headroom",
+        "date": "2026-10-10",
+        "source": "GitHub trending · python",
+        "section": "Trending repos"
+      }
+    }
+  ],
+  "watch": "Next week watch the rollout of on‑device LLM inference optimizations and any follow‑up patches to the kernel swap layer.",
+  "item_count": 151
+}
