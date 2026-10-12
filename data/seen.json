@@ -309,6 +309,11 @@
 "title": "The Linux Foundation Technical Advisory Board 2026 election approaches",
 "url": "https://lwn.net/Articles/1097758/"
 },
+"07ebce2ec0593268d4c44a1743c460f37a341cce": {
+"date": "2026-10-12",
+"title": "dyang886/Game-Cheats-Manager",
+"url": "https://github.com/dyang886/Game-Cheats-Manager"
+},
 "07ed8c67267f9be1a6c66f6768ab911ae1a0769e": {
 "date": "2026-09-23",
 "title": "Model: Altworld/Hemmingway-1",
@@ -703,6 +708,11 @@
 "date": "2026-08-11",
 "title": "AkasicDB: Demonstrating Omni RAG with a Unified Vector-Graph-Relational DBMS",
 "url": "https://arxiv.org/abs/2608.09214v1"
+},
+"1040963ccfe21897bb21fdcaf5ac9301d14ab0aa": {
+"date": "2026-10-12",
+"title": "Inside a Mystery 1980s Filter IC Featuring Switched Capacitors",
+"url": "https://hackaday.com/2026/10/11/inside-a-mystery-1980s-filter-ic-featuring-switched-capacitors/"
 },
 "1051691132d5ea69669ed0f4c7e5c17b6aafc4d4": {
 "date": "2026-08-26",
@@ -2084,6 +2094,11 @@
 "title": "Emacs arbitrary code execution flaw",
 "url": "https://lwn.net/Articles/1094224/"
 },
+"30ee7b59ca6ef2cccd537fadeb7c57ed053a9220": {
+"date": "2026-10-12",
+"title": "Model: abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+"url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized"
+},
 "3117cd47e6f002c63e2a83d83a4948e99ff3d8d1": {
 "date": "2026-08-19",
 "title": "Reverse Engineered Grill Controller Gets Open Firmware",
@@ -2809,6 +2824,11 @@
 "title": "Don't ask an LLM for a confidence score",
 "url": "https://justinflick.com/2026/07/27/llm-confidence-scores.html"
 },
+"44c65736f8dd5ac9d4bf0dfeb77dd474b3bddea7": {
+"date": "2026-10-12",
+"title": "The gap in shared understanding of LLM capability is widening",
+"url": "https://twitter.com/karpathy/status/2109361546505966046"
+},
 "450231c9c95b3227dbdf9cb23429957ee1a3700b": {
 "date": "2026-08-06",
 "title": "FLOSS Weekly Episode 878: A Tool With Opinions",
@@ -2938,6 +2958,11 @@
 "date": "2026-07-30",
 "title": "Upcoming: Codeforces Round (Div. 2)",
 "url": "https://codeforces.com/contests/2252"
+},
+"48560b30757bb4fa01c140fe52734f4077f02049": {
+"date": "2026-10-12",
+"title": "A Free Cloud AI",
+"url": "https://hackaday.com/2026/10/12/a-free-cloud-ai/"
 },
 "487195e18bed747e4828c5de0e8c2e0e8381e375": {
 "date": "2026-08-28",
@@ -4324,6 +4349,11 @@
 "title": "[$] Governing GNOMEs: how the project's technical decision-making is evolving",
 "url": "https://lwn.net/Articles/1091619/"
 },
+"6ce717e451df7aac5a604feb47cb14cb7bf8ac1d": {
+"date": "2026-10-12",
+"title": "Model: AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+"url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF"
+},
 "6d274f8f572bd9fb1ca3e7bd4f577ba0d63471db": {
 "date": "2026-09-18",
 "title": "Model: prism-ml/Ternary-Bonsai-2-27B-gguf",
@@ -5699,6 +5729,11 @@
 "title": "Robotic Screw and Bolt Sorter Seeks a New Challenge",
 "url": "https://hackaday.com/2026/08/08/robotic-screw-and-bolt-sorter-seeks-a-new-challenge/"
 },
+"94ee2482679fd92798469e6694525f973d7cddc5": {
+"date": "2026-10-12",
+"title": "hugohe3/ppt-master",
+"url": "https://github.com/hugohe3/ppt-master"
+},
 "9539e1841be211b495206dcbb9e3aa55681b38aa": {
 "date": "2026-10-11",
 "title": "denoland/deno",
@@ -6494,6 +6529,11 @@
 "title": "Demystifying Deep Learning Compiler Frontend Bugs: An LLM-Aided Empirical Study",
 "url": "https://arxiv.org/abs/2607.25651v1"
 },
+"a89fba2dc1b37569f5ae6b8d2adc626c35b50045": {
+"date": "2026-10-12",
+"title": "DECing Out the Homelab with an AlphaServer 2100",
+"url": "https://hackaday.com/2026/10/11/decing-out-the-homelab-with-an-alphaserver-2100/"
+},
 "a8d484a45e1d93fddd05ad212d0d5b0f9c9165b7": {
 "date": "2026-08-06",
 "title": "Eigenius: A Typed Knowledge-Graph DBMS with Epistemic Stratification and Institution-Mediated Reasoning",
@@ -6668,6 +6708,11 @@
 "date": "2026-09-23",
 "title": "browser-use/video-use",
 "url": "https://github.com/browser-use/video-use"
+},
+"ac9c2ae4e1b39823f02c9ba4d1e7425cdaa6865b": {
+"date": "2026-10-12",
+"title": "chrislgarry/Apollo-11",
+"url": "https://github.com/chrislgarry/Apollo-11"
 },
 "aca19a64dc0f7a6093227c7e6f17589aa1537968": {
 "date": "2026-09-02",
@@ -6888,6 +6933,11 @@
 "date": "2026-09-06",
 "title": "PlotJuggler/PlotJuggler",
 "url": "https://github.com/PlotJuggler/PlotJuggler"
+},
+"b1b56e3e70bd7d63fedcd4e6d4530fac38e87cac": {
+"date": "2026-10-12",
+"title": "farion1231/cc-switch",
+"url": "https://github.com/farion1231/cc-switch"
 },
 "b21f338065e1dc04157149ee54ce16edcd6bd793": {
 "date": "2026-10-11",
@@ -7558,6 +7608,11 @@
 "date": "2026-07-19",
 "title": "MaaAssistantArknights/MaaAssistantArknights",
 "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights"
+},
+"c4d9d231669e0fa5356ef533296bb425ea5f05ea": {
+"date": "2026-10-12",
+"title": "XiaoYouChR/Ghost-Downloader-3",
+"url": "https://github.com/XiaoYouChR/Ghost-Downloader-3"
 },
 "c5258d6ff84f9eb28745a3155ac16c0c49435a35": {
 "date": "2026-09-16",
@@ -8314,6 +8369,11 @@
 "title": "Homebrew/BrewUI",
 "url": "https://github.com/Homebrew/BrewUI"
 },
+"d65f258174fe65203a9efe76b32ca7212ab0a204": {
+"date": "2026-10-12",
+"title": "Stable kernels 7.2.10 and 6.18.56",
+"url": "https://lwn.net/Articles/1099764/"
+},
 "d67baca8e8214f0bddf7e0842166e85fbd0fd639": {
 "date": "2026-08-07",
 "title": "Security updates for Thursday",
@@ -8698,6 +8758,11 @@
 "date": "2026-07-29",
 "title": "Scientific computing in the age of agentic AI",
 "url": "https://openai.com/index/scientific-computing-agentic-ai"
+},
+"df489c10521cd2bd09ae4cc6ce486e78eaa5549e": {
+"date": "2026-10-12",
+"title": "bilawalsidhu/gods-eye-view",
+"url": "https://github.com/bilawalsidhu/gods-eye-view"
 },
 "df9a4b019932f89360607c0bff67d8c96482c4ee": {
 "date": "2026-08-16",
@@ -9159,6 +9224,11 @@
 "title": "ParVL: Parallel Scaling and Expandable Compute Allocation for Multimodal LLMs",
 "url": "https://arxiv.org/abs/2608.04010v1"
 },
+"e993bd7483618f93ea61a0435ffe76c8699ef684": {
+"date": "2026-10-12",
+"title": "Hackaday Links: October 11, 2026",
+"url": "https://hackaday.com/2026/10/11/hackaday-links-october-11-2026/"
+},
 "e9c71c13a6e71e02783b1d8efb0e6b901b83f67f": {
 "date": "2026-07-23",
 "title": "GigaToken: ~1000x faster Language model tokenization",
@@ -9348,6 +9418,11 @@
 "date": "2026-07-14",
 "title": "A Separation Logic for Parallel Time Complexity with Work and Span Credits",
 "url": "https://arxiv.org/abs/2607.11582v1"
+},
+"ecf7af830fcc2a7d897846849246657449b76108": {
+"date": "2026-10-12",
+"title": "Kernel prepatch 7.3-rc7",
+"url": "https://lwn.net/Articles/1099798/"
 },
 "ed01c9de56d704744af8ca9d2f5f9bd23efa681e": {
 "date": "2026-09-26",

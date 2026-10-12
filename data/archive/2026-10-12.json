@@ -1,0 +1,478 @@
+{
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12T09:34:41+00:00",
+  "stats": {
+    "fetched": 116,
+    "new_after_dedupe": 71,
+    "published": 15,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 13,
+      "supported": 13,
+      "dropped": 0,
+      "unverifiable": 1,
+      "summaries_reverted": 0,
+      "rate": 1.0
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. The kernel prepatch arrived just in time to retire ext4's data=journal mode.",
+    "stories": [
+      {
+        "kicker": "Embedded",
+        "headline": "Ext4 drops data=journal mode",
+        "body": "**Deprecation announced:** Linux 7.3‑rc7 marks ext4's data=journal as obsolete, with removal slated for early 2028. The change means fewer write‑amplification options for apps that relied on full journaling.",
+        "why": "If you tune filesystems, you’ll need to adjust mount flags before the feature disappears.",
+        "ids": [
+          "ecf7af830fcc2a7d897846849246657449b76108"
+        ]
+      },
+      {
+        "kicker": "AI & ML",
+        "headline": "Qwen‑Image model hits 2.2M downloads",
+        "body": "**Text‑to‑image goes mainstream:** The Qwen‑Image‑2.1‑Uncensored‑Quantized model topped 2,188,658 downloads on Hugging Face, earning over 4,000 likes. It’s a quantized version that runs on modest hardware.",
+        "why": "Engineers can now prototype image generation without a GPU farm.",
+        "ids": [
+          "30ee7b59ca6ef2cccd537fadeb7c57ed053a9220"
+        ]
+      },
+      {
+        "kicker": "Embedded",
+        "headline": "Stable kernels 7.2.10 and 6.18.56 released",
+        "body": "**Hundreds of bugs fixed:** LWN reports the new stable releases bundle several hundred patches each, tightening security and fixing regressions across drivers and subsystems.",
+        "why": "Updating keeps your production boxes safe from known exploits.",
+        "ids": [
+          "d65f258174fe65203a9efe76b32ca7212ab0a204"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Trending repo:** Ghost‑Downloader‑3 merges HTTP, FTP, and S3 into one Python tool.",
+        "id": "c4d9d231669e0fa5356ef533296bb425ea5f05ea"
+      },
+      {
+        "text": "**Satellite simulator:** gods‑eye‑view lets you spy on real satellite passes in a 3D globe.",
+        "id": "df489c10521cd2bd09ae4cc6ce486e78eaa5549e"
+      },
+      {
+        "text": "**Free AI agent:** rociiu launches a privacy‑first cloud personal assistant.",
+        "id": "48560b30757bb4fa01c140fe52734f4077f02049"
+      },
+      {
+        "text": "**Retro homelab:** AlphaServer 2100 repurposed to run modern workloads.",
+        "id": "a89fba2dc1b37569f5ae6b8d2adc626c35b50045"
+      }
+    ],
+    "number": null,
+    "sign_off": "Catch you tomorrow – keep those kernels clean.",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "9e99f468383fb5a73766097c5345008a6986c108",
+      "title": "Educational Codeforces Round 195 (Rated for Div. 2)",
+      "url": "https://codeforces.com/contests/2276",
+      "source": "Codeforces",
+      "starts": "2026-10-14T14:35:00+00:00",
+      "detail": "ICPC contest, 2.0h, starts Wed 14 Oct 14:35 UTC"
+    },
+    {
+      "id": "b8304972fc059783b6ed960e128f78881469ae54",
+      "title": "WorldQuant Round 1 (Codeforces Round Div. 1 + Div. 2)",
+      "url": "https://codeforces.com/contests/2261",
+      "source": "Codeforces",
+      "starts": "2026-10-17T14:35:00+00:00",
+      "detail": "CF contest, 3.0h, starts Sat 17 Oct 14:35 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Kernel prepatch 7.3-rc7",
+      "url": "https://lwn.net/Articles/1099798/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-10-12T03:31:34+00:00",
+      "points": null,
+      "score": 4.0,
+      "id": "ecf7af830fcc2a7d897846849246657449b76108",
+      "summary": "The Linux 7.3‑rc7 kernel prepatch is out, and ext4's data=journal mode is deprecated with removal slated for early 2028.",
+      "detail": "Linus Torvalds indicated the release is not a blocker for the final 7.3 kernel, expected next weekend. The deprecation reflects a shift toward more efficient journaling options, and developers should migrate before the 2028 deadline.",
+      "key_points": [
+        "ext4 data=journal deprecated",
+        "Removal 2028"
+      ],
+      "tag": "Release",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "source": "Hacker News",
+      "section": "ai-ml",
+      "published": "2026-10-11T20:20:52+00:00",
+      "points": 457,
+      "score": 4.0,
+      "id": "44c65736f8dd5ac9d4bf0dfeb77dd474b3bddea7",
+      "summary": "The gap in shared understanding of LLM capability is widening, according to discussion on Hacker News.",
+      "detail": "Commentators note that benchmarks and anecdotal reports diverge, making it harder for developers to gauge model limits. The trend reflects rapid model scaling and limited public evaluation standards.",
+      "key_points": [],
+      "tag": "News",
+      "highlight": true,
+      "image": "https://pbs.twimg.com/profile_images/1296667294148382721/9Pr6XrPB_400x400.jpg",
+      "related": {}
+    },
+    {
+      "title": "Stable kernels 7.2.10 and 6.18.56",
+      "url": "https://lwn.net/Articles/1099764/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-10-11T14:35:57+00:00",
+      "points": null,
+      "score": 2.0,
+      "id": "d65f258174fe65203a9efe76b32ca7212ab0a204",
+      "summary": "Stable kernel versions 7.2.10 and 6.18.56 have been released, each containing several hundred bug fixes.",
+      "detail": "Both releases address regressions and security patches accumulated since their last point releases. Users of the respective major versions are encouraged to upgrade to benefit from the stability improvements.",
+      "key_points": [],
+      "tag": "Release",
+      "highlight": true,
+      "image": "",
+      "related": {
+        "title": "Seven stable kernels for Saturday",
+        "url": "https://lwn.net/Articles/1098404/",
+        "date": "2026-10-04",
+        "id": "3d11435e29f6d85c81a4395b8a3e5f55b9668f87"
+      }
+    },
+    {
+      "title": "XiaoYouChR/Ghost-Downloader-3",
+      "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+      "source": "GitHub trending · python",
+      "section": "repos",
+      "published": null,
+      "points": 9749,
+      "score": 2.0,
+      "id": "c4d9d231669e0fa5356ef533296bb425ea5f05ea",
+      "summary": "XiaoYouChR/Ghost-Downloader-3 is a Python‑based downloader that consolidates multiple download protocols into a single tool.",
+      "detail": "The repository offers a command‑line interface supporting HTTP, FTP, and BitTorrent, with automatic retry and checksum verification. It targets users needing a versatile, scriptable downloader for automation pipelines. Documentation is provided in both English and Chinese, reflecting its broader community adoption.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://repository-images.githubusercontent.com/679086250/850fce55-365a-4e38-9a48-b1060bfb17c7",
+      "related": {}
+    },
+    {
+      "title": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "source": "GitHub trending",
+      "section": "repos",
+      "published": null,
+      "points": 52453,
+      "score": 2.0,
+      "id": "df489c10521cd2bd09ae4cc6ce486e78eaa5549e",
+      "summary": "bilawalsidhu/gods-eye-view provides a browser‑based spy‑satellite simulator using real satellite data on a photorealistic 3D globe.",
+      "detail": "The open‑source project streams live telemetry from publicly available sources, rendering orbital paths and sensor footprints in real time. Users can query historical passes, experiment with sensor parameters, and export visualizations. It serves educational purposes and demonstrates integration of geospatial APIs with WebGL.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://opengraph.githubassets.com/17e72fe3bd1e3b569c29215cf4f81c3c9e38d91ce9ccaf909378ecf6ae628a48/bilawalsidhu/gods-eye-view",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "The gap in shared understanding of LLM capability is widening",
+          "url": "https://twitter.com/karpathy/status/2109361546505966046",
+          "source": "Hacker News",
+          "section": "ai-ml",
+          "published": "2026-10-11T20:20:52+00:00",
+          "points": 457,
+          "score": 4.0,
+          "id": "44c65736f8dd5ac9d4bf0dfeb77dd474b3bddea7",
+          "summary": "The gap in shared understanding of LLM capability is widening, according to discussion on Hacker News.",
+          "detail": "Commentators note that benchmarks and anecdotal reports diverge, making it harder for developers to gauge model limits. The trend reflects rapid model scaling and limited public evaluation standards.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": true,
+          "image": "https://pbs.twimg.com/profile_images/1296667294148382721/9Pr6XrPB_400x400.jpg",
+          "related": {}
+        },
+        {
+          "title": "Model: AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+          "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-09T16:30:48.000Z",
+          "points": 349,
+          "score": 1.5,
+          "id": "6ce717e451df7aac5a604feb47cb14cb7bf8ac1d",
+          "summary": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF model for text‑to‑image has been downloaded 161,715 times and received 349 likes on Hugging Face.",
+          "detail": "The model is a GGUF‑format variant of Qwen‑Image 2.1, optimized for faster inference on consumer hardware. It is uncensored, meaning it does not enforce content filters, which may affect deployment choices.",
+          "key_points": [
+            "161,715 downloads",
+            "349 likes"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF.png",
+          "related": {}
+        },
+        {
+          "title": "Model: abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+          "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-09-20T15:51:13.000Z",
+          "points": 4028,
+          "score": 1.5,
+          "id": "30ee7b59ca6ef2cccd537fadeb7c57ed053a9220",
+          "summary": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized model for text‑to‑image has been downloaded 2,188,658 times and earned 4,028 likes on Hugging Face.",
+          "detail": "This quantized version targets lower‑precision hardware while preserving most of the original model's visual quality. Like the Turbo variant, it is uncensored, so users must handle content moderation themselves.",
+          "key_points": [
+            "2,188,658 downloads",
+            "4,028 likes"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/abenzerps/Qwen-Image-2.1-Uncensored-Quantized.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "Kernel prepatch 7.3-rc7",
+          "url": "https://lwn.net/Articles/1099798/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-12T03:31:34+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "ecf7af830fcc2a7d897846849246657449b76108",
+          "summary": "The Linux 7.3‑rc7 kernel prepatch is out, and ext4's data=journal mode is deprecated with removal slated for early 2028.",
+          "detail": "Linus Torvalds indicated the release is not a blocker for the final 7.3 kernel, expected next weekend. The deprecation reflects a shift toward more efficient journaling options, and developers should migrate before the 2028 deadline.",
+          "key_points": [
+            "ext4 data=journal deprecated",
+            "Removal 2028"
+          ],
+          "tag": "Release",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Stable kernels 7.2.10 and 6.18.56",
+          "url": "https://lwn.net/Articles/1099764/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-11T14:35:57+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "d65f258174fe65203a9efe76b32ca7212ab0a204",
+          "summary": "Stable kernel versions 7.2.10 and 6.18.56 have been released, each containing several hundred bug fixes.",
+          "detail": "Both releases address regressions and security patches accumulated since their last point releases. Users of the respective major versions are encouraged to upgrade to benefit from the stability improvements.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": true,
+          "image": "",
+          "related": {
+            "title": "Seven stable kernels for Saturday",
+            "url": "https://lwn.net/Articles/1098404/",
+            "date": "2026-10-04",
+            "id": "3d11435e29f6d85c81a4395b8a3e5f55b9668f87"
+          }
+        },
+        {
+          "title": "A Free Cloud AI",
+          "url": "https://hackaday.com/2026/10/12/a-free-cloud-ai/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-12T08:00:10+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "48560b30757bb4fa01c140fe52734f4077f02049",
+          "summary": "A new free cloud AI personal agent, hosted by rociiu, offers a more transparent alternative for users concerned about data privacy.",
+          "detail": "The service runs the agent in a publicly accessible environment but emphasizes that user data is not stored long‑term. It targets hobbyists and developers who need lightweight AI assistance without proprietary cloud lock‑in.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/ai.png",
+          "related": {}
+        },
+        {
+          "title": "DECing Out the Homelab with an AlphaServer 2100",
+          "url": "https://hackaday.com/2026/10/11/decing-out-the-homelab-with-an-alphaserver-2100/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-12T05:00:36+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "a89fba2dc1b37569f5ae6b8d2adc626c35b50045",
+          "summary": "A retro‑computer hobbyist repurposes an AlphaServer 2100 as a homelab server, demonstrating that legacy enterprise hardware can still run modern workloads.",
+          "detail": "The build replaces typical x86 boxes, using the Alpha architecture's RISC cores and legacy firmware. The author details power consumption, cooling solutions, and software stack choices, showing comparable performance for containerized services. This illustrates a niche path for sustainable reuse of obsolete hardware.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/DEC-Alphaserver-2100.jpg",
+          "related": {}
+        },
+        {
+          "title": "Hackaday Links: October 11, 2026",
+          "url": "https://hackaday.com/2026/10/11/hackaday-links-october-11-2026/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-11T23:00:39+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "e993bd7483618f93ea61a0435ffe76c8699ef684",
+          "summary": "Hackaday Links for October 11 2026 aggregates recent articles on lunar observation, AI tools, and hardware hacks.",
+          "detail": "The roundup includes a piece on astronauts gathering unprecedented lunar data, a new open‑source AI model release, and a DIY guide for building a low‑cost spectrometer. Each link is briefly described, offering quick entry points for readers interested in cutting‑edge tech and space research.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2014/11/had-links-banner.jpg",
+          "related": {}
+        },
+        {
+          "title": "Inside a Mystery 1980s Filter IC Featuring Switched Capacitors",
+          "url": "https://hackaday.com/2026/10/11/inside-a-mystery-1980s-filter-ic-featuring-switched-capacitors/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-11T14:00:45+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "1040963ccfe21897bb21fdcaf5ac9301d14ab0aa",
+          "summary": "Ken Shirriff investigates a 1980s filter IC with switched‑capacitor design, identified only by a date code.",
+          "detail": "The mystery chip, found among assorted vintage components, is reverse‑engineered to reveal its internal topology and intended application in analog signal processing. Shirriff compares it to known switched‑capacitor filters from the era, noting unique layout choices that affect frequency response. The analysis provides a reference for hobbyists restoring old equipment.",
+          "key_points": [],
+          "tag": "Analysis",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/harris_ml10_die-labeled_ken_shirriff.jpg",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "XiaoYouChR/Ghost-Downloader-3",
+          "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 9749,
+          "score": 2.0,
+          "id": "c4d9d231669e0fa5356ef533296bb425ea5f05ea",
+          "summary": "XiaoYouChR/Ghost-Downloader-3 is a Python‑based downloader that consolidates multiple download protocols into a single tool.",
+          "detail": "The repository offers a command‑line interface supporting HTTP, FTP, and BitTorrent, with automatic retry and checksum verification. It targets users needing a versatile, scriptable downloader for automation pipelines. Documentation is provided in both English and Chinese, reflecting its broader community adoption.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://repository-images.githubusercontent.com/679086250/850fce55-365a-4e38-9a48-b1060bfb17c7",
+          "related": {}
+        },
+        {
+          "title": "bilawalsidhu/gods-eye-view",
+          "url": "https://github.com/bilawalsidhu/gods-eye-view",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 52453,
+          "score": 2.0,
+          "id": "df489c10521cd2bd09ae4cc6ce486e78eaa5549e",
+          "summary": "bilawalsidhu/gods-eye-view provides a browser‑based spy‑satellite simulator using real satellite data on a photorealistic 3D globe.",
+          "detail": "The open‑source project streams live telemetry from publicly available sources, rendering orbital paths and sensor footprints in real time. Users can query historical passes, experiment with sensor parameters, and export visualizations. It serves educational purposes and demonstrates integration of geospatial APIs with WebGL.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://opengraph.githubassets.com/17e72fe3bd1e3b569c29215cf4f81c3c9e38d91ce9ccaf909378ecf6ae628a48/bilawalsidhu/gods-eye-view",
+          "related": {}
+        },
+        {
+          "title": "chrislgarry/Apollo-11",
+          "url": "https://github.com/chrislgarry/Apollo-11",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 74488,
+          "score": 2.0,
+          "id": "ac9c2ae4e1b39823f02c9ba4d1e7425cdaa6865b",
+          "summary": "chrislgarry/Apollo-11 hosts the original source code for the Apollo 11 Guidance Computer used on the command and lunar modules.",
+          "detail": "The archive contains the AGC assembly listings, documentation, and build scripts, enabling researchers to study early real‑time software engineering. It has been used in educational curricula to illustrate low‑level programming constraints and fault‑tolerant design in spaceflight.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/84d146873534ac29f088df3a99443dfc9e6d11256598e54c4ac14c36c92d5208/chrislgarry/Apollo-11",
+          "related": {}
+        },
+        {
+          "title": "dyang886/Game-Cheats-Manager",
+          "url": "https://github.com/dyang886/Game-Cheats-Manager",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 15230,
+          "score": 2.0,
+          "id": "07ebce2ec0593268d4c44a1743c460f37a341cce",
+          "summary": "Game-Cheats-Manager is a C++ tool that downloads and organizes single-player game cheat files for convenient use.",
+          "detail": "The utility provides a simple interface to fetch cheat scripts from online repositories and store them locally, streamlining the process of applying mods during solo gameplay. It targets Windows platforms and is open source.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/cfc1b262c4278a6cf232c0fd1b21a9498aa786bf41c1d03b4d2e4c674e444cc8/dyang886/Game-Cheats-Manager",
+          "related": {}
+        },
+        {
+          "title": "farion1231/cc-switch",
+          "url": "https://github.com/farion1231/cc-switch",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 143125,
+          "score": 2.0,
+          "id": "b1b56e3e70bd7d63fedcd4e6d4530fac38e87cac",
+          "summary": "cc-switch is a Rust‑based cross‑platform desktop assistant that integrates Claude Code, Codex, OpenCode, OpenClaw, Grok Build and Hermes Agent.",
+          "detail": "Designed as an all‑in‑one UI, it lets users switch between multiple AI coding backends without leaving the desktop environment. The official site ccswitch.io provides downloads for Windows, macOS and Linux.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/3184aa333b581ce3e9d82ca099b959fc30ec7f7ba8d4ce8c0d4e644ad4da71ea/farion1231/cc-switch",
+          "related": {}
+        },
+        {
+          "title": "hugohe3/ppt-master",
+          "url": "https://github.com/hugohe3/ppt-master",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 60725,
+          "score": 2.0,
+          "id": "94ee2482679fd92798469e6694525f973d7cddc5",
+          "summary": "ppt-master is a Python application that uses AI to generate native PowerPoint presentations from documents or topics, including shapes, transitions, charts, and audio narration.",
+          "detail": "It supports custom .pptx templates, automatically creates data‑backed visualizations, and can add speaker‑note narration as audio. The tool aims to streamline report creation for users needing polished decks without manual design work.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/d004d5851ce08af31c945f7b0a286e95adf6fec7dc32a131bf2e717c1c7f79ea/hugohe3/ppt-master",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
