@@ -1,0 +1,524 @@
+{
+  "date": "2026-10-13",
+  "generated_at": "2026-10-13T09:39:25+00:00",
+  "stats": {
+    "fetched": 129,
+    "new_after_dedupe": 87,
+    "published": 17,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 17,
+      "supported": 17,
+      "dropped": 0,
+      "unverifiable": 3,
+      "summaries_reverted": 0,
+      "rate": 1.0
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. Meta’s idle AI chips are now moonlighting as ad matchmakers, and the rest of us are still waiting for our coffee.",
+    "stories": [
+      {
+        "kicker": "AI Ads",
+        "headline": "Meta repurposes spare inference for better ads",
+        "body": "**Idle chips, higher click‑through:** Meta’s new system taps unused AI inference capacity to improve ad recommendation quality, using two elasticity levers while keeping baseline performance steady.",
+        "why": "Better ads mean higher revenue without extra hardware cost.",
+        "ids": [
+          "bb6ab80f53b08b7bb1cbf8acab599b2d6cc9c700"
+        ]
+      },
+      {
+        "kicker": "Embedded",
+        "headline": "Open firmware revives dead Onkyo receivers",
+        "body": "**Dead hardware, new life:** Hackaday highlights community‑crafted firmware that restores functionality to Onkyo AV receivers that were previously unusable.",
+        "why": "Extends the lifespan of pricey audio gear with a free software fix.",
+        "ids": [
+          "757a968cff4035ec931d027fefac5c7423dfc5b8"
+        ]
+      },
+      {
+        "kicker": "Research",
+        "headline": "Meta unveils liquid‑cooled rack and 102.4 Tbit/s switch",
+        "body": "**Scale‑up hardware debut:** At the OCP Summit Meta introduced IcePack, a liquid‑cooled rack, and IceCube, a 102.4 Tbit/s switch, plus the open‑source MetaRoCE transport protocol.",
+        "why": "Enables massive AI workloads with efficient cooling and ultra‑fast networking.",
+        "ids": [
+          "0d15a85deea1f45ce3c92b4d96f433a23051c28e"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Security patches:** Linux distros rolled out updates for kernels, OpenSSL, Python and dozens of packages.",
+        "id": "20a5a1006bdad4d7ef8675793ee30e2c5051795b"
+      },
+      {
+        "text": "**MoQ rollout:** Meta switched Instagram Live ingest to Media over QUIC, simplifying the stack and cutting latency.",
+        "id": "551b977358e22c1a743e3ab9dfa11a8178d56ea2"
+      },
+      {
+        "text": "**Code model buzz:** Qwen3.8‑27B‑Coder hit 75,302 downloads on Hugging Face.",
+        "id": "8cf352f77dfa55eb14ce8c06ef962dccb5fd1233"
+      },
+      {
+        "text": "**LineageOS 24:** New Android fork released ahead of its 10‑year anniversary.",
+        "id": "6a89024d2a7542cbf326dc43ffe67fe8d74a9bae"
+      },
+      {
+        "text": "**Flycast emulator:** Multiplatform Dreamcast emulator climbs trending list.",
+        "id": "2d83c40025557f75be5dfb88f1166d4205e3a553"
+      },
+      {
+        "text": "**DARPA lift win:** Helicopter tops the Lift Challenge competition.",
+        "id": "cc811f5112e2899afc409aae7abaf0e843672fd0"
+      }
+    ],
+    "number": {
+      "value": "102.4T",
+      "label": "IceCube switch bandwidth",
+      "id": "0d15a85deea1f45ce3c92b4d96f433a23051c28e"
+    },
+    "sign_off": "Catch you tomorrow, same time, same place",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "9e99f468383fb5a73766097c5345008a6986c108",
+      "title": "Educational Codeforces Round 195 (Rated for Div. 2)",
+      "url": "https://codeforces.com/contests/2276",
+      "source": "Codeforces",
+      "starts": "2026-10-14T14:35:00+00:00",
+      "detail": "ICPC contest, 2.0h, starts Wed 14 Oct 14:35 UTC"
+    },
+    {
+      "id": "b8304972fc059783b6ed960e128f78881469ae54",
+      "title": "WorldQuant Round 1 (Codeforces Round Div. 1 + Div. 2)",
+      "url": "https://codeforces.com/contests/2261",
+      "source": "Codeforces",
+      "starts": "2026-10-17T14:35:00+00:00",
+      "detail": "CF contest, 3.0h, starts Sat 17 Oct 14:35 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
+      "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
+      "source": "meta ai blog",
+      "section": "ai-ml",
+      "published": "2026-10-12T16:00:50+00:00",
+      "points": null,
+      "score": 5.0,
+      "id": "bb6ab80f53b08b7bb1cbf8acab599b2d6cc9c700",
+      "summary": "Meta built a system that uses idle inference capacity to boost ads recommendation quality, expanding work across opportunistic capacity with two elasticity levers while keeping baseline performance unchanged.",
+      "detail": "The architecture routes extra inference jobs to underutilized GPUs, allowing the recommendation pipeline to scale without adding dedicated hardware. Engineers monitor latency to ensure the opportunistic load never degrades user‑facing metrics. The approach is now running across Meta's global fleet.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-AI-Inference-Capacity-Ads-hero.png",
+      "related": {}
+    },
+    {
+      "title": "Open Firmware Fixes Dead Onkyo AV Receivers",
+      "url": "https://hackaday.com/2026/10/13/open-firmware-fixes-dead-onkyo-av-receivers/",
+      "source": "hackaday",
+      "section": "embedded",
+      "published": "2026-10-13T08:00:27+00:00",
+      "points": null,
+      "score": 4.5,
+      "id": "757a968cff4035ec931d027fefac5c7423dfc5b8",
+      "summary": "Hackaday reports new open‑source firmware that restores functionality to dead Onkyo AV receivers.",
+      "detail": "The community‑developed firmware replaces the proprietary code, fixing power‑on issues and adding modern network controls. Instructions and source code are provided for users to flash their own devices, extending the lifespan of legacy audio equipment.",
+      "key_points": [],
+      "tag": "News",
+      "highlight": true,
+      "image": "https://hackaday.com/wp-content/uploads/2026/10/osirisav_feat.jpg",
+      "related": {}
+    },
+    {
+      "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
+      "url": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
+      "source": "meta ai blog",
+      "section": "ai-ml",
+      "published": "2026-10-12T21:19:18+00:00",
+      "points": null,
+      "score": 3.0,
+      "id": "0d15a85deea1f45ce3c92b4d96f433a23051c28e",
+      "summary": "At the 2026 OCP Global Summit Meta unveiled its first liquid‑cooled rack, IcePack, and a 102.4 Tbit/s switch platform, IceCube, plus the open‑source MetaRoCE transport protocol.",
+      "detail": "IcePack integrates direct‑liquid cooling to reduce energy use for dense GPU clusters. IceCube’s high‑throughput fabric enables scale‑out GPU networking across multiple racks. MetaRoCE aims to replace proprietary AI transport layers with a community‑maintained standard.",
+      "key_points": [
+        "IcePack liquid‑cooled rack",
+        "102.4 Tbit/s IceCube switch",
+        "MetaRoCE open‑source protocol"
+      ],
+      "tag": "News",
+      "highlight": true,
+      "image": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-OCP-2026.png",
+      "related": {}
+    },
+    {
+      "title": "Security updates for Monday",
+      "url": "https://lwn.net/Articles/1099949/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-10-12T13:00:41+00:00",
+      "points": null,
+      "score": 3.0,
+      "id": "20a5a1006bdad4d7ef8675793ee30e2c5051795b",
+      "summary": "Multiple Linux distributions released security updates for dozens of packages, including kernels, OpenSSL, and Python, on Monday.",
+      "detail": "The updates span AlmaLinux, Debian, Fedora, Mageia, Oracle, Red Hat, Slackware, and SUSE, covering components such as cjose, curl, dogtag-pki, glibc, and various Python versions. These patches address recent vulnerabilities across the ecosystem, ensuring continued system integrity.",
+      "key_points": [],
+      "tag": "News",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
+      "url": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/",
+      "source": "meta ai blog",
+      "section": "ai-ml",
+      "published": "2026-10-12T16:01:32+00:00",
+      "points": null,
+      "score": 3.0,
+      "id": "551b977358e22c1a743e3ab9dfa11a8178d56ea2",
+      "summary": "Meta deployed Media over QUIC (MoQ) for Instagram Live ingest, simplifying the streaming stack and improving real‑time video performance.",
+      "detail": "MoQ replaces legacy RTP/RTMP pipelines, reducing latency and packet loss for live broadcasts. The rollout began in select regions and is being expanded globally as the protocol matures. Early metrics show smoother playback and lower bandwidth overhead.",
+      "key_points": [],
+      "tag": "Release",
+      "highlight": true,
+      "image": "https://engineering.fb.com/wp-content/uploads/2026/10/MoQ-Instagram-Live-Meta-Hero.png",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
+          "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
+          "source": "meta ai blog",
+          "section": "ai-ml",
+          "published": "2026-10-12T16:00:50+00:00",
+          "points": null,
+          "score": 5.0,
+          "id": "bb6ab80f53b08b7bb1cbf8acab599b2d6cc9c700",
+          "summary": "Meta built a system that uses idle inference capacity to boost ads recommendation quality, expanding work across opportunistic capacity with two elasticity levers while keeping baseline performance unchanged.",
+          "detail": "The architecture routes extra inference jobs to underutilized GPUs, allowing the recommendation pipeline to scale without adding dedicated hardware. Engineers monitor latency to ensure the opportunistic load never degrades user‑facing metrics. The approach is now running across Meta's global fleet.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-AI-Inference-Capacity-Ads-hero.png",
+          "related": {}
+        },
+        {
+          "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
+          "url": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
+          "source": "meta ai blog",
+          "section": "ai-ml",
+          "published": "2026-10-12T21:19:18+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "0d15a85deea1f45ce3c92b4d96f433a23051c28e",
+          "summary": "At the 2026 OCP Global Summit Meta unveiled its first liquid‑cooled rack, IcePack, and a 102.4 Tbit/s switch platform, IceCube, plus the open‑source MetaRoCE transport protocol.",
+          "detail": "IcePack integrates direct‑liquid cooling to reduce energy use for dense GPU clusters. IceCube’s high‑throughput fabric enables scale‑out GPU networking across multiple racks. MetaRoCE aims to replace proprietary AI transport layers with a community‑maintained standard.",
+          "key_points": [
+            "IcePack liquid‑cooled rack",
+            "102.4 Tbit/s IceCube switch",
+            "MetaRoCE open‑source protocol"
+          ],
+          "tag": "News",
+          "highlight": true,
+          "image": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-OCP-2026.png",
+          "related": {}
+        },
+        {
+          "title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
+          "url": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/",
+          "source": "meta ai blog",
+          "section": "ai-ml",
+          "published": "2026-10-12T16:01:32+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "551b977358e22c1a743e3ab9dfa11a8178d56ea2",
+          "summary": "Meta deployed Media over QUIC (MoQ) for Instagram Live ingest, simplifying the streaming stack and improving real‑time video performance.",
+          "detail": "MoQ replaces legacy RTP/RTMP pipelines, reducing latency and packet loss for live broadcasts. The rollout began in select regions and is being expanded globally as the protocol matures. Early metrics show smoother playback and lower bandwidth overhead.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": true,
+          "image": "https://engineering.fb.com/wp-content/uploads/2026/10/MoQ-Instagram-Live-Meta-Hero.png",
+          "related": {}
+        },
+        {
+          "title": "Model: nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
+          "url": "https://huggingface.co/nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-04T10:44:11.000Z",
+          "points": 293,
+          "score": 1.5,
+          "id": "8cf352f77dfa55eb14ce8c06ef962dccb5fd1233",
+          "summary": "The nerkyor/Qwen3.8-27B-Coder model, a 27‑billion‑parameter code generation model, has been downloaded 75,302 times and received 293 likes on Hugging Face.",
+          "detail": "The model is optimized for coding tasks and supports efficient inference with the EfficientThink and DFlash2 techniques. It is hosted under an open‑source license, allowing community fine‑tuning and integration into development tools.",
+          "key_points": [
+            "75,302 downloads",
+            "293 likes",
+            "27 B parameters"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2.png",
+          "related": {}
+        },
+        {
+          "title": "Model: unsloth/embeddinggemma-2-GGUF",
+          "url": "https://huggingface.co/unsloth/embeddinggemma-2-GGUF",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-06T10:58:50.000Z",
+          "points": 287,
+          "score": 1.5,
+          "id": "4bad02d6017c322a0ae9930fd2655809f8317b4c",
+          "summary": "unsloth/embeddinggemma-2-GGUF, an embedding extraction model, has been downloaded 71,914 times and earned 287 likes on Hugging Face.",
+          "detail": "The model provides fast, low‑memory embeddings for text inputs and is distributed in GGUF format for easy deployment on edge devices. It is released under a permissive license, encouraging integration into retrieval and recommendation pipelines.",
+          "key_points": [
+            "71,914 downloads",
+            "287 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/unsloth/embeddinggemma-2-GGUF.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "Open Firmware Fixes Dead Onkyo AV Receivers",
+          "url": "https://hackaday.com/2026/10/13/open-firmware-fixes-dead-onkyo-av-receivers/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-13T08:00:27+00:00",
+          "points": null,
+          "score": 4.5,
+          "id": "757a968cff4035ec931d027fefac5c7423dfc5b8",
+          "summary": "Hackaday reports new open‑source firmware that restores functionality to dead Onkyo AV receivers.",
+          "detail": "The community‑developed firmware replaces the proprietary code, fixing power‑on issues and adding modern network controls. Instructions and source code are provided for users to flash their own devices, extending the lifespan of legacy audio equipment.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": true,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/osirisav_feat.jpg",
+          "related": {}
+        },
+        {
+          "title": "Security updates for Monday",
+          "url": "https://lwn.net/Articles/1099949/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-12T13:00:41+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "20a5a1006bdad4d7ef8675793ee30e2c5051795b",
+          "summary": "Multiple Linux distributions released security updates for dozens of packages, including kernels, OpenSSL, and Python, on Monday.",
+          "detail": "The updates span AlmaLinux, Debian, Fedora, Mageia, Oracle, Red Hat, Slackware, and SUSE, covering components such as cjose, curl, dogtag-pki, glibc, and various Python versions. These patches address recent vulnerabilities across the ecosystem, ensuring continued system integrity.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "[$] The 2026 Maintainers Summit",
+          "url": "https://lwn.net/Articles/1099594/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-12T15:27:27+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "71efce2f5c7655f9273de1ecc2a3585e11c75382",
+          "summary": "The 2026 Maintainers Summit took place on October 8 in Prague, gathering about 30 kernel developers for a day of policy discussion.",
+          "detail": "The invitation‑only meeting focused heavily on the impact of large language models on development, while also covering security bugs and succession planning for the kernel community. It is an annual event intended to resolve issues not suited to email threads.",
+          "key_points": [
+            "Oct 8 2026",
+            "Prague, Czechia",
+            "~30 developers"
+          ],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "LineageOS 24 released",
+          "url": "https://lwn.net/Articles/1099950/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-12T13:13:57+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "6a89024d2a7542cbf326dc43ffe67fe8d74a9bae",
+          "summary": "LineageOS 24.0 was released, arriving ahead of the project's 10‑year anniversary on December 24, 2026.",
+          "detail": "The new release is based on Android 17, which debuted in June, and the team managed to rebase their changes faster than expected. The milestone highlights a decade of community‑driven support for older mobile devices.",
+          "key_points": [
+            "Version 24.0",
+            "Anniversary Dec 24 2026"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "DARPA Lift Challenge Won by Helicopter",
+          "url": "https://hackaday.com/2026/10/12/darpa-lift-challenge-won-by-helicopter/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-12T15:30:22+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "cc811f5112e2899afc409aae7abaf0e843672fd0",
+          "summary": "DARPA announced that a helicopter won the Lift Challenge competition.",
+          "detail": "The Lift Challenge, funded by DARPA, seeks innovative solutions for vertical lift technologies, and the winning entry demonstrated superior performance in the agency's testing regime.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/lift-awards-avidrone-aircraft.jpg",
+          "related": {}
+        },
+        {
+          "title": "Emulating a Floppy Drive By Emulating The Drive Itself",
+          "url": "https://hackaday.com/2026/10/12/emulating-a-floppy-drive-by-emulating-the-drive-itself/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-13T05:00:53+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "8fa170b81ad0d5a8b38499f2a0e0f1b94b2a43c2",
+          "summary": "A project demonstrates floppy‑drive emulation by recreating the Commodore 1541 hardware behavior.",
+          "detail": "The approach models the original 1541 drive's timing and protocol, enabling more accurate preservation of Commodore 64 software that relied on low‑level drive interactions.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/pico1551-featured.jpg",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "microsoft/litebox",
+          "url": "https://github.com/microsoft/litebox",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 3130,
+          "score": 2.5,
+          "id": "51ef4b6896c1cf6e9bcda24325ac8ca90021988e",
+          "summary": "The microsoft/litebox repository provides a security‑focused library OS supporting both kernel‑ and user‑mode execution.",
+          "detail": "Implemented in Rust, Litebox aims to reduce attack surface by offering a minimal runtime environment for isolated workloads, targeting use cases such as secure enclaves and micro‑VMs.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/33a4b5a8c83c7d71c1c2c66fe786e8e694d3e08c5ccda12b7f1c6643759e7c7b/microsoft/litebox",
+          "related": {}
+        },
+        {
+          "title": "flyinghead/flycast",
+          "url": "https://github.com/flyinghead/flycast",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 2592,
+          "score": 2.0,
+          "id": "2d83c40025557f75be5dfb88f1166d4205e3a553",
+          "summary": "Flycast is a multiplatform emulator for Sega Dreamcast, Naomi, Naomi 2, and Atomiswave consoles.",
+          "detail": "The project supports Windows, Linux, macOS, and Android, aiming for high compatibility and performance. It implements hardware features like the PowerVR graphics chip and supports network play. Development is active, with frequent updates improving game compatibility.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/0c64685a64967f030096734441967b6f86eaa36105921d044c5d65c120a7f4bd/flyinghead/flycast",
+          "related": {}
+        },
+        {
+          "title": "google/skills",
+          "url": "https://github.com/google/skills",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 21233,
+          "score": 2.0,
+          "id": "876f4401e17e3a1112895d8a67b25d11a43c510f",
+          "summary": "google/skills provides a collection of agent skill definitions for interacting with Google products and technologies.",
+          "detail": "Skills are written in Python and can be integrated into conversational agents to perform actions such as searching, calendar management, and cloud resource control. The repository includes examples and documentation for building custom extensions.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/b8d1c5ca9e469764947fcf637bdf8f40aae28c517d4123d57c35bc9ae1c65458/google/skills",
+          "related": {}
+        },
+        {
+          "title": "gta-reversed/gta-reversed",
+          "url": "https://github.com/gta-reversed/gta-reversed",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 1043,
+          "score": 2.0,
+          "id": "112fa584a9a241eb64332e29ba5e83099066cf93",
+          "summary": "gta-reversed is a reimplementation of the US version 1.0 of Grand Theft Auto: San Andreas.",
+          "detail": "The project rewrites the original game engine in C++ to enable modern platform support and easier modding. It aims for source-level compatibility while allowing performance improvements and bug fixes.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/398679716/a9f2fca8-cc65-446d-9a82-a6cff2ba5e20",
+          "related": {}
+        },
+        {
+          "title": "home-assistant/core",
+          "url": "https://github.com/home-assistant/core",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 91436,
+          "score": 2.0,
+          "id": "c38e5babf755c3ca5b3a196d3d2579eeb2580e95",
+          "summary": "Home Assistant Core is an open‑source home automation platform focused on local control and privacy.",
+          "detail": "Written in Python, it runs on a variety of hardware from Raspberry Pi to servers, integrating thousands of devices via community‑maintained integrations. All processing occurs locally unless cloud services are explicitly enabled.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/12888993/b7c31002-f51f-45b9-ae79-1c1fd52e84ab",
+          "related": {}
+        },
+        {
+          "title": "leejet/stable-diffusion.cpp",
+          "url": "https://github.com/leejet/stable-diffusion.cpp",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 7662,
+          "score": 2.0,
+          "id": "94909b36416a5abddcda0d4ec9e4cfe477c28072",
+          "summary": "stable-diffusion.cpp enables inference of diffusion models like Stable Diffusion, Flux, and others using pure C/C++ code.",
+          "detail": "The library runs without Python dependencies, targeting CPU and GPU acceleration via OpenCL or CUDA. It supports multiple model formats and aims to provide a lightweight, portable alternative for image generation tasks.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/6391585bd342e7a336e0b6167a4e365a19aceb4515c612935f7387333bd54e7f/leejet/stable-diffusion.cpp",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
