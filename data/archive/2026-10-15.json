@@ -1,0 +1,761 @@
+{
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15T07:39:58+00:00",
+  "stats": {
+    "fetched": 206,
+    "new_after_dedupe": 162,
+    "published": 28,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 17,
+      "supported": 16,
+      "dropped": 1,
+      "unverifiable": 5,
+      "summaries_reverted": 0,
+      "rate": 0.9412
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. While most of the world slept, researchers taught LLMs to keep their cool across swapped interfaces.",
+    "stories": [
+      {
+        "kicker": "AI & ML",
+        "headline": "LLMs stay steady when UI flips",
+        "body": "**Cross‑interface training works:** The CIPR method forces large language model agents to produce the same actions even when the surrounding API is renamed or reformatted, cutting the usual performance dip. It’s a simple consistency check that pays off when deployments change on the fly.",
+        "why": "Your agents won’t break the first time a client renames a field.",
+        "ids": [
+          "9112c94f891093bfaf9f58bf1bc2a4bc79cd1d2f"
+        ]
+      },
+      {
+        "kicker": "CS research",
+        "headline": "JetStream builds DB‑specific query accelerators",
+        "body": "**Verified speed‑ups without rewrites:** JetStream synthesizes tiny accelerator modules that plug into existing database tables, preserving native storage, transaction handling, and crash recovery. The generated code runs alongside the DBMS, giving you a boost without a migration.",
+        "why": "You get faster queries without rewriting your schema or losing ACID guarantees.",
+        "ids": [
+          "ae315e177465cbae1904dd329678b4c8ba5d23c4"
+        ]
+      },
+      {
+        "kicker": "Embedded & systems",
+        "headline": "AWS rolls out AI‑agent toolkit for developers",
+        "body": "**Plug‑and‑play agents:** AWS released a Python‑based toolkit that bundles server‑side skills, plugins, and managed control‑plane services, letting you spin up custom AI agents on the cloud in minutes. It’s backed by official AWS support and integrates with existing services.",
+        "why": "You can prototype and deploy production‑grade agents without building the plumbing yourself.",
+        "ids": [
+          "96bb6a372bc8127295563c7b54ba9dd64ac9016d"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Security updates:** AlmaLinux, Debian, Fedora, and others patched dozens of packages including kernel and OpenSSL.",
+        "id": "d65ce46b935580d5c8730524ffae4be852c7a189"
+      },
+      {
+        "text": "**Tracing deadlock:** LTTng integration hit a kernel deadlock at the 2026 Linux Plumbers Conference.",
+        "id": "e61e31f6225926bdf349bca9c8e2b2191f46a765"
+      },
+      {
+        "text": "**Ethereum verification:** Blanc stack proved bytecode against exact EVM semantics, passing 34,205 test cases.",
+        "id": "85e9d05ebdfb2c1f49e66b54870f798697a2d770"
+      },
+      {
+        "text": "**Rust‑fast Python manager:** uv offers a lightning‑quick Python package manager written in Rust.",
+        "id": "b7a6e8b9a3875109c1bbfeb06861ce0a6b237a9b"
+      },
+      {
+        "text": "**ESP32 video hack:** A hackathon used an ESP32‑C3’s RF front‑end to broadcast DVB‑S2 video streams.",
+        "id": "a700e1d71183cf9a0a93d3a24a3763ca6d5dcbb7"
+      }
+    ],
+    "number": {
+      "value": "34,205",
+      "label": "test cases passed by the Blanc EVM verification stack",
+      "id": "85e9d05ebdfb2c1f49e66b54870f798697a2d770"
+    },
+    "sign_off": "That’s your two‑minute tech sprint—catch you tomorrow",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "b8304972fc059783b6ed960e128f78881469ae54",
+      "title": "WorldQuant Round 1 (Codeforces Round 1128, Div. 1 + Div. 2)",
+      "url": "https://codeforces.com/contests/2261",
+      "source": "Codeforces",
+      "starts": "2026-10-17T14:35:00+00:00",
+      "detail": "CF contest, 3.0h, starts Sat 17 Oct 14:35 UTC"
+    },
+    {
+      "id": "b79ed1ed155b59bb3c0d4587b4d7f8c26d6c3013",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2277",
+      "source": "Codeforces",
+      "starts": "2026-10-24T11:05:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sat 24 Oct 11:05 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "One Task, Many Interfaces: Simple Cross-Interface Consistency Training Improves LLM Agent Robustness",
+      "url": "https://arxiv.org/abs/2610.20576v1",
+      "source": "arXiv cs.LG",
+      "section": "ai-ml",
+      "published": "2026-10-14T17:56:06+00:00",
+      "points": null,
+      "score": 7.5,
+      "id": "9112c94f891093bfaf9f58bf1bc2a4bc79cd1d2f",
+      "summary": "Cross-Interface Policy Regularization (CIPR) trains LLM agents to act consistently across multiple renamed or reformatted interfaces, reducing performance drops from interface perturbations.",
+      "detail": "CIPR replaces action names with neutral identifiers and presents each sample under two constructed interfaces, penalizing KL divergence between the resulting action distributions. This self‑supervised objective forces the policy to ignore superficial interface changes. Prior post‑training methods only broadened dependence to a distribution of interfaces, leaving out‑of‑distribution changes harmful.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "Same Claim, Different Interpretations: How LLM Agents Resolve Ambiguity in Scientific Claims",
+      "url": "https://arxiv.org/abs/2610.20457v1",
+      "source": "arXiv cs.CL",
+      "section": "ai-ml",
+      "published": "2026-10-14T16:42:05+00:00",
+      "points": null,
+      "score": 7.5,
+      "id": "8528dcb17f2ceb98c8b4c647c4a3865267f8e0fe",
+      "summary": "Claim Cards record a verifier's interpretation of a scientific claim in nine explicit fields before evidence gathering, enabling traceable verdicts.",
+      "detail": "The nine fields are marked as stated, inferred, or default, making the interpretation transparent. Experiments with GPT agents show that changing the recorded interpretation can alter the final verdict, highlighting the impact of ambiguous claim wording. This approach addresses the mismatch between expert labels and agent outputs caused by hidden assumptions.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {
+        "title": "Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict",
+        "url": "https://arxiv.org/abs/2610.12360v1",
+        "date": "2026-10-09",
+        "id": "71bfef6e482616886184bb34ddc4b1665ac9e7ed"
+      }
+    },
+    {
+      "title": "Beyond LLM Judge: Mechanical Verification for Agentic Autoformalization",
+      "url": "https://arxiv.org/abs/2610.20573v1",
+      "source": "arXiv cs.LO",
+      "section": "ai-ml",
+      "published": "2026-10-14T17:54:48+00:00",
+      "points": null,
+      "score": 6.5,
+      "id": "8174fede16491c83d78c25e9390664ae44b4e053",
+      "summary": "We introduce a novel method for verifying Lean formalizations that goes beyond LLM-judged faithfulness. Unlike most verification methods, which rely on LLMs or trained models, our method combines LLM-based semantic revie…",
+      "detail": "We introduce a novel method for verifying Lean formalizations that goes beyond LLM-judged faithfulness. Unlike most verification methods, which rely on LLMs or trained models, our method combines LLM-based semantic review with mechanical numerical and vacuity checks, providing checkable feedback and detecting errors missed by LLM judges. We apply this method, along with our Extract-Verify-Proof autoformalization pipeline, to construct the Formalized Library of Mathematical Functions (FLMF), a partial formalization of the NIST Digital Library of Mathematical Functions (DLMF). On three labeled d…",
+      "key_points": [],
+      "tag": "",
+      "highlight": true,
+      "image": "",
+      "related": {
+        "title": "ChunkAct: Action Chunking for Agentic Robotics",
+        "url": "https://arxiv.org/abs/2610.18874v1",
+        "date": "2026-10-14",
+        "id": "6010e1a5f0ba0a4cbb47411d1a1b944418dd3e71"
+      }
+    },
+    {
+      "title": "AI Controls iPhone Via ESP32",
+      "url": "https://hackaday.com/2026/10/14/ai-controls-iphone-via-esp32/",
+      "source": "hackaday",
+      "section": "embedded",
+      "published": "2026-10-15T02:00:25+00:00",
+      "points": null,
+      "score": 4.5,
+      "id": "d6c475736b61890350dd74deb2ed18a5a39e231e",
+      "summary": "Hackaday shows how to control an iPhone via an ESP32‑based AI agent.",
+      "detail": "The project demonstrates a lightweight AI loop on the ESP32 that sends commands to a jail‑broken iPhone, avoiding full‑device hacking. It highlights the feasibility of low‑power edge AI for personal device automation.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://hackaday.com/wp-content/uploads/2026/10/A-7-ESP32-lets-an-AI-set-an-alarm-on-a-stock-iPhone-no-Mac-no-jailbreak-0-20-screenshot-1.png",
+      "related": {}
+    },
+    {
+      "title": "Using an ESP32-C3’s RF Hardware for DVB-S2 Video Transmission",
+      "url": "https://hackaday.com/2026/10/14/using-an-esp32-c3s-rf-hardware-for-dvb-s2-video-transmission/",
+      "source": "hackaday",
+      "section": "embedded",
+      "published": "2026-10-14T20:00:15+00:00",
+      "points": null,
+      "score": 4.5,
+      "id": "a700e1d71183cf9a0a93d3a24a3763ca6d5dcbb7",
+      "summary": "A hackathon project uses an ESP32‑C3’s RF front‑end to transmit DVB‑S2 video streams.",
+      "detail": "By repurposing the ESP32‑C3’s built‑in radio hardware, the team generated a satellite‑style digital video broadcast without an actual satellite link. The proof‑of‑concept illustrates unconventional uses of embedded RF capabilities for media transmission.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://hackaday.com/wp-content/uploads/2020/11/esp32-c3-featured.jpg",
+      "related": {
+        "title": "ESP-SDR Can Now Transmit",
+        "url": "https://hackaday.com/2026/10/13/esp-sdr-can-now-transmit/",
+        "date": "2026-10-14",
+        "id": "203af5d28304bff096816060d72954bbdd346aa3"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "One Task, Many Interfaces: Simple Cross-Interface Consistency Training Improves LLM Agent Robustness",
+          "url": "https://arxiv.org/abs/2610.20576v1",
+          "source": "arXiv cs.LG",
+          "section": "ai-ml",
+          "published": "2026-10-14T17:56:06+00:00",
+          "points": null,
+          "score": 7.5,
+          "id": "9112c94f891093bfaf9f58bf1bc2a4bc79cd1d2f",
+          "summary": "Cross-Interface Policy Regularization (CIPR) trains LLM agents to act consistently across multiple renamed or reformatted interfaces, reducing performance drops from interface perturbations.",
+          "detail": "CIPR replaces action names with neutral identifiers and presents each sample under two constructed interfaces, penalizing KL divergence between the resulting action distributions. This self‑supervised objective forces the policy to ignore superficial interface changes. Prior post‑training methods only broadened dependence to a distribution of interfaces, leaving out‑of‑distribution changes harmful.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Same Claim, Different Interpretations: How LLM Agents Resolve Ambiguity in Scientific Claims",
+          "url": "https://arxiv.org/abs/2610.20457v1",
+          "source": "arXiv cs.CL",
+          "section": "ai-ml",
+          "published": "2026-10-14T16:42:05+00:00",
+          "points": null,
+          "score": 7.5,
+          "id": "8528dcb17f2ceb98c8b4c647c4a3865267f8e0fe",
+          "summary": "Claim Cards record a verifier's interpretation of a scientific claim in nine explicit fields before evidence gathering, enabling traceable verdicts.",
+          "detail": "The nine fields are marked as stated, inferred, or default, making the interpretation transparent. Experiments with GPT agents show that changing the recorded interpretation can alter the final verdict, highlighting the impact of ambiguous claim wording. This approach addresses the mismatch between expert labels and agent outputs caused by hidden assumptions.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {
+            "title": "Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict",
+            "url": "https://arxiv.org/abs/2610.12360v1",
+            "date": "2026-10-09",
+            "id": "71bfef6e482616886184bb34ddc4b1665ac9e7ed"
+          }
+        },
+        {
+          "title": "Beyond LLM Judge: Mechanical Verification for Agentic Autoformalization",
+          "url": "https://arxiv.org/abs/2610.20573v1",
+          "source": "arXiv cs.LO",
+          "section": "ai-ml",
+          "published": "2026-10-14T17:54:48+00:00",
+          "points": null,
+          "score": 6.5,
+          "id": "8174fede16491c83d78c25e9390664ae44b4e053",
+          "summary": "We introduce a novel method for verifying Lean formalizations that goes beyond LLM-judged faithfulness. Unlike most verification methods, which rely on LLMs or trained models, our method combines LLM-based semantic revie…",
+          "detail": "We introduce a novel method for verifying Lean formalizations that goes beyond LLM-judged faithfulness. Unlike most verification methods, which rely on LLMs or trained models, our method combines LLM-based semantic review with mechanical numerical and vacuity checks, providing checkable feedback and detecting errors missed by LLM judges. We apply this method, along with our Extract-Verify-Proof autoformalization pipeline, to construct the Formalized Library of Mathematical Functions (FLMF), a partial formalization of the NIST Digital Library of Mathematical Functions (DLMF). On three labeled d…",
+          "key_points": [],
+          "tag": "",
+          "highlight": true,
+          "image": "",
+          "related": {
+            "title": "ChunkAct: Action Chunking for Agentic Robotics",
+            "url": "https://arxiv.org/abs/2610.18874v1",
+            "date": "2026-10-14",
+            "id": "6010e1a5f0ba0a4cbb47411d1a1b944418dd3e71"
+          }
+        },
+        {
+          "title": "Why do LLM pelicans look like this?",
+          "url": "https://arcfu.com/post/the-emperor-pelican-has-no-clothes/",
+          "source": "Hacker News",
+          "section": "ai-ml",
+          "published": "2026-10-14T16:33:34+00:00",
+          "points": 160,
+          "score": 4.0,
+          "id": "3d3aec967750f99229a9c054de8eddb90610a5bc",
+          "summary": "",
+          "detail": "",
+          "key_points": [],
+          "tag": "",
+          "highlight": false,
+          "image": "https://arcfu.com/post/the-emperor-pelican-has-no-clothes/diverse-grid.png",
+          "related": {}
+        },
+        {
+          "title": "Amp puts AI agents to work beyond code with OpenAI models",
+          "url": "https://openai.com/index/amp-beyond-coding",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-10-14T12:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "a0e0fec2c2b5f568672ddffd97e5dbcc17df031b",
+          "summary": "Amp showcases AI agents using OpenAI's GPT‑6 Astra, Ultrafast, and GPT‑Live‑1 models for tasks beyond code generation.",
+          "detail": "The blog demonstrates how these newer model variants enable agents to perform broader workflows, integrating with services like Sign in with ChatGPT. Amp's examples illustrate expanded capabilities such as real‑time data handling and multi‑modal interactions, positioning the platform as a testbed for next‑generation agent applications.",
+          "key_points": [
+            "GPT-6 Astra",
+            "Ultrafast",
+            "GPT-Live-1"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/4cxTIUhXa03TEYCnkIcMCu/29e6065058ed969022021186f994dad6/amp-beyond-coding-coiled-connection-seo-open-graph-1920x1080.png?w=1600&h=900&fit=fill",
+          "related": {}
+        },
+        {
+          "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+          "url": "https://www.anthropic.com/news/singapore-office-opening",
+          "source": "Anthropic",
+          "section": "ai-ml",
+          "published": "2026-10-14T00:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "f2bde108f64c5a7a195489396b340d3dbb4dbdc2",
+          "summary": "Anthropic opened a Singapore office and signed a memorandum of understanding with the Singapore government.",
+          "detail": "The new office marks Anthropic's expansion into Southeast Asia, aiming to collaborate on AI research and policy initiatives with local authorities. The MOU outlines joint efforts in responsible AI development and potential regulatory frameworks.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://www.anthropic.com/api/opengraph-illustration?name=Node%20Globe&backgroundColor=olive",
+          "related": {}
+        },
+        {
+          "title": "How Block is building AI-powered security with OpenAI technology",
+          "url": "https://openai.com/index/block-ai-powered-security",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-10-14T07:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "7d10f0ddfecf202c0b2cc2a533b94c794cdf0d1c",
+          "summary": "Block’s security team now uses OpenAI models to investigate threats and draft patches within minutes.",
+          "detail": "The integration leverages OpenAI’s language models to automate analysis of security alerts, reducing manual triage time. The approach focuses on rapid response rather than full remediation, and the team reports faster turnaround on incident handling.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/6csT9lb6PlJ3KoxJDX6p7s/c94f16d2eadb4b01cb428ce5c62db7a2/Block-AI-Powered-Security-SEO-Image-1920x1080.png?w=1600&h=900&fit=fill",
+          "related": {}
+        },
+        {
+          "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+          "url": "https://openai.com/index/third-moment-research",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-10-14T07:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "e181547094b0a112cf0b18eccd2fd79396c82dce",
+          "summary": "Third Moment Research runs 10,000 AI agents continuously for over 36 hours using GPT‑6 Astra, GPT‑6.1 Sol, Codex, and Daybreak.",
+          "detail": "The agents are designed for cybersecurity tasks, maintaining focus for days and improving through usage. The suite combines multiple GPT‑6 variants to cover different aspects of threat detection and response, showcasing scalability of large‑model deployments.",
+          "key_points": [
+            "10,000 agents",
+            "36+ hours"
+          ],
+          "tag": "Research",
+          "highlight": false,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/m0YDNMUPfmBJYf8nw2LGR/202c3cb46da0506d77cce90027c1ef9c/third-moment-research-first-light-social-1920x1080.png?w=1600&h=900&fit=fill",
+          "related": {}
+        },
+        {
+          "title": "Preparing for the 2026 US midterms",
+          "url": "https://www.anthropic.com/news/2026-us-midterms",
+          "source": "Anthropic",
+          "section": "ai-ml",
+          "published": "2026-10-14T00:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "18177a36d83526b9b37192893506c68dab9c77eb",
+          "summary": "Anthropic released guidance for preparing AI‑related strategies ahead of the 2026 US midterm elections.",
+          "detail": "The brief outlines potential policy impacts, data‑privacy considerations, and the role of generative AI in political advertising. It aims to help stakeholders anticipate regulatory changes before the election cycle.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/609927c7af2a454cedad848e4b2adc980c1f5fe6-2000x1125.jpg",
+          "related": {}
+        },
+        {
+          "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+          "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+          "source": "huggingface blog",
+          "section": "ai-ml",
+          "published": "2026-10-14T16:12:42+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "672ebf75c430cf70c5939989b244112c7eac909f",
+          "summary": "HiRO‑ACEv2 can simulate extreme weather at 3 km resolution for a fraction of traditional costs.",
+          "detail": "The model runs on a streamlined architecture that reduces compute requirements while preserving fidelity for high‑resolution climate forecasts. It enables more frequent regional extreme‑event analyses without large supercomputing budgets.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/Y8t8GnfI2lUa40iX4_sxA.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "AI Controls iPhone Via ESP32",
+          "url": "https://hackaday.com/2026/10/14/ai-controls-iphone-via-esp32/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-15T02:00:25+00:00",
+          "points": null,
+          "score": 4.5,
+          "id": "d6c475736b61890350dd74deb2ed18a5a39e231e",
+          "summary": "Hackaday shows how to control an iPhone via an ESP32‑based AI agent.",
+          "detail": "The project demonstrates a lightweight AI loop on the ESP32 that sends commands to a jail‑broken iPhone, avoiding full‑device hacking. It highlights the feasibility of low‑power edge AI for personal device automation.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/A-7-ESP32-lets-an-AI-set-an-alarm-on-a-stock-iPhone-no-Mac-no-jailbreak-0-20-screenshot-1.png",
+          "related": {}
+        },
+        {
+          "title": "Using an ESP32-C3’s RF Hardware for DVB-S2 Video Transmission",
+          "url": "https://hackaday.com/2026/10/14/using-an-esp32-c3s-rf-hardware-for-dvb-s2-video-transmission/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-14T20:00:15+00:00",
+          "points": null,
+          "score": 4.5,
+          "id": "a700e1d71183cf9a0a93d3a24a3763ca6d5dcbb7",
+          "summary": "A hackathon project uses an ESP32‑C3’s RF front‑end to transmit DVB‑S2 video streams.",
+          "detail": "By repurposing the ESP32‑C3’s built‑in radio hardware, the team generated a satellite‑style digital video broadcast without an actual satellite link. The proof‑of‑concept illustrates unconventional uses of embedded RF capabilities for media transmission.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://hackaday.com/wp-content/uploads/2020/11/esp32-c3-featured.jpg",
+          "related": {
+            "title": "ESP-SDR Can Now Transmit",
+            "url": "https://hackaday.com/2026/10/13/esp-sdr-can-now-transmit/",
+            "date": "2026-10-14",
+            "id": "203af5d28304bff096816060d72954bbdd346aa3"
+          }
+        },
+        {
+          "title": "Security updates for Wednesday",
+          "url": "https://lwn.net/Articles/1100426/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-14T13:02:10+00:00",
+          "points": null,
+          "score": 3.5,
+          "id": "d65ce46b935580d5c8730524ffae4be852c7a189",
+          "summary": "AlmaLinux, Debian, Fedora, Mageia, Red Hat, Slackware, and SUSE released security updates for dozens of packages including bind9, kernel, curl, firefox, and openssl.",
+          "detail": "The updates span core system components, development tools, and desktop applications across multiple distributions, reflecting coordinated effort to address recent vulnerabilities. Administrators should apply the patches promptly to maintain system integrity.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "[$] Collaborating with out-of-tree tracers",
+          "url": "https://lwn.net/Articles/1099300/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-14T13:56:50+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "e61e31f6225926bdf349bca9c8e2b2191f46a765",
+          "summary": "At the 2026 Linux Plumbers Conference, LTTng creator Mathieu Desnoyers reported a deadlock in integrating the GPLv2 LTTng tracing framework with mainline kernel tracing projects.",
+          "detail": "Feedback from the community has not yielded a clear path for merging LTTng or its features into the kernel, highlighting licensing and technical challenges that have persisted for over two decades.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "KDE Plasma 6.8 released",
+          "url": "https://lwn.net/Articles/1100429/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-14T13:41:09+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "0215634a1b297f19eeae928174fd529013714cb2",
+          "summary": "KDE released Plasma desktop version 6.8, adding accessibility tweaks, the Kup backup tool, and audio‑mic capture in Spectacle, while dropping native X11 session support.",
+          "detail": "The release coincides with the 30th anniversary of the project's original announcement. X11 applications remain usable via XWayland, and KDE apps will continue supporting X11 for the foreseeable future.",
+          "key_points": [
+            "Plasma 6.8",
+            "drops X11 support"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "[$] The year in Plasma and what's ahead",
+            "url": "https://lwn.net/Articles/1096518/",
+            "date": "2026-10-01",
+            "id": "c394c893534e7c37a962a3d245d3ebe18a546ce7"
+          }
+        },
+        {
+          "title": "Linus Torvalds's first LLM-assisted patch series",
+          "url": "https://lwn.net/Articles/1100449/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-14T13:50:29+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "b0e702832e00df4e30dc169b2e90e6d18d293247",
+          "summary": "Linus Torvalds posted a ten‑patch series, generated with a large language model, that speeds up read‑heavy workloads by an order of magnitude using RCU‑protected folio accesses.",
+          "detail": "The patches delay releasing hot folios until after an RCU period, eliminating refcount overhead on the fast path. Review has already uncovered a race condition that needs fixing before upstreaming.",
+          "key_points": [
+            "order-of-magnitude speedup"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "cs-research",
+      "title": "CS research",
+      "tier": 4,
+      "items": [
+        {
+          "title": "JetStream: Generating Verified Query Accelerators for Existing Database Systems",
+          "url": "https://arxiv.org/abs/2610.20527v1",
+          "source": "arXiv cs.DB",
+          "section": "cs-research",
+          "published": "2026-10-14T17:25:51+00:00",
+          "points": null,
+          "score": 3.5,
+          "id": "ae315e177465cbae1904dd329678b4c8ba5d23c4",
+          "summary": "The JetStream system synthesizes query‑specific accelerators that run on existing DBMS tables while preserving native storage, transactions, and recovery.",
+          "detail": "Using a staged agentic workflow, JetStream creates tested and untested accelerators that may maintain auxiliary state consistent under writes, extending any engine via an engine‑neutral substrate without requiring data migration.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Verifying deployed bytecode against executable EVM semantics, with exact gas and no added axioms",
+          "url": "https://arxiv.org/abs/2610.19764v1",
+          "source": "arXiv cs.PL",
+          "section": "cs-research",
+          "published": "2026-10-14T08:17:57+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "85e9d05ebdfb2c1f49e66b54870f798697a2d770",
+          "summary": "The Blanc verification stack proves deployed Ethereum bytecode against executable EVM semantics, passing all 34,205 test cases from the v20.0.2 fixture release.",
+          "detail": "Eight artifacts spanning 2017‑2026 and seven compiler versions were verified without extra axioms. For the EIP‑7002 contract, the verification shows the end‑of‑block call always succeeds regardless of storage state.",
+          "key_points": [
+            "34,205 test cases",
+            "8 artifacts"
+          ],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "Soliduzz: Finding Miscompilations in Smart-Contract Compilers with Assertion-Driven Equivalence Oracles",
+            "url": "https://arxiv.org/abs/2610.18165v1",
+            "date": "2026-10-14",
+            "id": "2d4dd59b45955f657a5739d732f9147385caf9cc"
+          }
+        },
+        {
+          "title": "JointServe: Serving Multi-Model Agents on Memory-Constrained GPUs",
+          "url": "https://arxiv.org/abs/2610.19822v1",
+          "source": "arXiv cs.DC",
+          "section": "cs-research",
+          "published": "2026-10-14T08:59:35+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "bedcfd2179791676652f886e9b3a4902e6222512",
+          "summary": "JointServe enables serving multi‑model agents on memory‑constrained GPUs by treating weight shards and KV blocks as unified residency objects and prefetching models using an intent signal parsed from the caller's output.",
+          "detail": "The system leverages three workload properties—directed calls, gapped execution, and dual‑state residency—to prepare models before they are needed, avoiding costly whole‑model swaps and preserving session state across switches.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents",
+            "url": "https://arxiv.org/abs/2610.06830v1",
+            "date": "2026-10-06",
+            "id": "e8e32497a527de30033e11eccd5bf861062cbad5"
+          }
+        },
+        {
+          "title": "How the Dirty Set Moves: Characterizing Schedule Reuse in Incremental Sparse Matrix Multiplication",
+          "url": "https://arxiv.org/abs/2610.19489v1",
+          "source": "arXiv cs.PF",
+          "section": "cs-research",
+          "published": "2026-10-14T03:11:30+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "10cec275b93d3f6c226e9ab035a437a720d6612c",
+          "summary": "Across 21 SuiteSparse matrices, retained tiled execution rarely beats direct CSC in incremental sparse matrix multiplication, though incremental execution itself remains highly profitable.",
+          "detail": "The study characterizes when tiled schedule reuse is advantageous as the dirty set moves, showing that direct column‑wise increments often dominate, informing optimizer design for sparse kernels.",
+          "key_points": [
+            "21 SuiteSparse matrices"
+          ],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Scaling LLM Inference via Parallelism: Throughput-Latency Trade-off",
+          "url": "https://arxiv.org/abs/2610.19405v1",
+          "source": "arXiv cs.DC",
+          "section": "cs-research",
+          "published": "2026-10-14T01:53:24+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "d4dd3fe93d03c59dc6b7680e65901b96191d39c3",
+          "summary": "A systematic framework selects tensor, pipeline, or hybrid parallelism for LLM inference based on workload characteristics, latency requirements, and context length.",
+          "detail": "The work quantifies trade‑offs between prefill latency (TTFT) and inter‑token latency (ITL) under different parallelism configurations, guiding SLO‑aware deployment of distributed inference.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "DySCo: Dynamic Sharding for Collaborative Edge-Cloud LLM Inference with Depth-Synchronized Batching",
+            "url": "https://arxiv.org/abs/2610.08268v1",
+            "date": "2026-10-07",
+            "id": "b2958ac814c0e14764192f2b043cb590268b16d3"
+          }
+        },
+        {
+          "title": "Understanding NVIDIA Grace-Blackwell Unified Memory Through Placement-Controlled Microbenchmarks",
+          "url": "https://arxiv.org/abs/2610.20354v1",
+          "source": "arXiv cs.DC",
+          "section": "cs-research",
+          "published": "2026-10-14T15:30:19+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "4344d5150e3b165b195109c894bddd8a6989e2e2",
+          "summary": "Placement‑controlled microbenchmarks on NVIDIA GB200 reveal that CUDA Unified Memory bandwidth varies with access pattern and memory state, making a single bandwidth figure misleading.",
+          "detail": "The methodology isolates local HBM access, host/system memory access, explicit movement, first‑touch behavior, prefetch, and reuse, and validates findings on GH200, GB10, and DGX Spark platforms.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "astral-sh/uv",
+          "url": "https://github.com/astral-sh/uv",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 90788,
+          "score": 2.0,
+          "id": "b7a6e8b9a3875109c1bbfeb06861ce0a6b237a9b",
+          "summary": "uv is an extremely fast Python package and project manager written in Rust.",
+          "detail": "The tool aims to replace slower Python‑based managers by leveraging Rust's performance and safety, offering rapid dependency resolution and environment handling.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/72c3811b378e27fbf2359d9930a9fd5d423188ad280a29da090482cc02495ec1/astral-sh/uv",
+          "related": {}
+        },
+        {
+          "title": "aws/agent-toolkit-for-aws",
+          "url": "https://github.com/aws/agent-toolkit-for-aws",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 2880,
+          "score": 2.0,
+          "id": "96bb6a372bc8127295563c7b54ba9dd64ac9016d",
+          "summary": "AWS‑supported MCP servers, skills, and plugins help developers build AI agents on the AWS platform.",
+          "detail": "The toolkit provides ready‑to‑use integrations for AWS services, simplifying deployment and scaling of agent‑based applications within the cloud ecosystem.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/16bf221a3fdcd09a5dbff7e26378a869513852bf0e1e34fb113d4a5333e326c2/aws/agent-toolkit-for-aws",
+          "related": {}
+        },
+        {
+          "title": "colmap/colmap",
+          "url": "https://github.com/colmap/colmap",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 12955,
+          "score": 2.0,
+          "id": "cd541acfc8e4ef37492de8969ebad27851307494",
+          "summary": "COLMAP is an open-source C++ toolkit for Structure-from-Motion and Multi-View Stereo.",
+          "detail": "It provides pipelines for camera pose estimation, dense reconstruction, and point cloud generation, and is widely used in academic and industrial 3D vision projects. The codebase includes both command‑line tools and a graphical interface.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/9f82de1d4a8d80d66a7df3c7558fa80e55ab261417792636d9f67d0573faa101/colmap/colmap",
+          "related": {}
+        },
+        {
+          "title": "ifixai-ai/iFixAi",
+          "url": "https://github.com/ifixai-ai/iFixAi",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 27882,
+          "score": 2.0,
+          "id": "d8ea9701e2c6b77085701a9daaf19eb647f40a95",
+          "summary": "iFixAi offers automated audits of AI agents, delivering a compliance answer in under 120 seconds.",
+          "detail": "The system can be invoked by a human operator or by the agent itself, aiming to verify that the agent's behavior matches its intended objectives. It targets emerging AI Agent Economy use cases where rapid verification is critical.",
+          "key_points": [
+            "<120 seconds audit"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/1222527844/6b39639c-1e2f-4765-b8b2-1b5fc6a93e4f",
+          "related": {}
+        },
+        {
+          "title": "isair/jarvis",
+          "url": "https://github.com/isair/jarvis",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 2073,
+          "score": 2.0,
+          "id": "1145968ff554457a4ea1ee30deff522c6a6ab1e1",
+          "summary": "Jarvis is a private, offline AI assistant for desktop environments, supporting voice and text interaction on macOS, Windows, and Linux.",
+          "detail": "It stores personal memory locally, offers dictation and multi‑command processing tools, and can run on self‑hosted Ollama or any OpenAI‑compatible server, ensuring data never leaves the user's machine.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/65eaf7042fc73cac3c2ab46ddf46fe2629e8b6ea1e0f5ea4821fe6b0883f8668/isair/jarvis",
+          "related": {}
+        },
+        {
+          "title": "jamiepine/voicebox",
+          "url": "https://github.com/jamiepine/voicebox",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 57523,
+          "score": 2.0,
+          "id": "c04b1b26ea96ff46a8a29229cabfd571309e6616",
+          "summary": "Voicebox is an open-source AI voice studio for cloning, dictating, and generating speech.",
+          "detail": "The project provides a full pipeline from text input to high‑quality audio output, supporting custom voice models and integration with popular speech synthesis backends, enabling developers to build voice‑enabled applications.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/d137fb1e5a569f71ab488ecd2b1ea7fef7c14c702affa129a31ab905c24f588f/jamiepine/voicebox",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
