@@ -1,0 +1,217 @@
+{
+  "week": "2026-W42",
+  "start": "2026-10-12",
+  "end": "2026-10-18",
+  "title": "Agentic AI, ESP32 Hacks, and Kernel Updates",
+  "intro": "This week the AI‑agent playbook kept expanding while makers turned ESP32 chips into browsers and radios. Meanwhile, the Linux kernel got a security polish and a deprecation notice.",
+  "themes": [
+    {
+      "headline": "Agentic AI Gets More Tools",
+      "body": "**Lead‑in:** Researchers rolled out a suite of frameworks to audit, steer, and accelerate LLM‑driven agents. X‑RIC adds a telecom‑grade controller, BLADE audits failures, and ChunkAct bundles actions into single calls. SEAR tests skill transfer across simulation and reality, while CIPR and Claim Cards improve robustness and interpretability. Together they signal a push toward reliable, self‑correcting AI agents.",
+      "items": [
+        {
+          "id": "9668ba8c5fff8e2af346ff69b20fd487ebfc000d",
+          "title": "X-RIC: An Agentic RAN-Intelligent Controller Benchmark for Enhancing Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2610.22269v1",
+          "date": "2026-10-16",
+          "source": "arXiv cs.AI",
+          "section": "AI & ML"
+        },
+        {
+          "id": "4734fcf88311f2924bf886f8559afc626e7c7749",
+          "title": "Learning to Steer LLM Agents and Multi-Agent Systems",
+          "url": "https://arxiv.org/abs/2610.22316v1",
+          "date": "2026-10-16",
+          "source": "arXiv cs.LG",
+          "section": "AI & ML"
+        },
+        {
+          "id": "5657ed9de6270685a6f4c76001a4393be9f5a727",
+          "title": "BLADE: Auditing Information Use for Failure Attribution in LLM Multi-Agent Systems",
+          "url": "https://arxiv.org/abs/2610.18780v1",
+          "date": "2026-10-14",
+          "source": "arXiv cs.AI",
+          "section": "AI & ML"
+        },
+        {
+          "id": "6010e1a5f0ba0a4cbb47411d1a1b944418dd3e71",
+          "title": "ChunkAct: Action Chunking for Agentic Robotics",
+          "url": "https://arxiv.org/abs/2610.18874v1",
+          "date": "2026-10-14",
+          "source": "arXiv cs.RO",
+          "section": "AI & ML"
+        },
+        {
+          "id": "94775863f6b4f4c9ce1a76b9c2bf5d99f2b841c7",
+          "title": "SEAR: Self-Evolving Agentic Robotics",
+          "url": "https://arxiv.org/abs/2610.18792v1",
+          "date": "2026-10-14",
+          "source": "arXiv cs.RO",
+          "section": "AI & ML"
+        }
+      ]
+    },
+    {
+      "headline": "ESP32 Powers New Hacks",
+      "body": "**Lead‑in:** The ESP32 chip kept stealing the spotlight, from an in‑browser emulator (Esp32sim) to SDR experiments and even controlling an iPhone via an AI agent. Hackers also repurposed its RF front‑end for DVB‑S2 video and revived dead Onkyo receivers with open firmware. The trend shows low‑cost hardware becoming a sandbox for both software and signal‑processing creativity.",
+      "items": [
+        {
+          "id": "19eb13d3d942f451755a4fe38846fae154ff5bc4",
+          "title": "Show HN: Esp32sim – Run ESP32 firmware in the browser",
+          "url": "https://github.com/mikroverk/esp32sim",
+          "date": "2026-10-18",
+          "source": "Hacker News",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "341a87d7b6f9cba7d753c0dbf3914912368e34f1",
+          "title": "Hackaday Podcast Episode 391: Tuned in to ESP32 SDR, New Old Pagers, and Bugs on Mars",
+          "url": "https://hackaday.com/2026/10/16/hackaday-podcast-episode-391-tuned-in-to-esp32-sdr-new-old-pagers-and-bugs-on-mars/",
+          "date": "2026-10-17",
+          "source": "hackaday",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "d6c475736b61890350dd74deb2ed18a5a39e231e",
+          "title": "AI Controls iPhone Via ESP32",
+          "url": "https://hackaday.com/2026/10/14/ai-controls-iphone-via-esp32/",
+          "date": "2026-10-15",
+          "source": "hackaday",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "a700e1d71183cf9a0a93d3a24a3763ca6d5dcbb7",
+          "title": "Using an ESP32-C3’s RF Hardware for DVB-S2 Video Transmission",
+          "url": "https://hackaday.com/2026/10/14/using-an-esp32-c3s-rf-hardware-for-dvb-s2-video-transmission/",
+          "date": "2026-10-15",
+          "source": "hackaday",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "757a968cff4035ec931d027fefac5c7423dfc5b8",
+          "title": "Open Firmware Fixes Dead Onkyo AV Receivers",
+          "url": "https://hackaday.com/2026/10/13/open-firmware-fixes-dead-onkyo-av-receivers/",
+          "date": "2026-10-13",
+          "source": "hackaday",
+          "section": "Embedded & systems"
+        }
+      ]
+    },
+    {
+      "headline": "Kernel & Security Tightening",
+      "body": "**Lead‑in:** Linux’s 7.3‑rc7 prepatch arrived, deprecating ext4’s data=journal mode with removal slated for 2028. Security bulletins from LWN highlighted dozens of package patches across major distributions, underscoring the ongoing race to harden the stack. These updates remind engineers that the foundation must stay as fresh as the latest AI tricks.",
+      "items": [
+        {
+          "id": "ecf7af830fcc2a7d897846849246657449b76108",
+          "title": "Kernel prepatch 7.3-rc7",
+          "url": "https://lwn.net/Articles/1099798/",
+          "date": "2026-10-12",
+          "source": "lwn",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "471abc1533fb68fda9be1b2f073130dcaeab259c",
+          "title": "Security updates for Friday",
+          "url": "https://lwn.net/Articles/1101015/",
+          "date": "2026-10-17",
+          "source": "lwn",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "20a5a1006bdad4d7ef8675793ee30e2c5051795b",
+          "title": "Security updates for Monday",
+          "url": "https://lwn.net/Articles/1099949/",
+          "date": "2026-10-13",
+          "source": "lwn",
+          "section": "Embedded & systems"
+        }
+      ]
+    },
+    {
+      "headline": "Formal Methods & Benchmarks Rise",
+      "body": "**Lead‑in:** New theory and tooling aim to make AI workflows provably correct and data processing faster. FAOPs defines normal forms for agent pipelines, TraHist improves trajectory cardinality estimates, and JetStream auto‑generates verified query accelerators. A post‑quantum KEM benchmark measures overhead under 500 concurrent workers, highlighting performance concerns for future cryptography.",
+      "items": [
+        {
+          "id": "ccbe94a62babdeb8576432c196a3c33250f77093",
+          "title": "FAOPs: Normal Forms and an Algebra for AI Agent Workflows",
+          "url": "https://arxiv.org/abs/2610.22061v1",
+          "date": "2026-10-16",
+          "source": "arXiv cs.AI",
+          "section": "CS research"
+        },
+        {
+          "id": "605d9007f1334af460ceba52e93c50da1e1f99f6",
+          "title": "TraHist: Fast and Accurate Cardinality Estimation for Trajectory Data (Extended Version)",
+          "url": "https://arxiv.org/abs/2610.22310v1",
+          "date": "2026-10-16",
+          "source": "arXiv cs.DB",
+          "section": "CS research"
+        },
+        {
+          "id": "1a5a71aebce0c677b4f059f3b1fc79378d32327f",
+          "title": "Benchmarking Post-Quantum Key Encapsulation in S3-Compatible Object Storage under Client Concurrency",
+          "url": "https://arxiv.org/abs/2610.21457v1",
+          "date": "2026-10-16",
+          "source": "arXiv cs.CR",
+          "section": "CS research"
+        },
+        {
+          "id": "ae315e177465cbae1904dd329678b4c8ba5d23c4",
+          "title": "JetStream: Generating Verified Query Accelerators for Existing Database Systems",
+          "url": "https://arxiv.org/abs/2610.20527v1",
+          "date": "2026-10-15",
+          "source": "arXiv cs.DB",
+          "section": "CS research"
+        },
+        {
+          "id": "7b1259f288bd3fcd9f8c5b25d51daa63d4de70d1",
+          "title": "Towards Virtual Networking for a Time-Triggered Hypervisor",
+          "url": "https://arxiv.org/abs/2610.17899v1",
+          "date": "2026-10-14",
+          "source": "arXiv cs.NI",
+          "section": "CS research"
+        }
+      ]
+    }
+  ],
+  "numbers": [
+    {
+      "value": "300",
+      "label": "clinical cases evaluated in AI Consilium benchmark",
+      "item": {
+        "id": "cc59ac2e5775d400ebf1b180ea74abd7db4840fa",
+        "title": "AI Consilium: a Benchmark of LLM Clinical Multidisciplinary Second Opinions",
+        "url": "https://arxiv.org/abs/2610.22298v1",
+        "date": "2026-10-16",
+        "source": "arXiv cs.CL",
+        "section": "AI & ML"
+      }
+    },
+    {
+      "value": "3,040",
+      "label": "reports generated for AI Consilium evaluation",
+      "item": {
+        "id": "cc59ac2e5775d400ebf1b180ea74abd7db4840fa",
+        "title": "AI Consilium: a Benchmark of LLM Clinical Multidisciplinary Second Opinions",
+        "url": "https://arxiv.org/abs/2610.22298v1",
+        "date": "2026-10-16",
+        "source": "arXiv cs.CL",
+        "section": "AI & ML"
+      }
+    },
+    {
+      "value": "500",
+      "label": "max concurrent workers in post‑quantum KEM test",
+      "item": {
+        "id": "1a5a71aebce0c677b4f059f3b1fc79378d32327f",
+        "title": "Benchmarking Post-Quantum Key Encapsulation in S3-Compatible Object Storage under Client Concurrency",
+        "url": "https://arxiv.org/abs/2610.21457v1",
+        "date": "2026-10-16",
+        "source": "arXiv cs.CR",
+        "section": "CS research"
+      }
+    }
+  ],
+  "watch": "Next week watch for the rollout of X‑RIC’s open‑source benchmark suite and any follow‑up patches to ext4’s journal mode.",
+  "item_count": 149
+}

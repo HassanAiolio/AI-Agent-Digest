@@ -1,0 +1,492 @@
+{
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T07:22:10+00:00",
+  "stats": {
+    "fetched": 110,
+    "new_after_dedupe": 64,
+    "published": 16,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 14,
+      "supported": 14,
+      "dropped": 0,
+      "unverifiable": 0,
+      "summaries_reverted": 0,
+      "rate": 1.0
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. ESP32 can now run in your browser, and you don’t need a dev board.",
+    "stories": [
+      {
+        "kicker": "Embedded",
+        "headline": "ESP32 firmware runs in-browser",
+        "body": "**Run chips without hardware:** Esp32sim lets you load ESP32 binaries straight into a web page, emulating the MCU entirely in JavaScript.",
+        "why": "You can prototype IoT code instantly, no soldering required.",
+        "ids": [
+          "19eb13d3d942f451755a4fe38846fae154ff5bc4"
+        ]
+      },
+      {
+        "kicker": "AI Tools",
+        "headline": "Test LLM speed before buying hardware",
+        "body": "**Bench local models instantly:** Llmspeed measures inference latency on your machine, so you know if a new GPU will actually speed up your workload.",
+        "why": "Avoid overpaying for specs you won’t use.",
+        "ids": [
+          "1557ed18b56735c6b8c5e8615009133e164a2ec5"
+        ]
+      },
+      {
+        "kicker": "Search",
+        "headline": "Code search cuts token use tenfold",
+        "body": "**Search smarter, not harder:** XERJ indexes code, docs, logs and PDFs using 40× fewer tokens than grep and promises up to 10× lower infra costs versus ElasticSearch.",
+        "why": "Lower token budgets mean cheaper RAG pipelines.",
+        "ids": [
+          "0b6937fb15d2e2293a5458975816ee770d3fd703"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Flux downloads:** 46,123 downloads on Hugging Face.",
+        "id": "93fa5d2ce7d0da341449889924986dac3531ee89"
+      },
+      {
+        "text": "**DeepSeek likes:** 1,110 likes on HF.",
+        "id": "9b13d6a721a0c27049840c9b9a043dabdb98a309"
+      },
+      {
+        "text": "**Muse Spark:** 1,600 downloads, 518 likes.",
+        "id": "192926875b94bc23ce84614e73ff2927df04f92d"
+      },
+      {
+        "text": "**Single‑prop drone:** Build a functional drone with one motor.",
+        "id": "488778eb13f2d3270e4d42c85bb4a08246af7f19"
+      },
+      {
+        "text": "**Mini arcade:** Dollhouse cabinet streams DOS games remotely.",
+        "id": "e9cb0b3bb4c974943737f53ad47d125504309580"
+      }
+    ],
+    "number": {
+      "value": "46,123",
+      "label": "downloads of the Flux‑3 image model",
+      "id": "93fa5d2ce7d0da341449889924986dac3531ee89"
+    },
+    "sign_off": "Catch you tomorrow, and keep hacking.",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "b79ed1ed155b59bb3c0d4587b4d7f8c26d6c3013",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2277",
+      "source": "Codeforces",
+      "starts": "2026-10-24T11:05:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sat 24 Oct 11:05 UTC"
+    },
+    {
+      "id": "99c8c118bf16bca2ebec3d749c2a8d10c10d1d2c",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2272",
+      "source": "Codeforces",
+      "starts": "2026-10-26T14:35:00+00:00",
+      "detail": "CF contest, 2.2h, starts Mon 26 Oct 14:35 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Show HN: Esp32sim – Run ESP32 firmware in the browser",
+      "url": "https://github.com/mikroverk/esp32sim",
+      "source": "Hacker News",
+      "section": "embedded",
+      "published": "2026-10-17T13:51:08+00:00",
+      "points": 153,
+      "score": 8.5,
+      "id": "19eb13d3d942f451755a4fe38846fae154ff5bc4",
+      "summary": "Esp32sim is an open‑source ESP32 emulator that runs firmware directly in a web browser.",
+      "detail": "The project compiles the ESP32 CPU core to WebAssembly, allowing developers to test code without physical hardware. A demo video shows the emulator executing typical firmware loops. The author seeks feedback on features needed for development, testing, or CI integration.",
+      "key_points": [],
+      "tag": "Release",
+      "highlight": true,
+      "image": "https://opengraph.githubassets.com/e1c9917a6ea081b484eede03d3c4724700222be335ef7a8b25ff2a276b78f947/mikroverk/esp32sim",
+      "related": {}
+    },
+    {
+      "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+      "url": "https://llmspeed.dev/",
+      "source": "Hacker News",
+      "section": "ai-ml",
+      "published": "2026-10-17T04:36:53+00:00",
+      "points": 278,
+      "score": 4.0,
+      "id": "1557ed18b56735c6b8c5e8615009133e164a2ec5",
+      "summary": "Llmspeed is a tool that lets users measure local LLM inference speed on their hardware before buying a new system.",
+      "detail": "The service runs a quick benchmark on the user's machine, reporting latency and throughput for various model sizes. It helps avoid over‑provisioning by showing real‑world performance rather than theoretical specs. The tool is open‑source and runs on common operating systems.",
+      "key_points": [],
+      "tag": "Release",
+      "highlight": true,
+      "image": "https://llmspeed.dev/og.png",
+      "related": {}
+    },
+    {
+      "title": "ScrapeCreators/social-media-research-skills",
+      "url": "https://github.com/ScrapeCreators/social-media-research-skills",
+      "source": "GitHub trending · python",
+      "section": "repos",
+      "published": null,
+      "points": 4063,
+      "score": 2.5,
+      "id": "1230527240befd9b66ad905ee5acba7938d7df85",
+      "summary": "ScrapeCreators' GitHub repo provides AI‑driven agents for extracting social‑media data across major platforms.",
+      "detail": "The toolkit integrates with Claude Code, Cursor, Codex, and Gemini CLI to automate tasks such as outlier detection, comment mining, and competitor analysis on TikTok, Instagram, YouTube, Reddit, X, and LinkedIn. It is positioned for researchers and marketers needing scalable data collection.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://opengraph.githubassets.com/4c4a7dff7c7889ee46c2732abfa14e689b15a34a9cbe669b459989325f9008fb/ScrapeCreators/social-media-research-skills",
+      "related": {}
+    },
+    {
+      "title": "geode-sdk/geode",
+      "url": "https://github.com/geode-sdk/geode",
+      "source": "GitHub trending · c++",
+      "section": "repos",
+      "published": null,
+      "points": 2988,
+      "score": 2.5,
+      "id": "64e07407dc03bb18c3f184f25c3bc14cd98f7280",
+      "summary": "The geode‑sdk repository offers a C++ framework for creating Geometry Dash mods.",
+      "detail": "It abstracts game internals, providing APIs for level editing, custom objects, and script injection, facilitating community‑driven extensions. The project aims to streamline mod development for both novice and experienced developers.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://repository-images.githubusercontent.com/449738859/a877409c-2584-4448-abba-b2975a958a29",
+      "related": {}
+    },
+    {
+      "title": "tensorflow/tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "source": "GitHub trending · c++",
+      "section": "repos",
+      "published": null,
+      "points": 201079,
+      "score": 2.5,
+      "id": "5c006a9f253fb14e652251d78421fc1c68bf0f79",
+      "summary": "TensorFlow is an open source machine learning framework written in C++ for broad use.",
+      "detail": "The project provides a comprehensive ecosystem of tools, libraries, and community resources that support model building, training, and deployment across CPUs, GPUs, and specialized accelerators.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://opengraph.githubassets.com/27e5e800da322fe0556e3119c253d5ef201eb7eda28ed9c14b212fc442aec238/tensorflow/tensorflow",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+          "url": "https://llmspeed.dev/",
+          "source": "Hacker News",
+          "section": "ai-ml",
+          "published": "2026-10-17T04:36:53+00:00",
+          "points": 278,
+          "score": 4.0,
+          "id": "1557ed18b56735c6b8c5e8615009133e164a2ec5",
+          "summary": "Llmspeed is a tool that lets users measure local LLM inference speed on their hardware before buying a new system.",
+          "detail": "The service runs a quick benchmark on the user's machine, reporting latency and throughput for various model sizes. It helps avoid over‑provisioning by showing real‑world performance rather than theoretical specs. The tool is open‑source and runs on common operating systems.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": true,
+          "image": "https://llmspeed.dev/og.png",
+          "related": {}
+        },
+        {
+          "title": "Model: black-forest-labs/flux-3-image-klein",
+          "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-13T10:58:40.000Z",
+          "points": 460,
+          "score": 1.5,
+          "id": "93fa5d2ce7d0da341449889924986dac3531ee89",
+          "summary": "The black-forest-labs/flux-3-image-klein model has been downloaded 46,123 times and received 460 likes on Hugging Face.",
+          "detail": "It is an image‑to‑image diffusion model that builds on the Flux architecture, targeting fast generation with moderate compute. The popularity indicates strong community interest for creative workflows. The model is released under a permissive license for commercial use.",
+          "key_points": [
+            "46,123 downloads",
+            "460 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/black-forest-labs/flux-3-image-klein.png",
+          "related": {}
+        },
+        {
+          "title": "Model: deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-17T02:40:38.000Z",
+          "points": 1110,
+          "score": 1.5,
+          "id": "9b13d6a721a0c27049840c9b9a043dabdb98a309",
+          "summary": "DeepSeek-V4.1-Flash-1017, an image‑text‑to‑text model on Hugging Face, has earned 1,110 likes.",
+          "detail": "The model combines visual understanding with language generation, suitable for captioning and visual QA tasks. It is part of DeepSeek's Flash series aimed at low‑latency inference. The repository includes example scripts and a permissive license.",
+          "key_points": [
+            "1,110 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash-1017.png",
+          "related": {}
+        },
+        {
+          "title": "Model: meta-models/Muse-Spark-Open-816B-A42B",
+          "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-09-15T19:23:19.000Z",
+          "points": 518,
+          "score": 1.5,
+          "id": "192926875b94bc23ce84614e73ff2927df04f92d",
+          "summary": "Meta's Muse‑Spark‑Open‑816B‑A42B model recorded 1,600 downloads and 518 likes on Hugging Face.",
+          "detail": "This 816‑billion‑parameter image‑text model is designed for open‑ended multimodal generation. It demonstrates competitive quality on benchmark datasets while remaining accessible through a hosted inference API. The model is released under an open‑source license for research and commercial use.",
+          "key_points": [
+            "1,600 downloads",
+            "518 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/meta-models/Muse-Spark-Open-816B-A42B.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "Show HN: Esp32sim – Run ESP32 firmware in the browser",
+          "url": "https://github.com/mikroverk/esp32sim",
+          "source": "Hacker News",
+          "section": "embedded",
+          "published": "2026-10-17T13:51:08+00:00",
+          "points": 153,
+          "score": 8.5,
+          "id": "19eb13d3d942f451755a4fe38846fae154ff5bc4",
+          "summary": "Esp32sim is an open‑source ESP32 emulator that runs firmware directly in a web browser.",
+          "detail": "The project compiles the ESP32 CPU core to WebAssembly, allowing developers to test code without physical hardware. A demo video shows the emulator executing typical firmware loops. The author seeks feedback on features needed for development, testing, or CI integration.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": true,
+          "image": "https://opengraph.githubassets.com/e1c9917a6ea081b484eede03d3c4724700222be335ef7a8b25ff2a276b78f947/mikroverk/esp32sim",
+          "related": {}
+        },
+        {
+          "title": "2026 Retrocomputing Challenge: Dollhouse Arcade Cabinet Runs Remote DOS Games",
+          "url": "https://hackaday.com/2026/10/17/2026-retrocomputing-challenge-dollhouse-arcade-cabinet-runs-remote-dos-games/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-17T23:00:24+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "e9cb0b3bb4c974943737f53ad47d125504309580",
+          "summary": "The 2026 Retrocomputing Challenge features a dollhouse‑sized arcade cabinet that streams classic DOS games remotely.",
+          "detail": "Creator Juha Lilja built a miniature cabinet housing a microcontroller that connects to a remote DOS server, delivering video over a small display. The project showcases creative hardware hacking and low‑latency remote gaming, inspiring similar retro‑tech builds.",
+          "key_points": [],
+          "tag": "Contest",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/Micro-DOS-Arcade-Cabinet-2-banner.png",
+          "related": {}
+        },
+        {
+          "title": "2026 Retrocomputing Challenge: Oldputer Gives Old Eyes Relief with E-ink Display",
+          "url": "https://hackaday.com/2026/10/17/2026-retrocomputing-challenge-oldputer-gives-old-eyes-relief-with-e-ink-display/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-17T17:00:52+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "f6d4d38d4de23d7444957285e577dafcf8ce6579",
+          "summary": "The 2026 Retrocomputing Challenge features the Oldputer, a low‑power computer using an e‑ink display for reduced eye strain.",
+          "detail": "The Oldputer replaces traditional LCD panels with e‑ink, offering high contrast and low refresh rates that are easier on the eyes during long coding sessions. It targets hobbyists interested in vintage hardware aesthetics while providing modern connectivity.",
+          "key_points": [],
+          "tag": "Contest",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/Screenshot-2026-10-16-203011.png",
+          "related": {}
+        },
+        {
+          "title": "Building a Flying Drone With a Single Propeller",
+          "url": "https://hackaday.com/2026/10/17/building-a-flying-drone-with-a-single-propeller/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-17T20:00:11+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "488778eb13f2d3270e4d42c85bb4a08246af7f19",
+          "summary": "A tutorial demonstrates how to build a functional drone using only a single motor and propeller.",
+          "detail": "The design relies on clever thrust vectoring and lightweight materials to achieve stable flight, but acknowledges that control complexity and payload limits make it impractical for most applications. It serves as a proof‑of‑concept for minimalist UAV engineering.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/single_propeller_drone_joshua_bird_youtube.jpg",
+          "related": {}
+        },
+        {
+          "title": "Busting the Myth that Plastics are Chemically Inert in Water",
+          "url": "https://hackaday.com/2026/10/17/busting-the-myth-that-plastics-are-chemically-inert-in-water/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-18T02:00:45+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "55a92e14524ca093e11b9afcfc5b8de96e7efc5b",
+          "summary": "New experiments show that common plastics can leach chemicals into water, contradicting the claim of inertness.",
+          "detail": "The study measured trace organic compounds released from polyethylene and polypropylene after prolonged immersion, finding measurable concentrations that could affect water quality. Results suggest re‑evaluating plastic use in long‑term water storage.",
+          "key_points": [],
+          "tag": "Analysis",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/intrinsic_physicochemical_activity_at_microplastic-water_interfaces_naixin_qian_et_al_2026_nature.jpg",
+          "related": {}
+        },
+        {
+          "title": "Discovering SDRs Everywhere",
+          "url": "https://hackaday.com/2026/10/17/discovering-sdrs-everywhere/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-17T14:00:24+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "0654c87e24e7291005d5a893512cd1bd8b4463cd",
+          "summary": "Hackers worldwide are independently creating software‑defined radio (SDR) tools, sparking a rapid expansion of low‑cost radio experimentation.",
+          "detail": "These community‑driven projects repurpose inexpensive hardware like RTL‑SDR dongles, enabling signal decoding, spectrum analysis, and custom protocol development without specialized equipment. The movement mirrors a modern “Precambrian explosion” of open‑source radio innovation.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2020/07/EarlyRadio.jpg",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "ScrapeCreators/social-media-research-skills",
+          "url": "https://github.com/ScrapeCreators/social-media-research-skills",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 4063,
+          "score": 2.5,
+          "id": "1230527240befd9b66ad905ee5acba7938d7df85",
+          "summary": "ScrapeCreators' GitHub repo provides AI‑driven agents for extracting social‑media data across major platforms.",
+          "detail": "The toolkit integrates with Claude Code, Cursor, Codex, and Gemini CLI to automate tasks such as outlier detection, comment mining, and competitor analysis on TikTok, Instagram, YouTube, Reddit, X, and LinkedIn. It is positioned for researchers and marketers needing scalable data collection.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://opengraph.githubassets.com/4c4a7dff7c7889ee46c2732abfa14e689b15a34a9cbe669b459989325f9008fb/ScrapeCreators/social-media-research-skills",
+          "related": {}
+        },
+        {
+          "title": "geode-sdk/geode",
+          "url": "https://github.com/geode-sdk/geode",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 2988,
+          "score": 2.5,
+          "id": "64e07407dc03bb18c3f184f25c3bc14cd98f7280",
+          "summary": "The geode‑sdk repository offers a C++ framework for creating Geometry Dash mods.",
+          "detail": "It abstracts game internals, providing APIs for level editing, custom objects, and script injection, facilitating community‑driven extensions. The project aims to streamline mod development for both novice and experienced developers.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://repository-images.githubusercontent.com/449738859/a877409c-2584-4448-abba-b2975a958a29",
+          "related": {}
+        },
+        {
+          "title": "tensorflow/tensorflow",
+          "url": "https://github.com/tensorflow/tensorflow",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 201079,
+          "score": 2.5,
+          "id": "5c006a9f253fb14e652251d78421fc1c68bf0f79",
+          "summary": "TensorFlow is an open source machine learning framework written in C++ for broad use.",
+          "detail": "The project provides a comprehensive ecosystem of tools, libraries, and community resources that support model building, training, and deployment across CPUs, GPUs, and specialized accelerators.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://opengraph.githubassets.com/27e5e800da322fe0556e3119c253d5ef201eb7eda28ed9c14b212fc442aec238/tensorflow/tensorflow",
+          "related": {}
+        },
+        {
+          "title": "xerj-org/xerj",
+          "url": "https://github.com/xerj-org/xerj",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 8021,
+          "score": 2.5,
+          "id": "0b6937fb15d2e2293a5458975816ee770d3fd703",
+          "summary": "XERJ indexes code, docs, logs and PDFs for search and RAG, using 40× fewer tokens than grep and promising up to 10× lower infrastructure costs versus ElasticSearch.",
+          "detail": "Its auto‑index capability lets AI agents understand data without repeated token consumption, supporting security audits and agent memory. The tool aims to replace traditional search stacks while reducing token‑based API expenses.",
+          "key_points": [
+            "40x fewer tokens",
+            "10x infra cost reduction"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/2b7628934832618d1b61deee51f4a47e7a9bdf1fbfe75f485b5f01f95cb8052c/xerj-org/xerj",
+          "related": {}
+        },
+        {
+          "title": "bitcoin/bitcoin",
+          "url": "https://github.com/bitcoin/bitcoin",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 90425,
+          "score": 2.0,
+          "id": "f3f7900e4a420e65dca4860e5481be5985ddc1b2",
+          "summary": "Bitcoin Core integration/staging tree is the primary development branch of the Bitcoin software.",
+          "detail": "This repository contains the latest code, tests, and documentation for the reference implementation of the Bitcoin network, serving as the source for official releases and community contributions.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/e193fd00aa95f34cc51d7106226595db9aebd672565b73598b0933ee8b715362/bitcoin/bitcoin",
+          "related": {}
+        },
+        {
+          "title": "foundry-rs/foundry",
+          "url": "https://github.com/foundry-rs/foundry",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 10675,
+          "score": 2.0,
+          "id": "feaefe42d156f3e0244b2eed0be30a40b0c8a5db",
+          "summary": "Foundry is a blazing‑fast, portable, modular toolkit for Ethereum application development written in Rust.",
+          "detail": "It includes a suite of tools such as a Solidity compiler, testing framework, and deployment utilities, all designed for high performance and cross‑platform compatibility.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/57189bd26ddc664108c60a95807b1eb8fb392467878a850fb07ead0f19024f9e/foundry-rs/foundry",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}

@@ -239,6 +239,11 @@
 "title": "[$] LWN.net Weekly Edition for July 23, 2026",
 "url": "https://lwn.net/Articles/1083123/"
 },
+"0654c87e24e7291005d5a893512cd1bd8b4463cd": {
+"date": "2026-10-18",
+"title": "Discovering SDRs Everywhere",
+"url": "https://hackaday.com/2026/10/17/discovering-sdrs-everywhere/"
+},
 "067f70e76b9aa4223782395611b25e641248d9e2": {
 "date": "2026-08-25",
 "title": "Security updates for Monday",
@@ -468,6 +473,11 @@
 "date": "2026-08-01",
 "title": "A Complex Way to Push a Button",
 "url": "https://hackaday.com/2026/07/31/a-complex-way-to-push-a-button/"
+},
+"0b6937fb15d2e2293a5458975816ee770d3fd703": {
+"date": "2026-10-18",
+"title": "xerj-org/xerj",
+"url": "https://github.com/xerj-org/xerj"
 },
 "0b7b6272faafd263a3f9d89c1970b72b9a758f48": {
 "date": "2026-09-03",
@@ -809,6 +819,11 @@
 "title": "Computable Quantification in Reflective Grounded Arithmetic",
 "url": "https://arxiv.org/abs/2607.25533v1"
 },
+"1230527240befd9b66ad905ee5acba7938d7df85": {
+"date": "2026-10-18",
+"title": "ScrapeCreators/social-media-research-skills",
+"url": "https://github.com/ScrapeCreators/social-media-research-skills"
+},
 "124ccfc107dd27617850b62d867ff9d8aaf22fbf": {
 "date": "2026-09-10",
 "title": "Violet: Enabling Full Virtualization for M-mode RTOS on RISC-V",
@@ -918,6 +933,11 @@
 "date": "2026-08-23",
 "title": "Open-Source ExpressLRS Receiver Reaches for Range",
 "url": "https://hackaday.com/2026/08/22/open-source-expresslrs-receiver-reaches-for-range/"
+},
+"1557ed18b56735c6b8c5e8615009133e164a2ec5": {
+"date": "2026-10-18",
+"title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+"url": "https://llmspeed.dev/"
 },
 "15674fb790b6de4747abba3f665678c6ec9d8c12": {
 "date": "2026-10-09",
@@ -1104,6 +1124,11 @@
 "title": "ProgRouter: Online Progress-Guided Orchestration for Multi-Agent LLM Workflows under Quality-Cost Tradeoffs",
 "url": "https://arxiv.org/abs/2608.25992v1"
 },
+"192926875b94bc23ce84614e73ff2927df04f92d": {
+"date": "2026-10-18",
+"title": "Model: meta-models/Muse-Spark-Open-816B-A42B",
+"url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B"
+},
 "193bde497bb3a2ea98544bae8cadf610318a12ff": {
 "date": "2026-07-29",
 "title": "tokio-rs/axum",
@@ -1148,6 +1173,11 @@
 "date": "2026-09-30",
 "title": "DevDay 2026 Recap",
 "url": "https://openai.com/index/devday-2026-recap"
+},
+"19eb13d3d942f451755a4fe38846fae154ff5bc4": {
+"date": "2026-10-18",
+"title": "Show HN: Esp32sim – Run ESP32 firmware in the browser",
+"url": "https://github.com/mikroverk/esp32sim"
 },
 "19fdebe2272a3f7218df4eb188e3890bdefa4d96": {
 "date": "2026-07-29",
@@ -1633,11 +1663,6 @@
 "date": "2026-08-11",
 "title": "[$] Even more formal verification for BPF",
 "url": "https://lwn.net/Articles/1087069/"
-},
-"252d5419a2d5941884c38e7d684cb83c0a762525": {
-"date": "2026-07-19",
-"title": "MoonshotAI/kimi-cli",
-"url": "https://github.com/MoonshotAI/kimi-cli"
 },
 "25328ebc00bc53beb196cfba82d56d58ba62b760": {
 "date": "2026-09-22",
@@ -2629,11 +2654,6 @@
 "title": "Model: thinkingmachines/Inkling",
 "url": "https://huggingface.co/thinkingmachines/Inkling"
 },
-"410cb196e1b1b54bc16cfda9c320e9221dbd168d": {
-"date": "2026-07-19",
-"title": "Model: OpenMOSS-Team/MOSS-Transcribe-Diarize",
-"url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize"
-},
 "413f1a4f31037bd8660e98f9ba0bdecb2feb6a96": {
 "date": "2026-09-27",
 "title": "Cheap Yellow Display Dreams of PDA",
@@ -2839,11 +2859,6 @@
 "title": "Is This the Year of The Linux… Television?",
 "url": "https://hackaday.com/2026/09/06/is-this-the-year-of-the-linux-television/"
 },
-"4812767ac7ba8585fa2ecbbdedbcb5da8f90de18": {
-"date": "2026-07-19",
-"title": "Three stable kernel updates",
-"url": "https://lwn.net/Articles/1083462/"
-},
 "481f8bd7cecf7f8bc5b81e4f49cf422daf6115e8": {
 "date": "2026-10-10",
 "title": "[$] Adding kernel control-flow-integrity checking to GCC",
@@ -2883,6 +2898,11 @@
 "date": "2026-10-17",
 "title": "cloud-hypervisor/cloud-hypervisor",
 "url": "https://github.com/cloud-hypervisor/cloud-hypervisor"
+},
+"488778eb13f2d3270e4d42c85bb4a08246af7f19": {
+"date": "2026-10-18",
+"title": "Building a Flying Drone With a Single Propeller",
+"url": "https://hackaday.com/2026/10/17/building-a-flying-drone-with-a-single-propeller/"
 },
 "4893709f2c8ec5844e9c40ddc55bb1e079408c38": {
 "date": "2026-08-14",
@@ -3399,6 +3419,11 @@
 "title": "qxcnm/Codex-Manager",
 "url": "https://github.com/qxcnm/Codex-Manager"
 },
+"55a92e14524ca093e11b9afcfc5b8de96e7efc5b": {
+"date": "2026-10-18",
+"title": "Busting the Myth that Plastics are Chemically Inert in Water",
+"url": "https://hackaday.com/2026/10/17/busting-the-myth-that-plastics-are-chemically-inert-in-water/"
+},
 "55ff6375d410d5e78eb731f1cb7d39c5bf269454": {
 "date": "2026-07-25",
 "title": "flashinfer-ai/flashinfer",
@@ -3549,11 +3574,6 @@
 "title": "ahmedkhaleel2004/gitdiagram",
 "url": "https://github.com/ahmedkhaleel2004/gitdiagram"
 },
-"5abcba2dc2dca38e75238136596470748ea6b78f": {
-"date": "2026-07-19",
-"title": "Upcoming: Codeforces Round (Div. 1)",
-"url": "https://codeforces.com/contests/2249"
-},
 "5b09d7b0770f001475de903b679c810a656dd484": {
 "date": "2026-09-10",
 "title": "From Symbolic Perception to Logical Deduction: A Framework for Guiding Language Models in Geometric Reasoning",
@@ -3593,6 +3613,11 @@
 "date": "2026-08-12",
 "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
 "url": "https://stolen-thoughts.com/"
+},
+"5c006a9f253fb14e652251d78421fc1c68bf0f79": {
+"date": "2026-10-18",
+"title": "tensorflow/tensorflow",
+"url": "https://github.com/tensorflow/tensorflow"
 },
 "5c2f9c8f948113d30f3d440f556f0c155755f60f": {
 "date": "2026-10-01",
@@ -3958,6 +3983,11 @@
 "date": "2026-07-23",
 "title": "Upcoming: Codeforces Round (Div. 2)",
 "url": "https://codeforces.com/contests/2248"
+},
+"64e07407dc03bb18c3f184f25c3bc14cd98f7280": {
+"date": "2026-10-18",
+"title": "geode-sdk/geode",
+"url": "https://github.com/geode-sdk/geode"
 },
 "64e1b525340e79960e8f543a970cece9e087b9b0": {
 "date": "2026-09-24",
@@ -4659,11 +4689,6 @@
 "title": "A Defrag Simulator In Your Browser",
 "url": "https://hackaday.com/2026/09/01/a-defrag-simulator-in-your-browser/"
 },
-"790ccbb81f3e112bec5c9bb1903a50be21889d44": {
-"date": "2026-07-19",
-"title": "\"Half a Second\" — a book on the XZ backdoor",
-"url": "https://lwn.net/Articles/1083466/"
-},
 "7941af6584c4cea5b52340df7685426c59aeec78": {
 "date": "2026-10-10",
 "title": "Model: Qwen/Qwen-Image-2.1-Turbo",
@@ -5009,11 +5034,6 @@
 "title": "Tencent-Hunyuan/Hy-MT2",
 "url": "https://github.com/Tencent-Hunyuan/Hy-MT2"
 },
-"82abff7b3503643608c07d4bfa2d8e2306c5f52c": {
-"date": "2026-07-19",
-"title": "ESP32-driven Roulette Wheel Could Have Used a 555, but That Didn’t have WiFi",
-"url": "https://hackaday.com/2026/07/18/esp32-driven-roulette-wheel-could-have-used-a-555-but-that-didnt-have-wifi/"
-},
 "82ccd6b1ac2a4632741c44e78134c50e28f34e91": {
 "date": "2026-09-27",
 "title": "esphome/esphome",
@@ -5208,11 +5228,6 @@
 "date": "2026-07-23",
 "title": "[$] Attaching programs to multiple tracepoints",
 "url": "https://lwn.net/Articles/1082948/"
-},
-"89c80673007c6b9aa67fc843fa6410ea450a3470": {
-"date": "2026-07-19",
-"title": "Model: Cactus-Compute/needle",
-"url": "https://huggingface.co/Cactus-Compute/needle"
 },
 "89d9404787d98faef34d7aa702770fe4dc619e81": {
 "date": "2026-08-27",
@@ -5589,6 +5604,11 @@
 "title": "Announcing the 2026 Hackaday Retrocomputing Challenge",
 "url": "https://hackaday.com/2026/08/18/announcing-the-2026-hackaday-retrocomputing-challenge/"
 },
+"93fa5d2ce7d0da341449889924986dac3531ee89": {
+"date": "2026-10-18",
+"title": "Model: black-forest-labs/flux-3-image-klein",
+"url": "https://huggingface.co/black-forest-labs/flux-3-image-klein"
+},
 "94069425511e983376a58fdfdeebaedbd2feb048": {
 "date": "2026-09-21",
 "title": "Reverse Engineering A Sony Car Stereo LCD",
@@ -5858,6 +5878,11 @@
 "date": "2026-08-26",
 "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
 "url": "https://openai.com/index/jalapeno-first-results"
+},
+"9b13d6a721a0c27049840c9b9a043dabdb98a309": {
+"date": "2026-10-18",
+"title": "Model: deepseek-ai/DeepSeek-V4.1-Flash-1017",
+"url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
 },
 "9b1c67c7660721099a52ed0186e0a478f161125a": {
 "date": "2026-08-24",
@@ -6374,11 +6399,6 @@
 "title": "tenstorrent/tt-metal",
 "url": "https://github.com/tenstorrent/tt-metal"
 },
-"a790526666523e892efcbe1233a436583e58cd12": {
-"date": "2026-07-19",
-"title": "Open-Source Mid-Drive e-Bike Motor Has Lots of Promise, and Hyphens",
-"url": "https://hackaday.com/2026/07/18/open-source-mid-drive-e-bike-motor-has-lots-of-promise-and-hyphens/"
-},
 "a7be808c04ffdecb6290dc1e8c921a5ce09e976e": {
 "date": "2026-10-08",
 "title": "Rendezvous under Variable Disorientation:The Algorithmic Power of Fixed Unit Distance",
@@ -6463,11 +6483,6 @@
 "date": "2026-10-09",
 "title": "Security updates for Thursday",
 "url": "https://lwn.net/Articles/1099388/"
-},
-"a94b058b2749f6fc62d29067d7fb1838546639b9": {
-"date": "2026-07-19",
-"title": "DataDog/pup",
-"url": "https://github.com/DataDog/pup"
 },
 "a9672782920ceb3eac3c6c53cd34a668e5f2e28b": {
 "date": "2026-07-31",
@@ -6863,11 +6878,6 @@
 "date": "2026-08-08",
 "title": "pranshuparmar/witr",
 "url": "https://github.com/pranshuparmar/witr"
-},
-"b2fd7cf8006085cdeae1acb9ea47169436413867": {
-"date": "2026-07-19",
-"title": "facebook/rocksdb",
-"url": "https://github.com/facebook/rocksdb"
 },
 "b3053d2dc34071b351439dd5a64a08243c52c432": {
 "date": "2026-09-22",
@@ -7284,11 +7294,6 @@
 "title": "jamiepine/voicebox",
 "url": "https://github.com/jamiepine/voicebox"
 },
-"c0676b9926fc21f87d50fb6267192c2a4f16ef23": {
-"date": "2026-07-19",
-"title": "Simple Games from a Simpler Time",
-"url": "https://hackaday.com/2026/07/18/simple-games-from-a-simpler-time/"
-},
 "c06f2e1e9c717e0ad68a27e0ff28346d02354995": {
 "date": "2026-08-22",
 "title": "EsotericSoftware/spine-runtimes",
@@ -7343,11 +7348,6 @@
 "date": "2026-09-12",
 "title": "melgarafael/DeskcommCRM",
 "url": "https://github.com/melgarafael/DeskcommCRM"
-},
-"c19e5cd39829befec114d5d6013be1644809f4fe": {
-"date": "2026-07-19",
-"title": "Calculator UI Is More Complex Than You Might Think",
-"url": "https://hackaday.com/2026/07/18/calculator-ui-is-more-complex-than-you-might-think/"
 },
 "c1c095d7a11a550a0b1b9527cf91c3d52589c36d": {
 "date": "2026-09-01",
@@ -7408,11 +7408,6 @@
 "date": "2026-09-23",
 "title": "Digital Upgrade Brings Medium Format Camera Into the 21st Century",
 "url": "https://hackaday.com/2026/09/22/digital-upgrade-brings-medium-format-camera-into-the-21st-century/"
-},
-"c3309756f28d6a22d499741c551463baab82c8ac": {
-"date": "2026-07-19",
-"title": "microsoft/microsoft-ui-xaml",
-"url": "https://github.com/microsoft/microsoft-ui-xaml"
 },
 "c3530cb12d1318c65471b052622ad383cf17f6bc": {
 "date": "2026-10-03",
@@ -7483,11 +7478,6 @@
 "date": "2026-09-08",
 "title": "mksglu/context-mode",
 "url": "https://github.com/mksglu/context-mode"
-},
-"c4d2836062b5c35c5a66d31d6104fbab87295d6b": {
-"date": "2026-07-19",
-"title": "MaaAssistantArknights/MaaAssistantArknights",
-"url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights"
 },
 "c4d9d231669e0fa5356ef533296bb425ea5f05ea": {
 "date": "2026-10-12",
@@ -8474,11 +8464,6 @@
 "title": "Model: Cloudflare/clef-flash",
 "url": "https://huggingface.co/Cloudflare/clef-flash"
 },
-"dad630ccec1b9759358a3290b6e78566c77239af": {
-"date": "2026-07-19",
-"title": "Model: bottlecapai/ThinkingCap-Qwen3.6-27B",
-"url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B"
-},
 "daeb8cc58d42e4f7e41be75953f974e4f765fabf": {
 "date": "2026-07-24",
 "title": "[$] An operations structure for swap devices",
@@ -8713,11 +8698,6 @@
 "date": "2026-09-10",
 "title": "UnsafeChecker: Finding Soundness Bugs in Rust Safe Abstractions",
 "url": "https://arxiv.org/abs/2609.09641v1"
-},
-"e08ef814d6bf703d420b74a09c67347aa6ca6f89": {
-"date": "2026-07-19",
-"title": "fastapi/fastapi",
-"url": "https://github.com/fastapi/fastapi"
 },
 "e0eb9834b95274b1911773b0e954640697325b9b": {
 "date": "2026-08-27",
@@ -9113,6 +9093,11 @@
 "date": "2026-07-23",
 "title": "GigaToken: ~1000x faster Language model tokenization",
 "url": "https://github.com/marcelroed/gigatoken/"
+},
+"e9cb0b3bb4c974943737f53ad47d125504309580": {
+"date": "2026-10-18",
+"title": "2026 Retrocomputing Challenge: Dollhouse Arcade Cabinet Runs Remote DOS Games",
+"url": "https://hackaday.com/2026/10/17/2026-retrocomputing-challenge-dollhouse-arcade-cabinet-runs-remote-dos-games/"
 },
 "e9e37faea4d91eeffcc3942ec6f6e673facad82d": {
 "date": "2026-09-24",
@@ -9549,6 +9534,11 @@
 "title": "Bringing Private Processing to Meta AI Glasses",
 "url": "https://engineering.fb.com/2026/09/23/security/private-processing-meta-ai-glasses/"
 },
+"f3f7900e4a420e65dca4860e5481be5985ddc1b2": {
+"date": "2026-10-18",
+"title": "bitcoin/bitcoin",
+"url": "https://github.com/bitcoin/bitcoin"
+},
 "f3fc8d615e51531cee3f101fe63efa6e59a71970": {
 "date": "2026-08-06",
 "title": "sierra-research/tau2-bench",
@@ -9678,6 +9668,11 @@
 "date": "2026-10-09",
 "title": "LegalOn halves Codex costs while maintaining development speed",
 "url": "https://openai.com/index/legalon-halves-codex-costs"
+},
+"f6d4d38d4de23d7444957285e577dafcf8ce6579": {
+"date": "2026-10-18",
+"title": "2026 Retrocomputing Challenge: Oldputer Gives Old Eyes Relief with E-ink Display",
+"url": "https://hackaday.com/2026/10/17/2026-retrocomputing-challenge-oldputer-gives-old-eyes-relief-with-e-ink-display/"
 },
 "f718787cf9fa1c526de4aceab722d83c13d97ad3": {
 "date": "2026-09-10",
@@ -9993,6 +9988,11 @@
 "date": "2026-08-07",
 "title": "From asking to doing: How the world is putting ChatGPT to work",
 "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work"
+},
+"feaefe42d156f3e0244b2eed0be30a40b0c8a5db": {
+"date": "2026-10-18",
+"title": "foundry-rs/foundry",
+"url": "https://github.com/foundry-rs/foundry"
 },
 "fecd7e29438485007b3863e418dc0d83648a8949": {
 "date": "2026-08-11",
