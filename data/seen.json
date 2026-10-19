@@ -429,6 +429,11 @@
 "title": "Running Generative AI on an RP2350",
 "url": "https://hackaday.com/2026/09/05/running-generative-ai-on-an-rp2350/"
 },
+"0a8ce7c5470cae5f61da68222b07dfa0b3a8ac5b": {
+"date": "2026-10-19",
+"title": "A Plasma Donut",
+"url": "https://hackaday.com/2026/10/18/a-plasma-donut/"
+},
 "0aa1907e913ec65ddf7516835d93830227ba8b15": {
 "date": "2026-08-15",
 "title": "allenk/GeminiWatermarkTool",
@@ -613,11 +618,6 @@
 "date": "2026-08-11",
 "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
 "url": "https://huggingface.co/blog/muse-glimmer"
-},
-"0e1a94ec72f9fe42a75425c4c17749648a41aebc": {
-"date": "2026-07-20",
-"title": "kvcache-ai/ktransformers",
-"url": "https://github.com/kvcache-ai/ktransformers"
 },
 "0e21a0270d94201108f27df4fe541daa29bc401d": {
 "date": "2026-08-22",
@@ -1039,10 +1039,10 @@
 "title": "Open-Dev-Society/OpenStock",
 "url": "https://github.com/Open-Dev-Society/OpenStock"
 },
-"1739a2341816bb7a6628a1455e6456db5d96f38f": {
-"date": "2026-07-20",
-"title": "AstrBotDevs/AstrBot",
-"url": "https://github.com/AstrBotDevs/AstrBot"
+"17421902b216687419889e492409a82d59b43dc4": {
+"date": "2026-10-19",
+"title": "Model: OpenMOSS-Team/MOSS-Image-SFT",
+"url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT"
 },
 "175614ef6b468dc65833b9f158ed8db74c76f187": {
 "date": "2026-08-04",
@@ -1339,11 +1339,6 @@
 "title": "averygan/reclip",
 "url": "https://github.com/averygan/reclip"
 },
-"1cf885d36957a58114cd672cc6dc8d7871d121b9": {
-"date": "2026-07-20",
-"title": "Model: baidu/Unlimited-OCR",
-"url": "https://huggingface.co/baidu/Unlimited-OCR"
-},
 "1d4cff712a9a12812912916b09ee2f570c14be95": {
 "date": "2026-10-16",
 "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
@@ -1564,11 +1559,6 @@
 "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
 "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence"
 },
-"22bd8c8bfbd7fdefa0ada01f58a0c4835bde98a9": {
-"date": "2026-07-20",
-"title": "Kernel prepatch 7.2-rc4",
-"url": "https://lwn.net/Articles/1083543/"
-},
 "22e214c525696116085efd4f5612287917ae52ff": {
 "date": "2026-08-20",
 "title": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
@@ -1598,6 +1588,11 @@
 "date": "2026-07-25",
 "title": "Model: openbmb/MiniCPM-RobotManip",
 "url": "https://huggingface.co/openbmb/MiniCPM-RobotManip"
+},
+"23c35d0f697263fd41a4f676dd4d143955846f1d": {
+"date": "2026-10-19",
+"title": "Kruk2/jasna",
+"url": "https://github.com/Kruk2/jasna"
 },
 "23dfa39cc3559ae7fe42bd3341a49145b7d77072": {
 "date": "2026-08-05",
@@ -1874,6 +1869,11 @@
 "title": "Model: Aleph-Alpha/Kolibri-1",
 "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
 },
+"2b2992191c6a0d81c888fc6ab4e7cc169ffb6f05": {
+"date": "2026-10-19",
+"title": "Model: openbmb/MiniCPM-V-4.7-35B-A3B",
+"url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
+},
 "2b395b0c409e89d3b83b7bb6032f4894fcabc296": {
 "date": "2026-08-19",
 "title": "SpacehuhnTech/WiFiDuck",
@@ -1993,6 +1993,11 @@
 "date": "2026-09-04",
 "title": "addyosmani/agent-skills",
 "url": "https://github.com/addyosmani/agent-skills"
+},
+"2ea65ef1b6a844150041f79763271dc5dcf57cf7": {
+"date": "2026-10-19",
+"title": "NVlabs/ASPIRE",
+"url": "https://github.com/NVlabs/ASPIRE"
 },
 "2ee94000fec4618b0a17269c2eee61e46aa1ce96": {
 "date": "2026-08-08",
@@ -2334,10 +2339,10 @@
 "title": "Pumpkin-MC/Pumpkin",
 "url": "https://github.com/Pumpkin-MC/Pumpkin"
 },
-"38619cabacdc896a03ebcd8385644ef756d93d45": {
-"date": "2026-07-20",
-"title": "Clever hacker fits 537,000 domains in a $5 ESP32 ad-blocking dongle",
-"url": "https://www.tomshardware.com/networking/clever-hacker-fits-537-000-domains-in-a-tiny-usd5-esp32-ad-blocking-dongle-firmware-uses-only-around-50kb-of-ram-and-can-answer-blocked-lookups-in-10-milliseconds"
+"383988adc811f6e0a4c2ae4ccd71d058605cb397": {
+"date": "2026-10-19",
+"title": "Free Pascal compiler now supports dynamic packages",
+"url": "https://www.getlazarus.org/dynamic/"
 },
 "3893858aab4345626ef6ff6cdca8b91bd540ac03": {
 "date": "2026-08-20",
@@ -2848,6 +2853,11 @@
 "date": "2026-10-05",
 "title": "getsentry/sentry",
 "url": "https://github.com/getsentry/sentry"
+},
+"47822cd9ee4644799dab7e281408e8ab085d61b0": {
+"date": "2026-10-19",
+"title": "The 7.3 kernel has been released",
+"url": "https://lwn.net/Articles/1101143/"
 },
 "47ea2608803ce8c476715976dc0111d59f1e2d3a": {
 "date": "2026-09-02",
@@ -3734,6 +3744,11 @@
 "title": "Model: AlexWortega/openjev",
 "url": "https://huggingface.co/AlexWortega/openjev"
 },
+"5ee571392114e5c63610af53c439dc98384a5678": {
+"date": "2026-10-19",
+"title": "Fincept-Corporation/FinceptTerminal",
+"url": "https://github.com/Fincept-Corporation/FinceptTerminal"
+},
 "5efa3f53bd06acfb8a503d019d967597fbf6e64c": {
 "date": "2026-08-04",
 "title": "Right Answer, Wrong Method: Shortcut Hacking Misleads the Evaluation of LLM Reasoning on Frontier Science Benchmarks",
@@ -3773,11 +3788,6 @@
 "date": "2026-08-20",
 "title": "When Do Microservices Save Energy? Evidence from Environmental Simulation Workflows",
 "url": "https://arxiv.org/abs/2608.18376v1"
-},
-"5f987f0636c53831a13f3da497ddf24655bf4d92": {
-"date": "2026-07-20",
-"title": "tokio-rs/topcoat",
-"url": "https://github.com/tokio-rs/topcoat"
 },
 "5fa28c256021e6a74e4c792a4ad3229a2142212a": {
 "date": "2026-08-14",
@@ -3964,6 +3974,11 @@
 "title": "A Computer Terminal the Old Way",
 "url": "https://hackaday.com/2026/09/21/a-computer-terminal-the-old-way/"
 },
+"63e1526bb11fbbba0860b1d43a365fa705a3b079": {
+"date": "2026-10-19",
+"title": "Building a Microscope with a 3D View",
+"url": "https://hackaday.com/2026/10/18/building-a-microscope-with-a-3d-view/"
+},
 "641461515140a77472e102c1c8ed7a8052da3793": {
 "date": "2026-07-30",
 "title": "Unified Shared Memory in OpenMP: Implementation, Programmability, and Performance on Intel Accelerators",
@@ -4053,6 +4068,11 @@
 "date": "2026-07-21",
 "title": "The Duality of Information Flow: Reconciling Robust Downgrading with Non-Interference",
 "url": "https://arxiv.org/abs/2607.17445v1"
+},
+"66d5720ec836838d2d67b7f24d4c6f30004e00be": {
+"date": "2026-10-19",
+"title": "Investing in the public benefit",
+"url": "https://www.anthropic.com/news/public-benefit-fund"
 },
 "66deb2c0d67784e8e06bd10cab52c7ff9c256b2e": {
 "date": "2026-09-23",
@@ -4399,11 +4419,6 @@
 "title": "Security updates for Monday",
 "url": "https://lwn.net/Articles/1083708/"
 },
-"70389c25f14418917bd1c0a346be7b180994867c": {
-"date": "2026-07-20",
-"title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
-"url": "https://news.ycombinator.com/item?id=48968606"
-},
 "7066b0ea25feda0704fcb8dd7a6675e1dfeb3840": {
 "date": "2026-09-29",
 "title": "Show HN: HN.watch – Videos of all Hacker News posts",
@@ -4438,11 +4453,6 @@
 "date": "2026-10-02",
 "title": "GPU-Initiated Communication: Dissecting Down to the Bone",
 "url": "https://arxiv.org/abs/2610.01380v1"
-},
-"711f2660966290a48c1113a5ad11c626ed0e9f6c": {
-"date": "2026-07-20",
-"title": "Automated Pressure Advance Using a Bed-Leveling Sensor",
-"url": "https://hackaday.com/2026/07/19/automated-pressure-advance-using-a-bed-leveling-sensor/"
 },
 "7162551e7c22676f29260c5e1a8bb8fa3b89f207": {
 "date": "2026-09-07",
@@ -4548,11 +4558,6 @@
 "date": "2026-09-29",
 "title": "samugit83/redamon",
 "url": "https://github.com/samugit83/redamon"
-},
-"73fd34ef09c47bde12c4e6d6eaa2fd19035aa0b7": {
-"date": "2026-07-20",
-"title": "OWASP/Nettacker",
-"url": "https://github.com/OWASP/Nettacker"
 },
 "74043a2c13e42e05cf84893560f1fd94bb4edd2e": {
 "date": "2026-08-26",
@@ -4999,6 +5004,11 @@
 "title": "Fully Inductive Cardinality Estimation",
 "url": "https://arxiv.org/abs/2607.28311v1"
 },
+"81c34602c8519f4e01f2f851b68b23cbd8e09bb6": {
+"date": "2026-10-19",
+"title": "YuJunZhiXue/dsh-purge",
+"url": "https://github.com/YuJunZhiXue/dsh-purge"
+},
 "81c40dc227ae4aa743741a5dca71a6c9361dc93b": {
 "date": "2026-08-11",
 "title": "mufeedvh/code2prompt",
@@ -5203,6 +5213,11 @@
 "date": "2026-07-23",
 "title": "RCC: Speculative Write Versioning with Redo Logs",
 "url": "https://arxiv.org/abs/2607.19697v1"
+},
+"890deafd3bffb06a1db9d351f22359697ebc5edb": {
+"date": "2026-10-19",
+"title": "Off-Grid Refrigeration Using Fire and Salt",
+"url": "https://hackaday.com/2026/10/18/off-grid-refrigeration-using-fire-and-salt/"
 },
 "890e947ffd2c1f2789585ba26fbb7ec51afb6f64": {
 "date": "2026-09-30",
@@ -5509,11 +5524,6 @@
 "title": "Introducing Gemini 3.8 Live with Live Avatar",
 "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/"
 },
-"916f544a2f51f5b245ffee22b1624fa8d522ff99": {
-"date": "2026-07-20",
-"title": "Pong-like Cabinet for Classic Dinosaur Jumper",
-"url": "https://hackaday.com/2026/07/19/pong-like-cabinet-for-classic-dinosaur-jumper/"
-},
 "9178b381e1714c18c604032cb79eff125a3245d6": {
 "date": "2026-09-16",
 "title": "JustFit: 200K-Token LLM Serving on a 24 GiB Laptop with Just-in-Time State Management",
@@ -5523,6 +5533,11 @@
 "date": "2026-10-02",
 "title": "How to speed up the Rust compiler in September 2026",
 "url": "https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html"
+},
+"91f244da30acf05a4f0110268c36d39463ad7bf2": {
+"date": "2026-10-19",
+"title": "Hackaday Links: October 17, 2026",
+"url": "https://hackaday.com/2026/10/18/hackaday-links-october-17-2026/"
 },
 "91f6c042e793eee0ee2aec09f994a9b663fdba7c": {
 "date": "2026-08-18",
@@ -6059,11 +6074,6 @@
 "title": "[$] The [vx]swap showdown",
 "url": "https://lwn.net/Articles/1098399/"
 },
-"9f4e37a5d6672cd17ae7fd6f8c6307774e7b3b25": {
-"date": "2026-07-20",
-"title": "Hackaday Links: July 19, 2026",
-"url": "https://hackaday.com/2026/07/19/hackaday-links-july-19-2026/"
-},
 "9f6e8133df73e7c94a2efcec365c9a230471c75c": {
 "date": "2026-07-24",
 "title": "BASICally, Its Retro Machine Language",
@@ -6318,6 +6328,11 @@
 "date": "2026-10-05",
 "title": "AVR Laptop Pushes the Limits of 8-Bit",
 "url": "https://hackaday.com/2026/10/04/avr-laptop-pushes-the-limits-of-8-bit/"
+},
+"a5bb32320853f4db899f960fab78f0afa3dea1e6": {
+"date": "2026-10-19",
+"title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+"url": "https://arxiv.org/abs/2610.18861"
 },
 "a5ec1ab21b87fe050af68798d94636b81d973918": {
 "date": "2026-10-16",
@@ -6574,11 +6589,6 @@
 "title": "music-assistant/server",
 "url": "https://github.com/music-assistant/server"
 },
-"ab8f6be0fcd5af2d24c5ef7175063367fe61774b": {
-"date": "2026-07-20",
-"title": "Model: Wan-AI/Wan-Dancer-14B",
-"url": "https://huggingface.co/Wan-AI/Wan-Dancer-14B"
-},
 "abae94308d8deb3b49cc65d7e862a53b67fcb2c7": {
 "date": "2026-08-10",
 "title": "lancedb/lancedb",
@@ -6823,6 +6833,11 @@
 "date": "2026-09-30",
 "title": "cs341-illinois/coursebook",
 "url": "https://github.com/cs341-illinois/coursebook"
+},
+"b1613fd99fd3d4f0b540e9e1a5be6201339b1c63": {
+"date": "2026-10-19",
+"title": "Evolving RC circuits",
+"url": "https://hackaday.com/2026/10/18/evolving-rc-circuits/"
 },
 "b185572d43ea9df12a9ffbc994fbeae90d6814dc": {
 "date": "2026-08-06",
@@ -8014,11 +8029,6 @@
 "title": "About the Influence of Workflow Topology on Task Intensity Prediction through Graph Learning",
 "url": "https://arxiv.org/abs/2609.39481v1"
 },
-"d01cf34751d60241ea8134870cc4325afd2a2834": {
-"date": "2026-07-20",
-"title": "Model: conradlocke/krea2-identity-edit",
-"url": "https://huggingface.co/conradlocke/krea2-identity-edit"
-},
 "d03f551ce7e80e4f37aad30ca3c28f17484ea718": {
 "date": "2026-08-28",
 "title": "Tacet: A Language and Type System for Automatic Statistical Validity Accounting",
@@ -8099,6 +8109,11 @@
 "title": "RPCS3/rpcs3",
 "url": "https://github.com/RPCS3/rpcs3"
 },
+"d2e2b582e2726ffa96b65fa8514c77ddbf349956": {
+"date": "2026-10-19",
+"title": "If you don't run your own LLM proxy, how do you know whats going on?",
+"url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/"
+},
 "d33483480244f0f90bc0a65aa15adc126b92f455": {
 "date": "2026-08-05",
 "title": "An LLM agent attempts to compromise a project on GitHub",
@@ -8148,11 +8163,6 @@
 "date": "2026-07-22",
 "title": "Introducing the ChatGPT for small business program",
 "url": "https://openai.com/index/introducing-chatgpt-small-business-program"
-},
-"d43e864a3af3b2660b9e41d7bcdc42016d4e47c6": {
-"date": "2026-07-20",
-"title": "Upcoming: Codeforces Round (Div. 2)",
-"url": "https://codeforces.com/contests/2250"
 },
 "d446addfdbde681d21b5dd3a0677e80fd8289194": {
 "date": "2026-09-25",
@@ -8569,6 +8579,11 @@
 "title": "Introducing GPT-6.1 Sol",
 "url": "https://openai.com/index/introducing-gpt-6-1-sol"
 },
+"dd6a9d14a094d1594baeb964ac415610498cc4a0": {
+"date": "2026-10-19",
+"title": "Graphify-Labs/graphify",
+"url": "https://github.com/Graphify-Labs/graphify"
+},
 "dd9256881ba911cced2f19145ae94260d20ffdcb": {
 "date": "2026-07-29",
 "title": "xbtlin/ai-berkshire",
@@ -8743,11 +8758,6 @@
 "date": "2026-08-11",
 "title": "Model Discovery Agent: LLM-assisted Bayesian experiment design for data-efficient discovery of mechanistic world models",
 "url": "https://arxiv.org/abs/2608.09696v1"
-},
-"e1b39d0f6acb7699ce013d9ca5ed22268bf127c4": {
-"date": "2026-07-20",
-"title": "lightgbm-org/LightGBM",
-"url": "https://github.com/lightgbm-org/LightGBM"
 },
 "e1b7edf2cb626cc379357bce031ba3f27cbb8359": {
 "date": "2026-08-05",
@@ -8948,11 +8958,6 @@
 "date": "2026-10-07",
 "title": "NTS: Authenticated Time at Meta",
 "url": "https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/"
-},
-"e6109c84f0854fcb253beb4519f25c0d912d835b": {
-"date": "2026-07-20",
-"title": "topoteretes/cognee",
-"url": "https://github.com/topoteretes/cognee"
 },
 "e61933a35406404c4855557ed6baf68a9c0993c5": {
 "date": "2026-09-12",
@@ -9763,6 +9768,11 @@
 "date": "2026-08-09",
 "title": "Track Bird Visitors With a Raspberry Pi and a USB Mic",
 "url": "https://hackaday.com/2026/08/08/track-bird-visitors-with-a-raspberry-pi-and-a-usb-mic/"
+},
+"f81933d7eb8f832c428979f2a97b8d27f6d8a6df": {
+"date": "2026-10-19",
+"title": "ahujasid/mcp-for-blender",
+"url": "https://github.com/ahujasid/mcp-for-blender"
 },
 "f81e680c0f86ec1231841e205812062d6ac27dd4": {
 "date": "2026-09-13",

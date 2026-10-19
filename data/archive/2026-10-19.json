@@ -1,0 +1,542 @@
+{
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T08:00:31+00:00",
+  "stats": {
+    "fetched": 115,
+    "new_after_dedupe": 72,
+    "published": 18,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 11,
+      "supported": 11,
+      "dropped": 0,
+      "unverifiable": 0,
+      "summaries_reverted": 0,
+      "rate": 1.0
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. Linux shipped 7.3 with a commit count that could double as a small novel.",
+    "stories": [
+      {
+        "kicker": "Embedded",
+        "headline": "Linux 7.3 shatters commit record",
+        "body": "**Record‑setting merge spree:** Linux 7.3 arrived with 18,765 non‑merge commits from 3,021 developers, including 807 first‑timers. The kernel is now richer than most hobby projects.",
+        "why": "More eyes and changes mean faster bug fixes and new features for your drivers.",
+        "ids": [
+          "47822cd9ee4644799dab7e281408e8ab085d61b0"
+        ]
+      },
+      {
+        "kicker": "AI & ML",
+        "headline": "Hybrid Reasoning Agents blend latent tricks with text output",
+        "body": "**Latent‑space brainpower:** New LLM agents reason inside vector embeddings and emit actions as plain text, with code on GitHub and an arXiv evaluation backing it.",
+        "why": "You can plug these agents into pipelines without rewriting your existing CLI tools.",
+        "ids": [
+          "a5bb32320853f4db899f960fab78f0afa3dea1e6"
+        ]
+      },
+      {
+        "kicker": "Research",
+        "headline": "Free Pascal adds dynamic package support",
+        "body": "**Package‑level flexibility:** The Free Pascal compiler now handles dynamic packages, letting you load modules at runtime instead of static linking.",
+        "why": "It simplifies modular builds for embedded projects that need runtime extensibility.",
+        "ids": [
+          "383988adc811f6e0a4c2ae4ccd71d058605cb397"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Model popularity:** MiniCPM‑V‑4.7‑35B‑A3B reached 57,935 downloads on Hugging Face.",
+        "id": "2b2992191c6a0d81c888fc6ab4e7cc169ffb6f05"
+      },
+      {
+        "text": "**Graphify launch:** Turns codebases into queryable graphs without a vector store.",
+        "id": "dd6a9d14a094d1594baeb964ac415610498cc4a0"
+      },
+      {
+        "text": "**LLM proxy worry:** Community debates monitoring proxies without running one yourself.",
+        "id": "d2e2b582e2726ffa96b65fa8514c77ddbf349956"
+      },
+      {
+        "text": "**MOSS‑Image‑SFT:** 2,087 downloads and 365 likes on Hugging Face.",
+        "id": "17421902b216687419889e492409a82d59b43dc4"
+      }
+    ],
+    "number": {
+      "value": "18,765",
+      "label": "non‑merge commits in Linux 7.3 release",
+      "id": "47822cd9ee4644799dab7e281408e8ab085d61b0"
+    },
+    "sign_off": "Catch you tomorrow – same time, same code.",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "b79ed1ed155b59bb3c0d4587b4d7f8c26d6c3013",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2277",
+      "source": "Codeforces",
+      "starts": "2026-10-24T11:05:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sat 24 Oct 11:05 UTC"
+    },
+    {
+      "id": "99c8c118bf16bca2ebec3d749c2a8d10c10d1d2c",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2272",
+      "source": "Codeforces",
+      "starts": "2026-10-26T14:35:00+00:00",
+      "detail": "CF contest, 2.2h, starts Mon 26 Oct 14:35 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "source": "Hacker News",
+      "section": "ai-ml",
+      "published": "2026-10-18T20:48:14+00:00",
+      "points": 367,
+      "score": 6.0,
+      "id": "a5bb32320853f4db899f960fab78f0afa3dea1e6",
+      "summary": "Hybrid Reasoning Agents are LLM agents that perform latent‑space reasoning and output actions as text, with code released on GitHub and evaluations linked in an arXiv paper.",
+      "detail": "The project is hosted by Together Computer and includes a Hugging Face collection for model access. The approach separates internal reasoning from external interaction, aiming to improve interpretability and modularity compared to end‑to‑end prompting.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "related": {}
+    },
+    {
+      "title": "Free Pascal compiler now supports dynamic packages",
+      "url": "https://www.getlazarus.org/dynamic/",
+      "source": "Hacker News",
+      "section": "cs-research",
+      "published": "2026-10-18T18:48:04+00:00",
+      "points": 156,
+      "score": 4.0,
+      "id": "383988adc811f6e0a4c2ae4ccd71d058605cb397",
+      "summary": "The Free Pascal compiler now includes support for dynamic packages.",
+      "detail": "This new feature allows developers to load and unload code modules at runtime, improving modularity and memory usage. The update was announced on Hacker News and applies to the latest compiler release.",
+      "key_points": [],
+      "tag": "Release",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+      "source": "Hacker News",
+      "section": "ai-ml",
+      "published": "2026-10-18T21:09:12+00:00",
+      "points": 136,
+      "score": 4.0,
+      "id": "d2e2b582e2726ffa96b65fa8514c77ddbf349956",
+      "summary": "A Hacker News thread questions how to monitor LLM proxy behavior without operating your own proxy instance.",
+      "detail": "The discussion highlights concerns about transparency and debugging in managed LLM services, suggesting the need for logging APIs or third‑party monitoring tools, but no concrete solutions are presented.",
+      "key_points": [],
+      "tag": "News",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "The 7.3 kernel has been released",
+      "url": "https://lwn.net/Articles/1101143/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-10-18T23:45:23+00:00",
+      "points": null,
+      "score": 4.0,
+      "id": "47822cd9ee4644799dab7e281408e8ab085d61b0",
+      "summary": "Linux kernel 7.3 was released, setting a record with 18,765 non‑merge commits from 3,021 developers, including 807 first‑time contributors.",
+      "detail": "The release follows the usual schedule, and the merge window for 7.4 opens the next day. Notable changes include extensions to binfmt_misc, and the high contributor count reflects broad community engagement.",
+      "key_points": [
+        "18,765 commits",
+        "3,021 developers",
+        "807 first‑time devs"
+      ],
+      "tag": "Release",
+      "highlight": true,
+      "image": "",
+      "related": {
+        "title": "Seven stable kernels for Thursday with fix for critical vulnerability",
+        "url": "https://lwn.net/Articles/1100611/",
+        "date": "2026-10-16",
+        "id": "9a8257e81b9a6d6f25701e26cd573005a6461886"
+      }
+    },
+    {
+      "title": "Investing in the public benefit",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "source": "Anthropic",
+      "section": "ai-ml",
+      "published": "2026-10-18T00:00:00+00:00",
+      "points": null,
+      "score": 3.0,
+      "id": "66d5720ec836838d2d67b7f24d4c6f30004e00be",
+      "summary": "Anthropic published an article titled “Investing in the public benefit”.",
+      "detail": "The piece outlines Anthropic’s philosophy of aligning AI development with societal good, describing their commitment to long‑term safety and public‑interest research, without providing quantitative metrics.",
+      "key_points": [],
+      "tag": "News",
+      "highlight": true,
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+          "url": "https://arxiv.org/abs/2610.18861",
+          "source": "Hacker News",
+          "section": "ai-ml",
+          "published": "2026-10-18T20:48:14+00:00",
+          "points": 367,
+          "score": 6.0,
+          "id": "a5bb32320853f4db899f960fab78f0afa3dea1e6",
+          "summary": "Hybrid Reasoning Agents are LLM agents that perform latent‑space reasoning and output actions as text, with code released on GitHub and evaluations linked in an arXiv paper.",
+          "detail": "The project is hosted by Together Computer and includes a Hugging Face collection for model access. The approach separates internal reasoning from external interaction, aiming to improve interpretability and modularity compared to end‑to‑end prompting.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+          "related": {}
+        },
+        {
+          "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+          "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+          "source": "Hacker News",
+          "section": "ai-ml",
+          "published": "2026-10-18T21:09:12+00:00",
+          "points": 136,
+          "score": 4.0,
+          "id": "d2e2b582e2726ffa96b65fa8514c77ddbf349956",
+          "summary": "A Hacker News thread questions how to monitor LLM proxy behavior without operating your own proxy instance.",
+          "detail": "The discussion highlights concerns about transparency and debugging in managed LLM services, suggesting the need for logging APIs or third‑party monitoring tools, but no concrete solutions are presented.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Investing in the public benefit",
+          "url": "https://www.anthropic.com/news/public-benefit-fund",
+          "source": "Anthropic",
+          "section": "ai-ml",
+          "published": "2026-10-18T00:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "66d5720ec836838d2d67b7f24d4c6f30004e00be",
+          "summary": "Anthropic published an article titled “Investing in the public benefit”.",
+          "detail": "The piece outlines Anthropic’s philosophy of aligning AI development with societal good, describing their commitment to long‑term safety and public‑interest research, without providing quantitative metrics.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": true,
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
+          "related": {}
+        },
+        {
+          "title": "Model: OpenMOSS-Team/MOSS-Image-SFT",
+          "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-11T07:01:17.000Z",
+          "points": 365,
+          "score": 1.5,
+          "id": "17421902b216687419889e492409a82d59b43dc4",
+          "summary": "The MOSS‑Image‑SFT model on Hugging Face has been downloaded 2,087 times and received 365 likes.",
+          "detail": "This text‑to‑image fine‑tuned model is part of the OpenMOSS team’s offerings and is listed under the HF collections for easy access. It targets general image generation tasks and is licensed for community use.",
+          "key_points": [
+            "2,087 downloads",
+            "365 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/OpenMOSS-Team/MOSS-Image-SFT.png",
+          "related": {}
+        },
+        {
+          "title": "Model: openbmb/MiniCPM-V-4.7-35B-A3B",
+          "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-07T07:07:30.000Z",
+          "points": 1025,
+          "score": 1.5,
+          "id": "2b2992191c6a0d81c888fc6ab4e7cc169ffb6f05",
+          "summary": "The MiniCPM‑V‑4.7‑35B‑A3B model on Hugging Face has 57,935 downloads and 1,025 likes.",
+          "detail": "This image‑text‑to‑text model from openbmb is a 35‑billion‑parameter checkpoint fine‑tuned for multimodal tasks. It is hosted in the HF model hub and is popular among researchers for its size‑performance trade‑off.",
+          "key_points": [
+            "57,935 downloads",
+            "1,025 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/openbmb/MiniCPM-V-4.7-35B-A3B.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "The 7.3 kernel has been released",
+          "url": "https://lwn.net/Articles/1101143/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-18T23:45:23+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "47822cd9ee4644799dab7e281408e8ab085d61b0",
+          "summary": "Linux kernel 7.3 was released, setting a record with 18,765 non‑merge commits from 3,021 developers, including 807 first‑time contributors.",
+          "detail": "The release follows the usual schedule, and the merge window for 7.4 opens the next day. Notable changes include extensions to binfmt_misc, and the high contributor count reflects broad community engagement.",
+          "key_points": [
+            "18,765 commits",
+            "3,021 developers",
+            "807 first‑time devs"
+          ],
+          "tag": "Release",
+          "highlight": true,
+          "image": "",
+          "related": {
+            "title": "Seven stable kernels for Thursday with fix for critical vulnerability",
+            "url": "https://lwn.net/Articles/1100611/",
+            "date": "2026-10-16",
+            "id": "9a8257e81b9a6d6f25701e26cd573005a6461886"
+          }
+        },
+        {
+          "title": "A Plasma Donut",
+          "url": "https://hackaday.com/2026/10/18/a-plasma-donut/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-18T14:00:33+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "0a8ce7c5470cae5f61da68222b07dfa0b3a8ac5b",
+          "summary": "A video from The Action Lab demonstrates a toroidal plasma setup and explains its relevance to nuclear fusion.",
+          "detail": "The demonstration visualizes plasma confined in a donut shape, highlighting the high temperatures required for fusion reactions. It serves as an educational illustration rather than a new experimental breakthrough, and the video is hosted on Hackaday.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/plasma.png",
+          "related": {}
+        },
+        {
+          "title": "Building a Microscope with a 3D View",
+          "url": "https://hackaday.com/2026/10/18/building-a-microscope-with-a-3d-view/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-18T17:00:41+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "63e1526bb11fbbba0860b1d43a365fa705a3b079",
+          "summary": "Corebb built a microscope that provides a top-down 3D view for inspecting tiny electronic components.",
+          "detail": "The device combines conventional optics with a custom rig to capture multiple angles, then reconstructs a three‑dimensional perspective. This approach aids in examining solder joints and other fine details without needing expensive equipment.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/rotary_microscope.png",
+          "related": {}
+        },
+        {
+          "title": "Evolving RC circuits",
+          "url": "https://hackaday.com/2026/10/18/evolving-rc-circuits/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-18T11:00:33+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "b1613fd99fd3d4f0b540e9e1a5be6201339b1c63",
+          "summary": "An article draws an analogy between evolving RC circuits and the rapid development of AI algorithms.",
+          "detail": "The piece uses the concept of resistor‑capacitor networks changing over time to illustrate how software and hardware must adapt to new models. It is a conceptual discussion rather than a report of a specific technical advance.",
+          "key_points": [],
+          "tag": "Analysis",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/Screenshot-2026-10-16-212723.png",
+          "related": {}
+        },
+        {
+          "title": "Hackaday Links: October 17, 2026",
+          "url": "https://hackaday.com/2026/10/18/hackaday-links-october-17-2026/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-19T02:00:12+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "91f244da30acf05a4f0110268c36d39463ad7bf2",
+          "summary": "Hackaday’s October 17, 2026 links roundup includes a story about a retired professor’s civil‑disobedient act.",
+          "detail": "The weekly digest curates various tech‑related articles, with this edition featuring a notable anecdote involving a university professor. No specific technical details are provided in the summary.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2014/11/had-links-banner.jpg",
+          "related": {}
+        },
+        {
+          "title": "Off-Grid Refrigeration Using Fire and Salt",
+          "url": "https://hackaday.com/2026/10/18/off-grid-refrigeration-using-fire-and-salt/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-18T23:00:48+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "890deafd3bffb06a1db9d351f22359697ebc5edb",
+          "summary": "An off‑grid refrigeration method uses fire and salt to achieve cooling without electricity.",
+          "detail": "The technique leverages endothermic reactions and evaporative cooling, drawing on historical practices from Persia and Egypt. It offers a low‑tech solution for remote or emergency situations, though efficiency details are not given.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/absorption-cooler-main.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "cs-research",
+      "title": "CS research",
+      "tier": 4,
+      "items": [
+        {
+          "title": "Free Pascal compiler now supports dynamic packages",
+          "url": "https://www.getlazarus.org/dynamic/",
+          "source": "Hacker News",
+          "section": "cs-research",
+          "published": "2026-10-18T18:48:04+00:00",
+          "points": 156,
+          "score": 4.0,
+          "id": "383988adc811f6e0a4c2ae4ccd71d058605cb397",
+          "summary": "The Free Pascal compiler now includes support for dynamic packages.",
+          "detail": "This new feature allows developers to load and unload code modules at runtime, improving modularity and memory usage. The update was announced on Hacker News and applies to the latest compiler release.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "Graphify-Labs/graphify",
+          "url": "https://github.com/Graphify-Labs/graphify",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 128622,
+          "score": 2.5,
+          "id": "dd6a9d14a094d1594baeb964ac415610498cc4a0",
+          "summary": "Graphify converts a codebase, its documentation, SQL schemas, configs, and PDFs into a queryable knowledge graph using deterministic AST parsing without a vector store.",
+          "detail": "It supports integration with Claude Code, Cursor, Codex, and Gemini CLI via a /graphify skill. The tool builds explicit edges between entities, enabling precise queries. It runs locally, ensuring data privacy and reproducibility.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/cc43b102176b83d086bab39190d348e4268e3e243bcab6a1db927d542ae7ebc7/Graphify-Labs/graphify",
+          "related": {}
+        },
+        {
+          "title": "Kruk2/jasna",
+          "url": "https://github.com/Kruk2/jasna",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 2617,
+          "score": 2.5,
+          "id": "23c35d0f697263fd41a4f676dd4d143955846f1d",
+          "summary": "Jasna is a video restoration tool available on GitHub.",
+          "detail": "The repository provides utilities to enhance video quality, likely using AI-based techniques. It is positioned as a trending project, indicating recent community interest. Documentation and usage examples are included in the repo.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/e23733540585e2fad0ba6238fe53bae5d5cbfa55ead04de77f35393336d393b4/Kruk2/jasna",
+          "related": {}
+        },
+        {
+          "title": "Fincept-Corporation/FinceptTerminal",
+          "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 32727,
+          "score": 2.0,
+          "id": "5ee571392114e5c63610af53c439dc98384a5678",
+          "summary": "FinceptTerminal is a modern C++ finance application offering market analytics, investment research, and economic data tools for interactive exploration.",
+          "detail": "Designed for data‑driven decision‑making, it provides a user‑friendly environment to visualize and analyze financial datasets. The tool integrates advanced analytics modules, supporting real‑time data feeds. It targets both analysts and developers needing a programmable finance interface.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/71059a13b38609e59531643f72aa2704f3c6aacbd67d3b82c61f46711077a9af/Fincept-Corporation/FinceptTerminal",
+          "related": {}
+        },
+        {
+          "title": "NVlabs/ASPIRE",
+          "url": "https://github.com/NVlabs/ASPIRE",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 635,
+          "score": 2.0,
+          "id": "2ea65ef1b6a844150041f79763271dc5dcf57cf7",
+          "summary": "ASPIRE is a Python framework for agentic skill discovery applied to robotics.",
+          "detail": "The project focuses on enabling robots to autonomously identify and acquire new capabilities. It combines reinforcement learning with skill abstraction techniques. ASPIRE aims to reduce manual engineering of robot behaviors by discovering reusable skill modules.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/d100f2a09bbae64f46a746b15f5691c112e7878d5cf3a82dcca50699101cdd9e/NVlabs/ASPIRE",
+          "related": {}
+        },
+        {
+          "title": "YuJunZhiXue/dsh-purge",
+          "url": "https://github.com/YuJunZhiXue/dsh-purge",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 7272,
+          "score": 2.0,
+          "id": "81c34602c8519f4e01f2f851b68b23cbd8e09bb6",
+          "summary": "dsh-purge provides jailbreak prompts for DeepSeek models, allowing model‑specific prompt swapping, defaulting to a Chinese prompt for national model \"小码酱\".",
+          "detail": "The repository includes prompt templates that can bypass model safety filters across various models. It encourages users to respect attribution requirements when modifying the prompts. The project is trending, indicating active community experimentation with model jailbreaks.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/d100f2a09bbae64f46a746b15f5691c112e7878d5cf3a82dcca50699101cdd9e/YuJunZhiXue/dsh-purge",
+          "related": {}
+        },
+        {
+          "title": "ahujasid/mcp-for-blender",
+          "url": "https://github.com/ahujasid/mcp-for-blender",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 31613,
+          "score": 2.0,
+          "id": "f81933d7eb8f832c428979f2a97b8d27f6d8a6df",
+          "summary": "mcp-for-blender is a Python plugin that lets any LLM control Blender 3D, independent of the official Blender Foundation.",
+          "detail": "The community‑maintained add‑on translates natural language commands into Blender operations, enabling creative workflows driven by AI. It supports multiple LLM backends, offering flexibility for developers. The plugin is open‑source and positioned as a trending repository.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/4db81bad257ba6b6ecbe67daa3b783f4864ecf4378bf6bd084ef46536074a401/ahujasid/mcp-for-blender",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
