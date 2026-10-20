@@ -1,0 +1,757 @@
+{
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T07:51:35+00:00",
+  "stats": {
+    "fetched": 195,
+    "new_after_dedupe": 148,
+    "published": 28,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 15,
+      "supported": 14,
+      "dropped": 1,
+      "unverifiable": 4,
+      "summaries_reverted": 0,
+      "rate": 0.9333
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. Your AI agents finally remembered where they left their tools.",
+    "stories": [
+      {
+        "kicker": "Open models",
+        "headline": "Visual agents get memory boost",
+        "body": "**Persistent multimodal memory:** OpenVLHarness adds a capability layer and a long‑term visual memory, letting agents reuse tool results across 22 benchmarks, beating larger models that just throw more compute at the problem.",
+        "why": "Your agents can recall past visual context without re‑running expensive tools.",
+        "ids": [
+          "747852054eef062b8fae91d9cd72d759d93f1c04"
+        ]
+      },
+      {
+        "kicker": "LLM agents",
+        "headline": "Retrieval hurts GPT‑5 accuracy",
+        "body": "**Index‑only retrieval penalty:** When GPT‑5.1 and GPT‑5.2 pull long PHREEQC reports from an index instead of full context, they drop 11.3 and 7.9 accuracy points respectively, while Claude stays flat.",
+        "why": "Shows that feeding agents incomplete evidence can degrade performance.",
+        "ids": [
+          "41b829b969d37fdc71dbab19579947aed5fdee67"
+        ]
+      },
+      {
+        "kicker": "Embedded",
+        "headline": "Linux security patches land",
+        "body": "**Patch rush across distros:** LWN reports security updates hit multiple Linux distributions overnight, covering kernels, browsers, and server tools.",
+        "why": "Keeps your production boxes safe from known exploits.",
+        "ids": [
+          "5e3fccd19ef8c20d092b674cbcd18b561cc4fa0b"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**FastAPI:** High‑performance Python web framework climbs trending list.",
+        "id": "e08ef814d6bf703d420b74a09c67347aa6ca6f89"
+      },
+      {
+        "text": "**WhatsApp:** Help pages hide a prompt telling LLMs not to suggest a regulator.",
+        "id": "efa8c4c666c628dd9409809bd8deca16355de77a"
+      },
+      {
+        "text": "**Linux 7.3:** Nine‑week release cycle powered by LLM‑generated contributions.",
+        "id": "9a7560747adbbd47eb4b9408e1b410ae86677471"
+      },
+      {
+        "text": "**CQTwin:** Toolkit replays HPC scheduler traces for offline analysis.",
+        "id": "8f34ee7a019ba39b5cea24d787e1b880e5d7b7a9"
+      },
+      {
+        "text": "**Pact:** Typed extension for safe communication in hardware designs.",
+        "id": "44fdf2c0dcbefdcd2399c585fa9295f6c0d61cfd"
+      }
+    ],
+    "number": {
+      "value": "11.3",
+      "label": "accuracy points lost by GPT‑5.1 on PHREEQC retrieval",
+      "id": "41b829b969d37fdc71dbab19579947aed5fdee67"
+    },
+    "sign_off": "Stay sharp, and keep those bugs in check.",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "b79ed1ed155b59bb3c0d4587b4d7f8c26d6c3013",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2277",
+      "source": "Codeforces",
+      "starts": "2026-10-24T11:05:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sat 24 Oct 11:05 UTC"
+    },
+    {
+      "id": "99c8c118bf16bca2ebec3d749c2a8d10c10d1d2c",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2272",
+      "source": "Codeforces",
+      "starts": "2026-10-26T14:35:00+00:00",
+      "detail": "CF contest, 2.2h, starts Mon 26 Oct 14:35 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
+      "url": "https://arxiv.org/abs/2610.26860v1",
+      "source": "arXiv cs.CL",
+      "section": "ai-ml",
+      "published": "2026-10-19T17:59:58+00:00",
+      "points": null,
+      "score": 7.5,
+      "id": "747852054eef062b8fae91d9cd72d759d93f1c04",
+      "summary": "OpenVLHarness adds a capability layer and persistent multimodal memory to enable tool‑based visual reasoning beyond what larger inference budgets achieve.",
+      "detail": "The study shows that simply increasing the base model's inference budget yields only modest gains on visual tasks, prompting the need for external tools and memory. The harness standardizes tool interfaces and converts outputs into model‑readable observations, retaining them across reasoning steps.",
+      "key_points": [
+        "22 benchmarks"
+      ],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {
+        "title": "MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents",
+        "url": "https://arxiv.org/abs/2610.06830v1",
+        "date": "2026-10-06",
+        "id": "e8e32497a527de30033e11eccd5bf861062cbad5"
+      }
+    },
+    {
+      "title": "Reinforcement Learning with Visually Attributable On-Policy Self-Distillation",
+      "url": "https://arxiv.org/abs/2610.26856v1",
+      "source": "arXiv cs.CV",
+      "section": "ai-ml",
+      "published": "2026-10-19T17:59:56+00:00",
+      "points": null,
+      "score": 7.5,
+      "id": "59777c07007812047d3633d135f3df5ee4e270c0",
+      "summary": "Visually attributable on‑policy self‑distillation (OPSD) adds dense token‑level corrections from a privileged visual teacher but can introduce privileged‑correction contamination.",
+      "detail": "The authors define contamination as updates that cannot be consistently linked to visual evidence, risking reinforcement of erroneous token updates. They propose a reinforcement‑learning approach that attributes corrections to visual evidence to mitigate this effect.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "A Type System for Communication-Safe Hardware Design",
+      "url": "https://arxiv.org/abs/2610.26599v1",
+      "source": "arXiv cs.PL",
+      "section": "cs-research",
+      "published": "2026-10-19T15:41:03+00:00",
+      "points": null,
+      "score": 6.5,
+      "id": "44fdf2c0dcbefdcd2399c585fa9295f6c0d61cfd",
+      "summary": "The paper introduces Pact, a typed extension of the Anvil hardware description language for modular verification of communication safety in synchronous hardware designs.",
+      "detail": "Pact types encode message passing, control flow, and clock-cycle behavior, allowing each component to be checked independently. Compatible types guarantee that composed systems avoid unsynchronized exchanges and deadlocks, addressing a key limitation of existing HDLs.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "Same Simulation, Different Evidence: Where Retrieved Tool Output Costs LLM Agents Accuracy",
+      "url": "https://arxiv.org/abs/2610.26836v1",
+      "source": "arXiv cs.AI",
+      "section": "ai-ml",
+      "published": "2026-10-19T17:57:41+00:00",
+      "points": null,
+      "score": 6.5,
+      "id": "41b829b969d37fdc71dbab19579947aed5fdee67",
+      "summary": "When LLM agents retrieve long PHREEQC simulator reports via index instead of context, GPT‑5.1 and GPT‑5.2 lose 11.3 and 7.9 accuracy points respectively, while Claude models show no detectable loss.",
+      "detail": "The study used 158 execution‑verified multiple‑choice items and logged 11,007 simulator calls, finding that the GPT models accessed the same keyed values but changed the evidence source. Claude Opus 4.6 and Claude Sonnet 4.6 were unaffected, suggesting model‑specific sensitivity to evidence retrieval methods.",
+      "key_points": [
+        "846.8k characters",
+        "11.3 accuracy loss",
+        "158 items"
+      ],
+      "tag": "Analysis",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
+      "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/",
+      "source": "meta ai blog",
+      "section": "ai-ml",
+      "published": "2026-10-19T15:30:37+00:00",
+      "points": null,
+      "score": 5.0,
+      "id": "dbb53c4e8ada17e8e13826468d0e1f97cdebce9c",
+      "summary": "Meta improved AI agent efficiency and accuracy by simplifying the orchestration layer to route work and enforce reliability checks while delegating domain reasoning to specialized agents.",
+      "detail": "The thin orchestrator reduces the router's workload, allowing specialized agents to focus on reasoning tasks. This architectural change led to measurable gains in both speed and correctness across Meta's data‑pipeline agents.",
+      "key_points": [],
+      "tag": "Release",
+      "highlight": true,
+      "image": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-Thin-Orchestrator-Hero.png",
+      "related": {
+        "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
+        "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
+        "date": "2026-10-13",
+        "id": "bb6ab80f53b08b7bb1cbf8acab599b2d6cc9c700"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
+          "url": "https://arxiv.org/abs/2610.26860v1",
+          "source": "arXiv cs.CL",
+          "section": "ai-ml",
+          "published": "2026-10-19T17:59:58+00:00",
+          "points": null,
+          "score": 7.5,
+          "id": "747852054eef062b8fae91d9cd72d759d93f1c04",
+          "summary": "OpenVLHarness adds a capability layer and persistent multimodal memory to enable tool‑based visual reasoning beyond what larger inference budgets achieve.",
+          "detail": "The study shows that simply increasing the base model's inference budget yields only modest gains on visual tasks, prompting the need for external tools and memory. The harness standardizes tool interfaces and converts outputs into model‑readable observations, retaining them across reasoning steps.",
+          "key_points": [
+            "22 benchmarks"
+          ],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {
+            "title": "MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents",
+            "url": "https://arxiv.org/abs/2610.06830v1",
+            "date": "2026-10-06",
+            "id": "e8e32497a527de30033e11eccd5bf861062cbad5"
+          }
+        },
+        {
+          "title": "Reinforcement Learning with Visually Attributable On-Policy Self-Distillation",
+          "url": "https://arxiv.org/abs/2610.26856v1",
+          "source": "arXiv cs.CV",
+          "section": "ai-ml",
+          "published": "2026-10-19T17:59:56+00:00",
+          "points": null,
+          "score": 7.5,
+          "id": "59777c07007812047d3633d135f3df5ee4e270c0",
+          "summary": "Visually attributable on‑policy self‑distillation (OPSD) adds dense token‑level corrections from a privileged visual teacher but can introduce privileged‑correction contamination.",
+          "detail": "The authors define contamination as updates that cannot be consistently linked to visual evidence, risking reinforcement of erroneous token updates. They propose a reinforcement‑learning approach that attributes corrections to visual evidence to mitigate this effect.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Same Simulation, Different Evidence: Where Retrieved Tool Output Costs LLM Agents Accuracy",
+          "url": "https://arxiv.org/abs/2610.26836v1",
+          "source": "arXiv cs.AI",
+          "section": "ai-ml",
+          "published": "2026-10-19T17:57:41+00:00",
+          "points": null,
+          "score": 6.5,
+          "id": "41b829b969d37fdc71dbab19579947aed5fdee67",
+          "summary": "When LLM agents retrieve long PHREEQC simulator reports via index instead of context, GPT‑5.1 and GPT‑5.2 lose 11.3 and 7.9 accuracy points respectively, while Claude models show no detectable loss.",
+          "detail": "The study used 158 execution‑verified multiple‑choice items and logged 11,007 simulator calls, finding that the GPT models accessed the same keyed values but changed the evidence source. Claude Opus 4.6 and Claude Sonnet 4.6 were unaffected, suggesting model‑specific sensitivity to evidence retrieval methods.",
+          "key_points": [
+            "846.8k characters",
+            "11.3 accuracy loss",
+            "158 items"
+          ],
+          "tag": "Analysis",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
+          "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/",
+          "source": "meta ai blog",
+          "section": "ai-ml",
+          "published": "2026-10-19T15:30:37+00:00",
+          "points": null,
+          "score": 5.0,
+          "id": "dbb53c4e8ada17e8e13826468d0e1f97cdebce9c",
+          "summary": "Meta improved AI agent efficiency and accuracy by simplifying the orchestration layer to route work and enforce reliability checks while delegating domain reasoning to specialized agents.",
+          "detail": "The thin orchestrator reduces the router's workload, allowing specialized agents to focus on reasoning tasks. This architectural change led to measurable gains in both speed and correctness across Meta's data‑pipeline agents.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": true,
+          "image": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-Thin-Orchestrator-Hero.png",
+          "related": {
+            "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
+            "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
+            "date": "2026-10-13",
+            "id": "bb6ab80f53b08b7bb1cbf8acab599b2d6cc9c700"
+          }
+        },
+        {
+          "title": "GenRecs Tokenization: Transforming Ads Recommendation at Meta with Stable Model Vocabulary",
+          "url": "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary/",
+          "source": "meta ai blog",
+          "section": "ai-ml",
+          "published": "2026-10-19T16:00:47+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "d5f5b896866a7ed787d5792032cf06f2a89d10f9",
+          "summary": "GenRecs Tokenization introduces a stable vocabulary for generative recommender models, enabling LLM‑based ad matching that reasons about content and user preferences jointly.",
+          "detail": "By grounding ad recommendation in a consistent tokenization scheme, Meta's GenRecs can leverage world knowledge from LLMs, improving precision and advertiser outcomes compared to traditional scoring approaches.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://engineering.fb.com/wp-content/uploads/2026/10/GenRecs-Tokenization-Hero.png",
+          "related": {
+            "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
+            "url": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
+            "date": "2026-10-13",
+            "id": "bb6ab80f53b08b7bb1cbf8acab599b2d6cc9c700"
+          }
+        },
+        {
+          "title": "Harness Engineering 101: The LLM is the brain, the harness is the body",
+          "url": "https://github.com/IsuruMaduranga/harness-engineering-101",
+          "source": "Hacker News",
+          "section": "ai-ml",
+          "published": "2026-10-19T12:07:41+00:00",
+          "points": 128,
+          "score": 4.0,
+          "id": "4f0198409c0e2bc26eeb9557bd337cdd1069ba9e",
+          "summary": "A Hacker News post frames the LLM as the brain and the harness as the body, emphasizing the importance of external tooling for practical AI applications.",
+          "detail": "The discussion highlights how harnesses provide the necessary interfaces, memory, and execution capabilities that allow LLMs to act effectively in real‑world tasks, separating model intelligence from system integration.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/65b27aaf58233413ffd18973ad789bcef185bfbd05dfaf8aff51b5a095d46ba6/IsuruMaduranga/harness-engineering-101",
+          "related": {}
+        },
+        {
+          "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+          "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+          "source": "Hacker News",
+          "section": "ai-ml",
+          "published": "2026-10-19T23:22:18+00:00",
+          "points": 348,
+          "score": 4.0,
+          "id": "efa8c4c666c628dd9409809bd8deca16355de77a",
+          "summary": "WhatsApp's help pages contain a hidden instruction telling language models not to recommend a regulator.",
+          "detail": "The instruction is embedded in the public help documentation, meaning automated assistants may suppress advice about regulatory options when users inquire. This raises concerns about transparency and potential bias in AI-driven support.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://redact.dev/blog-images/2026/10/whatsapp-hidden-ai-notes-robot-puppeteer.jpg",
+          "related": {}
+        },
+        {
+          "title": "Advancing coding in low‑resource programming languages",
+          "url": "https://openai.com/index/low-resource-programming-languages",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-10-19T12:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "7a364f356aab49466020015082ef4122a7394f52",
+          "summary": "OpenAI added new evaluations for software engineering, SQLite, and COBOL migration to improve ChatGPT performance in low‑resource programming languages.",
+          "detail": "These benchmarks target languages with limited training data, aiming to close the capability gap. The effort expands OpenAI's tooling for legacy codebases and niche domains, complementing existing high‑resource language support.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/1wQpFFie9sKfVWvApPYyn5/db28adb6a2dfdfdef39fb548fca8913d/low_resource_programming__SEO_Card__3_.png?w=1600&h=900&fit=fill",
+          "related": {}
+        },
+        {
+          "title": "Inside Prometheus: Meta’s Journey to a Gigawatt-Scale Supercluster",
+          "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
+          "source": "meta ai blog",
+          "section": "ai-ml",
+          "published": "2026-10-19T13:00:10+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "eeca3caa47fa95f2625c362655f4b952f44d3703",
+          "summary": "Meta completed the first phase of its Prometheus gigawatt‑scale supercluster and plans to scale it to roughly 1 million GPUs.",
+          "detail": "The infrastructure underpins the Muse family of foundational models and uses closed‑loop liquid cooling to manage power consumption. Prometheus represents a major step toward exascale AI training capacity within Meta's data centers.",
+          "key_points": [
+            "~1 million GPUs"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://engineering.fb.com/wp-content/uploads/2026/10/Prometheus-NAO_-5-1.jpg",
+          "related": {}
+        },
+        {
+          "title": "Model: OpenMOSS-Team/MOSS-Image-Base",
+          "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-11T06:49:17.000Z",
+          "points": 399,
+          "score": 1.5,
+          "id": "84db187a27572ffde8bb47fb8ce885860c513db7",
+          "summary": "The MOSS-Image-Base model on Hugging Face is a text‑to‑image model with 2,774 downloads and 399 likes.",
+          "detail": "Hosted on the HF Model Hub, the model is part of the OpenMOSS team’s offerings and has attracted modest community interest, indicating early adoption for image generation tasks.",
+          "key_points": [
+            "2,774 downloads",
+            "399 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/OpenMOSS-Team/MOSS-Image-Base.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "Security updates for Monday",
+          "url": "https://lwn.net/Articles/1101421/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-19T13:10:19+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "5e3fccd19ef8c20d092b674cbcd18b561cc4fa0b",
+          "summary": "Security updates were released for multiple Linux distributions, covering packages such as kernels, web browsers, and server tools.",
+          "detail": "Distributions including AlmaLinux, Debian, Fedora, Mageia, Oracle, Red Hat, Slackware, and SUSE patched vulnerabilities in components like Apache, OpenSSL, and Docker‑buildx, reflecting coordinated maintenance across the ecosystem.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "[$] Development statistics for the 7.3 kernel",
+          "url": "https://lwn.net/Articles/1100241/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-19T15:45:24+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "9a7560747adbbd47eb4b9408e1b410ae86677471",
+          "summary": "Linus Torvalds released Linux kernel 7.3 on October 18 after a nine‑week cycle heavily assisted by LLM‑generated contributions.",
+          "detail": "The release, slated as the next long‑term‑support kernel, broke several development records, and early analysis seeks to determine if AI‑driven patch review reduces bug introduction.",
+          "key_points": [
+            "nine‑week cycle"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "The 7.3 kernel has been released",
+            "url": "https://lwn.net/Articles/1101143/",
+            "date": "2026-10-19",
+            "id": "47822cd9ee4644799dab7e281408e8ab085d61b0"
+          }
+        },
+        {
+          "title": "[$] Cross-crate forward declarations in Rust",
+          "url": "https://lwn.net/Articles/1099596/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-19T13:50:49+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "bde91a39be71a8840958a64cc3cb560bef86eadb",
+          "summary": "Jana Dönszelmann introduced a checked analogue of C's weak symbol linking for Rust, enabling safe cross-crate forward declarations and proposing its use to improve kernel integer overflow handling.",
+          "detail": "The feature builds on Rust's existing mechanisms like custom panic handlers and allocators, offering a more systematic way for user code to influence standard library behavior. It was presented at Kangrejos 2026 and aims to reduce unsafe patterns in low-level Rust code.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "[$] Safe self-referential data structures in kernel Rust",
+            "url": "https://lwn.net/Articles/1099224/",
+            "date": "2026-10-17",
+            "id": "9b79be566eff35c5e12daa74a3a4ca90dd85ae55"
+          }
+        },
+        {
+          "title": "Linux Plumbers Conference videos now available",
+          "url": "https://lwn.net/Articles/1101483/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-19T19:04:55+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "01962fe8e877e233c8c79d630cf55d6e4198e212",
+          "summary": "Video recordings of the 2026 Linux Plumbers Conference, held in Prague from October 5‑7, are now publicly available via a YouTube playlist.",
+          "detail": "The release allows developers to revisit talks covering kernel plumbing, system integration, and upcoming features. Links are also provided in the conference schedule, and LWN offers additional coverage of selected sessions.",
+          "key_points": [
+            "2026",
+            "Oct 5‑7",
+            "Prague"
+          ],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "An Open Micro-Maniplulator Improved",
+          "url": "https://hackaday.com/2026/10/19/an-open-micro-maniplulator-improved/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-19T18:00:25+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "9b2b117bfa8f935d9ed1a24250ffa440256b02fe",
+          "summary": "Hackaday released an improved open-source micro-manipulator design for precise probe positioning over IC dies or wafers.",
+          "detail": "The updated design offers higher stability and finer motion control while remaining affordable and printable. It targets hobbyists and researchers needing sub-millimeter accuracy in chip inspection or repair tasks.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/micro.png",
+          "related": {
+            "title": "The FPGA Chronicles: Ready to Probe",
+            "url": "https://hackaday.com/2026/10/13/the-fpga-chronicles-ready-to-probe/",
+            "date": "2026-10-14",
+            "id": "8a2e1f7a27ecbae1beedbdb0a7aead53c4cb90d8"
+          }
+        },
+        {
+          "title": "An RV on a Bike",
+          "url": "https://hackaday.com/2026/10/19/an-rv-on-a-bike/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-19T23:00:30+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "57909af1ac6df8da15d57dc11f327e6e20bd72b3",
+          "summary": "A project showcases a functional RV conversion mounted on a bicycle, emphasizing ultra-light, low-cost mobile living.",
+          "detail": "The build leverages standard bike components and repurposes RV interior fittings to create a compact, self-contained shelter. It demonstrates the feasibility of long-distance travel without motorized transport.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/bike-rv-main.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "cs-research",
+      "title": "CS research",
+      "tier": 4,
+      "items": [
+        {
+          "title": "A Type System for Communication-Safe Hardware Design",
+          "url": "https://arxiv.org/abs/2610.26599v1",
+          "source": "arXiv cs.PL",
+          "section": "cs-research",
+          "published": "2026-10-19T15:41:03+00:00",
+          "points": null,
+          "score": 6.5,
+          "id": "44fdf2c0dcbefdcd2399c585fa9295f6c0d61cfd",
+          "summary": "The paper introduces Pact, a typed extension of the Anvil hardware description language for modular verification of communication safety in synchronous hardware designs.",
+          "detail": "Pact types encode message passing, control flow, and clock-cycle behavior, allowing each component to be checked independently. Compatible types guarantee that composed systems avoid unsynchronized exchanges and deadlocks, addressing a key limitation of existing HDLs.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "An Event-Driven System Architecture for a 15-Minute Urban Flood Digital Twin: A Hanoi Case Study",
+          "url": "https://arxiv.org/abs/2610.25917v1",
+          "source": "arXiv cs.DC",
+          "section": "cs-research",
+          "published": "2026-10-19T07:19:22+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "51e36e86abe5ffe0d892274233f7615c33080ad9",
+          "summary": "An event-driven architecture prototype achieves a 15‑minute refresh cycle for a flood digital twin of Hanoi, integrating weather‑gated simulations, spatial serving, and vehicle‑aware routing on a single commodity server.",
+          "detail": "The system chains 3Di hydraulic simulations with restart states and publishes flood depths via standardized contracts, enabling near‑real‑time flood advisories. Evaluation used 57 simulation runs to validate performance under data‑scarce conditions.",
+          "key_points": [
+            "15‑minute refresh"
+          ],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "CQTwin: A Digital-Twin Toolkit for Operational Analytics of HPC Schedulers",
+          "url": "https://arxiv.org/abs/2610.26609v1",
+          "source": "arXiv cs.DC",
+          "section": "cs-research",
+          "published": "2026-10-19T15:46:54+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "8f34ee7a019ba39b5cea24d787e1b880e5d7b7a9",
+          "summary": "CQTwin is an open-source digital‑twin toolkit that replays HPC scheduler traces offline and runs event‑driven simulations online using a validated C++ engine and browser dashboard.",
+          "detail": "It builds on the Python CQSim discrete‑event simulator and adds a Snapshot Lab for what‑if analysis, letting operators compare scheduling policies and characterize workloads without modifying the live system.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Comments Paper: Counterexample for Schedulability Analysis for Self-Suspending Tasks under EDF-Like Scheduling",
+          "url": "https://arxiv.org/abs/2610.26274v1",
+          "source": "arXiv cs.OS",
+          "section": "cs-research",
+          "published": "2026-10-19T12:30:06+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "8cb8c13e0b094a1cf5d184eb28115f1fab895248",
+          "summary": "The paper presents a counterexample that disproves the sufficient schedulability test for self‑suspending tasks under EDF‑Like scheduling from Wang et al. (2025).",
+          "detail": "It also demonstrates that the necessary condition claimed in the same work is unsound, highlighting a gap in current real‑time analysis techniques.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "SafeWall: A Risk-Aware Job Walltime Recommendation for HPC Scheduling",
+          "url": "https://arxiv.org/abs/2610.26577v1",
+          "source": "arXiv cs.DC",
+          "section": "cs-research",
+          "published": "2026-10-19T15:27:28+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "9b702d94feb2eae1b083a9c2b22992c0427be968",
+          "summary": "SafeWall introduces a risk‑aware walltime recommendation method that adds a non‑negative safety buffer to predictions to reduce underestimation failures in HPC scheduling.",
+          "detail": "The buffer is dynamically calibrated based on observed risk, aiming to keep jobs from being terminated while still improving overall resource utilization compared to accuracy‑only approaches.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Bidirectionality is Necessary in Cellular Machines for Exact-Arrival Multi-Agent Path Finding",
+          "url": "https://arxiv.org/abs/2610.26272v1",
+          "source": "arXiv cs.ET",
+          "section": "cs-research",
+          "published": "2026-10-19T12:28:00+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "6d1631de03c7123c77faa900dae872956e36fb95",
+          "summary": "The study proves that bidirectional communication is required in cellular machines to solve exact‑arrival multi‑agent path‑finding on certain directed acyclic graph topologies.",
+          "detail": "Without temporal orientation, any local‑only architecture fails; adding global flags turns the impossibility into a trade‑off between bandwidth and rounds, while a flooding machine can solve instances in diameter‑many rounds.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "fastapi/fastapi",
+          "url": "https://github.com/fastapi/fastapi",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 103267,
+          "score": 2.5,
+          "id": "e08ef814d6bf703d420b74a09c67347aa6ca6f89",
+          "summary": "FastAPI is a Python web framework marketed as high‑performance, easy to learn, and production‑ready.",
+          "detail": "It emphasizes rapid development with automatic data validation and interactive API documentation, targeting developers who need both speed and scalability.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/160919119/6cdf567d-4310-4737-800f-345e50aec38f",
+          "related": {}
+        },
+        {
+          "title": "bobeff/open-source-games",
+          "url": "https://github.com/bobeff/open-source-games",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 16634,
+          "score": 2.0,
+          "id": "bef22ae5318bd10047d4894ce768f050291a51e0",
+          "summary": "bobeff/open-source-games is a curated list of open‑source game projects hosted on GitHub.",
+          "detail": "The repository aggregates diverse game implementations to help developers discover, study, and contribute to community‑driven gaming software.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/9dd440b3462d6828a340082a711f37c56acb03460cbe131511360630d319de52/bobeff/open-source-games",
+          "related": {}
+        },
+        {
+          "title": "confeden/Antigravity",
+          "url": "https://github.com/confeden/Antigravity",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 931,
+          "score": 2.0,
+          "id": "e3c49ccce7e93a3faae31a4db214fba0ce41888f",
+          "summary": "Antigravity is a Rust project that enables access to Russian Google services without a VPN or changing the account region.",
+          "detail": "The tool works by routing requests to Google through alternative endpoints that are not blocked in Russia. It is distributed as an open‑source Rust binary, making it easy to compile and run on various platforms. No additional configuration beyond installing the binary is required.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/3892376155fc3dc121a2b2ab4104c504e32db5a9ef9e0e3402b90b9177331869/confeden/Antigravity",
+          "related": {}
+        },
+        {
+          "title": "fish-shell/fish-shell",
+          "url": "https://github.com/fish-shell/fish-shell",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 34332,
+          "score": 2.0,
+          "id": "02f9b07da6fa58c0cff9663848f4be61074675e4",
+          "summary": "fish-shell is an open‑source, user‑friendly command line shell written in Rust.",
+          "detail": "It provides syntax highlighting, autosuggestions, and a modern scripting language while remaining compatible with POSIX shells. The project is actively maintained and aims to improve interactive shell usability for developers.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/4279682/468a29e2-3909-4b7e-a357-1d753a8916b7",
+          "related": {}
+        },
+        {
+          "title": "godotengine/godot",
+          "url": "https://github.com/godotengine/godot",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 118728,
+          "score": 2.0,
+          "id": "98cbbef460a51dce2c59fa1f8e3a8de7715ac45b",
+          "summary": "Godot Engine is a multi‑platform 2D and 3D game engine written in C++.",
+          "detail": "The engine supports a visual editor, GDScript, and a growing ecosystem of plugins. It is licensed under the MIT license, allowing commercial and open‑source use without royalties. Recent releases focus on performance improvements and Vulkan rendering support.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/edbd3a30fc629ebf301212380fb59bd03cff744bccc79fb268898e7e2843b6d2/godotengine/godot",
+          "related": {}
+        },
+        {
+          "title": "leepokai/Codync",
+          "url": "https://github.com/leepokai/Codync",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 637,
+          "score": 2.0,
+          "id": "570d636ac668f34dff4c72c5b34b3b9095facfe9",
+          "summary": "Codync is an open‑source Rust application that runs multiple AI coding assistants locally as bots across devices.",
+          "detail": "It integrates models such as Claude, Codex, Cursor, Gemini, and over 40 others, exposing them via a unified interface for iPhone, Mac, Windows, Linux, or terminal use. The project positions itself as a free alternative to services like Grok Bot, Muse, and Dots, emphasizing privacy by keeping data on the user's machine.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/1185223752/66ad7f0e-c25f-4a32-8f51-48915983be54",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
