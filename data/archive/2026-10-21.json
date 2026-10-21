@@ -1,0 +1,765 @@
+{
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T07:54:43+00:00",
+  "stats": {
+    "fetched": 212,
+    "new_after_dedupe": 157,
+    "published": 28,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 17,
+      "supported": 17,
+      "dropped": 0,
+      "unverifiable": 3,
+      "summaries_reverted": 0,
+      "rate": 1.0
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. Your AI agents just got a stricter teacher, and drones are now spying at 5 GHz.",
+    "stories": [
+      {
+        "kicker": "AI eval",
+        "headline": "GPT-6.1 matches investors 88.6% of time",
+        "body": "**Bottom line:** OpenAI’s Terminal X evaluation agent aligns with senior investor judgments 88.6% of the time, spotting a quarter more mandate deviations than before.",
+        "why": "Helps you trust LLM‑driven trading signals.",
+        "ids": [
+          "a84b6a7bee5c68a62fa1b04f99f725df56faa90e"
+        ]
+      },
+      {
+        "kicker": "Multimodal",
+        "headline": "Hybrid diffusion‑autoregressive reasoning speeds vision‑language",
+        "body": "**What’s new:** CoRAL spawns K parallel reasoning paths with a diffusion planner, then an autoregressive executor picks the best, cutting compute while staying competitive on benchmarks.",
+        "why": "You can run richer V‑L models on limited hardware.",
+        "ids": [
+          "ae1a4aef5c65fad01a3e55e90e52de8c83a698e9"
+        ]
+      },
+      {
+        "kicker": "Embedded",
+        "headline": "OpenBSD 8.0 adds arm64 hibernate, 512 GB space",
+        "body": "**System upgrade:** OpenBSD 8.0 ships arm64 hibernate support, expands the amd64 kernel address space to 512 GB, and refreshes the Qualcomm Wi‑Fi 6 driver.",
+        "why": "More headroom for embedded servers and IoT devices.",
+        "ids": [
+          "cf637d353ea8bc6fa1e578ea06e7070eac034312"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Teacher repair:** Reward‑free teacher fixes on‑policy myopia.",
+        "id": "6df7d1df47f6149a89197468913e5690838481d5"
+      },
+      {
+        "text": "**Decision benchmark:** DecisionPivot offers 48 tasks, 40k items for model diagnostics.",
+        "id": "d5bc2c69cae12eee826bcbf1a0e446837e236305"
+      },
+      {
+        "text": "**Fairness check:** FairStress probes LLM decision fairness in depth.",
+        "id": "ca293d8533a3487d56775601759d9e248992e54a"
+      },
+      {
+        "text": "**Distillation defense:** Anthropic rolls out new safeguards against model stealing.",
+        "id": "8441dda466a0cda9481c93b6d42f8604c4c7eb28"
+      },
+      {
+        "text": "**Drone video:** ESP32’s hidden SDR captures 5 GHz aerial streams.",
+        "id": "8924cba4778a559fb29c3257c779e80f09c36a25"
+      },
+      {
+        "text": "**Vision library:** OpenCV continues to dominate C++ computer‑vision tooling.",
+        "id": "2aeab48b586ec31e3523194ea09f336baf3c60b4"
+      }
+    ],
+    "number": {
+      "value": "88.6%",
+      "label": "match rate with senior investors",
+      "id": "a84b6a7bee5c68a62fa1b04f99f725df56faa90e"
+    },
+    "sign_off": "Catch you tomorrow, and keep hacking the future.",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "b79ed1ed155b59bb3c0d4587b4d7f8c26d6c3013",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2277",
+      "source": "Codeforces",
+      "starts": "2026-10-24T11:05:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sat 24 Oct 11:05 UTC"
+    },
+    {
+      "id": "99c8c118bf16bca2ebec3d749c2a8d10c10d1d2c",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2272",
+      "source": "Codeforces",
+      "starts": "2026-10-26T14:35:00+00:00",
+      "detail": "CF contest, 2.2h, starts Mon 26 Oct 14:35 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Capable Teacher, Myopic Scorer: Reward-Free Teacher Repair for Agentic On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2610.28586v1",
+      "source": "arXiv cs.CL",
+      "section": "ai-ml",
+      "published": "2026-10-20T17:40:08+00:00",
+      "points": null,
+      "score": 9.0,
+      "id": "6df7d1df47f6149a89197468913e5690838481d5",
+      "summary": "Agentic on-policy distillation suffers from teacher myopia: next-token scores let safe, delaying moves pass, causing students to run out of turns despite teacher takeovers succeeding.",
+      "detail": "Previous remedies focused on keeping training within regions where the teacher is reliable, using curricula or interventions. This work shows that even when the teacher can complete tasks after student divergence, its token-level scoring fails to penalize delayed actions, highlighting a limitation of outcome-agnostic scoring.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {
+        "title": "Reinforcement Learning with Visually Attributable On-Policy Self-Distillation",
+        "url": "https://arxiv.org/abs/2610.26856v1",
+        "date": "2026-10-20",
+        "id": "59777c07007812047d3633d135f3df5ee4e270c0"
+      }
+    },
+    {
+      "title": "Beyond the Sequentiality Bottleneck: A Hybrid Diffusion-Autoregressive Framework for Efficient Multimodal Reasoning",
+      "url": "https://arxiv.org/abs/2610.28584v1",
+      "source": "arXiv cs.AI",
+      "section": "ai-ml",
+      "published": "2026-10-20T17:39:41+00:00",
+      "points": null,
+      "score": 7.5,
+      "id": "ae1a4aef5c65fad01a3e55e90e52de8c83a698e9",
+      "summary": "CoRAL combines a diffusion planner that generates K parallel reasoning paths with an autoregressive executor that selects the best plan, achieving competitive accuracy and higher efficiency on vision‑language benchmarks.",
+      "detail": "The planner uses Reward‑Guided Denoising to incorporate outcome‑based rewards into diffusion, steering generations toward goal‑directed reasoning. The executor, a large ARM, synthesizes the final answer from the chosen plan, closing the gap between parallelism and semantic coherence.",
+      "key_points": [
+        "K parallel trajectories"
+      ],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {
+        "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
+        "url": "https://arxiv.org/abs/2610.26860v1",
+        "date": "2026-10-20",
+        "id": "747852054eef062b8fae91d9cd72d759d93f1c04"
+      }
+    },
+    {
+      "title": "DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems",
+      "url": "https://arxiv.org/abs/2610.28522v1",
+      "source": "arXiv cs.AI",
+      "section": "ai-ml",
+      "published": "2026-10-20T16:57:49+00:00",
+      "points": null,
+      "score": 7.5,
+      "id": "d5bc2c69cae12eee826bcbf1a0e446837e236305",
+      "summary": "DecisionPivot is a diagnostic benchmark with 48 tasks and 40,033 items that evaluates decision models' accuracy, contrast‑group performance, calibration, and selective coverage.",
+      "detail": "The benchmark splits into a core track (7,800 items from 13 generated families) and a reference track (32,233 items from 35 public sets). It assesses 40 decision models and 14 general models, revealing substantial gaps in reliable decision‑making across variations.",
+      "key_points": [
+        "48 tasks"
+      ],
+      "tag": "Analysis",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "url": "https://huggingface.co/blog/allenai/fairstress",
+      "source": "huggingface blog",
+      "section": "ai-ml",
+      "published": "2026-10-20T16:09:19+00:00",
+      "points": null,
+      "score": 5.5,
+      "id": "ca293d8533a3487d56775601759d9e248992e54a",
+      "summary": "FairStress provides an in‑depth evaluation of fairness in large language model decision‑making.",
+      "detail": "The Hugging Face blog post outlines a methodology for probing bias across multiple decision contexts, extending beyond standard accuracy metrics to examine disparate impact and subgroup performance.",
+      "key_points": [],
+      "tag": "News",
+      "highlight": true,
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/7zYjyTWswjO2erWsO5HNf.png",
+      "related": {}
+    },
+    {
+      "title": "Strengthening our defenses against distillation attacks",
+      "url": "https://www.anthropic.com/news/distillation-defenses",
+      "source": "Anthropic",
+      "section": "ai-ml",
+      "published": null,
+      "points": null,
+      "score": 5.0,
+      "id": "8441dda466a0cda9481c93b6d42f8604c4c7eb28",
+      "summary": "Anthropic details new defenses designed to mitigate model distillation attacks.",
+      "detail": "The announcement describes technical measures such as watermarking, query throttling, and model‑output obfuscation intended to prevent adversaries from extracting proprietary model weights via repeated inference.",
+      "key_points": [],
+      "tag": "Release",
+      "highlight": true,
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/a5934d1ae8428b2a97fae1963a5f427594fc7202-1200x630.jpg",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "Capable Teacher, Myopic Scorer: Reward-Free Teacher Repair for Agentic On-Policy Distillation",
+          "url": "https://arxiv.org/abs/2610.28586v1",
+          "source": "arXiv cs.CL",
+          "section": "ai-ml",
+          "published": "2026-10-20T17:40:08+00:00",
+          "points": null,
+          "score": 9.0,
+          "id": "6df7d1df47f6149a89197468913e5690838481d5",
+          "summary": "Agentic on-policy distillation suffers from teacher myopia: next-token scores let safe, delaying moves pass, causing students to run out of turns despite teacher takeovers succeeding.",
+          "detail": "Previous remedies focused on keeping training within regions where the teacher is reliable, using curricula or interventions. This work shows that even when the teacher can complete tasks after student divergence, its token-level scoring fails to penalize delayed actions, highlighting a limitation of outcome-agnostic scoring.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {
+            "title": "Reinforcement Learning with Visually Attributable On-Policy Self-Distillation",
+            "url": "https://arxiv.org/abs/2610.26856v1",
+            "date": "2026-10-20",
+            "id": "59777c07007812047d3633d135f3df5ee4e270c0"
+          }
+        },
+        {
+          "title": "Beyond the Sequentiality Bottleneck: A Hybrid Diffusion-Autoregressive Framework for Efficient Multimodal Reasoning",
+          "url": "https://arxiv.org/abs/2610.28584v1",
+          "source": "arXiv cs.AI",
+          "section": "ai-ml",
+          "published": "2026-10-20T17:39:41+00:00",
+          "points": null,
+          "score": 7.5,
+          "id": "ae1a4aef5c65fad01a3e55e90e52de8c83a698e9",
+          "summary": "CoRAL combines a diffusion planner that generates K parallel reasoning paths with an autoregressive executor that selects the best plan, achieving competitive accuracy and higher efficiency on vision‑language benchmarks.",
+          "detail": "The planner uses Reward‑Guided Denoising to incorporate outcome‑based rewards into diffusion, steering generations toward goal‑directed reasoning. The executor, a large ARM, synthesizes the final answer from the chosen plan, closing the gap between parallelism and semantic coherence.",
+          "key_points": [
+            "K parallel trajectories"
+          ],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {
+            "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
+            "url": "https://arxiv.org/abs/2610.26860v1",
+            "date": "2026-10-20",
+            "id": "747852054eef062b8fae91d9cd72d759d93f1c04"
+          }
+        },
+        {
+          "title": "DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems",
+          "url": "https://arxiv.org/abs/2610.28522v1",
+          "source": "arXiv cs.AI",
+          "section": "ai-ml",
+          "published": "2026-10-20T16:57:49+00:00",
+          "points": null,
+          "score": 7.5,
+          "id": "d5bc2c69cae12eee826bcbf1a0e446837e236305",
+          "summary": "DecisionPivot is a diagnostic benchmark with 48 tasks and 40,033 items that evaluates decision models' accuracy, contrast‑group performance, calibration, and selective coverage.",
+          "detail": "The benchmark splits into a core track (7,800 items from 13 generated families) and a reference track (32,233 items from 35 public sets). It assesses 40 decision models and 14 general models, revealing substantial gaps in reliable decision‑making across variations.",
+          "key_points": [
+            "48 tasks"
+          ],
+          "tag": "Analysis",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+          "url": "https://huggingface.co/blog/allenai/fairstress",
+          "source": "huggingface blog",
+          "section": "ai-ml",
+          "published": "2026-10-20T16:09:19+00:00",
+          "points": null,
+          "score": 5.5,
+          "id": "ca293d8533a3487d56775601759d9e248992e54a",
+          "summary": "FairStress provides an in‑depth evaluation of fairness in large language model decision‑making.",
+          "detail": "The Hugging Face blog post outlines a methodology for probing bias across multiple decision contexts, extending beyond standard accuracy metrics to examine disparate impact and subgroup performance.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": true,
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/7zYjyTWswjO2erWsO5HNf.png",
+          "related": {}
+        },
+        {
+          "title": "Strengthening our defenses against distillation attacks",
+          "url": "https://www.anthropic.com/news/distillation-defenses",
+          "source": "Anthropic",
+          "section": "ai-ml",
+          "published": null,
+          "points": null,
+          "score": 5.0,
+          "id": "8441dda466a0cda9481c93b6d42f8604c4c7eb28",
+          "summary": "Anthropic details new defenses designed to mitigate model distillation attacks.",
+          "detail": "The announcement describes technical measures such as watermarking, query throttling, and model‑output obfuscation intended to prevent adversaries from extracting proprietary model weights via repeated inference.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": true,
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/a5934d1ae8428b2a97fae1963a5f427594fc7202-1200x630.jpg",
+          "related": {}
+        },
+        {
+          "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+          "url": "https://openai.com/index/terminal-x",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-10-20T07:00:00+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "a84b6a7bee5c68a62fa1b04f99f725df56faa90e",
+          "summary": "OpenAI reports that Terminal X’s evaluation agent matches senior investor judgment 88.6% of the time using GPT‑6.1, detecting 25% more mandate deviations.",
+          "detail": "The Eval Agent scores outputs against a 54‑criterion rubric, improving detection of compliance breaches compared to prior evaluation methods, suggesting higher alignment of GPT‑6.1 with investment guidelines.",
+          "key_points": [
+            "88.6% match"
+          ],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/7btnUEAESJNvgHmdUPxexp/ac70fe93d02f52002ca5f146af8c7caf/Terminal-X-A-SEO-social-1920x1080.png?w=1600&h=900&fit=fill",
+          "related": {}
+        },
+        {
+          "title": "Announcements",
+          "url": "https://www.anthropic.com/news/announcements",
+          "source": "Anthropic",
+          "section": "ai-ml",
+          "published": null,
+          "points": null,
+          "score": 3.0,
+          "id": "f7f4b09850be07cd0fe29715e47e43190e6694fd",
+          "summary": "Anthropic posted an Announcements section without additional content.",
+          "detail": "The source provides a heading but no accompanying text, so no specific information or updates are available.",
+          "key_points": [],
+          "tag": "",
+          "highlight": false,
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+          "related": {}
+        },
+        {
+          "title": "Features",
+          "url": "https://www.anthropic.com/news/features",
+          "source": "Anthropic",
+          "section": "ai-ml",
+          "published": null,
+          "points": null,
+          "score": 3.0,
+          "id": "b6a7ad93b98e63595b902052cf1d95da53f07ad6",
+          "summary": "Anthropic released a Features update with no details provided.",
+          "detail": "The entry lists a title but contains no descriptive text, leaving the nature of the features unspecified.",
+          "key_points": [],
+          "tag": "",
+          "highlight": false,
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+          "related": {}
+        },
+        {
+          "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+          "url": "https://openai.com/index/ted-taylor-restaurant",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-10-20T10:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "b3fcb2e42d321123382678ef1b3ee803b99778a9",
+          "summary": "A Schlotzsky’s and Cinnabon franchisee reduced menu repricing time by 95% using a ChatGPT workflow, potentially freeing $100K cash flow.",
+          "detail": "The workflow automates price updates across the menu, cutting manual effort dramatically. This efficiency gain translates into significant operational savings and faster response to market changes.",
+          "key_points": [
+            "95% time reduction",
+            "$100K cash flow"
+          ],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/6r0aKM9KAloDNT979EYd6j/958b4b872830668c232730e99caa3f9e/ted-taylor-restaurant-social.png?w=1600&h=900&fit=fill",
+          "related": {}
+        },
+        {
+          "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+          "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+          "source": "huggingface blog",
+          "section": "ai-ml",
+          "published": "2026-10-20T15:19:48+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "94e7f4f5c0e52bb75e66cbfeaab71589104be947",
+          "summary": "ALTK‑Evolve achieved top performance on the τ²‑bench customer service leaderboard using learned memory without a frontier model.",
+          "detail": "The approach leverages a memory‑augmented architecture to surpass larger models on specific tasks. It demonstrates that specialized memory mechanisms can replace scale‑based improvements in certain domains.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/rzXYJh7e7UdoYgCLwOZjH.jpeg",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "5 GHz Drone Video, With An ESP32",
+          "url": "https://hackaday.com/2026/10/20/5-ghz-drone-video-with-an-esp32/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-21T05:00:05+00:00",
+          "points": null,
+          "score": 4.5,
+          "id": "8924cba4778a559fb29c3257c779e80f09c36a25",
+          "summary": "Hackaday reports a project using an ESP32’s hidden SDR to capture 5 GHz drone video.",
+          "detail": "The ESP32 series now reveals software‑defined radio capabilities, enabling hobbyists to process high‑frequency video streams. The project showcases practical use of this newfound feature for drone footage.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/espr2-fmrx-featured.jpg",
+          "related": {
+            "title": "ESP-SDR Can Now Transmit",
+            "url": "https://hackaday.com/2026/10/13/esp-sdr-can-now-transmit/",
+            "date": "2026-10-14",
+            "id": "203af5d28304bff096816060d72954bbdd346aa3"
+          }
+        },
+        {
+          "title": "OpenBSD 8.0 released",
+          "url": "https://lwn.net/Articles/1101536/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-20T13:07:14+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "cf637d353ea8bc6fa1e578ea06e7070eac034312",
+          "summary": "OpenBSD 8.0 released, adding arm64 hibernate, 512 GB amd64 kernel address space, and Qualcomm Wi‑Fi 6 driver improvements.",
+          "detail": "The new version expands virtual memory limits for amd64 platforms and introduces power‑saving hibernate support on ARM64 devices. Additional driver updates enhance stability and performance for modern Wi‑Fi hardware.",
+          "key_points": [
+            "arm64 hibernate",
+            "512 GB address space",
+            "Qualcomm Wi‑Fi 6 driver"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "[$] Discussing a rewrite of XArray",
+          "url": "https://lwn.net/Articles/1100520/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-20T15:46:37+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "2ed29ef8b35fa9208a9bf113deb2f5441918c203",
+          "summary": "Kernel developer Daniel Gomez proposed rewriting XArray data structures in Rust to reduce bugs, citing potential security and performance gains.",
+          "detail": "The discussion took place at Kangrejos 2026, where kernel developers expressed caution about replacing the mature XArray code. Rust's safety guarantees are seen as a way to mitigate bugs in the complex XFS block‑size handling.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "[$] Safe self-referential data structures in kernel Rust",
+            "url": "https://lwn.net/Articles/1099224/",
+            "date": "2026-10-17",
+            "id": "9b79be566eff35c5e12daa74a3a4ca90dd85ae55"
+          }
+        },
+        {
+          "title": "[$] SUSE's efforts to disable setuid system-wide",
+          "url": "https://lwn.net/Articles/1100257/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-20T18:36:10+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "f0d466a7f367bac0fe2827b519650d37047a8fe2",
+          "summary": "SUSE security lead Thorsten Kukuk advocated disabling setuid and setgid binaries across the entire system.",
+          "detail": "At the 2026 All Systems Go! conference he outlined the challenges of removing these legacy mechanisms, which are traditionally avoided but still present in many packages unless explicitly approved.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "eMudhra intermediate CA compromise",
+          "url": "https://lwn.net/Articles/1101643/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-20T14:56:23+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "d0870d58da44fc72e6586c7735846a9b9f226b41",
+          "summary": "Mozilla reported that private keys for eight eMudhra intermediate certificates were compromised and revoked them via OneCRL and NSS 3.131.1.",
+          "detail": "The compromised keys could enable fraudulent HTTPS certificates. Chrome blocked the certificates on October 17, Apple on the 19th, and Microsoft on the 20th, mitigating the risk across major browsers.",
+          "key_points": [
+            "8 certificates",
+            "NSS 3.131.1",
+            "Chrome blocked Oct 17"
+          ],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Going Whole-Hog on a First Satellite Ground Station",
+          "url": "https://hackaday.com/2026/10/20/going-whole-hog-on-a-first-satellite-ground-station/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-20T20:00:21+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "60064ab6f6ce5dd57547ea2d470d8c37e65bfde0",
+          "summary": "A Hackaday article describes building a full‑featured ground station for receiving satellite signals.",
+          "detail": "The piece contrasts quick‑and‑dirty Yagi setups with a more comprehensive approach, covering hardware choices and software integration for continuous satellite communication.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/satellite-main.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "cs-research",
+      "title": "CS research",
+      "tier": 4,
+      "items": [
+        {
+          "title": "2026 is an exciting year for the Rust compiler (and me)",
+          "url": "https://yoyo-code.com/2026-is-exciting-year-for-rust-compiler-and-me/",
+          "source": "Hacker News",
+          "section": "cs-research",
+          "published": "2026-10-20T13:53:48+00:00",
+          "points": 177,
+          "score": 4.0,
+          "id": "fa355b2fea6d055892ca1a1f546fbb5a6aaa4060",
+          "summary": "A Hacker News post notes that 2026 is expected to be a significant year for the Rust compiler.",
+          "detail": "The author anticipates major improvements and personal milestones in Rust development, though specific features or releases were not detailed in the post.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "SWatcher+: A Holistic Approach to Deploying Learned Cardinality Estimators in a Dynamic Setting",
+          "url": "https://arxiv.org/abs/2610.28270v1",
+          "source": "arXiv cs.DB",
+          "section": "cs-research",
+          "published": "2026-10-20T14:25:41+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "30dc1b1c85a56a81d5d519499bee91a33f6b75f9",
+          "summary": "The SWatcher+ framework adapts learned cardinality estimators to dynamic database workloads by monitoring high‑impact subqueries and applying on‑the‑fly corrections.",
+          "detail": "By focusing on queries where estimation errors hurt plan performance, SWatcher+ reduces the need for costly full model retraining while balancing monitoring overhead.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "JetStream: Generating Verified Query Accelerators for Existing Database Systems",
+            "url": "https://arxiv.org/abs/2610.20527v1",
+            "date": "2026-10-15",
+            "id": "ae315e177465cbae1904dd329678b4c8ba5d23c4"
+          }
+        },
+        {
+          "title": "Evaluating Runtime Prediction and Conservative Walltime Policies in HPC Systems",
+          "url": "https://arxiv.org/abs/2610.27755v1",
+          "source": "arXiv cs.DC",
+          "section": "cs-research",
+          "published": "2026-10-20T07:18:44+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "eb6d05f99938279e1978ace298442126baa114d9",
+          "summary": "The SAFE decision layer converts predicted runtimes into conservative walltime recommendations, evaluated on Fugaku (≈24 M jobs) and NREL Eagle (≈11 M jobs) production histories.",
+          "detail": "The framework treats runtime prediction as a modular component, allowing any predictor to be used. It aims to reduce overestimation that harms scheduling efficiency. Experiments show the decision layer improves resource utilization without needing a new predictor model.",
+          "key_points": [
+            "24M jobs",
+            "11M jobs"
+          ],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "SafeWall: A Risk-Aware Job Walltime Recommendation for HPC Scheduling",
+            "url": "https://arxiv.org/abs/2610.26577v1",
+            "date": "2026-10-20",
+            "id": "9b702d94feb2eae1b083a9c2b22992c0427be968"
+          }
+        },
+        {
+          "title": "Local Inference of LLMs on Long Contexts: A Data Systems Perspective",
+          "url": "https://arxiv.org/abs/2610.28223v1",
+          "source": "arXiv cs.DB",
+          "section": "cs-research",
+          "published": "2026-10-20T13:56:12+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "c3d9cbd20943ff710fd4d5b6bab65fa7a4cad565",
+          "summary": "The paper analyzes why serving long‑context LLMs on a single GPU locally is limited beyond model size, questioning the need for compression.",
+          "detail": "It examines memory, bandwidth, and algorithmic constraints across several models, rather than profiling a single model. Findings highlight trade‑offs between context length and latency, informing design of more efficient local inference pipelines.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "Scaling LLM Inference via Parallelism: Throughput-Latency Trade-off",
+            "url": "https://arxiv.org/abs/2610.19405v1",
+            "date": "2026-10-15",
+            "id": "d4dd3fe93d03c59dc6b7680e65901b96191d39c3"
+          }
+        },
+        {
+          "title": "Record Types Everywhere",
+          "url": "https://arxiv.org/abs/2610.27519v1",
+          "source": "arXiv cs.PL",
+          "section": "cs-research",
+          "published": "2026-10-20T02:34:12+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "f403098d7fdb5fc67e3e902f7a047f7b7c684826",
+          "summary": "A new calculus models first‑class environments and function application using standard record types, fully mechanized in Lean 4 with proofs of soundness and normalization.",
+          "detail": "The design extends general record types and includes mutable references, enabling a simple yet principled approach. An interpreter verified against the operational semantics demonstrates practical applicability of the theory.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Unsupervised Head Network Personalization for Split Computing via Federated Learning",
+          "url": "https://arxiv.org/abs/2610.27952v1",
+          "source": "arXiv cs.LG",
+          "section": "cs-research",
+          "published": "2026-10-20T09:57:52+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "ad2f10e038fe82416a2edbf474692b16550798f1",
+          "summary": "A federated learning and knowledge distillation method trains head networks for split computing without requiring large labeled datasets on mobile devices.",
+          "detail": "The approach reduces communication and computation load on the device while preserving privacy, enabling more efficient distributed inference. Experiments show comparable accuracy to centrally trained heads with significantly less labeled data.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "opencv/opencv",
+          "url": "https://github.com/opencv/opencv",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 91266,
+          "score": 2.5,
+          "id": "2aeab48b586ec31e3523194ea09f336baf3c60b4",
+          "summary": "OpenCV is an open‑source computer‑vision library written in C++ providing a wide range of image and video processing functions.",
+          "detail": "The library is cross‑platform, supports hardware acceleration, and is widely used in research and industry for tasks such as object detection, face recognition, and augmented reality.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/cf2dfad45f4190fc0d8714924cf59166d4d2ce02bd83fb0398090399d434b9f6/opencv/opencv",
+          "related": {}
+        },
+        {
+          "title": "0x23/MicroManipulatorStepper",
+          "url": "https://github.com/0x23/MicroManipulatorStepper",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 2189,
+          "score": 2.0,
+          "id": "fcc34260855a04c1ebaf728dbebda0c6a75cf625",
+          "summary": "MicroManipulatorStepper is a C++ project offering a sub‑micrometer 3D motion‑control platform for precision positioning.",
+          "detail": "It provides hardware‑agnostic stepper control code and examples, targeting applications like microscopy, micro‑assembly, and research instrumentation where nanometer‑scale movement is required.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/dff99241ff01265fe3acf436bbc59c37c44997a04dbfded048d6290c6ec6dca6/0x23/MicroManipulatorStepper",
+          "related": {}
+        },
+        {
+          "title": "Jamailar/Beav",
+          "url": "https://github.com/Jamailar/Beav",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 2102,
+          "score": 2.0,
+          "id": "3da12787c0f6f9e84652333d9b9b1a613971f25f",
+          "summary": "Beav is an AI operations toolkit for Xiaohongshu that bundles content collection, comment downloading, media library, topic selection, AI writing, and automatic image layout into a one‑click installable package.",
+          "detail": "The suite integrates a Xiaohongshu‑specific OpenClaw scraper, a media asset base, and AI‑assisted creation tools, supporting both text and image generation. It also includes utilities for other platforms like Douyin and generic web crawling, aiming to streamline self‑media workflows.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/995842113/17555a04-730f-4082-8cd4-dbb4dd6ae5d3",
+          "related": {}
+        },
+        {
+          "title": "ModernRelay/omnigraph",
+          "url": "https://github.com/ModernRelay/omnigraph",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 1553,
+          "score": 2.0,
+          "id": "90001a3908890588c908876ef88a3f13be393121",
+          "summary": "Omnigraph is a graph database built to run directly on object storage, offering native branching and a typed ontology model.",
+          "detail": "By leveraging object‑storage APIs, the system avoids traditional server‑side graph engines, enabling scalable versioned graph structures. Typed ontologies allow schema enforcement, while branching supports experimental data without affecting the main graph.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/d3ecc4cc67b11d7f6611bdaa34b431a1120e6c6f9e03906f5e6b3c40783b3954/ModernRelay/omnigraph",
+          "related": {}
+        },
+        {
+          "title": "abus-aikorea/voice-pro",
+          "url": "https://github.com/abus-aikorea/voice-pro",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 13288,
+          "score": 2.0,
+          "id": "86f68b212c0d925fede9b5a41702f2bcfcb6399f",
+          "summary": "Voice‑Pro provides a Gradio WebUI that combines TTS engines (Edge‑TTS, kokoro) with zero‑shot voice cloning (E2, F5‑TTS, CosyVoice) and Whisper‑based audio processing.",
+          "detail": "The interface also supports YouTube video download, Demucs vocal isolation, and multilingual translation, targeting creators and developers who need an all‑in‑one speech synthesis and processing pipeline.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/835174033/a5a09559-8c29-4152-a7ac-f30774226d19",
+          "related": {}
+        },
+        {
+          "title": "fabio-rovai/open-ontologies",
+          "url": "https://github.com/fabio-rovai/open-ontologies",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 1173,
+          "score": 2.0,
+          "id": "023d7939b0ab74eac265ffafbdfdfd6a2e7b4242",
+          "summary": "Open‑Ontologies lets users plan, apply, and roll back changes to production ontologies while generating a blast‑radius report and auditable proof.",
+          "detail": "The tool tracks modifications, estimates impact across dependent data, and produces documentation that auditors can verify, facilitating safer ontology evolution in enterprise settings.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/66158b9c11121e18242a36b8c6790be5677ca289ebf76d9299b88755e3867c8b/fabio-rovai/open-ontologies",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
