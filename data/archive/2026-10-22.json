@@ -1,0 +1,767 @@
+{
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T07:51:28+00:00",
+  "stats": {
+    "fetched": 215,
+    "new_after_dedupe": 162,
+    "published": 28,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 23,
+      "supported": 22,
+      "dropped": 0,
+      "unverifiable": 1,
+      "summaries_reverted": 1,
+      "rate": 0.9565
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. Your nightly feed includes a trust‑region tweak that actually respects KL, a Rust driver that can’t quit, and a storage planner that finally reads between the lines.",
+    "stories": [
+      {
+        "kicker": "AI Trust",
+        "headline": "Exact‑KL clipping reshapes LLM policy",
+        "body": "**New trust‑region trick:** EPIC treats autoregressive LLM generation as a finite‑horizon MDP and applies exact‑KL prefix importance‑ratio clipping for PPO‑style optimization. The result is tighter policy updates without the usual surprise crashes.",
+        "why": "More stable fine‑tuning means fewer wasted GPU hours for LLM engineers.",
+        "ids": [
+          "48993a651f59907d4fbdbf86450113343d80967a"
+        ]
+      },
+      {
+        "kicker": "Embedded",
+        "headline": "Rust driver rewrites keep Mali GPU alive",
+        "body": "**Kernel Rust overhaul:** Collabora reports the Tyr driver for Arm Mali GPUs has been repeatedly rewritten to match the fast‑moving Rust kernel abstractions. Each rewrite brings safer memory handling to the graphics stack.",
+        "why": "Shows Rust is maturing as a first‑class language for performance‑critical drivers.",
+        "ids": [
+          "9a6ba7b081540c150458359885a543d1f65c4181"
+        ]
+      },
+      {
+        "kicker": "Storage",
+        "headline": "Workload‑aware planner slashes vector query chatter",
+        "body": "**Byte‑range grouping:** WaRP adds a request planner that clusters byte‑range reads for vector search on object storage, cutting per‑query request overhead. It adapts to the actual workload pattern instead of a one‑size‑fits‑all approach.",
+        "why": "Lower request count translates to faster, cheaper vector retrieval for ML services.",
+        "ids": [
+          "295dcc99b533ee7e3b73e978421dddb02b7e5588"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Cost cut:** Specializing vocab trims inference by 77%.",
+        "id": "354f89a6c7dbf10c9b4005276656d6e23bc0b97a"
+      },
+      {
+        "text": "**Benchmark twist:** Solving strength doesn’t predict LLM authoring.",
+        "id": "af0f241f8166827fb02ed75258a3899de3015e80"
+      },
+      {
+        "text": "**Chart tricks:** New probe suite offers 200 analysis tasks.",
+        "id": "c418d8f1fa839b2b9e7d919cb142cfcba869f9de"
+      },
+      {
+        "text": "**Ad stack:** ChatGPT separates ads, uses LLM intent inference.",
+        "id": "edef63b51aedc0121d1aea11f9472c530dce47d4"
+      },
+      {
+        "text": "**Integrity patch:** Hash‑based module checks aid reproducible builds.",
+        "id": "6f436e206df60a0d34e6e9664c01a95118371493"
+      }
+    ],
+    "number": {
+      "value": "77%",
+      "label": "Inference cost reduction from vocab specialization",
+      "id": "354f89a6c7dbf10c9b4005276656d6e23bc0b97a"
+    },
+    "sign_off": "Catch you tomorrow, code wizard (wink)",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "b79ed1ed155b59bb3c0d4587b4d7f8c26d6c3013",
+      "title": "Codeforces Round 1129 (Div. 2)",
+      "url": "https://codeforces.com/contests/2277",
+      "source": "Codeforces",
+      "starts": "2026-10-24T11:05:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sat 24 Oct 11:05 UTC"
+    },
+    {
+      "id": "99c8c118bf16bca2ebec3d749c2a8d10c10d1d2c",
+      "title": "Codeforces Round 1130 (Div. 2)",
+      "url": "https://codeforces.com/contests/2272",
+      "source": "Codeforces",
+      "starts": "2026-10-26T14:35:00+00:00",
+      "detail": "CF contest, 2.2h, starts Mon 26 Oct 14:35 UTC"
+    },
+    {
+      "id": "25e63b82e201c28b19194f893837789ad67218aa",
+      "title": "Codeforces Round 1131 (Div. 3)",
+      "url": "https://codeforces.com/contests/2278",
+      "source": "Codeforces",
+      "starts": "2026-10-31T14:35:00+00:00",
+      "detail": "ICPC contest, 2.2h, starts Sat 31 Oct 14:35 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "EPIC: Rethinking Trust Regions for Autoregressive LLM Policies via Exact-KL Prefix Importance-Ratio Clipping",
+      "url": "https://arxiv.org/abs/2610.29999v1",
+      "source": "arXiv cs.LG",
+      "section": "ai-ml",
+      "published": "2026-10-21T16:37:09+00:00",
+      "points": null,
+      "score": 8.0,
+      "id": "48993a651f59907d4fbdbf86450113343d80967a",
+      "summary": "EPIC reformulates autoregressive LLM generation as a finite‑horizon MDP and introduces exact‑KL prefix importance‑ratio clipping for PPO‑style trust‑region policy optimization.",
+      "detail": "The method derives a performance‑difference identity under behavior‑policy sampling, identifying the cumulative likelihood ratio of the generated prefix as the exact importance weight for each stepwise improvement term. This addresses the mismatch of token‑level clipping in long‑response and off‑policy training, aiming for monotonic policy improvement.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "Environment Duels: A Microcosm of LLM Co-Evolution",
+      "url": "https://arxiv.org/abs/2610.30116v1",
+      "source": "arXiv cs.CL",
+      "section": "ai-ml",
+      "published": "2026-10-21T17:55:31+00:00",
+      "points": null,
+      "score": 7.5,
+      "id": "af0f241f8166827fb02ed75258a3899de3015e80",
+      "summary": "Environment Duels benchmark evaluates nine frontier LLMs on both environment authoring and solving, revealing that solving strength does not predict authoring ability.",
+      "detail": "Models generate environments with privileged hints; solvers must use hints to succeed. Smaller models tend to learn more from others' play and create the hardest environments with the most useful hints. The benchmark highlights distinct skill sets and interaction dynamics among LLMs.",
+      "key_points": [
+        "9 frontier LLMs"
+      ],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "Charts as Epistemic Actions for Experience-Driven Agentic Data Analysis",
+      "url": "https://arxiv.org/abs/2610.30072v1",
+      "source": "arXiv cs.AI",
+      "section": "ai-ml",
+      "published": "2026-10-21T17:26:53+00:00",
+      "points": null,
+      "score": 7.0,
+      "id": "c418d8f1fa839b2b9e7d919cb142cfcba869f9de",
+      "summary": "The study introduces <probe>, a suite of 200 tasks to test whether data agents can use charts as internal epistemic actions during analysis.",
+      "detail": "Agents achieve comparable scores using self‑generated charts versus numeric output, but mere access to plotting does not ensure consistent use. Performance gaps persist between reading and choosing to use charts, with charts aiding temporal, pattern, and anomaly reasoning, while text excels at precise reading.",
+      "key_points": [
+        "200 controlled tasks"
+      ],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {
+        "title": "Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict",
+        "url": "https://arxiv.org/abs/2610.12360v1",
+        "date": "2026-10-09",
+        "id": "71bfef6e482616886184bb34ddc4b1665ac9e7ed"
+      }
+    },
+    {
+      "title": "Upstreaming Tyr: Rust, DRM, and the Linux Kernel (Collabora)",
+      "url": "https://lwn.net/Articles/1102024/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-10-21T14:58:56+00:00",
+      "points": null,
+      "score": 5.5,
+      "id": "9a6ba7b081540c150458359885a543d1f65c4181",
+      "summary": "Collabora reported that the Tyr driver for Arm Mali GPUs has been repeatedly rewritten to keep pace with evolving Rust kernel abstractions.",
+      "detail": "The ongoing revisions slow development but allow Tyr to surface requirements and limitations of the new Rust APIs, helping shape future kernel driver interfaces.",
+      "key_points": [],
+      "tag": "Analysis",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "WaRP: Workload-Aware Request Planning for Vector Retrieval on Object Storage",
+      "url": "https://arxiv.org/abs/2610.29689v1",
+      "source": "arXiv cs.DB",
+      "section": "cs-research",
+      "published": "2026-10-21T13:01:30+00:00",
+      "points": null,
+      "score": 5.0,
+      "id": "295dcc99b533ee7e3b73e978421dddb02b7e5588",
+      "summary": "WaRP introduces a workload‑aware request planner that optimally groups byte‑range reads for vector search on object storage, reducing per‑query request overhead.",
+      "detail": "By formulating request grouping as a global per‑query optimization and respecting a configurable request limit, WaRP improves latency and cost compared to static gap‑based coalescing methods used in existing systems.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "EPIC: Rethinking Trust Regions for Autoregressive LLM Policies via Exact-KL Prefix Importance-Ratio Clipping",
+          "url": "https://arxiv.org/abs/2610.29999v1",
+          "source": "arXiv cs.LG",
+          "section": "ai-ml",
+          "published": "2026-10-21T16:37:09+00:00",
+          "points": null,
+          "score": 8.0,
+          "id": "48993a651f59907d4fbdbf86450113343d80967a",
+          "summary": "EPIC reformulates autoregressive LLM generation as a finite‑horizon MDP and introduces exact‑KL prefix importance‑ratio clipping for PPO‑style trust‑region policy optimization.",
+          "detail": "The method derives a performance‑difference identity under behavior‑policy sampling, identifying the cumulative likelihood ratio of the generated prefix as the exact importance weight for each stepwise improvement term. This addresses the mismatch of token‑level clipping in long‑response and off‑policy training, aiming for monotonic policy improvement.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Environment Duels: A Microcosm of LLM Co-Evolution",
+          "url": "https://arxiv.org/abs/2610.30116v1",
+          "source": "arXiv cs.CL",
+          "section": "ai-ml",
+          "published": "2026-10-21T17:55:31+00:00",
+          "points": null,
+          "score": 7.5,
+          "id": "af0f241f8166827fb02ed75258a3899de3015e80",
+          "summary": "Environment Duels benchmark evaluates nine frontier LLMs on both environment authoring and solving, revealing that solving strength does not predict authoring ability.",
+          "detail": "Models generate environments with privileged hints; solvers must use hints to succeed. Smaller models tend to learn more from others' play and create the hardest environments with the most useful hints. The benchmark highlights distinct skill sets and interaction dynamics among LLMs.",
+          "key_points": [
+            "9 frontier LLMs"
+          ],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Charts as Epistemic Actions for Experience-Driven Agentic Data Analysis",
+          "url": "https://arxiv.org/abs/2610.30072v1",
+          "source": "arXiv cs.AI",
+          "section": "ai-ml",
+          "published": "2026-10-21T17:26:53+00:00",
+          "points": null,
+          "score": 7.0,
+          "id": "c418d8f1fa839b2b9e7d919cb142cfcba869f9de",
+          "summary": "The study introduces <probe>, a suite of 200 tasks to test whether data agents can use charts as internal epistemic actions during analysis.",
+          "detail": "Agents achieve comparable scores using self‑generated charts versus numeric output, but mere access to plotting does not ensure consistent use. Performance gaps persist between reading and choosing to use charts, with charts aiding temporal, pattern, and anomaly reasoning, while text excels at precise reading.",
+          "key_points": [
+            "200 controlled tasks"
+          ],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {
+            "title": "Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict",
+            "url": "https://arxiv.org/abs/2610.12360v1",
+            "date": "2026-10-09",
+            "id": "71bfef6e482616886184bb34ddc4b1665ac9e7ed"
+          }
+        },
+        {
+          "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+          "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+          "source": "huggingface blog",
+          "section": "ai-ml",
+          "published": "2026-10-21T17:35:36+00:00",
+          "points": null,
+          "score": 4.5,
+          "id": "354f89a6c7dbf10c9b4005276656d6e23bc0b97a",
+          "summary": "A Hugging Face blog post claims that specializing the vocabulary of small language models can reduce inference cost by 77% in real applications.",
+          "detail": "The article discusses techniques for tailoring token vocabularies to specific domains, leading to substantial computational savings while maintaining performance. It provides examples of deployment scenarios where the cost reduction is realized.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/OWGtXjnbBov-7SI_04o4z.png",
+          "related": {}
+        },
+        {
+          "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+          "url": "https://openai.com/index/building-chatgpt-ad-stack",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-10-21T07:00:00+00:00",
+          "points": null,
+          "score": 4.5,
+          "id": "edef63b51aedc0121d1aea11f9472c530dce47d4",
+          "summary": "OpenAI describes the architecture of ChatGPT’s ad stack, which separates ads from model answers and uses LLMs to infer conversational intent for scalable relevance.",
+          "detail": "The system processes user queries to detect intent, matches ads without contaminating the response, and enforces trust safeguards. It outlines the workflow for serving ads at scale while preserving user experience.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/GsY5RrFvT4ZOnPC3oZUya/e3168194d55c5d9c8060ce5c5ba6c3ed/building-chatgpt-ad-stack-social.png?w=1600&h=900&fit=fill",
+          "related": {
+            "title": "Advancing coding in low‑resource programming languages",
+            "url": "https://openai.com/index/low-resource-programming-languages",
+            "date": "2026-10-20",
+            "id": "7a364f356aab49466020015082ef4122a7394f52"
+          }
+        },
+        {
+          "title": "Broad access through consistent standards",
+          "url": "https://openai.com/index/broad-access-through-consistent-standards",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-10-21T21:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "2ed22a61b2f19a0c8004f80b27de018cfecd7ddb",
+          "summary": "OpenAI outlines its partnership approach for broad access, emphasizing consistent safeguards, responsible usage policies, and standardized expectations across distribution partners.",
+          "detail": "The blog details how OpenAI collaborates with partners to enforce usage policies, maintain safety standards, and provide clear guidelines for developers integrating its models, aiming for uniform protection and trust.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/7hrvP09oiCE5WV3cXxae4u/7154e71ae6c6e9d4c8306c4d1843e5bf/broad-access-through-consistent-standards-social.png?w=1600&h=900&fit=fill",
+          "related": {}
+        },
+        {
+          "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+          "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-10-21T13:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "74fcf21eca7add4a8265b1181e42f31fbfb429bc",
+          "summary": "ChatGPT Ads is now available in 26 new countries, bringing the platform to over 100,000 advertisers worldwide.",
+          "detail": "The expansion lets local businesses and global brands reach users during the purchase decision process inside ChatGPT. OpenAI highlighted the growth as part of its broader monetization strategy, but did not disclose pricing changes.",
+          "key_points": [
+            "26 new countries",
+            "100,000 advertisers"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/6Fq2uj7xCpKHENjyeojn9c/d3771e7cecdfb77c28c7560de9413de1/chatgpt-ads-expands-26-new-countries-social.png?w=1600&h=900&fit=fill",
+          "related": {}
+        },
+        {
+          "title": "Partnerships",
+          "url": "https://www.anthropic.com/news/partnerships",
+          "source": "Anthropic",
+          "section": "ai-ml",
+          "published": null,
+          "points": null,
+          "score": 3.0,
+          "id": "8abc011979e3d51d3097e3f3366dbe21b9577a4b",
+          "summary": "Anthropic announced new partnerships.",
+          "detail": "The brief announcement did not list partner names or specific collaboration areas, leaving details to be revealed later.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+          "related": {
+            "title": "Introducing the Anthropic Cyber Mission",
+            "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+            "date": "2026-10-09",
+            "id": "77b3f0b977bcd0cf8a3ea095450042b41a6ee975"
+          }
+        },
+        {
+          "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+          "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+          "source": "Anthropic",
+          "section": "ai-ml",
+          "published": null,
+          "points": null,
+          "score": 3.0,
+          "id": "fac04cd6a26e55f358249f4dcb3d9e9dffdb940d",
+          "summary": "Physicist Christopher Stubbs joined Anthropic's Long-Term Benefit Trust.",
+          "detail": "Stubbs' involvement is intended to support Anthropic's governance and long-term safety goals, though the announcement provides no further specifics on his role.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+          "related": {}
+        },
+        {
+          "title": "Safeguards",
+          "url": "https://www.anthropic.com/news/safeguards",
+          "source": "Anthropic",
+          "section": "ai-ml",
+          "published": null,
+          "points": null,
+          "score": 3.0,
+          "id": "f1be5a7a9a1b722239a46ee84ba35bc97db01b03",
+          "summary": "Anthropic released new safeguards for its AI systems.",
+          "detail": "The safeguards aim to improve model alignment and user safety, but the release contains no quantitative metrics or rollout timeline.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "Upstreaming Tyr: Rust, DRM, and the Linux Kernel (Collabora)",
+          "url": "https://lwn.net/Articles/1102024/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-21T14:58:56+00:00",
+          "points": null,
+          "score": 5.5,
+          "id": "9a6ba7b081540c150458359885a543d1f65c4181",
+          "summary": "Collabora reported that the Tyr driver for Arm Mali GPUs has been repeatedly rewritten to keep pace with evolving Rust kernel abstractions.",
+          "detail": "The ongoing revisions slow development but allow Tyr to surface requirements and limitations of the new Rust APIs, helping shape future kernel driver interfaces.",
+          "key_points": [],
+          "tag": "Analysis",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "[$] Hash-based module integrity for reproducible distributions",
+          "url": "https://lwn.net/Articles/1100026/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-21T16:14:55+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "6f436e206df60a0d34e6e9664c01a95118371493",
+          "summary": "At the 2026 Linux Plumbers Conference, Thomas Weißschuh presented updated hash‑based integrity patches for kernel modules that preserve reproducible builds.",
+          "detail": "The patches add cryptographic verification while maintaining deterministic builds, addressing concerns raised in earlier reviews. Weißschuh also outlined potential extensions for broader module signing support.",
+          "key_points": [
+            "2026 Linux Plumbers Conference"
+          ],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "[$] Safe self-referential data structures in kernel Rust",
+            "url": "https://lwn.net/Articles/1099224/",
+            "date": "2026-10-17",
+            "id": "9b79be566eff35c5e12daa74a3a4ca90dd85ae55"
+          }
+        },
+        {
+          "title": "[$] LWN.net Weekly Edition for October 22, 2026",
+          "url": "https://lwn.net/Articles/1100612/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-22T00:29:22+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "2d88ca7bd0f8afbb78bc4eae92e2e8cfdb09a3ef",
+          "summary": "LWN.net Weekly Edition for October 22, 2026 aggregates news on Android vendor hooks, reproducible builds, Rust kernel data structures, NFS server updates, and other Linux kernel topics.",
+          "detail": "The edition lists brief items such as the eMudhra CA compromise, PHP and Node.js vulnerabilities, GNOME OS, OpenBSD 8.0, Ubuntu 26.10, and upcoming conference announcements, providing a quick scan of the week’s security and development landscape.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "Security updates for Tuesday",
+            "url": "https://lwn.net/Articles/1100181/",
+            "date": "2026-10-14",
+            "id": "1292fdf298d0124735a5096465aedb5e00151b14"
+          }
+        },
+        {
+          "title": "Four stable kernels for Wednesday",
+          "url": "https://lwn.net/Articles/1101758/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-21T13:24:25+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "e13fe8eecb987560fa40fda2d036a07f7f4147d4",
+          "summary": "Greg Kroah‑Hartman released four Linux stable kernels: 7.2.12, 6.18.58, 6.12.114, and 6.6.160, each containing multiple important fixes.",
+          "detail": "These updates address security regressions and bug fixes accumulated since the prior stable releases. Users are encouraged to upgrade promptly to benefit from the patches and maintain system integrity.",
+          "key_points": [
+            "7.2.12",
+            "6.18.58",
+            "6.12.114"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "Seven stable kernels for Thursday with fix for critical vulnerability",
+            "url": "https://lwn.net/Articles/1100611/",
+            "date": "2026-10-16",
+            "id": "9a8257e81b9a6d6f25701e26cd573005a6461886"
+          }
+        },
+        {
+          "title": "More vulnerabilities in widely deployed software",
+          "url": "https://lwn.net/Articles/1102044/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-21T17:09:24+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "1f0065db775ebb7fae137cf9ad2fb21e345ec297",
+          "summary": "Node.js issued updates fixing a remote‑code‑execution bug in Brotli compression, and musl libc disclosed an out‑of‑bounds write that could lead to remote code execution.",
+          "detail": "The Node.js RCE affects any application using Brotli‑enabled modules, while the musl issue is a memory safety flaw that has not yet been demonstrated in the wild. Both projects released patches to mitigate the risks.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "PHP patches released for two critical RCEs",
+          "url": "https://lwn.net/Articles/1102014/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-21T13:53:18+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "e9b64906d782b7ba42ab7720faae049b7fae85c8",
+          "summary": "PHP released versions 8.5.12, 8.4.27, 8.3.36, and 8.2.35 to patch two critical unauthenticated RCE vulnerabilities (CVE‑2026‑109618 and CVE‑2026‑109619).",
+          "detail": "The first flaw exploits out‑of‑memory handling to corrupt request data; the second allows stale global state to survive after memory free. All PHP deployments, especially mod_php, are urged to upgrade immediately.",
+          "key_points": [
+            "PHP 8.5.12",
+            "CVE‑2026‑109618",
+            "CVE‑2026‑109619"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "cs-research",
+      "title": "CS research",
+      "tier": 4,
+      "items": [
+        {
+          "title": "WaRP: Workload-Aware Request Planning for Vector Retrieval on Object Storage",
+          "url": "https://arxiv.org/abs/2610.29689v1",
+          "source": "arXiv cs.DB",
+          "section": "cs-research",
+          "published": "2026-10-21T13:01:30+00:00",
+          "points": null,
+          "score": 5.0,
+          "id": "295dcc99b533ee7e3b73e978421dddb02b7e5588",
+          "summary": "WaRP introduces a workload‑aware request planner that optimally groups byte‑range reads for vector search on object storage, reducing per‑query request overhead.",
+          "detail": "By formulating request grouping as a global per‑query optimization and respecting a configurable request limit, WaRP improves latency and cost compared to static gap‑based coalescing methods used in existing systems.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "The compiler was supposed to end programming too",
+          "url": "https://hrih.si/articles/the-compiler-was-supposed-to-end-programming/",
+          "source": "Hacker News",
+          "section": "cs-research",
+          "published": "2026-10-21T18:00:51+00:00",
+          "points": 98,
+          "score": 4.0,
+          "id": "24ef6dac1760fd75cf7c5bd88b29f405b68ef9db",
+          "summary": "",
+          "detail": "",
+          "key_points": [],
+          "tag": "",
+          "highlight": false,
+          "image": "https://hrih.si/og/the-compiler-was-supposed-to-end-programming.png?v=2a8bead2",
+          "related": {}
+        },
+        {
+          "title": "How Not to Be Censored: Inclusion Safety in Client-Led Consensus",
+          "url": "https://arxiv.org/abs/2610.29497v1",
+          "source": "arXiv cs.DC",
+          "section": "cs-research",
+          "published": "2026-10-21T09:50:44+00:00",
+          "points": null,
+          "score": 3.5,
+          "id": "ec97b38e82eb19cb2c920995734e73c3cbc99d13",
+          "summary": "Introduces a leaderless blockchain consensus protocol where clients actively help ensure their transactions are included, defining inclusion safety that guarantees a transaction appears in at least one block of an epoch.",
+          "detail": "Clients reference a prior‑epoch block, influencing fork selection so that any block omitting the transaction ends up on an abandoned fork. Inclusion can be achieved by reaching enough honest replicas or by relaying a containing block. The design removes the passive client assumption of traditional protocols.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Deciding Scale Placement in MXFP4 Dot Products with Integer Arithmetic",
+          "url": "https://arxiv.org/abs/2610.29445v1",
+          "source": "arXiv cs.LO",
+          "section": "cs-research",
+          "published": "2026-10-21T09:05:50+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "2c536e6ff66529e2251260a8067d03d4cf9fe292",
+          "summary": "The Open Compute Project's microscaling (MX) family includes MXFP4, which stores 32 four-bit elements with a shared power-of-two scale. When lowering a dot-product reduction, a compiler can apply these scales before the …",
+          "detail": "MXFP4 stores 32 elements sharing a power‑of‑two scale; the study builds an integer state machine to model overflow, NaN, and subnormal rounding. Equivalence depends on the reduction tree and bounded scale codes, offering a formal method to certify rewrite legality.",
+          "key_points": [
+            "32 four-bit elements"
+          ],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Enumeration-based Triangle Counting on GPUs",
+          "url": "https://arxiv.org/abs/2610.29988v1",
+          "source": "arXiv cs.DC",
+          "section": "cs-research",
+          "published": "2026-10-21T16:28:36+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "8a4f1b328e40daad349c7734c3b7394b01d54f28",
+          "summary": "Presents a distributed‑memory GPU algorithm that enumerates closed wedges to count triangles in massive graphs while mitigating load imbalance.",
+          "detail": "The approach partitions the graph across nodes, processing closed wedges locally to reduce communication. It addresses the challenge of open wedges outnumbering edges, which traditionally hampers scalability. By balancing data movement and computation, the method improves triangle‑counting throughput on irregular graphs.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "Impactful scheduling for GPU clusters",
+            "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+            "date": "2026-10-10",
+            "id": "43ef54e74d2760825c3095138c358b1ef26e90ae"
+          }
+        },
+        {
+          "title": "Building SQL Equivalence Proofs from Query Rewrite Rules",
+          "url": "https://arxiv.org/abs/2610.30100v1",
+          "source": "arXiv cs.DB",
+          "section": "cs-research",
+          "published": "2026-10-21T17:47:58+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "7310eb4ce53cda29dff257bcb4483904f94e5edc",
+          "summary": "EquiTrace system proves SQL query equivalence using rewrite rules, achieving 58.6% success on text‑to‑SQL pairs and higher rates on curated and LLM‑generated sets.",
+          "detail": "EquiTrace separates rule validation from proof discovery, aligning alternative query forms to a common logical expression. It was evaluated on three corpora, demonstrating strong performance especially on curated pairs. The system provides explicit rewrite derivations, aiding debugging of text‑to‑SQL models.",
+          "key_points": [
+            "648/1106 (58.6%)",
+            "229/266 (86.1%)",
+            "97/240 (40.4%)"
+          ],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "ArduPilot/ardupilot",
+          "url": "https://github.com/ArduPilot/ardupilot",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 16173,
+          "score": 2.0,
+          "id": "0502868551530caf60e286be307c52beae5b2d2f",
+          "summary": "ArduPilot repository hosts source code for multiple autonomous vehicle platforms including ArduPlane, ArduCopter, ArduRover, and ArduSub.",
+          "detail": "The project is written primarily in C++ and supports a wide range of hardware configurations. It provides a unified autopilot stack for aerial, ground, and underwater vehicles, facilitating community contributions and extensive testing across platforms.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/7512484/fb21ac00-b752-11e9-8726-b5186af26b01",
+          "related": {}
+        },
+        {
+          "title": "deepseek-ai/FlashMLA",
+          "url": "https://github.com/deepseek-ai/FlashMLA",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 13155,
+          "score": 2.0,
+          "id": "bbbd179f8447ca121ca34360018c0679dfc4e9f2",
+          "summary": "FlashMLA repository offers efficient multi‑head latent attention kernels for deep learning models.",
+          "detail": "Implemented in C++, the kernels aim to reduce memory bandwidth and compute overhead of attention mechanisms. The project targets high‑performance training and inference, especially on hardware where latency and throughput are critical.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/835fd87b7a7462bcfe22577fbea345267e70e84cf98a3253d5207a786dd3db00/deepseek-ai/FlashMLA",
+          "related": {}
+        },
+        {
+          "title": "github/spec-kit",
+          "url": "https://github.com/github/spec-kit",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 142355,
+          "score": 2.0,
+          "id": "4d766eb799a55a6279b16e2acce2704c609bbf12",
+          "summary": "Spec‑Kit is a Python toolkit that streamlines the creation of software design documents (SDDs) and similar processes.",
+          "detail": "The repository provides templates, validation helpers, and command‑line utilities to generate consistent documentation. It aims to reduce manual effort and enforce standards across teams. While it is language‑agnostic, the tooling is written in Python and can be integrated into CI pipelines.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/2141b85737ded00a430ae54877c8eafce3223955ebf8d3491507ded052184df8/github/spec-kit",
+          "related": {}
+        },
+        {
+          "title": "harry0703/MangoDisk",
+          "url": "https://github.com/harry0703/MangoDisk",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 4514,
+          "score": 2.0,
+          "id": "587a91dd85f65ceabcc7a8a570b2e754d16c467f",
+          "summary": "MangoDisk is a Rust‑based, cross‑platform disk cleaner and space analyzer supporting macOS, Windows, and Linux.",
+          "detail": "It offers safety‑first operations such as duplicate file detection, application uninstallation, startup item management, and general system optimization. The tool runs with minimal permissions and includes safeguards to prevent accidental data loss. Its command‑line interface can be scripted for automated maintenance tasks.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/b5576227fa22aec1e5b2e5195f87a57db53af39d55ebd0c3f98e9d39bc94a559/harry0703/MangoDisk",
+          "related": {}
+        },
+        {
+          "title": "iliasHDZ/Bismuth",
+          "url": "https://github.com/iliasHDZ/Bismuth",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 98,
+          "score": 2.0,
+          "id": "cb26e2f0c7c961c7ab1b6d950e3ef1c085b10f61",
+          "summary": "Bismuth is a C++ mod that adds performance optimizations to the Geometry Dash game.",
+          "detail": "The mod targets frame‑rate improvements and reduces CPU load by tweaking rendering pipelines and physics calculations. It is distributed as a patch that can be applied to existing game installations without requiring source code changes. Users report smoother gameplay on lower‑end hardware.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/655fb76a23b8624418a5edd1616f57a5916a2702849736f51b619f3210904e8c/iliasHDZ/Bismuth",
+          "related": {}
+        },
+        {
+          "title": "k2-fsa/OmniVoice",
+          "url": "https://github.com/k2-fsa/OmniVoice",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 15498,
+          "score": 2.0,
+          "id": "da16f84e21510496b9ca810e027cf9e353528a5b",
+          "summary": "OmniVoice is a Python library for high‑quality voice cloning TTS covering over 600 languages.",
+          "detail": "The system leverages large multilingual speech models to generate natural‑sounding speech from a few seconds of reference audio. It includes tools for data preprocessing, model fine‑tuning, and inference deployment. The extensive language coverage makes it suitable for global applications, though resource requirements are high for real‑time use.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/6bb5b6663c31b41de7dc5dac75b945be7753a46fbb61401059f9dad596edc83a/k2-fsa/OmniVoice",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
