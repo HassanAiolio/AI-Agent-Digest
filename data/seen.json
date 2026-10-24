@@ -144,11 +144,6 @@
 "title": "Peeling Fruit with the Power of Steam",
 "url": "https://hackaday.com/2026/08/15/peeling-fruit-with-the-power-of-steam/"
 },
-"03d2fe2631499b57ea264c410bb0240d340893e9": {
-"date": "2026-07-25",
-"title": "Home Assistant Device Database public preview",
-"url": "https://lwn.net/Articles/1084861/"
-},
 "03dcc412316085c8cc2525530d84dfaa6d02cf6c": {
 "date": "2026-08-24",
 "title": "Bluetooth Shock Collar Keeps Wearer On Task",
@@ -668,6 +663,11 @@
 "date": "2026-10-04",
 "title": "cloudflare/cloudflare-os",
 "url": "https://github.com/cloudflare/cloudflare-os"
+},
+"0f4537518a872dde2535897797aefd8258c49858": {
+"date": "2026-10-24",
+"title": "anomalyco/hex",
+"url": "https://github.com/anomalyco/hex"
 },
 "0f4636c78d4c72f007d0e247b63beb1cfc2ccbc8": {
 "date": "2026-10-07",
@@ -1439,11 +1439,6 @@
 "title": "CUDA MPC: A GPU-Native Solver for Model Predictive Control",
 "url": "https://arxiv.org/abs/2608.03051v1"
 },
-"202b977a01a398238f6d8c8cf972cff67f819cfb": {
-"date": "2026-07-25",
-"title": "Hetzner is working on LLM Inference",
-"url": "https://sliplane.io/blog/hetzner-inference"
-},
 "203af5d28304bff096816060d72954bbdd346aa3": {
 "date": "2026-10-14",
 "title": "ESP-SDR Can Now Transmit",
@@ -1554,11 +1549,6 @@
 "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
 "url": "https://huggingface.co/blog/allenai/benchmirt"
 },
-"23c355db0c6571d47ad67dd2b93b96b37eba3b99": {
-"date": "2026-07-25",
-"title": "Model: openbmb/MiniCPM-RobotManip",
-"url": "https://huggingface.co/openbmb/MiniCPM-RobotManip"
-},
 "23c35d0f697263fd41a4f676dd4d143955846f1d": {
 "date": "2026-10-19",
 "title": "Kruk2/jasna",
@@ -1578,6 +1568,11 @@
 "date": "2026-09-04",
 "title": "CORE: Improving Compositional Reasoning in MLLM Embedding via Reranker Distillation",
 "url": "https://arxiv.org/abs/2609.04083v1"
+},
+"23feef4cf1b489a089a8c50f8844c2b5d6b09fec": {
+"date": "2026-10-24",
+"title": "Automatic Coil Winder Takes the Tedium out of Actuators",
+"url": "https://hackaday.com/2026/10/23/automatic-coil-winder-takes-the-tedium-out-of-actuators/"
 },
 "2412108f02908fc2dc9247f424ce8210ce70fefe": {
 "date": "2026-08-04",
@@ -1814,6 +1809,11 @@
 "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
 "url": "https://huggingface.co/blog/gradio-workflow-guide"
 },
+"298c8de07d18f423dad39eb2358f85464fd4cd53": {
+"date": "2026-10-24",
+"title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+"url": "https://openai.com/index/scaling-storage-one-billion-users-part-two"
+},
 "2991a59e41273428860dd06951e34bf461ed3f76": {
 "date": "2026-08-23",
 "title": "Sleeper E-bike has Solenoid Display",
@@ -1894,6 +1894,11 @@
 "title": "Security updates for Wednesday",
 "url": "https://lwn.net/Articles/1086031/"
 },
+"2c14d94771634e21fc6c75ee4ffff186be2fc00f": {
+"date": "2026-10-24",
+"title": "[$] The first part of the 7.4 merge window",
+"url": "https://lwn.net/Articles/1101211/"
+},
 "2c263a04fadef718fc5f68c198de2be488eaa47c": {
 "date": "2026-09-09",
 "title": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
@@ -1923,6 +1928,11 @@
 "date": "2026-09-25",
 "title": "The newest ESP32 can run Linux and it's getting close to a Raspberry Pi",
 "url": "https://www.xda-developers.com/newest-esp32-run-linux-close-to-raspberry-pi/"
+},
+"2ce0bd482bd75e5e58cd10353d1799646e5666fd": {
+"date": "2026-10-24",
+"title": "Security",
+"url": "https://www.anthropic.com/news/security"
 },
 "2cee03a371fce5aab5ba9f033852efc624aab341": {
 "date": "2026-07-26",
@@ -2118,6 +2128,11 @@
 "date": "2026-10-02",
 "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
 "url": "https://blog.cloudflare.com/clef-decision-models/"
+},
+"31ddd25b89e4c82b824ff1eb0f885ee6bebaa23c": {
+"date": "2026-10-24",
+"title": "ZLMediaKit/ZLMediaKit",
+"url": "https://github.com/ZLMediaKit/ZLMediaKit"
 },
 "31f9ea73b74851ecb21246dfad2b364c32f626ce": {
 "date": "2026-07-27",
@@ -2894,6 +2909,11 @@
 "title": "EPIC: Rethinking Trust Regions for Autoregressive LLM Policies via Exact-KL Prefix Importance-Ratio Clipping",
 "url": "https://arxiv.org/abs/2610.29999v1"
 },
+"48e2274fdf2ba9fe48db533ddecc410e5cc41b05": {
+"date": "2026-10-24",
+"title": "Securing our frontier model training environment",
+"url": "https://openai.com/index/securing-our-frontier-model-training-environment"
+},
 "48e2323d9000979b86bb8cb085a0bf7547053818": {
 "date": "2026-10-11",
 "title": "BitterSecurity/Decepticon",
@@ -2913,11 +2933,6 @@
 "date": "2026-10-02",
 "title": "PrimeIntellect-ai/prime-agent",
 "url": "https://github.com/PrimeIntellect-ai/prime-agent"
-},
-"4960a35db25e6d2717922222af7e5f24cb1f87ee": {
-"date": "2026-07-25",
-"title": "Model: poolside/Laguna-S-2.1",
-"url": "https://huggingface.co/poolside/Laguna-S-2.1"
 },
 "49a0967946ae68feaa8c58033e1942501403f34b": {
 "date": "2026-08-21",
@@ -3279,11 +3294,6 @@
 "title": "TranslucentTB/TranslucentTB",
 "url": "https://github.com/TranslucentTB/TranslucentTB"
 },
-"52aa7d055fec514a75233c6ecc6246637fbb4552": {
-"date": "2026-07-25",
-"title": "Model: microsoft/Mage-Flow",
-"url": "https://huggingface.co/microsoft/Mage-Flow"
-},
 "52b03674c398defef86a32e816c8eecf41d222f1": {
 "date": "2026-10-01",
 "title": "colbymchenry/codegraph",
@@ -3384,11 +3394,6 @@
 "title": "Model: canberkkkkkk/ema-lightning",
 "url": "https://huggingface.co/canberkkkkkk/ema-lightning"
 },
-"55903d40cb99461efebf65d0eb47bc7d520dfe70": {
-"date": "2026-07-25",
-"title": "TrinityCore/TrinityCore",
-"url": "https://github.com/TrinityCore/TrinityCore"
-},
 "559b0cf1119746d24724b9d0e19761800b6e48fa": {
 "date": "2026-09-19",
 "title": "Introducing the Australian Youth Safety Blueprint",
@@ -3403,11 +3408,6 @@
 "date": "2026-10-18",
 "title": "Busting the Myth that Plastics are Chemically Inert in Water",
 "url": "https://hackaday.com/2026/10/17/busting-the-myth-that-plastics-are-chemically-inert-in-water/"
-},
-"55ff6375d410d5e78eb731f1cb7d39c5bf269454": {
-"date": "2026-07-25",
-"title": "flashinfer-ai/flashinfer",
-"url": "https://github.com/flashinfer-ai/flashinfer"
 },
 "56020628fd3262dfbd8380334ea9cfc191bee70c": {
 "date": "2026-10-07",
@@ -3649,11 +3649,6 @@
 "title": "[$] Beyond the &",
 "url": "https://lwn.net/Articles/1096028/"
 },
-"5d0f60a28a52a447713238b4f492b7f739f2817a": {
-"date": "2026-07-25",
-"title": "Introducing Claude Opus 5 Product Jul 24, 2026 Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
-"url": "https://www.anthropic.com/news/claude-opus-5"
-},
 "5d118fadbe793ddd15d5992558c943b8fbb4801a": {
 "date": "2026-10-23",
 "title": "Ensemble forecasting with IBM Granite time-series models",
@@ -3894,6 +3889,11 @@
 "title": "QEDIA: Quantum Program Verification in Lean",
 "url": "https://arxiv.org/abs/2610.17708v1"
 },
+"629e52348c94311ca0a38b80f5d2a06d74034006": {
+"date": "2026-10-24",
+"title": "Anil-matcha/open-duet",
+"url": "https://github.com/Anil-matcha/open-duet"
+},
 "62c7a5d1f9f35d49165dabec76ce767178e5fdf8": {
 "date": "2026-08-09",
 "title": "666ghj/MiroFish",
@@ -4053,6 +4053,11 @@
 "date": "2026-09-04",
 "title": "A Thoroughly Modern Minimalist Transceiver",
 "url": "https://hackaday.com/2026/09/03/a-thoroughly-modern-minimalist-transceiver/"
+},
+"66aafeba3e783ec184e3742d3134af0599b36644": {
+"date": "2026-10-24",
+"title": "Model: InternScience/Sage-A1.5",
+"url": "https://huggingface.co/InternScience/Sage-A1.5"
 },
 "66d5720ec836838d2d67b7f24d4c6f30004e00be": {
 "date": "2026-10-19",
@@ -4559,6 +4564,11 @@
 "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
 "url": "https://arxiv.org/abs/2610.26860v1"
 },
+"74c300beb3b9bb71ab1a43f680b3013380018428": {
+"date": "2026-10-24",
+"title": "RepRapMicron Uses Fibre Optics To Print Tiny Benchy in Resin",
+"url": "https://hackaday.com/2026/10/23/reprapmicron-uses-fibre-optics-to-print-tiny-benchy-in-resin/"
+},
 "74d485671222f8437724da35614dd4303b225d10": {
 "date": "2026-08-25",
 "title": "3D-Printed Skin Gives Robots the Sensation of Touch",
@@ -4718,6 +4728,11 @@
 "date": "2026-08-11",
 "title": "Security updates for Monday",
 "url": "https://lwn.net/Articles/1088057/"
+},
+"7a2ad2dcd8c80fc0dc1b3737e77654b031818136": {
+"date": "2026-10-24",
+"title": "[$] Seeking smaller kernel stacks",
+"url": "https://lwn.net/Articles/1100271/"
 },
 "7a364f356aab49466020015082ef4122a7394f52": {
 "date": "2026-10-20",
@@ -5229,11 +5244,6 @@
 "title": "Fast Tendermint: Speeding Up a Foundational Consensus Protocol",
 "url": "https://arxiv.org/abs/2608.13434v1"
 },
-"8a1e4a28a0fea11a853c9931360116690b96701b": {
-"date": "2026-07-25",
-"title": "[$] An update on netkit and the use of BPF in user space",
-"url": "https://lwn.net/Articles/1083418/"
-},
 "8a2e1f7a27ecbae1beedbdb0a7aead53c4cb90d8": {
 "date": "2026-10-14",
 "title": "The FPGA Chronicles: Ready to Probe",
@@ -5449,15 +5459,15 @@
 "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
 "url": "https://openai.com/index/asana-browser-agent"
 },
+"909aab01f7102fd9edbcfa4ecd92392b4b8be5e8": {
+"date": "2026-10-24",
+"title": "ZSeven-W/openpencil",
+"url": "https://github.com/ZSeven-W/openpencil"
+},
 "90d59cd2b4ce1933b4c75746022d4773a125443c": {
 "date": "2026-08-11",
 "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
 "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation"
-},
-"90f8e85eb5b7fd1f36e230dc8e9044252e7f85b8": {
-"date": "2026-07-25",
-"title": "Security updates for Friday",
-"url": "https://lwn.net/Articles/1084860/"
 },
 "9112c94f891093bfaf9f58bf1bc2a4bc79cd1d2f": {
 "date": "2026-10-15",
@@ -5553,11 +5563,6 @@
 "date": "2026-08-01",
 "title": "agavra/tuicr",
 "url": "https://github.com/agavra/tuicr"
-},
-"933c23ad214cf5ded5b2e68826f695ddfe1735ec": {
-"date": "2026-07-25",
-"title": "De Vlieger: The Fedora 45 sausage factory",
-"url": "https://lwn.net/Articles/1084920/"
 },
 "934d790072df929de26f2d3b3cbf688ac41addbb": {
 "date": "2026-09-12",
@@ -6003,11 +6008,6 @@
 "date": "2026-10-11",
 "title": "Mars Pathfinder: What Really Happened?",
 "url": "https://hackaday.com/2026/10/11/mars-pathfinder-what-really-happened/"
-},
-"9db5af845cc9656206655943f683585edf195021": {
-"date": "2026-07-25",
-"title": "Hefty stable kernel updates for Friday",
-"url": "https://lwn.net/Articles/1084921/"
 },
 "9e3a40be0d9f4e549ee418e84ee750496bb86124": {
 "date": "2026-09-11",
@@ -7244,6 +7244,11 @@
 "title": "bobeff/open-source-games",
 "url": "https://github.com/bobeff/open-source-games"
 },
+"bf04d12d42270af3bfdd0fc2193cb02f99844609": {
+"date": "2026-10-24",
+"title": "Model: MiniMaxAI/MiniMax-M3.1-Flash",
+"url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+},
 "bf467fe9bb949822f77f42ed3db39cc3bfa3be1f": {
 "date": "2026-09-24",
 "title": "GLASS: Architecture-Tuned, Composable, Device-Side Linear Algebra for Edge Robotics and Beyond",
@@ -7268,6 +7273,11 @@
 "date": "2026-08-04",
 "title": "GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model",
 "url": "https://engineering.fb.com/2026/08/03/ml-applications/training-gem-at-llm-scale-meta-ads-recommendation-foundation-model/"
+},
+"c0008c114017d47c3e7e5a3e09fa9bbc1224dcbf": {
+"date": "2026-10-24",
+"title": "Mailu/Mailu",
+"url": "https://github.com/Mailu/Mailu"
 },
 "c00d54e3e96096c9877f56288a8ebb5ff3656a7b": {
 "date": "2026-09-24",
@@ -7849,11 +7859,6 @@
 "title": "FAOPs: Normal Forms and an Algebra for AI Agent Workflows",
 "url": "https://arxiv.org/abs/2610.22061v1"
 },
-"ccea8540576ea829c03c8368b68d8ac18877c405": {
-"date": "2026-07-25",
-"title": "CoreBunch/Instatic",
-"url": "https://github.com/CoreBunch/Instatic"
-},
 "ccf61988a0a01f2eed146d37e3dda53b40aed605": {
 "date": "2026-08-02",
 "title": "MaaXYZ/MaaFramework",
@@ -7918,11 +7923,6 @@
 "date": "2026-08-27",
 "title": "Learning never stops: How AI makes learning continuous",
 "url": "https://openai.com/index/learning-never-stops"
-},
-"ce1f948710ae9fcec2883ae2c3ade513deda6f67": {
-"date": "2026-07-25",
-"title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
-"url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html"
 },
 "ce45d8dc0f6c9cea266aaff8936a7c1d1f57c615": {
 "date": "2026-09-23",
@@ -8004,11 +8004,6 @@
 "title": "Model: froggeric/Qwen-Fixed-Chat-Templates",
 "url": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates"
 },
-"d00d272b2b99c11feb829323113461cd03bcf38e": {
-"date": "2026-07-25",
-"title": "Panniantong/Agent-Reach",
-"url": "https://github.com/Panniantong/Agent-Reach"
-},
 "d01c70cd765a322f7967614e7adde3846608436c": {
 "date": "2026-10-01",
 "title": "About the Influence of Workflow Topology on Task Intensity Prediction through Graph Learning",
@@ -8058,11 +8053,6 @@
 "date": "2026-08-18",
 "title": "Topological Attribution Distance (TAD): Revealing Segment-Level RAG Influence on LLM Output Geometry for Incident Log Analysis",
 "url": "https://arxiv.org/abs/2608.16775v1"
-},
-"d20e9d815238398a51c8d65b8bb46f6e538ea165": {
-"date": "2026-07-25",
-"title": "Linux Plumbers Conference 2026 registration open",
-"url": "https://lwn.net/Articles/1084938/"
 },
 "d23388c930a4230053aa96c92d352c85a28b866d": {
 "date": "2026-08-07",
@@ -8159,6 +8149,11 @@
 "title": "NVIDIA/cuda-samples",
 "url": "https://github.com/NVIDIA/cuda-samples"
 },
+"d4a970ac4cbb0eeaa3e8bf78699af1c9ca368dac": {
+"date": "2026-10-24",
+"title": "Model: Comfy-Org/MOSS-Image",
+"url": "https://huggingface.co/Comfy-Org/MOSS-Image"
+},
 "d4b6affdbe48ddc843a0699d532e945d63c02f0c": {
 "date": "2026-09-02",
 "title": "Model: google/timesfm-3.0-pytorch",
@@ -8208,6 +8203,11 @@
 "date": "2026-10-21",
 "title": "DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems",
 "url": "https://arxiv.org/abs/2610.28522v1"
+},
+"d5dfb55b012918e741dc0e52d8cd3d00a65167f2": {
+"date": "2026-10-24",
+"title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+"url": "https://huggingface.co/blog/allenai/litpivot"
 },
 "d5f5b896866a7ed787d5792032cf06f2a89d10f9": {
 "date": "2026-10-20",
@@ -8298,6 +8298,11 @@
 "date": "2026-10-09",
 "title": "TigerVNC/tigervnc",
 "url": "https://github.com/TigerVNC/tigervnc"
+},
+"d77d099493ec0a58ef118d96df28089e63082f9a": {
+"date": "2026-10-24",
+"title": "Hackaday Podcast Episode 392: Microscopes, Drones, and Other DIY Things",
+"url": "https://hackaday.com/2026/10/23/hackaday-podcast-episode-392-microscopes-drones-and-other-diy-things/"
 },
 "d78f4d84c117556c7efbc15519550c1eeec8e1ea": {
 "date": "2026-10-08",
@@ -9124,11 +9129,6 @@
 "title": "Deploy local agents everywhere with LFM2.5-2.6B",
 "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b"
 },
-"ea815652f3bdb346df5728333964581fb511443f": {
-"date": "2026-07-25",
-"title": "google/re2",
-"url": "https://github.com/google/re2"
-},
 "ea96adffe93e64f705760b20b197369fc5435a2f": {
 "date": "2026-08-01",
 "title": "ROCm/rocm-systems",
@@ -9599,11 +9599,6 @@
 "title": "CERA-MoA: Co-Evolving Routing Mechanisms with Continually Learning LLM Agents",
 "url": "https://arxiv.org/abs/2609.18779v1"
 },
-"f5824ea252ac95293dad8d1d41fade64f67600c5": {
-"date": "2026-07-25",
-"title": "OtterMind/Chat2DB",
-"url": "https://github.com/OtterMind/Chat2DB"
-},
 "f5c56fa495a34cc421d10c643cab40638cf3370c": {
 "date": "2026-10-04",
 "title": "A Good DIY Solder Stencil Begins With a Cleanly-Sliced Soda Can",
@@ -9879,6 +9874,11 @@
 "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
 "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust"
 },
+"fb10300fc141e83fef383388c5045df07bf8d31b": {
+"date": "2026-10-24",
+"title": "Reconstructing the Ancient Chinese Storm of Crows Weapon",
+"url": "https://hackaday.com/2026/10/23/reconstructing-the-ancient-chinese-storm-of-crows-weapon/"
+},
 "fb21820d806b1b78d97fc2960a75ac211fb61114": {
 "date": "2026-08-13",
 "title": "From assistance to execution: How enterprises put AI to work",
@@ -10018,6 +10018,11 @@
 "date": "2026-09-23",
 "title": "LLM Ass Bench",
 "url": "https://www.assbench.com/"
+},
+"ffc069be509e635e3cbb8f9113a6f31e968fbdb8": {
+"date": "2026-10-24",
+"title": "Renhuai123/ziwei-doushu",
+"url": "https://github.com/Renhuai123/ziwei-doushu"
 },
 "ffc748cb8d88a919ca05994bbdf2a485643ad1da": {
 "date": "2026-10-14",
