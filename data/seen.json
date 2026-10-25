@@ -9,6 +9,11 @@
 "title": "The 7.2 kernel has been released",
 "url": "https://lwn.net/Articles/1088991/"
 },
+"0043ec56a51a0cf261821c29d20d1b9c0bebb65d": {
+"date": "2026-10-25",
+"title": "Model: XHToken/Spark-X2.6-4B",
+"url": "https://huggingface.co/XHToken/Spark-X2.6-4B"
+},
 "0079702cc0c53d9678e9f93b4f724f5db6a4336d": {
 "date": "2026-08-20",
 "title": "Security updates for Wednesday",
@@ -418,11 +423,6 @@
 "date": "2026-09-04",
 "title": "A Split Keyboard Designed for Human Hands",
 "url": "https://hackaday.com/2026/09/03/a-split-keyboard-designed-for-human-hands/"
-},
-"0a64dc66c04b5f8e4347cd07afbe93404ca8dd96": {
-"date": "2026-07-26",
-"title": "mosaic-group/openfpm",
-"url": "https://github.com/mosaic-group/openfpm"
 },
 "0a825416c05302a3af413552e10df2d80b77c6c1": {
 "date": "2026-09-06",
@@ -1279,6 +1279,11 @@
 "title": "Netdev 0x1A videos and slides are now live",
 "url": "https://lwn.net/Articles/1091600/"
 },
+"1bb597dcc81f009406b54203cf4c9d2b3105b971": {
+"date": "2026-10-25",
+"title": "Pushing Bluetooth out to 12 Kilometers",
+"url": "https://hackaday.com/2026/10/24/pushing-bluetooth-out-to-12-kilometers/"
+},
 "1bc6e6ca8428052a8d3fc75011dc56c0e1939922": {
 "date": "2026-08-11",
 "title": "SafeQL: Search-based Refinement for Safe and Efficient LLM-based Text-to-SQL",
@@ -1324,6 +1329,16 @@
 "title": "averygan/reclip",
 "url": "https://github.com/averygan/reclip"
 },
+"1ceb56a3b3745da84e0d2f1542867de60325d934": {
+"date": "2026-10-25",
+"title": "vercel-labs/agent-browser",
+"url": "https://github.com/vercel-labs/agent-browser"
+},
+"1d07b61a64ea093c11c28e3cb56b3fa5c2fa4e4f": {
+"date": "2026-10-25",
+"title": "Remembering the Weirdest Nintendo DSi Accessory",
+"url": "https://hackaday.com/2026/10/24/remembering-the-weirdest-nintendo-dsi-accessory/"
+},
 "1d4cff712a9a12812912916b09ee2f570c14be95": {
 "date": "2026-10-16",
 "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
@@ -1344,20 +1359,10 @@
 "title": "amnezia-vpn/amnezia-client",
 "url": "https://github.com/amnezia-vpn/amnezia-client"
 },
-"1d9a41045a3fea6657ab7891eb8c51205e8e1b55": {
-"date": "2026-07-26",
-"title": "Model: prism-ml/Ternary-Bonsai-27B-gguf",
-"url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf"
-},
 "1dca480cfd3e4c30ae51d09672fca1da62a8b7fa": {
 "date": "2026-09-12",
 "title": "Model: m-a-p/YuE2-3B",
 "url": "https://huggingface.co/m-a-p/YuE2-3B"
-},
-"1dce3951ac18ac86876a48054d331237cdc9367a": {
-"date": "2026-07-26",
-"title": "Security updates for Saturday",
-"url": "https://lwn.net/Articles/1085272/"
 },
 "1dd9ce125c6e0e6007fa40c2f3cbd36d227c92c3": {
 "date": "2026-09-24",
@@ -1514,6 +1519,11 @@
 "title": "2026 Retrocomputing Challenge: A Homebrew Computer In Only Three ICs",
 "url": "https://hackaday.com/2026/10/02/2026-retrocomputing-challenge-a-homebrew-computer-in-only-three-ics2026-retrocomputing-challenge-a-homebrew-computer-in-only-3-ics/"
 },
+"22741e130b67c7210ff7f9402ab5fc06aa3a07ef": {
+"date": "2026-10-25",
+"title": "agentskills/agentskills",
+"url": "https://github.com/agentskills/agentskills"
+},
 "227d02ee5d0460b9012ad5b554d3950ec96f8431": {
 "date": "2026-10-16",
 "title": "An update on independent evaluators",
@@ -1663,11 +1673,6 @@
 "date": "2026-08-05",
 "title": "Certified Split Points for Parallel Lexing: Exact and Modulo Discarded Tokens",
 "url": "https://arxiv.org/abs/2608.03473v1"
-},
-"2635b89b44132e7e7c78a780ce1bc6789ef7ca6f": {
-"date": "2026-07-26",
-"title": "Open-weight AI is having its Kubernetes moment",
-"url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/"
 },
 "26645ba366a5e8ee4105f37c6a48b281337aec04": {
 "date": "2026-08-16",
@@ -1933,11 +1938,6 @@
 "date": "2026-10-24",
 "title": "Security",
 "url": "https://www.anthropic.com/news/security"
-},
-"2cee03a371fce5aab5ba9f033852efc624aab341": {
-"date": "2026-07-26",
-"title": "delta-io/delta-rs",
-"url": "https://github.com/delta-io/delta-rs"
 },
 "2cf37d3ce927526dd01cecb1684724802a4043fa": {
 "date": "2026-09-03",
@@ -2238,11 +2238,6 @@
 "date": "2026-08-23",
 "title": "affaan-m/ECC",
 "url": "https://github.com/affaan-m/ECC"
-},
-"342ca75040b9704e462a0f8e015bf8b8a0356e8e": {
-"date": "2026-07-26",
-"title": "3D On The Playdate Handheld",
-"url": "https://hackaday.com/2026/07/25/3d-on-the-playdate-handheld/"
 },
 "3455af03ab080c295ba799676c96821b1ba9fd44": {
 "date": "2026-10-09",
@@ -2643,11 +2638,6 @@
 "date": "2026-09-27",
 "title": "dream-num/univer",
 "url": "https://github.com/dream-num/univer"
-},
-"406d04c444253b205076e8f6b089007584c496c4": {
-"date": "2026-07-26",
-"title": "Model: thinkingmachines/Inkling",
-"url": "https://huggingface.co/thinkingmachines/Inkling"
 },
 "413f1a4f31037bd8660e98f9ba0bdecb2feb6a96": {
 "date": "2026-09-27",
@@ -3554,6 +3544,11 @@
 "title": "SparseDitto: Customizing GPU Kernels for Different Sparsity Patterns with LLM-Based Agentic System",
 "url": "https://arxiv.org/abs/2608.05033v1"
 },
+"59f554d8046d1f5eea44c37209afb7ecbaa44884": {
+"date": "2026-10-25",
+"title": "Model: RecursiveSI/flint",
+"url": "https://huggingface.co/RecursiveSI/flint"
+},
 "5a585a847e8766fb83af72ca36b71c02fda44076": {
 "date": "2026-08-14",
 "title": "ClickHouse/ClickHouse",
@@ -3748,11 +3743,6 @@
 "date": "2026-08-22",
 "title": "[$] Considering the OpenMDW license",
 "url": "https://lwn.net/Articles/1089251/"
-},
-"5f284decdfa5e286f0f780812260ab8065b759f4": {
-"date": "2026-07-26",
-"title": "Running a 28.9M parameter LLM on an $8 microcontroller",
-"url": "https://github.com/slvDev/esp32-ai"
 },
 "5f375e14bfeef1a628b98a5db35b9fd29b269614": {
 "date": "2026-08-19",
@@ -4364,11 +4354,6 @@
 "title": "anthropics/financial-services",
 "url": "https://github.com/anthropics/financial-services"
 },
-"6e9d3e3c5a30e2c807c09d2750101e4ec6f94c9b": {
-"date": "2026-07-26",
-"title": "LLM Usage in Debian: Three Proposals",
-"url": "https://www.debian.org/vote/2026/vote_002"
-},
 "6e9d5a02733581c0abc460952b74feb909bc9265": {
 "date": "2026-09-02",
 "title": "LibreCAD/LibreCAD",
@@ -4703,11 +4688,6 @@
 "date": "2026-08-30",
 "title": "FalkorDB/FalkorDB",
 "url": "https://github.com/FalkorDB/FalkorDB"
-},
-"7951dcb37c291467ed65470eaea2fea0f626af98": {
-"date": "2026-07-26",
-"title": "Model: Kwaipilot/KAT-Coder-V2.5-Dev",
-"url": "https://huggingface.co/Kwaipilot/KAT-Coder-V2.5-Dev"
 },
 "79929cb48218ed61a14749cab8d76e87b760b48c": {
 "date": "2026-08-14",
@@ -5079,6 +5059,11 @@
 "title": "react/react-native",
 "url": "https://github.com/react/react-native"
 },
+"846d04b8aa6fc8e4af795dee1af0ef8c745029ec": {
+"date": "2026-10-25",
+"title": "ml-explore/mlx",
+"url": "https://github.com/ml-explore/mlx"
+},
 "84827bff465d4f29d0faa6ac46e7bbe4379a2536": {
 "date": "2026-10-06",
 "title": "Serve Now or Improve Later? Scheduling Self-Evolution in Online Agent Systems",
@@ -5428,6 +5413,11 @@
 "date": "2026-09-22",
 "title": "Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems",
 "url": "https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems/"
+},
+"8faf9425ebf6f1898ab1732daffdae33c7beae78": {
+"date": "2026-10-25",
+"title": "2026 Retrocomputing Challenge: I Would Do Anything For Serial Data",
+"url": "https://hackaday.com/2026/10/24/2026-retrocomputing-challenge-i-would-do-anything-for-serial-data/"
 },
 "8fc9916b017847469524a4382a7c022a73a46648": {
 "date": "2026-09-26",
@@ -5869,6 +5859,11 @@
 "title": "Replit expands access to software creation with GPT-5.6 Luna",
 "url": "https://openai.com/index/replit"
 },
+"9ad5ce51a9979f8cdcea79c971a00e192bd7d3de": {
+"date": "2026-10-25",
+"title": "google-gemini/gemini-cli",
+"url": "https://github.com/google-gemini/gemini-cli"
+},
 "9ad99bb5f40a3110bd8575be9a0ebe1e31025100": {
 "date": "2026-08-26",
 "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
@@ -6204,11 +6199,6 @@
 "title": "apple/foundationdb",
 "url": "https://github.com/apple/foundationdb"
 },
-"a3b583400fcce76baaa3c188fcc5e9161b0729f2": {
-"date": "2026-07-26",
-"title": "A Debian general resolution on LLM usage",
-"url": "https://lwn.net/Articles/1085314/"
-},
 "a3d64cabf938f50be3f73161208255dc16013c05": {
 "date": "2026-07-31",
 "title": "nasa/fprime",
@@ -6543,6 +6533,11 @@
 "date": "2026-08-03",
 "title": "music-assistant/server",
 "url": "https://github.com/music-assistant/server"
+},
+"ab9a1738edf63d3870ddf272b68fb90872d88710": {
+"date": "2026-10-25",
+"title": "crewAIInc/crewAI",
+"url": "https://github.com/crewAIInc/crewAI"
 },
 "abae94308d8deb3b49cc65d7e862a53b67fcb2c7": {
 "date": "2026-08-10",
@@ -6908,11 +6903,6 @@
 "date": "2026-09-13",
 "title": "Shubhamsaboo/awesome-llm-apps",
 "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
-},
-"b4468fca2513899ace662895d1da802b62895700": {
-"date": "2026-07-26",
-"title": "ai-dynamo/nixl",
-"url": "https://github.com/ai-dynamo/nixl"
 },
 "b45f071091c968faecaab9c001250a2a0d52b27c": {
 "date": "2026-09-14",
@@ -7639,6 +7629,11 @@
 "title": "3D Imaging Without a Lens",
 "url": "https://hackaday.com/2026/09/10/3d-imaging-without-a-lens/"
 },
+"c8361443464570524c064e0a84522c97c27454d5": {
+"date": "2026-10-25",
+"title": "Model: dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
+"url": "https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8"
+},
 "c85f63ed61d2ab3b03cc4d8dbd4eb0df15a17113": {
 "date": "2026-10-17",
 "title": "LittleBitUA/DownpourRecomp",
@@ -7668,6 +7663,11 @@
 "date": "2026-08-04",
 "title": "Multimodal Embeddings for 3D Similarity Search in Semantic Web-of-Things Digital-Twin Platforms",
 "url": "https://arxiv.org/abs/2608.01852v1"
+},
+"c8a99c2f8742711d61c4919ceeb4890470a03391": {
+"date": "2026-10-25",
+"title": "The Slurptop is Both Drool Worthy and Practical",
+"url": "https://hackaday.com/2026/10/24/the-slurptop-is-both-drool-worthy-and-practical/"
 },
 "c8abbffdaf1aaa4824c86c88c20b490d140bcb2a": {
 "date": "2026-08-24",
@@ -7898,11 +7898,6 @@
 "date": "2026-09-20",
 "title": "Laser Your Way into Debug Mode on the RP2350",
 "url": "https://hackaday.com/2026/09/19/laser-your-way-into-debug-mode-on-the-rp2350/"
-},
-"cdb34bad22f4fb66a478a68de7b840fce88dc3d4": {
-"date": "2026-07-26",
-"title": "In remembrance of Dan Williams",
-"url": "https://lwn.net/Articles/1085021/"
 },
 "cdd6e1f3a6706fe79a4ef464ea0eb4f6bdbf5067": {
 "date": "2026-09-18",
@@ -8279,11 +8274,6 @@
 "title": "Model: microsoft/Fara1.5-27B",
 "url": "https://huggingface.co/microsoft/Fara1.5-27B"
 },
-"d747ecb5894f9458a8ee3f1d68a09cff0fc7ccc5": {
-"date": "2026-07-26",
-"title": "max-sixty/worktrunk",
-"url": "https://github.com/max-sixty/worktrunk"
-},
 "d752d52509f44b15081149d8ce5f5bc7be29d074": {
 "date": "2026-08-01",
 "title": "googleworkspace/cli",
@@ -8343,11 +8333,6 @@
 "date": "2026-08-03",
 "title": "Z4nzu/hackingtool",
 "url": "https://github.com/Z4nzu/hackingtool"
-},
-"d8503d3740fd7436c27e485a8ae13940e5740e4e": {
-"date": "2026-07-26",
-"title": "lballabio/QuantLib",
-"url": "https://github.com/lballabio/QuantLib"
 },
 "d8566decaa8e36d67e91470dc2240680ea8017bb": {
 "date": "2026-08-28",
@@ -8764,6 +8749,11 @@
 "title": "Keychron announces first open-source firmware for gaming mice",
 "url": "https://www.digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice"
 },
+"e2469c92ba3c15a30593d682366c67d13a07648a": {
+"date": "2026-10-25",
+"title": "Nutlope/hallmark",
+"url": "https://github.com/Nutlope/hallmark"
+},
 "e2820020cd6d32b258f6f4536b58e81fe49dc5e8": {
 "date": "2026-10-10",
 "title": "BerriAI/litellm",
@@ -8873,11 +8863,6 @@
 "date": "2026-09-16",
 "title": "Jeffallan/claude-skills",
 "url": "https://github.com/Jeffallan/claude-skills"
-},
-"e4beb6249e752e77c11431c357dc7fa3aaa918b2": {
-"date": "2026-07-26",
-"title": "GNU C Library 2.44 released",
-"url": "https://lwn.net/Articles/1085030/"
 },
 "e4fbfae87319cbc0006ec1eb9a5baae2c93e9a1e": {
 "date": "2026-08-23",
@@ -9069,11 +9054,6 @@
 "title": "Upcoming: ICPC 2026 Online Challenge 1 powered by Huawei",
 "url": "https://codeforces.com/contests/2251"
 },
-"e977580a592d8f27b825121865050870ead6696f": {
-"date": "2026-07-26",
-"title": "DedSecInside/TorBot",
-"url": "https://github.com/DedSecInside/TorBot"
-},
 "e982a626d829362f82748e1b086ec1ab7870365a": {
 "date": "2026-09-17",
 "title": "Netkit: Specializing Linux Packet Delivery for Container Networks",
@@ -9143,11 +9123,6 @@
 "date": "2026-08-24",
 "title": "VoltAgent/awesome-agent-skills",
 "url": "https://github.com/VoltAgent/awesome-agent-skills"
-},
-"eac7ee52dd2964400890a0b68b7daad8992f669e": {
-"date": "2026-07-26",
-"title": "New stable kernel for ext4 users",
-"url": "https://lwn.net/Articles/1085026/"
 },
 "ead1f2c858219e65e8cd5cd4b4a41993db916986": {
 "date": "2026-10-14",
@@ -9288,6 +9263,11 @@
 "date": "2026-08-24",
 "title": "Amiga-Inspired AROS Goes Bare Metal on Raspberry Pi",
 "url": "https://hackaday.com/2026/08/23/amiga-inspired-aros-goes-bare-metal-on-raspberry-pi/"
+},
+"ece3cf7354782ce16614169f40f8fc258693bc06": {
+"date": "2026-10-25",
+"title": "That Weird 7-Pin S-Video Port on Old Laptops",
+"url": "https://hackaday.com/2026/10/24/that-weird-7-pin-s-video-port-on-old-laptops/"
 },
 "ecf7af830fcc2a7d897846849246657449b76108": {
 "date": "2026-10-12",
@@ -10003,6 +9983,11 @@
 "date": "2026-10-18",
 "title": "foundry-rs/foundry",
 "url": "https://github.com/foundry-rs/foundry"
+},
+"feb63d35ebd22e5e0ca0621c9c035d4bf8ddcd10": {
+"date": "2026-10-25",
+"title": "Making for Others",
+"url": "https://hackaday.com/2026/10/24/making-for-others/"
 },
 "fecd7e29438485007b3863e418dc0d83648a8949": {
 "date": "2026-08-11",

@@ -1,0 +1,157 @@
+{
+  "week": "2026-W43",
+  "start": "2026-10-19",
+  "end": "2026-10-25",
+  "title": "Agents, Kernels, and Open‑Source Surges",
+  "intro": "This week the AI world doubled down on agentic evaluation while the systems side pushed kernel boundaries. Meanwhile, a wave of open‑source tools gave engineers fresh ways to tinker with LLMs and hardware.",
+  "themes": [
+    {
+      "headline": "Agentic AI Gets New Yardsticks",
+      "body": "**Lead‑in:** Researchers rolled out a suite of benchmarks to stress‑test LLM agents. EPIC introduced exact‑KL clipping for trust‑region policy optimization, Environment Duels showed authoring skill isn’t tied to solving power, and DecisionPivot offered a 48‑task diagnostic for decision models. Together they signal a shift toward rigorous, multi‑facet evaluation of autonomous LLMs.",
+      "items": [
+        {
+          "id": "48993a651f59907d4fbdbf86450113343d80967a",
+          "title": "EPIC: Rethinking Trust Regions for Autoregressive LLM Policies via Exact-KL Prefix Importance-Ratio Clipping",
+          "url": "https://arxiv.org/abs/2610.29999v1",
+          "date": "2026-10-22",
+          "source": "arXiv cs.LG",
+          "section": "AI & ML"
+        },
+        {
+          "id": "af0f241f8166827fb02ed75258a3899de3015e80",
+          "title": "Environment Duels: A Microcosm of LLM Co-Evolution",
+          "url": "https://arxiv.org/abs/2610.30116v1",
+          "date": "2026-10-22",
+          "source": "arXiv cs.CL",
+          "section": "AI & ML"
+        },
+        {
+          "id": "d5bc2c69cae12eee826bcbf1a0e446837e236305",
+          "title": "DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems",
+          "url": "https://arxiv.org/abs/2610.28522v1",
+          "date": "2026-10-21",
+          "source": "arXiv cs.AI",
+          "section": "AI & ML"
+        }
+      ]
+    },
+    {
+      "headline": "LLM Audits Reveal Hidden Content Farms",
+      "body": "**Lead‑in:** An LLM‑driven agent scanned the Slovak slice of FineWeb2, flagging 1,408,437 machine‑generated pages—about 5.3% of the 26.5 M‑document corpus. The audit, completed in under a second per run at a cost of roughly $2.5, underscores how AI can police its own data ecosystems.",
+      "items": [
+        {
+          "id": "268e3f8b9097888c9797ec9457b27e5e0dc47131",
+          "title": "Can an Agent Debug a Web Corpus? Agentic Auditing of Slovak FineWeb2",
+          "url": "https://arxiv.org/abs/2610.31636v1",
+          "date": "2026-10-23",
+          "source": "arXiv cs.CL",
+          "section": "AI & ML"
+        }
+      ]
+    },
+    {
+      "headline": "Kernel and Hardware Frontiers Expand",
+      "body": "**Lead‑in:** Linux 7.3 shipped with a record 18,765 commits from over 3,000 developers, while talks at the Linux Plumbers Conference highlighted shrinking kernel stacks amid chip shortages. Upstream work on the Tyr driver shows Rust’s growing role in GPU kernels, and OpenBSD 8.0 added a 512 GB address space for amd64 and arm64 hibernate support.",
+      "items": [
+        {
+          "id": "47822cd9ee4644799dab7e281408e8ab085d61b0",
+          "title": "The 7.3 kernel has been released",
+          "url": "https://lwn.net/Articles/1101143/",
+          "date": "2026-10-19",
+          "source": "lwn",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "7a2ad2dcd8c80fc0dc1b3737e77654b031818136",
+          "title": "[$] Seeking smaller kernel stacks",
+          "url": "https://lwn.net/Articles/1100271/",
+          "date": "2026-10-24",
+          "source": "lwn",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "9a6ba7b081540c150458359885a543d1f65c4181",
+          "title": "Upstreaming Tyr: Rust, DRM, and the Linux Kernel (Collabora)",
+          "url": "https://lwn.net/Articles/1102024/",
+          "date": "2026-10-22",
+          "source": "lwn",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "cf637d353ea8bc6fa1e578ea06e7070eac034312",
+          "title": "OpenBSD 8.0 released",
+          "url": "https://lwn.net/Articles/1101536/",
+          "date": "2026-10-21",
+          "source": "lwn",
+          "section": "Embedded & systems"
+        }
+      ]
+    },
+    {
+      "headline": "Open‑Source AI Tooling Booms",
+      "body": "**Lead‑in:** The repo radar lit up with new utilities: gemini-cli brings Google Gemini to the terminal, crewAI orchestrates role‑playing AI agents, open‑duet offers a self‑hosted Claude Duet alternative, and MLX delivers a C++ array library tuned for Apple silicon. These projects lower the barrier for engineers to prototype and deploy AI workflows.",
+      "items": [
+        {
+          "id": "9ad5ce51a9979f8cdcea79c971a00e192bd7d3de",
+          "title": "google-gemini/gemini-cli",
+          "url": "https://github.com/google-gemini/gemini-cli",
+          "date": "2026-10-25",
+          "source": "GitHub trending",
+          "section": "Trending repos"
+        },
+        {
+          "id": "ab9a1738edf63d3870ddf272b68fb90872d88710",
+          "title": "crewAIInc/crewAI",
+          "url": "https://github.com/crewAIInc/crewAI",
+          "date": "2026-10-25",
+          "source": "GitHub trending · python",
+          "section": "Trending repos"
+        },
+        {
+          "id": "629e52348c94311ca0a38b80f5d2a06d74034006",
+          "title": "Anil-matcha/open-duet",
+          "url": "https://github.com/Anil-matcha/open-duet",
+          "date": "2026-10-24",
+          "source": "GitHub trending · python",
+          "section": "Trending repos"
+        },
+        {
+          "id": "846d04b8aa6fc8e4af795dee1af0ef8c745029ec",
+          "title": "ml-explore/mlx",
+          "url": "https://github.com/ml-explore/mlx",
+          "date": "2026-10-25",
+          "source": "GitHub trending · c++",
+          "section": "Trending repos"
+        }
+      ]
+    }
+  ],
+  "numbers": [
+    {
+      "value": "18,765",
+      "label": "commits in Linux 7.3 release",
+      "item": {
+        "id": "47822cd9ee4644799dab7e281408e8ab085d61b0",
+        "title": "The 7.3 kernel has been released",
+        "url": "https://lwn.net/Articles/1101143/",
+        "date": "2026-10-19",
+        "source": "lwn",
+        "section": "Embedded & systems"
+      }
+    },
+    {
+      "value": "512 GB",
+      "label": "address space added in OpenBSD 8.0",
+      "item": {
+        "id": "cf637d353ea8bc6fa1e578ea06e7070eac034312",
+        "title": "OpenBSD 8.0 released",
+        "url": "https://lwn.net/Articles/1101536/",
+        "date": "2026-10-21",
+        "source": "lwn",
+        "section": "Embedded & systems"
+      }
+    }
+  ],
+  "watch": "Next week keep an eye on how the new LLM benchmarks influence model releases and whether Rust‑centric kernel work translates into broader hardware support.",
+  "item_count": 164
+}

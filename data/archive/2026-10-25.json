@@ -1,0 +1,479 @@
+{
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T07:45:01+00:00",
+  "stats": {
+    "fetched": 120,
+    "new_after_dedupe": 69,
+    "published": 15,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 14,
+      "supported": 14,
+      "dropped": 0,
+      "unverifiable": 0,
+      "summaries_reverted": 0,
+      "rate": 1.0
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. You can now run Google Gemini from your terminal, and someone just pushed Bluetooth to a car‑ride distance.",
+    "stories": [
+      {
+        "kicker": "Open models",
+        "headline": "Gemini CLI lets you chat from the shell",
+        "body": "**Terminal‑first AI access:** The new gemini-cli tool pulls Google Gemini models straight into your command line. No browser, no UI, just raw prompts and responses in your terminal.",
+        "why": "It lets engineers prototype LLM prompts without leaving their dev environment.",
+        "ids": [
+          "9ad5ce51a9979f8cdcea79c971a00e192bd7d3de"
+        ]
+      },
+      {
+        "kicker": "AI agents",
+        "headline": "CrewAI orchestrates role‑playing bots",
+        "body": "**Python framework for autonomous crews:** CrewAI provides a library to spin up multiple AI agents that adopt distinct roles and coordinate on complex tasks. It abstracts the messaging and task delegation so you can focus on the problem, not the plumbing.",
+        "why": "Simplifies building multi‑agent pipelines, a growing pattern in AI research.",
+        "ids": [
+          "ab9a1738edf63d3870ddf272b68fb90872d88710"
+        ]
+      },
+      {
+        "kicker": "Embedded",
+        "headline": "Bluetooth reaches 12 km with tweaks",
+        "body": "**Long‑range Bluetooth hack:** A video shows a modified Bluetooth stack pushing the radio’s range to 12 kilometers by tweaking timing and power settings. The signal stays within Bluetooth specs but stretches far beyond typical use cases.",
+        "why": "Shows how software tweaks can unlock hidden hardware potential for IoT projects.",
+        "ids": [
+          "1bb597dcc81f009406b54203cf4c9d2b3105b971"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**C++ arrays:** MLX targets Apple silicon for high‑performance numeric work.",
+        "id": "846d04b8aa6fc8e4af795dee1af0ef8c745029ec"
+      },
+      {
+        "text": "**Rust automation:** agent-browser lets AI agents drive a headless browser.",
+        "id": "1ceb56a3b3745da84e0d2f1542867de60325d934"
+      },
+      {
+        "text": "**Code filter:** Hallmark screens AI‑generated snippets for Claude, Cursor, Codex.",
+        "id": "e2469c92ba3c15a30593d682366c67d13a07648a"
+      },
+      {
+        "text": "**Model stats:** Flint model logged 4,795 downloads on Hugging Face.",
+        "id": "59f554d8046d1f5eea44c37209afb7ecbaa44884"
+      },
+      {
+        "text": "**Retro link:** 2026 challenge connects vintage PCs to modern rigs.",
+        "id": "8faf9425ebf6f1898ab1732daffdae33c7beae78"
+      },
+      {
+        "text": "**S‑Video quirk:** Early laptops bundled a 7‑pin hybrid video port.",
+        "id": "ece3cf7354782ce16614169f40f8fc258693bc06"
+      }
+    ],
+    "number": {
+      "value": "12km",
+      "label": "Bluetooth range achieved with software tweaks",
+      "id": "1bb597dcc81f009406b54203cf4c9d2b3105b971"
+    },
+    "sign_off": "That’s your overnight sprint, see you tomorrow",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "99c8c118bf16bca2ebec3d749c2a8d10c10d1d2c",
+      "title": "Codeforces Round 1130 (Div. 2)",
+      "url": "https://codeforces.com/contests/2272",
+      "source": "Codeforces",
+      "starts": "2026-10-26T14:35:00+00:00",
+      "detail": "CF contest, 2.2h, starts Mon 26 Oct 14:35 UTC"
+    },
+    {
+      "id": "25e63b82e201c28b19194f893837789ad67218aa",
+      "title": "Codeforces Round 1131 (Div. 3)",
+      "url": "https://codeforces.com/contests/2278",
+      "source": "Codeforces",
+      "starts": "2026-10-31T14:35:00+00:00",
+      "detail": "ICPC contest, 2.2h, starts Sat 31 Oct 14:35 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "google-gemini/gemini-cli",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "source": "GitHub trending",
+      "section": "repos",
+      "published": null,
+      "points": 108253,
+      "score": 3.0,
+      "id": "9ad5ce51a9979f8cdcea79c971a00e192bd7d3de",
+      "summary": "gemini-cli is an open‑source command‑line tool that lets users run Google Gemini models directly from their terminal.",
+      "detail": "The tool provides a lightweight interface for interacting with Gemini, enabling quick prompts and responses without a web UI, which can streamline development workflows and scriptable AI tasks.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://repository-images.githubusercontent.com/968197216/8522a757-5632-4fa4-8d01-fcc121390cb1",
+      "related": {}
+    },
+    {
+      "title": "crewAIInc/crewAI",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "source": "GitHub trending · python",
+      "section": "repos",
+      "published": null,
+      "points": 60078,
+      "score": 2.5,
+      "id": "ab9a1738edf63d3870ddf272b68fb90872d88710",
+      "summary": "CrewAI is a Python framework that orchestrates role‑playing autonomous AI agents to collaborate on complex tasks.",
+      "detail": "By defining agent roles and interaction protocols, CrewAI enables coordinated problem‑solving, allowing multiple AI instances to share responsibilities and produce more sophisticated outputs than single agents.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://repository-images.githubusercontent.com/710601088/b287b45c-081a-4001-884d-67374219f277",
+      "related": {}
+    },
+    {
+      "title": "ml-explore/mlx",
+      "url": "https://github.com/ml-explore/mlx",
+      "source": "GitHub trending · c++",
+      "section": "repos",
+      "published": null,
+      "points": 28924,
+      "score": 2.5,
+      "id": "846d04b8aa6fc8e4af795dee1af0ef8c745029ec",
+      "summary": "MLX is a C++ array framework optimized for Apple silicon hardware.",
+      "detail": "The library leverages the GPU and neural engine capabilities of Apple devices to accelerate tensor operations, offering a performance‑focused alternative for developers targeting macOS and iOS platforms.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://opengraph.githubassets.com/caafbe4ad0e7ff099897a9073544eb64eef9a59c9d604229d9c1e54a633e25ad/ml-explore/mlx",
+      "related": {}
+    },
+    {
+      "title": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "source": "GitHub trending · rust",
+      "section": "repos",
+      "published": null,
+      "points": 44556,
+      "score": 2.5,
+      "id": "1ceb56a3b3745da84e0d2f1542867de60325d934",
+      "summary": "vercel-labs released a Rust CLI tool that enables browser automation for AI agents.",
+      "detail": "The tool provides a command-line interface to control a headless browser, allowing AI models to interact with web pages programmatically. It targets developers building autonomous agents that need web navigation capabilities. The project is open source and hosted on GitHub.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://opengraph.githubassets.com/cd7da21f4e0eac8175e5e3442059e046635aa6415824b1ea2540a17689eed02b/vercel-labs/agent-browser",
+      "related": {}
+    },
+    {
+      "title": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "source": "GitHub trending",
+      "section": "repos",
+      "published": null,
+      "points": 32540,
+      "score": 2.0,
+      "id": "e2469c92ba3c15a30593d682366c67d13a07648a",
+      "summary": "Nutlope created Hallmark, a design skill that filters AI-generated code for Claude Code, Cursor, and Codex.",
+      "detail": "Hallmark aims to reduce low-quality or irrelevant code suggestions by applying anti‑AI‑slop heuristics. It integrates with multiple code‑generation platforms, offering a plug‑in style enhancement for developers seeking cleaner outputs. The repository is publicly available on GitHub.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://opengraph.githubassets.com/7277391a1aa75f0afb8bd5c691f85944199ab91464c7fd64e583493f6f696b97/Nutlope/hallmark",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "Model: RecursiveSI/flint",
+          "url": "https://huggingface.co/RecursiveSI/flint",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-21T14:20:58.000Z",
+          "points": 791,
+          "score": 1.5,
+          "id": "59f554d8046d1f5eea44c37209afb7ecbaa44884",
+          "summary": "RecursiveSI/flint is a text-generation model on Hugging Face with 4,795 downloads and 791 likes.",
+          "detail": "The model is listed under the text-generation category and has attracted attention from the community, as reflected in its download and like counts. It joins a growing set of open-source language models available on the platform.",
+          "key_points": [
+            "4,795 downloads",
+            "791 likes"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/RecursiveSI/flint.png",
+          "related": {}
+        },
+        {
+          "title": "Model: XHToken/Spark-X2.6-4B",
+          "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-19T03:19:51.000Z",
+          "points": 461,
+          "score": 1.5,
+          "id": "0043ec56a51a0cf261821c29d20d1b9c0bebb65d",
+          "summary": "XHToken/Spark-X2.6-4B is a text-generation model on Hugging Face with 2,537 downloads and 461 likes.",
+          "detail": "The Spark-X2.6-4B model provides a 4-billion-parameter architecture for generating text. Its popularity is modest compared to larger models, but it offers a balance of size and performance for developers.",
+          "key_points": [
+            "2,537 downloads",
+            "461 likes"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/XHToken/Spark-X2.6-4B.png",
+          "related": {}
+        },
+        {
+          "title": "Model: dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
+          "url": "https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-18T04:11:31.000Z",
+          "points": 348,
+          "score": 1.5,
+          "id": "c8361443464570524c064e0a84522c97c27454d5",
+          "summary": "dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8 is an image-text-to-text model on Hugging Face with 5,583 downloads and 348 likes.",
+          "detail": "This model supports multimodal inputs, converting images and accompanying text into textual output. It is marketed as uncensored and runs in FP8 precision for faster inference on compatible hardware.",
+          "key_points": [
+            "5,583 downloads",
+            "348 likes"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8/dealign_mascot.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "2026 Retrocomputing Challenge: I Would Do Anything For Serial Data",
+          "url": "https://hackaday.com/2026/10/24/2026-retrocomputing-challenge-i-would-do-anything-for-serial-data/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-24T20:00:14+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "8faf9425ebf6f1898ab1732daffdae33c7beae78",
+          "summary": "The 2026 Retrocomputing Challenge \"I Would Do Anything For Serial Data\" addresses linking vintage computers with modern machines.",
+          "detail": "Organizers highlight the difficulty of interfacing legacy serial ports with contemporary networking standards. Participants are encouraged to devise hardware or software bridges to enable reliable data exchange.",
+          "key_points": [],
+          "tag": "Contest",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/meatloaf_feat.jpg",
+          "related": {}
+        },
+        {
+          "title": "Making for Others",
+          "url": "https://hackaday.com/2026/10/24/making-for-others/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-24T14:00:23+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "feb63d35ebd22e5e0ca0621c9c035d4bf8ddcd10",
+          "summary": "Hackaday's \"Making for Others\" article explores the culture of generosity within the open‑source hardware community.",
+          "detail": "The piece profiles several instances where experienced makers share designs, tools, and mentorship without direct compensation, emphasizing how collaborative ethos drives innovation.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2023/08/Collaboration01_featured.png",
+          "related": {}
+        },
+        {
+          "title": "Pushing Bluetooth out to 12 Kilometers",
+          "url": "https://hackaday.com/2026/10/24/pushing-bluetooth-out-to-12-kilometers/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-25T05:00:51+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "1bb597dcc81f009406b54203cf4c9d2b3105b971",
+          "summary": "A recent video demonstrates extending Bluetooth range to 12 kilometers by altering implementation details.",
+          "detail": "The approach leverages higher transmit power and specialized antenna configurations while remaining within regulatory limits. It showcases potential for long‑distance low‑energy communication beyond typical consumer use cases.",
+          "key_points": [
+            "12 km range"
+          ],
+          "tag": "Research",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/long-range-bluetooth-feat.jpg",
+          "related": {}
+        },
+        {
+          "title": "Remembering the Weirdest Nintendo DSi Accessory",
+          "url": "https://hackaday.com/2026/10/24/remembering-the-weirdest-nintendo-dsi-accessory/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-25T02:00:01+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "1d07b61a64ea093c11c28e3cb56b3fa5c2fa4e4f",
+          "summary": "The Nintendo DSi, launched in November 2008, introduced dual cameras—one front‑facing and one rear‑facing—marking the first handheld in the brand’s line with built‑in photography capabilities.",
+          "detail": "The accessory discussion highlights how the DSi’s camera feature enabled new gameplay mechanics and user‑generated content, differentiating it from earlier DS models that lacked any camera hardware. It also set a precedent for later handhelds to incorporate multimedia sensors.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/What-if-the-DSi-Camera-was-good_-0-1-screenshot-1.png",
+          "related": {}
+        },
+        {
+          "title": "That Weird 7-Pin S-Video Port on Old Laptops",
+          "url": "https://hackaday.com/2026/10/24/that-weird-7-pin-s-video-port-on-old-laptops/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-24T17:00:21+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "ece3cf7354782ce16614169f40f8fc258693bc06",
+          "summary": "Early‑2000s laptops often included a combined 7‑pin S‑Video port that served both video output and input functions, a rare hybrid connector for that era.",
+          "detail": "The port allowed users to connect external displays or capture video sources without needing separate connectors, reflecting the era’s push for versatile I/O. Its rarity today makes it a point of interest for vintage hardware enthusiasts.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/7-pin_s-video-connector_laptops_vwestlife_youtube.jpg",
+          "related": {}
+        },
+        {
+          "title": "The Slurptop is Both Drool Worthy and Practical",
+          "url": "https://hackaday.com/2026/10/24/the-slurptop-is-both-drool-worthy-and-practical/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-24T23:00:51+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "c8a99c2f8742711d61c4919ceeb4890470a03391",
+          "summary": "The Slurptop cyberdeck blends a practical design with a novelty “drool‑worthy” aesthetic, aiming to be both functional for work and visually striking.",
+          "detail": "Unlike hobbyist decks built solely for style, the Slurptop incorporates components and layout choices that support real‑world tasks while retaining a unique form factor that appeals to enthusiasts seeking both utility and flair.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/slruptop-feat.jpg",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "google-gemini/gemini-cli",
+          "url": "https://github.com/google-gemini/gemini-cli",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 108253,
+          "score": 3.0,
+          "id": "9ad5ce51a9979f8cdcea79c971a00e192bd7d3de",
+          "summary": "gemini-cli is an open‑source command‑line tool that lets users run Google Gemini models directly from their terminal.",
+          "detail": "The tool provides a lightweight interface for interacting with Gemini, enabling quick prompts and responses without a web UI, which can streamline development workflows and scriptable AI tasks.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://repository-images.githubusercontent.com/968197216/8522a757-5632-4fa4-8d01-fcc121390cb1",
+          "related": {}
+        },
+        {
+          "title": "crewAIInc/crewAI",
+          "url": "https://github.com/crewAIInc/crewAI",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 60078,
+          "score": 2.5,
+          "id": "ab9a1738edf63d3870ddf272b68fb90872d88710",
+          "summary": "CrewAI is a Python framework that orchestrates role‑playing autonomous AI agents to collaborate on complex tasks.",
+          "detail": "By defining agent roles and interaction protocols, CrewAI enables coordinated problem‑solving, allowing multiple AI instances to share responsibilities and produce more sophisticated outputs than single agents.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://repository-images.githubusercontent.com/710601088/b287b45c-081a-4001-884d-67374219f277",
+          "related": {}
+        },
+        {
+          "title": "ml-explore/mlx",
+          "url": "https://github.com/ml-explore/mlx",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 28924,
+          "score": 2.5,
+          "id": "846d04b8aa6fc8e4af795dee1af0ef8c745029ec",
+          "summary": "MLX is a C++ array framework optimized for Apple silicon hardware.",
+          "detail": "The library leverages the GPU and neural engine capabilities of Apple devices to accelerate tensor operations, offering a performance‑focused alternative for developers targeting macOS and iOS platforms.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://opengraph.githubassets.com/caafbe4ad0e7ff099897a9073544eb64eef9a59c9d604229d9c1e54a633e25ad/ml-explore/mlx",
+          "related": {}
+        },
+        {
+          "title": "vercel-labs/agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 44556,
+          "score": 2.5,
+          "id": "1ceb56a3b3745da84e0d2f1542867de60325d934",
+          "summary": "vercel-labs released a Rust CLI tool that enables browser automation for AI agents.",
+          "detail": "The tool provides a command-line interface to control a headless browser, allowing AI models to interact with web pages programmatically. It targets developers building autonomous agents that need web navigation capabilities. The project is open source and hosted on GitHub.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://opengraph.githubassets.com/cd7da21f4e0eac8175e5e3442059e046635aa6415824b1ea2540a17689eed02b/vercel-labs/agent-browser",
+          "related": {}
+        },
+        {
+          "title": "Nutlope/hallmark",
+          "url": "https://github.com/Nutlope/hallmark",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 32540,
+          "score": 2.0,
+          "id": "e2469c92ba3c15a30593d682366c67d13a07648a",
+          "summary": "Nutlope created Hallmark, a design skill that filters AI-generated code for Claude Code, Cursor, and Codex.",
+          "detail": "Hallmark aims to reduce low-quality or irrelevant code suggestions by applying anti‑AI‑slop heuristics. It integrates with multiple code‑generation platforms, offering a plug‑in style enhancement for developers seeking cleaner outputs. The repository is publicly available on GitHub.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://opengraph.githubassets.com/7277391a1aa75f0afb8bd5c691f85944199ab91464c7fd64e583493f6f696b97/Nutlope/hallmark",
+          "related": {}
+        },
+        {
+          "title": "agentskills/agentskills",
+          "url": "https://github.com/agentskills/agentskills",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 26586,
+          "score": 2.0,
+          "id": "22741e130b67c7210ff7f9402ab5fc06aa3a07ef",
+          "summary": "agentskills provides a Python specification and documentation framework for defining AI agent capabilities.",
+          "detail": "The repository outlines a structured format for describing agent skills, facilitating interoperability and reuse across projects. It includes examples and guidelines to help developers standardize skill definitions. The project is open source and maintained on GitHub.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/c9d11461bed4e4d224d4bb747925621f4236ec15bd572b6833cde6fa0057dadd/agentskills/agentskills",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
