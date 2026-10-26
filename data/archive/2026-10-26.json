@@ -1,0 +1,489 @@
+{
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T08:00:33+00:00",
+  "stats": {
+    "fetched": 123,
+    "new_after_dedupe": 74,
+    "published": 16,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 10,
+      "supported": 10,
+      "dropped": 0,
+      "unverifiable": 0,
+      "summaries_reverted": 0,
+      "rate": 1.0
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. LLM providers just slashed prices while the rest of us were still debugging.",
+    "stories": [
+      {
+        "kicker": "AI pricing",
+        "headline": "OpenAI and Anthropic slash fees up to 80%",
+        "body": "**Big price drop announced:** OpenAI and Anthropic announced up to an 80% reduction in their large language model pricing within months. The move could force you to rethink budgeting for API calls.",
+        "why": "Lower costs let you run more experiments without blowing your cloud budget.",
+        "ids": [
+          "c45c68dc9fe27319a2fa5d0add6b78dd9d68ee22"
+        ]
+      },
+      {
+        "kicker": "Open-source AI",
+        "headline": "AstrBot offers multi‑platform AI agent framework",
+        "body": "**Python‑first agent stack:** AstrBotDevs released AstrBot, a Python framework that stitches together IM platforms, LLM back‑ends, and plugins. It’s positioned as a free alternative to commercial bot suites.",
+        "why": "You can prototype cross‑chatbot agents without vendor lock‑in.",
+        "ids": [
+          "1739a2341816bb7a6628a1455e6456db5d96f38f"
+        ]
+      },
+      {
+        "kicker": "Embedded comms",
+        "headline": "Bluetooth mesh enables phone‑to‑phone calls",
+        "body": "**Cell‑free telephony demo:** A hackathon project built a prototype that routes voice over a Bluetooth mesh network between Android phones, eliminating the need for cellular service. The prototype works in a small‑scale test area.",
+        "why": "It shows a path to resilient, off‑grid communication for IoT devices.",
+        "ids": [
+          "92d0d8f1fdc2444fafa38c4592e32aea6042c310"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Formatter:** Biome brings Rust‑based formatting and linting to web projects.",
+        "id": "ed690e59e2f7f41536c4e06b41b89911ba073503"
+      },
+      {
+        "text": "**Web framework:** topcoat offers batteries‑included Rust web app building.",
+        "id": "5f987f0636c53831a13f3da497ddf24655bf4d92"
+      },
+      {
+        "text": "**IDE tweak:** thinkrail adapts its UI to match your workflow.",
+        "id": "6080fb8b34b08ea36cc627b2c2f60a2f60cd08c9"
+      },
+      {
+        "text": "**Hardware tool:** Yosys provides open‑source synthesis for chip design.",
+        "id": "0b32e292377c19cb30f51173660cd4d20de44914"
+      }
+    ],
+    "number": {
+      "value": "80%",
+      "label": "price reduction for major LLM providers",
+      "id": "c45c68dc9fe27319a2fa5d0add6b78dd9d68ee22"
+    },
+    "sign_off": "Keep coding, and enjoy the cheaper prompts",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "99c8c118bf16bca2ebec3d749c2a8d10c10d1d2c",
+      "title": "Codeforces Round 1130 (Div. 2)",
+      "url": "https://codeforces.com/contests/2272",
+      "source": "Codeforces",
+      "starts": "2026-10-26T14:35:00+00:00",
+      "detail": "CF contest, 2.2h, starts Mon 26 Oct 14:35 UTC"
+    },
+    {
+      "id": "25e63b82e201c28b19194f893837789ad67218aa",
+      "title": "Codeforces Round 1131 (Div. 3)",
+      "url": "https://codeforces.com/contests/2278",
+      "source": "Codeforces",
+      "starts": "2026-10-31T14:35:00+00:00",
+      "detail": "ICPC contest, 2.2h, starts Sat 31 Oct 14:35 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "url": "https://minimaxir.com/2026/10/cheap-llms/",
+      "source": "Hacker News",
+      "section": "ai-ml",
+      "published": "2026-10-25T21:11:31+00:00",
+      "points": 274,
+      "score": 4.0,
+      "id": "c45c68dc9fe27319a2fa5d0add6b78dd9d68ee22",
+      "summary": "OpenAI and Anthropic reduced their large language model pricing by as much as 80% within a few months.",
+      "detail": "The cuts affect both usage‑based and subscription tiers, making the services significantly cheaper for developers and enterprises. The reductions come after a period of rapid price competition in the LLM market. Both companies cite cost efficiencies and scaling as reasons for the change.",
+      "key_points": [
+        "up to 80% price cut"
+      ],
+      "tag": "News",
+      "highlight": true,
+      "image": "https://minimaxir.com/2026/10/cheap-llms/vercel.png",
+      "related": {}
+    },
+    {
+      "title": "AstrBotDevs/AstrBot",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "source": "GitHub trending · python",
+      "section": "repos",
+      "published": null,
+      "points": 43584,
+      "score": 2.5,
+      "id": "1739a2341816bb7a6628a1455e6456db5d96f38f",
+      "summary": "AstrBotDevs released AstrBot, a Python AI agent framework that integrates multiple IM platforms, LLMs, plugins, and serves as an open‑source alternative to OpenClaw.",
+      "detail": "AstrBot provides a modular architecture for building conversational agents, supporting Slack, Discord, and other services. It includes built‑in plugin handling and can be extended with custom language models.",
+      "key_points": [],
+      "tag": "Release",
+      "highlight": true,
+      "image": "https://opengraph.githubassets.com/215a3addc547549fc2b1aa585e6a55bea601ea1310e4a6167adb238ed0351d6b/AstrBotDevs/AstrBot",
+      "related": {}
+    },
+    {
+      "title": "biomejs/biome",
+      "url": "https://github.com/biomejs/biome",
+      "source": "GitHub trending · rust",
+      "section": "repos",
+      "published": null,
+      "points": 25995,
+      "score": 2.5,
+      "id": "ed690e59e2f7f41536c4e06b41b89911ba073503",
+      "summary": "Biome, a Rust‑based toolchain, offers a formatter and linter for web projects usable via CLI and LSP.",
+      "detail": "Targeted at JavaScript, TypeScript, and other web languages, Biome aims to replace multiple separate tools with a single, fast binary. It integrates with editors through the Language Server Protocol for real‑time feedback.",
+      "key_points": [],
+      "tag": "Release",
+      "highlight": true,
+      "image": "https://repository-images.githubusercontent.com/671654508/6056b7da-380c-47d6-b596-60238856f758",
+      "related": {}
+    },
+    {
+      "title": "tokio-rs/topcoat",
+      "url": "https://github.com/tokio-rs/topcoat",
+      "source": "GitHub trending · rust",
+      "section": "repos",
+      "published": null,
+      "points": 6222,
+      "score": 2.5,
+      "id": "5f987f0636c53831a13f3da497ddf24655bf4d92",
+      "summary": "tokio-rs/topcoat is a batteries‑included Rust framework for building web applications.",
+      "detail": "The project bundles routing, templating, and state management to simplify full‑stack development in Rust. It aims to reduce boilerplate compared to assembling separate crates. The repository includes examples and documentation for quick onboarding.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://opengraph.githubassets.com/dc7e28d0314aa6c76dc3b37042a0de7afc677e6caf566e4b598f455b2aa61ca4/tokio-rs/topcoat",
+      "related": {}
+    },
+    {
+      "title": "521xueweihan/HelloGitHub",
+      "url": "https://github.com/521xueweihan/HelloGitHub",
+      "source": "GitHub trending · python",
+      "section": "repos",
+      "published": null,
+      "points": 184553,
+      "score": 2.0,
+      "id": "b1867c5b106829b91a82bff0428d6ae1775cc9ea",
+      "summary": "521xueweihan/HelloGitHub curates interesting, entry‑level open‑source projects on GitHub.",
+      "detail": "The collection is organized by language and difficulty, providing brief descriptions and links. It serves as a learning resource for newcomers to explore real‑world codebases. Contributors periodically add new projects to keep the list fresh.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://repository-images.githubusercontent.com/58028038/6cac4038-fd31-4ea6-8b31-e52ddc9a9b97",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+          "url": "https://minimaxir.com/2026/10/cheap-llms/",
+          "source": "Hacker News",
+          "section": "ai-ml",
+          "published": "2026-10-25T21:11:31+00:00",
+          "points": 274,
+          "score": 4.0,
+          "id": "c45c68dc9fe27319a2fa5d0add6b78dd9d68ee22",
+          "summary": "OpenAI and Anthropic reduced their large language model pricing by as much as 80% within a few months.",
+          "detail": "The cuts affect both usage‑based and subscription tiers, making the services significantly cheaper for developers and enterprises. The reductions come after a period of rapid price competition in the LLM market. Both companies cite cost efficiencies and scaling as reasons for the change.",
+          "key_points": [
+            "up to 80% price cut"
+          ],
+          "tag": "News",
+          "highlight": true,
+          "image": "https://minimaxir.com/2026/10/cheap-llms/vercel.png",
+          "related": {}
+        },
+        {
+          "title": "Model: ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+          "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-23T09:43:05.000Z",
+          "points": 301,
+          "score": 1.5,
+          "id": "e6e48b4f448684214c8ff28c86d986c830cab50a",
+          "summary": "The DeepSeek‑V4.1‑Flash‑1017 model (GSQ‑RCO) is available on Hugging Face with over 412k downloads.",
+          "detail": "It is distributed in GGUF format for efficient inference on consumer GPUs. The model targets text generation tasks and includes quantization optimizations. Community feedback highlights its strong performance on benchmark prompts.",
+          "key_points": [
+            "412,392 downloads",
+            "301 likes"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF.png",
+          "related": {}
+        },
+        {
+          "title": "Model: Nanbeige/Nanbeige4.3-33B",
+          "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-24T02:49:18.000Z",
+          "points": 460,
+          "score": 1.5,
+          "id": "7deb0a380978d16fbf3a3fc4a69b89bcb42e1e6c",
+          "summary": "Nanbeige released the Nanbeige4.3‑33B text‑generation model, which has received 460 likes on Hugging Face.",
+          "detail": "The 33‑billion‑parameter model is offered in standard transformer format and is intended for research and fine‑tuning. Early users note its competitive quality on open‑ended generation compared to similar‑size models.",
+          "key_points": [
+            "460 likes"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Nanbeige/Nanbeige4.3-33B.png",
+          "related": {}
+        },
+        {
+          "title": "Model: unsloth/flint-GGUF",
+          "url": "https://huggingface.co/unsloth/flint-GGUF",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-20T03:26:14.000Z",
+          "points": 257,
+          "score": 1.5,
+          "id": "3892febc0d28f6e58c782f0d41f4cbd58817b757",
+          "summary": "unsloth's flint model in GGUF format has been downloaded 103,369 times on Hugging Face.",
+          "detail": "Flint is optimized for low‑memory inference, targeting edge devices. The GGUF packaging reduces load times and enables faster token generation. Community comments praise its balance of speed and output quality.",
+          "key_points": [
+            "103,369 downloads",
+            "257 likes"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/unsloth/flint-GGUF.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "A 3D Printed Marble Clock, but it’s Scrolling Text",
+          "url": "https://hackaday.com/2026/10/25/a-3d-printed-marble-clock-but-its-scrolling-text/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-25T20:00:33+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "f956ef278adaf3f49fb36cbdd717d340bae12ba5",
+          "summary": "Hackaday featured a 3D‑printed marble clock that displays scrolling text.",
+          "detail": "The project adapts the classic marble clock mechanism to encode characters as rotating marble positions, creating a moving text display. Builders report the design is printable with standard resin printers and uses a simple microcontroller for timing.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/scrolling_marble_text_ivan_miranda_youtube.jpg",
+          "related": {}
+        },
+        {
+          "title": "Building a Swashplate-less Helicoper Rotor",
+          "url": "https://hackaday.com/2026/10/25/building-a-swashplate-less-helicoper-rotor/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-26T05:00:22+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "ceaf49675a100599eac5b089f76dd261fb70f3d2",
+          "summary": "A hackathon project demonstrates a helicopter rotor that operates without a traditional swashplate.",
+          "detail": "The design replaces the swashplate and linkages with a novel actuation system that directly adjusts blade pitch via servo‑driven hinges. Tests show comparable collective control while reducing mechanical complexity, though durability under sustained load remains under evaluation.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/helicopter_propeller.png",
+          "related": {}
+        },
+        {
+          "title": "Hackaday Links: October 25, 2026",
+          "url": "https://hackaday.com/2026/10/25/hackaday-links-october-25-2026/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-25T23:00:48+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "243a7268f65b3f44fd81645cf4b41dd694558ffa",
+          "summary": "Denmark halted its planned migration away from Microsoft proprietary software after announcing the transition last year.",
+          "detail": "The decision reflects challenges in replacing entrenched Microsoft tools within government and industry. Officials cited compatibility and cost concerns, suggesting a slower, more incremental approach may be taken.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2014/11/had-links-banner.jpg",
+          "related": {}
+        },
+        {
+          "title": "Mesh Network Telephony Over Bluetooth on Android Phones",
+          "url": "https://hackaday.com/2026/10/25/mesh-network-telephony-over-bluetooth-on-android-phones/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-25T17:00:31+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "92d0d8f1fdc2444fafa38c4592e32aea6042c310",
+          "summary": "A prototype enables telephony over a Bluetooth mesh network between Android phones without cellular service.",
+          "detail": "The system routes voice packets through nearby devices, extending range in remote areas. It demonstrates low‑latency voice transmission but requires all participants to run the app and maintain mesh connectivity.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/MeshLive-screenshot.png",
+          "related": {}
+        },
+        {
+          "title": "Meshtastic Pet Tracking",
+          "url": "https://hackaday.com/2026/10/25/meshtastic-pet-tracking/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-25T11:00:07+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "6a3c9132a1e37b736e6caf412071e7ef24dca522",
+          "summary": "Jon G Aguado created LIA, a Meshtastic‑based pet collar tracker that works without a subscription or cellular network.",
+          "detail": "LIA uses the open‑source Meshtastic protocol to broadcast location to nearby devices, allowing owners to locate pets locally. The design emphasizes privacy and low power consumption compared to commercial trackers.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/LIA-Open-Source-Meshtastic-LoRa-Pet-Tracker.webp",
+          "related": {}
+        },
+        {
+          "title": "Simple, Reliable RF Remote Control",
+          "url": "https://hackaday.com/2026/10/25/simple-reliable-rf-remote-control/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-25T14:00:48+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "c531895db965347b972ed897c5147b3360945c0b",
+          "summary": "The article traces the evolution from early sound, light, and wired remote controls to modern reliable RF consumer remotes.",
+          "detail": "Early devices relied on direct line‑of‑sight or physical connections, limiting range and reliability. Advances in RF engineering and encoding schemes eventually delivered the robust, battery‑efficient remotes common today.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/rf-remote-main.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "AstrBotDevs/AstrBot",
+          "url": "https://github.com/AstrBotDevs/AstrBot",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 43584,
+          "score": 2.5,
+          "id": "1739a2341816bb7a6628a1455e6456db5d96f38f",
+          "summary": "AstrBotDevs released AstrBot, a Python AI agent framework that integrates multiple IM platforms, LLMs, plugins, and serves as an open‑source alternative to OpenClaw.",
+          "detail": "AstrBot provides a modular architecture for building conversational agents, supporting Slack, Discord, and other services. It includes built‑in plugin handling and can be extended with custom language models.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": true,
+          "image": "https://opengraph.githubassets.com/215a3addc547549fc2b1aa585e6a55bea601ea1310e4a6167adb238ed0351d6b/AstrBotDevs/AstrBot",
+          "related": {}
+        },
+        {
+          "title": "biomejs/biome",
+          "url": "https://github.com/biomejs/biome",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 25995,
+          "score": 2.5,
+          "id": "ed690e59e2f7f41536c4e06b41b89911ba073503",
+          "summary": "Biome, a Rust‑based toolchain, offers a formatter and linter for web projects usable via CLI and LSP.",
+          "detail": "Targeted at JavaScript, TypeScript, and other web languages, Biome aims to replace multiple separate tools with a single, fast binary. It integrates with editors through the Language Server Protocol for real‑time feedback.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": true,
+          "image": "https://repository-images.githubusercontent.com/671654508/6056b7da-380c-47d6-b596-60238856f758",
+          "related": {}
+        },
+        {
+          "title": "tokio-rs/topcoat",
+          "url": "https://github.com/tokio-rs/topcoat",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 6222,
+          "score": 2.5,
+          "id": "5f987f0636c53831a13f3da497ddf24655bf4d92",
+          "summary": "tokio-rs/topcoat is a batteries‑included Rust framework for building web applications.",
+          "detail": "The project bundles routing, templating, and state management to simplify full‑stack development in Rust. It aims to reduce boilerplate compared to assembling separate crates. The repository includes examples and documentation for quick onboarding.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://opengraph.githubassets.com/dc7e28d0314aa6c76dc3b37042a0de7afc677e6caf566e4b598f455b2aa61ca4/tokio-rs/topcoat",
+          "related": {}
+        },
+        {
+          "title": "521xueweihan/HelloGitHub",
+          "url": "https://github.com/521xueweihan/HelloGitHub",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 184553,
+          "score": 2.0,
+          "id": "b1867c5b106829b91a82bff0428d6ae1775cc9ea",
+          "summary": "521xueweihan/HelloGitHub curates interesting, entry‑level open‑source projects on GitHub.",
+          "detail": "The collection is organized by language and difficulty, providing brief descriptions and links. It serves as a learning resource for newcomers to explore real‑world codebases. Contributors periodically add new projects to keep the list fresh.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://repository-images.githubusercontent.com/58028038/6cac4038-fd31-4ea6-8b31-e52ddc9a9b97",
+          "related": {}
+        },
+        {
+          "title": "JetBrains/thinkrail",
+          "url": "https://github.com/JetBrains/thinkrail",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 2127,
+          "score": 2.0,
+          "id": "6080fb8b34b08ea36cc627b2c2f60a2f60cd08c9",
+          "summary": "JetBrains/thinkrail offers a lightweight IDE that adapts its UI to the user's workflow.",
+          "detail": "Thinkrail integrates code editing, debugging, and version control while customizing tool panels based on usage patterns. It targets developers who prefer minimal distraction but still need core IDE features. The project is open source and extensible via plugins.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/878bef453e22ff86ad5726a334c16e665cc3bb6ea449b99866b9672cdbdb7e92/JetBrains/thinkrail",
+          "related": {}
+        },
+        {
+          "title": "YosysHQ/yosys",
+          "url": "https://github.com/YosysHQ/yosys",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 4847,
+          "score": 2.0,
+          "id": "0b32e292377c19cb30f51173660cd4d20de44914",
+          "summary": "YosysHQ/yosys provides the open‑source Yosys Open SYnthesis Suite for hardware design.",
+          "detail": "Yosys supports Verilog synthesis, technology mapping, and formal verification, and is widely used in FPGA and ASIC toolchains. The C++ codebase is modular, allowing extensions for custom back‑ends. Regular releases add new device libraries and performance improvements.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/36258b82962406219d693f3dce48a32ed2713a9d9733752cfd0b8aa1e2fba591/YosysHQ/yosys",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
