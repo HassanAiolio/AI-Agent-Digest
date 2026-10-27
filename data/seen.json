@@ -84,6 +84,11 @@
 "title": "Model: unsloth/Qwen3.8-27B-NVFP4",
 "url": "https://huggingface.co/unsloth/Qwen3.8-27B-NVFP4"
 },
+"026b1ca6a30723ec089e4756e3571197fbf07399": {
+"date": "2026-10-27",
+"title": "Accelerating SO(2)-Equivariant Materials Models through Low-Precision Emulation",
+"url": "https://arxiv.org/abs/2610.35164v1"
+},
 "027379c08484bed24af91415c1d7d96dc8273daa": {
 "date": "2026-08-21",
 "title": "Introducing AI Futures",
@@ -163,6 +168,11 @@
 "date": "2026-08-09",
 "title": "High-Density Parchment Paper Papertronics with Laser-Carved Hydrophilic Channels",
 "url": "https://hackaday.com/2026/08/08/high-density-parchment-paper-papertronics-with-laser-carved-hydrophilic-channels/"
+},
+"03f253ede7aeecda9dff0e3bc2478bf7059c6847": {
+"date": "2026-10-27",
+"title": "Security updates for Monday",
+"url": "https://lwn.net/Articles/1102946/"
 },
 "041db767c0e445b3984c338a9abdf6e3e5067648": {
 "date": "2026-09-17",
@@ -309,6 +319,11 @@
 "title": "azahar-emu/azahar",
 "url": "https://github.com/azahar-emu/azahar"
 },
+"07a76f240bbe8813d7af01cf4266a97fe4369bb5": {
+"date": "2026-10-27",
+"title": "gitroomhq/postiz-app",
+"url": "https://github.com/gitroomhq/postiz-app"
+},
 "07c71cb2bb6099421865ce28b2b4162e151ab176": {
 "date": "2026-09-25",
 "title": "Fosowl/agenticSeek",
@@ -333,6 +348,11 @@
 "date": "2026-08-28",
 "title": "Decoupled I/O-Dominant Pipelines for Large-Scale Whole-Slide Image Embedding Extraction",
 "url": "https://arxiv.org/abs/2608.27278v1"
+},
+"0813c1338475c1d2572136224e227c07fa3e75b8": {
+"date": "2026-10-27",
+"title": "Two stable kernels for Monday",
+"url": "https://lwn.net/Articles/1102973/"
 },
 "0825a4897dea2e8280a620cd72c7dc55f2c953c0": {
 "date": "2026-10-08",
@@ -1014,6 +1034,11 @@
 "title": "Open-Dev-Society/OpenStock",
 "url": "https://github.com/Open-Dev-Society/OpenStock"
 },
+"172b48983d813ceb252393572b71e79cc68ef513": {
+"date": "2026-10-27",
+"title": "ESP32 Rotary Display Makes Ideal Timer",
+"url": "https://hackaday.com/2026/10/27/esp32-rotary-display-makes-ideal-timer/"
+},
 "1739a2341816bb7a6628a1455e6456db5d96f38f": {
 "date": "2026-10-26",
 "title": "AstrBotDevs/AstrBot",
@@ -1173,6 +1198,11 @@
 "date": "2026-08-12",
 "title": "Fredolx/open-tv",
 "url": "https://github.com/Fredolx/open-tv"
+},
+"1a1d4bf2fc111eb8468802ff9bbd62e331b7f1cf": {
+"date": "2026-10-27",
+"title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+"url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
 },
 "1a2244ec9808b405b00d57c3f7c2a296f05c3e63": {
 "date": "2026-10-07",
@@ -1638,6 +1668,11 @@
 "date": "2026-08-11",
 "title": "[$] Even more formal verification for BPF",
 "url": "https://lwn.net/Articles/1087069/"
+},
+"250e5d8f302445e732f11c3d93295dd5649f2f7e": {
+"date": "2026-10-27",
+"title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+"url": "https://openai.com/index/greptile-code-review-codex-astra"
 },
 "25328ebc00bc53beb196cfba82d56d58ba62b760": {
 "date": "2026-09-22",
@@ -3804,6 +3839,11 @@
 "title": "Diolinux/PhotoGIMP",
 "url": "https://github.com/Diolinux/PhotoGIMP"
 },
+"614d8fdfb0df5c99d9f53d184d485acabf29fa8d": {
+"date": "2026-10-27",
+"title": "Cross-Domain Sequential Recommendation with Representation-Level User Transfer",
+"url": "https://arxiv.org/abs/2610.35550v1"
+},
 "614e46ab486e852317cb2783f3071616ad2d8d2c": {
 "date": "2026-10-16",
 "title": "Crosstalk-Solutions/unifi-toolkit",
@@ -3949,6 +3989,11 @@
 "title": "Born Against, or why hobby programming communities are against LLM usage",
 "url": "https://blog.fogus.me/llm/born-against.html"
 },
+"64d59b55a8fb866695c8c1e923e768f9baf418cb": {
+"date": "2026-10-27",
+"title": "ChatGPT’s expanding world of work",
+"url": "https://openai.com/index/chatgpt-expanding-world-of-work"
+},
 "64e07407dc03bb18c3f184f25c3bc14cd98f7280": {
 "date": "2026-10-18",
 "title": "geode-sdk/geode",
@@ -4008,6 +4053,11 @@
 "date": "2026-09-04",
 "title": "A Thoroughly Modern Minimalist Transceiver",
 "url": "https://hackaday.com/2026/09/03/a-thoroughly-modern-minimalist-transceiver/"
+},
+"6657fbe659b6cae147f4d2e22a0c571cd96d1979": {
+"date": "2026-10-27",
+"title": "Systemd adds support for components written in Rust",
+"url": "https://lwn.net/Articles/1102970/"
 },
 "66aafeba3e783ec184e3742d3134af0599b36644": {
 "date": "2026-10-24",
@@ -4118,6 +4168,11 @@
 "date": "2026-08-18",
 "title": "cifertech/nRFBox",
 "url": "https://github.com/cifertech/nRFBox"
+},
+"695554e1313fe4035bfdbd0484575bbb2661eae9": {
+"date": "2026-10-27",
+"title": "Connecting Quantum Proof Systems and Hoare Logic",
+"url": "https://arxiv.org/abs/2610.34723v1"
 },
 "6974e3f4b3013284ffb5137abdc8bd1f5ecba3ea": {
 "date": "2026-10-01",
@@ -4549,6 +4604,11 @@
 "title": "Open Firmware Fixes Dead Onkyo AV Receivers",
 "url": "https://hackaday.com/2026/10/13/open-firmware-fixes-dead-onkyo-av-receivers/"
 },
+"759090c754c2137c5f8677345fd2d173a15d5b18": {
+"date": "2026-10-27",
+"title": "ACTIVE: A Dynamic Pareto-Frontier-Based Unified Index for Dual-Vector Query",
+"url": "https://arxiv.org/abs/2610.35751v1"
+},
 "75c142c98465654346bddb2a721e4c3ffcb8f5e6": {
 "date": "2026-09-11",
 "title": "Model: nex-agi/Nex-N2.5-Pro",
@@ -4829,6 +4889,11 @@
 "title": "The eternal complement",
 "url": "https://openai.com/index/the-eternal-complement"
 },
+"7e7d1ddb9c9f4530fd558b50a35c6979fcce5d96": {
+"date": "2026-10-27",
+"title": "aseprite/aseprite",
+"url": "https://github.com/aseprite/aseprite"
+},
 "7eeb46d10df423341b8c38f6d2e2faddbf15013b": {
 "date": "2026-09-03",
 "title": "Decoupling Disaggregated Memory Optimizations from Indexing: A Compiler-Runtime Approach",
@@ -5013,6 +5078,11 @@
 "date": "2026-08-12",
 "title": "ReRound: Reconstructive Rounding to Resolve Midpoint Ambiguity in Calibration-Free LLM Quantization",
 "url": "https://arxiv.org/abs/2608.11045v1"
+},
+"83d5cf45a1dd51695abd547d177bd830b98ca0a3": {
+"date": "2026-10-27",
+"title": "[$] Python's experimental JIT to be removed",
+"url": "https://lwn.net/Articles/1102102/"
 },
 "83d9b0378031ab6ce52784dd18761ebb62767730": {
 "date": "2026-08-19",
@@ -5214,6 +5284,11 @@
 "title": "Enumeration-based Triangle Counting on GPUs",
 "url": "https://arxiv.org/abs/2610.29988v1"
 },
+"8a77e646571ba4d58515e7833bd3b43420286a74": {
+"date": "2026-10-27",
+"title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+"url": "https://www.anthropic.com/news/s1-sec"
+},
 "8a78d74aef0967c54fdc6ec255592aad003f11b3": {
 "date": "2026-10-01",
 "title": "Barclays scales Claude to upgrade operations and improve client experience",
@@ -5313,6 +5388,11 @@
 "date": "2026-10-13",
 "title": "Model: nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
 "url": "https://huggingface.co/nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2"
+},
+"8cfee209e93b7c87bce3a6e95fa3e7022cf73087": {
+"date": "2026-10-27",
+"title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+"url": "https://github.com/FrigadeHQ/hob"
 },
 "8d1dab01800355e406b8ff7a52bb6b52e1ac5a33": {
 "date": "2026-08-22",
@@ -5524,6 +5604,11 @@
 "title": "Semantic Intelligence Against CSAM: The PreventCSA@EU Ontology Framework for Classification and Investigation",
 "url": "https://arxiv.org/abs/2608.12979v1"
 },
+"930285917edf0870a9834a98d4cf9114b6994338": {
+"date": "2026-10-27",
+"title": "Priority-Aware Scheduler for Serverless Functions Provision and Load Balancing",
+"url": "https://arxiv.org/abs/2610.35073v1"
+},
 "930dd1342c71cfa2fa9008eac30a767a3b58b981": {
 "date": "2026-08-01",
 "title": "NousResearch/hermes-agent",
@@ -5558,6 +5643,11 @@
 "date": "2026-10-18",
 "title": "Model: black-forest-labs/flux-3-image-klein",
 "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein"
+},
+"9401fe00400266b3a1868bd71c49efc3ebf6081b": {
+"date": "2026-10-27",
+"title": "Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks",
+"url": "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks/"
 },
 "94069425511e983376a58fdfdeebaedbd2feb048": {
 "date": "2026-09-21",
@@ -5998,6 +6088,11 @@
 "date": "2026-09-01",
 "title": "When Does Bigger Help? A Controlled Study of LLM Scale for Ontology Learning",
 "url": "https://arxiv.org/abs/2608.31118v1"
+},
+"9eec47771791b6954d4cc81566b426dc2ec058ec": {
+"date": "2026-10-27",
+"title": "A Unified Queueing-Based Framework for Comparative Evaluation of Serverless Autoscaling Strategies under Bursty Workloads",
+"url": "https://arxiv.org/abs/2610.35564v1"
 },
 "9eff38b870f6f85a55e54fe3737920955648180a": {
 "date": "2026-09-10",
@@ -7249,6 +7344,11 @@
 "title": "GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model",
 "url": "https://engineering.fb.com/2026/08/03/ml-applications/training-gem-at-llm-scale-meta-ads-recommendation-foundation-model/"
 },
+"bffa551f279e494ef30f4c9ad2363145936efefa": {
+"date": "2026-10-27",
+"title": "FOCUS: Active Critic Learning for Long-Horizon Language Model Agents",
+"url": "https://arxiv.org/abs/2610.35801v1"
+},
 "c0008c114017d47c3e7e5a3e09fa9bbc1224dcbf": {
 "date": "2026-10-24",
 "title": "Mailu/Mailu",
@@ -7463,6 +7563,11 @@
 "date": "2026-09-08",
 "title": "mksglu/context-mode",
 "url": "https://github.com/mksglu/context-mode"
+},
+"c4d2836062b5c35c5a66d31d6104fbab87295d6b": {
+"date": "2026-10-27",
+"title": "MaaAssistantArknights/MaaAssistantArknights",
+"url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights"
 },
 "c4d9d231669e0fa5356ef533296bb425ea5f05ea": {
 "date": "2026-10-12",
@@ -7914,6 +8019,11 @@
 "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
 "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra"
 },
+"ce5ce5fc43fb095851a962aa1eef99d6b2bf6227": {
+"date": "2026-10-27",
+"title": "Concerning behavior from a popular open-weight AI model",
+"url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model"
+},
 "ce644e0c98fa7fcb4c8ba292dee3187a0c8a7684": {
 "date": "2026-08-13",
 "title": "[$] LWN.net Weekly Edition for August 13, 2026",
@@ -7994,6 +8104,11 @@
 "title": "Model: froggeric/Qwen-Fixed-Chat-Templates",
 "url": "https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates"
 },
+"d00d272b2b99c11feb829323113461cd03bcf38e": {
+"date": "2026-10-27",
+"title": "Panniantong/Agent-Reach",
+"url": "https://github.com/Panniantong/Agent-Reach"
+},
 "d01c70cd765a322f7967614e7adde3846608436c": {
 "date": "2026-10-01",
 "title": "About the Influence of Workflow Topology on Task Intensity Prediction through Graph Learning",
@@ -8029,6 +8144,11 @@
 "title": "Teardown and Repair of a Insoma Water Timer",
 "url": "https://hackaday.com/2026/09/19/teardown-and-repair-of-a-insoma-water-timer/"
 },
+"d1195f67513589cee2898ee33b1ea987b2c6e3eb": {
+"date": "2026-10-27",
+"title": "A Unified Arena for LLM Agents across Diverse Eurogame",
+"url": "https://arxiv.org/abs/2610.35773v1"
+},
 "d11ff96b8c49d4238ef5fa8ebe9bf7114f56bbf9": {
 "date": "2026-09-05",
 "title": "CalcProgrammer1/OpenRGB",
@@ -8043,6 +8163,11 @@
 "date": "2026-08-18",
 "title": "Topological Attribution Distance (TAD): Revealing Segment-Level RAG Influence on LLM Output Geometry for Incident Log Analysis",
 "url": "https://arxiv.org/abs/2608.16775v1"
+},
+"d1aa340a643527c9458f562f06b6497685c99bdd": {
+"date": "2026-10-27",
+"title": "Alishahryar1/free-claude-code",
+"url": "https://github.com/Alishahryar1/free-claude-code"
 },
 "d23388c930a4230053aa96c92d352c85a28b866d": {
 "date": "2026-08-07",
@@ -8159,6 +8284,11 @@
 "title": "Scaling LLM Inference via Parallelism: Throughput-Latency Trade-off",
 "url": "https://arxiv.org/abs/2610.19405v1"
 },
+"d5008547bc0cef4155b1c49d8b409d718db5921e": {
+"date": "2026-10-27",
+"title": "HarnessRouter/harnessrouter",
+"url": "https://github.com/HarnessRouter/harnessrouter"
+},
 "d5223c9ec67cd4d109029958b14563d7827473cf": {
 "date": "2026-08-12",
 "title": "Fixing a Dead Makita Battery with a 20 Cent Part",
@@ -8228,6 +8358,11 @@
 "date": "2026-08-07",
 "title": "Security updates for Thursday",
 "url": "https://lwn.net/Articles/1087489/"
+},
+"d688c8ec2131bfbfc1c6152a284c34374a4c9382": {
+"date": "2026-10-27",
+"title": "EvoRouter: Cost-Efficient Multi-Agent Routing via Insight-Guided On-Policy Distillation",
+"url": "https://arxiv.org/abs/2610.35690v1"
 },
 "d6a7dfa29ede4307be6a4da34e3077c7ff122f04": {
 "date": "2026-09-15",
@@ -8428,6 +8563,11 @@
 "date": "2026-10-03",
 "title": "Model: Cloudflare/clef-flash",
 "url": "https://huggingface.co/Cloudflare/clef-flash"
+},
+"dab1eb8e1e4fedd34da73c649c74ad7a2cfe80b2": {
+"date": "2026-10-27",
+"title": "Arduino Engine Runs Many Games",
+"url": "https://hackaday.com/2026/10/26/arduino-engine-runs-many-games/"
 },
 "db1126994486cafd11a20d8f83d95c0fd2f25804": {
 "date": "2026-08-18",
