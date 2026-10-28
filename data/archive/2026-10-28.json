@@ -1,0 +1,643 @@
+{
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T08:52:17+00:00",
+  "stats": {
+    "fetched": 131,
+    "new_after_dedupe": 80,
+    "published": 22,
+    "failed_sources": [
+      "arxiv-ai",
+      "arxiv-systems"
+    ],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 17,
+      "supported": 16,
+      "dropped": 1,
+      "unverifiable": 4,
+      "summaries_reverted": 0,
+      "rate": 0.9412
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. Fedora finally talks to your Pi 5, but the speakers are still on mute.",
+    "stories": [
+      {
+        "kicker": "Security",
+        "headline": "UEFI firmware bug threatens most servers",
+        "body": "**Critical firmware bug uncovered:** A code‑execution flaw in UEFI firmware could let attackers run arbitrary code on the majority of global servers. Patch rollout is still in early stages.",
+        "why": "If you run any on‑prem services, you’ll need to verify firmware updates ASAP.",
+        "ids": [
+          "9d02bbba005f11f74e57ae8f8590c55b3e366cdd"
+        ]
+      },
+      {
+        "kicker": "AI Offline",
+        "headline": "Survival LLM runs locally for emergencies",
+        "body": "**Your offline AI lifeline:** Survival LLM is an open‑source assistant that lives entirely on your PC, offering emergency help without internet. It bundles a compact language model and a tiny toolset.",
+        "why": "Great for field work or any situation where connectivity is a luxury.",
+        "ids": [
+          "f6df93ac15272b0a75b6bb1be8498f552f3c097f"
+        ]
+      },
+      {
+        "kicker": "Embedded",
+        "headline": "Fedora 45 adds Raspberry Pi 5B support",
+        "body": "**Fedora finally hears the Pi:** Version 45 now boots on all Pi 5B boards, though Compute Module 5 and Pi 500+ are still pending and audio remains unsupported.",
+        "why": "You can now develop on a mainstream distro without juggling custom kernels.",
+        "ids": [
+          "a13b169ccc586e6d3c60b35bd077136c45d8174b"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Multimodal framework:** Hugging Face launches LFM3 for custom multimodal models.",
+        "id": "db98bf59a6c7e4204871c9f544fd7cc3019a06a7"
+      },
+      {
+        "text": "**Claude for government:** Anthropic expands Claude access across all US government levels.",
+        "id": "31f854764086b8ecc2788bdb62bdfe670d3860ae"
+      },
+      {
+        "text": "**World simulation:** DeepMind unveils Genie 4, a real‑time high‑fidelity environment model.",
+        "id": "5ef94984dce414f6cd0dec7eb033a3aff5071eaa"
+      },
+      {
+        "text": "**OpenAI‑Oracle tie‑up:** New integration embeds business apps and AI agents inside ChatGPT.",
+        "id": "a3a879144b2984ac94bfd6f21f2a919716019c6d"
+      },
+      {
+        "text": "**Security updates:** AlmaLinux, Debian, Fedora, Mageia, Oracle patch dozens of packages including bind9.18 and Python 3.9.",
+        "id": "5d57f383168504b5cdeeacfa0ba257217e3e3485"
+      },
+      {
+        "text": "**Auto Ontology:** Python library adds graph‑based reasoning to LLM queries for more deterministic results.",
+        "id": "8ac198972094b1b5917753df1abe71739aab233e"
+      }
+    ],
+    "number": {
+      "value": "45",
+      "label": "Fedora version adding Pi 5 support",
+      "id": "a13b169ccc586e6d3c60b35bd077136c45d8174b"
+    },
+    "sign_off": "Stay sharp, and keep those kernels panic‑free.",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "25e63b82e201c28b19194f893837789ad67218aa",
+      "title": "Codeforces Round 1131 (Div. 3)",
+      "url": "https://codeforces.com/contests/2278",
+      "source": "Codeforces",
+      "starts": "2026-10-31T14:35:00+00:00",
+      "detail": "ICPC contest, 2.2h, starts Sat 31 Oct 14:35 UTC"
+    },
+    {
+      "id": "eec55f6273cebeb8f5a0b6b5995b58de22bb4e81",
+      "title": "Educational Codeforces Round 196 (Rated for Div. 2)",
+      "url": "https://codeforces.com/contests/2283",
+      "source": "Codeforces",
+      "starts": "2026-11-04T14:35:00+00:00",
+      "detail": "ICPC contest, 2.0h, starts Wed 04 Nov 14:35 UTC"
+    },
+    {
+      "id": "7e1dac2252b1732ed21c941b13dc3ff0d95895a5",
+      "title": "ICPC 2026 Online Challenge 2 powered by Huawei",
+      "url": "https://codeforces.com/contests/2281",
+      "source": "Codeforces",
+      "starts": "2026-11-05T11:00:00+00:00",
+      "detail": "IOI contest, 336.0h, starts Thu 05 Nov 11:00 UTC"
+    },
+    {
+      "id": "93470a29b77d11d5f96f320a90cfe6df62ea2ada",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2284",
+      "source": "Codeforces",
+      "starts": "2026-11-06T14:35:00+00:00",
+      "detail": "CF contest, 2.2h, starts Fri 06 Nov 14:35 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Build specialized multimodal models with LFM3",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "source": "huggingface blog",
+      "section": "ai-ml",
+      "published": "2026-10-27T17:16:52+00:00",
+      "points": null,
+      "score": 4.5,
+      "id": "db98bf59a6c7e4204871c9f544fd7cc3019a06a7",
+      "summary": "Hugging Face announced LFM3, a framework for building specialized multimodal models.",
+      "detail": "LFM3 provides tools to customize model architectures and training pipelines for tasks that combine text, images, and other modalities, aiming to reduce the effort required to develop domain‑specific multimodal solutions.",
+      "key_points": [],
+      "tag": "Release",
+      "highlight": true,
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/wEKXxH6qGa7vmHjn5KA-W.png",
+      "related": {}
+    },
+    {
+      "title": "Robinson: Raspberry Pi 5 on Fedora",
+      "url": "https://lwn.net/Articles/1103212/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-10-27T18:11:48+00:00",
+      "points": null,
+      "score": 4.5,
+      "id": "a13b169ccc586e6d3c60b35bd077136c45d8174b",
+      "summary": "Fedora 45 will support all Raspberry Pi 5B variants, while support for the Compute Module 5 and Pi 500+ remains work‑in‑progress, and sound is still unsupported.",
+      "detail": "Users of Fedora 44 need a temporary boot workaround, but updating to the latest kernel/firmware removes it after the first boot. The upcoming release promises an accelerated desktop experience on Pi 5 hardware.",
+      "key_points": [
+        "Fedora 45 Pi 5B support",
+        "Compute Module 5 pending",
+        "no sound support"
+      ],
+      "tag": "Release",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "Code-execution flaw in UEFI firmware threatens most servers on planet Earth",
+      "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+      "source": "Hacker News",
+      "section": "embedded",
+      "published": "2026-10-27T20:35:09+00:00",
+      "points": 128,
+      "score": 4.0,
+      "id": "9d02bbba005f11f74e57ae8f8590c55b3e366cdd",
+      "summary": "A code‑execution vulnerability in UEFI firmware has been reported, potentially affecting the majority of servers worldwide.",
+      "detail": "The flaw allows arbitrary code to run during early boot, raising concerns for data‑center security and prompting urgent firmware patching efforts across vendors.",
+      "key_points": [],
+      "tag": "News",
+      "highlight": true,
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/04/malware.jpg",
+      "related": {}
+    },
+    {
+      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "url": "https://www.brangus.io/survival-llm",
+      "source": "Hacker News",
+      "section": "ai-ml",
+      "published": "2026-10-27T19:55:06+00:00",
+      "points": 329,
+      "score": 4.0,
+      "id": "f6df93ac15272b0a75b6bb1be8498f552f3c097f",
+      "summary": "Survival LLM is an open‑source AI assistant that runs entirely on a personal computer for offline emergency use.",
+      "detail": "The project bundles a language model with a curated emergency information library, enabling users to query safety procedures without internet access, and is positioned for hobbyists and field operators needing self‑contained assistance.",
+      "key_points": [],
+      "tag": "Release",
+      "highlight": true,
+      "image": "https://www.brangus.io/survival-llm/social-card.png",
+      "related": {}
+    },
+    {
+      "title": "[$] Guidelines for panics in kernel code",
+      "url": "https://lwn.net/Articles/1100873/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-10-27T13:56:24+00:00",
+      "points": null,
+      "score": 4.0,
+      "id": "0b3125572ad0f1010de96d0d082d48f2e6ab420e",
+      "summary": "A talk at Kangrejos 2026 raised the question of when Rust code in the Linux kernel may panic and how error handling should be standardized.",
+      "detail": "The presenter, Alexandre Courbot, shared several tricky panic scenarios he encountered and solicited opinions from the Rust‑for‑Linux community. No concrete policy was proposed, emphasizing the need for community consensus.",
+      "key_points": [],
+      "tag": "Analysis",
+      "highlight": true,
+      "image": "",
+      "related": {
+        "title": "[$] Safe self-referential data structures in kernel Rust",
+        "url": "https://lwn.net/Articles/1099224/",
+        "date": "2026-10-17",
+        "id": "9b79be566eff35c5e12daa74a3a4ca90dd85ae55"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "Build specialized multimodal models with LFM3",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+          "source": "huggingface blog",
+          "section": "ai-ml",
+          "published": "2026-10-27T17:16:52+00:00",
+          "points": null,
+          "score": 4.5,
+          "id": "db98bf59a6c7e4204871c9f544fd7cc3019a06a7",
+          "summary": "Hugging Face announced LFM3, a framework for building specialized multimodal models.",
+          "detail": "LFM3 provides tools to customize model architectures and training pipelines for tasks that combine text, images, and other modalities, aiming to reduce the effort required to develop domain‑specific multimodal solutions.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": true,
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/wEKXxH6qGa7vmHjn5KA-W.png",
+          "related": {}
+        },
+        {
+          "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+          "url": "https://www.brangus.io/survival-llm",
+          "source": "Hacker News",
+          "section": "ai-ml",
+          "published": "2026-10-27T19:55:06+00:00",
+          "points": 329,
+          "score": 4.0,
+          "id": "f6df93ac15272b0a75b6bb1be8498f552f3c097f",
+          "summary": "Survival LLM is an open‑source AI assistant that runs entirely on a personal computer for offline emergency use.",
+          "detail": "The project bundles a language model with a curated emergency information library, enabling users to query safety procedures without internet access, and is positioned for hobbyists and field operators needing self‑contained assistance.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": true,
+          "image": "https://www.brangus.io/survival-llm/social-card.png",
+          "related": {}
+        },
+        {
+          "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+          "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+          "source": "Anthropic",
+          "section": "ai-ml",
+          "published": null,
+          "points": null,
+          "score": 3.0,
+          "id": "31f854764086b8ecc2788bdb62bdfe670d3860ae",
+          "summary": "Anthropic expanded its partnership with the U.S. General Services Administration to make Claude available across all government levels.",
+          "detail": "The agreement extends Claude's integration into federal workflows, offering agencies AI‑assisted drafting, summarization, and decision support while complying with government security standards.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp",
+          "related": {}
+        },
+        {
+          "title": "Genie 4: A new generation of world simulation",
+          "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+          "source": "deepmind blog",
+          "section": "ai-ml",
+          "published": "2026-10-27T16:01:38+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "5ef94984dce414f6cd0dec7eb033a3aff5071eaa",
+          "summary": "DeepMind introduced Genie 4, a world‑model simulation that delivers unprecedented real‑time realism.",
+          "detail": "Genie 4 builds on prior generative models to simulate complex physical and social dynamics at high fidelity, supporting research in robotics, gaming, and policy testing by providing a more accurate virtual environment.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "https://lh3.googleusercontent.com/i7iotPkcMbMubxRzAdriO5wsIsowROonBvjLNnmPbOaRgEb1k4LKTBqay5VrcPpZi0R4il_bYCCsPYQ0Gy_-XbAw66azAGEfE-E6_9Izz5apP0BMJVE=w1200-h630-n-nu-rw",
+          "related": {}
+        },
+        {
+          "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+          "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-10-27T07:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "a3a879144b2984ac94bfd6f21f2a919716019c6d",
+          "summary": "OpenAI and Oracle are extending their partnership to embed business applications and AI agents inside ChatGPT.",
+          "detail": "The collaboration will let Oracle customers access AI‑driven analytics, workflow automation, and custom agents directly through ChatGPT, leveraging Oracle's cloud infrastructure and OpenAI's language models.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/2NtuSxL760WPfJi1wbdQwh/c651b8dac0f73296f731f9fbe7b827d9/openai-oracle-apps-chatgpt-blue-seo-image-1920x1080.png?w=1600&h=900&fit=fill",
+          "related": {
+            "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+            "url": "https://openai.com/index/building-chatgpt-ad-stack",
+            "date": "2026-10-22",
+            "id": "edef63b51aedc0121d1aea11f9472c530dce47d4"
+          }
+        },
+        {
+          "title": "PrivacyLib: Privacy Controls at the Data Access Boundary",
+          "url": "https://engineering.fb.com/2026/10/27/security/privacylib/",
+          "source": "meta ai blog",
+          "section": "ai-ml",
+          "published": "2026-10-27T16:00:12+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "8200dab1236b67270e78352cb9491ece42323294",
+          "summary": "Meta released PrivacyLib, a shared library for enforcing privacy requirements at the data access boundary.",
+          "detail": "PrivacyLib centralizes enforcement logic that previously had to be duplicated across Meta's systems, simplifying compliance with evolving privacy regulations and reducing implementation overhead for new data‑handling policies.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://engineering.fb.com/wp-content/uploads/2026/10/PrivacyLib-Hero.png",
+          "related": {}
+        },
+        {
+          "title": "Python Typing Survey 2026: AI Tools and the Shifting Checker Landscape",
+          "url": "https://engineering.fb.com/2026/10/27/developer-tools/python-typing-survey-2026-ai-tools-checker-landscape/",
+          "source": "meta ai blog",
+          "section": "ai-ml",
+          "published": "2026-10-27T15:59:24+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "a7fcfcf24af1c1ba97ae2dbfab874eb504cb99f5",
+          "summary": "The 2026 Python Typing Survey collected 1,794 responses, showing stable type hint usage but a sharp shift in checker selection, with half of users employing multiple checkers and missing library type information the top difficulty.",
+          "detail": "Despite the stable overall adoption of type hints over three years, developers are experimenting with a broader set of static analysis tools. The survey highlights a growing need for better library stubs, which could drive future tooling improvements.",
+          "key_points": [
+            "1,794 responses",
+            "missing library types most common issue"
+          ],
+          "tag": "Research",
+          "highlight": false,
+          "image": "https://engineering.fb.com/wp-content/uploads/2026/10/Python-Typing-Survey-Meta.webp",
+          "related": {}
+        },
+        {
+          "title": "Retell uses OpenAI models to help power 100M monthly calls",
+          "url": "https://openai.com/index/retell-ai",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-10-27T15:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "d42fb1eb3362412fc304b1479bee77d132c5c2a7",
+          "summary": "Retell’s voice agent benchmark was topped by GPT-6 Astra, and using Codex helped the service achieve a $1.6 million annual revenue run rate per employee.",
+          "detail": "The combination of a high‑performing LLM for speech and Codex for code generation allowed Retell to scale its call volume to 100 million monthly interactions, demonstrating commercial viability of large‑scale AI agents.",
+          "key_points": [
+            "GPT-6 Astra benchmark top",
+            "$1.6M ARR per employee"
+          ],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/5uWhs4tBhdZ4XPHsi9IaMG/06f4b61c4303de24a65075b3eaf500b2/retell-ai-customer-story-open-graph-acoustic-fabric.png?w=1600&h=900&fit=fill",
+          "related": {}
+        },
+        {
+          "title": "Can we trust LLMs to judge whether a research idea is novel?",
+          "url": "https://huggingface.co/blog/allenai/novelty-bench",
+          "source": "huggingface blog",
+          "section": "ai-ml",
+          "published": "2026-10-27T16:12:42+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "34370e88c88d0cd43d961feeb9f737a92f7f63fb",
+          "summary": "The Hugging Face blog post contains no text, providing no factual information.",
+          "detail": "No content was supplied for analysis, so no data or conclusions can be extracted.",
+          "key_points": [],
+          "tag": "",
+          "highlight": false,
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/ZrKpGOLkSf0LmAf3bnJIX.png",
+          "related": {}
+        },
+        {
+          "title": "Model: LiquidAI/LFM3-1.7B",
+          "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-23T21:35:42.000Z",
+          "points": 250,
+          "score": 1.5,
+          "id": "11144fe593420a7cdbff5fc633aaab9e6923e9b7",
+          "summary": "The LiquidAI/LFM3-1.7B model, with 1.7 billion parameters, has been downloaded 6,311 times and received 250 likes on Hugging Face.",
+          "detail": "The model is listed under the text‑generation category and is gaining traction among developers seeking a mid‑size LLM for downstream tasks.",
+          "key_points": [
+            "1.7B parameters",
+            "6,311 downloads",
+            "250 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/LiquidAI/LFM3-1.7B.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "Robinson: Raspberry Pi 5 on Fedora",
+          "url": "https://lwn.net/Articles/1103212/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-27T18:11:48+00:00",
+          "points": null,
+          "score": 4.5,
+          "id": "a13b169ccc586e6d3c60b35bd077136c45d8174b",
+          "summary": "Fedora 45 will support all Raspberry Pi 5B variants, while support for the Compute Module 5 and Pi 500+ remains work‑in‑progress, and sound is still unsupported.",
+          "detail": "Users of Fedora 44 need a temporary boot workaround, but updating to the latest kernel/firmware removes it after the first boot. The upcoming release promises an accelerated desktop experience on Pi 5 hardware.",
+          "key_points": [
+            "Fedora 45 Pi 5B support",
+            "Compute Module 5 pending",
+            "no sound support"
+          ],
+          "tag": "Release",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Code-execution flaw in UEFI firmware threatens most servers on planet Earth",
+          "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+          "source": "Hacker News",
+          "section": "embedded",
+          "published": "2026-10-27T20:35:09+00:00",
+          "points": 128,
+          "score": 4.0,
+          "id": "9d02bbba005f11f74e57ae8f8590c55b3e366cdd",
+          "summary": "A code‑execution vulnerability in UEFI firmware has been reported, potentially affecting the majority of servers worldwide.",
+          "detail": "The flaw allows arbitrary code to run during early boot, raising concerns for data‑center security and prompting urgent firmware patching efforts across vendors.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": true,
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2024/04/malware.jpg",
+          "related": {}
+        },
+        {
+          "title": "[$] Guidelines for panics in kernel code",
+          "url": "https://lwn.net/Articles/1100873/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-27T13:56:24+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "0b3125572ad0f1010de96d0d082d48f2e6ab420e",
+          "summary": "A talk at Kangrejos 2026 raised the question of when Rust code in the Linux kernel may panic and how error handling should be standardized.",
+          "detail": "The presenter, Alexandre Courbot, shared several tricky panic scenarios he encountered and solicited opinions from the Rust‑for‑Linux community. No concrete policy was proposed, emphasizing the need for community consensus.",
+          "key_points": [],
+          "tag": "Analysis",
+          "highlight": true,
+          "image": "",
+          "related": {
+            "title": "[$] Safe self-referential data structures in kernel Rust",
+            "url": "https://lwn.net/Articles/1099224/",
+            "date": "2026-10-17",
+            "id": "9b79be566eff35c5e12daa74a3a4ca90dd85ae55"
+          }
+        },
+        {
+          "title": "Security updates for Tuesday",
+          "url": "https://lwn.net/Articles/1103188/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-27T13:37:48+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "5d57f383168504b5cdeeacfa0ba257217e3e3485",
+          "summary": "Security updates were released for AlmaLinux, Debian, Fedora, Mageia, and Oracle, covering dozens of packages including bind9.18, nodejs 14/18, and Python 3.9.",
+          "detail": "The advisories span core services such as DNS (bind), web browsers, container tools, and development stacks. Each distro lists its own set of affected packages, reflecting coordinated vulnerability remediation across the ecosystem.",
+          "key_points": [
+            "bind9.18",
+            "nodejs 14",
+            "Python 3.9"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "2026 Retrocomputing Challenge: Explore Space with a Credit Card Reader",
+          "url": "https://hackaday.com/2026/10/27/2026-retrocomputing-challenge-explore-space-with-a-credit-card-reader/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-27T20:00:33+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "7b589bc293fffe338cc59a81f8f1497c26594367",
+          "summary": "The 2026 Retrocomputing Challenge asks participants to create a space‑exploration demo using only a credit‑card reader.",
+          "detail": "The contest highlights creative reuse of legacy hardware, encouraging low‑cost, hardware‑focused hacking. Submissions are expected to demonstrate novel interfacing and data acquisition techniques.",
+          "key_points": [],
+          "tag": "Contest",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/z80planets_feat.jpg",
+          "related": {}
+        },
+        {
+          "title": "Airborne Particle Monitoring, the BIG way",
+          "url": "https://hackaday.com/2026/10/27/airborne-particle-monitoring-the-big-way/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-28T02:00:01+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "23d837a890645fbf45158004d19f3cb8e4ab7854",
+          "summary": "An article explains large‑scale monitoring of airborne micro‑particles in workshops to maintain safe ventilation standards.",
+          "detail": "It discusses sensor placement, data logging, and threshold alerts, aiming to reduce health risks from fine particulate exposure. The approach can be adapted to other indoor environments.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/pm2.5-featured.jpg",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "NVIDIA/auto-ontology",
+          "url": "https://github.com/NVIDIA/auto-ontology",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 422,
+          "score": 2.5,
+          "id": "8ac198972094b1b5917753df1abe71739aab233e",
+          "summary": "Auto Ontology is a Python framework that adds semantic, graph‑based reasoning layers to data for more deterministic LLM and agent queries.",
+          "detail": "The library generates structured queries, improves context retrieval, and enhances explainability in AI workflows. It is positioned as a tool for building richer knowledge representations.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/6112987f78dfb8029d81d2289e420c714ce82140e4ef32bc7117aa1237637b82/NVIDIA/auto-ontology",
+          "related": {}
+        },
+        {
+          "title": "isl-org/Open3D",
+          "url": "https://github.com/isl-org/Open3D",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 14132,
+          "score": 2.5,
+          "id": "6ba858497b3cc76d7b624cdd5eea968c2e90e424",
+          "summary": "Open3D is a modern C++ library for processing 3D data such as point clouds, meshes, and depth images.",
+          "detail": "It provides algorithms for visualization, registration, and surface reconstruction, targeting research and industry applications in robotics, AR/VR, and computer vision.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/75413130/95ff7f3a-1980-4abc-851a-bbc7286b8892",
+          "related": {}
+        },
+        {
+          "title": "HKUDS/AutoSwarm",
+          "url": "https://github.com/HKUDS/AutoSwarm",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 2042,
+          "score": 2.0,
+          "id": "6264f549e68cb9a40787ff3e2d4adf2e239c68c9",
+          "summary": "AutoSwarm is a Python library that integrates multiple AI agents—including Codex, Claude Code, DeepSeek Harness, Muse, Grok, WorkBuddy, and nanobot—into a single coordinated system.",
+          "detail": "The framework abstracts agent communication and task distribution, allowing developers to orchestrate heterogeneous models without writing custom glue code. It targets use cases like multi-step reasoning, tool use, and parallel exploration. The project is open‑source and currently trending on GitHub, indicating community interest in unified agent orchestration.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/e61e79b91f82c0367681edf0e8d9802bff6fde884d202b5b2133e91669916047/HKUDS/AutoSwarm",
+          "related": {}
+        },
+        {
+          "title": "ShayanAbbas1/dbdelve",
+          "url": "https://github.com/ShayanAbbas1/dbdelve",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 591,
+          "score": 2.0,
+          "id": "a074e6021064135ce07e3850f3212b9c24c60382",
+          "summary": "dbdelve is a fast, lightweight database client written in Rust that uses the GPUI library for its graphical interface.",
+          "detail": "The client focuses on low overhead and responsive UI, leveraging Rust's safety and performance guarantees. GPUI provides a modern, cross‑platform GUI toolkit, making dbdelve suitable for developers who need quick database interactions without heavy tooling. It is trending on GitHub, reflecting interest in Rust‑based developer tools.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/37df1ca79c122296b0b641fca21465e89af664bb005db9ecca1c478f33c8461e/ShayanAbbas1/dbdelve",
+          "related": {}
+        },
+        {
+          "title": "apache/arrow",
+          "url": "https://github.com/apache/arrow",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 17241,
+          "score": 2.0,
+          "id": "ba310039128c645b9d885e5e70ad09297a05e540",
+          "summary": "Apache Arrow is a C++ library offering a universal columnar memory format and multi‑language toolbox for fast data interchange and in‑memory analytics.",
+          "detail": "Arrow enables zero‑copy sharing of data between processes and languages, reducing serialization overhead in data pipelines. Its ecosystem includes bindings for Python, Java, and other languages, facilitating cross‑language analytics workloads. The project remains a core component of many modern data processing frameworks.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/45ab28a6553df9b6045fe940262e7c0e98ba178f1dd218949ac520ce024fc38e/apache/arrow",
+          "related": {}
+        },
+        {
+          "title": "elayadesign/ai-design-skills",
+          "url": "https://github.com/elayadesign/ai-design-skills",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 10251,
+          "score": 2.0,
+          "id": "10439e81d0b3763b476234263f383e446035c203",
+          "summary": "ai-design-skills is a GitHub repository that curates resources and tutorials for applying AI techniques to design tasks.",
+          "detail": "The collection includes guides on using generative models for layout generation, color palette suggestion, and user experience optimization. It serves as a reference point for designers and engineers looking to integrate AI into creative workflows. The repo is currently trending, indicating growing interest in AI‑augmented design.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/ec1d690c75d2a67b318abb4c291acce3b2cc27fe7fa6d857f4b341881c43a055/elayadesign/ai-design-skills",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
