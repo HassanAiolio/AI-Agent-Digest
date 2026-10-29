@@ -1,0 +1,656 @@
+{
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T08:46:27+00:00",
+  "stats": {
+    "fetched": 135,
+    "new_after_dedupe": 88,
+    "published": 22,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 15,
+      "supported": 15,
+      "dropped": 0,
+      "unverifiable": 1,
+      "summaries_reverted": 0,
+      "rate": 1.0
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. The legal AI startup just hired a chatbot to read contracts, while a language model quietly built its own CPU.",
+    "stories": [
+      {
+        "kicker": "Embedded",
+        "headline": "Qwenputer runs a deterministic RISC‑V CPU inside a LLM",
+        "body": "**Inside the model, a CPU lives:** Qwen 3.5 now hosts a fully deterministic RISC‑V processor, letting the model execute low‑level code without external hardware.",
+        "why": "It shows you can prototype hardware logic directly in a language model, speeding early‑stage design.",
+        "ids": [
+          "44e3e5f137f8038b1a03754d5e2349e9964f4e9d"
+        ]
+      },
+      {
+        "kicker": "AI",
+        "headline": "Meta Andromeda co‑designs ads retrieval stack",
+        "body": "**Ads get a hardware boost:** Meta’s Andromeda aligns its retrieval model, system software, and GPU firmware to score every eligible ad at retrieval scale, hitting near‑ranking performance.",
+        "why": "Unified model‑system design squeezes latency, a template for any high‑throughput inference pipeline.",
+        "ids": [
+          "7a5fec0b961daf67bd471a528abd6d22b88ec2eb"
+        ]
+      },
+      {
+        "kicker": "AI",
+        "headline": "Legora launches agentic OS for legal workflows",
+        "body": "**Lawyers get a digital assistant:** Legora embeds ChatGPT and Codex to parse contracts and automate routine steps, freeing attorneys for higher‑value work.",
+        "why": "Automating document triage cuts down repetitive review time, a direct productivity win for legal tech teams.",
+        "ids": [
+          "41c97fe8dc29ac4a38662fab728e42ff14149ac9"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Retro:** 2026 Retrocomputing Challenge asks you to build a custom RISC‑V chip for a vintage system.",
+        "id": "a641cecc889d0f349a4173f0470a241dda1d9621"
+      },
+      {
+        "text": "**Security:** Wednesday patches landed for seven major Linux distros, covering kernels and runtimes.",
+        "id": "8c47a788accddbf53456b735ee109ab0d6ed804e"
+      },
+      {
+        "text": "**Gemini:** DeepMind unveiled Gemini 4 Carbon, the next frontier language model.",
+        "id": "34b0bf3f94c3851e6957dd11bedc60679d6c4b34"
+      },
+      {
+        "text": "**OpenAI/ServiceNow:** Expanded integration puts ChatGPT agents straight into enterprise workflows.",
+        "id": "75e2017ed4c5a2ecbacf8d375dd8df89d0c0d878"
+      },
+      {
+        "text": "**RocksDB:** Meta’s fork offers a fast, embeddable key‑value store for C++ projects.",
+        "id": "aef7f6b9185e1b84976897c5dfd05aace105b719"
+      },
+      {
+        "text": "**Epson:** Open‑source tool resets waste‑ink counters on compatible printers.",
+        "id": "0ec2e85bbcc05e69c454b55386a7ecefbffdb825"
+      }
+    ],
+    "number": null,
+    "sign_off": "That’s your two‑minute tech sprint. Catch you tomorrow",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "25e63b82e201c28b19194f893837789ad67218aa",
+      "title": "Codeforces Round 1131 (Div. 3)",
+      "url": "https://codeforces.com/contests/2278",
+      "source": "Codeforces",
+      "starts": "2026-10-31T14:35:00+00:00",
+      "detail": "ICPC contest, 2.2h, starts Sat 31 Oct 14:35 UTC"
+    },
+    {
+      "id": "eec55f6273cebeb8f5a0b6b5995b58de22bb4e81",
+      "title": "Educational Codeforces Round 196 (Rated for Div. 2)",
+      "url": "https://codeforces.com/contests/2283",
+      "source": "Codeforces",
+      "starts": "2026-11-04T14:35:00+00:00",
+      "detail": "ICPC contest, 2.0h, starts Wed 04 Nov 14:35 UTC"
+    },
+    {
+      "id": "7e1dac2252b1732ed21c941b13dc3ff0d95895a5",
+      "title": "ICPC 2026 Online Challenge 2 powered by Huawei",
+      "url": "https://codeforces.com/contests/2281",
+      "source": "Codeforces",
+      "starts": "2026-11-05T11:00:00+00:00",
+      "detail": "IOI contest, 336.0h, starts Thu 05 Nov 11:00 UTC"
+    },
+    {
+      "id": "93470a29b77d11d5f96f320a90cfe6df62ea2ada",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2284",
+      "source": "Codeforces",
+      "starts": "2026-11-06T14:35:00+00:00",
+      "detail": "CF contest, 2.2h, starts Fri 06 Nov 14:35 UTC"
+    },
+    {
+      "id": "6f83c980a333211356c0a8c902ef6db657a5c926",
+      "title": "Codeforces Round (Div. 1)",
+      "url": "https://codeforces.com/contests/2279",
+      "source": "Codeforces",
+      "starts": "2026-11-07T14:35:00+00:00",
+      "detail": "CF contest, 2.5h, starts Sat 07 Nov 14:35 UTC"
+    },
+    {
+      "id": "ffcb7b3246dd576d4ee4b719b9ad707615af0c4c",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2280",
+      "source": "Codeforces",
+      "starts": "2026-11-07T14:35:00+00:00",
+      "detail": "CF contest, 2.5h, starts Sat 07 Nov 14:35 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "2026 Retrocomputing Challenge: Custom RISC-V Processor For Retro System",
+      "url": "https://hackaday.com/2026/10/28/2026-retrocomputing-challenge-custom-risc-v-processor-for-retro-system/",
+      "source": "hackaday",
+      "section": "embedded",
+      "published": "2026-10-29T05:00:43+00:00",
+      "points": null,
+      "score": 5.0,
+      "id": "a641cecc889d0f349a4173f0470a241dda1d9621",
+      "summary": "The 2026 Retrocomputing Challenge invites participants to design a custom RISC‑V processor for a retro‑style system.",
+      "detail": "The contest highlights the growing adoption of RISC‑V over legacy ARM designs, encouraging innovative microcontroller implementations. Submissions are expected to demonstrate both functional compatibility with vintage software and modern efficiency.",
+      "key_points": [],
+      "tag": "Contest",
+      "highlight": true,
+      "image": "https://hackaday.com/wp-content/uploads/2026/10/risc-v-gaming-main.png",
+      "related": {
+        "title": "2026 Retrocomputing Challenge: Explore Space with a Credit Card Reader",
+        "url": "https://hackaday.com/2026/10/27/2026-retrocomputing-challenge-explore-space-with-a-credit-card-reader/",
+        "date": "2026-10-28",
+        "id": "7b589bc293fffe338cc59a81f8f1497c26594367"
+      }
+    },
+    {
+      "title": "Legora is building the agentic operating system for legal work",
+      "url": "https://openai.com/index/legora",
+      "source": "openai blog",
+      "section": "ai-ml",
+      "published": "2026-10-28T09:30:00+00:00",
+      "points": null,
+      "score": 5.0,
+      "id": "41c97fe8dc29ac4a38662fab728e42ff14149ac9",
+      "summary": "Legora integrates OpenAI's ChatGPT and Codex to automate contract analysis and streamline legal workflows, allowing lawyers to focus on higher-value tasks.",
+      "detail": "The platform leverages large language models to extract key clauses, suggest revisions, and generate summaries, reducing manual review time. It positions AI as a productivity layer rather than a replacement for legal expertise. The approach demonstrates a practical, enterprise‑grade use case for generative AI in regulated domains.",
+      "key_points": [],
+      "tag": "Release",
+      "highlight": true,
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/3u1CdSoTYE4igNYP08r65b/3aff62c6d68495f495218a2ccbbf48f3/legora-smoked-glass-seo-image-1920x1080.png?w=1600&h=900&fit=fill",
+      "related": {}
+    },
+    {
+      "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
+      "url": "https://divagr.com/blog/qwenputer",
+      "source": "Hacker News",
+      "section": "embedded",
+      "published": "2026-10-29T00:25:45+00:00",
+      "points": 409,
+      "score": 4.0,
+      "id": "44e3e5f137f8038b1a03754d5e2349e9964f4e9d",
+      "summary": "Qwenputer is a deterministic RISC‑V CPU implemented inside the Qwen 3.5 language model.",
+      "detail": "The project showcases how a large language model can simulate a fully deterministic processor, enabling reproducible execution of RISC‑V binaries within a generative AI context. It serves as a proof‑of‑concept for integrating hardware emulation with LLMs.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "https://divagr.com/qwenputer/og.png",
+      "related": {}
+    },
+    {
+      "title": "Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design",
+      "url": "https://engineering.fb.com/2026/10/28/ml-applications/meta-andromeda-next-gen-ads-retrieval-gpu-co-design/",
+      "source": "meta ai blog",
+      "section": "ai-ml",
+      "published": "2026-10-28T16:00:01+00:00",
+      "points": null,
+      "score": 3.5,
+      "id": "7a5fec0b961daf67bd471a528abd6d22b88ec2eb",
+      "summary": "Meta Andromeda co‑designs its ads retrieval model, system software, and GPU hardware to achieve near ranking‑level performance while scoring every eligible ad at retrieval scale.",
+      "detail": "The engineering effort aligns model architecture with custom kernels and memory layouts, cutting latency and energy per query. In production the engine ranks candidates in real time, improving ad relevance without sacrificing throughput. This illustrates a hardware‑aware AI design pattern for large‑scale recommendation.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-Andromeda-co-design-Hero.png",
+      "related": {}
+    },
+    {
+      "title": "AI for Science expands to foundations and research institutions",
+      "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+      "source": "Anthropic",
+      "section": "ai-ml",
+      "published": null,
+      "points": null,
+      "score": 3.0,
+      "id": "c517821d0281c4fa28662a4ce7eab3e326b02647",
+      "summary": "Anthropic announces that its AI for Science program now includes foundations and research institutions as participants.",
+      "detail": "The expansion broadens access to Anthropic's models for scientific discovery, enabling collaborations on data‑intensive projects. It signals a shift toward open‑ended research partnerships beyond corporate labs, though specific funding or model details were not disclosed.",
+      "key_points": [],
+      "tag": "News",
+      "highlight": true,
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2c317246f4ac7eaf0667d90a76ac05a7a7b601fc-1200x630.jpg",
+      "related": {
+        "title": "Donating Agent Skills to the Agentic AI Foundation",
+        "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+        "date": "2026-10-23",
+        "id": "cc012b1e3b750154d264a457e79317094fb5a0a7"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "Legora is building the agentic operating system for legal work",
+          "url": "https://openai.com/index/legora",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-10-28T09:30:00+00:00",
+          "points": null,
+          "score": 5.0,
+          "id": "41c97fe8dc29ac4a38662fab728e42ff14149ac9",
+          "summary": "Legora integrates OpenAI's ChatGPT and Codex to automate contract analysis and streamline legal workflows, allowing lawyers to focus on higher-value tasks.",
+          "detail": "The platform leverages large language models to extract key clauses, suggest revisions, and generate summaries, reducing manual review time. It positions AI as a productivity layer rather than a replacement for legal expertise. The approach demonstrates a practical, enterprise‑grade use case for generative AI in regulated domains.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": true,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/3u1CdSoTYE4igNYP08r65b/3aff62c6d68495f495218a2ccbbf48f3/legora-smoked-glass-seo-image-1920x1080.png?w=1600&h=900&fit=fill",
+          "related": {}
+        },
+        {
+          "title": "Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design",
+          "url": "https://engineering.fb.com/2026/10/28/ml-applications/meta-andromeda-next-gen-ads-retrieval-gpu-co-design/",
+          "source": "meta ai blog",
+          "section": "ai-ml",
+          "published": "2026-10-28T16:00:01+00:00",
+          "points": null,
+          "score": 3.5,
+          "id": "7a5fec0b961daf67bd471a528abd6d22b88ec2eb",
+          "summary": "Meta Andromeda co‑designs its ads retrieval model, system software, and GPU hardware to achieve near ranking‑level performance while scoring every eligible ad at retrieval scale.",
+          "detail": "The engineering effort aligns model architecture with custom kernels and memory layouts, cutting latency and energy per query. In production the engine ranks candidates in real time, improving ad relevance without sacrificing throughput. This illustrates a hardware‑aware AI design pattern for large‑scale recommendation.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-Andromeda-co-design-Hero.png",
+          "related": {}
+        },
+        {
+          "title": "AI for Science expands to foundations and research institutions",
+          "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+          "source": "Anthropic",
+          "section": "ai-ml",
+          "published": null,
+          "points": null,
+          "score": 3.0,
+          "id": "c517821d0281c4fa28662a4ce7eab3e326b02647",
+          "summary": "Anthropic announces that its AI for Science program now includes foundations and research institutions as participants.",
+          "detail": "The expansion broadens access to Anthropic's models for scientific discovery, enabling collaborations on data‑intensive projects. It signals a shift toward open‑ended research partnerships beyond corporate labs, though specific funding or model details were not disclosed.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": true,
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2c317246f4ac7eaf0667d90a76ac05a7a7b601fc-1200x630.jpg",
+          "related": {
+            "title": "Donating Agent Skills to the Agentic AI Foundation",
+            "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+            "date": "2026-10-23",
+            "id": "cc012b1e3b750154d264a457e79317094fb5a0a7"
+          }
+        },
+        {
+          "title": "Gemini 4 Carbon: Our next frontier model",
+          "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+          "source": "deepmind blog",
+          "section": "ai-ml",
+          "published": "2026-10-28T17:00:58+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "34b0bf3f94c3851e6957dd11bedc60679d6c4b34",
+          "summary": "DeepMind introduces Gemini 4 Carbon, the next iteration of its frontier language model series.",
+          "detail": "Gemini 4 Carbon is positioned as a more capable successor, though DeepMind did not release quantitative benchmarks or parameter counts. The announcement hints at continued scaling and multimodal integration, aligning with industry trends toward larger, more versatile models.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png",
+          "related": {}
+        },
+        {
+          "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-10-28T13:15:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "75e2017ed4c5a2ecbacf8d375dd8df89d0c0d878",
+          "summary": "OpenAI and ServiceNow extend their partnership to embed OpenAI models and agents directly into ServiceNow workflows via ChatGPT and Codex.",
+          "detail": "The integration enables automated ticket routing, knowledge base generation, and code assistance within the ServiceNow platform. It reflects a broader move to embed generative AI into enterprise IT service management tools, aiming to reduce manual effort and improve response times.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/Gp8jNpLlW9YG0p7vG3UfM/c73fa4b5caa4ad978b022dc0123b801b/openai-servicenow-partnership-expansion-social.png?w=1600&h=900&fit=fill",
+          "related": {
+            "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+            "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+            "date": "2026-10-28",
+            "id": "a3a879144b2984ac94bfd6f21f2a919716019c6d"
+          }
+        },
+        {
+          "title": "The future of the firm",
+          "url": "https://openai.com/index/the-future-of-the-firm",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-10-28T10:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "0dc3cf0b7c98dcde7cee9fa081b12b2c28e359be",
+          "summary": "OpenAI explores how AI could be incorporated into corporate structures, appearing in roles beneath, beside, and between human employees.",
+          "detail": "The piece discusses potential deployment scenarios such as AI‑augmented decision layers, autonomous agents handling routine tasks, and collaborative interfaces that blend human judgment with model outputs. It raises organizational design questions without prescribing a specific implementation timeline.",
+          "key_points": [],
+          "tag": "Analysis",
+          "highlight": false,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/7lRSQJ7Rw4r60Qygy5SQ8t/6955cc97ff76059ae31cc1aa5642c27d/future-of-the-firm-inline-01.png?w=1600&h=900&fit=fill",
+          "related": {}
+        },
+        {
+          "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+          "source": "huggingface blog",
+          "section": "ai-ml",
+          "published": "2026-10-28T14:58:17+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "7ae8eb20550eee7692436f1c407fce5b64ca68f4",
+          "summary": "NVIDIA released Nemotron 3.5 Transcribe and Granary v2, a multilingual transcription system that can be prompted and fine‑tuned for specific languages.",
+          "detail": "The offering combines a large‑scale speech model with a text‑generation component, allowing users to adapt prompts for domain‑specific vocabularies. It builds on earlier Nemotron 3.5 releases but adds a modular adaptation layer. The system is hosted on Hugging Face for easy integration.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/68127936de624fb6f57d9989/3vFxCEUXz_xJVrTBr4hNr.jpeg",
+          "related": {}
+        },
+        {
+          "title": "Model: baidu/Unlimited-OCR-2",
+          "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-26T03:57:46.000Z",
+          "points": 351,
+          "score": 1.5,
+          "id": "c55904e21a85a75ce7c8f881a764bdd05b06b741",
+          "summary": "The baidu/Unlimited-OCR-2 model for image‑to‑text conversion has been downloaded 8,357 times and received 351 likes on Hugging Face.",
+          "detail": "It supports OCR across multiple scripts and is positioned as an open‑source alternative to commercial services. The model is listed under the image‑text‑to‑text category and is part of Baidu's broader AI toolkit.",
+          "key_points": [
+            "8,357 downloads",
+            "351 likes"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/baidu/Unlimited-OCR-2.png",
+          "related": {}
+        },
+        {
+          "title": "Model: nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-07T22:50:21.000Z",
+          "points": 270,
+          "score": 1.5,
+          "id": "110f8b3466eef7144b8dddc0da3402befe4c8f23",
+          "summary": "NVIDIA's Nemotron‑3.5‑Transcribe‑30B‑A4B model for automatic speech recognition has 338 downloads and 270 likes on Hugging Face.",
+          "detail": "The 30‑billion‑parameter model targets high‑accuracy multilingual transcription and can be fine‑tuned for specific acoustic environments. It is listed under the automatic‑speech‑recognition tag and is available for direct use via the model hub.",
+          "key_points": [
+            "338 downloads",
+            "270 likes"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B.png",
+          "related": {}
+        },
+        {
+          "title": "Model: orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+          "url": "https://huggingface.co/orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-22T04:06:52.000Z",
+          "points": 321,
+          "score": 1.5,
+          "id": "b6e78c827609ab28875c6ee22c24db6e3e050ae8",
+          "summary": "The orcarouter/DeepSeek‑V4.1‑Flash‑1017‑abliterated‑GGUF text‑generation model has been downloaded 27,056 times and liked 321 times.",
+          "detail": "This GGUF‑formatted model is optimized for fast inference on consumer GPUs, offering a balance between size and performance. It extends the DeepSeek‑V4.1 family with flash attention improvements.",
+          "key_points": [
+            "27,056 downloads",
+            "321 likes"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "2026 Retrocomputing Challenge: Custom RISC-V Processor For Retro System",
+          "url": "https://hackaday.com/2026/10/28/2026-retrocomputing-challenge-custom-risc-v-processor-for-retro-system/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-29T05:00:43+00:00",
+          "points": null,
+          "score": 5.0,
+          "id": "a641cecc889d0f349a4173f0470a241dda1d9621",
+          "summary": "The 2026 Retrocomputing Challenge invites participants to design a custom RISC‑V processor for a retro‑style system.",
+          "detail": "The contest highlights the growing adoption of RISC‑V over legacy ARM designs, encouraging innovative microcontroller implementations. Submissions are expected to demonstrate both functional compatibility with vintage software and modern efficiency.",
+          "key_points": [],
+          "tag": "Contest",
+          "highlight": true,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/risc-v-gaming-main.png",
+          "related": {
+            "title": "2026 Retrocomputing Challenge: Explore Space with a Credit Card Reader",
+            "url": "https://hackaday.com/2026/10/27/2026-retrocomputing-challenge-explore-space-with-a-credit-card-reader/",
+            "date": "2026-10-28",
+            "id": "7b589bc293fffe338cc59a81f8f1497c26594367"
+          }
+        },
+        {
+          "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
+          "url": "https://divagr.com/blog/qwenputer",
+          "source": "Hacker News",
+          "section": "embedded",
+          "published": "2026-10-29T00:25:45+00:00",
+          "points": 409,
+          "score": 4.0,
+          "id": "44e3e5f137f8038b1a03754d5e2349e9964f4e9d",
+          "summary": "Qwenputer is a deterministic RISC‑V CPU implemented inside the Qwen 3.5 language model.",
+          "detail": "The project showcases how a large language model can simulate a fully deterministic processor, enabling reproducible execution of RISC‑V binaries within a generative AI context. It serves as a proof‑of‑concept for integrating hardware emulation with LLMs.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "https://divagr.com/qwenputer/og.png",
+          "related": {}
+        },
+        {
+          "title": "Security updates for Wednesday",
+          "url": "https://lwn.net/Articles/1103357/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-28T13:10:19+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "8c47a788accddbf53456b735ee109ab0d6ed804e",
+          "summary": "Security updates were released on Wednesday for AlmaLinux, Debian, Fedora, Mageia, Oracle, Slackware, and SUSE, covering dozens of packages including kernels, browsers, and language runtimes.",
+          "detail": "The updates span core components such as the Linux kernel, OpenSSH, Python 3.12, and various desktop applications. Each distribution’s package list reflects its own release cadence, so the exact versions differ across the list.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "[$] LWN.net Weekly Edition for October 29, 2026",
+          "url": "https://lwn.net/Articles/1102136/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-29T00:19:08+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "26b87cf6f61704a30260cd0fb3d5e42c4d7c78d9",
+          "summary": "The LWN.net Weekly Edition for October 29 2026 features articles on a Python JIT, kernel cleanup, Rust panic handling, upcoming Rust features, the Northstar browser, and a 7.4 merge window with smaller kernel stacks.",
+          "detail": "In addition to the main articles, the brief section highlights KeePassXC 2.8.0, Redox ring buffers, and Rust integration in systemd. Announcements cover newsletters, conferences, security updates, and recent patches.",
+          "key_points": [
+            "October 29 2026"
+          ],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "A report from the LPC sched_ext microconference",
+          "url": "https://lwn.net/Articles/1103426/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-28T22:11:43+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "eecad607faa0b09fe2ff29e9b337177cc0af454c",
+          "summary": "The Linux Plumbers Conference sched_ext microconference in Prague focused on priority‑inversion handling, paravirtualized scheduling across VM boundaries, and device/topology‑aware task placement.",
+          "detail": "Discussions covered lock holder and waiter preemption, extending time slices, and integrating BPF schedulers with proxy execution. The session also explored using Intel HFI feedback to improve cache‑aware scheduling decisions.",
+          "key_points": [],
+          "tag": "Analysis",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Redox OS ring buffers project summary",
+          "url": "https://lwn.net/Articles/1103359/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-28T14:05:05+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "aa99d35834886531511937759ab3e7786337e467",
+          "summary": "Redox OS finished its io_uring‑like ring‑buffer implementation and API by September after a year‑long grant‑funded effort.",
+          "detail": "The work added ring‑buffer support for system services and drivers, an io_uring/liburing‑compatible API, and async executor crates. Performance improvements were also made to accelerate buffer operations.",
+          "key_points": [
+            "September completion"
+          ],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "meta/rocksdb",
+          "url": "https://github.com/meta/rocksdb",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 32233,
+          "score": 2.5,
+          "id": "aef7f6b9185e1b84976897c5dfd05aace105b719",
+          "summary": "meta/rocksdb is a C++ library providing an embeddable, persistent key‑value store optimized for fast storage.",
+          "detail": "The library is designed for integration into applications requiring low‑latency data access, offering configurable compaction and compression options. It is maintained as an open‑source project on GitHub.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/b86cad31642ba68c88b13f143e059e4865a5fb410316a07fe1021bdbee421f95/meta/rocksdb",
+          "related": {}
+        },
+        {
+          "title": "t8y2/dbx",
+          "url": "https://github.com/t8y2/dbx",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 28142,
+          "score": 2.5,
+          "id": "d41117b8d3577548b41a891fb277d76127f0296b",
+          "summary": "t8y2/dbx is a 25 MB Rust‑based cross‑platform database client supporting over 100 databases, with built‑in AI assistance and GUI options.",
+          "detail": "The tool runs on desktop, Docker, and as a CLI, offering AI‑driven query assistance and an MCP server component. It targets developers needing a lightweight yet feature‑rich management interface across diverse database systems.",
+          "key_points": [
+            "25 MB size",
+            "100+ databases"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/1224172037/32bdb2d1-cbb6-4a47-8743-150c311fbb1b",
+          "related": {}
+        },
+        {
+          "title": "RxNaison/Epson-Waste-Reset",
+          "url": "https://github.com/RxNaison/Epson-Waste-Reset",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 430,
+          "score": 2.0,
+          "id": "0ec2e85bbcc05e69c454b55386a7ecefbffdb825",
+          "summary": "RxNaison/Epson-Waste-Reset is a free, native, open-source tool that resets the waste‑ink‑pad counter on Epson printers.",
+          "detail": "The utility runs locally without requiring proprietary drivers, making it suitable for automated maintenance scripts. It supports multiple Epson models and can be integrated into custom printer management workflows.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/9e322db2cdc9d834c3bc42c6b9545bca0327d4c7672332b1606e430d7fb8b011/RxNaison/Epson-Waste-Reset",
+          "related": {}
+        },
+        {
+          "title": "cocoindex-io/cocoindex",
+          "url": "https://github.com/cocoindex-io/cocoindex",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 11781,
+          "score": 2.0,
+          "id": "b17fe165b2f7f76b826d5e010cb0b3be9de7286a",
+          "summary": "cocoindex-io/cocoindex provides an incremental engine designed for long‑horizon reinforcement learning agents.",
+          "detail": "The engine enables agents to update their knowledge without recomputing the entire policy, improving scalability for tasks with extended time horizons. It is written in Rust for performance and safety, and can be extended via plugins.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/63c411da239b521b34af7af2884126b98c37bf2ad31ee6e5436fdcb34c234074/cocoindex-io/cocoindex",
+          "related": {}
+        },
+        {
+          "title": "expo/skills",
+          "url": "https://github.com/expo/skills",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 3705,
+          "score": 2.0,
+          "id": "50e4a04dc2f5610369e535b5963c39ab24c3673b",
+          "summary": "expo/skills is a curated collection of AI agent skills that interact with Expo projects and Expo Application Services.",
+          "detail": "The repository includes ready‑to‑use functions for building, deploying, and monitoring Expo apps, allowing developers to automate common workflows. Skills are packaged as reusable modules that can be composed into larger AI agents.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/8833cc2e9a9e2a258713251c7c3455d1438fd63a75e31e2dafd5318d1f910f6f/expo/skills",
+          "related": {}
+        },
+        {
+          "title": "google/perfetto",
+          "url": "https://github.com/google/perfetto",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 6715,
+          "score": 2.0,
+          "id": "f3f1b90b51a6aedbcea32c476e27c2aaf87ebff0",
+          "summary": "google/perfetto is a production‑grade, client‑side tracing, profiling, and analysis framework for complex software systems.",
+          "detail": "Perfetto captures high‑resolution event streams from applications and the OS, supporting both Android and desktop environments. It offers a web‑based UI for visualizing timelines and can be integrated into CI pipelines for performance regression detection.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/ec9569ed367bd55a0faa6dc525605d39ad9800652b4c7416fadf2e5652e84dc0/google/perfetto",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
