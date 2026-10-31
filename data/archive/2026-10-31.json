@@ -1,0 +1,541 @@
+{
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T08:39:48+00:00",
+  "stats": {
+    "fetched": 143,
+    "new_after_dedupe": 96,
+    "published": 16,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 11,
+      "supported": 11,
+      "dropped": 0,
+      "unverifiable": 1,
+      "summaries_reverted": 0,
+      "rate": 1.0
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. Eight Linux kernels rolled out while OpenAI tightened its teen guardrails – the night’s busy.",
+    "stories": [
+      {
+        "kicker": "Embedded",
+        "headline": "Eight new stable Linux kernels released",
+        "body": "**Patch parade:** Greg Kroah‑Hartman shipped eight fresh stable kernels, from 7.3.1 down to 5.10.273. Developers get immediate bug fixes without waiting for a major release.",
+        "why": "Staying on the latest stable kernel reduces surprise crashes in production.",
+        "ids": [
+          "75fdd5d220e08b01347eb2ec78ffba4648e7af04"
+        ]
+      },
+      {
+        "kicker": "AI Safety",
+        "headline": "OpenAI adds teen‑focused safety layers to ChatGPT",
+        "body": "**Safety upgrade:** OpenAI rolled out broader violence‑prevention filters and earlier intervention triggers for teenage users, plus a public safety reporting pledge.",
+        "why": "Stronger safeguards mean fewer false‑positive escalations for developers integrating the model.",
+        "ids": [
+          "c7606af40dbb903f1458e0f22e7105b96ee65c77"
+        ]
+      },
+      {
+        "kicker": "Android",
+        "headline": "Binder driver rewritten in Rust",
+        "body": "**Rust rewrite:** The legacy C Binder driver was stripped from Android and replaced with a Rust implementation, announced at Kangrejos 2026.",
+        "why": "Rust’s memory safety cuts down on kernel‑level bugs that can crash devices.",
+        "ids": [
+          "ae7973e4c5616e3118635c9a86c790714503f46f"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Robots.txt:** OpenAI will now honor a robots.txt signal for AI training preferences.",
+        "id": "25cc4c9bb2e3e7e535a029d8ccf56c3c1c4d2670"
+      },
+      {
+        "text": "**Multipath bug:** Anthropic disclosed a use‑after‑free in multipath TCP; Go warned developers on Oct 29.",
+        "id": "4ac1d97cc6450c640bf719ea97197e5466e31683"
+      },
+      {
+        "text": "**Model hype:** Qwen3.5‑4B‑3D‑Coder hit 20,197 downloads on Hugging Face.",
+        "id": "1c6441623ff5653f770ef76af5633ecfe12111cb"
+      },
+      {
+        "text": "**NIXL library:** NVIDIA’s high‑speed inference transfer lib climbs trending C++ repos.",
+        "id": "b4468fca2513899ace662895d1da802b62895700"
+      }
+    ],
+    "number": {
+      "value": "8",
+      "label": "new stable kernel releases announced",
+      "id": "75fdd5d220e08b01347eb2ec78ffba4648e7af04"
+    },
+    "sign_off": "That’s your two‑minute tech sprint – see you tomorrow",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "25e63b82e201c28b19194f893837789ad67218aa",
+      "title": "Codeforces Round 1131 (Div. 3)",
+      "url": "https://codeforces.com/contests/2278",
+      "source": "Codeforces",
+      "starts": "2026-10-31T14:35:00+00:00",
+      "detail": "ICPC contest, 2.2h, starts Sat 31 Oct 14:35 UTC"
+    },
+    {
+      "id": "eec55f6273cebeb8f5a0b6b5995b58de22bb4e81",
+      "title": "Educational Codeforces Round 196 (Rated for Div. 2)",
+      "url": "https://codeforces.com/contests/2283",
+      "source": "Codeforces",
+      "starts": "2026-11-04T14:35:00+00:00",
+      "detail": "ICPC contest, 2.0h, starts Wed 04 Nov 14:35 UTC"
+    },
+    {
+      "id": "93470a29b77d11d5f96f320a90cfe6df62ea2ada",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2284",
+      "source": "Codeforces",
+      "starts": "2026-11-06T14:35:00+00:00",
+      "detail": "CF contest, 2.2h, starts Fri 06 Nov 14:35 UTC"
+    },
+    {
+      "id": "6f83c980a333211356c0a8c902ef6db657a5c926",
+      "title": "Codeforces Round (Div. 1)",
+      "url": "https://codeforces.com/contests/2279",
+      "source": "Codeforces",
+      "starts": "2026-11-07T14:35:00+00:00",
+      "detail": "CF contest, 2.5h, starts Sat 07 Nov 14:35 UTC"
+    },
+    {
+      "id": "ffcb7b3246dd576d4ee4b719b9ad707615af0c4c",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2280",
+      "source": "Codeforces",
+      "starts": "2026-11-07T14:35:00+00:00",
+      "detail": "CF contest, 2.5h, starts Sat 07 Nov 14:35 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Eight more stable kernel updates",
+      "url": "https://lwn.net/Articles/1104177/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-10-30T14:22:39+00:00",
+      "points": null,
+      "score": 4.0,
+      "id": "75fdd5d220e08b01347eb2ec78ffba4648e7af04",
+      "summary": "Greg Kroah-Hartman announced eight new stable Linux kernel releases, including 7.3.1, 7.2.14, 6.18.60, 6.12.115, 6.6.161, 6.1.191, 5.15.224, and 5.10.273.",
+      "detail": "The updates contain numerous security‑relevant bug fixes, prompting users to upgrade promptly. A follow‑up release, 7.2.15, is already under review. These patches continue the regular stable‑branch maintenance cycle.",
+      "key_points": [
+        "8 kernels released",
+        "7.3.1 latest"
+      ],
+      "tag": "Release",
+      "highlight": true,
+      "image": "",
+      "related": {
+        "title": "Four stable kernels for Wednesday",
+        "url": "https://lwn.net/Articles/1101758/",
+        "date": "2026-10-22",
+        "id": "e13fe8eecb987560fa40fda2d036a07f7f4147d4"
+      }
+    },
+    {
+      "title": "Community safety report and new protections for teens",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "source": "openai blog",
+      "section": "ai-ml",
+      "published": "2026-10-30T09:00:00+00:00",
+      "points": null,
+      "score": 3.0,
+      "id": "c7606af40dbb903f1458e0f22e7105b96ee65c77",
+      "summary": "OpenAI added expanded violence prevention safeguards and earlier interventions to ChatGPT, along with a new public safety reporting commitment.",
+      "detail": "The updates aim to detect harmful content more reliably and trigger protective actions sooner. OpenAI also encourages external reporting of safety issues to improve the system. These changes are part of an ongoing effort to reduce misuse of the model.",
+      "key_points": [],
+      "tag": "News",
+      "highlight": true,
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/4Bjdb6r2RnzPzTHsby9gGq/d1b04269dc8a4df875d201341fe6d254/51GTG8rZQTzq9iEcTVFvUi--seo-v003.png?w=1600&h=900&fit=fill",
+      "related": {
+        "title": "ChatGPT’s expanding world of work",
+        "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+        "date": "2026-10-27",
+        "id": "64d59b55a8fb866695c8c1e923e768f9baf418cb"
+      }
+    },
+    {
+      "title": "Making it easier for websites to express AI training preferences",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "source": "openai blog",
+      "section": "ai-ml",
+      "published": "2026-10-30T09:30:00+00:00",
+      "points": null,
+      "score": 3.0,
+      "id": "25cc4c9bb2e3e7e535a029d8ccf56c3c1c4d2670",
+      "summary": "OpenAI will honor a shared robots.txt signal that lets website operators specify their AI training preferences.",
+      "detail": "Webmasters can add a dedicated directive to their robots.txt to opt out of or limit data collection for model training. Participating providers will respect this signal when crawling sites. This standardizes a previously ad‑hoc approach to training data consent.",
+      "key_points": [],
+      "tag": "News",
+      "highlight": true,
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/4fvNR0KxKmPYu4fRXtEgKp/4a522ef61a6f983b0b65ad39c2a71e4c/websites-toeexpress-ai-training-preferences-social.png?w=1600&h=900&fit=fill",
+      "related": {}
+    },
+    {
+      "title": "Remote code execution on Linux systems with multipath TCP",
+      "url": "https://lwn.net/Articles/1104192/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-10-30T15:45:27+00:00",
+      "points": null,
+      "score": 3.0,
+      "id": "4ac1d97cc6450c640bf719ea97197e5466e31683",
+      "summary": "Anthropic disclosed a use‑after‑free bug in multipath TCP on Oct 27, and the Go security team warned on Oct 29 that Go programs using multipath TCP may be vulnerable.",
+      "detail": "The vulnerability allows kernel memory disclosure or arbitrary code execution by exploiting a race between SYN retransmission and connection establishment. The fix delays freeing the options structure until after an RCU grace period. Users should update to a patched kernel promptly.",
+      "key_points": [
+        "Oct 27 bug",
+        "Oct 29 Go advisory"
+      ],
+      "tag": "News",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "[$] Removing binder.c",
+      "url": "https://lwn.net/Articles/1102982/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-10-30T17:46:46+00:00",
+      "points": null,
+      "score": 3.0,
+      "id": "ae7973e4c5616e3118635c9a86c790714503f46f",
+      "summary": "The C implementation of Android's Binder driver was removed and replaced with a Rust version, as announced at Kangrejos 2026.",
+      "detail": "Carlos Llamas deleted the original C code and discussed the migration process, while Alice Ryhl highlighted the most challenging aspects of moving to Rust. The change affects the primary IPC mechanism on Android devices.",
+      "key_points": [],
+      "tag": "Release",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "Community safety report and new protections for teens",
+          "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-10-30T09:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "c7606af40dbb903f1458e0f22e7105b96ee65c77",
+          "summary": "OpenAI added expanded violence prevention safeguards and earlier interventions to ChatGPT, along with a new public safety reporting commitment.",
+          "detail": "The updates aim to detect harmful content more reliably and trigger protective actions sooner. OpenAI also encourages external reporting of safety issues to improve the system. These changes are part of an ongoing effort to reduce misuse of the model.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": true,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/4Bjdb6r2RnzPzTHsby9gGq/d1b04269dc8a4df875d201341fe6d254/51GTG8rZQTzq9iEcTVFvUi--seo-v003.png?w=1600&h=900&fit=fill",
+          "related": {
+            "title": "ChatGPT’s expanding world of work",
+            "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+            "date": "2026-10-27",
+            "id": "64d59b55a8fb866695c8c1e923e768f9baf418cb"
+          }
+        },
+        {
+          "title": "Making it easier for websites to express AI training preferences",
+          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-10-30T09:30:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "25cc4c9bb2e3e7e535a029d8ccf56c3c1c4d2670",
+          "summary": "OpenAI will honor a shared robots.txt signal that lets website operators specify their AI training preferences.",
+          "detail": "Webmasters can add a dedicated directive to their robots.txt to opt out of or limit data collection for model training. Participating providers will respect this signal when crawling sites. This standardizes a previously ad‑hoc approach to training data consent.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": true,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/4fvNR0KxKmPYu4fRXtEgKp/4a522ef61a6f983b0b65ad39c2a71e4c/websites-toeexpress-ai-training-preferences-social.png?w=1600&h=900&fit=fill",
+          "related": {}
+        },
+        {
+          "title": "nemotron-halloween",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+          "source": "huggingface blog",
+          "section": "ai-ml",
+          "published": "2026-10-30T17:57:24+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "b2263e9f84127c7621047d154deaa4fa09bbff2b",
+          "summary": "Hugging Face posted a blog entry titled \"nemotron-halloween\".",
+          "detail": "The post contains no additional text in the provided excerpt, so no further details are available. It may be a placeholder or teaser for upcoming content.",
+          "key_points": [],
+          "tag": "",
+          "highlight": false,
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/6ab2a746c7d0655b3d8dfbb9/fownH6rn05tSp1jDBTz8m.png",
+          "related": {}
+        },
+        {
+          "title": "Model: ccore/Qwen3.5-4B-3D-Coder",
+          "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-25T05:43:34.000Z",
+          "points": 350,
+          "score": 1.5,
+          "id": "1c6441623ff5653f770ef76af5633ecfe12111cb",
+          "summary": "The ccore/Qwen3.5-4B-3D-Coder model on Hugging Face has been downloaded 20,197 times and received 350 likes.",
+          "detail": "The model is part of the Qwen 3.5 series targeting code generation tasks. Its popularity reflects community interest in 4‑billion‑parameter coder models. No licensing or pricing details were provided.",
+          "key_points": [
+            "20,197 downloads",
+            "350 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/ccore/Qwen3.5-4B-3D-Coder.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "Eight more stable kernel updates",
+          "url": "https://lwn.net/Articles/1104177/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-30T14:22:39+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "75fdd5d220e08b01347eb2ec78ffba4648e7af04",
+          "summary": "Greg Kroah-Hartman announced eight new stable Linux kernel releases, including 7.3.1, 7.2.14, 6.18.60, 6.12.115, 6.6.161, 6.1.191, 5.15.224, and 5.10.273.",
+          "detail": "The updates contain numerous security‑relevant bug fixes, prompting users to upgrade promptly. A follow‑up release, 7.2.15, is already under review. These patches continue the regular stable‑branch maintenance cycle.",
+          "key_points": [
+            "8 kernels released",
+            "7.3.1 latest"
+          ],
+          "tag": "Release",
+          "highlight": true,
+          "image": "",
+          "related": {
+            "title": "Four stable kernels for Wednesday",
+            "url": "https://lwn.net/Articles/1101758/",
+            "date": "2026-10-22",
+            "id": "e13fe8eecb987560fa40fda2d036a07f7f4147d4"
+          }
+        },
+        {
+          "title": "Remote code execution on Linux systems with multipath TCP",
+          "url": "https://lwn.net/Articles/1104192/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-30T15:45:27+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "4ac1d97cc6450c640bf719ea97197e5466e31683",
+          "summary": "Anthropic disclosed a use‑after‑free bug in multipath TCP on Oct 27, and the Go security team warned on Oct 29 that Go programs using multipath TCP may be vulnerable.",
+          "detail": "The vulnerability allows kernel memory disclosure or arbitrary code execution by exploiting a race between SYN retransmission and connection establishment. The fix delays freeing the options structure until after an RCU grace period. Users should update to a patched kernel promptly.",
+          "key_points": [
+            "Oct 27 bug",
+            "Oct 29 Go advisory"
+          ],
+          "tag": "News",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "[$] Removing binder.c",
+          "url": "https://lwn.net/Articles/1102982/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-30T17:46:46+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "ae7973e4c5616e3118635c9a86c790714503f46f",
+          "summary": "The C implementation of Android's Binder driver was removed and replaced with a Rust version, as announced at Kangrejos 2026.",
+          "detail": "Carlos Llamas deleted the original C code and discussed the migration process, while Alice Ryhl highlighted the most challenging aspects of moving to Rust. The change affects the primary IPC mechanism on Android devices.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Haas: Postgres 19 is late, and it's AI's fault",
+          "url": "https://lwn.net/Articles/1104210/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-30T16:52:59+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "878f4166da45f59e45154940f9cd716c8cf5b420",
+          "summary": "PostgreSQL 19 release was delayed, with the postponement attributed to extensive quality work and challenges integrating AI‑assisted bug detection.",
+          "detail": "Developer Robert Haas notes the delay is modest in the project's history but raises concerns about handling decades of legacy bugs that large language models can now find. The community is actively seeking solutions to maintain innovation while improving code quality.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Security updates for Friday",
+          "url": "https://lwn.net/Articles/1104174/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-30T13:37:12+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "59ac96601077f5d857d457c93ea2c3e49094e70f",
+          "summary": "Multiple security updates were released for AlmaLinux, Debian, and Fedora, covering a wide range of packages including curl, gcc, Java, Node.js, and many desktop components.",
+          "detail": "The updates address vulnerabilities across system libraries, development tools, and user applications. Each distribution provides its own package list, reflecting the breadth of the security response across Linux ecosystems.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "[$] System-call wrappers for glibc",
+          "url": "https://lwn.net/Articles/1101647/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-30T15:07:29+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "28f903351f9c6a9e31b8fca9ca21f8557d572c2d",
+          "summary": "A year‑long update on glibc system‑call wrappers was presented at the 2025 Linux Plumbers Conference, reviewing progress on exposing Linux syscalls lacking native wrappers.",
+          "detail": "Carlos O'Donell and glibc maintainer Florian Weimer reported on work to replace direct syscall() usage with proper glibc interfaces and solicited community input on remaining needs for wrapper coverage.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "ai-dynamo/nixl",
+          "url": "https://github.com/ai-dynamo/nixl",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 1345,
+          "score": 2.5,
+          "id": "b4468fca2513899ace662895d1da802b62895700",
+          "summary": "The NVIDIA Inference Xfer Library (NIXL) repository provides a C++ library for high‑performance inference data transfers.",
+          "detail": "NIXL is positioned as a tool for accelerating machine‑learning inference pipelines, offering APIs to move data efficiently between GPU and CPU memory spaces.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/1e3f7815e6a34d71aa791f199fbccd167d904c4786fd82a363ccc4ebd6adf2ae/ai-dynamo/nixl",
+          "related": {}
+        },
+        {
+          "title": "dmlc/xgboost",
+          "url": "https://github.com/dmlc/xgboost",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 28928,
+          "score": 2.5,
+          "id": "080119c6e7e1c1012a0c4a0bea55cf3a270b5f11",
+          "summary": "XGBoost is an open‑source, scalable gradient‑boosting library supporting multiple languages and distributed computing frameworks.",
+          "detail": "The library can run on single machines or integrate with Hadoop, Spark, Dask, Flink, and DataFlow, making it suitable for large‑scale machine‑learning tasks across diverse environments.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/fb426d7b383c025d9f31691368701d4563d05e939f51302cef619346c62e796b/dmlc/xgboost",
+          "related": {}
+        },
+        {
+          "title": "jrouwe/JoltPhysics",
+          "url": "https://github.com/jrouwe/JoltPhysics",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 12000,
+          "score": 2.5,
+          "id": "6fb329816e6085e424affb193fbd15b77014d0fa",
+          "summary": "JoltPhysics is a C++ rigid‑body physics and collision detection library optimized for multicore CPUs, used in games such as Horizon Forbidden West and Death Stranding 2.",
+          "detail": "The library focuses on deterministic simulation and low‑latency updates, making it suitable for both high‑performance game loops and VR where frame timing is critical. Its API mirrors common physics engines, easing integration into existing C++ projects.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/395341383/40c62306-e799-41a7-be43-6fa1887e4f9a",
+          "related": {}
+        },
+        {
+          "title": "TokisanGames/Terrain3D",
+          "url": "https://github.com/TokisanGames/Terrain3D",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 4607,
+          "score": 2.0,
+          "id": "887ea952c5222eeb420386542f3a90ef8a4f0064",
+          "summary": "Terrain3D provides a high‑performance, editable terrain system built for Godot 4.",
+          "detail": "It leverages Godot's new rendering pipeline to stream large heightmaps efficiently, supporting runtime sculpting and LOD. The system is designed for open‑world scenes where terrain must be modified on‑the‑fly without recompiling assets.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/ade09e0f99ee337b6cea0543d6ed6579420371df3a249a58b5c63e5248b53675/TokisanGames/Terrain3D",
+          "related": {}
+        },
+        {
+          "title": "anthropics/skills",
+          "url": "https://github.com/anthropics/skills",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 185563,
+          "score": 2.0,
+          "id": "10ba719313a0c83566e4fb1db426c34c44e8815e",
+          "summary": "The anthropics/skills repository hosts public data and code for defining agent skills.",
+          "detail": "It includes a catalog of skill definitions, examples for integration with language models, and tooling to evaluate skill performance. The repo aims to standardize skill representation for AI agents.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/782ed8534bbc1046005db809c89f5710958c6ffe986cdf63a5a80808f97defa6/anthropics/skills",
+          "related": {
+            "title": "Donating Agent Skills to the Agentic AI Foundation",
+            "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+            "date": "2026-10-23",
+            "id": "cc012b1e3b750154d264a457e79317094fb5a0a7"
+          }
+        },
+        {
+          "title": "daeuniverse/honk",
+          "url": "https://github.com/daeuniverse/honk",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 984,
+          "score": 2.0,
+          "id": "883457239c08291c12afbec03e240b4d3ac7582d",
+          "summary": "honk is a Rust project inspired by the dae and sing‑box networking tools.",
+          "detail": "The codebase reuses concepts from dae's modular architecture and sing‑box's proxy capabilities, targeting flexible, high‑throughput network routing. It is positioned as a lightweight alternative for developers needing custom proxy stacks.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/78d97d63cbb742c027946214ac1de1a02b9a6d7a00d149071e98dcf6843e3e90/daeuniverse/honk",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
