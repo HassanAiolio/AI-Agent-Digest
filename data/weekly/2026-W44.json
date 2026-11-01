@@ -1,0 +1,193 @@
+{
+  "week": "2026-W44",
+  "start": "2026-10-26",
+  "end": "2026-11-01",
+  "title": "Agents, Benchmarks, and Kernel Chaos",
+  "intro": "This week the AI world kept building smarter agents while the embedded side wrestled with a flood of security patches and quirky hardware hacks. Engineers got new benchmarks, frameworks, and a reminder to keep kernels up to date.",
+  "themes": [
+    {
+      "headline": "Agentic AI Gets More Playgrounds",
+      "body": "Researchers rolled out several new arenas for testing LLM agents, from Eurogame matchups to multimodal frameworks. DECE’s Eurogame arena, EvoRouter’s multi‑agent routing, and the LFM3 multimodal builder all aim to stress‑test agents in diverse settings. Meanwhile, trending repos like agentic‑awesome‑skills and AstrBot add reusable skill libraries, nudging the community toward plug‑and‑play agent development.",
+      "items": [
+        {
+          "id": "d1195f67513589cee2898ee33b1ea987b2c6e3eb",
+          "title": "A Unified Arena for LLM Agents across Diverse Eurogame",
+          "url": "https://arxiv.org/abs/2610.35773v1",
+          "date": "2026-10-27",
+          "source": "arXiv cs.AI",
+          "section": "AI & ML"
+        },
+        {
+          "id": "d688c8ec2131bfbfc1c6152a284c34374a4c9382",
+          "title": "EvoRouter: Cost-Efficient Multi-Agent Routing via Insight-Guided On-Policy Distillation",
+          "url": "https://arxiv.org/abs/2610.35690v1",
+          "date": "2026-10-27",
+          "source": "arXiv cs.AI",
+          "section": "AI & ML"
+        },
+        {
+          "id": "db98bf59a6c7e4204871c9f544fd7cc3019a06a7",
+          "title": "Build specialized multimodal models with LFM3",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+          "date": "2026-10-28",
+          "source": "huggingface blog",
+          "section": "AI & ML"
+        },
+        {
+          "id": "909786c7698d64c2e66854943313662cac002467",
+          "title": "sickn33/agentic-awesome-skills",
+          "url": "https://github.com/sickn33/agentic-awesome-skills",
+          "date": "2026-11-01",
+          "source": "GitHub trending · python",
+          "section": "Trending repos"
+        },
+        {
+          "id": "1739a2341816bb7a6628a1455e6456db5d96f38f",
+          "title": "AstrBotDevs/AstrBot",
+          "url": "https://github.com/AstrBotDevs/AstrBot",
+          "date": "2026-10-26",
+          "source": "GitHub trending · python",
+          "section": "Trending repos"
+        }
+      ]
+    },
+    {
+      "headline": "Benchmarks and Audits Tighten AI Trust",
+      "body": "New evaluation tools and safety checks surfaced across the AI spectrum. IndicIPR‑QA offers a 4,462‑question benchmark for Indian IP law, while OpenAI detailed layered monitoring to catch misalignment in frontier models. On the privacy front, Reference‑Model Calibration sharpens membership inference attacks on diffusion models, highlighting both capabilities and risks.",
+      "items": [
+        {
+          "id": "d2a622ca0a223d5e97a70433199766ebcc5480c7",
+          "title": "IndicIPR-QA: A Benchmark for Extractive Question Answering on Indian IPR Laws",
+          "url": "https://arxiv.org/abs/2610.40518v1",
+          "date": "2026-10-30",
+          "source": "arXiv cs.CL",
+          "section": "AI & ML"
+        },
+        {
+          "id": "d28967fce9c692cd06eccf3709b27a584532abf2",
+          "title": "How we detect frontier model misalignment",
+          "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+          "date": "2026-10-30",
+          "source": "openai blog",
+          "section": "AI & ML"
+        },
+        {
+          "id": "46130f49b5452940d68e99850aa699275e43105a",
+          "title": "Difficulty Calibration Across Time for Membership Inference in Diffusion Models",
+          "url": "https://arxiv.org/abs/2610.40616v1",
+          "date": "2026-10-30",
+          "source": "arXiv cs.CV",
+          "section": "AI & ML"
+        }
+      ]
+    },
+    {
+      "headline": "Embedded Systems Face Security Tsunami",
+      "body": "The Linux kernel saw eight stable releases while distro updates flooded the weekend with security patches for AlmaLinux, Debian, and Fedora. At the same time, critical vulnerabilities emerged—from a UEFI firmware code‑execution flaw threatening most servers to a multipath‑TCP use‑after‑free bug flagged by Anthropic and Go. Even hobbyist hacks like a 510‑byte boot‑sector neural net reminded us that low‑level code can be both clever and risky.",
+      "items": [
+        {
+          "id": "75fdd5d220e08b01347eb2ec78ffba4648e7af04",
+          "title": "Eight more stable kernel updates",
+          "url": "https://lwn.net/Articles/1104177/",
+          "date": "2026-10-31",
+          "source": "lwn",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "9f9073d2f29360627ded5b92f84207968f8ea5bf",
+          "title": "A massive pile of security updates for Saturday",
+          "url": "https://lwn.net/Articles/1104612/",
+          "date": "2026-11-01",
+          "source": "lwn",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "9d02bbba005f11f74e57ae8f8590c55b3e366cdd",
+          "title": "Code-execution flaw in UEFI firmware threatens most servers on planet Earth",
+          "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+          "date": "2026-10-28",
+          "source": "Hacker News",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "4ac1d97cc6450c640bf719ea97197e5466e31683",
+          "title": "Remote code execution on Linux systems with multipath TCP",
+          "url": "https://lwn.net/Articles/1104192/",
+          "date": "2026-10-31",
+          "source": "lwn",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "14074b4203bb23f176964166bd2fb761022eb843",
+          "title": "Show HN: A language model that lives in a boot sector",
+          "url": "https://github.com/kerlenton/bootgpt",
+          "date": "2026-11-01",
+          "source": "Hacker News",
+          "section": "AI & ML"
+        }
+      ]
+    },
+    {
+      "headline": "RISC‑V Bridges AI and Retro Computing",
+      "body": "RISC‑V made headlines both in the AI and retro‑computing worlds. Qwenputer demonstrated a deterministic RISC‑V CPU inside a language model, while the 2026 Retrocomputing Challenge invited designers to craft custom RISC‑V cores for vintage systems. These projects underscore a growing synergy between hardware simplicity and AI experimentation.",
+      "items": [
+        {
+          "id": "44e3e5f137f8038b1a03754d5e2349e9964f4e9d",
+          "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
+          "url": "https://divagr.com/blog/qwenputer",
+          "date": "2026-10-29",
+          "source": "Hacker News",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "a641cecc889d0f349a4173f0470a241dda1d9621",
+          "title": "2026 Retrocomputing Challenge: Custom RISC-V Processor For Retro System",
+          "url": "https://hackaday.com/2026/10/28/2026-retrocomputing-challenge-custom-risc-v-processor-for-retro-system/",
+          "date": "2026-10-29",
+          "source": "hackaday",
+          "section": "Embedded & systems"
+        }
+      ]
+    }
+  ],
+  "numbers": [
+    {
+      "value": "4,462",
+      "label": "QA pairs in the IndicIPR‑QA benchmark",
+      "item": {
+        "id": "d2a622ca0a223d5e97a70433199766ebcc5480c7",
+        "title": "IndicIPR-QA: A Benchmark for Extractive Question Answering on Indian IPR Laws",
+        "url": "https://arxiv.org/abs/2610.40518v1",
+        "date": "2026-10-30",
+        "source": "arXiv cs.CL",
+        "section": "AI & ML"
+      }
+    },
+    {
+      "value": "8",
+      "label": "New stable Linux kernel releases announced",
+      "item": {
+        "id": "75fdd5d220e08b01347eb2ec78ffba4648e7af04",
+        "title": "Eight more stable kernel updates",
+        "url": "https://lwn.net/Articles/1104177/",
+        "date": "2026-10-31",
+        "source": "lwn",
+        "section": "Embedded & systems"
+      }
+    },
+    {
+      "value": "510 B",
+      "label": "Size of the boot‑sector neural net demo",
+      "item": {
+        "id": "14074b4203bb23f176964166bd2fb761022eb843",
+        "title": "Show HN: A language model that lives in a boot sector",
+        "url": "https://github.com/kerlenton/bootgpt",
+        "date": "2026-11-01",
+        "source": "Hacker News",
+        "section": "AI & ML"
+      }
+    }
+  ],
+  "watch": "Keep an eye on next week’s kernel advisories and any follow‑up disclosures around the UEFI and multipath‑TCP vulnerabilities.",
+  "item_count": 146
+}

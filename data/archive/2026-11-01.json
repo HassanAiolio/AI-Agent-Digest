@@ -1,0 +1,494 @@
+{
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T09:30:45+00:00",
+  "stats": {
+    "fetched": 132,
+    "new_after_dedupe": 77,
+    "published": 14,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 12,
+      "supported": 12,
+      "dropped": 0,
+      "unverifiable": 5,
+      "summaries_reverted": 0,
+      "rate": 1.0
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. Security patches piled up like laundry, and someone squeezed a neural net into a boot sector.",
+    "stories": [
+      {
+        "kicker": "Embedded",
+        "headline": "Mass security updates hit three Linux distros",
+        "body": "**Patch flood incoming:** AlmaLinux, Debian, and Fedora released dozens of security updates on Saturday, covering a wide range of packages. The updates aim to close known vulnerabilities before they can be exploited.",
+        "why": "Staying current prevents attackers from leveraging old bugs in your deployment.",
+        "ids": [
+          "9f9073d2f29360627ded5b92f84207968f8ea5bf"
+        ]
+      },
+      {
+        "kicker": "AI & ML",
+        "headline": "Boot sector hosts a tiny char-level model",
+        "body": "**510‑byte neural net:** A hobbyist fit a char‑level inference engine into a 510‑byte boot sector, producing Linux‑style boot logs at startup. It proves you can run inference before the OS even loads.",
+        "why": "Shows extreme model compression possibilities for ultra‑constrained devices.",
+        "ids": [
+          "14074b4203bb23f176964166bd2fb761022eb843"
+        ]
+      },
+      {
+        "kicker": "Trending repos",
+        "headline": "Agentic‑awesome‑skills library tops 2,800 AI tools",
+        "body": "**Skill stash unlocked:** The repo now offers over 2,884 reusable AI agent skills for Claude Code, Codex, Cursor, and Gemini CLI. Developers can drop a skill into a prompt and get a ready‑made capability.",
+        "why": "Accelerates prototyping of AI‑driven features without writing custom prompts.",
+        "ids": [
+          "909786c7698d64c2e66854943313662cac002467"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Backdoor demo:** Hacktron shows how Bash could be compromised via GNU Savannah.",
+        "id": "b8adcb0b8bd1d6ef35b4395612f260fc867527b6"
+      },
+      {
+        "text": "**Supercon preview:** About 700 hackers will gather in Pasadena for a three‑day hackathon.",
+        "id": "f7d415a6b0677e318524f0d3b9fe7dba148d4cf3"
+      },
+      {
+        "text": "**ADS‑B hack:** Build a low‑cost aircraft transponder receiver with off‑the‑shelf parts.",
+        "id": "a13fb09e619c20003b6e113c0d4d4b5d4893b6fc"
+      },
+      {
+        "text": "**PR Agent:** Open‑source tool auto‑reviews pull requests, separate from Qodo’s free tier.",
+        "id": "dbc443423eb814c8c75a152e7c186fa61b2dc024"
+      }
+    ],
+    "number": {
+      "value": "510B",
+      "label": "size of the boot‑sector neural net",
+      "id": "14074b4203bb23f176964166bd2fb761022eb843"
+    },
+    "sign_off": "Stay sharp, and keep those kernels tidy.",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "eec55f6273cebeb8f5a0b6b5995b58de22bb4e81",
+      "title": "Educational Codeforces Round 196 (Rated for Div. 2)",
+      "url": "https://codeforces.com/contests/2283",
+      "source": "Codeforces",
+      "starts": "2026-11-04T14:35:00+00:00",
+      "detail": "ICPC contest, 2.0h, starts Wed 04 Nov 14:35 UTC"
+    },
+    {
+      "id": "93470a29b77d11d5f96f320a90cfe6df62ea2ada",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2284",
+      "source": "Codeforces",
+      "starts": "2026-11-06T14:35:00+00:00",
+      "detail": "CF contest, 2.2h, starts Fri 06 Nov 14:35 UTC"
+    },
+    {
+      "id": "6f83c980a333211356c0a8c902ef6db657a5c926",
+      "title": "Codeforces Round (Div. 1)",
+      "url": "https://codeforces.com/contests/2279",
+      "source": "Codeforces",
+      "starts": "2026-11-07T14:35:00+00:00",
+      "detail": "CF contest, 2.5h, starts Sat 07 Nov 14:35 UTC"
+    },
+    {
+      "id": "ffcb7b3246dd576d4ee4b719b9ad707615af0c4c",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2280",
+      "source": "Codeforces",
+      "starts": "2026-11-07T14:35:00+00:00",
+      "detail": "CF contest, 2.5h, starts Sat 07 Nov 14:35 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "A massive pile of security updates for Saturday",
+      "url": "https://lwn.net/Articles/1104612/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-10-31T22:34:30+00:00",
+      "points": null,
+      "score": 6.0,
+      "id": "9f9073d2f29360627ded5b92f84207968f8ea5bf",
+      "summary": "AlmaLinux, Debian, and Fedora published a large set of security updates on Saturday covering dozens of packages.",
+      "detail": "Updates span runtimes like .NET, libraries such as OpenJDK and Python Pillow, and system components including curl, bind, and the Linux kernel, reflecting a coordinated effort across major distributions.",
+      "key_points": [],
+      "tag": "News",
+      "highlight": true,
+      "image": "",
+      "related": {
+        "title": "Security updates for Monday",
+        "url": "https://lwn.net/Articles/1102946/",
+        "date": "2026-10-27",
+        "id": "03f253ede7aeecda9dff0e3bc2478bf7059c6847"
+      }
+    },
+    {
+      "title": "Show HN: A language model that lives in a boot sector",
+      "url": "https://github.com/kerlenton/bootgpt",
+      "source": "Hacker News",
+      "section": "ai-ml",
+      "published": "2026-10-31T12:58:29+00:00",
+      "points": 83,
+      "score": 5.5,
+      "id": "14074b4203bb23f176964166bd2fb761022eb843",
+      "summary": "A tiny char-level neural network inference engine fits entirely in a 510‑byte boot sector and generates Linux‑style boot logs.",
+      "detail": "The model and its weights reside in sectors following the MBR, and the training script mirrors the integer arithmetic of the assembly code to produce identical output in QEMU until a divergence bug is discovered.",
+      "key_points": [
+        "510 bytes"
+      ],
+      "tag": "Release",
+      "highlight": true,
+      "image": "https://opengraph.githubassets.com/3417e99e2d47c9946d46fe6b1dca7a0e087a30fffb8b4060647d00bbdce7ecec/kerlenton/bootgpt",
+      "related": {}
+    },
+    {
+      "title": "How We Could Have Backdoored Bash (Hacktron blog)",
+      "url": "https://lwn.net/Articles/1104262/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-10-31T14:00:42+00:00",
+      "points": null,
+      "score": 3.0,
+      "id": "b8adcb0b8bd1d6ef35b4395612f260fc867527b6",
+      "summary": "A Hacktron blog post demonstrated a potential Bash supply‑chain backdoor via GNU Savannah, reported to the FSF on May 11, 2026.",
+      "detail": "The exploit used a crafted email address to achieve code execution on Savannah’s backend, escalated to superuser, and could have injected an SSH key into the upstream Bash repository before being disclosed.",
+      "key_points": [
+        "May 11, 2026"
+      ],
+      "tag": "News",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "sickn33/agentic-awesome-skills",
+      "url": "https://github.com/sickn33/agentic-awesome-skills",
+      "source": "GitHub trending · python",
+      "section": "repos",
+      "published": null,
+      "points": 48948,
+      "score": 2.5,
+      "id": "909786c7698d64c2e66854943313662cac002467",
+      "summary": "The agentic-awesome-skills repository offers over 2,884 reusable AI agent skills for Claude Code, Codex, Cursor, and Gemini CLI.",
+      "detail": "AAS Core adds local catalog discovery, agent-owned selection, and plan preview, with support for CLI, MCP, and plugins, enabling rapid composition of AI-powered workflows.",
+      "key_points": [
+        "2,884+ skills"
+      ],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://opengraph.githubassets.com/5bf5be2993dd636c07161bfea2d54cd6b926243c0010f7046392fe417037c0da/sickn33/agentic-awesome-skills",
+      "related": {}
+    },
+    {
+      "title": "0x0funky/agent-sprite-forge",
+      "url": "https://github.com/0x0funky/agent-sprite-forge",
+      "source": "GitHub trending · python",
+      "section": "repos",
+      "published": null,
+      "points": 4798,
+      "score": 2.0,
+      "id": "89c956ab1bb35fa4e16ef4254820514b7a030265",
+      "summary": "agent-sprite-forge provides an agent skill that creates 2D sprite sheets, transparent PNG frames, and animated GIFs from textual prompts.",
+      "detail": "The tool automates asset generation for games and visualizations, outputting ready‑to‑use sprite sheets and animations directly from AI‑driven image synthesis.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://opengraph.githubassets.com/fbf7df39b66a0752255577a6dfaa04515d18c3fcb5eb4528a5448e1b3516e698/0x0funky/agent-sprite-forge",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "Show HN: A language model that lives in a boot sector",
+          "url": "https://github.com/kerlenton/bootgpt",
+          "source": "Hacker News",
+          "section": "ai-ml",
+          "published": "2026-10-31T12:58:29+00:00",
+          "points": 83,
+          "score": 5.5,
+          "id": "14074b4203bb23f176964166bd2fb761022eb843",
+          "summary": "A tiny char-level neural network inference engine fits entirely in a 510‑byte boot sector and generates Linux‑style boot logs.",
+          "detail": "The model and its weights reside in sectors following the MBR, and the training script mirrors the integer arithmetic of the assembly code to produce identical output in QEMU until a divergence bug is discovered.",
+          "key_points": [
+            "510 bytes"
+          ],
+          "tag": "Release",
+          "highlight": true,
+          "image": "https://opengraph.githubassets.com/3417e99e2d47c9946d46fe6b1dca7a0e087a30fffb8b4060647d00bbdce7ecec/kerlenton/bootgpt",
+          "related": {}
+        },
+        {
+          "title": "Model: Pika-Labs/Pika-H3-Flex",
+          "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-29T17:08:44.000Z",
+          "points": 277,
+          "score": 1.5,
+          "id": "ee64b630519ef8b51ee5715ae17f6693e6a3d353",
+          "summary": "Pika‑Labs released the Pika‑H3‑Flex model for image‑to‑video generation, currently trending on Hugging Face.",
+          "detail": "The model is listed under the HF trending page and is intended for converting static images into short video clips, though no performance metrics are provided in the brief.",
+          "key_points": [
+            "404 downloads",
+            "277 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Pika-Labs/Pika-H3-Flex.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "A massive pile of security updates for Saturday",
+          "url": "https://lwn.net/Articles/1104612/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-31T22:34:30+00:00",
+          "points": null,
+          "score": 6.0,
+          "id": "9f9073d2f29360627ded5b92f84207968f8ea5bf",
+          "summary": "AlmaLinux, Debian, and Fedora published a large set of security updates on Saturday covering dozens of packages.",
+          "detail": "Updates span runtimes like .NET, libraries such as OpenJDK and Python Pillow, and system components including curl, bind, and the Linux kernel, reflecting a coordinated effort across major distributions.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": true,
+          "image": "",
+          "related": {
+            "title": "Security updates for Monday",
+            "url": "https://lwn.net/Articles/1102946/",
+            "date": "2026-10-27",
+            "id": "03f253ede7aeecda9dff0e3bc2478bf7059c6847"
+          }
+        },
+        {
+          "title": "How We Could Have Backdoored Bash (Hacktron blog)",
+          "url": "https://lwn.net/Articles/1104262/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-10-31T14:00:42+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "b8adcb0b8bd1d6ef35b4395612f260fc867527b6",
+          "summary": "A Hacktron blog post demonstrated a potential Bash supply‑chain backdoor via GNU Savannah, reported to the FSF on May 11, 2026.",
+          "detail": "The exploit used a crafted email address to achieve code execution on Savannah’s backend, escalated to superuser, and could have injected an SSH key into the upstream Bash repository before being disclosed.",
+          "key_points": [
+            "May 11, 2026"
+          ],
+          "tag": "News",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Bring On Supercon!",
+          "url": "https://hackaday.com/2026/10/31/bring-on-supercon/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-31T14:00:32+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "f7d415a6b0677e318524f0d3b9fe7dba148d4cf3",
+          "summary": "Supercon will convene roughly 700 hackers in Pasadena, CA for a three‑day gathering starting in under a week.",
+          "detail": "The event combines hardware hacking, soldering workshops, and networking opportunities, aiming to foster collaboration among a diverse maker community.",
+          "key_points": [
+            "≈700 hackers",
+            "3 days"
+          ],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2017/11/supercon-recap-article-featured.jpg",
+          "related": {}
+        },
+        {
+          "title": "Building an ADS-B Receiver For Less Than You Think",
+          "url": "https://hackaday.com/2026/11/01/building-an-ads-b-receiver-for-less-than-you-think/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-01T08:00:22+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "a13fb09e619c20003b6e113c0d4d4b5d4893b6fc",
+          "summary": "Hackaday details how to build a low‑cost ADS‑B receiver to monitor aircraft transponder signals.",
+          "detail": "The guide shows assembling a simple radio front‑end and software stack to decode real‑time flight data, offering an affordable alternative to commercial tracking solutions.",
+          "key_points": [],
+          "tag": "Analysis",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/hardware-e1793510289398.png",
+          "related": {}
+        },
+        {
+          "title": "DIY WiFi Analyzer Sniffs Out Congestion and Coverage Issues, Suggests Fixes",
+          "url": "https://hackaday.com/2026/10/31/diy-wifi-analyzer-sniffs-out-congestion-and-coverage-issues-suggests-fixes/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-10-31T17:00:53+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "8bdc9f6355f2a1d635ce9a3f34bbebbeed636de2",
+          "summary": "JEV WiFi Analyzer combines a single-board Linux computer, a USB WiFi adapter, and a specialized AI model to detect network congestion and coverage gaps, then suggests fixes.",
+          "detail": "The DIY system runs on inexpensive hardware and uses AI to interpret signal data, providing visual maps of Wi‑Fi health. It helps users pinpoint dead zones and overlapping channels without commercial tools.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/JEV-WiFi-Analyzer-2-banner.png",
+          "related": {}
+        },
+        {
+          "title": "Huge PalmOS Development Archive Goes Online, Thanks to Personal Backups",
+          "url": "https://hackaday.com/2026/10/31/huge-palmos-development-archive-goes-online-thanks-to-personal-backups/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-01T05:00:00+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "cbdbf906e9286d74e1a891ab79fa3ed74fa71ed1",
+          "summary": "A massive Palm OS development archive, assembled from personal backups, has been released online for public access.",
+          "detail": "The collection includes source code, documentation, and tools from the era before modern smartphones, preserving a largely forgotten platform for hobbyists and researchers.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/palmos-logo.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "sickn33/agentic-awesome-skills",
+          "url": "https://github.com/sickn33/agentic-awesome-skills",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 48948,
+          "score": 2.5,
+          "id": "909786c7698d64c2e66854943313662cac002467",
+          "summary": "The agentic-awesome-skills repository offers over 2,884 reusable AI agent skills for Claude Code, Codex, Cursor, and Gemini CLI.",
+          "detail": "AAS Core adds local catalog discovery, agent-owned selection, and plan preview, with support for CLI, MCP, and plugins, enabling rapid composition of AI-powered workflows.",
+          "key_points": [
+            "2,884+ skills"
+          ],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://opengraph.githubassets.com/5bf5be2993dd636c07161bfea2d54cd6b926243c0010f7046392fe417037c0da/sickn33/agentic-awesome-skills",
+          "related": {}
+        },
+        {
+          "title": "0x0funky/agent-sprite-forge",
+          "url": "https://github.com/0x0funky/agent-sprite-forge",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 4798,
+          "score": 2.0,
+          "id": "89c956ab1bb35fa4e16ef4254820514b7a030265",
+          "summary": "agent-sprite-forge provides an agent skill that creates 2D sprite sheets, transparent PNG frames, and animated GIFs from textual prompts.",
+          "detail": "The tool automates asset generation for games and visualizations, outputting ready‑to‑use sprite sheets and animations directly from AI‑driven image synthesis.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://opengraph.githubassets.com/fbf7df39b66a0752255577a6dfaa04515d18c3fcb5eb4528a5448e1b3516e698/0x0funky/agent-sprite-forge",
+          "related": {}
+        },
+        {
+          "title": "Orkas-AI/Orkas",
+          "url": "https://github.com/Orkas-AI/Orkas",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 7027,
+          "score": 2.0,
+          "id": "24ee0d11b76f3a78f0421ce98cecd98be66e55fc",
+          "summary": "Orkas is an MIT‑licensed, local‑first AI team app for macOS and Windows that turns goals into tasks and coordinates 16 built‑in specialist agents plus external models.",
+          "detail": "The desktop application includes a Commander for goal decomposition, scheduled automations, and connectors, allowing users to run AI workflows without cloud dependencies.",
+          "key_points": [
+            "MIT license",
+            "Free macOS & Windows",
+            "16 specialist agents"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/8456231eb8d8e3c8a8bdd37fa230e1d1aaca3880c7bde9f2ad58dd69acf2609b/Orkas-AI/Orkas",
+          "related": {}
+        },
+        {
+          "title": "The-PR-Agent/pr-agent",
+          "url": "https://github.com/The-PR-Agent/pr-agent",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 13850,
+          "score": 2.0,
+          "id": "dbc443423eb814c8c75a152e7c186fa61b2dc024",
+          "summary": "PR Agent is an open‑source tool that automatically reviews pull requests, marketed as the original reviewer solution separate from Qodo’s free tier.",
+          "detail": "It integrates with common CI pipelines to provide code quality feedback, style checks, and suggested changes, aiming to streamline the review process for developers.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/ab71308a1480241d08d71bf2f19261018b1bd2abeee44b970a27e73914445edf/The-PR-Agent/pr-agent",
+          "related": {}
+        },
+        {
+          "title": "Zylann/godot_voxel",
+          "url": "https://github.com/Zylann/godot_voxel",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 4087,
+          "score": 2.0,
+          "id": "8306b34891f31a80ea23f3b6c873e22c7f1e9d98",
+          "summary": "Voxel module for Godot Engine.",
+          "detail": "The repository provides a ready-to-use voxel implementation that integrates directly with the Godot game engine, allowing developers to add voxel-based worlds and terrain without building the system from scratch.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/88c04f3dec69214a5137dc3e359e99d20ee98b168246ad69d047d8beeabef58c/Zylann/godot_voxel",
+          "related": {}
+        },
+        {
+          "title": "ethanplusai/harvey",
+          "url": "https://github.com/ethanplusai/harvey",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 3792,
+          "score": 2.0,
+          "id": "0f5e0d0f60af5b73bee64695b3a90896aea8b509",
+          "summary": "Autonomous AI sales agent that operates on Claude Code or Codex subscriptions without needing API keys.",
+          "detail": "The tool automates prospect discovery, cold email generation, campaign sending, reply handling, and meeting scheduling, leveraging the underlying language model for each step. Users must have an active Claude or Codex subscription, as the software runs locally against those accounts.",
+          "key_points": [
+            "Claude Code or Codex",
+            "No API keys required"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/c3229c5b62cc283ac86d5151a7b7bff3391d415a1e019489d44560278a6efcd4/ethanplusai/harvey",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
