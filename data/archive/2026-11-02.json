@@ -1,0 +1,507 @@
+{
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T09:47:07+00:00",
+  "stats": {
+    "fetched": 127,
+    "new_after_dedupe": 78,
+    "published": 14,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 15,
+      "supported": 15,
+      "dropped": 0,
+      "unverifiable": 0,
+      "summaries_reverted": 0,
+      "rate": 1.0
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. Your inbox just got a kernel flood, a $15 FPGA, and a DIY game‑streaming server.",
+    "stories": [
+      {
+        "kicker": "Kernel",
+        "headline": "Linux 7.4‑rc1 prepatch drops massive patch set",
+        "body": "**Patch flood incoming:** Linux 7.4‑rc1 prepatch arrived with 18,591 changesets from 2,678 developers, including 625 first‑timers. The merge window just closed.",
+        "why": "Kernel engineers must triage a huge batch of new code and bugs.",
+        "ids": [
+          "1c0ff372f36844c565fb37c4de0e3eeda70052d3"
+        ]
+      },
+      {
+        "kicker": "Embedded",
+        "headline": "Tang Nano 9K turns $15 into retro PC",
+        "body": "**Cheap FPGA, big nostalgia:** The Tang Nano 9K board sells for about $15 and can run a retro‑style computer setup. It gives hobbyists a low‑cost entry to FPGA tinkering.",
+        "why": "Affordable hardware lowers the barrier for embedded experiments.",
+        "ids": [
+          "ccf5e5fcbaaac05b7fcf768636a93c5a81cb360e"
+        ]
+      },
+      {
+        "kicker": "Gaming",
+        "headline": "Sunshine lets you stream games from home PC",
+        "body": "**Self‑hosted streaming unlocked:** Sunshine is an open‑source server that works with Moonlight clients, turning your machine into a personal game‑streaming hub. No cloud, just your LAN.",
+        "why": "Provides a testbed for low‑latency streaming without third‑party services.",
+        "ids": [
+          "18a46c87eccea15cfa9ad6b23ab639d01d8827bd"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Final kernel:** Linux 7.2.15 marks end‑of‑life for the 7.2 branch.",
+        "id": "53892c342df2510bb79e693c46f039e3b5a4b43c"
+      },
+      {
+        "text": "**Model buzz:** LFM3‑Omni‑2B has 8,376 downloads on Hugging Face.",
+        "id": "2a145fe98b963a4376ed05bfa6f0549cc5211190"
+      },
+      {
+        "text": "**3D imaging:** idol model pulls 4,194 downloads for image‑to‑3D conversion.",
+        "id": "46e307363c086c72525125dcda7945d6feda8040"
+      },
+      {
+        "text": "**Rust tool:** Worktrunk streamlines Git worktree management for AI agents.",
+        "id": "d747ecb5894f9458a8ee3f1d68a09cff0fc7ccc5"
+      },
+      {
+        "text": "**Desktop serving:** FreeToken runs datacenter‑scale models on a single PC.",
+        "id": "cacdd6cefbfef72bc89340706aeb6388ba534c38"
+      }
+    ],
+    "number": {
+      "value": "18,591",
+      "label": "changesets in Linux 7.4‑rc1 prepatch",
+      "id": "1c0ff372f36844c565fb37c4de0e3eeda70052d3"
+    },
+    "sign_off": "Catch you tomorrow, with more bits and bytes",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "eec55f6273cebeb8f5a0b6b5995b58de22bb4e81",
+      "title": "Educational Codeforces Round 196 (Rated for Div. 2)",
+      "url": "https://codeforces.com/contests/2283",
+      "source": "Codeforces",
+      "starts": "2026-11-04T14:35:00+00:00",
+      "detail": "ICPC contest, 2.0h, starts Wed 04 Nov 14:35 UTC"
+    },
+    {
+      "id": "93470a29b77d11d5f96f320a90cfe6df62ea2ada",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2284",
+      "source": "Codeforces",
+      "starts": "2026-11-06T14:35:00+00:00",
+      "detail": "CF contest, 2.2h, starts Fri 06 Nov 14:35 UTC"
+    },
+    {
+      "id": "6f83c980a333211356c0a8c902ef6db657a5c926",
+      "title": "Codeforces Round (Div. 1)",
+      "url": "https://codeforces.com/contests/2279",
+      "source": "Codeforces",
+      "starts": "2026-11-07T14:35:00+00:00",
+      "detail": "CF contest, 2.5h, starts Sat 07 Nov 14:35 UTC"
+    },
+    {
+      "id": "ffcb7b3246dd576d4ee4b719b9ad707615af0c4c",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2280",
+      "source": "Codeforces",
+      "starts": "2026-11-07T14:35:00+00:00",
+      "detail": "CF contest, 2.5h, starts Sat 07 Nov 14:35 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Cheap FPGA Board Becomes Retro-Style Computer",
+      "url": "https://hackaday.com/2026/11/01/cheap-fpga-board-becomes-retro-style-computer/",
+      "source": "hackaday",
+      "section": "embedded",
+      "published": "2026-11-02T00:00:00+00:00",
+      "points": null,
+      "score": 4.5,
+      "id": "ccf5e5fcbaaac05b7fcf768636a93c5a81cb360e",
+      "summary": "The Tang Nano 9K FPGA development board can be purchased for roughly $15.",
+      "detail": "Hackaday reports that ThePartsBin has built a retro‑style computer using this low‑cost board, demonstrating its capability despite the modest price point.",
+      "key_points": [
+        "~$15 price"
+      ],
+      "tag": "News",
+      "highlight": true,
+      "image": "https://hackaday.com/wp-content/uploads/2026/10/Screenshot-2026-11-01-171115-e1793513503988.png",
+      "related": {}
+    },
+    {
+      "title": "Kernel prepatch 7.4-rc1",
+      "url": "https://lwn.net/Articles/1104654/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-11-02T00:17:08+00:00",
+      "points": null,
+      "score": 4.0,
+      "id": "1c0ff372f36844c565fb37c4de0e3eeda70052d3",
+      "summary": "Linux 7.4‑rc1 prepatch released, closing a merge window that saw 18,591 non‑merge changesets from 2,678 developers, including 625 first‑timers.",
+      "detail": "The unusually large merge window reflects a shift toward AI‑generated patches becoming part of regular development rather than a late‑stage flood, indicating a maturing workflow.",
+      "key_points": [
+        "18,591 changesets",
+        "2,678 developers",
+        "625 first‑timers"
+      ],
+      "tag": "Release",
+      "highlight": true,
+      "image": "",
+      "related": {
+        "title": "The 7.3 kernel has been released",
+        "url": "https://lwn.net/Articles/1101143/",
+        "date": "2026-10-19",
+        "id": "47822cd9ee4644799dab7e281408e8ab085d61b0"
+      }
+    },
+    {
+      "title": "A Game Engine For Microcontrollers",
+      "url": "https://hackaday.com/2026/11/01/a-game-engine-for-microcontrollers/",
+      "source": "hackaday",
+      "section": "embedded",
+      "published": "2026-11-01T21:00:00+00:00",
+      "points": null,
+      "score": 3.0,
+      "id": "ab0290d8d854c033e7061e8c8820196ede18c601",
+      "summary": "A new game engine for microcontrollers has been released by Fedyfausto.",
+      "detail": "The engine aims to simplify creating games on commodity microcontrollers, filling a niche for hobbyist developers who lack existing tooling. Details on supported hardware or performance are not provided.",
+      "key_points": [],
+      "tag": "Release",
+      "highlight": true,
+      "image": "https://hackaday.com/wp-content/uploads/2026/10/Jet-Studio-Platform-and-Physics-Engine-demo-0-20-screenshot.png",
+      "related": {}
+    },
+    {
+      "title": "Final release for the 7.2 stable series",
+      "url": "https://lwn.net/Articles/1104629/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-11-01T15:03:40+00:00",
+      "points": null,
+      "score": 3.0,
+      "id": "53892c342df2510bb79e693c46f039e3b5a4b43c",
+      "summary": "Linux 7.2.15 kernel released as the final 7.2.y version, after which the 7.2 branch is end‑of‑life.",
+      "detail": "The announcement urges users to migrate to the newer 7.3.y series, noting that maintaining multiple stable branches has become unsustainable given the current patch backlog.",
+      "key_points": [
+        "7.2.15 version",
+        "final 7.2.y"
+      ],
+      "tag": "Release",
+      "highlight": true,
+      "image": "",
+      "related": {
+        "title": "The 7.3 kernel has been released",
+        "url": "https://lwn.net/Articles/1101143/",
+        "date": "2026-10-19",
+        "id": "47822cd9ee4644799dab7e281408e8ab085d61b0"
+      }
+    },
+    {
+      "title": "LizardByte/Sunshine",
+      "url": "https://github.com/LizardByte/Sunshine",
+      "source": "GitHub trending · c++",
+      "section": "repos",
+      "published": null,
+      "points": 42904,
+      "score": 3.0,
+      "id": "18a46c87eccea15cfa9ad6b23ab639d01d8827bd",
+      "summary": "Sunshine is a self‑hosted game‑streaming server compatible with the Moonlight client.",
+      "detail": "Implemented in C++, Sunshine lets users run a streaming host on their own hardware, avoiding reliance on proprietary services. It supports low‑latency video encoding and multiple client connections, targeting gamers who want full control over their streaming stack.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://repository-images.githubusercontent.com/438803890/cee99a24-0230-411e-b444-3e261c8b01d3",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "Model: LiquidAI/LFM3-Omni-2B",
+          "url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-21T16:58:40.000Z",
+          "points": 292,
+          "score": 1.5,
+          "id": "2a145fe98b963a4376ed05bfa6f0549cc5211190",
+          "summary": "LiquidAI/LFM3-Omni-2B is an any-to-any model on Hugging Face with 8,376 downloads and 292 likes.",
+          "detail": "The model appears in the HF trending list, indicating recent community interest. It is positioned as a versatile transformer capable of handling multiple modalities, though no performance metrics are provided.",
+          "key_points": [
+            "8,376 downloads",
+            "292 likes"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/LiquidAI/LFM3-Omni-2B.png",
+          "related": {}
+        },
+        {
+          "title": "Model: speridlabs/idol",
+          "url": "https://huggingface.co/speridlabs/idol",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-28T15:55:17.000Z",
+          "points": 348,
+          "score": 1.5,
+          "id": "46e307363c086c72525125dcda7945d6feda8040",
+          "summary": "speridlabs/idol is an image-to-3D model on Hugging Face with 4,194 downloads and 348 likes.",
+          "detail": "Listed under HF trending, the model converts 2‑D images into 3‑D representations. No size or benchmark details are given, but the download count suggests growing adoption.",
+          "key_points": [
+            "4,194 downloads",
+            "348 likes"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/speridlabs/idol.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "Cheap FPGA Board Becomes Retro-Style Computer",
+          "url": "https://hackaday.com/2026/11/01/cheap-fpga-board-becomes-retro-style-computer/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-02T00:00:00+00:00",
+          "points": null,
+          "score": 4.5,
+          "id": "ccf5e5fcbaaac05b7fcf768636a93c5a81cb360e",
+          "summary": "The Tang Nano 9K FPGA development board can be purchased for roughly $15.",
+          "detail": "Hackaday reports that ThePartsBin has built a retro‑style computer using this low‑cost board, demonstrating its capability despite the modest price point.",
+          "key_points": [
+            "~$15 price"
+          ],
+          "tag": "News",
+          "highlight": true,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/Screenshot-2026-11-01-171115-e1793513503988.png",
+          "related": {}
+        },
+        {
+          "title": "Kernel prepatch 7.4-rc1",
+          "url": "https://lwn.net/Articles/1104654/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-02T00:17:08+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "1c0ff372f36844c565fb37c4de0e3eeda70052d3",
+          "summary": "Linux 7.4‑rc1 prepatch released, closing a merge window that saw 18,591 non‑merge changesets from 2,678 developers, including 625 first‑timers.",
+          "detail": "The unusually large merge window reflects a shift toward AI‑generated patches becoming part of regular development rather than a late‑stage flood, indicating a maturing workflow.",
+          "key_points": [
+            "18,591 changesets",
+            "2,678 developers",
+            "625 first‑timers"
+          ],
+          "tag": "Release",
+          "highlight": true,
+          "image": "",
+          "related": {
+            "title": "The 7.3 kernel has been released",
+            "url": "https://lwn.net/Articles/1101143/",
+            "date": "2026-10-19",
+            "id": "47822cd9ee4644799dab7e281408e8ab085d61b0"
+          }
+        },
+        {
+          "title": "A Game Engine For Microcontrollers",
+          "url": "https://hackaday.com/2026/11/01/a-game-engine-for-microcontrollers/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-01T21:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "ab0290d8d854c033e7061e8c8820196ede18c601",
+          "summary": "A new game engine for microcontrollers has been released by Fedyfausto.",
+          "detail": "The engine aims to simplify creating games on commodity microcontrollers, filling a niche for hobbyist developers who lack existing tooling. Details on supported hardware or performance are not provided.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": true,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/Jet-Studio-Platform-and-Physics-Engine-demo-0-20-screenshot.png",
+          "related": {}
+        },
+        {
+          "title": "Final release for the 7.2 stable series",
+          "url": "https://lwn.net/Articles/1104629/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-01T15:03:40+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "53892c342df2510bb79e693c46f039e3b5a4b43c",
+          "summary": "Linux 7.2.15 kernel released as the final 7.2.y version, after which the 7.2 branch is end‑of‑life.",
+          "detail": "The announcement urges users to migrate to the newer 7.3.y series, noting that maintaining multiple stable branches has become unsustainable given the current patch backlog.",
+          "key_points": [
+            "7.2.15 version",
+            "final 7.2.y"
+          ],
+          "tag": "Release",
+          "highlight": true,
+          "image": "",
+          "related": {
+            "title": "The 7.3 kernel has been released",
+            "url": "https://lwn.net/Articles/1101143/",
+            "date": "2026-10-19",
+            "id": "47822cd9ee4644799dab7e281408e8ab085d61b0"
+          }
+        },
+        {
+          "title": "A Hackable Analog Phone System",
+          "url": "https://hackaday.com/2026/11/02/a-hackable-analog-phone-system/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-02T09:00:29+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "0558f107e35f8d54eea1ec2080d858de205f3748",
+          "summary": "Scott Dylewski built a hackable analog phone system using repurposed landline phones with touchtone or rotary dials.",
+          "detail": "The project provides schematics and firmware so the phones can be integrated into custom hardware projects, enabling features like call routing, voicemail, or IoT sensor triggers. It demonstrates how legacy telephony hardware can be revived for modern maker applications.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/V5_board-e1793523410709.jpg",
+          "related": {}
+        },
+        {
+          "title": "An Electronic Candle You Can Set On Fire",
+          "url": "https://hackaday.com/2026/11/01/an-electronic-candle-you-can-set-on-fire/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-01T18:00:00+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "48c907f7729e68d64f7a52c6071a50b63d622dc0",
+          "summary": "An electronic candle that simulates flame without open fire was created to reduce fire risk and improve air quality.",
+          "detail": "The device uses LEDs and a microcontroller to mimic flickering light and heat, while remaining safe for indoor use. It can be powered by batteries or USB, offering a reusable alternative to traditional wax candles for ambience.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/An-electronic-candle-that-you-set-on-fire-deliberately-3-38-screenshot-1.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "LizardByte/Sunshine",
+          "url": "https://github.com/LizardByte/Sunshine",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 42904,
+          "score": 3.0,
+          "id": "18a46c87eccea15cfa9ad6b23ab639d01d8827bd",
+          "summary": "Sunshine is a self‑hosted game‑streaming server compatible with the Moonlight client.",
+          "detail": "Implemented in C++, Sunshine lets users run a streaming host on their own hardware, avoiding reliance on proprietary services. It supports low‑latency video encoding and multiple client connections, targeting gamers who want full control over their streaming stack.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://repository-images.githubusercontent.com/438803890/cee99a24-0230-411e-b444-3e261c8b01d3",
+          "related": {}
+        },
+        {
+          "title": "guillaumeblanc/ozz-animation",
+          "url": "https://github.com/guillaumeblanc/ozz-animation",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 3108,
+          "score": 2.5,
+          "id": "ab4db0e79ddbc61ae5929623844a2d8d24c88730",
+          "summary": "ozz-animation is an open‑source C++ library for skeletal animation and related tooling.",
+          "detail": "The library includes runtime animation playback, blending, and retargeting features, plus command‑line tools for processing animation assets. It is licensed under MIT, making it suitable for integration into commercial and research projects that need efficient character animation.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/895e8583df357ab4d2334e5ea6ac74b1829b953e1682ce67e0833db8f6d616e4/guillaumeblanc/ozz-animation",
+          "related": {}
+        },
+        {
+          "title": "kornia/kornia",
+          "url": "https://github.com/kornia/kornia",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 11958,
+          "score": 2.5,
+          "id": "4df6ae2fbdfdb7a5b48be15a5d11fc96aba4c775",
+          "summary": "kornia is a Python library offering geometric computer‑vision functions for spatial AI pipelines.",
+          "detail": "Built on PyTorch, Kornia provides differentiable image transformations, feature detection, and 3‑D geometry utilities that can be embedded directly into neural networks. It aims to bridge classic vision algorithms with modern deep‑learning workflows.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/7b7a1ec5d8289ea58ef0efb99552c15187f926a4a65bea88c87fae25132ba2b2/kornia/kornia",
+          "related": {}
+        },
+        {
+          "title": "max-sixty/worktrunk",
+          "url": "https://github.com/max-sixty/worktrunk",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 9799,
+          "score": 2.5,
+          "id": "d747ecb5894f9458a8ee3f1d68a09cff0fc7ccc5",
+          "summary": "Worktrunk is a Rust CLI tool for managing Git worktrees, optimized for parallel AI agent workflows.",
+          "detail": "The utility automates creation, cleanup, and switching of multiple worktrees, enabling concurrent development or experimentation across isolated repository states. Its design reduces manual Git commands and helps keep AI experiment environments reproducible.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/1078528927/6196f2ac-248f-42f5-abb5-d18768111b3b",
+          "related": {}
+        },
+        {
+          "title": "1jehuang/jcode",
+          "url": "https://github.com/1jehuang/jcode",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 21409,
+          "score": 2.0,
+          "id": "f33d1256eee47635a343b215bb5514adb9f94b57",
+          "summary": "A high‑performance coding agent framework written in Rust, designed for heavy multi‑agent development workflows.",
+          "detail": "The project provides a Rust library that coordinates multiple coding agents, aiming to reduce latency and improve scalability in complex development pipelines. It targets scenarios where several AI assistants collaborate on code generation and refactoring.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/e3d54858566432311fff0003616376ba7cdc8e307a8d20e9f0824885628bb7ee/1jehuang/jcode",
+          "related": {}
+        },
+        {
+          "title": "FlashML-org/FreeToken",
+          "url": "https://github.com/FlashML-org/FreeToken",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 15682,
+          "score": 2.0,
+          "id": "cacdd6cefbfef72bc89340706aeb6388ba534c38",
+          "summary": "FreeToken enables datacenter‑scale model serving on a desktop, allowing massive models to run locally with high speed and efficiency.",
+          "detail": "By optimizing memory usage and leveraging local hardware acceleration, FreeToken brings large‑scale inference capabilities to personal machines. It is positioned as a tool for developers who need to test or deploy large models without cloud resources.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/f20f3fff28f0a6bca475b6379101e7c2bb9b4714a3e00c8708a012f9a0bf6983/FlashML-org/FreeToken",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}

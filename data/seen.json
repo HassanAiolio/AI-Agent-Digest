@@ -239,6 +239,11 @@
 "title": "ArduPilot/ardupilot",
 "url": "https://github.com/ArduPilot/ardupilot"
 },
+"0558f107e35f8d54eea1ec2080d858de205f3748": {
+"date": "2026-11-02",
+"title": "A Hackable Analog Phone System",
+"url": "https://hackaday.com/2026/11/02/a-hackable-analog-phone-system/"
+},
 "058c8d9a43743fa72b6aa9065266b8b7860d06ac": {
 "date": "2026-08-20",
 "title": "Model: HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
@@ -734,11 +739,6 @@
 "title": "Pixel Watch 5 Demonstrates Good Repairability",
 "url": "https://hackaday.com/2026/09/05/pixel-watch-5-demonstrates-good-repairability/"
 },
-"10ab424821b1e3dcc5c1214da32f5968b24f67e4": {
-"date": "2026-08-03",
-"title": "moghtech/komodo",
-"url": "https://github.com/moghtech/komodo"
-},
 "10ba719313a0c83566e4fb1db426c34c44e8815e": {
 "date": "2026-10-31",
 "title": "anthropics/skills",
@@ -1114,6 +1114,11 @@
 "title": "Model: jialinyyzz/humanizer",
 "url": "https://huggingface.co/jialinyyzz/humanizer"
 },
+"18a46c87eccea15cfa9ad6b23ab639d01d8827bd": {
+"date": "2026-11-02",
+"title": "LizardByte/Sunshine",
+"url": "https://github.com/LizardByte/Sunshine"
+},
 "18a6f193844ac31502b3b17b34e0d43d0b0274e3": {
 "date": "2026-08-11",
 "title": "Matryoshka Language Model Suites",
@@ -1308,6 +1313,11 @@
 "date": "2026-09-17",
 "title": "RayOrch: Programming and Executing Lineage-Controlled Multi-Grain Dataflows for Foundation-Model Data Preparation",
 "url": "https://arxiv.org/abs/2609.18703v1"
+},
+"1c0ff372f36844c565fb37c4de0e3eeda70052d3": {
+"date": "2026-11-02",
+"title": "Kernel prepatch 7.4-rc1",
+"url": "https://lwn.net/Articles/1104654/"
 },
 "1c5bdc5f0386f8de4fbbc571deb7523a64e7eff8": {
 "date": "2026-08-25",
@@ -1719,11 +1729,6 @@
 "title": "RAG-Safety-Bench: Reliable Evaluation of Retrieval-Augmented LLM Safety",
 "url": "https://arxiv.org/abs/2609.11758v1"
 },
-"26adc54cfbbf451d8dea2e3932f9f0b74a67d732": {
-"date": "2026-08-03",
-"title": "HarbourMasters/Lighthouse",
-"url": "https://github.com/HarbourMasters/Lighthouse"
-},
 "26b87cf6f61704a30260cd0fb3d5e42c4d7c78d9": {
 "date": "2026-10-29",
 "title": "[$] LWN.net Weekly Edition for October 29, 2026",
@@ -1863,6 +1868,11 @@
 "date": "2026-08-23",
 "title": "555 Makes a Useful Beat Frequency Oscillator",
 "url": "https://hackaday.com/2026/08/22/555-makes-a-useful-beat-frequency-oscillator/"
+},
+"2a145fe98b963a4376ed05bfa6f0549cc5211190": {
+"date": "2026-11-02",
+"title": "Model: LiquidAI/LFM3-Omni-2B",
+"url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
 },
 "2a4be64e27515518691dbbf1b67c858e17cb842a": {
 "date": "2026-10-06",
@@ -2229,11 +2239,6 @@
 "title": "Are Desktop PC-ABS Prints Outperformed by Industrial FDM? Not Really",
 "url": "https://hackaday.com/2026/09/08/are-desktop-pc-abs-prints-outperformed-by-industrial-fdm-not-really/"
 },
-"33e533f009249f85295d1b64750c8168f10e8226": {
-"date": "2026-08-03",
-"title": "Making a Retro(ish) Game Console From Scratch",
-"url": "https://hackaday.com/2026/08/02/making-a-retroish-game-console-from-scratch/"
-},
 "33eb643ea3f60497ea992733f9370e5fe50778c4": {
 "date": "2026-08-19",
 "title": "Generalizing and accelerating consistency checking for non-transactional distributed storage systems",
@@ -2399,11 +2404,6 @@
 "title": "OpenWhispr/openwhispr",
 "url": "https://github.com/OpenWhispr/openwhispr"
 },
-"38beb03a4ddfc2daf725b9d03b172050037547f6": {
-"date": "2026-08-03",
-"title": "Model: Comfy-Org/MiniMax-H3",
-"url": "https://huggingface.co/Comfy-Org/MiniMax-H3"
-},
 "38c303c02cefe170179e254e11d7c6c2125c9799": {
 "date": "2026-08-12",
 "title": "[$] KVM planes head for takeoff",
@@ -2498,11 +2498,6 @@
 "date": "2026-09-04",
 "title": "Iapetus: Content-Aware Hierarchical Scheduling for Collaborative ViT Inference in LEO Satellite Networks",
 "url": "https://arxiv.org/abs/2609.03318v1"
-},
-"3c921ccafb7c3fc8badfc6c365c80bb18a86d1ee": {
-"date": "2026-08-03",
-"title": "Model: MiniMaxAI/MiniMax-H3",
-"url": "https://huggingface.co/MiniMaxAI/MiniMax-H3"
 },
 "3cbec84de8bf615536c6b0a8e25828a7b15705aa": {
 "date": "2026-10-06",
@@ -2809,6 +2804,11 @@
 "title": "gumyr/build123d",
 "url": "https://github.com/gumyr/build123d"
 },
+"46e307363c086c72525125dcda7945d6feda8040": {
+"date": "2026-11-02",
+"title": "Model: speridlabs/idol",
+"url": "https://huggingface.co/speridlabs/idol"
+},
 "46e6064e39d17e7fe11b9cdfd4adc76064c32b56": {
 "date": "2026-10-06",
 "title": "Acceleration of Data Analytics on Heterogeneous Supercloud Systems",
@@ -2893,6 +2893,11 @@
 "date": "2026-10-22",
 "title": "EPIC: Rethinking Trust Regions for Autoregressive LLM Policies via Exact-KL Prefix Importance-Ratio Clipping",
 "url": "https://arxiv.org/abs/2610.29999v1"
+},
+"48c907f7729e68d64f7a52c6071a50b63d622dc0": {
+"date": "2026-11-02",
+"title": "An Electronic Candle You Can Set On Fire",
+"url": "https://hackaday.com/2026/11/01/an-electronic-candle-you-can-set-on-fire/"
 },
 "48e2274fdf2ba9fe48db533ddecc410e5cc41b05": {
 "date": "2026-10-24",
@@ -3014,11 +3019,6 @@
 "title": "The Reversible Intermediate Language L4, its Type System, and its Bidirectional Small-Step Semantics",
 "url": "https://arxiv.org/abs/2610.31201v1"
 },
-"4c21899cf28a988b9bb918a00cb00b696dab90cb": {
-"date": "2026-08-03",
-"title": "Upcoming: Codeforces Round (Div. 1)",
-"url": "https://codeforces.com/contests/2255"
-},
 "4c68df2d172d31f456911b814f4a8919f2ec0004": {
 "date": "2026-08-19",
 "title": "Multivalued Consensus: General Adversaries Require More Communication",
@@ -3068,6 +3068,11 @@
 "date": "2026-09-07",
 "title": "Sumanth077/Hands-On-AI-Engineering",
 "url": "https://github.com/Sumanth077/Hands-On-AI-Engineering"
+},
+"4df6ae2fbdfdb7a5b48be15a5d11fc96aba4c775": {
+"date": "2026-11-02",
+"title": "kornia/kornia",
+"url": "https://github.com/kornia/kornia"
 },
 "4e0cc916eed745b88dcc910ddda8ad83dee3011c": {
 "date": "2026-10-04",
@@ -3219,11 +3224,6 @@
 "title": "Tencent/teamai-cli",
 "url": "https://github.com/Tencent/teamai-cli"
 },
-"5216e9f00b3c7a860ba60cb2bbfac27b91c3a2a5": {
-"date": "2026-08-03",
-"title": "A KVM Without the V (Or the M)",
-"url": "https://hackaday.com/2026/08/02/a-kvm-without-the-v-or-the-m/"
-},
 "52192a4ad5abf8fa1c6fce197a00df6d183959eb": {
 "date": "2026-10-01",
 "title": "Darpan: A Digital Twin Framework for the Next-Generation Computing Continuum",
@@ -3273,6 +3273,11 @@
 "date": "2026-09-23",
 "title": "Hydrozoan: Latency-Adaptive DAG Consensus under Mixed Byzantine and Crash Faults",
 "url": "https://arxiv.org/abs/2609.25918v1"
+},
+"53892c342df2510bb79e693c46f039e3b5a4b43c": {
+"date": "2026-11-02",
+"title": "Final release for the 7.2 stable series",
+"url": "https://lwn.net/Articles/1104629/"
 },
 "53958cf51f47108fd46546bbf0f631ec745c1fb4": {
 "date": "2026-08-23",
@@ -4623,11 +4628,6 @@
 "date": "2026-10-09",
 "title": "Introducing the Anthropic Cyber Mission",
 "url": "https://www.anthropic.com/news/anthropic-cyber-mission"
-},
-"77db8e18bcff5aeec67221b3f3b6a91afb67f9ce": {
-"date": "2026-08-03",
-"title": "Kernel prepatch 7.2-rc6",
-"url": "https://lwn.net/Articles/1086727/"
 },
 "78241b72404d6577b73f4e06d9f35239471ad520": {
 "date": "2026-08-07",
@@ -6549,15 +6549,20 @@
 "title": "Model: unsloth/GLM-5.3-Flash-GGUF",
 "url": "https://huggingface.co/unsloth/GLM-5.3-Flash-GGUF"
 },
-"ab0b739e83bd619315050ea2e1d79d082538425c": {
-"date": "2026-08-03",
-"title": "Asabeneh/30-Days-Of-Python",
-"url": "https://github.com/Asabeneh/30-Days-Of-Python"
+"ab0290d8d854c033e7061e8c8820196ede18c601": {
+"date": "2026-11-02",
+"title": "A Game Engine For Microcontrollers",
+"url": "https://hackaday.com/2026/11/01/a-game-engine-for-microcontrollers/"
 },
 "ab15f474a2763269ec4e90c6123dcec8d5ee3dbf": {
 "date": "2026-09-30",
 "title": "bytedance/deer-flow",
 "url": "https://github.com/bytedance/deer-flow"
+},
+"ab4db0e79ddbc61ae5929623844a2d8d24c88730": {
+"date": "2026-11-02",
+"title": "guillaumeblanc/ozz-animation",
+"url": "https://github.com/guillaumeblanc/ozz-animation"
 },
 "ab6bacc2dfd488fe4ab45a0a6855ac15c250ea9a": {
 "date": "2026-09-20",
@@ -6568,11 +6573,6 @@
 "date": "2026-08-13",
 "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
 "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b"
-},
-"ab8c0d0275401727bc939cbf3d689ed6bcdcc42d": {
-"date": "2026-08-03",
-"title": "music-assistant/server",
-"url": "https://github.com/music-assistant/server"
 },
 "ab9a1738edf63d3870ddf272b68fb90872d88710": {
 "date": "2026-10-25",
@@ -7824,6 +7824,11 @@
 "title": "FPGA for All — CERN Releases “colibri” VHDL Library",
 "url": "https://hackaday.com/2026/09/24/fpga-for-all-cern-releases-colibri-vhdl-library/"
 },
+"cacdd6cefbfef72bc89340706aeb6388ba534c38": {
+"date": "2026-11-02",
+"title": "FlashML-org/FreeToken",
+"url": "https://github.com/FlashML-org/FreeToken"
+},
 "cad35e6294feba2f66b3de50e2b5067385b0737a": {
 "date": "2026-08-13",
 "title": "How RingCentral builds AI-native work from engineering to ops",
@@ -7913,6 +7918,11 @@
 "date": "2026-10-16",
 "title": "FAOPs: Normal Forms and an Algebra for AI Agent Workflows",
 "url": "https://arxiv.org/abs/2610.22061v1"
+},
+"ccf5e5fcbaaac05b7fcf768636a93c5a81cb360e": {
+"date": "2026-11-02",
+"title": "Cheap FPGA Board Becomes Retro-Style Computer",
+"url": "https://hackaday.com/2026/11/01/cheap-fpga-board-becomes-retro-style-computer/"
 },
 "cd336dfb4d1113de17c23afd660c2ebd3050b203": {
 "date": "2026-09-11",
@@ -8369,6 +8379,11 @@
 "title": "SatDump/SatDump",
 "url": "https://github.com/SatDump/SatDump"
 },
+"d747ecb5894f9458a8ee3f1d68a09cff0fc7ccc5": {
+"date": "2026-11-02",
+"title": "max-sixty/worktrunk",
+"url": "https://github.com/max-sixty/worktrunk"
+},
 "d75554c78e0fe54a871a452ed74377e3e4786640": {
 "date": "2026-09-04",
 "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
@@ -8398,11 +8413,6 @@
 "date": "2026-08-18",
 "title": "immich-app/immich",
 "url": "https://github.com/immich-app/immich"
-},
-"d7eaf7c180c92bcbb50236afa969edf664a6753d": {
-"date": "2026-08-03",
-"title": "Z4nzu/hackingtool",
-"url": "https://github.com/Z4nzu/hackingtool"
 },
 "d8566decaa8e36d67e91470dc2240680ea8017bb": {
 "date": "2026-08-28",
@@ -9199,11 +9209,6 @@
 "title": "davila7/claude-code-templates",
 "url": "https://github.com/davila7/claude-code-templates"
 },
-"eb6b83a2dcca4ac8223080b52a29123cbc6f9a77": {
-"date": "2026-08-03",
-"title": "Emily2040/seedance-2.0",
-"url": "https://github.com/Emily2040/seedance-2.0"
-},
 "eb6d05f99938279e1978ace298442126baa114d9": {
 "date": "2026-10-21",
 "title": "Evaluating Runtime Prediction and Conservative Walltime Policies in HPC Systems",
@@ -9429,11 +9434,6 @@
 "title": "WIP: DBWorkout: A Gamified SQL Practice Platform to Support Formative Learning in Database Courses",
 "url": "https://arxiv.org/abs/2610.01174v1"
 },
-"ef72eaf47a1179f89c27619345666839a0491af6": {
-"date": "2026-08-03",
-"title": "An Automated Water Tank Controller",
-"url": "https://hackaday.com/2026/08/02/an-automated-water-tank-controller/"
-},
 "ef913e9fdabc01a874a34c945cc71d8f36dedf16": {
 "date": "2026-08-20",
 "title": "Offering Zero Data Retention for frontier models",
@@ -9538,6 +9538,11 @@
 "date": "2026-08-31",
 "title": "rommapp/romm",
 "url": "https://github.com/rommapp/romm"
+},
+"f33d1256eee47635a343b215bb5514adb9f94b57": {
+"date": "2026-11-02",
+"title": "1jehuang/jcode",
+"url": "https://github.com/1jehuang/jcode"
 },
 "f34c24127709c365beae977b62bacf2ff26f70f8": {
 "date": "2026-08-10",
@@ -9779,11 +9784,6 @@
 "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
 "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/"
 },
-"f7f3c8dfefc6a6957a252ecdf46fc2c0f829e131": {
-"date": "2026-08-03",
-"title": "Easy Theremin Uses ESP32",
-"url": "https://hackaday.com/2026/08/02/easy-theremin-uses-esp32/"
-},
 "f7f4b09850be07cd0fe29715e47e43190e6694fd": {
 "date": "2026-10-21",
 "title": "Announcements",
@@ -9823,11 +9823,6 @@
 "date": "2026-08-23",
 "title": "An Atari Desktop On A Sega",
 "url": "https://hackaday.com/2026/08/22/an-atari-desktop-on-a-sega/"
-},
-"f8f8cc57f0f3eb3eb5104732d40a27a01d0cbb44": {
-"date": "2026-08-03",
-"title": "Rooting, firmware analysis and persistent credentials of TP-Link TL-841N",
-"url": "https://blog.juni-mp4.com/posts/42/rooting-the-tplink-tl841n-pt1/"
 },
 "f900ea1a6c7a77b20893066386548ec09cdd12a4": {
 "date": "2026-08-14",

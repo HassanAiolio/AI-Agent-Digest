@@ -1,77 +1,81 @@
 {
-  "date": "2026-11-01",
-  "generated_at": "2026-11-01T09:30:45+00:00",
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T09:47:07+00:00",
   "stats": {
-    "fetched": 132,
-    "new_after_dedupe": 77,
+    "fetched": 127,
+    "new_after_dedupe": 78,
     "published": 14,
     "failed_sources": [],
     "summarizer": "groq",
     "faithfulness": {
-      "checked": 12,
-      "supported": 12,
+      "checked": 15,
+      "supported": 15,
       "dropped": 0,
-      "unverifiable": 5,
+      "unverifiable": 0,
       "summaries_reverted": 0,
       "rate": 1.0
     },
     "brief": "llm"
   },
   "brief": {
-    "greeting": "Good morning. Security patches piled up like laundry, and someone squeezed a neural net into a boot sector.",
+    "greeting": "Good morning. Your inbox just got a kernel flood, a $15 FPGA, and a DIY game‑streaming server.",
     "stories": [
       {
+        "kicker": "Kernel",
+        "headline": "Linux 7.4‑rc1 prepatch drops massive patch set",
+        "body": "**Patch flood incoming:** Linux 7.4‑rc1 prepatch arrived with 18,591 changesets from 2,678 developers, including 625 first‑timers. The merge window just closed.",
+        "why": "Kernel engineers must triage a huge batch of new code and bugs.",
+        "ids": [
+          "1c0ff372f36844c565fb37c4de0e3eeda70052d3"
+        ]
+      },
+      {
         "kicker": "Embedded",
-        "headline": "Mass security updates hit three Linux distros",
-        "body": "**Patch flood incoming:** AlmaLinux, Debian, and Fedora released dozens of security updates on Saturday, covering a wide range of packages. The updates aim to close known vulnerabilities before they can be exploited.",
-        "why": "Staying current prevents attackers from leveraging old bugs in your deployment.",
+        "headline": "Tang Nano 9K turns $15 into retro PC",
+        "body": "**Cheap FPGA, big nostalgia:** The Tang Nano 9K board sells for about $15 and can run a retro‑style computer setup. It gives hobbyists a low‑cost entry to FPGA tinkering.",
+        "why": "Affordable hardware lowers the barrier for embedded experiments.",
         "ids": [
-          "9f9073d2f29360627ded5b92f84207968f8ea5bf"
+          "ccf5e5fcbaaac05b7fcf768636a93c5a81cb360e"
         ]
       },
       {
-        "kicker": "AI & ML",
-        "headline": "Boot sector hosts a tiny char-level model",
-        "body": "**510‑byte neural net:** A hobbyist fit a char‑level inference engine into a 510‑byte boot sector, producing Linux‑style boot logs at startup. It proves you can run inference before the OS even loads.",
-        "why": "Shows extreme model compression possibilities for ultra‑constrained devices.",
+        "kicker": "Gaming",
+        "headline": "Sunshine lets you stream games from home PC",
+        "body": "**Self‑hosted streaming unlocked:** Sunshine is an open‑source server that works with Moonlight clients, turning your machine into a personal game‑streaming hub. No cloud, just your LAN.",
+        "why": "Provides a testbed for low‑latency streaming without third‑party services.",
         "ids": [
-          "14074b4203bb23f176964166bd2fb761022eb843"
-        ]
-      },
-      {
-        "kicker": "Trending repos",
-        "headline": "Agentic‑awesome‑skills library tops 2,800 AI tools",
-        "body": "**Skill stash unlocked:** The repo now offers over 2,884 reusable AI agent skills for Claude Code, Codex, Cursor, and Gemini CLI. Developers can drop a skill into a prompt and get a ready‑made capability.",
-        "why": "Accelerates prototyping of AI‑driven features without writing custom prompts.",
-        "ids": [
-          "909786c7698d64c2e66854943313662cac002467"
+          "18a46c87eccea15cfa9ad6b23ab639d01d8827bd"
         ]
       }
     ],
     "quick_hits": [
       {
-        "text": "**Backdoor demo:** Hacktron shows how Bash could be compromised via GNU Savannah.",
-        "id": "b8adcb0b8bd1d6ef35b4395612f260fc867527b6"
+        "text": "**Final kernel:** Linux 7.2.15 marks end‑of‑life for the 7.2 branch.",
+        "id": "53892c342df2510bb79e693c46f039e3b5a4b43c"
       },
       {
-        "text": "**Supercon preview:** About 700 hackers will gather in Pasadena for a three‑day hackathon.",
-        "id": "f7d415a6b0677e318524f0d3b9fe7dba148d4cf3"
+        "text": "**Model buzz:** LFM3‑Omni‑2B has 8,376 downloads on Hugging Face.",
+        "id": "2a145fe98b963a4376ed05bfa6f0549cc5211190"
       },
       {
-        "text": "**ADS‑B hack:** Build a low‑cost aircraft transponder receiver with off‑the‑shelf parts.",
-        "id": "a13fb09e619c20003b6e113c0d4d4b5d4893b6fc"
+        "text": "**3D imaging:** idol model pulls 4,194 downloads for image‑to‑3D conversion.",
+        "id": "46e307363c086c72525125dcda7945d6feda8040"
       },
       {
-        "text": "**PR Agent:** Open‑source tool auto‑reviews pull requests, separate from Qodo’s free tier.",
-        "id": "dbc443423eb814c8c75a152e7c186fa61b2dc024"
+        "text": "**Rust tool:** Worktrunk streamlines Git worktree management for AI agents.",
+        "id": "d747ecb5894f9458a8ee3f1d68a09cff0fc7ccc5"
+      },
+      {
+        "text": "**Desktop serving:** FreeToken runs datacenter‑scale models on a single PC.",
+        "id": "cacdd6cefbfef72bc89340706aeb6388ba534c38"
       }
     ],
     "number": {
-      "value": "510B",
-      "label": "size of the boot‑sector neural net",
-      "id": "14074b4203bb23f176964166bd2fb761022eb843"
+      "value": "18,591",
+      "label": "changesets in Linux 7.4‑rc1 prepatch",
+      "id": "1c0ff372f36844c565fb37c4de0e3eeda70052d3"
     },
-    "sign_off": "Stay sharp, and keep those kernels tidy.",
+    "sign_off": "Catch you tomorrow, with more bits and bytes",
     "generated": "llm"
   },
   "upcoming": [
@@ -110,99 +114,107 @@
   ],
   "highlights": [
     {
-      "title": "A massive pile of security updates for Saturday",
-      "url": "https://lwn.net/Articles/1104612/",
-      "source": "lwn",
+      "title": "Cheap FPGA Board Becomes Retro-Style Computer",
+      "url": "https://hackaday.com/2026/11/01/cheap-fpga-board-becomes-retro-style-computer/",
+      "source": "hackaday",
       "section": "embedded",
-      "published": "2026-10-31T22:34:30+00:00",
+      "published": "2026-11-02T00:00:00+00:00",
       "points": null,
-      "score": 6.0,
-      "id": "9f9073d2f29360627ded5b92f84207968f8ea5bf",
-      "summary": "AlmaLinux, Debian, and Fedora published a large set of security updates on Saturday covering dozens of packages.",
-      "detail": "Updates span runtimes like .NET, libraries such as OpenJDK and Python Pillow, and system components including curl, bind, and the Linux kernel, reflecting a coordinated effort across major distributions.",
-      "key_points": [],
+      "score": 4.5,
+      "id": "ccf5e5fcbaaac05b7fcf768636a93c5a81cb360e",
+      "summary": "The Tang Nano 9K FPGA development board can be purchased for roughly $15.",
+      "detail": "Hackaday reports that ThePartsBin has built a retro‑style computer using this low‑cost board, demonstrating its capability despite the modest price point.",
+      "key_points": [
+        "~$15 price"
+      ],
       "tag": "News",
       "highlight": true,
-      "image": "",
-      "related": {
-        "title": "Security updates for Monday",
-        "url": "https://lwn.net/Articles/1102946/",
-        "date": "2026-10-27",
-        "id": "03f253ede7aeecda9dff0e3bc2478bf7059c6847"
-      }
+      "image": "https://hackaday.com/wp-content/uploads/2026/10/Screenshot-2026-11-01-171115-e1793513503988.png",
+      "related": {}
     },
     {
-      "title": "Show HN: A language model that lives in a boot sector",
-      "url": "https://github.com/kerlenton/bootgpt",
-      "source": "Hacker News",
-      "section": "ai-ml",
-      "published": "2026-10-31T12:58:29+00:00",
-      "points": 83,
-      "score": 5.5,
-      "id": "14074b4203bb23f176964166bd2fb761022eb843",
-      "summary": "A tiny char-level neural network inference engine fits entirely in a 510‑byte boot sector and generates Linux‑style boot logs.",
-      "detail": "The model and its weights reside in sectors following the MBR, and the training script mirrors the integer arithmetic of the assembly code to produce identical output in QEMU until a divergence bug is discovered.",
+      "title": "Kernel prepatch 7.4-rc1",
+      "url": "https://lwn.net/Articles/1104654/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-11-02T00:17:08+00:00",
+      "points": null,
+      "score": 4.0,
+      "id": "1c0ff372f36844c565fb37c4de0e3eeda70052d3",
+      "summary": "Linux 7.4‑rc1 prepatch released, closing a merge window that saw 18,591 non‑merge changesets from 2,678 developers, including 625 first‑timers.",
+      "detail": "The unusually large merge window reflects a shift toward AI‑generated patches becoming part of regular development rather than a late‑stage flood, indicating a maturing workflow.",
       "key_points": [
-        "510 bytes"
+        "18,591 changesets",
+        "2,678 developers",
+        "625 first‑timers"
       ],
       "tag": "Release",
       "highlight": true,
-      "image": "https://opengraph.githubassets.com/3417e99e2d47c9946d46fe6b1dca7a0e087a30fffb8b4060647d00bbdce7ecec/kerlenton/bootgpt",
-      "related": {}
+      "image": "",
+      "related": {
+        "title": "The 7.3 kernel has been released",
+        "url": "https://lwn.net/Articles/1101143/",
+        "date": "2026-10-19",
+        "id": "47822cd9ee4644799dab7e281408e8ab085d61b0"
+      }
     },
     {
-      "title": "How We Could Have Backdoored Bash (Hacktron blog)",
-      "url": "https://lwn.net/Articles/1104262/",
-      "source": "lwn",
+      "title": "A Game Engine For Microcontrollers",
+      "url": "https://hackaday.com/2026/11/01/a-game-engine-for-microcontrollers/",
+      "source": "hackaday",
       "section": "embedded",
-      "published": "2026-10-31T14:00:42+00:00",
+      "published": "2026-11-01T21:00:00+00:00",
       "points": null,
       "score": 3.0,
-      "id": "b8adcb0b8bd1d6ef35b4395612f260fc867527b6",
-      "summary": "A Hacktron blog post demonstrated a potential Bash supply‑chain backdoor via GNU Savannah, reported to the FSF on May 11, 2026.",
-      "detail": "The exploit used a crafted email address to achieve code execution on Savannah’s backend, escalated to superuser, and could have injected an SSH key into the upstream Bash repository before being disclosed.",
+      "id": "ab0290d8d854c033e7061e8c8820196ede18c601",
+      "summary": "A new game engine for microcontrollers has been released by Fedyfausto.",
+      "detail": "The engine aims to simplify creating games on commodity microcontrollers, filling a niche for hobbyist developers who lack existing tooling. Details on supported hardware or performance are not provided.",
+      "key_points": [],
+      "tag": "Release",
+      "highlight": true,
+      "image": "https://hackaday.com/wp-content/uploads/2026/10/Jet-Studio-Platform-and-Physics-Engine-demo-0-20-screenshot.png",
+      "related": {}
+    },
+    {
+      "title": "Final release for the 7.2 stable series",
+      "url": "https://lwn.net/Articles/1104629/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-11-01T15:03:40+00:00",
+      "points": null,
+      "score": 3.0,
+      "id": "53892c342df2510bb79e693c46f039e3b5a4b43c",
+      "summary": "Linux 7.2.15 kernel released as the final 7.2.y version, after which the 7.2 branch is end‑of‑life.",
+      "detail": "The announcement urges users to migrate to the newer 7.3.y series, noting that maintaining multiple stable branches has become unsustainable given the current patch backlog.",
       "key_points": [
-        "May 11, 2026"
+        "7.2.15 version",
+        "final 7.2.y"
       ],
-      "tag": "News",
+      "tag": "Release",
       "highlight": true,
       "image": "",
-      "related": {}
+      "related": {
+        "title": "The 7.3 kernel has been released",
+        "url": "https://lwn.net/Articles/1101143/",
+        "date": "2026-10-19",
+        "id": "47822cd9ee4644799dab7e281408e8ab085d61b0"
+      }
     },
     {
-      "title": "sickn33/agentic-awesome-skills",
-      "url": "https://github.com/sickn33/agentic-awesome-skills",
-      "source": "GitHub trending · python",
+      "title": "LizardByte/Sunshine",
+      "url": "https://github.com/LizardByte/Sunshine",
+      "source": "GitHub trending · c++",
       "section": "repos",
       "published": null,
-      "points": 48948,
-      "score": 2.5,
-      "id": "909786c7698d64c2e66854943313662cac002467",
-      "summary": "The agentic-awesome-skills repository offers over 2,884 reusable AI agent skills for Claude Code, Codex, Cursor, and Gemini CLI.",
-      "detail": "AAS Core adds local catalog discovery, agent-owned selection, and plan preview, with support for CLI, MCP, and plugins, enabling rapid composition of AI-powered workflows.",
-      "key_points": [
-        "2,884+ skills"
-      ],
-      "tag": "Repo",
-      "highlight": true,
-      "image": "https://opengraph.githubassets.com/5bf5be2993dd636c07161bfea2d54cd6b926243c0010f7046392fe417037c0da/sickn33/agentic-awesome-skills",
-      "related": {}
-    },
-    {
-      "title": "0x0funky/agent-sprite-forge",
-      "url": "https://github.com/0x0funky/agent-sprite-forge",
-      "source": "GitHub trending · python",
-      "section": "repos",
-      "published": null,
-      "points": 4798,
-      "score": 2.0,
-      "id": "89c956ab1bb35fa4e16ef4254820514b7a030265",
-      "summary": "agent-sprite-forge provides an agent skill that creates 2D sprite sheets, transparent PNG frames, and animated GIFs from textual prompts.",
-      "detail": "The tool automates asset generation for games and visualizations, outputting ready‑to‑use sprite sheets and animations directly from AI‑driven image synthesis.",
+      "points": 42904,
+      "score": 3.0,
+      "id": "18a46c87eccea15cfa9ad6b23ab639d01d8827bd",
+      "summary": "Sunshine is a self‑hosted game‑streaming server compatible with the Moonlight client.",
+      "detail": "Implemented in C++, Sunshine lets users run a streaming host on their own hardware, avoiding reliance on proprietary services. It supports low‑latency video encoding and multiple client connections, targeting gamers who want full control over their streaming stack.",
       "key_points": [],
       "tag": "Repo",
       "highlight": true,
-      "image": "https://opengraph.githubassets.com/fbf7df39b66a0752255577a6dfaa04515d18c3fcb5eb4528a5448e1b3516e698/0x0funky/agent-sprite-forge",
+      "image": "https://repository-images.githubusercontent.com/438803890/cee99a24-0230-411e-b444-3e261c8b01d3",
       "related": {}
     }
   ],
@@ -213,42 +225,43 @@
       "tier": 1,
       "items": [
         {
-          "title": "Show HN: A language model that lives in a boot sector",
-          "url": "https://github.com/kerlenton/bootgpt",
-          "source": "Hacker News",
+          "title": "Model: LiquidAI/LFM3-Omni-2B",
+          "url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B",
+          "source": "HF trending",
           "section": "ai-ml",
-          "published": "2026-10-31T12:58:29+00:00",
-          "points": 83,
-          "score": 5.5,
-          "id": "14074b4203bb23f176964166bd2fb761022eb843",
-          "summary": "A tiny char-level neural network inference engine fits entirely in a 510‑byte boot sector and generates Linux‑style boot logs.",
-          "detail": "The model and its weights reside in sectors following the MBR, and the training script mirrors the integer arithmetic of the assembly code to produce identical output in QEMU until a divergence bug is discovered.",
+          "published": "2026-10-21T16:58:40.000Z",
+          "points": 292,
+          "score": 1.5,
+          "id": "2a145fe98b963a4376ed05bfa6f0549cc5211190",
+          "summary": "LiquidAI/LFM3-Omni-2B is an any-to-any model on Hugging Face with 8,376 downloads and 292 likes.",
+          "detail": "The model appears in the HF trending list, indicating recent community interest. It is positioned as a versatile transformer capable of handling multiple modalities, though no performance metrics are provided.",
           "key_points": [
-            "510 bytes"
+            "8,376 downloads",
+            "292 likes"
           ],
           "tag": "Release",
-          "highlight": true,
-          "image": "https://opengraph.githubassets.com/3417e99e2d47c9946d46fe6b1dca7a0e087a30fffb8b4060647d00bbdce7ecec/kerlenton/bootgpt",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/LiquidAI/LFM3-Omni-2B.png",
           "related": {}
         },
         {
-          "title": "Model: Pika-Labs/Pika-H3-Flex",
-          "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
+          "title": "Model: speridlabs/idol",
+          "url": "https://huggingface.co/speridlabs/idol",
           "source": "HF trending",
           "section": "ai-ml",
-          "published": "2026-10-29T17:08:44.000Z",
-          "points": 277,
+          "published": "2026-10-28T15:55:17.000Z",
+          "points": 348,
           "score": 1.5,
-          "id": "ee64b630519ef8b51ee5715ae17f6693e6a3d353",
-          "summary": "Pika‑Labs released the Pika‑H3‑Flex model for image‑to‑video generation, currently trending on Hugging Face.",
-          "detail": "The model is listed under the HF trending page and is intended for converting static images into short video clips, though no performance metrics are provided in the brief.",
+          "id": "46e307363c086c72525125dcda7945d6feda8040",
+          "summary": "speridlabs/idol is an image-to-3D model on Hugging Face with 4,194 downloads and 348 likes.",
+          "detail": "Listed under HF trending, the model converts 2‑D images into 3‑D representations. No size or benchmark details are given, but the download count suggests growing adoption.",
           "key_points": [
-            "404 downloads",
-            "277 likes"
+            "4,194 downloads",
+            "348 likes"
           ],
-          "tag": "Repo",
+          "tag": "Release",
           "highlight": false,
-          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Pika-Labs/Pika-H3-Flex.png",
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/speridlabs/idol.png",
           "related": {}
         }
       ]
@@ -259,115 +272,124 @@
       "tier": 2,
       "items": [
         {
-          "title": "A massive pile of security updates for Saturday",
-          "url": "https://lwn.net/Articles/1104612/",
+          "title": "Cheap FPGA Board Becomes Retro-Style Computer",
+          "url": "https://hackaday.com/2026/11/01/cheap-fpga-board-becomes-retro-style-computer/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-02T00:00:00+00:00",
+          "points": null,
+          "score": 4.5,
+          "id": "ccf5e5fcbaaac05b7fcf768636a93c5a81cb360e",
+          "summary": "The Tang Nano 9K FPGA development board can be purchased for roughly $15.",
+          "detail": "Hackaday reports that ThePartsBin has built a retro‑style computer using this low‑cost board, demonstrating its capability despite the modest price point.",
+          "key_points": [
+            "~$15 price"
+          ],
+          "tag": "News",
+          "highlight": true,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/Screenshot-2026-11-01-171115-e1793513503988.png",
+          "related": {}
+        },
+        {
+          "title": "Kernel prepatch 7.4-rc1",
+          "url": "https://lwn.net/Articles/1104654/",
           "source": "lwn",
           "section": "embedded",
-          "published": "2026-10-31T22:34:30+00:00",
+          "published": "2026-11-02T00:17:08+00:00",
           "points": null,
-          "score": 6.0,
-          "id": "9f9073d2f29360627ded5b92f84207968f8ea5bf",
-          "summary": "AlmaLinux, Debian, and Fedora published a large set of security updates on Saturday covering dozens of packages.",
-          "detail": "Updates span runtimes like .NET, libraries such as OpenJDK and Python Pillow, and system components including curl, bind, and the Linux kernel, reflecting a coordinated effort across major distributions.",
-          "key_points": [],
-          "tag": "News",
+          "score": 4.0,
+          "id": "1c0ff372f36844c565fb37c4de0e3eeda70052d3",
+          "summary": "Linux 7.4‑rc1 prepatch released, closing a merge window that saw 18,591 non‑merge changesets from 2,678 developers, including 625 first‑timers.",
+          "detail": "The unusually large merge window reflects a shift toward AI‑generated patches becoming part of regular development rather than a late‑stage flood, indicating a maturing workflow.",
+          "key_points": [
+            "18,591 changesets",
+            "2,678 developers",
+            "625 first‑timers"
+          ],
+          "tag": "Release",
           "highlight": true,
           "image": "",
           "related": {
-            "title": "Security updates for Monday",
-            "url": "https://lwn.net/Articles/1102946/",
-            "date": "2026-10-27",
-            "id": "03f253ede7aeecda9dff0e3bc2478bf7059c6847"
+            "title": "The 7.3 kernel has been released",
+            "url": "https://lwn.net/Articles/1101143/",
+            "date": "2026-10-19",
+            "id": "47822cd9ee4644799dab7e281408e8ab085d61b0"
           }
         },
         {
-          "title": "How We Could Have Backdoored Bash (Hacktron blog)",
-          "url": "https://lwn.net/Articles/1104262/",
-          "source": "lwn",
+          "title": "A Game Engine For Microcontrollers",
+          "url": "https://hackaday.com/2026/11/01/a-game-engine-for-microcontrollers/",
+          "source": "hackaday",
           "section": "embedded",
-          "published": "2026-10-31T14:00:42+00:00",
+          "published": "2026-11-01T21:00:00+00:00",
           "points": null,
           "score": 3.0,
-          "id": "b8adcb0b8bd1d6ef35b4395612f260fc867527b6",
-          "summary": "A Hacktron blog post demonstrated a potential Bash supply‑chain backdoor via GNU Savannah, reported to the FSF on May 11, 2026.",
-          "detail": "The exploit used a crafted email address to achieve code execution on Savannah’s backend, escalated to superuser, and could have injected an SSH key into the upstream Bash repository before being disclosed.",
-          "key_points": [
-            "May 11, 2026"
-          ],
-          "tag": "News",
-          "highlight": true,
-          "image": "",
-          "related": {}
-        },
-        {
-          "title": "Bring On Supercon!",
-          "url": "https://hackaday.com/2026/10/31/bring-on-supercon/",
-          "source": "hackaday",
-          "section": "embedded",
-          "published": "2026-10-31T14:00:32+00:00",
-          "points": null,
-          "score": 1.5,
-          "id": "f7d415a6b0677e318524f0d3b9fe7dba148d4cf3",
-          "summary": "Supercon will convene roughly 700 hackers in Pasadena, CA for a three‑day gathering starting in under a week.",
-          "detail": "The event combines hardware hacking, soldering workshops, and networking opportunities, aiming to foster collaboration among a diverse maker community.",
-          "key_points": [
-            "≈700 hackers",
-            "3 days"
-          ],
-          "tag": "News",
-          "highlight": false,
-          "image": "https://hackaday.com/wp-content/uploads/2017/11/supercon-recap-article-featured.jpg",
-          "related": {}
-        },
-        {
-          "title": "Building an ADS-B Receiver For Less Than You Think",
-          "url": "https://hackaday.com/2026/11/01/building-an-ads-b-receiver-for-less-than-you-think/",
-          "source": "hackaday",
-          "section": "embedded",
-          "published": "2026-11-01T08:00:22+00:00",
-          "points": null,
-          "score": 1.5,
-          "id": "a13fb09e619c20003b6e113c0d4d4b5d4893b6fc",
-          "summary": "Hackaday details how to build a low‑cost ADS‑B receiver to monitor aircraft transponder signals.",
-          "detail": "The guide shows assembling a simple radio front‑end and software stack to decode real‑time flight data, offering an affordable alternative to commercial tracking solutions.",
-          "key_points": [],
-          "tag": "Analysis",
-          "highlight": false,
-          "image": "https://hackaday.com/wp-content/uploads/2026/10/hardware-e1793510289398.png",
-          "related": {}
-        },
-        {
-          "title": "DIY WiFi Analyzer Sniffs Out Congestion and Coverage Issues, Suggests Fixes",
-          "url": "https://hackaday.com/2026/10/31/diy-wifi-analyzer-sniffs-out-congestion-and-coverage-issues-suggests-fixes/",
-          "source": "hackaday",
-          "section": "embedded",
-          "published": "2026-10-31T17:00:53+00:00",
-          "points": null,
-          "score": 1.5,
-          "id": "8bdc9f6355f2a1d635ce9a3f34bbebbeed636de2",
-          "summary": "JEV WiFi Analyzer combines a single-board Linux computer, a USB WiFi adapter, and a specialized AI model to detect network congestion and coverage gaps, then suggests fixes.",
-          "detail": "The DIY system runs on inexpensive hardware and uses AI to interpret signal data, providing visual maps of Wi‑Fi health. It helps users pinpoint dead zones and overlapping channels without commercial tools.",
+          "id": "ab0290d8d854c033e7061e8c8820196ede18c601",
+          "summary": "A new game engine for microcontrollers has been released by Fedyfausto.",
+          "detail": "The engine aims to simplify creating games on commodity microcontrollers, filling a niche for hobbyist developers who lack existing tooling. Details on supported hardware or performance are not provided.",
           "key_points": [],
           "tag": "Release",
-          "highlight": false,
-          "image": "https://hackaday.com/wp-content/uploads/2026/10/JEV-WiFi-Analyzer-2-banner.png",
+          "highlight": true,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/Jet-Studio-Platform-and-Physics-Engine-demo-0-20-screenshot.png",
           "related": {}
         },
         {
-          "title": "Huge PalmOS Development Archive Goes Online, Thanks to Personal Backups",
-          "url": "https://hackaday.com/2026/10/31/huge-palmos-development-archive-goes-online-thanks-to-personal-backups/",
+          "title": "Final release for the 7.2 stable series",
+          "url": "https://lwn.net/Articles/1104629/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-01T15:03:40+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "53892c342df2510bb79e693c46f039e3b5a4b43c",
+          "summary": "Linux 7.2.15 kernel released as the final 7.2.y version, after which the 7.2 branch is end‑of‑life.",
+          "detail": "The announcement urges users to migrate to the newer 7.3.y series, noting that maintaining multiple stable branches has become unsustainable given the current patch backlog.",
+          "key_points": [
+            "7.2.15 version",
+            "final 7.2.y"
+          ],
+          "tag": "Release",
+          "highlight": true,
+          "image": "",
+          "related": {
+            "title": "The 7.3 kernel has been released",
+            "url": "https://lwn.net/Articles/1101143/",
+            "date": "2026-10-19",
+            "id": "47822cd9ee4644799dab7e281408e8ab085d61b0"
+          }
+        },
+        {
+          "title": "A Hackable Analog Phone System",
+          "url": "https://hackaday.com/2026/11/02/a-hackable-analog-phone-system/",
           "source": "hackaday",
           "section": "embedded",
-          "published": "2026-11-01T05:00:00+00:00",
+          "published": "2026-11-02T09:00:29+00:00",
           "points": null,
           "score": 1.5,
-          "id": "cbdbf906e9286d74e1a891ab79fa3ed74fa71ed1",
-          "summary": "A massive Palm OS development archive, assembled from personal backups, has been released online for public access.",
-          "detail": "The collection includes source code, documentation, and tools from the era before modern smartphones, preserving a largely forgotten platform for hobbyists and researchers.",
+          "id": "0558f107e35f8d54eea1ec2080d858de205f3748",
+          "summary": "Scott Dylewski built a hackable analog phone system using repurposed landline phones with touchtone or rotary dials.",
+          "detail": "The project provides schematics and firmware so the phones can be integrated into custom hardware projects, enabling features like call routing, voicemail, or IoT sensor triggers. It demonstrates how legacy telephony hardware can be revived for modern maker applications.",
           "key_points": [],
           "tag": "News",
           "highlight": false,
-          "image": "https://hackaday.com/wp-content/uploads/2026/10/palmos-logo.png",
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/V5_board-e1793523410709.jpg",
+          "related": {}
+        },
+        {
+          "title": "An Electronic Candle You Can Set On Fire",
+          "url": "https://hackaday.com/2026/11/01/an-electronic-candle-you-can-set-on-fire/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-01T18:00:00+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "48c907f7729e68d64f7a52c6071a50b63d622dc0",
+          "summary": "An electronic candle that simulates flame without open fire was created to reduce fire risk and improve air quality.",
+          "detail": "The device uses LEDs and a microcontroller to mimic flickering light and heat, while remaining safe for indoor use. It can be powered by batteries or USB, offering a reusable alternative to traditional wax candles for ambience.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/10/An-electronic-candle-that-you-set-on-fire-deliberately-3-38-screenshot-1.png",
           "related": {}
         }
       ]
@@ -378,114 +400,105 @@
       "tier": 5,
       "items": [
         {
-          "title": "sickn33/agentic-awesome-skills",
-          "url": "https://github.com/sickn33/agentic-awesome-skills",
-          "source": "GitHub trending · python",
-          "section": "repos",
-          "published": null,
-          "points": 48948,
-          "score": 2.5,
-          "id": "909786c7698d64c2e66854943313662cac002467",
-          "summary": "The agentic-awesome-skills repository offers over 2,884 reusable AI agent skills for Claude Code, Codex, Cursor, and Gemini CLI.",
-          "detail": "AAS Core adds local catalog discovery, agent-owned selection, and plan preview, with support for CLI, MCP, and plugins, enabling rapid composition of AI-powered workflows.",
-          "key_points": [
-            "2,884+ skills"
-          ],
-          "tag": "Repo",
-          "highlight": true,
-          "image": "https://opengraph.githubassets.com/5bf5be2993dd636c07161bfea2d54cd6b926243c0010f7046392fe417037c0da/sickn33/agentic-awesome-skills",
-          "related": {}
-        },
-        {
-          "title": "0x0funky/agent-sprite-forge",
-          "url": "https://github.com/0x0funky/agent-sprite-forge",
-          "source": "GitHub trending · python",
-          "section": "repos",
-          "published": null,
-          "points": 4798,
-          "score": 2.0,
-          "id": "89c956ab1bb35fa4e16ef4254820514b7a030265",
-          "summary": "agent-sprite-forge provides an agent skill that creates 2D sprite sheets, transparent PNG frames, and animated GIFs from textual prompts.",
-          "detail": "The tool automates asset generation for games and visualizations, outputting ready‑to‑use sprite sheets and animations directly from AI‑driven image synthesis.",
-          "key_points": [],
-          "tag": "Repo",
-          "highlight": true,
-          "image": "https://opengraph.githubassets.com/fbf7df39b66a0752255577a6dfaa04515d18c3fcb5eb4528a5448e1b3516e698/0x0funky/agent-sprite-forge",
-          "related": {}
-        },
-        {
-          "title": "Orkas-AI/Orkas",
-          "url": "https://github.com/Orkas-AI/Orkas",
-          "source": "GitHub trending",
-          "section": "repos",
-          "published": null,
-          "points": 7027,
-          "score": 2.0,
-          "id": "24ee0d11b76f3a78f0421ce98cecd98be66e55fc",
-          "summary": "Orkas is an MIT‑licensed, local‑first AI team app for macOS and Windows that turns goals into tasks and coordinates 16 built‑in specialist agents plus external models.",
-          "detail": "The desktop application includes a Commander for goal decomposition, scheduled automations, and connectors, allowing users to run AI workflows without cloud dependencies.",
-          "key_points": [
-            "MIT license",
-            "Free macOS & Windows",
-            "16 specialist agents"
-          ],
-          "tag": "Release",
-          "highlight": false,
-          "image": "https://opengraph.githubassets.com/8456231eb8d8e3c8a8bdd37fa230e1d1aaca3880c7bde9f2ad58dd69acf2609b/Orkas-AI/Orkas",
-          "related": {}
-        },
-        {
-          "title": "The-PR-Agent/pr-agent",
-          "url": "https://github.com/The-PR-Agent/pr-agent",
-          "source": "GitHub trending · python",
-          "section": "repos",
-          "published": null,
-          "points": 13850,
-          "score": 2.0,
-          "id": "dbc443423eb814c8c75a152e7c186fa61b2dc024",
-          "summary": "PR Agent is an open‑source tool that automatically reviews pull requests, marketed as the original reviewer solution separate from Qodo’s free tier.",
-          "detail": "It integrates with common CI pipelines to provide code quality feedback, style checks, and suggested changes, aiming to streamline the review process for developers.",
-          "key_points": [],
-          "tag": "Repo",
-          "highlight": false,
-          "image": "https://opengraph.githubassets.com/ab71308a1480241d08d71bf2f19261018b1bd2abeee44b970a27e73914445edf/The-PR-Agent/pr-agent",
-          "related": {}
-        },
-        {
-          "title": "Zylann/godot_voxel",
-          "url": "https://github.com/Zylann/godot_voxel",
+          "title": "LizardByte/Sunshine",
+          "url": "https://github.com/LizardByte/Sunshine",
           "source": "GitHub trending · c++",
           "section": "repos",
           "published": null,
-          "points": 4087,
-          "score": 2.0,
-          "id": "8306b34891f31a80ea23f3b6c873e22c7f1e9d98",
-          "summary": "Voxel module for Godot Engine.",
-          "detail": "The repository provides a ready-to-use voxel implementation that integrates directly with the Godot game engine, allowing developers to add voxel-based worlds and terrain without building the system from scratch.",
+          "points": 42904,
+          "score": 3.0,
+          "id": "18a46c87eccea15cfa9ad6b23ab639d01d8827bd",
+          "summary": "Sunshine is a self‑hosted game‑streaming server compatible with the Moonlight client.",
+          "detail": "Implemented in C++, Sunshine lets users run a streaming host on their own hardware, avoiding reliance on proprietary services. It supports low‑latency video encoding and multiple client connections, targeting gamers who want full control over their streaming stack.",
           "key_points": [],
           "tag": "Repo",
-          "highlight": false,
-          "image": "https://opengraph.githubassets.com/88c04f3dec69214a5137dc3e359e99d20ee98b168246ad69d047d8beeabef58c/Zylann/godot_voxel",
+          "highlight": true,
+          "image": "https://repository-images.githubusercontent.com/438803890/cee99a24-0230-411e-b444-3e261c8b01d3",
           "related": {}
         },
         {
-          "title": "ethanplusai/harvey",
-          "url": "https://github.com/ethanplusai/harvey",
-          "source": "GitHub trending · python",
+          "title": "guillaumeblanc/ozz-animation",
+          "url": "https://github.com/guillaumeblanc/ozz-animation",
+          "source": "GitHub trending · c++",
           "section": "repos",
           "published": null,
-          "points": 3792,
-          "score": 2.0,
-          "id": "0f5e0d0f60af5b73bee64695b3a90896aea8b509",
-          "summary": "Autonomous AI sales agent that operates on Claude Code or Codex subscriptions without needing API keys.",
-          "detail": "The tool automates prospect discovery, cold email generation, campaign sending, reply handling, and meeting scheduling, leveraging the underlying language model for each step. Users must have an active Claude or Codex subscription, as the software runs locally against those accounts.",
-          "key_points": [
-            "Claude Code or Codex",
-            "No API keys required"
-          ],
+          "points": 3108,
+          "score": 2.5,
+          "id": "ab4db0e79ddbc61ae5929623844a2d8d24c88730",
+          "summary": "ozz-animation is an open‑source C++ library for skeletal animation and related tooling.",
+          "detail": "The library includes runtime animation playback, blending, and retargeting features, plus command‑line tools for processing animation assets. It is licensed under MIT, making it suitable for integration into commercial and research projects that need efficient character animation.",
+          "key_points": [],
           "tag": "Repo",
           "highlight": false,
-          "image": "https://opengraph.githubassets.com/c3229c5b62cc283ac86d5151a7b7bff3391d415a1e019489d44560278a6efcd4/ethanplusai/harvey",
+          "image": "https://opengraph.githubassets.com/895e8583df357ab4d2334e5ea6ac74b1829b953e1682ce67e0833db8f6d616e4/guillaumeblanc/ozz-animation",
+          "related": {}
+        },
+        {
+          "title": "kornia/kornia",
+          "url": "https://github.com/kornia/kornia",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 11958,
+          "score": 2.5,
+          "id": "4df6ae2fbdfdb7a5b48be15a5d11fc96aba4c775",
+          "summary": "kornia is a Python library offering geometric computer‑vision functions for spatial AI pipelines.",
+          "detail": "Built on PyTorch, Kornia provides differentiable image transformations, feature detection, and 3‑D geometry utilities that can be embedded directly into neural networks. It aims to bridge classic vision algorithms with modern deep‑learning workflows.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/7b7a1ec5d8289ea58ef0efb99552c15187f926a4a65bea88c87fae25132ba2b2/kornia/kornia",
+          "related": {}
+        },
+        {
+          "title": "max-sixty/worktrunk",
+          "url": "https://github.com/max-sixty/worktrunk",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 9799,
+          "score": 2.5,
+          "id": "d747ecb5894f9458a8ee3f1d68a09cff0fc7ccc5",
+          "summary": "Worktrunk is a Rust CLI tool for managing Git worktrees, optimized for parallel AI agent workflows.",
+          "detail": "The utility automates creation, cleanup, and switching of multiple worktrees, enabling concurrent development or experimentation across isolated repository states. Its design reduces manual Git commands and helps keep AI experiment environments reproducible.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/1078528927/6196f2ac-248f-42f5-abb5-d18768111b3b",
+          "related": {}
+        },
+        {
+          "title": "1jehuang/jcode",
+          "url": "https://github.com/1jehuang/jcode",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 21409,
+          "score": 2.0,
+          "id": "f33d1256eee47635a343b215bb5514adb9f94b57",
+          "summary": "A high‑performance coding agent framework written in Rust, designed for heavy multi‑agent development workflows.",
+          "detail": "The project provides a Rust library that coordinates multiple coding agents, aiming to reduce latency and improve scalability in complex development pipelines. It targets scenarios where several AI assistants collaborate on code generation and refactoring.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/e3d54858566432311fff0003616376ba7cdc8e307a8d20e9f0824885628bb7ee/1jehuang/jcode",
+          "related": {}
+        },
+        {
+          "title": "FlashML-org/FreeToken",
+          "url": "https://github.com/FlashML-org/FreeToken",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 15682,
+          "score": 2.0,
+          "id": "cacdd6cefbfef72bc89340706aeb6388ba534c38",
+          "summary": "FreeToken enables datacenter‑scale model serving on a desktop, allowing massive models to run locally with high speed and efficiency.",
+          "detail": "By optimizing memory usage and leveraging local hardware acceleration, FreeToken brings large‑scale inference capabilities to personal machines. It is positioned as a tool for developers who need to test or deploy large models without cloud resources.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/f20f3fff28f0a6bca475b6379101e7c2bb9b4714a3e00c8708a012f9a0bf6983/FlashML-org/FreeToken",
           "related": {}
         }
       ]
