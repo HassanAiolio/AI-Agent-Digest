@@ -1,0 +1,749 @@
+{
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T09:51:51+00:00",
+  "stats": {
+    "fetched": 221,
+    "new_after_dedupe": 166,
+    "published": 27,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 23,
+      "supported": 23,
+      "dropped": 0,
+      "unverifiable": 1,
+      "summaries_reverted": 0,
+      "rate": 1.0
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. Your overnight feed includes AI agents that actually catch bugs and transformers that rearrange themselves.",
+    "stories": [
+      {
+        "kicker": "QA Agents",
+        "headline": "Autonomous QA agents hit two‑thirds pass rate",
+        "body": "**Bots catching bugs in production:** Momentic’s Sonnet 5.5 model passed 66.2% of DeepSWE v1.1 tests, showing autonomous QA is becoming practical.",
+        "why": "You can offload regression testing to an AI that actually finds bugs.",
+        "ids": [
+          "68450ca1af75826ccbb07b0c781149055709cf30"
+        ]
+      },
+      {
+        "kicker": "Transformers",
+        "headline": "Dynamic layer ordering speeds inference",
+        "body": "**Reordering blocks on the fly:** Library of Layers (LoL) shuffles transformer layers at runtime, merging dense, recurrent and MoE styles without code changes.",
+        "why": "Better latency means tighter inference budgets on edge devices.",
+        "ids": [
+          "9b36c054b2ee833b16eaf77d9ea161130e7129bf"
+        ]
+      },
+      {
+        "kicker": "AI‑Generated DB",
+        "headline": "GenDB‑V lets AI build verified databases",
+        "body": "**AI drafts custom engines:** GenDB‑V synthesizes database systems tuned to hardware and workload, then proves correctness formally.",
+        "why": "Reduces hand‑tuning cycles and eliminates subtle bugs in storage layers.",
+        "ids": [
+          "5de43c9b298229ac07377eb694a92909a4f7d77c"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**RISC‑V:** European industrial computing push highlighted on HN.",
+        "id": "72f52294c5cfb8ac7d2a2f07ba3c55f5738a8ee2"
+      },
+      {
+        "text": "**Firmware:** Polyend opens Tracker firmware source for tinkering.",
+        "id": "4b0af90dd5664e8e099263c557aa664bff314df4"
+      },
+      {
+        "text": "**Benchmark:** LifeVal measures AI assistance on daily chores.",
+        "id": "ed4b58253682640ff9708a383e764387bd065216"
+      },
+      {
+        "text": "**Grid:** OpenAI partners utilities to keep compute power cheap.",
+        "id": "19244c7aa2063fd3d4e1eb3724d79665ede4b949"
+      },
+      {
+        "text": "**RL runtime:** Rose overlaps GPU work to keep GPUs busy.",
+        "id": "88698104a54d2871f515bceffe7d8baccf21687b"
+      }
+    ],
+    "number": {
+      "value": "66.2%",
+      "label": "pass rate for autonomous QA agents on DeepSWE v1.1",
+      "id": "68450ca1af75826ccbb07b0c781149055709cf30"
+    },
+    "sign_off": "That’s your bite‑size tech roundup – see you tomorrow",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "eec55f6273cebeb8f5a0b6b5995b58de22bb4e81",
+      "title": "Educational Codeforces Round 196 (Rated for Div. 2)",
+      "url": "https://codeforces.com/contests/2283",
+      "source": "Codeforces",
+      "starts": "2026-11-04T14:35:00+00:00",
+      "detail": "ICPC contest, 2.0h, starts Wed 04 Nov 14:35 UTC"
+    },
+    {
+      "id": "93470a29b77d11d5f96f320a90cfe6df62ea2ada",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2284",
+      "source": "Codeforces",
+      "starts": "2026-11-06T14:35:00+00:00",
+      "detail": "CF contest, 2.2h, starts Fri 06 Nov 14:35 UTC"
+    },
+    {
+      "id": "6f83c980a333211356c0a8c902ef6db657a5c926",
+      "title": "Codeforces Round (Div. 1)",
+      "url": "https://codeforces.com/contests/2279",
+      "source": "Codeforces",
+      "starts": "2026-11-07T14:35:00+00:00",
+      "detail": "CF contest, 2.5h, starts Sat 07 Nov 14:35 UTC"
+    },
+    {
+      "id": "ffcb7b3246dd576d4ee4b719b9ad707615af0c4c",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2280",
+      "source": "Codeforces",
+      "starts": "2026-11-07T14:35:00+00:00",
+      "detail": "CF contest, 2.5h, starts Sat 07 Nov 14:35 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Can LLM Agents Improve Imperfect Earth System Model Parameterizations?",
+      "url": "https://arxiv.org/abs/2611.03543v1",
+      "source": "arXiv physics.ao-ph",
+      "section": "ai-ml",
+      "published": "2026-11-02T18:05:04+00:00",
+      "points": null,
+      "score": 9.0,
+      "id": "ccb523bb7f726a1fdc943e6ea65759d3178d3692",
+      "summary": "LLM agents were evaluated on warm‑rain collision‑coalescence, synthesizing literature and generating executable JAX code across ten language models.",
+      "detail": "The study compared conventional parameterizations, data‑driven emulators, and agent‑generated closures against high‑fidelity superdroplet simulations, repeating unattended experiments. Expert guidance or iterative feedback improved the agents' ability to produce functional code. This demonstrates a potential workflow for accelerating ESM parameterization development.",
+      "key_points": [
+        "10 language models"
+      ],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {
+        "title": "Can an Agent Debug a Web Corpus? Agentic Auditing of Slovak FineWeb2",
+        "url": "https://arxiv.org/abs/2610.31636v1",
+        "date": "2026-10-23",
+        "id": "268e3f8b9097888c9797ec9457b27e5e0dc47131"
+      }
+    },
+    {
+      "title": "Can LLM Agents Be Forward-Deployed Engineers? Requirement Discovery and Delivery for Enterprise Text-to-SQL",
+      "url": "https://arxiv.org/abs/2611.03551v1",
+      "source": "arXiv cs.CL",
+      "section": "ai-ml",
+      "published": "2026-11-02T18:13:38+00:00",
+      "points": null,
+      "score": 8.0,
+      "id": "da869240778aa8c873d079fe9959c05923c5f911",
+      "summary": "LLM coding agents discovered up to 80% of hidden requirements but only 25% of runs met all acceptance criteria in a simulated enterprise text‑to‑SQL deployment.",
+      "detail": "The evaluation involved a discovery phase to uncover acceptance criteria, data permissions, and hardware constraints, followed by a delivery phase executing a post‑training recipe. Open‑weight models achieved 40‑50% discovery rates. Four bottlenecks were identified, notably incomplete discovery accounting for 40% of missed requirements.",
+      "key_points": [
+        "15 models",
+        "80% requirement discovery",
+        "25% delivery success"
+      ],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {
+        "title": "Can an Agent Debug a Web Corpus? Agentic Auditing of Slovak FineWeb2",
+        "url": "https://arxiv.org/abs/2610.31636v1",
+        "date": "2026-10-23",
+        "id": "268e3f8b9097888c9797ec9457b27e5e0dc47131"
+      }
+    },
+    {
+      "title": "Library of Layers (LoL): Adaptively Ordering Transformer Layers at Runtime",
+      "url": "https://arxiv.org/abs/2611.03526v1",
+      "source": "arXiv cs.LG",
+      "section": "ai-ml",
+      "published": "2026-11-02T17:57:53+00:00",
+      "points": null,
+      "score": 8.0,
+      "id": "9b36c054b2ee833b16eaf77d9ea161130e7129bf",
+      "summary": "Library of Layers (LoL) dynamically reorders transformer blocks at inference, unifying dense, depth‑recurrent, and mixture‑of‑experts trade‑offs.",
+      "detail": "LoL introduces a single hyperparameter—the size of a global library of transformer blocks—allowing seamless transition between parameter reuse and sparsity. Experiments show competitive performance with baseline architectures when pretrained on text data, and advantages on synthetic sudoku and maze tasks.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+      "url": "https://momentic.ai/",
+      "source": "Hacker News",
+      "section": "ai-ml",
+      "published": "2026-11-02T17:05:25+00:00",
+      "points": 143,
+      "score": 5.0,
+      "id": "68450ca1af75826ccbb07b0c781149055709cf30",
+      "summary": "Momentic builds autonomous QA agents for web, iOS, and Android apps; its Sonnet 5.5 model achieved a 66.2% pass rate on DeepSWE v1.1.",
+      "detail": "Founded by engineers from Robinhood, Retool, WeWork, and Qualtrics, Momentic plans, explores, and bug‑bashes user flows without manual test scripts. The system aims to reduce the growing change‑failure rate as coding‑agent adoption scales, addressing limitations of LLMs in visual understanding and test relevance.",
+      "key_points": [
+        "YC W24",
+        "66.2% pass"
+      ],
+      "tag": "Release",
+      "highlight": true,
+      "image": "https://momentic.ai/images/og/home.png",
+      "related": {}
+    },
+    {
+      "title": "European RISC-V Industrial Computing Initiative",
+      "url": "https://erici.eu",
+      "source": "Hacker News",
+      "section": "embedded",
+      "published": "2026-11-02T08:58:33+00:00",
+      "points": 91,
+      "score": 4.0,
+      "id": "72f52294c5cfb8ac7d2a2f07ba3c55f5738a8ee2",
+      "summary": "Hacker News highlighted the European RISC‑V Industrial Computing Initiative.",
+      "detail": "The initiative seeks to coordinate European companies around RISC‑V hardware for industrial applications, aiming to reduce reliance on non‑European silicon. Details on funding or timelines were not disclosed.",
+      "key_points": [],
+      "tag": "News",
+      "highlight": true,
+      "image": "https://erici.eu/img/og-card.png",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "Can LLM Agents Improve Imperfect Earth System Model Parameterizations?",
+          "url": "https://arxiv.org/abs/2611.03543v1",
+          "source": "arXiv physics.ao-ph",
+          "section": "ai-ml",
+          "published": "2026-11-02T18:05:04+00:00",
+          "points": null,
+          "score": 9.0,
+          "id": "ccb523bb7f726a1fdc943e6ea65759d3178d3692",
+          "summary": "LLM agents were evaluated on warm‑rain collision‑coalescence, synthesizing literature and generating executable JAX code across ten language models.",
+          "detail": "The study compared conventional parameterizations, data‑driven emulators, and agent‑generated closures against high‑fidelity superdroplet simulations, repeating unattended experiments. Expert guidance or iterative feedback improved the agents' ability to produce functional code. This demonstrates a potential workflow for accelerating ESM parameterization development.",
+          "key_points": [
+            "10 language models"
+          ],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {
+            "title": "Can an Agent Debug a Web Corpus? Agentic Auditing of Slovak FineWeb2",
+            "url": "https://arxiv.org/abs/2610.31636v1",
+            "date": "2026-10-23",
+            "id": "268e3f8b9097888c9797ec9457b27e5e0dc47131"
+          }
+        },
+        {
+          "title": "Can LLM Agents Be Forward-Deployed Engineers? Requirement Discovery and Delivery for Enterprise Text-to-SQL",
+          "url": "https://arxiv.org/abs/2611.03551v1",
+          "source": "arXiv cs.CL",
+          "section": "ai-ml",
+          "published": "2026-11-02T18:13:38+00:00",
+          "points": null,
+          "score": 8.0,
+          "id": "da869240778aa8c873d079fe9959c05923c5f911",
+          "summary": "LLM coding agents discovered up to 80% of hidden requirements but only 25% of runs met all acceptance criteria in a simulated enterprise text‑to‑SQL deployment.",
+          "detail": "The evaluation involved a discovery phase to uncover acceptance criteria, data permissions, and hardware constraints, followed by a delivery phase executing a post‑training recipe. Open‑weight models achieved 40‑50% discovery rates. Four bottlenecks were identified, notably incomplete discovery accounting for 40% of missed requirements.",
+          "key_points": [
+            "15 models",
+            "80% requirement discovery",
+            "25% delivery success"
+          ],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {
+            "title": "Can an Agent Debug a Web Corpus? Agentic Auditing of Slovak FineWeb2",
+            "url": "https://arxiv.org/abs/2610.31636v1",
+            "date": "2026-10-23",
+            "id": "268e3f8b9097888c9797ec9457b27e5e0dc47131"
+          }
+        },
+        {
+          "title": "Library of Layers (LoL): Adaptively Ordering Transformer Layers at Runtime",
+          "url": "https://arxiv.org/abs/2611.03526v1",
+          "source": "arXiv cs.LG",
+          "section": "ai-ml",
+          "published": "2026-11-02T17:57:53+00:00",
+          "points": null,
+          "score": 8.0,
+          "id": "9b36c054b2ee833b16eaf77d9ea161130e7129bf",
+          "summary": "Library of Layers (LoL) dynamically reorders transformer blocks at inference, unifying dense, depth‑recurrent, and mixture‑of‑experts trade‑offs.",
+          "detail": "LoL introduces a single hyperparameter—the size of a global library of transformer blocks—allowing seamless transition between parameter reuse and sparsity. Experiments show competitive performance with baseline architectures when pretrained on text data, and advantages on synthetic sudoku and maze tasks.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+          "url": "https://momentic.ai/",
+          "source": "Hacker News",
+          "section": "ai-ml",
+          "published": "2026-11-02T17:05:25+00:00",
+          "points": 143,
+          "score": 5.0,
+          "id": "68450ca1af75826ccbb07b0c781149055709cf30",
+          "summary": "Momentic builds autonomous QA agents for web, iOS, and Android apps; its Sonnet 5.5 model achieved a 66.2% pass rate on DeepSWE v1.1.",
+          "detail": "Founded by engineers from Robinhood, Retool, WeWork, and Qualtrics, Momentic plans, explores, and bug‑bashes user flows without manual test scripts. The system aims to reduce the growing change‑failure rate as coding‑agent adoption scales, addressing limitations of LLMs in visual understanding and test relevance.",
+          "key_points": [
+            "YC W24",
+            "66.2% pass"
+          ],
+          "tag": "Release",
+          "highlight": true,
+          "image": "https://momentic.ai/images/og/home.png",
+          "related": {}
+        },
+        {
+          "title": "LifeVal",
+          "url": "https://openai.com/index/lifeval",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-02T09:00:00+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "ed4b58253682640ff9708a383e764387bd065216",
+          "summary": "LifeVal is a benchmark that measures how effectively AI assists users with everyday tasks such as childcare, finance, and government paperwork.",
+          "detail": "The benchmark evaluates AI systems on real‑world task completion, providing a standardized way to compare assistance quality across domains. It targets practical impact rather than purely academic metrics, encouraging development of user‑centric AI capabilities.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/3Iad2h8cMUadlldiZqbsAo/69264040a908479aa8843b590b0015b5/lifeval-social-crayon.png?w=1600&h=900&fit=fill",
+          "related": {}
+        },
+        {
+          "title": "Introducing the Grid Protectors Program",
+          "url": "https://openai.com/index/grid-protectors-program",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-02T15:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "19244c7aa2063fd3d4e1eb3724d79665ede4b949",
+          "summary": "OpenAI’s Grid Protectors Program will collaborate with utilities to keep compute campuses reliable and consumer electricity costs stable.",
+          "detail": "The initiative aims to integrate compute workloads with grid reliability efforts, offering support for future data‑center expansions while mitigating strain on the power network. It reflects OpenAI’s focus on sustainable AI infrastructure.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/0147SbQFof5ozkgFJTdG0j/1daae8bb107fb504ef83be52e10e550f/introducing-the-grid-protectors-program-social.png?w=1600&h=900&fit=fill",
+          "related": {}
+        },
+        {
+          "title": "Preparing our next security sprint to harden OpenAI",
+          "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-02T18:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "262cfa35f4308cc0bcff01a56dd97410d48892c0",
+          "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+          "detail": "The sprint aims to simulate attacks and evaluate the robustness of OpenAI's infrastructure. Cathedral Systems will provide expertise in adversarial testing. This effort follows recent industry focus on AI‑driven security assessments.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/3I6XNOAyDMl6T0tummrXmo/b10602bfeb5ca42409706b86011ceacb/preparing-our-next-security-sprint-to-harden-openai-social.png?w=1600&h=900&fit=fill",
+          "related": {}
+        },
+        {
+          "title": "Transformers Model Integration Contracts",
+          "url": "https://huggingface.co/blog/transformers-mic",
+          "source": "huggingface blog",
+          "section": "ai-ml",
+          "published": "2026-11-03T00:00:00+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "fec0e46ceba430b85db6cdfb1ee6bd847cd3cdca",
+          "summary": "Hugging Face blog announced the Transformers Model Integration Contracts.",
+          "detail": "The announcement outlines a standardized agreement for integrating third‑party models into the Transformers ecosystem, aiming to simplify licensing and compatibility. It targets both open‑source contributors and commercial partners.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://huggingface.co/blog/assets/transformers-mic/mic-logo.png",
+          "related": {}
+        },
+        {
+          "title": "Model: burner22/numbat",
+          "url": "https://huggingface.co/burner22/numbat",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-23T01:37:02.000Z",
+          "points": 303,
+          "score": 1.5,
+          "id": "6e200e05b45c9fd8d68f03a4fb277f06189807a8",
+          "summary": "The Hugging Face model burner22/numbat has received 7,461 downloads and 303 likes.",
+          "detail": "The model is trending on the platform, indicating community interest. Its popularity may reflect usefulness in niche tasks, though no performance metrics were provided.",
+          "key_points": [
+            "7,461 downloads",
+            "303 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/burner22/numbat.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "European RISC-V Industrial Computing Initiative",
+          "url": "https://erici.eu",
+          "source": "Hacker News",
+          "section": "embedded",
+          "published": "2026-11-02T08:58:33+00:00",
+          "points": 91,
+          "score": 4.0,
+          "id": "72f52294c5cfb8ac7d2a2f07ba3c55f5738a8ee2",
+          "summary": "Hacker News highlighted the European RISC‑V Industrial Computing Initiative.",
+          "detail": "The initiative seeks to coordinate European companies around RISC‑V hardware for industrial applications, aiming to reduce reliance on non‑European silicon. Details on funding or timelines were not disclosed.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": true,
+          "image": "https://erici.eu/img/og-card.png",
+          "related": {}
+        },
+        {
+          "title": "Polyend releases the Tracker firmware source code",
+          "url": "https://polyend.com/whats-up/tracker-the-biggest-update-yet/",
+          "source": "Hacker News",
+          "section": "embedded",
+          "published": "2026-11-02T17:20:13+00:00",
+          "points": 127,
+          "score": 4.0,
+          "id": "4b0af90dd5664e8e099263c557aa664bff314df4",
+          "summary": "Polyend has released the source code for its Tracker firmware.",
+          "detail": "The open‑source release enables developers to modify and extend the firmware for the Tracker hardware. Polyend hopes the community will contribute improvements and new features.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://polyend-website.fra1.digitaloceanspaces.com/wp-content/uploads/2026/11/02162002/tracker-1.jpeg",
+          "related": {}
+        },
+        {
+          "title": "[$] Managing the kernel CVE flood",
+          "url": "https://lwn.net/Articles/1100894/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-02T14:28:39+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "fdbeaff4cbb81d48398eb2d287abcb7a00b4c11b",
+          "summary": "At the 2026 Linux Plumbers Conference, Amazon engineers discussed handling the high volume of kernel CVE disclosures, noting that running current kernels generally mitigates risk.",
+          "detail": "Dylan Johnson and Justinien Bouron described the operational pressures of keeping AWS services secure amid a flood of vulnerability reports. While staying up‑to‑date helps, they acknowledged occasional edge cases where patches lag behind exploits.",
+          "key_points": [
+            "2026 Linux Plumbers Conference"
+          ],
+          "tag": "Analysis",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Security updates for Monday",
+          "url": "https://lwn.net/Articles/1104844/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-02T14:03:45+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "2d1f91f0c2fdaa8e2ce6673cd78eb20b97854f5e",
+          "summary": "AlmaLinux, Debian, Fedora, and Oracle released security updates for dozens of packages including browsers, kernels, runtimes, and utilities.",
+          "detail": "The updates cover a wide range of components such as Firefox, Java 17, multiple Python versions, Ruby, and kernel variants. Each distribution lists its own affected packages, reflecting coordinated patching across major Linux ecosystems.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "A massive pile of security updates for Saturday",
+            "url": "https://lwn.net/Articles/1104612/",
+            "date": "2026-11-01",
+            "id": "9f9073d2f29360627ded5b92f84207968f8ea5bf"
+          }
+        },
+        {
+          "title": "Tor Browser 16.0 released",
+          "url": "https://lwn.net/Articles/1104846/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-02T14:28:23+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "7909b6caa3258ff533a4a9d5837e57e0e8f4376b",
+          "summary": "Tor Browser 16.0 was released, the first stable build based on Firefox ESR 153 and the first to drop 32-bit x86 Linux support.",
+          "detail": "The new release adds official support for 64-bit ARM Linux, redesigns the settings UI, and introduces generic window titles to reduce fingerprinting. Android builds also received Material Design 3 updates.",
+          "key_points": [
+            "Version 16.0",
+            "Based on Firefox ESR 153",
+            "Drops 32-bit Linux support"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Shutting the Door on the XCPE Botnet (Threat Intelligence)",
+          "url": "https://lwn.net/Articles/1104847/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-02T14:29:37+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "c371edf5ec5f859e1fa15a9e510cc53b6c3d4208",
+          "summary": "Google and partners dismantled the XCPE botnet, which had compromised over 1.3 million set‑top boxes.",
+          "detail": "The botnet was operated by Videostrong Technology Co., an Android OEM/ODM, and monetized through ad‑fraud and proxy services. Secondary malware modules were loaded onto infected devices to further criminal activity.",
+          "key_points": [
+            "1.3M devices",
+            "Dismantled by Google"
+          ],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "cs-research",
+      "title": "CS research",
+      "tier": 4,
+      "items": [
+        {
+          "title": "Stop Handcrafting Your Engine! GenDB-V: Towards AI-Generated and Formally Verified Database Systems",
+          "url": "https://arxiv.org/abs/2611.02779v1",
+          "source": "arXiv cs.DB",
+          "section": "cs-research",
+          "published": "2026-11-02T08:56:44+00:00",
+          "points": null,
+          "score": 3.5,
+          "id": "5de43c9b298229ac07377eb694a92909a4f7d77c",
+          "summary": "GenDB-V is a framework that lets AI agents synthesize database engines tailored to hardware and workloads while providing formal correctness guarantees.",
+          "detail": "The system can generate specialized SQL template implementations as well as general‑purpose engines that accept any query. It aims to reduce the costly redesign cycles that have traditionally been required for performance and correctness improvements.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Rose: Efficient Embodied RL through Graph Optimization and GPU Compute Resource Control",
+          "url": "https://arxiv.org/abs/2611.02705v1",
+          "source": "arXiv cs.DC",
+          "section": "cs-research",
+          "published": "2026-11-02T07:56:13+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "88698104a54d2871f515bceffe7d8baccf21687b",
+          "summary": "Rose is a runtime system that automatically overlaps fine‑grained components of embodied reinforcement learning to keep GPUs busy and manage compute resources.",
+          "detail": "It addresses the problem of idle GPU periods caused by coarse‑grained pipelining, handling dependency analysis and cross‑process contention. The approach preserves synchronous execution semantics while improving overall GPU utilization.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "SQLoom: Set-Contrastive Learning of Syntactic, Semantic, and Logical Dependencies for Text-to-SQL",
+          "url": "https://arxiv.org/abs/2611.03298v1",
+          "source": "arXiv cs.DB",
+          "section": "cs-research",
+          "published": "2026-11-02T15:33:40+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "e0fa7dda7629c42c4d8d35af6d71ad938fbf1ca2",
+          "summary": "SQLoom introduces a set‑contrastive fine‑tuning method that enforces syntactic, semantic, and logical constraints when training LLMs for text‑to‑SQL translation.",
+          "detail": "The framework adds supervision at three levels: grammar compliance, alignment with the natural‑language question, and logical consistency across query clauses. By favoring sets of correct outputs over near‑misses, it reduces errors that would otherwise be invisible to token‑level loss.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "TLAPS-Bench: Formally Proving Correctness of Real-World System Specifications with TLA+ Proof System",
+          "url": "https://arxiv.org/abs/2611.02849v1",
+          "source": "arXiv cs.AI",
+          "section": "cs-research",
+          "published": "2026-11-02T09:51:18+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "41258fb3a8be27da6324d6ba07433f797e6dfbb8",
+          "summary": "TLAPS-Bench provides a harness for machine‑checked TLA+ proofs and includes 265 proof targets drawn from 95 real‑world system specifications.",
+          "detail": "The harness supports iterative development with AI agents, safeguards against reward hacking, and has been used to prove properties of cache coherence, Byzantine consensus, and write‑ahead logs that were previously unproved.",
+          "key_points": [
+            "265 proof targets",
+            "95 specifications"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Why Tabular Foundation Models Excel on Relational Data They Have Never Seen",
+          "url": "https://arxiv.org/abs/2611.02936v1",
+          "source": "arXiv cs.AI",
+          "section": "cs-research",
+          "published": "2026-11-02T11:02:57+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "ef28505a0b568ae1cc3aef8c578d2fb2637ba555",
+          "summary": "Experiments confirm that frozen tabular foundation models combined with parameter‑free relational encoders perform competitively on unseen relational databases without any pre‑training.",
+          "detail": "The study evaluates a broad set of tasks across heterogeneous tables, showing that single‑table foundation models can predict missing values effectively despite never having seen relational data during training.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Dynamic Coalition Formation Under Capacity Constraints: A Regime-Switching Value-Investing Game",
+          "url": "https://arxiv.org/abs/2611.03137v1",
+          "source": "arXiv cs.GT",
+          "section": "cs-research",
+          "published": "2026-11-02T13:49:17+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "f13b7040f8129feaf4acadd4bbe8404fef16482c",
+          "summary": "An audit‑based two‑stage coalitional game is proposed for edge‑computing service deployment, yielding submodular operational values and computable Shapley allocations under capacity constraints.",
+          "detail": "Demand follows a geometric random walk; mandatory SLA reservations may lead to negative Shapley payoffs. The paper derives a separable benchmark, provides a sufficient condition for equilibrium convergence, and introduces a probabilistic audit mechanism.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "vercel-labs/agent-desktop",
+          "url": "https://github.com/vercel-labs/agent-desktop",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 11289,
+          "score": 2.5,
+          "id": "40b1bb8d31051d8a835d77eebe4a1f68552d5870",
+          "summary": "vercel-labs/agent-desktop is a command‑line tool that enables AI agents to interact with a computer’s UI.",
+          "detail": "The repository offers a lightweight interface for controlling mouse, keyboard, and screen capture, facilitating automation and experimentation with autonomous agents in a terminal environment.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/1161958643/83055b28-992e-4176-b5d6-89b56aa22dde",
+          "related": {}
+        },
+        {
+          "title": "Duecki1/CalibRaw",
+          "url": "https://github.com/Duecki1/CalibRaw",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 264,
+          "score": 2.0,
+          "id": "a23a65810ebb70681da576faaaa2778b15c9957f",
+          "summary": "CalibRaw is a free, open‑source RAW editor supporting GPU acceleration, non‑destructive edits, masks, HDR merging, and local AI across Linux, Android, Windows, and macOS.",
+          "detail": "Implemented in Rust, the tool leverages hardware acceleration for fast processing and includes AI‑assisted features for tasks like noise reduction and tone mapping, aiming for a cross‑platform workflow.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/1299682787/8ad1036d-f4fa-4597-9533-150e9d33fad1",
+          "related": {}
+        },
+        {
+          "title": "beenuar/AiSOC",
+          "url": "https://github.com/beenuar/AiSOC",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 6833,
+          "score": 2.0,
+          "id": "d374e5dcfaabd93943b01830f5edac52bc02c51a",
+          "summary": "AiSOC is an open‑source AI Security Operations Center that fuses alerts, uses LLM agents for triage, and records every decision step without requiring API keys.",
+          "detail": "Licensed under MIT, it integrates MITRE ATT&CK mapping and provides an MCP server compatible with Claude, Cursor, and Continue, enabling self‑hosted, reproducible security investigations.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/4ae6c3571da2b6c6b0c6df51b1d871c588436c6874698277770857097a35befa/beenuar/AiSOC",
+          "related": {}
+        },
+        {
+          "title": "doitsujin/dxvk",
+          "url": "https://github.com/doitsujin/dxvk",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 18416,
+          "score": 2.0,
+          "id": "7fe691c9860060b6c4e297634cdb021af3ac28ea",
+          "summary": "dxvk provides a Vulkan‑based implementation of Direct3D 8, 9, 10 and 11 for Linux and Wine.",
+          "detail": "The project translates Direct3D calls to Vulkan, enabling Windows games that rely on older Direct3D versions to run on Linux with better performance and compatibility than software emulation. It is written in C++ and is actively maintained as a GitHub trending repository.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/874320ec24409cfe62f76a3f628281a42f35d45f7a16743df89102aaefb80a3a/doitsujin/dxvk",
+          "related": {}
+        },
+        {
+          "title": "hyprwm/Hyprland",
+          "url": "https://github.com/hyprwm/Hyprland",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 40142,
+          "score": 2.0,
+          "id": "0bbe57064cac1af23e9ed32b81763bfec86dd204",
+          "summary": "Hyprland is a highly customizable, dynamic tiling Wayland compositor that emphasizes visual polish.",
+          "detail": "Unlike many minimal tiling compositors, Hyprland offers extensive configuration options and modern effects while remaining lightweight. It is built in C++ and targets users who want both performance and aesthetic control on Wayland desktops.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/470730648/62af9cdd-2851-437f-9250-05b8ae4a5bb0",
+          "related": {}
+        },
+        {
+          "title": "jellyfin/jellyfin-desktop",
+          "url": "https://github.com/jellyfin/jellyfin-desktop",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 5964,
+          "score": 2.0,
+          "id": "aebc54f67cee1825c73b93c843dd1490c6f90f39",
+          "summary": "jellyfin-desktop is a desktop client for the Jellyfin media server, written in C++.",
+          "detail": "The client provides a native GUI for browsing, streaming, and managing media from a Jellyfin server on Linux desktops. It integrates with system media controls and supports hardware acceleration where available.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/354476107/0571a880-9c9f-11eb-9df7-28684340c276",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
