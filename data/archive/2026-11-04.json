@@ -1,0 +1,759 @@
+{
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T09:39:53+00:00",
+  "stats": {
+    "fetched": 220,
+    "new_after_dedupe": 171,
+    "published": 28,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 15,
+      "supported": 15,
+      "dropped": 0,
+      "unverifiable": 10,
+      "summaries_reverted": 0,
+      "rate": 1.0
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. Your nightly AI feed just got a little less noisy and a lot more modular.",
+    "stories": [
+      {
+        "kicker": "Long Horizon",
+        "headline": "Speculative decoding tames noise",
+        "body": "**Noise‑controlled decoding:** Controlling numerical noise in speculative decoding boosts reasoning accuracy for agents that plan 30 steps ahead.",
+        "why": "Long‑term planners can trust their predictions longer.",
+        "ids": [
+          "9a5614c13eef8874977b163cb6134b43e643b5a5"
+        ]
+      },
+      {
+        "kicker": "Recommendation",
+        "headline": "Dual‑profile LLM recommendation protocol",
+        "body": "**Training‑free chat:** HARP lets users and items write self‑descriptions, enabling LLM‑based recommendation without any model fine‑tuning.",
+        "why": "Deploy recommendation features instantly, no data‑hungry retraining.",
+        "ids": [
+          "506aefbe59c5be8d42516db4b012a297530a4d8b"
+        ]
+      },
+      {
+        "kicker": "Fedora",
+        "headline": "Fedora 45 drops legacy VPN, adds Stratis",
+        "body": "**New release:** Fedora 45 ships with Stratis storage support and removes old‑school VPN plugins, streamlining system admin work.",
+        "why": "Admins get modern storage tools and fewer legacy headaches.",
+        "ids": [
+          "2167f85e86bee0f38967a517985b3d4ed69710cc"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Security**: Linux distros patched kernel and browsers.",
+        "id": "97203355f3e2ca80bf46d7cceea90d35d93dd13a"
+      },
+      {
+        "text": "**Web RL**: JHiMA‑WebRL trains hierarchical planner and actor for deep web tasks.",
+        "id": "0213e866e47e6cfab3fb1f3874aa344e53b843be"
+      },
+      {
+        "text": "**Cheminformatics**: Google Antigravity speeds macrocycle drug design.",
+        "id": "adafdd4764cb9dbbcc8baf5f90eab559ee61ffdd"
+      },
+      {
+        "text": "**Firewalls**: LLM‑generated DB components stay fast and correct.",
+        "id": "d06e4a9b3e814790bcfb27bcb1f59fd43e342e20"
+      },
+      {
+        "text": "**Ads ML**: Meta compiles 20,000 ad features into one graph.",
+        "id": "e1491c4239ea20a024f097bce28c259f513d047c"
+      }
+    ],
+    "number": {
+      "value": "20,000",
+      "label": "ad‑ranking features compiled into a single graph",
+      "id": "e1491c4239ea20a024f097bce28c259f513d047c"
+    },
+    "sign_off": "Catch you tomorrow, code wizard ;)",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "eec55f6273cebeb8f5a0b6b5995b58de22bb4e81",
+      "title": "Educational Codeforces Round 196 (Rated for Div. 2)",
+      "url": "https://codeforces.com/contests/2283",
+      "source": "Codeforces",
+      "starts": "2026-11-04T14:35:00+00:00",
+      "detail": "ICPC contest, 2.0h, starts Wed 04 Nov 14:35 UTC"
+    },
+    {
+      "id": "93470a29b77d11d5f96f320a90cfe6df62ea2ada",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2284",
+      "source": "Codeforces",
+      "starts": "2026-11-06T14:35:00+00:00",
+      "detail": "CF contest, 2.2h, starts Fri 06 Nov 14:35 UTC"
+    },
+    {
+      "id": "6f83c980a333211356c0a8c902ef6db657a5c926",
+      "title": "Codeforces Round (Div. 1)",
+      "url": "https://codeforces.com/contests/2279",
+      "source": "Codeforces",
+      "starts": "2026-11-07T14:35:00+00:00",
+      "detail": "CF contest, 2.5h, starts Sat 07 Nov 14:35 UTC"
+    },
+    {
+      "id": "ffcb7b3246dd576d4ee4b719b9ad707615af0c4c",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2280",
+      "source": "Codeforces",
+      "starts": "2026-11-07T14:35:00+00:00",
+      "detail": "CF contest, 2.5h, starts Sat 07 Nov 14:35 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Adversarial Speculative Reasoning Improves Long Horizon Agents",
+      "url": "https://arxiv.org/abs/2611.05345v1",
+      "source": "arXiv cs.AI",
+      "section": "ai-ml",
+      "published": "2026-11-03T18:45:23+00:00",
+      "points": null,
+      "score": 9.5,
+      "id": "9a5614c13eef8874977b163cb6134b43e643b5a5",
+      "summary": "Controlling numerical noise in speculative decoding improves the reasoning accuracy of long-horizon agents after 30 steps.",
+      "detail": "Previous work treated speculative decoding as a pure speed optimization, focusing only on draft acceptance rates. Experiments showed that verification windows introduce noise that drifts the model's output distribution, harming agentic tasks. By mitigating this noise, the target model retains more faithful reasoning over extended horizons.",
+      "key_points": [
+        "30 steps"
+      ],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "HARP: Training-Free Dual-Profile Agentic Communication for LLM-Based Recommendation",
+      "url": "https://arxiv.org/abs/2611.05319v1",
+      "source": "arXiv cs.IR",
+      "section": "ai-ml",
+      "published": "2026-11-03T18:24:20+00:00",
+      "points": null,
+      "score": 8.0,
+      "id": "506aefbe59c5be8d42516db4b012a297530a4d8b",
+      "summary": "HARP introduces a training‑free, dual‑profile communication protocol that lets both users and items generate self‑descriptions for LLM‑based recommendation.",
+      "detail": "The method restructures recommendation as four stages—BUILD, TRANSMIT, UNDERSTAND, SYNC—exposing three gaps: one‑sided item descriptions, prompt‑trapped user signals, and frozen user profiles after warmup. HARP resolves these by enabling item self‑descriptions, moving profile signals to retrieval, and providing a principled sync update, all without additional model training.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "JHiMA-WebRL: A Joint Hierarchical Multi-Agent Reinforcement Learning Framework for Long-Horizon Web Tasks",
+      "url": "https://arxiv.org/abs/2611.05263v1",
+      "source": "arXiv cs.AI",
+      "section": "ai-ml",
+      "published": "2026-11-03T17:49:14+00:00",
+      "points": null,
+      "score": 7.5,
+      "id": "0213e866e47e6cfab3fb1f3874aa344e53b843be",
+      "summary": "JHiMA-WebRL jointly trains a hierarchical planner and actor to improve long‑horizon web navigation.",
+      "detail": "Prior modular web agents kept the planner static while training the executor, limiting adaptability. JHiMA-WebRL couples a task decomposer with an execution policy in a reinforcement‑learning loop, giving the system a stronger inductive bias for multi‑step, multimodal tasks that require tracking progress across complex GUIs.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "Agentic cheminformatics with Google Antigravity",
+      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "source": "deepmind blog",
+      "section": "ai-ml",
+      "published": "2026-11-03T17:01:49+00:00",
+      "points": null,
+      "score": 5.0,
+      "id": "adafdd4764cb9dbbcc8baf5f90eab559ee61ffdd",
+      "summary": "Google Antigravity and Cheminformatics Skills accelerate drug discovery by searching compounds and proposing novel rigid macrocycles.",
+      "detail": "The blog outlines how the Antigravity platform integrates with cheminformatics tools to streamline virtual screening and design cycles, reducing manual effort and enabling rapid hypothesis generation for medicinal chemistry projects.",
+      "key_points": [],
+      "tag": "News",
+      "highlight": true,
+      "image": "https://lh3.googleusercontent.com/UFTBrp1IrRBrc6_f4ibNgtV35iY8F2iTYaqOb1lzR-qZNy-Mb5726xrLKTozohfdZ_3quHe50uyn8z-Wh_Eril_8CVh7py7gH0188sl_EXkoJknlqg=w1200-h630-n-nu-rw",
+      "related": {}
+    },
+    {
+      "title": "Distributed LTL Synthesis under Arbitrary Message Adversaries",
+      "url": "https://arxiv.org/abs/2611.04561v1",
+      "source": "arXiv cs.DC",
+      "section": "cs-research",
+      "published": "2026-11-03T09:26:15+00:00",
+      "points": null,
+      "score": 4.0,
+      "id": "5ff351adf269cc577b02cf53eb59fbe97ef7b8de",
+      "summary": "Distributed LTL synthesis remains undecidable even when each round guarantees at least one message delivery.",
+      "detail": "The authors characterize exactly which communication restrictions make synthesis decidable, describing them via message adversaries and mapping histories to points in the unit interval using iterated chromatic subdivision.",
+      "key_points": [
+        "synthesis undecidable",
+        "delivery guarantee"
+      ],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "Adversarial Speculative Reasoning Improves Long Horizon Agents",
+          "url": "https://arxiv.org/abs/2611.05345v1",
+          "source": "arXiv cs.AI",
+          "section": "ai-ml",
+          "published": "2026-11-03T18:45:23+00:00",
+          "points": null,
+          "score": 9.5,
+          "id": "9a5614c13eef8874977b163cb6134b43e643b5a5",
+          "summary": "Controlling numerical noise in speculative decoding improves the reasoning accuracy of long-horizon agents after 30 steps.",
+          "detail": "Previous work treated speculative decoding as a pure speed optimization, focusing only on draft acceptance rates. Experiments showed that verification windows introduce noise that drifts the model's output distribution, harming agentic tasks. By mitigating this noise, the target model retains more faithful reasoning over extended horizons.",
+          "key_points": [
+            "30 steps"
+          ],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "HARP: Training-Free Dual-Profile Agentic Communication for LLM-Based Recommendation",
+          "url": "https://arxiv.org/abs/2611.05319v1",
+          "source": "arXiv cs.IR",
+          "section": "ai-ml",
+          "published": "2026-11-03T18:24:20+00:00",
+          "points": null,
+          "score": 8.0,
+          "id": "506aefbe59c5be8d42516db4b012a297530a4d8b",
+          "summary": "HARP introduces a training‑free, dual‑profile communication protocol that lets both users and items generate self‑descriptions for LLM‑based recommendation.",
+          "detail": "The method restructures recommendation as four stages—BUILD, TRANSMIT, UNDERSTAND, SYNC—exposing three gaps: one‑sided item descriptions, prompt‑trapped user signals, and frozen user profiles after warmup. HARP resolves these by enabling item self‑descriptions, moving profile signals to retrieval, and providing a principled sync update, all without additional model training.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "JHiMA-WebRL: A Joint Hierarchical Multi-Agent Reinforcement Learning Framework for Long-Horizon Web Tasks",
+          "url": "https://arxiv.org/abs/2611.05263v1",
+          "source": "arXiv cs.AI",
+          "section": "ai-ml",
+          "published": "2026-11-03T17:49:14+00:00",
+          "points": null,
+          "score": 7.5,
+          "id": "0213e866e47e6cfab3fb1f3874aa344e53b843be",
+          "summary": "JHiMA-WebRL jointly trains a hierarchical planner and actor to improve long‑horizon web navigation.",
+          "detail": "Prior modular web agents kept the planner static while training the executor, limiting adaptability. JHiMA-WebRL couples a task decomposer with an execution policy in a reinforcement‑learning loop, giving the system a stronger inductive bias for multi‑step, multimodal tasks that require tracking progress across complex GUIs.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Agentic cheminformatics with Google Antigravity",
+          "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+          "source": "deepmind blog",
+          "section": "ai-ml",
+          "published": "2026-11-03T17:01:49+00:00",
+          "points": null,
+          "score": 5.0,
+          "id": "adafdd4764cb9dbbcc8baf5f90eab559ee61ffdd",
+          "summary": "Google Antigravity and Cheminformatics Skills accelerate drug discovery by searching compounds and proposing novel rigid macrocycles.",
+          "detail": "The blog outlines how the Antigravity platform integrates with cheminformatics tools to streamline virtual screening and design cycles, reducing manual effort and enabling rapid hypothesis generation for medicinal chemistry projects.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": true,
+          "image": "https://lh3.googleusercontent.com/UFTBrp1IrRBrc6_f4ibNgtV35iY8F2iTYaqOb1lzR-qZNy-Mb5726xrLKTozohfdZ_3quHe50uyn8z-Wh_Eril_8CVh7py7gH0188sl_EXkoJknlqg=w1200-h630-n-nu-rw",
+          "related": {}
+        },
+        {
+          "title": "Accelerating engineering for the physical world",
+          "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-03T12:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "26c6032e1d2677657b700d5fc3cfed3434f8516c",
+          "summary": "ChatGPT and Codex are used to speed up CAD, PCB design, and simulation workflows for physical‑world engineering.",
+          "detail": "OpenAI describes several case studies where large language models generate code snippets, automate design rule checks, and interface with simulation tools, cutting iteration times for hardware engineers.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/3NAeFNOstkEE0aSxayt8NT/cedb470d8c0bcd7e6a2ca828c1db136c/accelerating-engineering-physical-world-social.png?w=1600&h=900&fit=fill",
+          "related": {}
+        },
+        {
+          "title": "F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale",
+          "url": "https://engineering.fb.com/2026/11/03/ml-applications/f3-lightning-how-meta-accelerates-ads-ml-features-to-production/",
+          "source": "meta ai blog",
+          "section": "ai-ml",
+          "published": "2026-11-03T17:00:35+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "e1491c4239ea20a024f097bce28c259f513d047c",
+          "summary": "Meta’s F3 framework compiles over 20,000 ad‑ranking features into a single graph, cutting execution compute costs.",
+          "detail": "First shown at AI @ Scale 2020, the Facebook Feature Framework merges feature calculations to reduce redundancy and latency. The post details engineering practices that enable rapid production rollout of new ML features for ads.",
+          "key_points": [
+            "20,000 features"
+          ],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://engineering.fb.com/wp-content/uploads/2026/10/Meta-F3-Lightning-Hero.png",
+          "related": {}
+        },
+        {
+          "title": "Heimstaden is changing residential real estate management with AI",
+          "url": "https://openai.com/index/heimstaden",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-03T08:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "08b710f1e7801fa86cc96c61e8aad81d8bc7aec0",
+          "summary": "Heimstaden is deploying OpenAI’s ChatGPT Enterprise and Codex to automate residential property management across Europe, aiming to reduce operational costs.",
+          "detail": "The integration leverages conversational AI for tenant interactions and code generation tools to streamline internal workflows. Employees gain AI‑assisted assistance for routine tasks, potentially improving response times. The rollout is part of a broader digital transformation in the real‑estate sector.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/BJ4nJzcUdBNquMyox1gEz/27e1824d4f3565364c2a0aa36c28131d/heimstaden-bostad-terracotta-seo-image-1920x1080.png?w=1600&h=900&fit=fill",
+          "related": {}
+        },
+        {
+          "title": "How Cisco defends at machine speed with OpenAI",
+          "url": "https://openai.com/index/cisco-cyber",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-03T08:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "a2357e701f020223b3100435aeb5d89294fe9043",
+          "summary": "Cisco is embedding OpenAI models into its network stack to enable real‑time, adaptive security defenses at machine speed.",
+          "detail": "The solution combines Cisco’s telemetry data with large language models to detect anomalies and generate mitigation actions automatically. This approach aims to reduce the latency between threat detection and response, complementing existing rule‑based systems. It reflects a trend toward AI‑augmented network security.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/36h62E2b83Pzjfkrm6ZnOF/e611d7923f6c0533eed4d76ea9b48c08/cisco-cyber-social.png?w=1600&h=900&fit=fill",
+          "related": {}
+        },
+        {
+          "title": "Palette: teaching a small model to build decks in your design language",
+          "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+          "source": "huggingface blog",
+          "section": "ai-ml",
+          "published": "2026-11-03T16:35:36+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "bc4177032a04e266005389ab50fe48dec84e39b0",
+          "summary": "Palette introduces a compact model trained to generate UI decks that follow a user’s design language.",
+          "detail": "The model learns style cues from a small dataset of existing decks and can produce new layouts that match the target aesthetic. It is positioned as a lightweight alternative to larger generative systems, enabling faster iteration for designers. The approach highlights the feasibility of domain‑specific small models.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/63890e3843d8b0797a0ad606/5pHD09UHuAK-6OyKGKimD.png",
+          "related": {}
+        },
+        {
+          "title": "StateBench: Testing how language models track state changes over long documents",
+          "url": "https://huggingface.co/blog/allenai/statebench",
+          "source": "huggingface blog",
+          "section": "ai-ml",
+          "published": "2026-11-03T17:15:21+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "a55665cf48953af7dc76daedcea9b4808e76b70d",
+          "summary": "StateBench is a benchmark suite that evaluates how language models maintain and update state information across long documents.",
+          "detail": "The suite presents sequences of operations requiring the model to track variable values, conditions, and updates over extended contexts. It helps identify gaps in long‑range reasoning that standard QA benchmarks miss. Results can guide architecture improvements for better state handling.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/5g9HfQLFFaQE0fslWrxh0.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "Security updates for Tuesday",
+          "url": "https://lwn.net/Articles/1105111/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-03T14:10:12+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "97203355f3e2ca80bf46d7cceea90d35d93dd13a",
+          "summary": "Multiple Linux distributions released security updates on Tuesday covering dozens of packages, including kernel and browser components.",
+          "detail": "AlmaLinux, Debian, Fedora, Mageia, and Red Hat each published patches for components such as bind, Firefox, kernel, and OpenSSL. The updates address vulnerabilities disclosed in recent advisories and are recommended for immediate installation. No single critical CVE dominates the list.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "A massive pile of security updates for Saturday",
+            "url": "https://lwn.net/Articles/1104612/",
+            "date": "2026-11-01",
+            "id": "9f9073d2f29360627ded5b92f84207968f8ea5bf"
+          }
+        },
+        {
+          "title": "Fedora Linux 45 released",
+          "url": "https://lwn.net/Articles/1105121/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-03T15:11:32+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "2167f85e86bee0f38967a517985b3d4ed69710cc",
+          "summary": "Fedora Linux 45 has been released, adding Stratis storage support and retiring legacy VPN plugins.",
+          "detail": "The release ships all Fedora editions—Workstation, KDE Plasma, Server, Cloud, CoreOS, and IoT—plus Atomic Desktops and Spins. It updates desktop environments, developer toolchains, and system packages. Users can now install on Stratis volumes via Anaconda or Kickstart, simplifying storage management.",
+          "key_points": [
+            "Version 45",
+            "Stratis support added",
+            "Legacy VPN plugins removed"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "Robinson: Raspberry Pi 5 on Fedora",
+            "url": "https://lwn.net/Articles/1103212/",
+            "date": "2026-10-28",
+            "id": "a13b169ccc586e6d3c60b35bd077136c45d8174b"
+          }
+        },
+        {
+          "title": "OpenSUSE Leap 16.1",
+          "url": "https://lwn.net/Articles/1105131/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-03T17:09:48+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "b60da5a91b378d4dc54e7d73f31c5fcaa1011e5f",
+          "summary": "openSUSE Leap 16.1 adds immutable images for all supported platforms, alongside traditional installations.",
+          "detail": "The new mode shares the same release cycle and maintenance updates as the rest of Leap, letting users choose between mutable and immutable workloads on servers, desktops, and VMs. Leap Micro's experience is retained.",
+          "key_points": [
+            "16.1 release",
+            "immutable images across all platforms"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "[$] LLM reviews for Debian's new queue spark debate",
+          "url": "https://lwn.net/Articles/1103674/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-03T16:28:40+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "4561cb353672409ad6604e926336612e7386bbfe",
+          "summary": "Debian voted in August for the fifth of eight policy options, adopting a \"Responsible Use of Generative AI\" stance.",
+          "detail": "Following the resolution, the DFSG team began using LLMs to draft reviews of packages entering Debian's new queue, sparking debate over the boundaries of AI‑generated output in package maintenance.",
+          "key_points": [
+            "vote August",
+            "option 5 of 8"
+          ],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "2026 Hackaday Supercon: Bruce Potter’s Keynote Explores the Hacker Mind",
+          "url": "https://hackaday.com/2026/11/03/2026-hackaday-supercon-bruce-potters-keynote-explores-the-hacker-mind/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-03T18:00:28+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "2f86e7765ee6d5849bc2c93f0958788ee6e36792",
+          "summary": "Bruce Potter’s keynote at the 2026 Hackaday Supercon explored differing definitions of hacking beyond security.",
+          "detail": "The talk contrasted mainstream security‑focused views with broader creator‑oriented perspectives, highlighting how hacking can mean making or building, and set the tone for the conference’s diverse sessions.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/09/supercon-x-wide.png",
+          "related": {
+            "title": "2026 Hackaday Supercon: All the Speakers!",
+            "url": "https://hackaday.com/2026/10/29/2026-hackaday-supercon-all-the-speakers/",
+            "date": "2026-10-30",
+            "id": "a4f54e01f6907a273022b955fcd45cf2e68179bb"
+          }
+        },
+        {
+          "title": "As LLMs Devour the Storage Market, Fujifilm Bets on Tape",
+          "url": "https://hackaday.com/2026/11/03/as-llms-devour-the-storage-market-fujifilm-bets-on-tape/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-04T06:00:13+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "e242ef0ec07b7c3cb6c8dc3e72505fa6c872d619",
+          "summary": "Fujifilm announced a strategic shift toward magnetic tape storage as LLM workloads increase demand for cheap, high‑capacity media.",
+          "detail": "The move reflects concerns that AI‑driven data growth will strain existing storage markets, prompting Fujifilm to leverage its tape expertise for long‑term, cost‑effective archival solutions.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/fujifilm-lto-10-e1793725695938.jpg",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "cs-research",
+      "title": "CS research",
+      "tier": 4,
+      "items": [
+        {
+          "title": "Distributed LTL Synthesis under Arbitrary Message Adversaries",
+          "url": "https://arxiv.org/abs/2611.04561v1",
+          "source": "arXiv cs.DC",
+          "section": "cs-research",
+          "published": "2026-11-03T09:26:15+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "5ff351adf269cc577b02cf53eb59fbe97ef7b8de",
+          "summary": "Distributed LTL synthesis remains undecidable even when each round guarantees at least one message delivery.",
+          "detail": "The authors characterize exactly which communication restrictions make synthesis decidable, describing them via message adversaries and mapping histories to points in the unit interval using iterated chromatic subdivision.",
+          "key_points": [
+            "synthesis undecidable",
+            "delivery guarantee"
+          ],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Correctness Firewalls for Synthesized Database Components",
+          "url": "https://arxiv.org/abs/2611.05173v1",
+          "source": "arXiv cs.DB",
+          "section": "cs-research",
+          "published": "2026-11-03T16:39:10+00:00",
+          "points": null,
+          "score": 3.5,
+          "id": "d06e4a9b3e814790bcfb27bcb1f59fd43e342e20",
+          "summary": "Correctness firewalls let LLM‑generated database components run fast while preserving overall system correctness.",
+          "detail": "The approach defines lightweight design patterns that constrain synthesized code to affect performance but not results, demonstrated on cardinality estimation, sorted data search, and another component, bridging hand‑crafted guarantees with agent‑crafted speed.",
+          "key_points": [
+            "three case studies"
+          ],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Linking as Evaluation: Correct Separate Compilation via First-Class Environments",
+          "url": "https://arxiv.org/abs/2611.04993v1",
+          "source": "arXiv cs.PL",
+          "section": "cs-research",
+          "published": "2026-11-03T14:44:47+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "a774a823b5f8c77bbe5de4fc86905a02eb354c4b",
+          "summary": "The λₛᴄᴇ calculus makes linking a first‑class operation, allowing separately compiled modules to be linked via evaluation so compilation and linking commute by construction.",
+          "detail": "Linking is expressed through a link operator that type‑directed elaboration translates into core terms of first‑class environments. The core calculus's evaluation rules then perform the actual linking, guaranteeing that the result matches a source‑level link of the modules.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Properly defining Erlang lists",
+          "url": "https://arxiv.org/abs/2611.04929v1",
+          "source": "arXiv cs.PL",
+          "section": "cs-research",
+          "published": "2026-11-03T14:02:24+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "be02c1e05bc813294c7a5298bf81e8b1b8daa3b2",
+          "summary": "The authors formalize proper and improper list types, expose an OTP compiler bug, and propose a one‑line Dialyzer fix that uncovers six dead‑code instances in the OTP code base.",
+          "detail": "Both list variants are encoded as recursive cons‑cell types and implemented in etylizer. The proposed Dialyzer improvement is sound and directly applicable, and the work also surveys how other languages handle lists and cons cells.",
+          "key_points": [
+            "1 OTP compiler bug",
+            "6 dead code instances"
+          ],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Proving the Wrong Program: Miscompilations as a Threat to zkVM Guarantees",
+          "url": "https://arxiv.org/abs/2611.04701v1",
+          "source": "arXiv cs.PL",
+          "section": "cs-research",
+          "published": "2026-11-03T11:22:45+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "4ece5c10fde1fa5f1c984f09aa2006a561440347",
+          "summary": "An empirical study of 88 Rust/LLVM miscompilations shows 48 affect the SP1 zkVM and 46 affect Jolt, revealing miscompilation as a concrete threat to zkVM correctness.",
+          "detail": "The authors used an LLM agent to recover Rust triggers for 60 of 124 LLVM‑only bugs and found that many bugs do not manifest on zkVMs because they require unavailable ISA extensions. The same 15 rustc bugs impact both zkVMs.",
+          "key_points": [
+            "88 miscompilations studied",
+            "48 affect SP1",
+            "46 affect Jolt"
+          ],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Accelerating Offloading-Based MoE Inference by Interleaving Concurrent Requests",
+          "url": "https://arxiv.org/abs/2611.04794v1",
+          "source": "arXiv cs.DC",
+          "section": "cs-research",
+          "published": "2026-11-03T12:30:30+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "d1eb176e6b48217df746bc111b04dc43a117e28a",
+          "summary": "Bevy improves MoE inference by interleaving concurrent requests, showing that proper request scheduling outperforms prefetching when an expert cache is present.",
+          "detail": "Prefetching can waste bandwidth and GPU memory when the cache already holds needed experts, reducing prediction precision. Bevy uses runahead inference, letting requests with ready experts progress while others wait for fetches, increasing overall throughput.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "WaRP: Workload-Aware Request Planning for Vector Retrieval on Object Storage",
+            "url": "https://arxiv.org/abs/2610.29689v1",
+            "date": "2026-10-22",
+            "id": "295dcc99b533ee7e3b73e978421dddb02b7e5588"
+          }
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "Adaptix-Framework/AdaptixC2",
+          "url": "https://github.com/Adaptix-Framework/AdaptixC2",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 3833,
+          "score": 3.0,
+          "id": "b7e2902e00e6f4496cdf152654d469f22c8e7cb6",
+          "summary": "AdaptixC2 is a highly modular advanced red‑team toolkit written in C++.",
+          "detail": "The repository emphasizes extensibility, allowing users to compose and customize components for various security testing scenarios.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/1c90f9f45a92524b2f9fa4e1a9492489e154e35e6c5c9dd9d9f8f5d312786041/Adaptix-Framework/AdaptixC2",
+          "related": {}
+        },
+        {
+          "title": "github/copilot-cli",
+          "url": "https://github.com/github/copilot-cli",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 11344,
+          "score": 3.0,
+          "id": "1847a4bc56a0f66fc701cd8d8c51b3de4ac58244",
+          "summary": "GitHub Copilot CLI integrates the Copilot AI coding assistant directly into the terminal.",
+          "detail": "The tool enables command‑line code generation, suggestions, and completions, bringing AI‑assisted development to shell workflows.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/585860664/88c02908-2585-431c-9c8a-8db1f3521e91",
+          "related": {}
+        },
+        {
+          "title": "78/xiaozhi-esp32",
+          "url": "https://github.com/78/xiaozhi-esp32",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 32582,
+          "score": 2.0,
+          "id": "a0eabbb5d35595a88e3e7f956028aaa14833638b",
+          "summary": "A chatbot for ESP32 built on the MCP framework, written in C++.",
+          "detail": "The project targets the ESP32 microcontroller and uses the MCP (Message Control Protocol) to handle conversational flows. It is designed for low‑resource environments and can be integrated into IoT devices. The codebase is lightweight and intended for hobbyist and embedded developers.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/c3e932546c965638e7793dc94eceedcd0ee7d36bd33e4ce1d645b2308809b6c6/78/xiaozhi-esp32",
+          "related": {}
+        },
+        {
+          "title": "AminBlg/SimpleEnglish",
+          "url": "https://github.com/AminBlg/SimpleEnglish",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 4213,
+          "score": 2.0,
+          "id": "8f1425b317dc7c4a7b0d658032a7da409c483003",
+          "summary": "A Python tool that adds an agent skill enabling large language models to generate documentation conforming to the ASD‑STE100 simplified technical English standard.",
+          "detail": "The repository provides a wrapper that formats prompts so LLMs output text following the controlled vocabulary and style rules of ASD‑STE100. It can be used to produce clearer, internationally understandable technical manuals, reducing ambiguity in safety‑critical documentation.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/d43d94957dad4bc4f65ec531e4761aeb685d33db423bf25b3b1c6d597b9c700a/AminBlg/SimpleEnglish",
+          "related": {}
+        },
+        {
+          "title": "Usagi-org/ai-goofish-monitor",
+          "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 16976,
+          "score": 2.0,
+          "id": "51948d77555a6d85e64c8bd09b74d50419cbb9d8",
+          "summary": "A Playwright‑ and AI‑powered system for real‑time and scheduled monitoring of Xianyu listings, with a full backend UI for intelligent analysis.",
+          "detail": "The tool scrapes the Xianyu marketplace using Playwright, then applies AI models to classify and rank items. Users can set up recurring checks, receive alerts, and explore results through a web dashboard that supports filtering by price, category, and seller reputation.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/4c9d6c9a0879d0a5b7b2365446a35937ec2c54c789c42ce4965d3247ec0db411/Usagi-org/ai-goofish-monitor",
+          "related": {}
+        },
+        {
+          "title": "aardappel/goose",
+          "url": "https://github.com/aardappel/goose",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 2966,
+          "score": 2.0,
+          "id": "e15c137b7d8ad0323462c95a976cc52ad7b7ad64",
+          "summary": "Goose is a compiled programming language implemented in C++.",
+          "detail": "Goose aims to combine high‑level syntax with low‑level performance, offering static typing and a modern standard library. The compiler translates Goose source to native binaries, making it suitable for systems programming and performance‑critical applications.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/8d7ad2a6f5ff7a3057589c299cdb1657109e798b32a5dc700a36e4823ea69ea9/aardappel/goose",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
