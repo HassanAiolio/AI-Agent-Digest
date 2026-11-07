@@ -1,0 +1,533 @@
+{
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T09:02:59+00:00",
+  "stats": {
+    "fetched": 162,
+    "new_after_dedupe": 115,
+    "published": 17,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 19,
+      "supported": 19,
+      "dropped": 0,
+      "unverifiable": 2,
+      "summaries_reverted": 0,
+      "rate": 1.0
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. OpenAI is hiring hackers, and the kernel is finally letting your laptop nap.",
+    "stories": [
+      {
+        "kicker": "AI security",
+        "headline": "OpenAI teams up with Hacktron",
+        "body": "**Partnering to hunt bugs:** OpenAI announced a collaboration with Hacktron to find vulnerabilities, test third‑party integrations, and harden its frontier AI systems.",
+        "why": "Knowing the threat surface helps you design safer AI pipelines.",
+        "ids": [
+          "bc8f9eac19663ff628fb02870bf1eb637ef573a5"
+        ]
+      },
+      {
+        "kicker": "Embedded",
+        "headline": "Kernel patch lets hibernation survive lockdown",
+        "body": "**Sleep mode under lock:** Matthew Garrett submitted a patch that enables hibernation while the system is in lockdown mode, guarding against tampering and downgrade attacks.",
+        "why": "Your embedded devices can now power down securely without losing state.",
+        "ids": [
+          "03b40593e16491dc890a768c22f01e78470d79d9"
+        ]
+      },
+      {
+        "kicker": "Data pipelines",
+        "headline": "Airbyte climbs GitHub trending list",
+        "body": "**ELT for the masses:** Airbyte’s open‑source project moves data from APIs, databases, and files into warehouses, lakes, or AI apps, available self‑hosted or in the cloud.",
+        "why": "Simplifies feeding fresh data into your ML models.",
+        "ids": [
+          "246f30571e3e54022a0a06f4bf5af2a769f6c9a5"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Updates:** AlmaLinux, Debian, Fedora, Oracle push dozens of security patches, including kernel and glibc.",
+        "id": "2e3e9305d9afa35b4ffaeb6248018f1f78b722a4"
+      },
+      {
+        "text": "**Xen fixes:** Seven stable kernels address three use‑after‑free bugs in Xen hypervisor.",
+        "id": "407bd170b1e17a38fc9fd69388cfb4b10d652eaa"
+      },
+      {
+        "text": "**Robot sandbox:** ToyBlocks offers a simulated world for systematic robot learning evaluation.",
+        "id": "be1ba71e55b7f12516b9ba0c68b4b2f886873cb7"
+      },
+      {
+        "text": "**AI hub:** PipesHub adds 50+ connectors for self‑hosted enterprise knowledge search.",
+        "id": "1841e1e6b645f9bbba2d6b3234a62a0311c92131"
+      },
+      {
+        "text": "**Graphics debug:** RenderDoc lets you capture and inspect frames from Vulkan, DirectX, OpenGL, and more.",
+        "id": "2a046761cccfb0220191a7999480b1c00c7e4be0"
+      }
+    ],
+    "number": null,
+    "sign_off": "Catch you tomorrow—same time, same code.",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "6f83c980a333211356c0a8c902ef6db657a5c926",
+      "title": "Codeforces Round 1133 (Div. 1)",
+      "url": "https://codeforces.com/contests/2279",
+      "source": "Codeforces",
+      "starts": "2026-11-07T14:35:00+00:00",
+      "detail": "CF contest, 2.5h, starts Sat 07 Nov 14:35 UTC"
+    },
+    {
+      "id": "ffcb7b3246dd576d4ee4b719b9ad707615af0c4c",
+      "title": "Codeforces Round 1133 (Div. 2)",
+      "url": "https://codeforces.com/contests/2280",
+      "source": "Codeforces",
+      "starts": "2026-11-07T14:35:00+00:00",
+      "detail": "CF contest, 2.5h, starts Sat 07 Nov 14:35 UTC"
+    },
+    {
+      "id": "e296aeec0849311a946aeeb65f9f180a6eedb497",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2285",
+      "source": "Codeforces",
+      "starts": "2026-11-15T14:35:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sun 15 Nov 14:35 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "First steps in bare-metal programming using UEFI",
+      "url": "https://kevinboone.me/efitest_index.html",
+      "source": "Hacker News",
+      "section": "embedded",
+      "published": "2026-11-06T16:50:29+00:00",
+      "points": 219,
+      "score": 4.0,
+      "id": "20c1278149bb3591dcac0d89aff35387e72dade9",
+      "summary": "A Hacker News post outlines initial steps for bare‑metal programming using UEFI.",
+      "detail": "The guide walks developers through setting up a minimal UEFI application, compiling for a target platform, and flashing firmware, providing a practical entry point for low‑level system work without an operating system.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "Security updates for Friday",
+      "url": "https://lwn.net/Articles/1105881/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-11-06T14:04:54+00:00",
+      "points": null,
+      "score": 4.0,
+      "id": "2e3e9305d9afa35b4ffaeb6248018f1f78b722a4",
+      "summary": "AlmaLinux, Debian, Fedora, and Oracle issued security updates for dozens of packages including kernel, glibc, mariadb, php, and firefox on Friday.",
+      "detail": "The updates cover a wide range of components such as container-tools, gcc-toolset-12, gimp 2.8, go-toolset, libfastjson, mysql 8.0, squid 4, rust crates, and more. Each distribution lists its own affected packages, reflecting coordinated effort across Linux ecosystems to patch known vulnerabilities.",
+      "key_points": [],
+      "tag": "Release",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "source": "openai blog",
+      "section": "ai-ml",
+      "published": "2026-11-06T08:00:00+00:00",
+      "points": null,
+      "score": 3.0,
+      "id": "bc8f9eac19663ff628fb02870bf1eb637ef573a5",
+      "summary": "OpenAI announced a partnership with Hacktron to locate vulnerabilities, test third‑party integrations, and improve defenses for frontier AI systems.",
+      "detail": "The collaboration aims to combine Hacktron's security expertise with OpenAI's infrastructure, focusing on proactive threat hunting and hardening of API connections. It reflects a broader industry trend of engaging external red teams for AI safety.",
+      "key_points": [],
+      "tag": "News",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "[$] Locking down hibernation for the winter",
+      "url": "https://lwn.net/Articles/1103190/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-11-06T18:51:28+00:00",
+      "points": null,
+      "score": 3.0,
+      "id": "03b40593e16491dc890a768c22f01e78470d79d9",
+      "summary": "Matthew Garrett submitted a kernel patch to allow hibernation under lockdown mode while protecting against tampering and downgrade attacks.",
+      "detail": "Current lockdown disables hibernation because the kernel cannot verify the integrity of the saved memory image. The proposed changes add cryptographic verification and version checks, aiming to keep the security guarantees of lockdown without sacrificing suspend-to-disk functionality.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "airbytehq/airbyte",
+      "url": "https://github.com/airbytehq/airbyte",
+      "source": "GitHub trending · python",
+      "section": "repos",
+      "published": null,
+      "points": 22330,
+      "score": 3.0,
+      "id": "246f30571e3e54022a0a06f4bf5af2a769f6c9a5",
+      "summary": "Airbyte’s open‑source project enables ELT data movement from APIs, databases, and files to warehouses, lakes, and AI applications, available for self‑hosted or cloud deployment.",
+      "detail": "The repository, written in Python, includes connectors for a wide range of sources and destinations, facilitating integration pipelines for machine‑learning workloads. Community contributions drive new adapters and improvements.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://opengraph.githubassets.com/b2606cf9bd4eb272c5c9fb71402e8efb26075b52ca640fccc434113adb00f92e/airbytehq/airbyte",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+          "url": "https://openai.com/index/partnering-with-hacktron",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-06T08:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "bc8f9eac19663ff628fb02870bf1eb637ef573a5",
+          "summary": "OpenAI announced a partnership with Hacktron to locate vulnerabilities, test third‑party integrations, and improve defenses for frontier AI systems.",
+          "detail": "The collaboration aims to combine Hacktron's security expertise with OpenAI's infrastructure, focusing on proactive threat hunting and hardening of API connections. It reflects a broader industry trend of engaging external red teams for AI safety.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+          "url": "https://huggingface.co/blog/allenai/toyblocks",
+          "source": "huggingface blog",
+          "section": "ai-ml",
+          "published": "2026-11-06T14:00:48+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "be1ba71e55b7f12516b9ba0c68b4b2f886873cb7",
+          "summary": "ToyBlocks is a simulated environment designed for robot learning and systematic evaluation.",
+          "detail": "The platform provides a controllable, physics‑based world where researchers can benchmark manipulation policies under repeatable conditions, facilitating reproducibility and rapid iteration compared to real‑world robot trials.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/OAJMu2jr7i5jVAbmsKdZW.jpeg",
+          "related": {}
+        },
+        {
+          "title": "Model: OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
+          "url": "https://huggingface.co/OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-23T08:59:53.000Z",
+          "points": 269,
+          "score": 1.5,
+          "id": "5bb8115efd77960a957cef31c12fc4ee72b34394",
+          "summary": "The OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated model has been downloaded 2,640 times and received 269 likes on Hugging Face.",
+          "detail": "Listed under text‑generation, the model appears to attract moderate community interest. Its popularity may indicate usefulness for downstream generation tasks, though no performance metrics are provided.",
+          "key_points": [
+            "2,640 downloads",
+            "269 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated.png",
+          "related": {}
+        },
+        {
+          "title": "Model: moonshotai/Kimi-K3.1-Pro",
+          "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-11-02T04:13:51.000Z",
+          "points": 1571,
+          "score": 1.5,
+          "id": "7838c87736f9082fb144453a5a532f0d0cfd974f",
+          "summary": "moonshotai/Kimi-K3.1-Pro, an image‑text‑to‑text model, has 18,432 downloads and 1,571 likes on Hugging Face.",
+          "detail": "The high download count suggests strong demand for multimodal generation capabilities. Users likely leverage it for tasks that combine visual inputs with natural language output, though specific benchmark results are not listed.",
+          "key_points": [
+            "18,432 downloads",
+            "1,571 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/moonshotai/Kimi-K3.1-Pro.png",
+          "related": {}
+        },
+        {
+          "title": "Model: ricursiveAI/Ripple-65B-Preview",
+          "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-11-04T02:41:21.000Z",
+          "points": 345,
+          "score": 1.5,
+          "id": "276a2df43aba8c2f34b8bd4ce11ccb7fce2606ff",
+          "summary": "ricursiveAI/Ripple-65B-Preview has been downloaded 2,013 times and earned 345 likes on Hugging Face.",
+          "detail": "As a 65‑billion‑parameter preview model, its download figures reflect niche interest, possibly from researchers testing large‑scale language capabilities before full release.",
+          "key_points": [
+            "2,013 downloads",
+            "345 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/ricursiveAI/Ripple-65B-Preview.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "First steps in bare-metal programming using UEFI",
+          "url": "https://kevinboone.me/efitest_index.html",
+          "source": "Hacker News",
+          "section": "embedded",
+          "published": "2026-11-06T16:50:29+00:00",
+          "points": 219,
+          "score": 4.0,
+          "id": "20c1278149bb3591dcac0d89aff35387e72dade9",
+          "summary": "A Hacker News post outlines initial steps for bare‑metal programming using UEFI.",
+          "detail": "The guide walks developers through setting up a minimal UEFI application, compiling for a target platform, and flashing firmware, providing a practical entry point for low‑level system work without an operating system.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Security updates for Friday",
+          "url": "https://lwn.net/Articles/1105881/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-06T14:04:54+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "2e3e9305d9afa35b4ffaeb6248018f1f78b722a4",
+          "summary": "AlmaLinux, Debian, Fedora, and Oracle issued security updates for dozens of packages including kernel, glibc, mariadb, php, and firefox on Friday.",
+          "detail": "The updates cover a wide range of components such as container-tools, gcc-toolset-12, gimp 2.8, go-toolset, libfastjson, mysql 8.0, squid 4, rust crates, and more. Each distribution lists its own affected packages, reflecting coordinated effort across Linux ecosystems to patch known vulnerabilities.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "[$] Locking down hibernation for the winter",
+          "url": "https://lwn.net/Articles/1103190/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-06T18:51:28+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "03b40593e16491dc890a768c22f01e78470d79d9",
+          "summary": "Matthew Garrett submitted a kernel patch to allow hibernation under lockdown mode while protecting against tampering and downgrade attacks.",
+          "detail": "Current lockdown disables hibernation because the kernel cannot verify the integrity of the saved memory image. The proposed changes add cryptographic verification and version checks, aiming to keep the security guarantees of lockdown without sacrificing suspend-to-disk functionality.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Seven stable kernels with fixes for three Xen vulnerabilities",
+          "url": "https://lwn.net/Articles/1105902/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-06T18:48:34+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "407bd170b1e17a38fc9fd69388cfb4b10d652eaa",
+          "summary": "Seven Linux stable kernels (7.3.3, 6.18.62, 6.12.116, 6.6.162, 6.1.192, 5.15.225, 5.10.274) were released fixing three Xen use‑after‑free bugs (CVE‑2026‑100080, CVE‑2026‑100081, CVE‑2026‑100082).",
+          "detail": "Two of the CVEs could cause a denial‑of‑service and possible information leakage on the Xen host, while the third also enables privilege escalation. Users running Xen are advised to upgrade to any of the listed stable releases.",
+          "key_points": [
+            "7 kernels released",
+            "CVE-2026-100080",
+            "CVE-2026-100081"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "Two stable kernels for Monday",
+            "url": "https://lwn.net/Articles/1102973/",
+            "date": "2026-10-27",
+            "id": "0813c1338475c1d2572136224e227c07fa3e75b8"
+          }
+        },
+        {
+          "title": "Two stable kernels for Friday",
+          "url": "https://lwn.net/Articles/1105899/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-06T18:09:16+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "b770729e708d70991016e9469a0ef2c89fc74272",
+          "summary": "Greg Kroah‑Hartman released Linux stable kernels 7.3.2 and 6.18.61 on Friday, containing numerous tree‑wide changes.",
+          "detail": "Both kernels incorporate a variety of bug fixes and minor feature updates across subsystems. The announcement encourages users to upgrade to benefit from the latest stability improvements.",
+          "key_points": [
+            "7.3.2",
+            "6.18.61"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "Eight more stable kernel updates",
+            "url": "https://lwn.net/Articles/1104177/",
+            "date": "2026-10-31",
+            "id": "75fdd5d220e08b01347eb2ec78ffba4648e7af04"
+          }
+        },
+        {
+          "title": "Videos from XDC 2026 are available",
+          "url": "https://lwn.net/Articles/1105913/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-06T20:25:22+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "9cf61a74c8cd5fd3e0fabda80cd92e10216ffab4",
+          "summary": "Videos from the 2026 X.Org Developers Conference held in Toronto (Sept 28‑30) are now posted on YouTube.",
+          "detail": "The conference covered updates to the X Window System, driver development, and upcoming roadmap items. The recordings provide full access to talks and panels for developers who could not attend in person.",
+          "key_points": [
+            "Sept 28‑30 2026"
+          ],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "airbytehq/airbyte",
+          "url": "https://github.com/airbytehq/airbyte",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 22330,
+          "score": 3.0,
+          "id": "246f30571e3e54022a0a06f4bf5af2a769f6c9a5",
+          "summary": "Airbyte’s open‑source project enables ELT data movement from APIs, databases, and files to warehouses, lakes, and AI applications, available for self‑hosted or cloud deployment.",
+          "detail": "The repository, written in Python, includes connectors for a wide range of sources and destinations, facilitating integration pipelines for machine‑learning workloads. Community contributions drive new adapters and improvements.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://opengraph.githubassets.com/b2606cf9bd4eb272c5c9fb71402e8efb26075b52ca640fccc434113adb00f92e/airbytehq/airbyte",
+          "related": {}
+        },
+        {
+          "title": "pipeshub-ai/pipeshub-ai",
+          "url": "https://github.com/pipeshub-ai/pipeshub-ai",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 4035,
+          "score": 3.0,
+          "id": "1841e1e6b645f9bbba2d6b3234a62a0311c92131",
+          "summary": "PipesHub is an open-source, self‑hosted context layer that lets AI agents search and cite a company's knowledge across Slack, Drive, Jira, GitHub, Microsoft 365 and over 50 connectors.",
+          "detail": "It provides permission‑aware workspaces and includes MCP, SDKs, and built‑in agents for integration. The platform aims to centralize enterprise data for AI‑driven workflows without relying on external services.",
+          "key_points": [
+            "50+ connectors",
+            "self‑hosted"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/944080744/f6ced8bc-f508-425f-a438-df7aeeaa4fce",
+          "related": {}
+        },
+        {
+          "title": "antoniaci/blackbird",
+          "url": "https://github.com/antoniaci/blackbird",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 9872,
+          "score": 2.5,
+          "id": "e27a28e5dc6e138809ae6aece6add9ecc8c88b63",
+          "summary": "Blackbird is an OSINT utility that searches social networks for accounts linked to a given username or email address.",
+          "detail": "The tool automates enumeration across multiple platforms, helping investigators quickly map online identities. It is written in Python and available as an open‑source project.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/e0158059f376dbbaeb489e37baee873ed77d800616fae5590db73f580504a02a/antoniaci/blackbird",
+          "related": {}
+        },
+        {
+          "title": "baldurk/renderdoc",
+          "url": "https://github.com/baldurk/renderdoc",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 11281,
+          "score": 2.5,
+          "id": "2a046761cccfb0220191a7999480b1c00c7e4be0",
+          "summary": "RenderDoc is a stand‑alone graphics debugging application for capturing and inspecting frames from DirectX, Vulkan, OpenGL, and other APIs.",
+          "detail": "Developers use it to analyze rendering pipelines, spot performance bottlenecks, and verify shader output. The tool runs on Windows, Linux, and macOS and supports a wide range of GPU hardware.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/17253131/2069ee80-35fe-11ea-9bdf-2b164300be99",
+          "related": {}
+        },
+        {
+          "title": "django/django",
+          "url": "https://github.com/django/django",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 91672,
+          "score": 2.5,
+          "id": "4c2682aabbd49ddc1ac50f3aeea128d707f7569b",
+          "summary": "Django is a Python web framework that emphasizes rapid development and clean, pragmatic design.",
+          "detail": "It includes an ORM, templating engine, authentication system, and extensive admin interface, enabling developers to build scalable sites with minimal boilerplate. The project is maintained by a large open‑source community.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/0d9721cf080624afa52de15f62b03b9d20431f3a2d062b3457d6d5637bc4f7fb/django/django",
+          "related": {}
+        },
+        {
+          "title": "fmtlib/fmt",
+          "url": "https://github.com/fmtlib/fmt",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 25912,
+          "score": 2.5,
+          "id": "51f20a69b74d518b56735af1b90375f889d12481",
+          "summary": "fmt is a modern C++ formatting library offering type‑safe, Python‑style string interpolation.",
+          "detail": "It replaces traditional printf‑style functions with compile‑time checks, improving safety and performance. The library is header‑only, supports C++20 features, and integrates with standard streams.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/0e7a3da5fa10aa921d8c661898826ae8a70491b59cbeec5b65f922742efae515/fmtlib/fmt",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
