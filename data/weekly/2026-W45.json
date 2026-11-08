@@ -1,0 +1,169 @@
+{
+  "week": "2026-W45",
+  "start": "2026-11-02",
+  "end": "2026-11-08",
+  "title": "LLM Agents, Low‑Bit Tricks, and System Updates",
+  "intro": "This week the AI crowd wrestled with making LLM agents more reliable while engineers squeezed performance out of tiny bits and tiny chips. Meanwhile, the Linux kernel kept churning out patches and security fixes.",
+  "themes": [
+    {
+      "headline": "LLM agents get smarter, not bigger",
+      "body": "**Lead‑in:** Researchers focused on boosting agent reasoning without extra training. Turn‑level best‑of‑N sampling lifted accuracy 5–10%, speculative decoding tamed noise over 30 steps, and cached‑trace embeddings enabled efficient evaluation. Together they show a push toward smarter, lighter‑weight agents.",
+      "items": [
+        {
+          "id": "0ffa6911a195e61d252dfd1dd3437b7593bb2918",
+          "title": "On Turn-Level Best-of-N Sampling for Scaling LLM Agents",
+          "url": "https://arxiv.org/abs/2611.06868v1",
+          "date": "2026-11-05",
+          "source": "arXiv cs.AI",
+          "section": "AI & ML"
+        },
+        {
+          "id": "9a5614c13eef8874977b163cb6134b43e643b5a5",
+          "title": "Adversarial Speculative Reasoning Improves Long Horizon Agents",
+          "url": "https://arxiv.org/abs/2611.05345v1",
+          "date": "2026-11-04",
+          "source": "arXiv cs.AI",
+          "section": "AI & ML"
+        },
+        {
+          "id": "ab735a883b807a05217ba3f7879c90de84790e36",
+          "title": "Task-Efficient Agent Evaluation Using Cached Traces",
+          "url": "https://arxiv.org/abs/2611.06803v1",
+          "date": "2026-11-05",
+          "source": "arXiv cs.AI",
+          "section": "AI & ML"
+        }
+      ]
+    },
+    {
+      "headline": "Low‑bit inference and memory tricks",
+      "body": "**Lead‑in:** Memory‑hierarchy‑aware frameworks like StrataFlux proved you can keep 2‑4‑bit weights fast while streaming higher‑precision data to preserve accuracy. Meanwhile Library of Layers reordered transformer blocks at runtime, and HARP showed training‑free dual‑profile communication for recommendation, highlighting a trend of architectural hacks over brute force scaling.",
+      "items": [
+        {
+          "id": "2a77a746e339e76e800e83dbd277e3931c9e0a14",
+          "title": "StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference",
+          "url": "https://arxiv.org/abs/2611.08363v1",
+          "date": "2026-11-06",
+          "source": "arXiv cs.LG",
+          "section": "AI & ML"
+        },
+        {
+          "id": "9b36c054b2ee833b16eaf77d9ea161130e7129bf",
+          "title": "Library of Layers (LoL): Adaptively Ordering Transformer Layers at Runtime",
+          "url": "https://arxiv.org/abs/2611.03526v1",
+          "date": "2026-11-03",
+          "source": "arXiv cs.LG",
+          "section": "AI & ML"
+        },
+        {
+          "id": "506aefbe59c5be8d42516db4b012a297530a4d8b",
+          "title": "HARP: Training-Free Dual-Profile Agentic Communication for LLM-Based Recommendation",
+          "url": "https://arxiv.org/abs/2611.05319v1",
+          "date": "2026-11-04",
+          "source": "arXiv cs.IR",
+          "section": "AI & ML"
+        }
+      ]
+    },
+    {
+      "headline": "Embedded & Linux ecosystem buzz",
+      "body": "**Lead‑in:** The Linux kernel saw a massive 7.4‑rc1 prepatch with 18,591 changesets from 2,678 developers, plus security updates across major distros. On the hardware side, ESP32 ran full Linux, a $15 FPGA board turned retro, and RISC‑V initiatives gained traction, underscoring a vibrant low‑level development scene.",
+      "items": [
+        {
+          "id": "1c0ff372f36844c565fb37c4de0e3eeda70052d3",
+          "title": "Kernel prepatch 7.4-rc1",
+          "url": "https://lwn.net/Articles/1104654/",
+          "date": "2026-11-02",
+          "source": "lwn",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "f8077848c252f5d49427de8a105422b71ac9490a",
+          "title": "Security updates for Thursday",
+          "url": "https://lwn.net/Articles/1105639/",
+          "date": "2026-11-06",
+          "source": "lwn",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "82ead5ea45aeebd1d60ba779649ebab4873f3a5d",
+          "title": "Proper Linux, On An ESP32",
+          "url": "https://hackaday.com/2026/11/07/proper-linux-on-an-esp32/",
+          "date": "2026-11-08",
+          "source": "hackaday",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "ccf5e5fcbaaac05b7fcf768636a93c5a81cb360e",
+          "title": "Cheap FPGA Board Becomes Retro-Style Computer",
+          "url": "https://hackaday.com/2026/11/01/cheap-fpga-board-becomes-retro-style-computer/",
+          "date": "2026-11-02",
+          "source": "hackaday",
+          "section": "Embedded & systems"
+        }
+      ]
+    },
+    {
+      "headline": "Benchmarks and real‑world AI tasks",
+      "body": "**Lead‑in:** New benchmarks put LLM agents to the test on scientific and clinical problems—from Earth system model parameterizations to nasopharyngeal carcinoma care pathways—revealing both promise and gaps in accuracy and coverage.",
+      "items": [
+        {
+          "id": "ccb523bb7f726a1fdc943e6ea65759d3178d3692",
+          "title": "Can LLM Agents Improve Imperfect Earth System Model Parameterizations?",
+          "url": "https://arxiv.org/abs/2611.03543v1",
+          "date": "2026-11-03",
+          "source": "arXiv physics.ao-ph",
+          "section": "AI & ML"
+        },
+        {
+          "id": "4d24776e19a48341ab8c8d8932f309d9a0324a73",
+          "title": "NPCBench: A Clinical Apprenticeship Benchmark for Multimodal Care-Pathway Reasoning in Nasopharyngeal Carcinoma",
+          "url": "https://arxiv.org/abs/2611.08369v1",
+          "date": "2026-11-06",
+          "source": "arXiv cs.AI",
+          "section": "AI & ML"
+        }
+      ]
+    }
+  ],
+  "numbers": [
+    {
+      "value": "2.97 $/$",
+      "label": "Cost efficiency of Claude Sonnet 5.5 on Gemma E4B in ServerBench",
+      "item": {
+        "id": "7bb1a3b7d27fabadc8b03b666928fc2718222d3e",
+        "title": "ServerBench: How can your coding agents design specialized LLM serving systems?",
+        "url": "https://arxiv.org/abs/2611.06841v1",
+        "date": "2026-11-05",
+        "source": "arXiv cs.AI",
+        "section": "AI & ML"
+      }
+    },
+    {
+      "value": "4.87×",
+      "label": "Speedup over vLLM reference in the same benchmark",
+      "item": {
+        "id": "7bb1a3b7d27fabadc8b03b666928fc2718222d3e",
+        "title": "ServerBench: How can your coding agents design specialized LLM serving systems?",
+        "url": "https://arxiv.org/abs/2611.06841v1",
+        "date": "2026-11-05",
+        "source": "arXiv cs.AI",
+        "section": "AI & ML"
+      }
+    },
+    {
+      "value": "18,591",
+      "label": "Changesets in Linux 7.4‑rc1 prepatch",
+      "item": {
+        "id": "1c0ff372f36844c565fb37c4de0e3eeda70052d3",
+        "title": "Kernel prepatch 7.4-rc1",
+        "url": "https://lwn.net/Articles/1104654/",
+        "date": "2026-11-02",
+        "source": "lwn",
+        "section": "Embedded & systems"
+      }
+    }
+  ],
+  "watch": "Next week watch for new low‑bit LLM inference chips and any follow‑up security patches that could affect embedded Linux deployments.",
+  "item_count": 151
+}

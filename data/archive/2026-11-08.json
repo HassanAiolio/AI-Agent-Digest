@@ -1,0 +1,366 @@
+{
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T09:19:18+00:00",
+  "stats": {
+    "fetched": 66,
+    "new_after_dedupe": 37,
+    "published": 9,
+    "failed_sources": [
+      "github-trending"
+    ],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 11,
+      "supported": 11,
+      "dropped": 0,
+      "unverifiable": 1,
+      "summaries_reverted": 0,
+      "rate": 1.0
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. Linux finally fits on a chip that used to run a toaster.",
+    "stories": [
+      {
+        "kicker": "Embedded",
+        "headline": "Full Linux boots on ESP32",
+        "body": "**Tiny distro, big surprise:** Hackaday shows a complete Linux distro running on ESP32 microcontrollers, the same chip that usually powers cheap Wi‑Fi toys. It swaps out the usual bare‑metal firmware for a full userspace stack.",
+        "why": "You can prototype Linux‑level software on cheap hardware without a dev board.",
+        "ids": [
+          "82ead5ea45aeebd1d60ba779649ebab4873f3a5d"
+        ]
+      },
+      {
+        "kicker": "Licensing",
+        "headline": "Asahi Linux goes GPL‑2+",
+        "body": "**License flip, no surprise:** The Asahi Linux 7.3 report announces every repository now carries the GPL‑2+ license instead of MIT. The change aligns the project with the broader Linux kernel ecosystem.",
+        "why": "GPL‑2+ ensures contributions stay open and compatible with the kernel you already use.",
+        "ids": [
+          "8a2712f1718cabfe2b54807deae2c23cb3fb359c"
+        ]
+      },
+      {
+        "kicker": "AI Models",
+        "headline": "Qwen3.5‑4B coder hits 24k downloads",
+        "body": "**Code‑gen surge:** The 4‑billion‑parameter Qwen3.5‑4B‑GLB‑3D‑Coder model on Hugging Face topped 24,479 downloads, outpacing similar sized peers. Engineers are pulling it for autocomplete and snippet generation.",
+        "why": "A lightweight code model that’s already popular can speed up tooling without a GPU farm.",
+        "ids": [
+          "d204a5950607c2864bba56beacc118f403552795"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Amutable:** Image‑only OS strips shells, SSH, and interpreters by default.",
+        "id": "78eb366bc45cf5abe0ed2e87e69e224218891915"
+      },
+      {
+        "text": "**GPS glitch:** Artemis II launch briefly jammed local GPS signals.",
+        "id": "0b42f3c766a664ffbc6d836152018ff04e6fa305"
+      },
+      {
+        "text": "**Solder iron:** DIY induction iron heats more efficiently than a standard unit.",
+        "id": "6a8853ee6da08a23d9912b96681d16366a59ecaf"
+      },
+      {
+        "text": "**Dog wash:** Engineer built an automated car wash for dogs with cheap parts.",
+        "id": "47ed055b59a62c89823fa5cf6c6bf78590abc875"
+      }
+    ],
+    "number": {
+      "value": "24,479",
+      "label": "downloads of Qwen3.5‑4B‑GLB‑3D‑Coder model",
+      "id": "d204a5950607c2864bba56beacc118f403552795"
+    },
+    "sign_off": "That’s it—code on, chips on, and a wink.",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "cf762931be52af4b7e26b80a36de90f5967a7fd5",
+      "title": "Codeforces Round 1134 (Div. 4)",
+      "url": "https://codeforces.com/contests/2290",
+      "source": "Codeforces",
+      "starts": "2026-11-12T14:35:00+00:00",
+      "detail": "ICPC contest, 2.2h, starts Thu 12 Nov 14:35 UTC"
+    },
+    {
+      "id": "e296aeec0849311a946aeeb65f9f180a6eedb497",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2285",
+      "source": "Codeforces",
+      "starts": "2026-11-15T14:35:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sun 15 Nov 14:35 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Proper Linux, On An ESP32",
+      "url": "https://hackaday.com/2026/11/07/proper-linux-on-an-esp32/",
+      "source": "hackaday",
+      "section": "embedded",
+      "published": "2026-11-07T21:00:19+00:00",
+      "points": null,
+      "score": 4.5,
+      "id": "82ead5ea45aeebd1d60ba779649ebab4873f3a5d",
+      "summary": "A Hackaday article explains how to run a full Linux distribution on ESP32 microcontrollers.",
+      "detail": "The ESP32 offers a powerful CPU and built‑in Wi‑Fi, making it a viable platform for lightweight Linux ports, which can enable more complex networking and development workflows on embedded devices.",
+      "key_points": [],
+      "tag": "News",
+      "highlight": true,
+      "image": "https://hackaday.com/wp-content/uploads/2026/04/esp32_s31_espressif.jpg",
+      "related": {}
+    },
+    {
+      "title": "Amutable Foundations: A Technical Overview",
+      "url": "https://lwn.net/Articles/1105934/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-11-07T09:32:56+00:00",
+      "points": null,
+      "score": 2.0,
+      "id": "78eb366bc45cf5abe0ed2e87e69e224218891915",
+      "summary": "LWN details the Amutable Operating System’s image‑based design that removes shells, SSH, and language interpreters by default.",
+      "detail": "AOS enforces strict security by requiring signed images only, reducing attack surface compared to traditional Linux installations. The approach aims to provide a hardened environment for specialized nodes.",
+      "key_points": [],
+      "tag": "Analysis",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "Asahi Linux 7.3 progress report",
+      "url": "https://lwn.net/Articles/1105936/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-11-07T09:49:38+00:00",
+      "points": null,
+      "score": 2.0,
+      "id": "8a2712f1718cabfe2b54807deae2c23cb3fb359c",
+      "summary": "Asahi Linux 7.3 report announces the project’s shift from MIT to GPL‑2+ licensing for all repositories.",
+      "detail": "The change addresses concerns about misuse of permissive licensing and aims to protect the codebase from unauthorized commercial exploitation, aligning the project with stronger copyleft protections.",
+      "key_points": [
+        "GPL‑2+ license"
+      ],
+      "tag": "News",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "Artemis II Rocket Was Powerful Enough to Disrupt GPS",
+      "url": "https://hackaday.com/2026/11/07/artemis-ii-rocket-was-powerful-enough-to-disrupt-gps/",
+      "source": "hackaday",
+      "section": "embedded",
+      "published": "2026-11-08T03:00:52+00:00",
+      "points": null,
+      "score": 1.5,
+      "id": "0b42f3c766a664ffbc6d836152018ff04e6fa305",
+      "summary": "Artemis II's launch generated enough electromagnetic interference to temporarily disrupt GPS signals in the surrounding area.",
+      "detail": "The disturbance was caused by the rocket's powerful communications and telemetry systems, which emitted strong radio frequency bursts. Such interference is a known risk for high‑energy launches and can affect navigation devices for several minutes.",
+      "key_points": [],
+      "tag": "News",
+      "highlight": true,
+      "image": "https://hackaday.com/wp-content/uploads/2026/11/Screenshot-2026-11-07-192946.png",
+      "related": {}
+    },
+    {
+      "title": "Building a Homemade Induction Soldering Iron",
+      "url": "https://hackaday.com/2026/11/07/building-a-homemade-induction-soldering-iron/",
+      "source": "hackaday",
+      "section": "embedded",
+      "published": "2026-11-07T19:30:38+00:00",
+      "points": null,
+      "score": 1.5,
+      "id": "6a8853ee6da08a23d9912b96681d16366a59ecaf",
+      "summary": "A DIY induction soldering iron can achieve higher heating efficiency than a conventional iron with the same power rating.",
+      "detail": "The design uses a high‑frequency magnetic field to directly heat the solder tip, reducing energy loss in the handle. Builders report faster tip temperature rise and more precise control, though the circuit requires careful tuning to avoid overheating.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://hackaday.com/wp-content/uploads/2026/11/induction_soldering_iron.png",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "Model: NousResearch/Arete-27B",
+          "url": "https://huggingface.co/NousResearch/Arete-27B",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-11-06T19:31:28.000Z",
+          "points": 246,
+          "score": 1.5,
+          "id": "55ffe1fba5ed0fa15f007254864a1b141626a24f",
+          "summary": "The Arete-27B model on Hugging Face has 27 billion parameters and has been downloaded 989 times.",
+          "detail": "It is listed under the text-generation category and has attracted moderate community interest, as reflected by its like count. The model size places it among large language models suitable for research and experimentation.",
+          "key_points": [
+            "989 downloads",
+            "246 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/NousResearch/Arete-27B.png",
+          "related": {}
+        },
+        {
+          "title": "Model: ccore/Qwen3.5-4B-GLB-3D-Coder",
+          "url": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-11-01T22:30:01.000Z",
+          "points": 265,
+          "score": 1.5,
+          "id": "d204a5950607c2864bba56beacc118f403552795",
+          "summary": "Qwen3.5-4B-GLB-3D-Coder, a 4‑billion‑parameter code model, has received 24,479 downloads on Hugging Face.",
+          "detail": "The model targets 3‑D coding tasks and is categorized for text generation. Its high download count indicates strong interest from developers seeking lightweight coding assistants.",
+          "key_points": [
+            "24,479 downloads",
+            "265 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/ccore/Qwen3.5-4B-GLB-3D-Coder.png",
+          "related": {}
+        },
+        {
+          "title": "Model: xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+          "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-30T10:21:29.000Z",
+          "points": 621,
+          "score": 1.5,
+          "id": "4c35a47638c473ffaa282a95d36558506531af1a",
+          "summary": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic, a 9‑billion‑parameter uncensored model, has been downloaded 1,369 times.",
+          "detail": "Hosted on Hugging Face under text-generation, the model’s popularity is reflected in its like count, suggesting a niche audience interested in unrestricted language capabilities.",
+          "key_points": [
+            "1,369 downloads",
+            "621 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "Proper Linux, On An ESP32",
+          "url": "https://hackaday.com/2026/11/07/proper-linux-on-an-esp32/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-07T21:00:19+00:00",
+          "points": null,
+          "score": 4.5,
+          "id": "82ead5ea45aeebd1d60ba779649ebab4873f3a5d",
+          "summary": "A Hackaday article explains how to run a full Linux distribution on ESP32 microcontrollers.",
+          "detail": "The ESP32 offers a powerful CPU and built‑in Wi‑Fi, making it a viable platform for lightweight Linux ports, which can enable more complex networking and development workflows on embedded devices.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": true,
+          "image": "https://hackaday.com/wp-content/uploads/2026/04/esp32_s31_espressif.jpg",
+          "related": {}
+        },
+        {
+          "title": "Amutable Foundations: A Technical Overview",
+          "url": "https://lwn.net/Articles/1105934/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-07T09:32:56+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "78eb366bc45cf5abe0ed2e87e69e224218891915",
+          "summary": "LWN details the Amutable Operating System’s image‑based design that removes shells, SSH, and language interpreters by default.",
+          "detail": "AOS enforces strict security by requiring signed images only, reducing attack surface compared to traditional Linux installations. The approach aims to provide a hardened environment for specialized nodes.",
+          "key_points": [],
+          "tag": "Analysis",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Asahi Linux 7.3 progress report",
+          "url": "https://lwn.net/Articles/1105936/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-07T09:49:38+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "8a2712f1718cabfe2b54807deae2c23cb3fb359c",
+          "summary": "Asahi Linux 7.3 report announces the project’s shift from MIT to GPL‑2+ licensing for all repositories.",
+          "detail": "The change addresses concerns about misuse of permissive licensing and aims to protect the codebase from unauthorized commercial exploitation, aligning the project with stronger copyleft protections.",
+          "key_points": [
+            "GPL‑2+ license"
+          ],
+          "tag": "News",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Artemis II Rocket Was Powerful Enough to Disrupt GPS",
+          "url": "https://hackaday.com/2026/11/07/artemis-ii-rocket-was-powerful-enough-to-disrupt-gps/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-08T03:00:52+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "0b42f3c766a664ffbc6d836152018ff04e6fa305",
+          "summary": "Artemis II's launch generated enough electromagnetic interference to temporarily disrupt GPS signals in the surrounding area.",
+          "detail": "The disturbance was caused by the rocket's powerful communications and telemetry systems, which emitted strong radio frequency bursts. Such interference is a known risk for high‑energy launches and can affect navigation devices for several minutes.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": true,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/Screenshot-2026-11-07-192946.png",
+          "related": {}
+        },
+        {
+          "title": "Building a Homemade Induction Soldering Iron",
+          "url": "https://hackaday.com/2026/11/07/building-a-homemade-induction-soldering-iron/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-07T19:30:38+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "6a8853ee6da08a23d9912b96681d16366a59ecaf",
+          "summary": "A DIY induction soldering iron can achieve higher heating efficiency than a conventional iron with the same power rating.",
+          "detail": "The design uses a high‑frequency magnetic field to directly heat the solder tip, reducing energy loss in the handle. Builders report faster tip temperature rise and more precise control, though the circuit requires careful tuning to avoid overheating.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/induction_soldering_iron.png",
+          "related": {}
+        },
+        {
+          "title": "Making a Dog Car Wash Without (very) Fancy Tools",
+          "url": "https://hackaday.com/2026/11/07/making-a-dog-car-wash-without-very-fancy-tools/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-08T06:00:42+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "47ed055b59a62c89823fa5cf6c6bf78590abc875",
+          "summary": "An engineer created an automated dog car wash using low‑cost, readily available components.",
+          "detail": "The system combines a water pump, brush assembly, and simple control logic to clean a dog while it remains in a vehicle. The build emphasizes safety and ease of maintenance, offering a repeatable solution for pet owners.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/dogWashFeat.jpg",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}

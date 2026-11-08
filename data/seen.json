@@ -179,11 +179,6 @@
 "title": "Bluetooth Shock Collar Keeps Wearer On Task",
 "url": "https://hackaday.com/2026/08/23/bluetooth-shock-collar-keeps-wearer-on-task/"
 },
-"03ee3ccbc49b11fa607a4d2d382c559c9ed9dbe8": {
-"date": "2026-08-09",
-"title": "High-Density Parchment Paper Papertronics with Laser-Carved Hydrophilic Channels",
-"url": "https://hackaday.com/2026/08/08/high-density-parchment-paper-papertronics-with-laser-carved-hydrophilic-channels/"
-},
 "03f253ede7aeecda9dff0e3bc2478bf7059c6847": {
 "date": "2026-10-27",
 "title": "Security updates for Monday",
@@ -493,6 +488,11 @@
 "date": "2026-10-26",
 "title": "YosysHQ/yosys",
 "url": "https://github.com/YosysHQ/yosys"
+},
+"0b42f3c766a664ffbc6d836152018ff04e6fa305": {
+"date": "2026-11-08",
+"title": "Artemis II Rocket Was Powerful Enough to Disrupt GPS",
+"url": "https://hackaday.com/2026/11/07/artemis-ii-rocket-was-powerful-enough-to-disrupt-gps/"
 },
 "0b6937fb15d2e2293a5458975816ee770d3fd703": {
 "date": "2026-10-18",
@@ -814,11 +814,6 @@
 "title": "YesterMester/TheSimpsonsGameRecomp",
 "url": "https://github.com/YesterMester/TheSimpsonsGameRecomp"
 },
-"117d2cb5f38ac92cd1847dee375ec1daf579a2ff": {
-"date": "2026-08-09",
-"title": "AgriciDaniel/claude-seo",
-"url": "https://github.com/AgriciDaniel/claude-seo"
-},
 "119423f7b331433a9082385c4b19f3d34911658e": {
 "date": "2026-09-25",
 "title": "Concurrent Split Learning Through Stable Client Clustering",
@@ -959,11 +954,6 @@
 "title": "Categorical Message Passing Language (CaMPL): Syntax and Semantics",
 "url": "https://arxiv.org/abs/2609.24436v1"
 },
-"1606cfe2c2a91a41cc45f731859c6869e9340b81": {
-"date": "2026-08-09",
-"title": "TauricResearch/TradingAgents",
-"url": "https://github.com/TauricResearch/TradingAgents"
-},
 "16146e024f35b4cff1b083c6c05687490f626bd1": {
 "date": "2026-09-10",
 "title": "Security updates for Wednesday",
@@ -1093,11 +1083,6 @@
 "date": "2026-11-04",
 "title": "github/copilot-cli",
 "url": "https://github.com/github/copilot-cli"
-},
-"1866d361e05e83ae51d47db0558d196374f43ad0": {
-"date": "2026-08-09",
-"title": "google-ai-edge/LiteRT",
-"url": "https://github.com/google-ai-edge/LiteRT"
 },
 "18967890f29489af38d88f537bbb4753646fde23": {
 "date": "2026-10-08",
@@ -2084,11 +2069,6 @@
 "title": "google-pytorch/torch_tpu",
 "url": "https://github.com/google-pytorch/torch_tpu"
 },
-"2fb0aa26a13a921a2b7521c583a56198a2f9542d": {
-"date": "2026-08-09",
-"title": "Junkbin, a Way to Efficiently Reuse Your Old Electronics",
-"url": "https://hackaday.com/2026/08/08/junkbin-a-way-to-efficiently-reuse-your-old-electronics/"
-},
 "2fd0114f55be45f726eceb3e10bbde3dad84f743": {
 "date": "2026-09-12",
 "title": "[$] Accelerating the kernel's build process",
@@ -2839,6 +2819,11 @@
 "title": "Predicting Program Exit Code with LLMs and Programming Language Semantics",
 "url": "https://arxiv.org/abs/2609.00579v1"
 },
+"47ed055b59a62c89823fa5cf6c6bf78590abc875": {
+"date": "2026-11-08",
+"title": "Making a Dog Car Wash Without (very) Fancy Tools",
+"url": "https://hackaday.com/2026/11/07/making-a-dog-car-wash-without-very-fancy-tools/"
+},
 "480191a6d53eafed0f894a35f528bc028cdd1216": {
 "date": "2026-09-07",
 "title": "Is This the Year of The Linux… Television?",
@@ -3019,6 +3004,11 @@
 "title": "django/django",
 "url": "https://github.com/django/django"
 },
+"4c35a47638c473ffaa282a95d36558506531af1a": {
+"date": "2026-11-08",
+"title": "Model: xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+"url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic"
+},
 "4c68df2d172d31f456911b814f4a8919f2ec0004": {
 "date": "2026-08-19",
 "title": "Multivalued Consensus: General Adversaries Require More Communication",
@@ -3143,11 +3133,6 @@
 "date": "2026-08-20",
 "title": "A Simple Construction of Locally Checkable Problems Filling the LOCAL Complexity Gaps in Graphs with Arbitrary Large Degrees",
 "url": "https://arxiv.org/abs/2608.18684v1"
-},
-"4f8a7dce09a831dec3c17ea7dca658ea142c81ce": {
-"date": "2026-08-09",
-"title": "Grading Tomatoes with an ESP32 and ML",
-"url": "https://hackaday.com/2026/08/08/grading-tomatoes-with-an-esp32-and-ml/"
 },
 "4fe6bf290bd6b928727262a135873aa35519f951": {
 "date": "2026-11-06",
@@ -3383,6 +3368,11 @@
 "date": "2026-10-18",
 "title": "Busting the Myth that Plastics are Chemically Inert in Water",
 "url": "https://hackaday.com/2026/10/17/busting-the-myth-that-plastics-are-chemically-inert-in-water/"
+},
+"55ffe1fba5ed0fa15f007254864a1b141626a24f": {
+"date": "2026-11-08",
+"title": "Model: NousResearch/Arete-27B",
+"url": "https://huggingface.co/NousResearch/Arete-27B"
 },
 "56020628fd3262dfbd8380334ea9cfc191bee70c": {
 "date": "2026-10-07",
@@ -3894,11 +3884,6 @@
 "title": "Anil-matcha/open-duet",
 "url": "https://github.com/Anil-matcha/open-duet"
 },
-"62c7a5d1f9f35d49165dabec76ce767178e5fdf8": {
-"date": "2026-08-09",
-"title": "666ghj/MiroFish",
-"url": "https://github.com/666ghj/MiroFish"
-},
 "631066ba57c9c75c32750394e538821ed3c55617": {
 "date": "2026-09-03",
 "title": "Incus 7.4 released",
@@ -4198,6 +4183,11 @@
 "date": "2026-08-12",
 "title": "ClusterBench: A Framework for Cluster-Wide Continuous Benchmarking and Regression Testing",
 "url": "https://arxiv.org/abs/2608.10956v1"
+},
+"6a8853ee6da08a23d9912b96681d16366a59ecaf": {
+"date": "2026-11-08",
+"title": "Building a Homemade Induction Soldering Iron",
+"url": "https://hackaday.com/2026/11/07/building-a-homemade-induction-soldering-iron/"
 },
 "6a89024d2a7542cbf326dc43ffe67fe8d74a9bae": {
 "date": "2026-10-13",
@@ -4669,6 +4659,11 @@
 "title": "[$] The end of __get_user() and __put_user()",
 "url": "https://lwn.net/Articles/1102061/"
 },
+"78eb366bc45cf5abe0ed2e87e69e224218891915": {
+"date": "2026-11-08",
+"title": "Amutable Foundations: A Technical Overview",
+"url": "https://lwn.net/Articles/1105934/"
+},
 "7909b6caa3258ff533a4a9d5837e57e0e8f4376b": {
 "date": "2026-11-03",
 "title": "Tor Browser 16.0 released",
@@ -5004,11 +4999,6 @@
 "title": "[$] The \"rnull\" Rust block driver",
 "url": "https://lwn.net/Articles/1090378/"
 },
-"819adeb1ee817b142ba8bb0f444fa5e2f0420b03": {
-"date": "2026-08-09",
-"title": "Upcoming: Codeforces Round (Div. 2)",
-"url": "https://codeforces.com/contests/2257"
-},
 "819f22112f1be3fa7663fa38e6bdcd9b35daa2b9": {
 "date": "2026-09-18",
 "title": "Sep 17, 2026 Announcements Introducing the Life Sciences Verification Program",
@@ -5058,6 +5048,11 @@
 "date": "2026-09-27",
 "title": "esphome/esphome",
 "url": "https://github.com/esphome/esphome"
+},
+"82ead5ea45aeebd1d60ba779649ebab4873f3a5d": {
+"date": "2026-11-08",
+"title": "Proper Linux, On An ESP32",
+"url": "https://hackaday.com/2026/11/07/proper-linux-on-an-esp32/"
 },
 "8306b34891f31a80ea23f3b6c873e22c7f1e9d98": {
 "date": "2026-11-01",
@@ -5284,6 +5279,11 @@
 "title": "Fast Tendermint: Speeding Up a Foundational Consensus Protocol",
 "url": "https://arxiv.org/abs/2608.13434v1"
 },
+"8a2712f1718cabfe2b54807deae2c23cb3fb359c": {
+"date": "2026-11-08",
+"title": "Asahi Linux 7.3 progress report",
+"url": "https://lwn.net/Articles/1105936/"
+},
 "8a2e1f7a27ecbae1beedbdb0a7aead53c4cb90d8": {
 "date": "2026-10-14",
 "title": "The FPGA Chronicles: Ready to Probe",
@@ -5458,11 +5458,6 @@
 "date": "2026-10-20",
 "title": "CQTwin: A Digital-Twin Toolkit for Operational Analytics of HPC Schedulers",
 "url": "https://arxiv.org/abs/2610.26609v1"
-},
-"8f4b11d94ad8852e6beb760f15e4776b219c0d58": {
-"date": "2026-08-09",
-"title": "GCWing/BitFun",
-"url": "https://github.com/GCWing/BitFun"
 },
 "8f91210ce94cbfcbb1e202f4bb51a85404688bb2": {
 "date": "2026-10-08",
@@ -5673,11 +5668,6 @@
 "date": "2026-11-05",
 "title": "[$] LWN.net Weekly Edition for November 5, 2026",
 "url": "https://lwn.net/Articles/1103480/"
-},
-"94c78b2d7b96405d6301c1d6fad3c6b46ac06a86": {
-"date": "2026-08-09",
-"title": "Robotic Screw and Bolt Sorter Seeks a New Challenge",
-"url": "https://hackaday.com/2026/08/08/robotic-screw-and-bolt-sorter-seeks-a-new-challenge/"
 },
 "94e7f4f5c0e52bb75e66cbfeaab71589104be947": {
 "date": "2026-10-21",
@@ -6514,11 +6504,6 @@
 "title": "Analyzing the FScale Instruction in Intel’s 8087 FPU",
 "url": "https://hackaday.com/2026/09/13/analyzing-the-fscale-instruction-in-intels-8087-fpu/"
 },
-"a92e7abecf574bc308cf5e5c718f16b21c05f460": {
-"date": "2026-08-09",
-"title": "Model: nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
-"url": "https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B"
-},
 "a936db7d1415bbcbeb0c726b5b3b3bd1e987924a": {
 "date": "2026-10-09",
 "title": "Security updates for Thursday",
@@ -6634,11 +6619,6 @@
 "title": "Kernel prepatch 7.2-rc7",
 "url": "https://lwn.net/Articles/1087961/"
 },
-"abd7082b49f88aa75a1111a43cb420dd0fae64d9": {
-"date": "2026-08-09",
-"title": "Tim Hunkin’s History Of Arcade Machines",
-"url": "https://hackaday.com/2026/08/08/tim-hunkins-history-of-arcade-machines/"
-},
 "abf8c195f2e9dfc32f7a85f74dfae4b7d7ba870d": {
 "date": "2026-08-26",
 "title": "AI Book Scanning: Just What Is A Rare Book?",
@@ -6678,11 +6658,6 @@
 "date": "2026-10-07",
 "title": "SmallTV Hacking With Surprisingly Little Fuss",
 "url": "https://hackaday.com/2026/10/06/smalltv-hacking-with-surprisingly-little-fuss/"
-},
-"ad201059ae70dc6e7b889f87074505ccb6df965d": {
-"date": "2026-08-09",
-"title": "Model: lightx2v/Minimax-h3-Turbo",
-"url": "https://huggingface.co/lightx2v/Minimax-h3-Turbo"
 },
 "ad2f10e038fe82416a2edbf474692b16550798f1": {
 "date": "2026-10-21",
@@ -8159,6 +8134,11 @@
 "title": "Accelerating Offloading-Based MoE Inference by Interleaving Concurrent Requests",
 "url": "https://arxiv.org/abs/2611.04794v1"
 },
+"d204a5950607c2864bba56beacc118f403552795": {
+"date": "2026-11-08",
+"title": "Model: ccore/Qwen3.5-4B-GLB-3D-Coder",
+"url": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder"
+},
 "d242d07dbb0944cb5a3f3e8a0e4277d29b5d7e5b": {
 "date": "2026-09-28",
 "title": "Model: Contrastive-LM/CLM-v0.1-8B",
@@ -9204,11 +9184,6 @@
 "title": "Sep 1, 2026 Announcements Developing Enterprise Frontier Safeguards with our customers",
 "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards"
 },
-"eaf632ed8178b5023e08020d867533a536b5f0c5": {
-"date": "2026-08-09",
-"title": "ClementTsang/bottom",
-"url": "https://github.com/ClementTsang/bottom"
-},
 "eb1569caa0b7d2c3ec88515bdb98f9650b0be004": {
 "date": "2026-10-07",
 "title": "Expanding the Cyber Verification Program",
@@ -9803,11 +9778,6 @@
 "date": "2026-09-26",
 "title": "Security updates for Friday",
 "url": "https://lwn.net/Articles/1096637/"
-},
-"f812d42134df13cb85eda2e6a56d9c8028d8726c": {
-"date": "2026-08-09",
-"title": "Track Bird Visitors With a Raspberry Pi and a USB Mic",
-"url": "https://hackaday.com/2026/08/08/track-bird-visitors-with-a-raspberry-pi-and-a-usb-mic/"
 },
 "f81933d7eb8f832c428979f2a97b8d27f6d8a6df": {
 "date": "2026-10-19",
