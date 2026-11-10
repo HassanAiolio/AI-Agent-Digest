@@ -1,0 +1,732 @@
+{
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T10:14:17+00:00",
+  "stats": {
+    "fetched": 217,
+    "new_after_dedupe": 169,
+    "published": 28,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 17,
+      "supported": 17,
+      "dropped": 0,
+      "unverifiable": 4,
+      "summaries_reverted": 0,
+      "rate": 1.0
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. CodeRabbit claims you can ship software at twenty‑times the usual speed – no caffeine required.",
+    "stories": [
+      {
+        "kicker": "Agentic",
+        "headline": "CodeRabbit ships software 20× faster",
+        "body": "**Speed boost, no magic:** CodeRabbit lets an engineering team ship software at twenty times the previous rate by routing AI‑generated code through OpenAI models.",
+        "why": "Your release cycles shrink dramatically.",
+        "ids": [
+          "23b94c697622500fcf7d46f91907d47f40d35583"
+        ]
+      },
+      {
+        "kicker": "Kernel",
+        "headline": "Linux 7.4‑rc2 prepatch lands massive",
+        "body": "**Patch flood incoming:** Linus posted the largest rc2 to date, packed with automated Coccinelle updates across the kernel.",
+        "why": "More fixes early means fewer surprises before final release.",
+        "ids": [
+          "1a435f7a2e8a8f1857b63003b5ebb331ef690750"
+        ]
+      },
+      {
+        "kicker": "Benchmark",
+        "headline": "WorkflowArena tests LLM agents on 145 tasks",
+        "body": "**Orchestration stress test:** The new WorkflowArena benchmark runs LLM‑based multi‑agent systems through 145 long‑horizon tasks spanning eight professional domains.",
+        "why": "Helps you gauge how well agents handle real‑world pipelines.",
+        "ids": [
+          "f1d74286b41ab3117433d6cc3464fe9d54c39517"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**AutoML:** NCode proposes a universal LLM‑driven AutoML that optimizes architecture, hyperparameters, and data ratios in one go.",
+        "id": "5790ccf7899d5120943d1340e07b38cf56f27d5b"
+      },
+      {
+        "text": "**Debugging:** Meta adds a vendor‑neutral LLDB plugin so a single session can step through CPU and GPU code together.",
+        "id": "dfd41805582ca7915385634df1331ea70dea5511"
+      },
+      {
+        "text": "**OS update:** OpenIndiana 2026.10 arrives with UEFI framebuffer support and fresh TeX Live 2026 packages.",
+        "id": "c95d4b65fb7cab4e0761e355a6fde4a2bf408493"
+      },
+      {
+        "text": "**Enterprise SaaS:** ChatGPT Enterprise is now purchasable via AWS Marketplace, tying into existing billing.",
+        "id": "9c331579e229757a7a398cd4a7db6c8d1421dabe"
+      }
+    ],
+    "number": {
+      "value": "20x",
+      "label": "software shipping increase",
+      "id": "23b94c697622500fcf7d46f91907d47f40d35583"
+    },
+    "sign_off": "Catch you tomorrow, and keep hacking.",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "cf762931be52af4b7e26b80a36de90f5967a7fd5",
+      "title": "Codeforces Round 1134 (Div. 4)",
+      "url": "https://codeforces.com/contests/2290",
+      "source": "Codeforces",
+      "starts": "2026-11-12T14:35:00+00:00",
+      "detail": "ICPC contest, 2.2h, starts Thu 12 Nov 14:35 UTC"
+    },
+    {
+      "id": "e296aeec0849311a946aeeb65f9f180a6eedb497",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2285",
+      "source": "Codeforces",
+      "starts": "2026-11-15T14:35:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sun 15 Nov 14:35 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Distillation for Agentic Tasks",
+      "url": "https://arxiv.org/abs/2611.12799v1",
+      "source": "arXiv cs.LG",
+      "section": "ai-ml",
+      "published": "2026-11-09T18:07:42+00:00",
+      "points": null,
+      "score": 10.0,
+      "id": "719682cd7e7b5761f08476935b8df330db7b0934",
+      "summary": "On-policy distillation (OPD) leverages discarded checkpoints from LLM agent training to recover problem coverage lost by keeping only the best-validation checkpoint.",
+      "detail": "During GRPO training, earlier checkpoints solve problems that later best checkpoints miss, so the union of solved problems across checkpoints exceeds any single one. OPD must select complementary teachers and avoid overwriting useful behavior, addressing checkpoint selection and trust challenges.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {
+        "title": "EvoRouter: Cost-Efficient Multi-Agent Routing via Insight-Guided On-Policy Distillation",
+        "url": "https://arxiv.org/abs/2610.35690v1",
+        "date": "2026-10-27",
+        "id": "d688c8ec2131bfbfc1c6152a284c34374a4c9382"
+      }
+    },
+    {
+      "title": "Large Language Models as a Universal Searcher for Open-World Automated Machine Learning",
+      "url": "https://arxiv.org/abs/2611.12791v1",
+      "source": "arXiv cs.CL",
+      "section": "ai-ml",
+      "published": "2026-11-09T17:58:38+00:00",
+      "points": null,
+      "score": 10.0,
+      "id": "5790ccf7899d5120943d1340e07b38cf56f27d5b",
+      "summary": "NCode introduces a universal LLM-based AutoML framework that jointly optimizes model architecture, hyperparameters, and data ratios without task-specific fine-tuning.",
+      "detail": "The system encodes diverse AutoML choices into discrete sequences, turning optimization into a ranking problem. It is trained on trajectories from a single-domain vision task yet shows strong generalization across tasks, modalities, and combined search spaces.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2611.12856v1",
+      "source": "arXiv cs.CL",
+      "section": "ai-ml",
+      "published": "2026-11-09T18:45:28+00:00",
+      "points": null,
+      "score": 9.0,
+      "id": "f1d74286b41ab3117433d6cc3464fe9d54c39517",
+      "summary": "WorkflowArena benchmark evaluates LLM multi‑agent systems on workflow orchestration across 145 long‑horizon tasks in eight professional domains.",
+      "detail": "Existing benchmarks focus on end‑to‑end success or pre‑defined coordination, missing the ability of LLMs to author executable workflows at runtime. WorkflowArena provides initial workspaces and integrated deliverables, testing the model's capacity to structure and manage complex agent collaborations.",
+      "key_points": [
+        "145 tasks",
+        "8 domains"
+      ],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {
+        "title": "Can LLM Agents Improve Imperfect Earth System Model Parameterizations?",
+        "url": "https://arxiv.org/abs/2611.03543v1",
+        "date": "2026-11-03",
+        "id": "ccb523bb7f726a1fdc943e6ea65759d3178d3692"
+      }
+    },
+    {
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "source": "openai blog",
+      "section": "ai-ml",
+      "published": "2026-11-09T08:00:00+00:00",
+      "points": null,
+      "score": 5.0,
+      "id": "23b94c697622500fcf7d46f91907d47f40d35583",
+      "summary": "CodeRabbit enables an engineering team to ship software at twenty times the previous rate by using OpenAI models to govern AI‑generated code.",
+      "detail": "The system combines OpenAI's language models with Codex to automate code creation, testing, and integration, allowing the same team size to handle a vastly larger output. It emphasizes trust and governance mechanisms to maintain code quality.",
+      "key_points": [
+        "20x more software"
+      ],
+      "tag": "News",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "Kernel prepatch 7.4-rc2",
+      "url": "https://lwn.net/Articles/1106300/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-11-09T14:55:38+00:00",
+      "points": null,
+      "score": 4.0,
+      "id": "1a435f7a2e8a8f1857b63003b5ebb331ef690750",
+      "summary": "Linus Torvalds released the Linux 7.4-rc2 prepatch, described as the largest rc2 to date with many automated Coccinelle updates.",
+      "detail": "The diff shows roughly equal contributions from drivers, networking/BPF, and other subsystems, with AI-related fixes influencing a portion of the changes. The release prepares the kernel for the upcoming 7.4 final.",
+      "key_points": [],
+      "tag": "Release",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Distillation for Agentic Tasks",
+          "url": "https://arxiv.org/abs/2611.12799v1",
+          "source": "arXiv cs.LG",
+          "section": "ai-ml",
+          "published": "2026-11-09T18:07:42+00:00",
+          "points": null,
+          "score": 10.0,
+          "id": "719682cd7e7b5761f08476935b8df330db7b0934",
+          "summary": "On-policy distillation (OPD) leverages discarded checkpoints from LLM agent training to recover problem coverage lost by keeping only the best-validation checkpoint.",
+          "detail": "During GRPO training, earlier checkpoints solve problems that later best checkpoints miss, so the union of solved problems across checkpoints exceeds any single one. OPD must select complementary teachers and avoid overwriting useful behavior, addressing checkpoint selection and trust challenges.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {
+            "title": "EvoRouter: Cost-Efficient Multi-Agent Routing via Insight-Guided On-Policy Distillation",
+            "url": "https://arxiv.org/abs/2610.35690v1",
+            "date": "2026-10-27",
+            "id": "d688c8ec2131bfbfc1c6152a284c34374a4c9382"
+          }
+        },
+        {
+          "title": "Large Language Models as a Universal Searcher for Open-World Automated Machine Learning",
+          "url": "https://arxiv.org/abs/2611.12791v1",
+          "source": "arXiv cs.CL",
+          "section": "ai-ml",
+          "published": "2026-11-09T17:58:38+00:00",
+          "points": null,
+          "score": 10.0,
+          "id": "5790ccf7899d5120943d1340e07b38cf56f27d5b",
+          "summary": "NCode introduces a universal LLM-based AutoML framework that jointly optimizes model architecture, hyperparameters, and data ratios without task-specific fine-tuning.",
+          "detail": "The system encodes diverse AutoML choices into discrete sequences, turning optimization into a ranking problem. It is trained on trajectories from a single-domain vision task yet shows strong generalization across tasks, modalities, and combined search spaces.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems",
+          "url": "https://arxiv.org/abs/2611.12856v1",
+          "source": "arXiv cs.CL",
+          "section": "ai-ml",
+          "published": "2026-11-09T18:45:28+00:00",
+          "points": null,
+          "score": 9.0,
+          "id": "f1d74286b41ab3117433d6cc3464fe9d54c39517",
+          "summary": "WorkflowArena benchmark evaluates LLM multi‑agent systems on workflow orchestration across 145 long‑horizon tasks in eight professional domains.",
+          "detail": "Existing benchmarks focus on end‑to‑end success or pre‑defined coordination, missing the ability of LLMs to author executable workflows at runtime. WorkflowArena provides initial workspaces and integrated deliverables, testing the model's capacity to structure and manage complex agent collaborations.",
+          "key_points": [
+            "145 tasks",
+            "8 domains"
+          ],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {
+            "title": "Can LLM Agents Improve Imperfect Earth System Model Parameterizations?",
+            "url": "https://arxiv.org/abs/2611.03543v1",
+            "date": "2026-11-03",
+            "id": "ccb523bb7f726a1fdc943e6ea65759d3178d3692"
+          }
+        },
+        {
+          "title": "CodeRabbit scales agentic software development and ships 20x more",
+          "url": "https://openai.com/index/coderabbit-codex-daybreak",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-09T08:00:00+00:00",
+          "points": null,
+          "score": 5.0,
+          "id": "23b94c697622500fcf7d46f91907d47f40d35583",
+          "summary": "CodeRabbit enables an engineering team to ship software at twenty times the previous rate by using OpenAI models to govern AI‑generated code.",
+          "detail": "The system combines OpenAI's language models with Codex to automate code creation, testing, and integration, allowing the same team size to handle a vastly larger output. It emphasizes trust and governance mechanisms to maintain code quality.",
+          "key_points": [
+            "20x more software"
+          ],
+          "tag": "News",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Extending LLDB to Debug Applications That Span CPUs and GPUs",
+          "url": "https://engineering.fb.com/2026/11/09/developer-tools/extending-lldb-to-debug-applications-that-span-cpus-and-gpus/",
+          "source": "meta ai blog",
+          "section": "ai-ml",
+          "published": "2026-11-09T17:00:12+00:00",
+          "points": null,
+          "score": 3.5,
+          "id": "dfd41805582ca7915385634df1331ea70dea5511",
+          "summary": "Meta extended LLDB with a vendor‑neutral accelerator plugin architecture that lets a single debugging session span CPU and GPU processes.",
+          "detail": "The design separates shared debugger infrastructure from device‑specific control, representing each processor as a distinct debugger process while unifying them for the user. This addresses the growing need to debug AI workloads distributed across heterogeneous hardware.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://engineering.fb.com/wp-content/uploads/2026/11/Extending-LLDB-Hero.png",
+          "related": {}
+        },
+        {
+          "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+          "source": "huggingface blog",
+          "section": "ai-ml",
+          "published": "2026-11-09T15:05:57+00:00",
+          "points": null,
+          "score": 3.5,
+          "id": "057e22ab69c04fb1c6649cb0bf4e92ea8c65293a",
+          "summary": "Nemotron-Personas-Finance-Japan is a synthetic dataset that reflects Japanese demographics and financial contexts.",
+          "detail": "The dataset is intended for training and evaluating language models on finance‑related tasks specific to Japan, providing demographic diversity and realistic financial scenarios for better localized performance.",
+          "key_points": [],
+          "tag": "",
+          "highlight": false,
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/604ad59e2fad27aca4515dab/-hyd03JaQoRhMbmlw9-uJ.jpeg",
+          "related": {}
+        },
+        {
+          "title": "ChatGPT Enterprise now available in AWS Marketplace",
+          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-09T19:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "9c331579e229757a7a398cd4a7db6c8d1421dabe",
+          "summary": "ChatGPT Enterprise is now available through AWS Marketplace, letting organizations procure it via existing AWS purchasing and billing relationships.",
+          "detail": "The integration simplifies billing for enterprises already using AWS services, enabling faster adoption without separate contracts. It does not change the feature set of ChatGPT Enterprise, only the procurement channel.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Closing the AI guidance gap in education",
+          "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-10T09:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "01a8528fa117926a6942a8da712f5c8913fac83e",
+          "summary": "OpenAI reports lessons from its EMEA education partnerships and new ThinkYoung research aimed at supporting teachers, AI literacy, and independent learning.",
+          "detail": "The findings highlight gaps in AI guidance for educators and propose resources to bridge them. The initiative focuses on curriculum integration and teacher training rather than product releases.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+          "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+          "source": "huggingface blog",
+          "section": "ai-ml",
+          "published": "2026-11-09T12:34:29+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "7b1451fc786c34f9eeb4411c953942dafa553acd",
+          "summary": "No content provided.",
+          "detail": "The source article contains no text to extract information from.",
+          "key_points": [],
+          "tag": "",
+          "highlight": false,
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/6ab2f79bd8000a811c648a32/xZT8tg4be3bgZIx2EQS_m.png",
+          "related": {}
+        },
+        {
+          "title": "Model: Viggle/Viggle-Remake",
+          "url": "https://huggingface.co/Viggle/Viggle-Remake",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-22T19:06:17.000Z",
+          "points": 249,
+          "score": 1.5,
+          "id": "814b7d5ac5057c544a4303959f6a15cfa1d3f3bb",
+          "summary": "The Viggle/Viggle-Remake model on Hugging Face has been downloaded 97,356 times and received 249 likes.",
+          "detail": "The model is categorized under video-to-video tasks and is trending on the platform, indicating community interest. No licensing or size details were provided in the source.",
+          "key_points": [
+            "97,356 downloads",
+            "249 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Viggle/Viggle-Remake.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "Kernel prepatch 7.4-rc2",
+          "url": "https://lwn.net/Articles/1106300/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-09T14:55:38+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "1a435f7a2e8a8f1857b63003b5ebb331ef690750",
+          "summary": "Linus Torvalds released the Linux 7.4-rc2 prepatch, described as the largest rc2 to date with many automated Coccinelle updates.",
+          "detail": "The diff shows roughly equal contributions from drivers, networking/BPF, and other subsystems, with AI-related fixes influencing a portion of the changes. The release prepares the kernel for the upcoming 7.4 final.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Security updates for Monday",
+          "url": "https://lwn.net/Articles/1106282/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-09T14:02:31+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "a391dcf39355b4e28cbebfc90c65c1cc2f36f995",
+          "summary": "Debian and Fedora issued Monday security updates covering packages such as kernel, nginx, Java 21, and numerous libraries.",
+          "detail": "The updates span a wide range of components, from core system libraries to language runtimes and desktop applications, reflecting coordinated effort across distributions to address recent vulnerabilities.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "OpenIndiana 2026.10 released",
+          "url": "https://lwn.net/Articles/1106285/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-09T14:09:57+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "c95d4b65fb7cab4e0761e355a6fde4a2bf408493",
+          "summary": "OpenIndiana 2026.10 released, adding UEFI framebuffer support for the live image and new applications like TeX Live 2026 and the Foliate ebook reader.",
+          "detail": "The release continues OpenIndiana's lineage from Illumos and OpenSolaris, updating many development tools and applications. The inclusion of Foliate expands its ebook capabilities. Users can now boot the live image with modern firmware graphics.",
+          "key_points": [
+            "2026.10 version",
+            "UEFI framebuffer support",
+            "TeX Live 2026"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "[$] Git considers voting to determine its LLM policy",
+          "url": "https://lwn.net/Articles/1104195/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-09T15:05:07+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "88597d6ebe0d7d8665e1d1ef6f451f091ef12877",
+          "summary": "The Git project is debating a vote to decide its policy on accepting contributions generated by large language models.",
+          "detail": "Discussion surfaced at the recent Git Contributor's Summit, reflecting broader 2026 debates about LLM‑written code. Git has never used a democratic process, so a vote would be a notable governance shift.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Free Your Harley From The Dealer",
+          "url": "https://hackaday.com/2026/11/09/free-your-harley-from-the-dealer/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-10T00:00:08+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "3c375cd276910113f1f189b0adb45c1017cf15b6",
+          "summary": "Hackaday explores methods to bypass proprietary diagnostics in Harley‑Davidson motorcycles using standard diagnostic ports.",
+          "detail": "Although vehicles expose diagnostic ports, manufacturers retain hidden features. The article outlines tools and techniques to access and modify these systems, aiming to give owners more control over their bikes.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/harley-featured.jpg",
+          "related": {}
+        },
+        {
+          "title": "From Phone, To SDR, No Extra Hardware",
+          "url": "https://hackaday.com/2026/11/09/from-phone-to-sdr-no-extra-hardware/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-09T21:00:31+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "1852aef17ca9998d85b817a940ee21e4791dd22e",
+          "summary": "Hackaday reports that many common radio chips can be repurposed as software‑defined radios directly from a phone, without extra hardware.",
+          "detail": "The discovery covers chips in cheap Wi‑Fi, LoRa, and microcontroller modules, enabling SDR functionality through software alone. This opens low‑cost experimentation for hobbyists and researchers.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/lg-sdr-featured.jpg",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "cs-research",
+      "title": "CS research",
+      "tier": 4,
+      "items": [
+        {
+          "title": "Toward Verifiable Auto-Research for Data Systems",
+          "url": "https://arxiv.org/abs/2611.12063v1",
+          "source": "arXiv cs.DB",
+          "section": "cs-research",
+          "published": "2026-11-09T08:39:16+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "ddff5736d9248707a2446bea7f504b09aee4263f",
+          "summary": "The paper proposes a verifiable, cost‑efficient auto‑research framework for data systems using precise specifications and lightweight performance critics.",
+          "detail": "It addresses the fragility of current AI‑driven system design, where agents optimize measurable metrics but may violate user requirements. The approach adds composable specs and falsification to prune expensive search paths.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "A Hoare Logic for Continuous-Time Stochastic Processes",
+          "url": "https://arxiv.org/abs/2611.12761v1",
+          "source": "arXiv cs.LO",
+          "section": "cs-research",
+          "published": "2026-11-09T17:38:04+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "359572914ad24b5d7bad0510d896ae550a936ac5",
+          "summary": "A new Hoare‑style logic verifies properties of continuous‑time stochastic programs by treating them as standard programs with limit‑based semantics.",
+          "detail": "The method defines a continuous semantics via Kuratowski limits of discrete steps and introduces loop invariants and decreasing functions for proof. Soundness is shown for a broad class of assertions transferred from standard semantics.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "DeFSM: Robust and Efficient Decentralization of Federated Submodular Maximization",
+          "url": "https://arxiv.org/abs/2611.11866v1",
+          "source": "arXiv cs.DC",
+          "section": "cs-research",
+          "published": "2026-11-09T04:43:49+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "7c64c467ace7b925c104899642333461e60fcc21",
+          "summary": "DeFSM replaces the central server in federated submodular maximization with a lightweight smart contract and consensus‑free agents, delivering Byzantine robustness and communication‑efficient aggregation.",
+          "detail": "The architecture uses the SafeGM rule, which relies on Tukey depth and safe points computed via 2D Gaussian random projections. The contract lifts the projection back to a convex combination of updates, using a projected geometric median to mitigate information loss.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "OmniSynth: A Meta-Evaluation Framework for Benchmarking the Quality of Missingness-Inclusive Synthetic Health Data",
+          "url": "https://arxiv.org/abs/2611.11888v1",
+          "source": "arXiv cs.DB",
+          "section": "cs-research",
+          "published": "2026-11-09T05:11:45+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "765708339e11a01df5e90604d3eec63f6143ff43",
+          "summary": "OmniSynth is a modular Python suite that benchmarks synthetic health tabular data on fidelity, missingness similarity, utility, and privacy, explicitly treating missingness as a separate evaluation dimension.",
+          "detail": "The framework provides a meta‑evaluation procedure that stress‑tests metric performance under controlled degradation, allowing systematic characterization of how evaluation methods respond to varying missingness patterns.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Mitigating SM-Level Load Imbalance in 3D Gaussian Splatting on GPUs",
+          "url": "https://arxiv.org/abs/2611.12319v1",
+          "source": "arXiv cs.DC",
+          "section": "cs-research",
+          "published": "2026-11-09T12:41:30+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "ff8f553ff26c5128f5b2c153116c5fc7bb66608e",
+          "summary": "A software‑defined GPU scheduling approach using a persistent kernel reorders tile processing to alleviate SM‑level load imbalance in 3D Gaussian Splatting, reducing the execution tail on commodity GPUs.",
+          "detail": "The method first schedules heavy screen tiles, then chunks outlier tiles across SMs, improving utilization without requiring algorithmic retraining or specialized hardware.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Reducing Provers in Distributed Quantum Verification",
+          "url": "https://arxiv.org/abs/2611.12600v1",
+          "source": "arXiv quant-ph",
+          "section": "cs-research",
+          "published": "2026-11-09T15:47:20+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "750e66e210a47423186c11dc1dae161faea1c41b",
+          "summary": "In the dQMAS(k) model, proof size per node can be doubled to cut the number of provers from k to two without extra communication, and four extra rounds enable further prover reduction.",
+          "detail": "The result maintains unentangled proofs across nodes while preserving communication complexity, offering a trade‑off between prover count and proof length for distributed quantum verification.",
+          "key_points": [
+            "proof size doubled",
+            "four additional rounds"
+          ],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "BruceDevices/firmware",
+          "url": "https://github.com/BruceDevices/firmware",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 7194,
+          "score": 2.0,
+          "id": "3d8d8feb98c9638ed88867e11a64b8fae0c1f3b2",
+          "summary": "BruceDevices/firmware is a GitHub repository that hosts predatory firmware targeting ESP32 devices.",
+          "detail": "The code is written in C++ and has attracted attention for its malicious intent, serving as a cautionary example for embedded security.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/01d48b8b2233a3ae4588208d375c01746e7ac526477f5f7e8af779cc654625be/BruceDevices/firmware",
+          "related": {}
+        },
+        {
+          "title": "JakeATX/llamAmpere",
+          "url": "https://github.com/JakeATX/llamAmpere",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 308,
+          "score": 2.0,
+          "id": "7c4ce7134fa56f466767a66cd6caf55a821844a9",
+          "summary": "JakeATX/llamAmpere is a llama.cpp fork that achieves over 110 tokens per second for 100K‑token generation on RTX 3090/3090 Ti and supports up to 262K context length.",
+          "detail": "The fork also provides low‑memory configurations enabling more than 200K‑token contexts on 12 GB GPUs, with prefill speeds exceeding 3300 tokens per second for Qwen 3.8.",
+          "key_points": [
+            "110+ tok/s",
+            "262K ctx",
+            "12 GB low‑mem"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/565ee0904ca8ccc2fccf1ed1c3e576b1d051b14b06016a33eb7f7b1230939d7a/JakeATX/llamAmpere",
+          "related": {}
+        },
+        {
+          "title": "Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+          "url": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 9886,
+          "score": 2.0,
+          "id": "2a555cb4de0b3cb1cc02dd066d01e7bc865e87ab",
+          "summary": "Universal-Debloater-Alliance released a cross‑platform GUI tool written in Rust that uses ADB to debloat non‑rooted Android devices, aiming to improve privacy, security, and battery life.",
+          "detail": "The application runs on Windows, macOS, and Linux, providing a graphical interface for users who prefer not to flash custom ROMs. It operates without requiring root access, leveraging standard ADB commands to remove preinstalled bloatware. The Rust implementation promises safety and performance, and the project is open‑source on GitHub.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/710425233/ca74c127-676c-4c35-8104-b4c57492ce51",
+          "related": {}
+        },
+        {
+          "title": "ViceVerse-cz/Serein",
+          "url": "https://github.com/ViceVerse-cz/Serein",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 1201,
+          "score": 2.0,
+          "id": "7ee4eb126bc9500f1476033c6c1d874e52c5dda9",
+          "summary": "ViceVerse-cz published Serein, a tiny, performant, 100% native Discord client built in Rust.",
+          "detail": "Serein aims to provide a lightweight alternative to the official Discord client, focusing on low memory usage and fast startup. Being fully native, it avoids the overhead of Electron‑based clients. The project is open‑source and targets users who prefer Rust's safety guarantees.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/23a57f0317b15f92c1ce70f42fc77506fe86019562b2834dc67ae992a5159a77/ViceVerse-cz/Serein",
+          "related": {}
+        },
+        {
+          "title": "cemu-project/Cemu",
+          "url": "https://github.com/cemu-project/Cemu",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 10132,
+          "score": 2.0,
+          "id": "a001ef77d7f01d3780d8834e58531620a2e80289",
+          "summary": "The Cemu project maintains a Wii U emulator written in C++ that continues to improve compatibility and performance.",
+          "detail": "Cemu supports many commercial Wii U titles and runs on Windows, with ongoing development to reduce graphical glitches and increase frame rates. The emulator uses dynamic recompilation and GPU emulation to approximate the console's hardware. It remains a community‑driven open‑source effort.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/2c1a5452d2ac0f19e55d5b36789dc8e4d3457aa721eb6282685e692cec1087db/cemu-project/Cemu",
+          "related": {}
+        },
+        {
+          "title": "dariulone/cyberpunk-vr-port",
+          "url": "https://github.com/dariulone/cyberpunk-vr-port",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 539,
+          "score": 2.0,
+          "id": "2871bdb1314dc577ab3cfe5a9c81d85cb3415cb3",
+          "summary": "dariulone started a cyberpunk‑VR‑port project in C++ to bring the game Cyberpunk 2077 into virtual reality.",
+          "detail": "The repository contains early‑stage code aiming to adapt the game's rendering pipeline for VR headsets, handling stereoscopic rendering and motion tracking. It is an experimental effort and not yet functional, inviting contributions from the community.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/545d6c9071af4e965d728da948c6600db3164c127b987b865e3a9adb7ae2858f/dariulone/cyberpunk-vr-port",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
