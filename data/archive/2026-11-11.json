@@ -1,0 +1,769 @@
+{
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T09:44:10+00:00",
+  "stats": {
+    "fetched": 212,
+    "new_after_dedupe": 160,
+    "published": 28,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 19,
+      "supported": 19,
+      "dropped": 0,
+      "unverifiable": 3,
+      "summaries_reverted": 0,
+      "rate": 1.0
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. Your overnight feed includes a hardware‑aware LLM stack, a judge that actually listens, and a 3‑D printer that can solder while it prints.",
+    "stories": [
+      {
+        "kicker": "On-device LLM",
+        "headline": "EngineAgent abstracts hardware for on‑device LLMs",
+        "body": "**Hardware‑aware abstraction layer:** EngineAgent splits reusable engine knowledge from model code and builds a hierarchy‑aware index that pre‑validates cross‑layer dependencies, letting you drop a model onto any supported chip without rewiring. It automates on‑device inference enablement.",
+        "why": "Saves engineering time when deploying LLMs across heterogeneous devices.",
+        "ids": [
+          "e700096f78e00b91092906c1f93f8fc613a578bc"
+        ]
+      },
+      {
+        "kicker": "LLM Assurance",
+        "headline": "Probe adds 22.5 pp error detection",
+        "body": "**Attention‑head probe boost:** A supervised probe reads internal signals to spot errors, pulling up to 22.5 percentage points more mistakes at a 5 % review budget on 7‑12 B models. It outperforms the built‑in judge.",
+        "why": "Cuts manual review effort for safety‑critical deployments.",
+        "ids": [
+          "fa8017916e241f06547e597612fe3b3be1b684ad"
+        ]
+      },
+      {
+        "kicker": "Embedded",
+        "headline": "3‑D printers now embed electronics",
+        "body": "**Print‑while‑place technique:** Hackaday shows a method that drops components into the print as the FDM nozzle moves, creating fully functional boards without a separate assembly step. No post‑print soldering needed.",
+        "why": "Merges prototyping and assembly, speeding hardware iteration.",
+        "ids": [
+          "455fe1bcf015984bca000f372c3b0f57090c2a8d"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Personal assistant:** BotPsy runs a sub‑billion‑parameter agentic model on‑device.",
+        "id": "b22522d14a17f95f283880f472cfa6e801354fb8"
+      },
+      {
+        "text": "**GPU compiler:** TLX extends Triton with warp‑group orchestration for new GPU features.",
+        "id": "e2117a1184bb4bd948590a1b85553e6a8672535b"
+      },
+      {
+        "text": "**IPO roadshow:** Anthropic promotes its upcoming public offering.",
+        "id": "26b496ffaa34d81812a4794f89edcd64731ef3db"
+      },
+      {
+        "text": "**Model finder:** llmfit lists hundreds of compatible models for your hardware.",
+        "id": "9eb0b2fa15a14778358ec148b806aac99c2ad42c"
+      },
+      {
+        "text": "**VR streaming:** ALVR streams PC games to headsets over Wi‑Fi using Rust.",
+        "id": "7b496ca90e9b31272ce28530a71bcd12c3f1ac7b"
+      }
+    ],
+    "number": {
+      "value": "20,000+",
+      "label": "Veterans receiving free ChatGPT Plus",
+      "id": "80b38ea7da372c49e059a0a93b8b44c1ad9ac0e2"
+    },
+    "sign_off": "Catch you tomorrow—same time, same code.",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "cf762931be52af4b7e26b80a36de90f5967a7fd5",
+      "title": "Codeforces Round 1134 (Div. 4)",
+      "url": "https://codeforces.com/contests/2290",
+      "source": "Codeforces",
+      "starts": "2026-11-12T14:35:00+00:00",
+      "detail": "ICPC contest, 2.2h, starts Thu 12 Nov 14:35 UTC"
+    },
+    {
+      "id": "e296aeec0849311a946aeeb65f9f180a6eedb497",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2285",
+      "source": "Codeforces",
+      "starts": "2026-11-15T14:35:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sun 15 Nov 14:35 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "EngineAgent: Agentizing On-Device LLM Inference Engines with Inference Stack Hierarchy Awareness and Hardware Abilities",
+      "url": "https://arxiv.org/abs/2611.14356v1",
+      "source": "arXiv cs.OS",
+      "section": "ai-ml",
+      "published": "2026-11-10T17:16:47+00:00",
+      "points": null,
+      "score": 8.5,
+      "id": "e700096f78e00b91092906c1f93f8fc613a578bc",
+      "summary": "EngineAgent automates on-device LLM model enablement by separating reusable engine/hardware knowledge from model-specific code and building a hierarchy‑aware engine index that pre‑validates cross‑layer dependencies.",
+      "detail": "The system constructs an index of engine abstraction layers, captures backend-specific build and debugging workflows, and uses supported models to verify new model pipelines before deployment, reducing manual engineering effort across conversion, graph construction, and operator integration.",
+      "key_points": [],
+      "tag": "Release",
+      "highlight": true,
+      "image": "",
+      "related": {
+        "title": "Can LLM Agents Improve Imperfect Earth System Model Parameterizations?",
+        "url": "https://arxiv.org/abs/2611.03543v1",
+        "date": "2026-11-03",
+        "id": "ccb523bb7f726a1fdc943e6ea65759d3178d3692"
+      }
+    },
+    {
+      "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
+      "url": "https://arxiv.org/abs/2611.14419v1",
+      "source": "arXiv cs.AI",
+      "section": "ai-ml",
+      "published": "2026-11-10T17:58:12+00:00",
+      "points": null,
+      "score": 8.5,
+      "id": "872cf8e087270b8e7946f1c5630e25c81710495a",
+      "summary": "A benchmark of 44 scenarios shows five LLMs can generate world‑model games that pass strict mechanical audits in 134 of 135 cases.",
+      "detail": "The study evaluates 410 first‑pass generations across game, situational, and cultural settings, measuring mechanical validity, structural agreement, and semantic criteria, and finds high mechanical compliance but varying deeper alignment with intended decision problems.",
+      "key_points": [
+        "5 LLMs",
+        "44 scenarios",
+        "134/135 pass"
+      ],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "source": "huggingface blog",
+      "section": "ai-ml",
+      "published": "2026-11-11T05:01:16+00:00",
+      "points": null,
+      "score": 7.5,
+      "id": "b22522d14a17f95f283880f472cfa6e801354fb8",
+      "summary": "BotPsy is an on‑device personal assistant built around a sub‑billion‑parameter agentic language model.",
+      "detail": "The assistant runs entirely on the device, aiming to provide privacy‑preserving interactions while delivering capabilities comparable to larger cloud‑based models, and is hosted on Hugging Face for easy integration.",
+      "key_points": [
+        "sub‑billion parameters"
+      ],
+      "tag": "Release",
+      "highlight": true,
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/6468b319b2321e47d3267049/Emr86qw6NAueYLdIEiTTD.png",
+      "related": {}
+    },
+    {
+      "title": "Auditing the Judge: Internal Signals for LLM Reasoning Assurance",
+      "url": "https://arxiv.org/abs/2611.14323v1",
+      "source": "arXiv cs.LG",
+      "section": "ai-ml",
+      "published": "2026-11-10T16:48:21+00:00",
+      "points": null,
+      "score": 7.0,
+      "id": "fa8017916e241f06547e597612fe3b3be1b684ad",
+      "summary": "A supervised probe using attention‑head activations improves error detection over the built‑in judge, finding up to 22.5 percentage points more errors at a 5 % review budget on 7‑12 B models.",
+      "detail": "The probe ranks errors more effectively under fixed‑budget constraints, boosting accuracy when routing 10 % of predictions for review, and transfers across datasets with reduced AUROC, highlighting limits of the original judge’s scoring.",
+      "key_points": [
+        "7‑12B models",
+        "5% review +7.4pp",
+        "1.3‑22.5pp gain"
+      ],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "How We Built TLX: A Hardware-Native GPU Compiler for Production ML at Scale",
+      "url": "https://engineering.fb.com/2026/11/10/open-source/tlx-a-hardware-native-gpu-compiler-for-production-ml/",
+      "source": "meta ai blog",
+      "section": "ai-ml",
+      "published": "2026-11-10T16:59:31+00:00",
+      "points": null,
+      "score": 6.5,
+      "id": "e2117a1184bb4bd948590a1b85553e6a8672535b",
+      "summary": "TLX extends the Triton language with explicit warp‑group and cluster orchestration to let engineers exploit new GPU hardware features without losing productivity.",
+      "detail": "By adding low‑level extensions, TLX enables performance gains in recommendation‑system training and inference as well as large‑scale LLM pretraining, while preserving Triton’s high‑level programming model for rapid development.",
+      "key_points": [],
+      "tag": "Release",
+      "highlight": true,
+      "image": "https://engineering.fb.com/wp-content/uploads/2026/11/Meta-TLX-hero.png",
+      "related": {
+        "title": "Mitigating SM-Level Load Imbalance in 3D Gaussian Splatting on GPUs",
+        "url": "https://arxiv.org/abs/2611.12319v1",
+        "date": "2026-11-10",
+        "id": "ff8f553ff26c5128f5b2c153116c5fc7bb66608e"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "EngineAgent: Agentizing On-Device LLM Inference Engines with Inference Stack Hierarchy Awareness and Hardware Abilities",
+          "url": "https://arxiv.org/abs/2611.14356v1",
+          "source": "arXiv cs.OS",
+          "section": "ai-ml",
+          "published": "2026-11-10T17:16:47+00:00",
+          "points": null,
+          "score": 8.5,
+          "id": "e700096f78e00b91092906c1f93f8fc613a578bc",
+          "summary": "EngineAgent automates on-device LLM model enablement by separating reusable engine/hardware knowledge from model-specific code and building a hierarchy‑aware engine index that pre‑validates cross‑layer dependencies.",
+          "detail": "The system constructs an index of engine abstraction layers, captures backend-specific build and debugging workflows, and uses supported models to verify new model pipelines before deployment, reducing manual engineering effort across conversion, graph construction, and operator integration.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": true,
+          "image": "",
+          "related": {
+            "title": "Can LLM Agents Improve Imperfect Earth System Model Parameterizations?",
+            "url": "https://arxiv.org/abs/2611.03543v1",
+            "date": "2026-11-03",
+            "id": "ccb523bb7f726a1fdc943e6ea65759d3178d3692"
+          }
+        },
+        {
+          "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
+          "url": "https://arxiv.org/abs/2611.14419v1",
+          "source": "arXiv cs.AI",
+          "section": "ai-ml",
+          "published": "2026-11-10T17:58:12+00:00",
+          "points": null,
+          "score": 8.5,
+          "id": "872cf8e087270b8e7946f1c5630e25c81710495a",
+          "summary": "A benchmark of 44 scenarios shows five LLMs can generate world‑model games that pass strict mechanical audits in 134 of 135 cases.",
+          "detail": "The study evaluates 410 first‑pass generations across game, situational, and cultural settings, measuring mechanical validity, structural agreement, and semantic criteria, and finds high mechanical compliance but varying deeper alignment with intended decision problems.",
+          "key_points": [
+            "5 LLMs",
+            "44 scenarios",
+            "134/135 pass"
+          ],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+          "url": "https://huggingface.co/blog/qvac/botpsy",
+          "source": "huggingface blog",
+          "section": "ai-ml",
+          "published": "2026-11-11T05:01:16+00:00",
+          "points": null,
+          "score": 7.5,
+          "id": "b22522d14a17f95f283880f472cfa6e801354fb8",
+          "summary": "BotPsy is an on‑device personal assistant built around a sub‑billion‑parameter agentic language model.",
+          "detail": "The assistant runs entirely on the device, aiming to provide privacy‑preserving interactions while delivering capabilities comparable to larger cloud‑based models, and is hosted on Hugging Face for easy integration.",
+          "key_points": [
+            "sub‑billion parameters"
+          ],
+          "tag": "Release",
+          "highlight": true,
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/6468b319b2321e47d3267049/Emr86qw6NAueYLdIEiTTD.png",
+          "related": {}
+        },
+        {
+          "title": "Auditing the Judge: Internal Signals for LLM Reasoning Assurance",
+          "url": "https://arxiv.org/abs/2611.14323v1",
+          "source": "arXiv cs.LG",
+          "section": "ai-ml",
+          "published": "2026-11-10T16:48:21+00:00",
+          "points": null,
+          "score": 7.0,
+          "id": "fa8017916e241f06547e597612fe3b3be1b684ad",
+          "summary": "A supervised probe using attention‑head activations improves error detection over the built‑in judge, finding up to 22.5 percentage points more errors at a 5 % review budget on 7‑12 B models.",
+          "detail": "The probe ranks errors more effectively under fixed‑budget constraints, boosting accuracy when routing 10 % of predictions for review, and transfers across datasets with reduced AUROC, highlighting limits of the original judge’s scoring.",
+          "key_points": [
+            "7‑12B models",
+            "5% review +7.4pp",
+            "1.3‑22.5pp gain"
+          ],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "How We Built TLX: A Hardware-Native GPU Compiler for Production ML at Scale",
+          "url": "https://engineering.fb.com/2026/11/10/open-source/tlx-a-hardware-native-gpu-compiler-for-production-ml/",
+          "source": "meta ai blog",
+          "section": "ai-ml",
+          "published": "2026-11-10T16:59:31+00:00",
+          "points": null,
+          "score": 6.5,
+          "id": "e2117a1184bb4bd948590a1b85553e6a8672535b",
+          "summary": "TLX extends the Triton language with explicit warp‑group and cluster orchestration to let engineers exploit new GPU hardware features without losing productivity.",
+          "detail": "By adding low‑level extensions, TLX enables performance gains in recommendation‑system training and inference as well as large‑scale LLM pretraining, while preserving Triton’s high‑level programming model for rapid development.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": true,
+          "image": "https://engineering.fb.com/wp-content/uploads/2026/11/Meta-TLX-hero.png",
+          "related": {
+            "title": "Mitigating SM-Level Load Imbalance in 3D Gaussian Splatting on GPUs",
+            "url": "https://arxiv.org/abs/2611.12319v1",
+            "date": "2026-11-10",
+            "id": "ff8f553ff26c5128f5b2c153116c5fc7bb66608e"
+          }
+        },
+        {
+          "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+          "url": "https://github.com/GoogleChrome/modern-web-guidance",
+          "source": "Hacker News",
+          "section": "ai-ml",
+          "published": "2026-11-10T18:01:15+00:00",
+          "points": 367,
+          "score": 6.0,
+          "id": "5175b6a2b765750a6d5cc37ad8b4945c20190f28",
+          "summary": "Version 1.0 of a Chrome‑Firefox‑Edge collaborative effort ships 200+ curated web‑API guides (~1.7 MB) to teach coding agents native browser primitives.",
+          "detail": "The guides cover modern web features like CSS.highlights, <dialog>, and auto‑growing textareas, aiming to replace legacy JavaScript patterns with platform‑native solutions and improve agent‑generated code quality.",
+          "key_points": [
+            "200+ guides",
+            "1.7 MB",
+            "v1.0"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/8bfd0f35e4ffab30091a74c3b03122bce30433c804fbe966afe10789e90d1f5b/GoogleChrome/modern-web-guidance",
+          "related": {}
+        },
+        {
+          "title": "Anthropic launches roadshow for proposed initial public offering",
+          "url": "https://www.anthropic.com/news/roadshow-launch",
+          "source": "Anthropic",
+          "section": "ai-ml",
+          "published": null,
+          "points": null,
+          "score": 3.0,
+          "id": "26b496ffaa34d81812a4794f89edcd64731ef3db",
+          "summary": "Anthropic announced a roadshow to promote its planned initial public offering.",
+          "detail": "The company will meet potential investors to discuss valuation expectations and timeline, aiming to generate interest ahead of filing. No specific IPO date or price range was disclosed.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+          "related": {}
+        },
+        {
+          "title": "ChatGPT Plus for veterans and servicemembers",
+          "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-11T08:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "80b38ea7da372c49e059a0a93b8b44c1ad9ac0e2",
+          "summary": "Over 20,000 veterans and transitioning service members have received a free year of ChatGPT Plus.",
+          "detail": "The program, announced on the OpenAI blog, targets veterans preparing for civilian careers, offering them premium access without cost. Eligibility requires verification of service status.",
+          "key_points": [
+            "20,000+ users"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Gemini 4 Carbon is now available",
+          "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+          "source": "deepmind blog",
+          "section": "ai-ml",
+          "published": "2026-11-10T16:03:47+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "fc6b6a56df7b365074b119338f18f53b82e8e233",
+          "summary": "DeepMind released Gemini 4 Carbon, the latest iteration of its AI model.",
+          "detail": "Gemini 4 Carbon builds on the previous Gemini 4 series with improved efficiency and multilingual capabilities. The announcement did not include specific benchmark numbers or pricing.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_key_art_16-9_lockup.width-1300.jpg",
+          "related": {
+            "title": "Gemini 4 Carbon: Our next frontier model",
+            "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+            "date": "2026-10-29",
+            "id": "34b0bf3f94c3851e6957dd11bedc60679d6c4b34"
+          }
+        },
+        {
+          "title": "Gilbert + Tobin rethinks the business of law with AI",
+          "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-12T00:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "f28f90d2895a812ca579d518fcae44bbc0ce22af",
+          "summary": "Gilbert + Tobin discussed integrating AI into legal practice in an interview with OpenAI.",
+          "detail": "Partner Sam Nickless described how the firm is using generative AI to streamline contract drafting and research, emphasizing ethical guidelines and client confidentiality. The conversation highlighted early adoption rather than a product launch.",
+          "key_points": [],
+          "tag": "Analysis",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "The future of the firm",
+            "url": "https://openai.com/index/the-future-of-the-firm",
+            "date": "2026-10-29",
+            "id": "0dc3cf0b7c98dcde7cee9fa081b12b2c28e359be"
+          }
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "Print & Place: Add Embedded Electronics While FDM Printing",
+          "url": "https://hackaday.com/2026/11/10/print-place-add-embedded-electronics-while-fdm-printing/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-11T03:00:32+00:00",
+          "points": null,
+          "score": 4.5,
+          "id": "455fe1bcf015984bca000f372c3b0f57090c2a8d",
+          "summary": "Hackaday featured a Print & Place method that embeds electronics during FDM 3‑D printing.",
+          "detail": "Unlike typical post‑print assembly, the technique places components layer‑by‑layer as the part is printed, reducing manual steps. The approach was demonstrated by Oliver Child and may simplify rapid prototyping of smart objects.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/print_and_place_oliver_child_et_al_uist_2026.jpg",
+          "related": {}
+        },
+        {
+          "title": "Security updates for Tuesday",
+          "url": "https://lwn.net/Articles/1106522/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-10T14:03:54+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "8ba612ba4d113ef02f5b5c49f54ff6436776794b",
+          "summary": "Multiple Linux distributions released security updates on Tuesday covering dozens of packages.",
+          "detail": "Updates include fixes for curl, glibc, kernel, and various language runtimes across AlmaLinux, Debian, Fedora, Mageia, and Oracle. Users should apply the patches promptly to mitigate disclosed vulnerabilities.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "A massive pile of security updates for Saturday",
+            "url": "https://lwn.net/Articles/1104612/",
+            "date": "2026-11-01",
+            "id": "9f9073d2f29360627ded5b92f84207968f8ea5bf"
+          }
+        },
+        {
+          "title": "Three new stable kernels for Tuesday",
+          "url": "https://lwn.net/Articles/1106569/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-10T19:06:06+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "fba72f2e2d13857cd8b1333557b0e7025f883426",
+          "summary": "Greg Kroah-Hartman released three stable Linux kernels: 7.3.4, 6.18.63, and 6.12.117, each containing over a thousand patches.",
+          "detail": "The 7.3.4 series continues the 7.x line, while 6.18.63 and 6.12.117 are the latest point releases for the long‑term 6.18 and 6.12 branches. All three address security fixes and bug regressions accumulated since their previous stable releases. Users are encouraged to upgrade to benefit from the cumulative fixes.",
+          "key_points": [
+            "7.3.4: 1,250+ patches",
+            "6.18.63: 860+ patches",
+            "6.12.117: 1,530+ patches"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "Eight more stable kernel updates",
+            "url": "https://lwn.net/Articles/1104177/",
+            "date": "2026-10-31",
+            "id": "75fdd5d220e08b01347eb2ec78ffba4648e7af04"
+          }
+        },
+        {
+          "title": "[$] Synaptics patent claims stop work on DisplayLink drivers",
+          "url": "https://lwn.net/Articles/1102549/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-10T15:38:10+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "69f8748bdf4338875b4ca9b2b4472f3d0fafb22d",
+          "summary": "Synaptics' legal team issued patent infringement claims that forced a developer to stop improving the Linux DisplayLink driver for a docking station.",
+          "detail": "The developer had used large language model assistance to address performance gaps in the driver, but Synaptics, which acquired DisplayLink in 2022, responded with cease‑and‑desist demands and threat of costly litigation. As a result, Linux users of Synaptics‑branded docks remain without feature parity with other platforms.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Firefox 160 released",
+          "url": "https://lwn.net/Articles/1106542/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-10T15:37:42+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "ed11b2db0684fbb9486c6f44102b1470a40f0ef4",
+          "summary": "Firefox 160 was released, adding mailto link blocking, Matroska playback with FLAC/MP3/PCM, picture‑in‑picture speed controls, and an early‑stage Mini Window feature.",
+          "detail": "The new version continues Mozilla's incremental feature rollout, focusing on user‑control over link handling and richer media support. The Mini Window is experimental and may evolve into a lightweight windowing mode for web apps. No major security or performance changes were highlighted.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "DeviceTree For Hackers: Intro",
+          "url": "https://hackaday.com/2026/11/10/devicetree-for-hackers-intro/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-10T15:00:00+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "c4648f9997a09b5c1fff8fba0ea812fad1c2f3d2",
+          "summary": "Raspberry Pi disclosed hardware details of the upcoming Pi Zero 3W by publishing its DeviceTree file.",
+          "detail": "The leaked DeviceTree describes the board’s peripherals, pin mappings, and power domains, giving developers early insight into driver development and custom firmware. The publication was part of a broader “DeviceTree for Hackers” series aimed at low‑level hardware exploration.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2019/10/LinuxMarketing.jpg",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "cs-research",
+      "title": "CS research",
+      "tier": 4,
+      "items": [
+        {
+          "title": "Retargetable Compilation for Tensor Kernels via a Unified Layout Abstraction",
+          "url": "https://arxiv.org/abs/2611.13741v1",
+          "source": "arXiv cs.PL",
+          "section": "cs-research",
+          "published": "2026-11-10T08:42:17+00:00",
+          "points": null,
+          "score": 3.5,
+          "id": "f61bc27f89d58cbbe9f5f13de209d7269d136e34",
+          "summary": "Arknife is a retargetable compiler that unifies instruction‑visible tensor layout abstractions across diverse hardware accelerators.",
+          "detail": "By modeling layout requirements as a first‑class entity, Arknife separates layout specification from code generation, allowing the same high‑level tensor program to be compiled for GPUs, TPUs, and custom ASICs without hand‑written layout code. This addresses the fragmentation seen in existing compiler toolchains.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Curriculum proof repair with learned counterexamples",
+          "url": "https://arxiv.org/abs/2611.13627v1",
+          "source": "arXiv cs.PL",
+          "section": "cs-research",
+          "published": "2026-11-10T06:14:20+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "11e031c24270b09ebfe7b19701b1552ca909e9db",
+          "summary": "TopoVerus trains a language model to produce counterexamples for Verus proof repair in a single inference pass, improving diagnostic feedback.",
+          "detail": "The framework reframes counterexample generation as a learned diagnostic task rather than a separate validation step, reducing the iterative cost typical of prior approaches. This enables faster, more actionable proof repair for formal verification workflows.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Scaling Shapley Energy Attribution to Large LLM Batches",
+          "url": "https://arxiv.org/abs/2611.13802v1",
+          "source": "arXiv cs.DC",
+          "section": "cs-research",
+          "published": "2026-11-10T09:34:38+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "ea797d19362d97f767dd8debe9457594c4a9014d",
+          "summary": "StepSplit enables fair Shapley-value energy attribution for large LLM request batches without exhaustive GPU runs.",
+          "detail": "Current batching hides per‑request energy, so providers estimate by token count, which can be unfair. Computing exact Shapley values needs 2^N‑1 runs, infeasible for large N. StepSplit leverages the observation that energy per inference step is additive across GPU generations, allowing an efficient approximation.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "CFGKAT: A Complete Calculus for Non-Local Control Flow",
+          "url": "https://arxiv.org/abs/2611.14201v1",
+          "source": "arXiv cs.PL",
+          "section": "cs-research",
+          "published": "2026-11-10T15:22:03+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "fdf390ae5bb33dd122a84755e5c229e7aab509db",
+          "summary": "CFGKAT extends GKAT with break and goto while providing a sound, complete axiomatization and a mechanized metatheory in Coq.",
+          "detail": "Non‑local control flow introduces contextual semantics that break compositional reasoning. The authors overcome these barriers, verify the loop case of the Erosa‑Hendren goto elimination algorithm, and formalize the results in the Rocq proof assistant.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Gödel's Incompleteness Theorems in Grounded Arithmetic",
+          "url": "https://arxiv.org/abs/2611.13697v1",
+          "source": "arXiv math.LO",
+          "section": "cs-research",
+          "published": "2026-11-10T07:43:34+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "0c56130b3180de435f7a3dd3e3f3d099060b8607",
+          "summary": "A machine‑checked Isabelle/HOL development shows Gödel's incompleteness theorems hold for Reflective Grounded Arithmetic and its extensions.",
+          "detail": "RGA treats every term as a program with grounded truth, discharging hypotheses only when proved. Despite its material implication and disjunction property, Gödel's second theorem survives as entailments. The development also proves RGA cannot assert its own consistency sentence.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Multi-Objective Scheduling of LLM-Based Multi-Agent Workflows in Cloud Computing",
+          "url": "https://arxiv.org/abs/2611.13740v1",
+          "source": "arXiv cs.DC",
+          "section": "cs-research",
+          "published": "2026-11-10T08:40:21+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "f6bd93738db6607ee940a7b37763df48be360520",
+          "summary": "A multi‑objective scheduler optimizes latency, cost, and resource use for LLM‑based multi‑agent workflows in cloud environments.",
+          "detail": "The work addresses the gap where existing frameworks focus on output quality but ignore execution dynamics such as inference latency, heterogeneous compute, billing periods, and resource utilization. It formulates a scheduling problem balancing these metrics and evaluates it on cloud‑scale deployments.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems",
+            "url": "https://arxiv.org/abs/2611.12856v1",
+            "date": "2026-11-10",
+            "id": "f1d74286b41ab3117433d6cc3464fe9d54c39517"
+          }
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "AlexsJones/llmfit",
+          "url": "https://github.com/AlexsJones/llmfit",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 38909,
+          "score": 2.0,
+          "id": "9eb0b2fa15a14778358ec148b806aac99c2ad42c",
+          "summary": "llmfit is a Rust CLI that lists compatible models and providers for the user's hardware.",
+          "detail": "The tool queries multiple model providers and filters results based on detected GPU/CPU capabilities, allowing a single command to discover runnable LLMs without manual lookup.",
+          "key_points": [
+            "Hundreds of models"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/68a0a0322a6491fc6c25b8d55145f8660bd7e7a7af85387784d8db8123ea7b9c/AlexsJones/llmfit",
+          "related": {}
+        },
+        {
+          "title": "alvr-org/ALVR",
+          "url": "https://github.com/alvr-org/ALVR",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 8083,
+          "score": 2.0,
+          "id": "7b496ca90e9b31272ce28530a71bcd12c3f1ac7b",
+          "summary": "ALVR streams PC VR games to a headset over Wi‑Fi using Rust.",
+          "detail": "The open‑source project implements low‑latency video and audio streaming, handling compression, network jitter, and headset input to provide a wireless VR experience without specialized hardware.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/197211881/16e62700-58e1-11eb-9b77-3a5404f17e13",
+          "related": {}
+        },
+        {
+          "title": "ashishpatel26/500-AI-Agents-Projects",
+          "url": "https://github.com/ashishpatel26/500-AI-Agents-Projects",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 39688,
+          "score": 2.0,
+          "id": "6a5f2d3f238f7f3a30b568adc8b44254a299a4ee",
+          "summary": "The 500 AI Agents Projects repository curates 500 open‑source AI agent use cases spanning healthcare, finance, education, retail and other sectors.",
+          "detail": "Each entry links to an implementation repository, allowing engineers to explore concrete examples of agent architectures and integration patterns. The collection highlights how agents are being applied to automate domain‑specific tasks, offering a practical reference for building similar solutions.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/199b54c58eda66306f104534e8c197210ad24bcfd8520221c9350790d49e4fda/ashishpatel26/500-AI-Agents-Projects",
+          "related": {}
+        },
+        {
+          "title": "elder-plinius/OBLITERATUS",
+          "url": "https://github.com/elder-plinius/OBLITERATUS",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 9456,
+          "score": 2.0,
+          "id": "596f1566772d0c5f964dbb7a9887676907ce9e76",
+          "summary": "OBLITERATUS is a Python project with the slogan \"Obliterate the chains that bind you\".",
+          "detail": "The repository provides code intended to break or simplify constraints, though the description offers no specifics about functionality, licensing, or intended use cases. Interested readers will need to inspect the source for concrete details.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/b9eb8e705c6eb3569e2f00d6d771c9061bb438cb8b954fa040c0a1d512e9f0ea/elder-plinius/OBLITERATUS",
+          "related": {}
+        },
+        {
+          "title": "figma/mcp-server-guide",
+          "url": "https://github.com/figma/mcp-server-guide",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 2172,
+          "score": 2.0,
+          "id": "9b8780536da60d0895c8537ce27152b29632a5dd",
+          "summary": "The figma/mcp-server-guide repository contains a guide for using the Figma MCP server.",
+          "detail": "The guide walks users through setup, configuration, and basic operations of the MCP server, which facilitates communication between Figma plugins and external services. It serves as a practical reference for developers integrating with Figma's backend.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/ae554aa7687afc6b5d71d169ef542027a9f2e312f4a58f4816d4445fbff2b505/figma/mcp-server-guide",
+          "related": {}
+        },
+        {
+          "title": "flameshot-org/flameshot",
+          "url": "https://github.com/flameshot-org/flameshot",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 31510,
+          "score": 2.0,
+          "id": "0a6159b2d715303321d4538cc56b6bd5b37a2468",
+          "summary": "Flameshot is an open‑source screenshot tool written in C++ that emphasizes simplicity and power.",
+          "detail": "The application provides on‑screen annotation, region selection, and easy export options, targeting developers and power users who need quick visual capture without heavyweight UI. Its lightweight design makes it suitable for integration into custom workflows.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/f7fea08debad9a8ca97f6364f63e9ac787df0df75a525834c49923fc14e9a173/flameshot-org/flameshot",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
