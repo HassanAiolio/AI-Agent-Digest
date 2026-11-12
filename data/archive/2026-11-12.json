@@ -1,0 +1,522 @@
+{
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T10:04:15+00:00",
+  "stats": {
+    "fetched": 136,
+    "new_after_dedupe": 91,
+    "published": 17,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 13,
+      "supported": 11,
+      "dropped": 0,
+      "unverifiable": 1,
+      "summaries_reverted": 2,
+      "rate": 0.8462
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. Meta is shuffling compute like a DJ, hoping your ads finally hit the right beat.",
+    "stories": [
+      {
+        "kicker": "Ad compute",
+        "headline": "Meta rolls out Intelligent Delivery",
+        "body": "**Dynamic compute juggling:** Meta’s Intelligent Delivery shifts CPU cycles between ad ranking models in real time, squeezing more clicks per watt. It’s a software‑only tweak, no new hardware.",
+        "why": "Better ad ROI means less wasted GPU time for you.",
+        "ids": [
+          "2b28b84b904e42b57c3cc45b8550206a46e1a26f"
+        ]
+      },
+      {
+        "kicker": "Genomics AI",
+        "headline": "DeepMind unveils AlphaGenome 2",
+        "body": "**Cell‑type variant mapping:** AlphaGenome 2 predicts how DNA changes affect specific human cells and disease traits, extending the original model’s scope. Researchers can now query variant impact without lab assays.",
+        "why": "Accelerates hypothesis testing, saving weeks of wet‑lab work.",
+        "ids": [
+          "e879c6fc35d4933fd40afbaeb860ab9eff703b40"
+        ]
+      },
+      {
+        "kicker": "Linux security",
+        "headline": "LWN reports wide‑scale Linux patch spree",
+        "body": "**Patch avalanche:** LWN lists updates across dozens of packages—kernel, glibc, .NET runtimes—closing vulnerabilities from memory bugs to remote code exec. Admins should roll them out ASAP.",
+        "why": "Unpatched systems are easy targets for attackers.",
+        "ids": [
+          "2c02731dfe334bee0a36b706eaf5e7f48d8ef543"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Browser agents:** browser-use adds stealth browsing and cloud API for AI bots.",
+        "id": "44f0426e6105e13918b72ca4b0ce3aa0d8872c83"
+      },
+      {
+        "text": "**Vector search:** FAISS speeds up similarity queries on dense embeddings.",
+        "id": "78241b72404d6577b73f4e06d9f35239471ad520"
+      },
+      {
+        "text": "**Terminal upgrade:** Zellij 0.46 now runs as a desktop app on all major OSes.",
+        "id": "796560d8e2e013b67a77c618f748b7a34dcd0411"
+      },
+      {
+        "text": "**Code safety:** OpenAI’s Codex Security CLI scans for vulnerabilities in TypeScript projects.",
+        "id": "65f8a2e3eddbdfe5bc4ab37ea341a7f2eff1e26c"
+      },
+      {
+        "text": "**Video model:** hyperflow‑h3‑flash hits 241K downloads, turning text into short clips.",
+        "id": "2bba785a333045e2e440f0dfb7156c4c13f1ad31"
+      }
+    ],
+    "number": null,
+    "sign_off": "Catch you tomorrow, with more bits and bytes",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "cf762931be52af4b7e26b80a36de90f5967a7fd5",
+      "title": "Codeforces Round 1134 (Div. 4)",
+      "url": "https://codeforces.com/contests/2290",
+      "source": "Codeforces",
+      "starts": "2026-11-12T14:35:00+00:00",
+      "detail": "ICPC contest, 2.2h, starts Thu 12 Nov 14:35 UTC"
+    },
+    {
+      "id": "e296aeec0849311a946aeeb65f9f180a6eedb497",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2285",
+      "source": "Codeforces",
+      "starts": "2026-11-15T14:35:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sun 15 Nov 14:35 UTC"
+    },
+    {
+      "id": "60822431f06b8f490ded560d5c8c4719addfcb38",
+      "title": "Codeforces Round (Div. 1)",
+      "url": "https://codeforces.com/contests/2287",
+      "source": "Codeforces",
+      "starts": "2026-11-21T14:35:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sat 21 Nov 14:35 UTC"
+    },
+    {
+      "id": "94f95405e790ebb27551dc384896cec5feb7e3e3",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2288",
+      "source": "Codeforces",
+      "starts": "2026-11-21T14:35:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sat 21 Nov 14:35 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Intelligent Delivery: Making Every Unit of Compute Serve Better Ads",
+      "url": "https://engineering.fb.com/2026/11/11/ml-applications/intelligent-delivery-serve-better-ads/",
+      "source": "meta ai blog",
+      "section": "ai-ml",
+      "published": "2026-11-11T17:00:38+00:00",
+      "points": null,
+      "score": 4.5,
+      "id": "2b28b84b904e42b57c3cc45b8550206a46e1a26f",
+      "summary": "Meta introduced Intelligent Delivery, a system that dynamically allocates compute across ad ranking models to maximize overall ad performance.",
+      "detail": "The approach evaluates the marginal impact of an extra compute unit on different requests, models, and chips, directing resources where they yield the greatest system‑wide gain. It aims to keep ad ranking models scaling with LLM‑size trends despite hardware limits.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "https://engineering.fb.com/wp-content/uploads/2026/11/Meta-Intelligent-Delivery-Hero.png",
+      "related": {}
+    },
+    {
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "source": "deepmind blog",
+      "section": "ai-ml",
+      "published": "2026-11-11T15:00:15+00:00",
+      "points": null,
+      "score": 3.0,
+      "id": "e879c6fc35d4933fd40afbaeb860ab9eff703b40",
+      "summary": "DeepMind released AlphaGenome 2, a model that predicts how DNA sequence variants affect specific human cell types and disease phenotypes.",
+      "detail": "AlphaGenome 2 builds on prior genomics models by integrating cell‑type specific expression data, enabling finer‑grained functional interpretation of non‑coding variants. It is intended to aid biomedical research and potential therapeutic target discovery.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w1200-h630-n-nu-rw",
+      "related": {}
+    },
+    {
+      "title": "Security updates for Wednesday",
+      "url": "https://lwn.net/Articles/1106876/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-11-11T14:15:31+00:00",
+      "points": null,
+      "score": 3.0,
+      "id": "2c02731dfe334bee0a36b706eaf5e7f48d8ef543",
+      "summary": "LWN reported security updates for multiple Linux distributions, covering dozens of packages including kernel, glibc, and .NET runtimes.",
+      "detail": "Updates span AlmaLinux, Debian, Fedora, Gentoo, Mageia, Oracle, and Red Hat, addressing vulnerabilities across system libraries, development tools, and applications. Administrators are advised to apply the patches promptly.",
+      "key_points": [],
+      "tag": "News",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "browser-use/browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "source": "GitHub trending · python",
+      "section": "repos",
+      "published": null,
+      "points": 120797,
+      "score": 2.5,
+      "id": "44f0426e6105e13918b72ca4b0ce3aa0d8872c83",
+      "summary": "browser-use is an open‑source Python library for AI‑driven browser agents, offering a stealth browser and hosted API via Browser Use Cloud.",
+      "detail": "The library enables developers to script browsers for automation or data collection while the cloud service provides managed, low‑profile instances for scaling.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://repository-images.githubusercontent.com/881458615/fddb1de9-5742-4037-8ea9-bf8f1cfd2f58",
+      "related": {}
+    },
+    {
+      "title": "facebookresearch/faiss",
+      "url": "https://github.com/facebookresearch/faiss",
+      "source": "GitHub trending · c++",
+      "section": "repos",
+      "published": null,
+      "points": 41477,
+      "score": 2.5,
+      "id": "78241b72404d6577b73f4e06d9f35239471ad520",
+      "summary": "FAISS is a C++ library that provides efficient similarity search and clustering for dense vector data.",
+      "detail": "FAISS supports indexing structures like IVF, HNSW, and PQ, enabling fast nearest‑neighbor queries on large datasets. It is widely used in recommendation systems and large‑scale retrieval pipelines. The library is open‑source under the MIT license and integrates with Python bindings.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://opengraph.githubassets.com/d12cf93f939c981cab875bf6f7dae1c2fec903fd9c3a8f9d696fa7a94da373b7/facebookresearch/faiss",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "Intelligent Delivery: Making Every Unit of Compute Serve Better Ads",
+          "url": "https://engineering.fb.com/2026/11/11/ml-applications/intelligent-delivery-serve-better-ads/",
+          "source": "meta ai blog",
+          "section": "ai-ml",
+          "published": "2026-11-11T17:00:38+00:00",
+          "points": null,
+          "score": 4.5,
+          "id": "2b28b84b904e42b57c3cc45b8550206a46e1a26f",
+          "summary": "Meta introduced Intelligent Delivery, a system that dynamically allocates compute across ad ranking models to maximize overall ad performance.",
+          "detail": "The approach evaluates the marginal impact of an extra compute unit on different requests, models, and chips, directing resources where they yield the greatest system‑wide gain. It aims to keep ad ranking models scaling with LLM‑size trends despite hardware limits.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "https://engineering.fb.com/wp-content/uploads/2026/11/Meta-Intelligent-Delivery-Hero.png",
+          "related": {}
+        },
+        {
+          "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+          "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+          "source": "deepmind blog",
+          "section": "ai-ml",
+          "published": "2026-11-11T15:00:15+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "e879c6fc35d4933fd40afbaeb860ab9eff703b40",
+          "summary": "DeepMind released AlphaGenome 2, a model that predicts how DNA sequence variants affect specific human cell types and disease phenotypes.",
+          "detail": "AlphaGenome 2 builds on prior genomics models by integrating cell‑type specific expression data, enabling finer‑grained functional interpretation of non‑coding variants. It is intended to aid biomedical research and potential therapeutic target discovery.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w1200-h630-n-nu-rw",
+          "related": {}
+        },
+        {
+          "title": "Model: Lightricks/LTX-2.5",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-07-23T07:55:24.000Z",
+          "points": 11560,
+          "score": 1.5,
+          "id": "04ce1345cda98e377c58938639c1794954cb00b1",
+          "summary": "image-to-video · 2,848,771 downloads · 11560 likes",
+          "detail": "The model converts static images into short video clips and has attracted significant community interest, as reflected in its download and like counts. It is hosted on the Hugging Face Model Hub and is openly accessible.",
+          "key_points": [
+            "2,848,771 downloads",
+            "11,560 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Lightricks/LTX-2.5.png",
+          "related": {}
+        },
+        {
+          "title": "Model: MiniMaxAI/MiniMax-H3-Image",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-11-03T06:34:36.000Z",
+          "points": 792,
+          "score": 1.5,
+          "id": "1f1dbabb56c455a1ee31471d3aec569976d12000",
+          "summary": "text-to-image · 142,989 downloads · 792 likes",
+          "detail": "The model generates images from textual prompts and has gathered moderate community engagement. It is part of the MiniMaxAI suite of generative models available for public use.",
+          "key_points": [
+            "142,989 downloads",
+            "792 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/MiniMaxAI/MiniMax-H3-Image.png",
+          "related": {}
+        },
+        {
+          "title": "Model: VideoRebirthAI/hyperflow-h3-flash",
+          "url": "https://huggingface.co/VideoRebirthAI/hyperflow-h3-flash",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-11-04T13:54:24.000Z",
+          "points": 226,
+          "score": 1.5,
+          "id": "2bba785a333045e2e440f0dfb7156c4c13f1ad31",
+          "summary": "VideoRebirthAI released hyperflow‑h3‑flash, an image‑text‑to‑video model on Hugging Face with over 241 K downloads.",
+          "detail": "The model creates short video sequences conditioned on both visual and textual inputs. Its download count indicates growing interest in multimodal video generation within the open‑source community.",
+          "key_points": [
+            "241,579 downloads",
+            "226 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/VideoRebirthAI/hyperflow-h3-flash.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "Security updates for Wednesday",
+          "url": "https://lwn.net/Articles/1106876/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-11T14:15:31+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "2c02731dfe334bee0a36b706eaf5e7f48d8ef543",
+          "summary": "LWN reported security updates for multiple Linux distributions, covering dozens of packages including kernel, glibc, and .NET runtimes.",
+          "detail": "Updates span AlmaLinux, Debian, Fedora, Gentoo, Mageia, Oracle, and Red Hat, addressing vulnerabilities across system libraries, development tools, and applications. Administrators are advised to apply the patches promptly.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "In Memoriam: Tim Peters 1952–2026",
+          "url": "https://lwn.net/Articles/1106901/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-11T17:12:51+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "1e20f638d4c571a85afcb8dd8787e1165a61e858",
+          "summary": "Tim Peters, known for authoring the Zen of Python (PEP 20) and long-time Python mentor, passed away in 2026.",
+          "detail": "Guido van Rossum announced the news, noting Peters' early influence on Python's mixed int‑float arithmetic and his continued contributions throughout his career.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Zellij 0.46 released",
+          "url": "https://lwn.net/Articles/1106903/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-11T17:26:48+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "796560d8e2e013b67a77c618f748b7a34dcd0411",
+          "summary": "Zellij 0.46 adds a desktop terminal mode that runs on Linux, macOS, and Windows while retaining its multiplexer functionality.",
+          "detail": "The release also introduces a GUI settings screen, session previews, and a right‑click menu, and the new mode can be launched with \"zellij terminal .\" Shared sessions work identically across both modes.",
+          "key_points": [
+            "0.46",
+            "desktop terminal"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "[$] Additional hardening for the glibc dynamic linker",
+          "url": "https://lwn.net/Articles/1105134/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-11T14:35:29+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "1b3d435bd7e51ce10b0ce9ff0aee2a4d6e251da4",
+          "summary": "glibc is proposing tunable settings that let administrators block programs lacking ASLR support after a Node.js Brotli overflow exposed the issue.",
+          "detail": "The Node.js vulnerability showed that binaries built without ASLR could be exploited more easily. The proposed hardening does not fix the underlying bug but raises the bar for attackers.",
+          "key_points": [],
+          "tag": "Analysis",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "[$] LWN.net Weekly Edition for November 12, 2026",
+          "url": "https://lwn.net/Articles/1105460/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-12T00:23:48+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "38a0ce57a05a060810bbb1694f9414ea660580ec",
+          "summary": "The LWN.net Weekly Edition for November 12 2026 covers topics like Synaptics patents, Git LLM policy, and upcoming Firefox 160.",
+          "detail": "Briefs include updates on Asahi Linux 7.3, OpenIndiana 2026.10, and various security patches. The edition also lists newsletters, conferences, and other announcements.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "A LEGO 3D Printer",
+          "url": "https://hackaday.com/2026/11/11/a-lego-3d-printer/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-12T06:00:42+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "7cc72e72808cca7e80898707faaf110cebe6cf07",
+          "summary": "A hacker built a 3‑D printer that uses LEGO bricks as the printing material.",
+          "detail": "The project repurposes the modularity of LEGO building blocks for additive manufacturing, demonstrating a novel, playful approach to rapid prototyping.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/Studprint-lego-3dprinter-feat.jpeg",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "browser-use/browser-use",
+          "url": "https://github.com/browser-use/browser-use",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 120797,
+          "score": 2.5,
+          "id": "44f0426e6105e13918b72ca4b0ce3aa0d8872c83",
+          "summary": "browser-use is an open‑source Python library for AI‑driven browser agents, offering a stealth browser and hosted API via Browser Use Cloud.",
+          "detail": "The library enables developers to script browsers for automation or data collection while the cloud service provides managed, low‑profile instances for scaling.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://repository-images.githubusercontent.com/881458615/fddb1de9-5742-4037-8ea9-bf8f1cfd2f58",
+          "related": {}
+        },
+        {
+          "title": "facebookresearch/faiss",
+          "url": "https://github.com/facebookresearch/faiss",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 41477,
+          "score": 2.5,
+          "id": "78241b72404d6577b73f4e06d9f35239471ad520",
+          "summary": "FAISS is a C++ library that provides efficient similarity search and clustering for dense vector data.",
+          "detail": "FAISS supports indexing structures like IVF, HNSW, and PQ, enabling fast nearest‑neighbor queries on large datasets. It is widely used in recommendation systems and large‑scale retrieval pipelines. The library is open‑source under the MIT license and integrates with Python bindings.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://opengraph.githubassets.com/d12cf93f939c981cab875bf6f7dae1c2fec903fd9c3a8f9d696fa7a94da373b7/facebookresearch/faiss",
+          "related": {}
+        },
+        {
+          "title": "mg-chao/snow-shot",
+          "url": "https://github.com/mg-chao/snow-shot",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 6966,
+          "score": 2.5,
+          "id": "02770e668f896467ae2b1cd18028f3204b9096f4",
+          "summary": "Snow Shot is a free, open‑source screenshot and screen‑recording tool for Windows and macOS with annotation, scrolling capture, offline OCR, and image pinning.",
+          "detail": "The application supports multi‑monitor setups and can export captures in common image formats. Its OCR engine works without an internet connection, preserving privacy. The project is maintained on GitHub with contributions from both English and Chinese developers.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/01372725d422505514e95037a98d1a8bf5329ef954edf5366a1bf829d7a7fdf6/mg-chao/snow-shot",
+          "related": {}
+        },
+        {
+          "title": "openai/codex-security",
+          "url": "https://github.com/openai/codex-security",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 12008,
+          "score": 2.5,
+          "id": "65f8a2e3eddbdfe5bc4ab37ea341a7f2eff1e26c",
+          "summary": "OpenAI's Codex Security provides a CLI and TypeScript SDK to detect, validate, and remediate security vulnerabilities in code.",
+          "detail": "The tool integrates with CI pipelines and can automatically generate patches for identified issues. It is distributed via npm as @openai/codex-security, and includes documentation for custom rule creation. The CLI outputs findings in SARIF format for compatibility with existing security dashboards.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/0d9c6ebaaadda881262953569229d414ec42caa9e22de5ee21bdca067147f230/openai/codex-security",
+          "related": {}
+        },
+        {
+          "title": "GoogleChrome/modern-web-guidance-src",
+          "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 2112,
+          "score": 2.0,
+          "id": "95c23a9afeb3554e12cc55844f1fe7422b8726ba",
+          "summary": "The modern‑web‑guidance‑src repository contains source files for Google's guidance on building modern web applications.",
+          "detail": "It includes best‑practice recommendations, sample configurations, and reference implementations for performance, accessibility, and security. The content is intended for web developers adopting the latest Chrome features and standards.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/e702c65066145681aab1b6e448feb6dffeecf39850a07638fd5c93bf02b88984/GoogleChrome/modern-web-guidance-src",
+          "related": {}
+        },
+        {
+          "title": "TheAlgorithms/Java",
+          "url": "https://github.com/TheAlgorithms/Java",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 67191,
+          "score": 2.0,
+          "id": "8bb9b1bbd3d2ad72ec7ef4a8500863cf4bc74dc9",
+          "summary": "TheAlgorithms/Java hosts implementations of a wide range of algorithms written in Java.",
+          "detail": "The collection covers data structures, sorting, searching, graph algorithms, and cryptographic primitives, each with unit tests. It serves as an educational resource and reference for Java developers seeking ready‑to‑use algorithm code.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/3338f078d4c541cd2374b5925c6690bc116dcbfc0dbdcdb852a23cc971256aa9/TheAlgorithms/Java",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
