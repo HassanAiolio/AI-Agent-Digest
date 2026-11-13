@@ -1,0 +1,741 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T09:52:08+00:00",
+  "stats": {
+    "fetched": 216,
+    "new_after_dedupe": 160,
+    "published": 27,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 28,
+      "supported": 27,
+      "dropped": 1,
+      "unverifiable": 3,
+      "summaries_reverted": 0,
+      "rate": 0.9643
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. Your ESP32 just got a desktop, and LLM agents finally got a firewall.",
+    "stories": [
+      {
+        "kicker": "Security",
+        "headline": "Prompt‑injection shield for tiny LLM agents",
+        "body": "**Tiny LLM agents get a guard:** CapLite builds policies from tool schemas and blocks malicious prompts before tools are read. Tested on 15 models, it stops 68% of injection attempts.",
+        "why": "It lets you deploy small agents without fearing prompt hijacking.",
+        "ids": [
+          "97d3c2a1ce2bc00f48c05953551c28fd930c39fc"
+        ]
+      },
+      {
+        "kicker": "Embedded",
+        "headline": "ESP32‑P4 gets its own desktop OS",
+        "body": "**Two RISC‑V cores, full desktop:** Hackaday reports a new OS that runs on Espressif’s ESP32‑P4, leveraging its dual high‑speed cores for a PC‑like experience.",
+        "why": "You can prototype UI‑rich IoT apps without a laptop.",
+        "ids": [
+          "330aed30a738db4b4a1cfb3b70a54d0d41ed82dc"
+        ]
+      },
+      {
+        "kicker": "Research",
+        "headline": "Parallel transaction execution for multi‑proposer chains",
+        "body": "**Conflict‑graph meets blockchain:** Omakase introduces pre‑execution and inter‑block conflict‑graph analysis to run transactions in parallel across multiple proposers.",
+        "why": "Higher throughput means faster smart‑contract platforms.",
+        "ids": [
+          "8f7a81a91315b26d2d95210f444691193ac34903"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**ArchSpace:** public hub to log and cite LLM architecture papers.",
+        "id": "abf0569d23128aae22bc97c0a970a73a589893f8"
+      },
+      {
+        "text": "**LLMON:** markup language now in Granite 3B and 8B models.",
+        "id": "a88bddb17214a0296f9235b7640bc941ef623c8b"
+      },
+      {
+        "text": "**Amplitude:** ships product tweaks in 1–2 days using OpenAI agents.",
+        "id": "5b0f73df89a6e31055eee70c9f8e540f23e75376"
+      },
+      {
+        "text": "**Gemini 4 Hydrogen:** DeepMind’s latest Gemini iteration announced.",
+        "id": "a8d5fa7d24b3647f4501b383397b571abdcb6905"
+      },
+      {
+        "text": "**Nintendo DMCA:** massive takedown of emulators and firmware on GitHub.",
+        "id": "121aeecde77b14e19eac3b0bad1af0a27f3c6d31"
+      }
+    ],
+    "number": {
+      "value": "2",
+      "label": "RISC‑V cores in ESP32‑P4 desktop OS",
+      "id": "330aed30a738db4b4a1cfb3b70a54d0d41ed82dc"
+    },
+    "sign_off": "Catch you tomorrow – keep hacking.",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "e296aeec0849311a946aeeb65f9f180a6eedb497",
+      "title": "Codeforces Round 1135 (Div. 2)",
+      "url": "https://codeforces.com/contests/2285",
+      "source": "Codeforces",
+      "starts": "2026-11-15T14:35:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sun 15 Nov 14:35 UTC"
+    },
+    {
+      "id": "60822431f06b8f490ded560d5c8c4719addfcb38",
+      "title": "Codeforces Round (Div. 1)",
+      "url": "https://codeforces.com/contests/2287",
+      "source": "Codeforces",
+      "starts": "2026-11-21T14:35:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sat 21 Nov 14:35 UTC"
+    },
+    {
+      "id": "94f95405e790ebb27551dc384896cec5feb7e3e3",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2288",
+      "source": "Codeforces",
+      "starts": "2026-11-21T14:35:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sat 21 Nov 14:35 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Scalable Conversational Assessment: Chat-Based Exams with a Two-Agent LLM Pipeline",
+      "url": "https://arxiv.org/abs/2611.17220v1",
+      "source": "arXiv cs.CY",
+      "section": "ai-ml",
+      "published": "2026-11-12T18:16:37+00:00",
+      "points": null,
+      "score": 7.5,
+      "id": "2eab79a2d63ef79c675418138dd6da20529da32b",
+      "summary": "A two‑agent LLM pipeline conducts text‑based oral exams, separating an interviewer that talks to students from a hidden evaluator that guides questioning via a rubric.",
+      "detail": "The architecture isolates answer leakage by limiting the interviewer's view to next‑question guidance, while the evaluator tracks overall progress and decides when to follow up. This design aims to scale interactive assessments that traditionally require human examiners.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts",
+      "url": "https://arxiv.org/abs/2611.17115v1",
+      "source": "arXiv cs.AI",
+      "section": "ai-ml",
+      "published": "2026-11-12T17:07:22+00:00",
+      "points": null,
+      "score": 7.0,
+      "id": "97d3c2a1ce2bc00f48c05953551c28fd930c39fc",
+      "summary": "CapLite defends small language model agents from prompt injection by deriving policies from tool schemas and enforcing write integrity before tool results are read.",
+      "detail": "Prior defenses required the model to generate security artifacts, which small models failed to produce reliably, allowing attacks on 11‑14 models depending on the method. CapLite’s schema‑based checks prevent unauthorized writes, offering a lightweight alternative for SLM agents.",
+      "key_points": [
+        "15 models evaluated",
+        "13 models 1.7B‑12B params",
+        "CaMeL fails 68% episodes"
+      ],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
+      "url": "https://arxiv.org/abs/2611.17332v1",
+      "source": "arXiv cs.CL",
+      "section": "ai-ml",
+      "published": "2026-11-12T18:59:52+00:00",
+      "points": null,
+      "score": 6.5,
+      "id": "abf0569d23128aae22bc97c0a970a73a589893f8",
+      "summary": "ArchSpace is a public platform for recording, reviewing, and referencing LLM architecture proposals, linking experiments and community feedback.",
+      "detail": "It aims to fill gaps where industry releases rarely document architectural decisions and academia lacks large‑scale baselines, enabling researchers to assess whether innovations scale and persist across workloads.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "A Desktop OS for the ESP32-P4",
+      "url": "https://hackaday.com/2026/11/12/a-desktop-os-for-the-esp32-p4/",
+      "source": "hackaday",
+      "section": "embedded",
+      "published": "2026-11-13T06:00:58+00:00",
+      "points": null,
+      "score": 6.0,
+      "id": "330aed30a738db4b4a1cfb3b70a54d0d41ed82dc",
+      "summary": "A new desktop operating system has been released for Espressif’s ESP32‑P4, which features two high‑speed RISC‑V cores.",
+      "detail": "The ESP32‑P4 targets high‑end applications while remaining cost‑effective, and the OS aims to leverage its processing power for desktop‑class tasks.",
+      "key_points": [
+        "2 RISC‑V cores"
+      ],
+      "tag": "News",
+      "highlight": true,
+      "image": "https://hackaday.com/wp-content/uploads/2026/11/bmds-featured.jpg",
+      "related": {}
+    },
+    {
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "source": "huggingface blog",
+      "section": "ai-ml",
+      "published": "2026-11-12T19:07:35+00:00",
+      "points": null,
+      "score": 5.5,
+      "id": "a88bddb17214a0296f9235b7640bc941ef623c8b",
+      "summary": "LLMON, an LLM‑native markup language, is now supported in Granite 4.1 models of 3 B and 8 B parameters.",
+      "detail": "The addition lets developers embed structured instructions directly in prompts, improving interoperability and reducing the need for external parsing layers when working with Granite models.",
+      "key_points": [
+        "Granite 4.1 3B",
+        "Granite 4.1 8B"
+      ],
+      "tag": "Release",
+      "highlight": true,
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/6484ca4d5ff9a3d2ee52a83b/6KFZDHIJkxpICiErHLqAw.gif",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "Scalable Conversational Assessment: Chat-Based Exams with a Two-Agent LLM Pipeline",
+          "url": "https://arxiv.org/abs/2611.17220v1",
+          "source": "arXiv cs.CY",
+          "section": "ai-ml",
+          "published": "2026-11-12T18:16:37+00:00",
+          "points": null,
+          "score": 7.5,
+          "id": "2eab79a2d63ef79c675418138dd6da20529da32b",
+          "summary": "A two‑agent LLM pipeline conducts text‑based oral exams, separating an interviewer that talks to students from a hidden evaluator that guides questioning via a rubric.",
+          "detail": "The architecture isolates answer leakage by limiting the interviewer's view to next‑question guidance, while the evaluator tracks overall progress and decides when to follow up. This design aims to scale interactive assessments that traditionally require human examiners.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts",
+          "url": "https://arxiv.org/abs/2611.17115v1",
+          "source": "arXiv cs.AI",
+          "section": "ai-ml",
+          "published": "2026-11-12T17:07:22+00:00",
+          "points": null,
+          "score": 7.0,
+          "id": "97d3c2a1ce2bc00f48c05953551c28fd930c39fc",
+          "summary": "CapLite defends small language model agents from prompt injection by deriving policies from tool schemas and enforcing write integrity before tool results are read.",
+          "detail": "Prior defenses required the model to generate security artifacts, which small models failed to produce reliably, allowing attacks on 11‑14 models depending on the method. CapLite’s schema‑based checks prevent unauthorized writes, offering a lightweight alternative for SLM agents.",
+          "key_points": [
+            "15 models evaluated",
+            "13 models 1.7B‑12B params",
+            "CaMeL fails 68% episodes"
+          ],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
+          "url": "https://arxiv.org/abs/2611.17332v1",
+          "source": "arXiv cs.CL",
+          "section": "ai-ml",
+          "published": "2026-11-12T18:59:52+00:00",
+          "points": null,
+          "score": 6.5,
+          "id": "abf0569d23128aae22bc97c0a970a73a589893f8",
+          "summary": "ArchSpace is a public platform for recording, reviewing, and referencing LLM architecture proposals, linking experiments and community feedback.",
+          "detail": "It aims to fill gaps where industry releases rarely document architectural decisions and academia lacks large‑scale baselines, enabling researchers to assess whether innovations scale and persist across workloads.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+          "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+          "source": "huggingface blog",
+          "section": "ai-ml",
+          "published": "2026-11-12T19:07:35+00:00",
+          "points": null,
+          "score": 5.5,
+          "id": "a88bddb17214a0296f9235b7640bc941ef623c8b",
+          "summary": "LLMON, an LLM‑native markup language, is now supported in Granite 4.1 models of 3 B and 8 B parameters.",
+          "detail": "The addition lets developers embed structured instructions directly in prompts, improving interoperability and reducing the need for external parsing layers when working with Granite models.",
+          "key_points": [
+            "Granite 4.1 3B",
+            "Granite 4.1 8B"
+          ],
+          "tag": "Release",
+          "highlight": true,
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/6484ca4d5ff9a3d2ee52a83b/6KFZDHIJkxpICiErHLqAw.gif",
+          "related": {}
+        },
+        {
+          "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+          "url": "https://openai.com/business/customer-stories/amplitude",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-12T20:00:00+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "5b0f73df89a6e31055eee70c9f8e540f23e75376",
+          "summary": "Amplitude ships product improvements in 1–2 days using OpenAI models that power the Wave agent for idea generation, coding, and impact measurement.",
+          "detail": "Wave automates the end‑to‑end workflow from identifying feature opportunities to deploying code changes, allowing rapid iteration cycles for product teams.",
+          "key_points": [
+            "1–2 days"
+          ],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Holiday Extras is rethinking what it can build with Codex",
+          "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-12T09:30:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "0990939c7d6ea9f7b924e5d425b1951c897f11ae",
+          "summary": "Holiday Extras leverages Codex to turn customer expertise into higher‑conversion booking apps and new growth opportunities.",
+          "detail": "By integrating Codex, the company automates parts of app development, aiming to improve user experience and increase booking conversion rates without extensive manual coding.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Introducing Gemini 4 Hydrogen",
+          "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+          "source": "deepmind blog",
+          "section": "ai-ml",
+          "published": "2026-11-12T18:00:50+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "a8d5fa7d24b3647f4501b383397b571abdcb6905",
+          "summary": "DeepMind announced Gemini 4 Hydrogen, the latest iteration of its Gemini model series.",
+          "detail": "The blog post introduces the new model without providing specific metrics, focusing on its intended capabilities and positioning within DeepMind's roadmap.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-hydrogen__key-art__lockup__16-9.width-1300.jpg",
+          "related": {
+            "title": "Gemini 4 Carbon is now available",
+            "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+            "date": "2026-11-11",
+            "id": "fc6b6a56df7b365074b119338f18f53b82e8e233"
+          }
+        },
+        {
+          "title": "Model: Comfy-Org/MiniMax-H3-Image",
+          "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-11-08T20:37:23.000Z",
+          "points": 319,
+          "score": 1.5,
+          "id": "14e5a7f70a2a67e611175aa88917df4252f711b4",
+          "summary": "The MiniMax-H3-Image model on Hugging Face has been downloaded 835,593 times and received 319 likes.",
+          "detail": "It is a text-to-image generation model that has gained notable community traction, reflecting strong interest in its performance and utility.",
+          "key_points": [
+            "835,593 downloads",
+            "319 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Comfy-Org/MiniMax-H3-Image.png",
+          "related": {}
+        },
+        {
+          "title": "Model: Zyphra/ZONOS3-Mini",
+          "url": "https://huggingface.co/Zyphra/ZONOS3-Mini",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-11-09T05:03:57.000Z",
+          "points": 252,
+          "score": 1.5,
+          "id": "2250172890a0969ad1432ad0fc08b4e166bf28ee",
+          "summary": "ZONOS3-Mini, a text-to-speech model on Hugging Face, has 8,543 downloads and 252 likes.",
+          "detail": "The model provides speech synthesis capabilities and its download numbers indicate moderate adoption among developers.",
+          "key_points": [
+            "8,543 downloads",
+            "252 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Zyphra/ZONOS3-Mini.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "A Desktop OS for the ESP32-P4",
+          "url": "https://hackaday.com/2026/11/12/a-desktop-os-for-the-esp32-p4/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-13T06:00:58+00:00",
+          "points": null,
+          "score": 6.0,
+          "id": "330aed30a738db4b4a1cfb3b70a54d0d41ed82dc",
+          "summary": "A new desktop operating system has been released for Espressif’s ESP32‑P4, which features two high‑speed RISC‑V cores.",
+          "detail": "The ESP32‑P4 targets high‑end applications while remaining cost‑effective, and the OS aims to leverage its processing power for desktop‑class tasks.",
+          "key_points": [
+            "2 RISC‑V cores"
+          ],
+          "tag": "News",
+          "highlight": true,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/bmds-featured.jpg",
+          "related": {}
+        },
+        {
+          "title": "Baochip-1x: A Mostly-Open, 22nm SoC for High Assurance Applications",
+          "url": "https://hackaday.com/2026/11/12/baochip-1x-a-mostly-open-22nm-soc-for-high-assurance-applications/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-12T19:30:16+00:00",
+          "points": null,
+          "score": 5.0,
+          "id": "a8d0a71855f612b62b01fce3a94afc09df834c8b",
+          "summary": "Baochip‑1x is a mostly‑open 22nm system‑on‑chip designed for high‑assurance applications.",
+          "detail": "The SoC emphasizes security and verification, offering an open‑source-friendly design while maintaining a modern manufacturing node.",
+          "key_points": [
+            "22nm process"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/dabao-thechip-narrow.jpg",
+          "related": {}
+        },
+        {
+          "title": "Nintendo Takes Down Emulators and Firmware in Massive GitHub DMCA Sweep",
+          "url": "https://www.ign.com/articles/nintendo-takes-down-switch-emulators-and-mod-chip-firmware-in-massive-github-dmca-sweep",
+          "source": "Hacker News",
+          "section": "embedded",
+          "published": "2026-11-12T16:29:13+00:00",
+          "points": 308,
+          "score": 4.0,
+          "id": "121aeecde77b14e19eac3b0bad1af0a27f3c6d31",
+          "summary": "Nintendo issued a large DMCA takedown on GitHub, removing emulator and firmware repositories.",
+          "detail": "The sweep targeted numerous projects that distributed Nintendo's copyrighted code, reflecting the company's aggressive enforcement of its IP.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://assets-prd.ignimgs.com/2024/02/05/nintendo-blogroll-logos-1707165316914.jpg?width=1280&format=jpg&auto=webp&quality=80",
+          "related": {}
+        },
+        {
+          "title": "Security updates for Thursday",
+          "url": "https://lwn.net/Articles/1107146/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-12T14:13:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "6151a7cb641cfddabfcfd5760edddb3bc4b64fdb",
+          "summary": "Security updates were released for several Linux distributions, including Debian, Fedora, Gentoo, Mageia, Oracle, Red Hat, Slackware, and SUSE, covering dozens of packages such as firefox‑esr, python‑pillow, and kernel.",
+          "detail": "The updates address vulnerabilities across core components like web browsers, programming runtimes, and system libraries. Each distro provides its own patch set, requiring administrators to apply them per distribution. The breadth of affected software reflects ongoing supply‑chain hardening efforts.",
+          "key_points": [
+            "Debian 9 packages"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Glasswing overwhelms maintainers with underwhelming findings (VulnCheck)",
+          "url": "https://lwn.net/Articles/1107173/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-12T16:26:09+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "d3e6ec4cacdd92248a1f6ad928d7f0a2e3639052",
+          "summary": "VulnCheck analysis of Anthropic's Project Glasswing shows only 7,349 of 37,966 findings (19.4%) were public and just 217 have been fixed.",
+          "detail": "The report also notes 1,654 duplicate findings (4.4%) and 419 withdrawn entries, indicating a high duplication rate versus actual remediation. Despite a claimed 94.2% true‑positive rate, the low fix count suggests gaps in triage and reporting processes.",
+          "key_points": [
+            "37,966 total findings",
+            "19.4% public",
+            "217 fixes"
+          ],
+          "tag": "Analysis",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Introducing Polo: a Wayland MATE compositor",
+          "url": "https://lwn.net/Articles/1107152/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-12T14:32:49+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "a4ee4bfb703dcdd2fc43a07b6a993a5f48b52023",
+          "summary": "Polo 1.0, a Wayland compositor for the MATE desktop, was released to keep MATE behavior close to its X11 experience while adding modern effects.",
+          "detail": "Polo supports window management, workspaces, XWayland, multi‑monitor setups, display scaling, and a suite of desktop effects such as fade and wobbly windows. The developer is seeking testers, especially for multi‑monitor configurations, to polish stability.",
+          "key_points": [
+            "Version 1.0"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "cs-research",
+      "title": "CS research",
+      "tier": 4,
+      "items": [
+        {
+          "title": "Omakase: Execution Congestion Control through Conflict-Graph Integration in Multi-Proposer Blockchain",
+          "url": "https://arxiv.org/abs/2611.17184v1",
+          "source": "arXiv cs.DB",
+          "section": "cs-research",
+          "published": "2026-11-12T17:52:10+00:00",
+          "points": null,
+          "score": 4.5,
+          "id": "8f7a81a91315b26d2d95210f444691193ac34903",
+          "summary": "The Omakase framework introduces parallel transaction execution for multi‑proposer blockchains by integrating pre‑execution and inter‑block conflict‑graph analysis.",
+          "detail": "Omakase lets replicas use idle cores to pre‑execute proposed blocks, builds per‑block conflict graphs, and applies a graph‑aware optimistic concurrency control to reduce aborts. By sharing conflict information across blocks, it aims to keep more cores busy and improve throughput compared to existing pessimistic or optimistic schemes.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "[Experiment, Analysis, and Benchmark] How well do LLMs comprehend and design relational database schemata?",
+          "url": "https://arxiv.org/abs/2611.17044v1",
+          "source": "arXiv cs.DB",
+          "section": "cs-research",
+          "published": "2026-11-12T16:28:21+00:00",
+          "points": null,
+          "score": 3.5,
+          "id": "cfc172404e72266de9792e4ff90c8c28c626b5cb",
+          "summary": "SchemaBridge benchmark evaluates LLMs on designing relational schemas, using 902 schemata of varying size and constraint complexity.",
+          "detail": "The benchmark measures fidelity across tables, attributes, data types, nullability, entity, and referential integrity. Six open‑weight and proprietary models were tested; none exceeded 0.27 F1 on referential integrity, highlighting current limitations in LLM‑generated schema design.",
+          "key_points": [
+            "902 schemata",
+            "max 0.27 referential F1"
+          ],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Authenticated Approximate Nearest Neighbor Search in Outsourced Vector Databases",
+          "url": "https://arxiv.org/abs/2611.16516v1",
+          "source": "arXiv cs.DB",
+          "section": "cs-research",
+          "published": "2026-11-12T09:13:35+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "39e24cd15268e00efc26a6ba95ac69d0eb6ac1f8",
+          "summary": "VIDA proposes an authenticated ANN search scheme that replaces raw vector transmission with compact commitments and graph‑based verification.",
+          "detail": "By using vector commitments and aggregating proofs over graph structures, VIDA reduces communication and verification overhead compared to prior authenticated ANN methods, which required sending high‑dimensional vectors and incurred topology‑agnostic costs.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "Per-Query Recall Guarantees for Approximate Nearest Neighbor Search in Dynamic Vector Databases",
+            "url": "https://arxiv.org/abs/2611.07579v1",
+            "date": "2026-11-06",
+            "id": "238289549736a8e0dccad75f7ddcce3f1b398076"
+          }
+        },
+        {
+          "title": "Reducing Batch Makespan for LLM Agent Workloads through Inference-Environment Coordination",
+          "url": "https://arxiv.org/abs/2611.16661v1",
+          "source": "arXiv cs.DC",
+          "section": "cs-research",
+          "published": "2026-11-12T11:38:21+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "b48a6c03398c2d63b5267eb61b8e90fe2a522d5c",
+          "summary": "Coordinated optimizations reduce the makespan of batched LLM agent tasks by managing GPU memory between KV cache and recurrent state and by introducing Chain-Advancing Action Scheduling to prioritize long action chains.",
+          "detail": "The approach models workload to allocate memory efficiently and uses trajectory-aware routing to reuse caches while balancing load. When environment capacity is limited, sample admission is decoupled from execution, allowing higher parallelism without extra recomputation.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "EngineAgent: Agentizing On-Device LLM Inference Engines with Inference Stack Hierarchy Awareness and Hardware Abilities",
+            "url": "https://arxiv.org/abs/2611.14356v1",
+            "date": "2026-11-11",
+            "id": "e700096f78e00b91092906c1f93f8fc613a578bc"
+          }
+        },
+        {
+          "title": "Theory-Driven Network Backbones for Bipartite Projections",
+          "url": "https://arxiv.org/abs/2611.16692v1",
+          "source": "arXiv cs.SI",
+          "section": "cs-research",
+          "published": "2026-11-12T12:08:42+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "ebf1875390e1bae29da59e0a08000e34141587b2",
+          "summary": "A theory‑driven backboning algorithm encodes known network dynamics into edge‑filtering, moving beyond data‑agnostic statistical tests.",
+          "detail": "Existing backboning methods treat all edges uniformly, ignoring the real‑world processes that generate them. By incorporating domain‑specific dynamics, the new method can better distinguish true edges from noise, improving downstream analysis of empirical networks.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Autonomous Mobile Robots on a Computing Field",
+          "url": "https://arxiv.org/abs/2611.16652v1",
+          "source": "arXiv cs.DC",
+          "section": "cs-research",
+          "published": "2026-11-12T11:29:21+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "4a6421c743b8d7f6508c314e05e5622b63df72a4",
+          "summary": "CABOT models autonomous mobile robots on a grid whose cells act as a cellular automaton, providing computation through the environment rather than robot hardware.",
+          "detail": "Each cell holds a finite state that updates synchronously based on a uniform local rule and the presence of a robot. Robots remain oblivious, silent, lightless, and have only one‑cell visibility, relying on the floor's state to perform computation.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "NVIDIA/SkillEvaluator",
+          "url": "https://github.com/NVIDIA/SkillEvaluator",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 981,
+          "score": 2.5,
+          "id": "3781448153b0315f0191ae6ec316f2a44eb1f887",
+          "summary": "SkillEvaluator is a multi‑tier Python framework that evaluates AI agent skills using quality gates, semantic overlap detection, synthetic dataset generation, and live behavior measurement.",
+          "detail": "The system builds synthetic evaluation datasets to test specific skills, detects redundant or overlapping skill definitions, and enforces quality thresholds before agents are deployed, helping maintain consistent agent performance across updates.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/9c4377a4ade2b9be0be3aeeca69e262c8cdb85a1123cd0e67c4423942384af03/NVIDIA/SkillEvaluator",
+          "related": {}
+        },
+        {
+          "title": "Tencent/ncnn",
+          "url": "https://github.com/Tencent/ncnn",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 24049,
+          "score": 2.5,
+          "id": "60c5d3336d7cf3396544f75642c2509f5b7127e2",
+          "summary": "ncnn is a high‑performance C++ inference engine optimized for mobile devices.",
+          "detail": "The framework provides lightweight, dependency‑free deployment of neural networks on Android and iOS, focusing on speed and low memory usage while supporting common layers and operators used in modern models.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/e0196c36e2fa6f2071356056fe65fb8790763edd9494fc6f491efa653e987a33/Tencent/ncnn",
+          "related": {}
+        },
+        {
+          "title": "catchorg/Catch2",
+          "url": "https://github.com/catchorg/Catch2",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 21579,
+          "score": 2.5,
+          "id": "4ba7fe22e70c95a6d9a62b4478e1568017dc4716",
+          "summary": "Catch2 is a modern C++ test framework supporting unit, TDD, and BDD styles, with C++14/17+ as primary standards.",
+          "detail": "The library offers a header‑only interface, expressive assertions, and automatic test registration, making it easy to write and maintain tests across a wide range of C++ standards without external dependencies.",
+          "key_points": [
+            "C++14, C++17 support",
+            "C++11 in v2.x branch",
+            "C++03 in Catch1.x branch"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/c8bde7a68dbcf9b6af84b09fe10a430f4f65b029a31b68cb6b88ace34ac2b5b6/catchorg/Catch2",
+          "related": {}
+        },
+        {
+          "title": "huggingface/transformers",
+          "url": "https://github.com/huggingface/transformers",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 168938,
+          "score": 2.5,
+          "id": "9a589f3bdb96102490cf130475f9b2c994616b29",
+          "summary": "🤗 Transformers is a Python library that provides a unified framework for defining and using state‑of‑the‑art models across text, vision, audio, and multimodal tasks.",
+          "detail": "The library supports both training and inference, offering pre‑trained checkpoints and tools for fine‑tuning. It abstracts model architectures behind a common API, simplifying integration into diverse pipelines. Community contributions keep it up‑to‑date with the latest research advances.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/155220641/a16c4880-a501-11ea-9e8f-646cf611702e",
+          "related": {}
+        },
+        {
+          "title": "love2d/love",
+          "url": "https://github.com/love2d/love",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 8963,
+          "score": 2.5,
+          "id": "b856e840bf737c07c7034de82d1d7169293a9bc0",
+          "summary": "LÖVE is a C++‑backed framework that enables developers to create 2D games using the Lua scripting language.",
+          "detail": "It provides a simple, cross‑platform API for graphics, audio, and input handling, making rapid prototyping straightforward. The engine is open source and widely used for hobbyist and educational projects, with a strong community and extensive documentation.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/e15e3a7326d0a5cec2125d1d098162e67f153d05e2c6cc9b6a32d3650cbba73e/love2d/love",
+          "related": {}
+        },
+        {
+          "title": "Qiskit/qiskit",
+          "url": "https://github.com/Qiskit/qiskit",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 7970,
+          "score": 2.0,
+          "id": "9e12c7edd8ce4838200cc540249619a77079245a",
+          "summary": "Qiskit is an open‑source Python SDK for building and executing quantum circuits, operators, and primitives on quantum hardware and simulators.",
+          "detail": "The toolkit offers modular components for circuit construction, transpilation, and measurement, supporting multiple quantum backends. It is maintained by IBM and integrates with cloud‑based quantum services, enabling researchers and developers to experiment with quantum algorithms.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/83821669/9207357a-cf9b-45ed-9974-0abc3df14b95",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
