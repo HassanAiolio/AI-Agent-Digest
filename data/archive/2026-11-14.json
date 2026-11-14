@@ -1,0 +1,588 @@
+{
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T09:15:28+00:00",
+  "stats": {
+    "fetched": 156,
+    "new_after_dedupe": 108,
+    "published": 20,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 19,
+      "supported": 19,
+      "dropped": 0,
+      "unverifiable": 9,
+      "summaries_reverted": 0,
+      "rate": 1.0
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. Your ESP32 just got a desktop window manager, and it isn’t even trying to be cute.",
+    "stories": [
+      {
+        "kicker": "AI/ML",
+        "headline": "Cuttlefish runs Android VMs on Apple Silicon",
+        "body": "**Android emulation, now native:** Meta Reality Labs ported the Cuttlefish Android virtual device framework and its QEMU backend to run directly on macOS Apple Silicon, eliminating the need for x86 translation layers.",
+        "why": "You can test Android apps on your Mac without a cloud instance.",
+        "ids": [
+          "6334b4f0dff900735a1a1625e72892605ac2a924"
+        ]
+      },
+      {
+        "kicker": "AI/ML",
+        "headline": "ChatGPT Wallet lets bots buy stuff",
+        "body": "**Agents with a checkout:** OpenAI introduced ChatGPT Wallet, a feature that lets ChatGPT agents complete purchases after you approve them, using existing card protections for security.",
+        "why": "Your automation scripts can now pay for APIs without manual clicks.",
+        "ids": [
+          "5bf4951adbe9698dd9e45df17c29fd95e4f30a2d"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Embedded UI:** X Window System server ported to ESP32‑S3 microcontroller.",
+        "id": "104402904ce921a161e180470da68b79f5c2761e"
+      },
+      {
+        "text": "**Retro display:** ESP32 flight tracker streamed to a vintage Apple CRT.",
+        "id": "645f05c24c559d437a536e6da3d3da170b152b63"
+      },
+      {
+        "text": "**Buildroot milestone:** 25‑year retrospective at the 2026 Embedded Linux Conference Europe.",
+        "id": "583628dcaa0c83d32187a40af2789583c9109096"
+      },
+      {
+        "text": "**Uptime monitoring:** Uptime‑Kuma offers a self‑hosted web UI to track service health.",
+        "id": "f53325a92664d362e4362515ff647fa00b4eb85c"
+      },
+      {
+        "text": "**LLM code review:** Open‑Code‑Review blends deterministic pipelines with an LLM for line‑level comments.",
+        "id": "f7cfdfd7bcc39abd56d5784ec638c99a8319617d"
+      }
+    ],
+    "number": null,
+    "sign_off": "That’s your tech bite—chew on it and smile.",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "e296aeec0849311a946aeeb65f9f180a6eedb497",
+      "title": "Codeforces Round 1135 (Div. 2)",
+      "url": "https://codeforces.com/contests/2285",
+      "source": "Codeforces",
+      "starts": "2026-11-15T14:35:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sun 15 Nov 14:35 UTC"
+    },
+    {
+      "id": "60822431f06b8f490ded560d5c8c4719addfcb38",
+      "title": "Codeforces Round (Div. 1)",
+      "url": "https://codeforces.com/contests/2287",
+      "source": "Codeforces",
+      "starts": "2026-11-21T14:35:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sat 21 Nov 14:35 UTC"
+    },
+    {
+      "id": "94f95405e790ebb27551dc384896cec5feb7e3e3",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2288",
+      "source": "Codeforces",
+      "starts": "2026-11-21T14:35:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sat 21 Nov 14:35 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "X Window System on the ESP32",
+      "url": "https://hackaday.com/2026/11/13/x-window-system-on-the-esp32/",
+      "source": "hackaday",
+      "section": "embedded",
+      "published": "2026-11-14T00:00:18+00:00",
+      "points": null,
+      "score": 6.0,
+      "id": "104402904ce921a161e180470da68b79f5c2761e",
+      "summary": "An X Window System server has been ported to run on the ESP32‑S3 microcontroller.",
+      "detail": "Developers Sergey Zorin and Claude demonstrated the feasibility of hosting a full X server on a low‑power MCU, enabling remote GUI applications on tiny devices. This opens possibilities for lightweight embedded graphics stacks.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "https://hackaday.com/wp-content/uploads/2026/11/WoodlandX11_d196a1.jpg",
+      "related": {}
+    },
+    {
+      "title": "ESP32 Flight Tracker on Apple CRT",
+      "url": "https://hackaday.com/2026/11/13/esp32-flight-tracker-on-apple-crt/",
+      "source": "hackaday",
+      "section": "embedded",
+      "published": "2026-11-14T06:00:58+00:00",
+      "points": null,
+      "score": 4.5,
+      "id": "645f05c24c559d437a536e6da3d3da170b152b63",
+      "summary": "A flight‑tracking application built with an ESP32 is displayed on a vintage Apple CRT monitor.",
+      "detail": "The project emphasizes the visual appeal of classic hardware, using the ESP32 to decode ADS‑B data and drive the CRT. It showcases creative reuse of legacy displays for modern IoT data.",
+      "key_points": [],
+      "tag": "News",
+      "highlight": true,
+      "image": "https://hackaday.com/wp-content/uploads/2026/11/ESP32-CRT-flightracker1.jpeg",
+      "related": {}
+    },
+    {
+      "title": "Security updates for Friday",
+      "url": "https://lwn.net/Articles/1107472/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-11-13T14:25:42+00:00",
+      "points": null,
+      "score": 4.0,
+      "id": "366e3e8b87e1c32a69d8c7a6ff27391b43058d1a",
+      "summary": "Friday security updates were issued for AlmaLinux, Debian, and Fedora, covering dozens of packages including kernels, browsers, and runtimes.",
+      "detail": "The updates address vulnerabilities across core components such as .NET runtimes, Firefox, GCC, and various libraries. Administrators are advised to apply them promptly to maintain system integrity.",
+      "key_points": [
+        "AlmaLinux updates",
+        "Debian updates",
+        "Fedora updates"
+      ],
+      "tag": "News",
+      "highlight": true,
+      "image": "",
+      "related": {
+        "title": "A massive pile of security updates for Saturday",
+        "url": "https://lwn.net/Articles/1104612/",
+        "date": "2026-11-01",
+        "id": "9f9073d2f29360627ded5b92f84207968f8ea5bf"
+      }
+    },
+    {
+      "title": "[$] 25 years of Buildroot",
+      "url": "https://lwn.net/Articles/1103395/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-11-13T16:35:03+00:00",
+      "points": null,
+      "score": 3.5,
+      "id": "583628dcaa0c83d32187a40af2789583c9109096",
+      "summary": "Buildroot maintainer Peter Korsgaard presented a 25‑year retrospective and future outlook at the 2026 Embedded Linux Conference Europe.",
+      "detail": "The talk covered Buildroot's evolution, its role in embedded Linux development, and upcoming features aimed at simplifying system builds. It highlighted the project's longevity and continued relevance.",
+      "key_points": [
+        "25 years",
+        "2026 conference"
+      ],
+      "tag": "News",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "louislam/uptime-kuma",
+      "url": "https://github.com/louislam/uptime-kuma",
+      "source": "GitHub trending",
+      "section": "repos",
+      "published": null,
+      "points": 93990,
+      "score": 3.5,
+      "id": "f53325a92664d362e4362515ff647fa00b4eb85c",
+      "summary": "Uptime‑Kuma is a self‑hosted monitoring tool that offers a web UI for tracking service uptime.",
+      "detail": "It can be deployed via Docker or directly on a server, supports multiple notification channels, and stores data locally without requiring external services. The project is open‑source and actively maintained.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://repository-images.githubusercontent.com/382496361/f21b61f5-693a-4925-9f1f-fea237ade223",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "Cuttlefish on Mac: Running Android’s Virtual Device Framework Natively on Apple Silicon",
+          "url": "https://engineering.fb.com/2026/11/13/android/cuttlefish-on-mac/",
+          "source": "meta ai blog",
+          "section": "ai-ml",
+          "published": "2026-11-13T17:00:39+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "6334b4f0dff900735a1a1625e72892605ac2a924",
+          "summary": "Meta Reality Labs ported the Cuttlefish Android virtual device framework and its QEMU backend to run natively on macOS Apple Silicon.",
+          "detail": "The effort enables developers to test Android apps on Mac hardware without emulation overhead, leveraging the ARM architecture of Apple Silicon. It mirrors Meta's internal Android testing pipeline, simplifying cross‑platform workflows for engineers.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://engineering.fb.com/wp-content/uploads/2026/11/Cuttlefish-on-Mac-lead.png",
+          "related": {}
+        },
+        {
+          "title": "Introducing ChatGPT Wallet",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-13T15:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "5bf4951adbe9698dd9e45df17c29fd95e4f30a2d",
+          "summary": "OpenAI announced ChatGPT Wallet, a feature that lets ChatGPT agents complete purchases with user approval and existing card protections.",
+          "detail": "The wallet integrates with ChatGPT Work, Codex, and other agent interfaces, providing a secure transaction flow. It relies on standard card tokenization and requires explicit user consent before any payment is processed.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+          "url": "https://openai.com/business/customer-stories/shield",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-13T08:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "d1318183fe172893638959c7661c0c781ed07c8d",
+          "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+          "detail": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+          "key_points": [],
+          "tag": "",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+          "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+          "source": "huggingface blog",
+          "section": "ai-ml",
+          "published": "2026-11-13T18:00:39+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "2427bacb74a96b4b261bbbfd7ef785414a53a540",
+          "summary": "Hugging Face published a tutorial for building a robot pick‑and‑place simulation using SimReady assets.",
+          "detail": "The guide walks through setting up the simulation environment, importing pre‑made 3D models, and configuring control scripts for pick‑and‑place tasks. It targets developers experimenting with robotics and reinforcement learning.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/6abfe9e7d7cf09a9b38ef308/HFZWtQ2i9VN_agjeUw2HB.gif",
+          "related": {}
+        },
+        {
+          "title": "XYBench: Helping with the problem behind the question",
+          "url": "https://huggingface.co/blog/allenai/xybench",
+          "source": "huggingface blog",
+          "section": "ai-ml",
+          "published": "2026-11-13T17:02:35+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "8400bdfe1e2afd49cb164842f3acb314375cda23",
+          "summary": "Hugging Face introduced XYBench, a benchmark suite focused on evaluating models' ability to solve the problem behind a question rather than just the question itself.",
+          "detail": "XYBench provides datasets and evaluation metrics that test reasoning and problem‑solving skills, encouraging development of models that understand underlying concepts. It aims to complement existing language model benchmarks.",
+          "key_points": [],
+          "tag": "Analysis",
+          "highlight": false,
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/aOWdQgZ8ioJcx9Eii4iob.png",
+          "related": {}
+        },
+        {
+          "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+          "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+          "source": "huggingface blog",
+          "section": "ai-ml",
+          "published": "2026-11-13T14:05:22+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "40e78db6601d46e62d9253d05213567fc448d804",
+          "summary": "The llama.cpp project released version 1.0.0, delivering performance improvements and new features for running LLaMA models locally.",
+          "detail": "Version 1.0.0 adds optimized quantization, broader hardware support, and a more stable API, strengthening the local AI ecosystem. It continues the project's goal of enabling efficient inference on consumer devices.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/63148d3b996c52bf0142cdbe/2PgU1GxpJX_LVORaP2RRy.png",
+          "related": {}
+        },
+        {
+          "title": "Model: tencent/Qwen3.8-27B-DSpine-b16",
+          "url": "https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-11-07T14:20:29.000Z",
+          "points": 262,
+          "score": 1.5,
+          "id": "233409616a1b421190ba6a45d2b49ab20e9b6931",
+          "summary": "Tencent released Qwen3.8-27B-DSpine-b16, a 27‑billion‑parameter text‑generation model with 4,332 downloads and 262 likes on Hugging Face.",
+          "detail": "The model is part of the Qwen series and targets high‑quality generation tasks. It is hosted on the Hugging Face Model Hub and has attracted notable community interest shortly after release.",
+          "key_points": [
+            "27B parameters",
+            "4,332 downloads",
+            "262 likes"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/tencent/Qwen3.8-27B-DSpine-b16.png",
+          "related": {}
+        },
+        {
+          "title": "Model: thinkingmachines/Inkling-2-Small",
+          "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-11-04T19:51:05.000Z",
+          "points": 274,
+          "score": 1.5,
+          "id": "6ae972136210ca6a55e9aff1b2d155423c6912ab",
+          "summary": "ThinkingMachines released Inkling-2-Small, an image‑text‑to‑text model that has received 1,064 downloads and 274 likes on Hugging Face.",
+          "detail": "Inkling-2-Small converts visual inputs into textual descriptions, aiming for lightweight deployment. The model is available publicly on the Hugging Face Model Hub and is gaining traction among multimodal researchers.",
+          "key_points": [
+            "image-text-to-text",
+            "1,064 downloads",
+            "274 likes"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/thinkingmachines/Inkling-2-Small.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "X Window System on the ESP32",
+          "url": "https://hackaday.com/2026/11/13/x-window-system-on-the-esp32/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-14T00:00:18+00:00",
+          "points": null,
+          "score": 6.0,
+          "id": "104402904ce921a161e180470da68b79f5c2761e",
+          "summary": "An X Window System server has been ported to run on the ESP32‑S3 microcontroller.",
+          "detail": "Developers Sergey Zorin and Claude demonstrated the feasibility of hosting a full X server on a low‑power MCU, enabling remote GUI applications on tiny devices. This opens possibilities for lightweight embedded graphics stacks.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/WoodlandX11_d196a1.jpg",
+          "related": {}
+        },
+        {
+          "title": "ESP32 Flight Tracker on Apple CRT",
+          "url": "https://hackaday.com/2026/11/13/esp32-flight-tracker-on-apple-crt/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-14T06:00:58+00:00",
+          "points": null,
+          "score": 4.5,
+          "id": "645f05c24c559d437a536e6da3d3da170b152b63",
+          "summary": "A flight‑tracking application built with an ESP32 is displayed on a vintage Apple CRT monitor.",
+          "detail": "The project emphasizes the visual appeal of classic hardware, using the ESP32 to decode ADS‑B data and drive the CRT. It showcases creative reuse of legacy displays for modern IoT data.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": true,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/ESP32-CRT-flightracker1.jpeg",
+          "related": {}
+        },
+        {
+          "title": "Security updates for Friday",
+          "url": "https://lwn.net/Articles/1107472/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-13T14:25:42+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "366e3e8b87e1c32a69d8c7a6ff27391b43058d1a",
+          "summary": "Friday security updates were issued for AlmaLinux, Debian, and Fedora, covering dozens of packages including kernels, browsers, and runtimes.",
+          "detail": "The updates address vulnerabilities across core components such as .NET runtimes, Firefox, GCC, and various libraries. Administrators are advised to apply them promptly to maintain system integrity.",
+          "key_points": [
+            "AlmaLinux updates",
+            "Debian updates",
+            "Fedora updates"
+          ],
+          "tag": "News",
+          "highlight": true,
+          "image": "",
+          "related": {
+            "title": "A massive pile of security updates for Saturday",
+            "url": "https://lwn.net/Articles/1104612/",
+            "date": "2026-11-01",
+            "id": "9f9073d2f29360627ded5b92f84207968f8ea5bf"
+          }
+        },
+        {
+          "title": "[$] 25 years of Buildroot",
+          "url": "https://lwn.net/Articles/1103395/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-13T16:35:03+00:00",
+          "points": null,
+          "score": 3.5,
+          "id": "583628dcaa0c83d32187a40af2789583c9109096",
+          "summary": "Buildroot maintainer Peter Korsgaard presented a 25‑year retrospective and future outlook at the 2026 Embedded Linux Conference Europe.",
+          "detail": "The talk covered Buildroot's evolution, its role in embedded Linux development, and upcoming features aimed at simplifying system builds. It highlighted the project's longevity and continued relevance.",
+          "key_points": [
+            "25 years",
+            "2026 conference"
+          ],
+          "tag": "News",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Announcing XRAID: declustered parity RAID for zoned XFS",
+          "url": "https://lwn.net/Articles/1107473/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-13T14:39:47+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "b1ce2583639a900bdbe2dd1697e0e78e973b53a7",
+          "summary": "XRAID, a declustered parity RAID integrated into XFS, is publicly released and can run on zoned SMR drives and regular SSDs, delivering writes up to 20× faster than mdraid.",
+          "detail": "The project has been in development for about 18 months and is not yet ready for upstream submission, but the author is seeking broader testing. It aims to avoid the data‑integrity issues seen in some RAID implementations while focusing on parity support for zoned storage. The current code does not target SSD optimization, yet still outperforms traditional software RAID.",
+          "key_points": [
+            "writes up to 20× faster",
+            "supports 0‑2 parities"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Borland C++ 2.0 Compiler Source Reconstructed",
+          "url": "https://hackaday.com/2026/11/13/borland-c-2-0-compiler-source-reconstructed/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-14T03:00:44+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "b7f58c56196960caca68c9b91f63c4400796b416",
+          "summary": "The source code for Borland C++ 2.0, the 1991 professional C/C++ IDE successor to Turbo C++, has been reconstructed and released.",
+          "detail": "The reconstruction provides a historical look at early commercial C++ tooling and may aid preservation or educational efforts. While the original product was commercial, the rebuilt source is now publicly available for analysis.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2017/05/c.jpg",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "louislam/uptime-kuma",
+          "url": "https://github.com/louislam/uptime-kuma",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 93990,
+          "score": 3.5,
+          "id": "f53325a92664d362e4362515ff647fa00b4eb85c",
+          "summary": "Uptime‑Kuma is a self‑hosted monitoring tool that offers a web UI for tracking service uptime.",
+          "detail": "It can be deployed via Docker or directly on a server, supports multiple notification channels, and stores data locally without requiring external services. The project is open‑source and actively maintained.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://repository-images.githubusercontent.com/382496361/f21b61f5-693a-4925-9f1f-fea237ade223",
+          "related": {}
+        },
+        {
+          "title": "Likely7/Veyra-NRVideo",
+          "url": "https://github.com/Likely7/Veyra-NRVideo",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 1761,
+          "score": 2.5,
+          "id": "c57dfd8e10aff19dd248f5f6d54142be0115db4d",
+          "summary": "Veyra‑NRVideo is a Windows video player and capture tool that claims to enable 120 FPS playback of PS5 GTA 6 content using DLSS 5 and AI‑enhanced super‑resolution.",
+          "detail": "The software combines real‑time preview of video, image, and capture‑card sources with frame generation and AI‑based upscaling. It is positioned as a next‑generation visual experience for high‑end gaming streams, though performance depends on compatible hardware.",
+          "key_points": [
+            "120 FPS target",
+            "DLSS 5"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/8ac2e011fc5766f26620494b92884ec615afbe9ce655a83b2272400e6e09e686/Likely7/Veyra-NRVideo",
+          "related": {}
+        },
+        {
+          "title": "alibaba/open-code-review",
+          "url": "https://github.com/alibaba/open-code-review",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 50928,
+          "score": 2.5,
+          "id": "f7cfdfd7bcc39abd56d5784ec638c99a8319617d",
+          "summary": "Open‑Code‑Review is Alibaba's hybrid architecture code‑review platform that integrates deterministic pipelines with an LLM agent for line‑level comments and multi‑language static analysis.",
+          "detail": "The tool supports rule sets for common bugs such as NPE, thread‑safety, XSS, and SQL injection, and can work with OpenAI and Anthropic models. It is designed for large‑scale deployment and aims to improve review speed and accuracy.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/1241960226/27bf01cb-17df-44d5-9b7b-bcf17c970c6d",
+          "related": {}
+        },
+        {
+          "title": "microsoft/BitNet",
+          "url": "https://github.com/microsoft/BitNet",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 41577,
+          "score": 2.5,
+          "id": "aeb3c7b38ab17ac14ae2f9b3c830a38b08eedc86",
+          "summary": "BitNet is an official inference framework optimized for running 1‑bit large language models.",
+          "detail": "Implemented in C++, the framework targets extreme model compression while maintaining reasonable inference speed. It provides a reference implementation for researchers and developers exploring ultra‑low‑precision neural networks.",
+          "key_points": [
+            "1‑bit LLMs"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/18a768600e187ad514f47c5fac7ffcbcedb4a05749d25b3272e5cc9ac9d93dc6/microsoft/BitNet",
+          "related": {}
+        },
+        {
+          "title": "rtk-ai/rtk",
+          "url": "https://github.com/rtk-ai/rtk",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 86535,
+          "score": 2.5,
+          "id": "7366ec388a657b3e39d5e90b056a31aa3ebcf2cc",
+          "summary": "rtk-ai/rtk is a Rust CLI proxy that cuts LLM token usage by 60‑90% for typical development commands, distributed as a single binary with no dependencies.",
+          "detail": "The tool sits between the developer's command line and the LLM API, compressing prompts and responses to lower token counts. It targets frequent dev tasks like code generation, linting, and debugging. By being a self‑contained binary, it avoids runtime package overhead, simplifying deployment on CI or edge machines.",
+          "key_points": [
+            "60-90% token reduction",
+            "single Rust binary",
+            "zero dependencies"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/e07c6445f42dd86c70139f0b412ee42cfd0822626fe5a1904224f84185368e7e/rtk-ai/rtk",
+          "related": {}
+        },
+        {
+          "title": "ChromeDevTools/chrome-devtools-mcp",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 55777,
+          "score": 2.0,
+          "id": "a67bb8d2a6b423507df124720c24d43b990cf127",
+          "summary": "ChromeDevTools/chrome-devtools-mcp provides a Chrome DevTools interface tailored for coding agents.",
+          "detail": "The project adapts the standard Chrome DevTools protocol to support automated agents that write, test, and debug code. It enables agents to programmatically control browser contexts, inspect DOM, and capture console output, facilitating more sophisticated web‑based coding workflows.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/221772c336c8cebff1af856ec991f2b8ff85400f598e763d5257267c9eb66b2a/ChromeDevTools/chrome-devtools-mcp",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
