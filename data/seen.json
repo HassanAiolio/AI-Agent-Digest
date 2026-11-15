@@ -159,20 +159,10 @@
 "title": "[$] LWN.net Weekly Edition for September 10, 2026",
 "url": "https://lwn.net/Articles/1092273/"
 },
-"038b8241a4d776d664151e170612c642ed0fb5c6": {
-"date": "2026-08-16",
-"title": "ToolJet/ToolJet",
-"url": "https://github.com/ToolJet/ToolJet"
-},
 "0398b61561a6f4a9a049a205b8b0e872ee2ab60f": {
 "date": "2026-10-23",
 "title": "Breaking the Coupling: Efficient Concurrency Fuzzing for Linux Kernel Data Race Detection",
 "url": "https://arxiv.org/abs/2610.30813v1"
-},
-"039eb63a983dec5c17d1698aa80b5281d9e12c2a": {
-"date": "2026-08-16",
-"title": "Peeling Fruit with the Power of Steam",
-"url": "https://hackaday.com/2026/08/15/peeling-fruit-with-the-power-of-steam/"
 },
 "03b40593e16491dc890a768c22f01e78470d79d9": {
 "date": "2026-11-07",
@@ -1089,6 +1079,11 @@
 "title": "SWE-agent/mini-swe-agent",
 "url": "https://github.com/SWE-agent/mini-swe-agent"
 },
+"18901218705f5b0f82876b0255f4945ad5386bed": {
+"date": "2026-11-15",
+"title": "DIVINER: Occult Synth Firmware for the Cardputer",
+"url": "https://hackaday.com/2026/11/14/diviner-occult-synth-firmware-for-the-cardputer/"
+},
 "18967890f29489af38d88f537bbb4753646fde23": {
 "date": "2026-10-08",
 "title": "Model: jialinyyzz/humanizer",
@@ -1163,6 +1158,11 @@
 "date": "2026-10-18",
 "title": "Show HN: Esp32sim – Run ESP32 firmware in the browser",
 "url": "https://github.com/mikroverk/esp32sim"
+},
+"1a08ff51acae4445df1a842a0a16cd67cc73cd9f": {
+"date": "2026-11-15",
+"title": "IRis Learning Remote Has Five Buttons, Supports Thousands of Devices",
+"url": "https://hackaday.com/2026/11/14/iris-learning-remote-has-five-buttons-supports-thousands-of-devices/"
 },
 "1a1819cc84323f8cb316456ed7d7fbbdc1ba9170": {
 "date": "2026-11-06",
@@ -1324,6 +1324,11 @@
 "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
 "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/"
 },
+"1d592f66d67fa78ddd9a2b4ae9ef5fecabc63f2d": {
+"date": "2026-11-15",
+"title": "RPN Loved Honk If (or, Write Your Own PostScript Interpreter)",
+"url": "https://hackaday.com/2026/11/14/rpn-loved-honk-if-or-write-your-own-postscript-interpreter/"
+},
 "1d5a9cc2d9509da81910cada203eb369287e9e13": {
 "date": "2026-09-24",
 "title": "Introducing MentalHealthBench",
@@ -1348,6 +1353,11 @@
 "date": "2026-09-24",
 "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
 "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan"
+},
+"1e150b34a92e60229812edea05e5f4d174650446": {
+"date": "2026-11-15",
+"title": "Helldez/BigMoeOnEdge",
+"url": "https://github.com/Helldez/BigMoeOnEdge"
 },
 "1e20f638d4c571a85afcb8dd8787e1165a61e858": {
 "date": "2026-11-12",
@@ -1589,11 +1599,6 @@
 "title": "Dissecting a Lethal Universal Travel Adapter",
 "url": "https://hackaday.com/2026/08/30/dissecting-a-lethal-universal-travel-adapter/"
 },
-"24ab2f6838765324fab64b461a783d94cf803352": {
-"date": "2026-08-16",
-"title": "Model: unsloth/Qwen3.8-27B-GGUF",
-"url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF"
-},
 "24ee0d11b76f3a78f0421ce98cecd98be66e55fc": {
 "date": "2026-11-01",
 "title": "Orkas-AI/Orkas",
@@ -1643,11 +1648,6 @@
 "date": "2026-11-03",
 "title": "Preparing our next security sprint to harden OpenAI",
 "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai"
-},
-"26645ba366a5e8ee4105f37c6a48b281337aec04": {
-"date": "2026-08-16",
-"title": "Model: meta-models/Muse-Glimmer-30B-GGUF",
-"url": "https://huggingface.co/meta-models/Muse-Glimmer-30B-GGUF"
 },
 "267e53693a4949725e928f451288fde0346457dd": {
 "date": "2026-09-26",
@@ -2949,11 +2949,6 @@
 "title": "Autonomous Mobile Robots on a Computing Field",
 "url": "https://arxiv.org/abs/2611.16652v1"
 },
-"4a78bc2e630431254ed29f3af6712e24a08aa64b": {
-"date": "2026-08-16",
-"title": "ESP32 Music Sequencer is Clearly Nailing the Y2K Aesthetic",
-"url": "https://hackaday.com/2026/08/15/esp32-music-sequencer-is-clearly-nailing-the-y2k-aesthetic/"
-},
 "4aba90b575e4e534c708a0e9c8b12e2b54c93326": {
 "date": "2026-08-18",
 "title": "Approximate Functional Dependencies---Implication Problem Revisited",
@@ -3218,11 +3213,6 @@
 "date": "2026-09-29",
 "title": "ESP32S3 cluster running 1.58-bit (BitNet) Language model",
 "url": "https://github.com/Low-Zi-Hong/ESP32s3-LLM-Cluster"
-},
-"519f8aafdecae90966b4373d589da81760d03a34": {
-"date": "2026-08-16",
-"title": "Scanning for Lifesigns with ESP32 and Raspberry Pi",
-"url": "https://hackaday.com/2026/08/15/scanning-for-lifesigns-with-esp32-and-raspberry-pi-now-open-source/"
 },
 "51b98e9683381f192d3a4fa217f1439bf1613631": {
 "date": "2026-09-04",
@@ -3539,6 +3529,11 @@
 "title": "ahmedkhaleel2004/gitdiagram",
 "url": "https://github.com/ahmedkhaleel2004/gitdiagram"
 },
+"5ad23f0e2e10f315deed8d07ecf2597dbe05536c": {
+"date": "2026-11-15",
+"title": "QwenLM/qwen-code",
+"url": "https://github.com/QwenLM/qwen-code"
+},
 "5afc49da7bd40515f91ccc5e3c3a6f8c07f56fb3": {
 "date": "2026-11-05",
 "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
@@ -3669,11 +3664,6 @@
 "title": "Firefox 157.0 released",
 "url": "https://lwn.net/Articles/1097495/"
 },
-"5db626af78abbf07c8fbc31733cfde8ff19850f8": {
-"date": "2026-08-16",
-"title": "Radio Shack Toy Returns to Life",
-"url": "https://hackaday.com/2026/08/15/radio-shack-toy-returns-to-life/"
-},
 "5dc508769d11d9c448bcf1a02dd30cae299db5af": {
 "date": "2026-08-22",
 "title": "Tumble Forth – from assembly to OS with C compiler (2023)",
@@ -3794,11 +3784,6 @@
 "title": "browser-use/browser-harness",
 "url": "https://github.com/browser-use/browser-harness"
 },
-"6096cc3a83ecce402b3936c5c56c1a09bfae4930": {
-"date": "2026-08-16",
-"title": "HKUDS/CLI-Anything",
-"url": "https://github.com/HKUDS/CLI-Anything"
-},
 "60c5d3336d7cf3396544f75642c2509f5b7127e2": {
 "date": "2026-11-13",
 "title": "Tencent/ncnn",
@@ -3853,11 +3838,6 @@
 "date": "2026-08-20",
 "title": "AgriciDaniel/claude-ads",
 "url": "https://github.com/AgriciDaniel/claude-ads"
-},
-"61b4bac8168f8668df0e578e2addec158b1474a6": {
-"date": "2026-08-16",
-"title": "cordiverse/cordis",
-"url": "https://github.com/cordiverse/cordis"
 },
 "61b7314afe17cb3af05fa1279fe9ac052fb3831e": {
 "date": "2026-09-14",
@@ -3974,6 +3954,11 @@
 "title": "Model: FermionResearch/Phonon-2",
 "url": "https://huggingface.co/FermionResearch/Phonon-2"
 },
+"6518fbd35a14573fd295ba32c6359ce4c1a8bf63": {
+"date": "2026-11-15",
+"title": "Model: higurashi-ai/Haru-4B",
+"url": "https://huggingface.co/higurashi-ai/Haru-4B"
+},
 "65442e708214c10b88da99a535be852d30396736": {
 "date": "2026-10-17",
 "title": "How Itaú is building generative AI for its entire customer base",
@@ -4089,6 +4074,11 @@
 "title": "cloudflare/quiche",
 "url": "https://github.com/cloudflare/quiche"
 },
+"68431e57dcdc481b34df3593a1b42dd08b7631b3": {
+"date": "2026-11-15",
+"title": "Model: Edge0/Edge0-145B-NVFP4",
+"url": "https://huggingface.co/Edge0/Edge0-145B-NVFP4"
+},
 "68450ca1af75826ccbb07b0c781149055709cf30": {
 "date": "2026-11-03",
 "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
@@ -4153,6 +4143,11 @@
 "date": "2026-11-11",
 "title": "[$] Synaptics patent claims stop work on DisplayLink drivers",
 "url": "https://lwn.net/Articles/1102549/"
+},
+"6a36938791d1414032b664a2072bc8d6d8996c6c": {
+"date": "2026-11-15",
+"title": "Tencent/LoopForge",
+"url": "https://github.com/Tencent/LoopForge"
 },
 "6a3c9132a1e37b736e6caf412071e7ef24dca522": {
 "date": "2026-10-26",
@@ -4238,6 +4233,11 @@
 "date": "2026-08-21",
 "title": "Pod-Deployability in Kubernetes with Inter-Pod Affinity Constraints is PSPACE-Complete",
 "url": "https://arxiv.org/abs/2608.19822v1"
+},
+"6c64301c09e02d7e8d6e522560d6fff28093dbeb": {
+"date": "2026-11-15",
+"title": "Model: Qwen/Qwen3.8-27B",
+"url": "https://huggingface.co/Qwen/Qwen3.8-27B"
 },
 "6c8121222e04a1f38a1ab84037960015657a39b9": {
 "date": "2026-09-30",
@@ -4434,6 +4434,11 @@
 "title": "European RISC-V Industrial Computing Initiative",
 "url": "https://erici.eu"
 },
+"7300b00a8c21037181af0d722f8de80674f128da": {
+"date": "2026-11-15",
+"title": "Bringing a Cloud Based Monitor Home",
+"url": "https://hackaday.com/2026/11/14/bringing-a-cloud-based-monitor-home/"
+},
 "7310eb4ce53cda29dff257bcb4483904f94e5edc": {
 "date": "2026-10-22",
 "title": "Building SQL Equivalence Proofs from Query Rewrite Rules",
@@ -4493,6 +4498,11 @@
 "date": "2026-10-20",
 "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
 "url": "https://arxiv.org/abs/2610.26860v1"
+},
+"74a9b4fc7bc0899314a36e888e7451767f3460af": {
+"date": "2026-11-15",
+"title": "Reverse Engineer that USB Device in Style",
+"url": "https://hackaday.com/2026/11/15/reverse-engineer-that-usb-device-in-style/"
 },
 "74c300beb3b9bb71ab1a43f680b3013380018428": {
 "date": "2026-10-24",
@@ -5214,11 +5224,6 @@
 "title": "daeuniverse/honk",
 "url": "https://github.com/daeuniverse/honk"
 },
-"8843f2689c56fc5e51c258a7327fe27429255181": {
-"date": "2026-08-16",
-"title": "Automattic/harper",
-"url": "https://github.com/Automattic/harper"
-},
 "88597d6ebe0d7d8665e1d1ef6f451f091ef12877": {
 "date": "2026-11-10",
 "title": "[$] Git considers voting to determine its LLM policy",
@@ -5373,6 +5378,11 @@
 "date": "2026-09-21",
 "title": "Pirate Face Rescues LLM Models from Deletion",
 "url": "https://pirateface.co/"
+},
+"8c33b23b2f5b10ff4a9a3e22bd303e481c828ee8": {
+"date": "2026-11-15",
+"title": "A Hazeltine 1420 Lives Again",
+"url": "https://hackaday.com/2026/11/14/a-hazeltine-1420-lives-again/"
 },
 "8c47a788accddbf53456b735ee109ab0d6ed804e": {
 "date": "2026-10-29",
@@ -6214,11 +6224,6 @@
 "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
 "url": "https://arxiv.org/abs/2609.28416v1"
 },
-"a1a4fdb6d6a591964f1f7b4f95fe1d8d852fe63f": {
-"date": "2026-08-16",
-"title": "Show HN: ThoughtDAG – An editable context graph for LLM conversations",
-"url": "https://chenxiachan.github.io/thoughtdag/"
-},
 "a1b02a6424f5c8f231f4ceec4f19280b8cbf806b": {
 "date": "2026-08-28",
 "title": "Show HN: We built open OpenRouter that turns usage into a better model",
@@ -6778,11 +6783,6 @@
 "date": "2026-09-13",
 "title": "RyanCodrai/turbovec",
 "url": "https://github.com/RyanCodrai/turbovec"
-},
-"afb6d0b8250661bcc802d544d252fcd30f8fba00": {
-"date": "2026-08-16",
-"title": "Model: Qwen/Qwen3.8-27B-FP8",
-"url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8"
 },
 "aff9572d8ad60d97af34bfe4c68e17d8b1e45d54": {
 "date": "2026-10-05",
@@ -7509,11 +7509,6 @@
 "title": "Charts as Epistemic Actions for Experience-Driven Agentic Data Analysis",
 "url": "https://arxiv.org/abs/2610.30072v1"
 },
-"c43e0406599d26f6775ee874d43558a45a718070": {
-"date": "2026-08-16",
-"title": "Fully Characterized Systems",
-"url": "https://hackaday.com/2026/08/15/fully-characterized-systems/"
-},
 "c45629e4d60aa92adb2e45ffbd0ee30615e80a89": {
 "date": "2026-09-19",
 "title": "Model: ukisai/Swift-Qwen3.8-27B-GGUF",
@@ -8024,6 +8019,11 @@
 "title": "OpenBSD 8.0 released",
 "url": "https://lwn.net/Articles/1101536/"
 },
+"cf6f267958831fe047681aad26310c0f1dd4eff0": {
+"date": "2026-11-15",
+"title": "FujiwaraChoki/supoclip",
+"url": "https://github.com/FujiwaraChoki/supoclip"
+},
 "cf8e622fe4cf1b66e05fdcd14225a47f983960b3": {
 "date": "2026-10-02",
 "title": "EasyTier/EasyTier",
@@ -8399,6 +8399,11 @@
 "title": "Dumpster-dived Window A/C becomes Ground-Source Heat Pump",
 "url": "https://hackaday.com/2026/09/22/dumpster-dived-window-a-c-becomes-ground-source-heat-pump/"
 },
+"d7ce53251c694396fe6895d376dac4f76089d745": {
+"date": "2026-11-15",
+"title": "LibreTranslate/LibreTranslate",
+"url": "https://github.com/LibreTranslate/LibreTranslate"
+},
 "d7e9d48e24067f391c753be686e452a7733b0ed3": {
 "date": "2026-08-18",
 "title": "immich-app/immich",
@@ -8669,11 +8674,6 @@
 "title": "bilawalsidhu/gods-eye-view",
 "url": "https://github.com/bilawalsidhu/gods-eye-view"
 },
-"df9a4b019932f89360607c0bff67d8c96482c4ee": {
-"date": "2026-08-16",
-"title": "A Tape Deck Gets a Service",
-"url": "https://hackaday.com/2026/08/15/a-tape-deck-gets-a-service/"
-},
 "dfa5dcc7a3330d421efa2914612b85e3096825ec": {
 "date": "2026-09-30",
 "title": "[$] The kernel from a PostgreSQL point of view",
@@ -8698,6 +8698,11 @@
 "date": "2026-10-02",
 "title": "Archiving The World’s Oldest Webcam Feed",
 "url": "https://hackaday.com/2026/10/01/archiving-the-worlds-oldest-webcam-feed/"
+},
+"dfedfa4966b602195df85786c0cf603c85c9fec5": {
+"date": "2026-11-15",
+"title": "ggml-org/ggml",
+"url": "https://github.com/ggml-org/ggml"
 },
 "dfef2a05e45944c593f8234a08f45c58d1f2486a": {
 "date": "2026-09-15",
@@ -8983,11 +8988,6 @@
 "date": "2026-11-05",
 "title": "Verified Implementation of the Next-gen Borrow Checking Algorithm for Rust via Abstract Interpretation",
 "url": "https://arxiv.org/abs/2611.06319v1"
-},
-"e6d05afc9ded18dfc61b9e325dff643b0cec29c8": {
-"date": "2026-08-16",
-"title": "MeisApps/pcbu-desktop",
-"url": "https://github.com/MeisApps/pcbu-desktop"
 },
 "e6e48b4f448684214c8ff28c86d986c830cab50a": {
 "date": "2026-10-26",
@@ -9478,11 +9478,6 @@
 "date": "2026-10-15",
 "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
 "url": "https://www.anthropic.com/news/singapore-office-opening"
-},
-"f2ece7a4d325c1c10c61093872d369e1858c2829": {
-"date": "2026-08-16",
-"title": "Hmbown/CodeWhale",
-"url": "https://github.com/Hmbown/CodeWhale"
 },
 "f334ce99adcd4605852146ef4a15c9cc013893db": {
 "date": "2026-08-31",

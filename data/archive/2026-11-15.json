@@ -1,0 +1,515 @@
+{
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T09:44:49+00:00",
+  "stats": {
+    "fetched": 122,
+    "new_after_dedupe": 73,
+    "published": 15,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 12,
+      "supported": 11,
+      "dropped": 0,
+      "unverifiable": 10,
+      "summaries_reverted": 1,
+      "rate": 0.9167
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. Your night just got a firmware upgrade and a 145‑billion‑parameter model to stare at.",
+    "stories": [
+      {
+        "kicker": "AI Models",
+        "headline": "Edge0 drops a 145B text generator",
+        "body": "**Massive but manageable:** Edge0/Edge0-145B-NVFP4 hit Hugging Face with 145 billion parameters and 33,819 downloads, showing huge models can still attract interest. It runs on NVFP4 precision, trading a bit of quality for speed.",
+        "why": "If you tinker with inference, it proves scale isn’t limited to data‑center GPUs.",
+        "ids": [
+          "68431e57dcdc481b34df3593a1b42dd08b7631b3"
+        ]
+      },
+      {
+        "kicker": "Embedded",
+        "headline": "DIVINER adds occult synth to Cardputer",
+        "body": "**Synthesizer meets pocket PC:** The DIVINER firmware plugs occult‑synth capabilities into the M5 Cardputer, turning the handheld into a mini‑modular synth without extra hardware.",
+        "why": "Engineers can experiment with audio DSP on a familiar dev board.",
+        "ids": [
+          "18901218705f5b0f82876b0255f4945ad5386bed"
+        ]
+      },
+      {
+        "kicker": "Open Models",
+        "headline": "LibreTranslate offers offline translation API",
+        "body": "**Self‑hosted language bridge:** LibreTranslate provides a free, open‑source translation service you can run locally, eliminating cloud latency and data‑privacy concerns.",
+        "why": "Useful for edge devices that need on‑device multilingual support.",
+        "ids": [
+          "d7ce53251c694396fe6895d376dac4f76089d745"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Terminal AI:** Qwen‑code runs code generation directly in your shell.",
+        "id": "5ad23f0e2e10f315deed8d07ecf2597dbe05536c"
+      },
+      {
+        "text": "**Hydroponics monitor:** Joziti’s cloud‑based system tracks pH, temperature, and conductivity at home.",
+        "id": "7300b00a8c21037181af0d722f8de80674f128da"
+      },
+      {
+        "text": "**PostScript interpreter:** New tutorial walks you through building an RPN‑based interpreter.",
+        "id": "1d592f66d67fa78ddd9a2b4ae9ef5fecabc63f2d"
+      },
+      {
+        "text": "**Remote control:** IRis learning remote stores infrared codes for thousands of devices with five buttons.",
+        "id": "1a08ff51acae4445df1a842a0a16cd67cc73cd9f"
+      },
+      {
+        "text": "**CPU inference library:** ggml offers a C++ tensor engine optimized for running models on CPUs.",
+        "id": "dfedfa4966b602195df85786c0cf603c85c9fec5"
+      }
+    ],
+    "number": {
+      "value": "145B",
+      "label": "parameter count of the new Edge0 text model",
+      "id": "68431e57dcdc481b34df3593a1b42dd08b7631b3"
+    },
+    "sign_off": "Catch you tomorrow, with more bits and bytes.",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "e296aeec0849311a946aeeb65f9f180a6eedb497",
+      "title": "Codeforces Round 1135 (Div. 2)",
+      "url": "https://codeforces.com/contests/2285",
+      "source": "Codeforces",
+      "starts": "2026-11-15T14:35:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sun 15 Nov 14:35 UTC"
+    },
+    {
+      "id": "60822431f06b8f490ded560d5c8c4719addfcb38",
+      "title": "Codeforces Round (Div. 1)",
+      "url": "https://codeforces.com/contests/2287",
+      "source": "Codeforces",
+      "starts": "2026-11-21T14:35:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sat 21 Nov 14:35 UTC"
+    },
+    {
+      "id": "94f95405e790ebb27551dc384896cec5feb7e3e3",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2288",
+      "source": "Codeforces",
+      "starts": "2026-11-21T14:35:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sat 21 Nov 14:35 UTC"
+    },
+    {
+      "id": "b0cf30dadb32a34b8ca2aa2411be7de1391e9c5c",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2289",
+      "source": "Codeforces",
+      "starts": "2026-11-22T09:05:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sun 22 Nov 09:05 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "DIVINER: Occult Synth Firmware for the Cardputer",
+      "url": "https://hackaday.com/2026/11/14/diviner-occult-synth-firmware-for-the-cardputer/",
+      "source": "hackaday",
+      "section": "embedded",
+      "published": "2026-11-15T00:00:11+00:00",
+      "points": null,
+      "score": 4.5,
+      "id": "18901218705f5b0f82876b0255f4945ad5386bed",
+      "summary": "DIVINER is custom firmware that adds occult‑synth functionality to the M5 Cardputer handheld device.",
+      "detail": "The firmware repurposes the Cardputer's hardware for experimental audio synthesis, demonstrating the flexibility of the platform for hobbyist firmware projects.",
+      "key_points": [],
+      "tag": "Release",
+      "highlight": true,
+      "image": "https://hackaday.com/wp-content/uploads/2026/11/8459231792676999283.png",
+      "related": {}
+    },
+    {
+      "title": "LibreTranslate/LibreTranslate",
+      "url": "https://github.com/LibreTranslate/LibreTranslate",
+      "source": "GitHub trending · python",
+      "section": "repos",
+      "published": null,
+      "points": 17736,
+      "score": 3.0,
+      "id": "d7ce53251c694396fe6895d376dac4f76089d745",
+      "summary": "LibreTranslate provides a free, open‑source machine‑translation API that can be self‑hosted and run offline.",
+      "detail": "The service supports multiple language pairs and can be deployed on modest hardware, offering an alternative to cloud‑based translators for privacy‑focused applications.",
+      "key_points": [
+        "Free",
+        "Open source",
+        "Offline capable"
+      ],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://opengraph.githubassets.com/27072b54558cbb0fa3ae732974d5b86e86ccc6e523010fef7bb4ccc486674b23/LibreTranslate/LibreTranslate",
+      "related": {}
+    },
+    {
+      "title": "Tencent/LoopForge",
+      "url": "https://github.com/Tencent/LoopForge",
+      "source": "GitHub trending",
+      "section": "repos",
+      "published": null,
+      "points": 1071,
+      "score": 3.0,
+      "id": "6a36938791d1414032b664a2072bc8d6d8996c6c",
+      "summary": "LoopForge is a self‑hosted platform that orchestrates coding agents like CodeBuddy, Codex, and Claude with scriptable workflows and approval gates.",
+      "detail": "It lets teams define local pipelines for AI‑assisted code generation, insert human review steps, and integrate multiple models, facilitating secure and customizable development automation.",
+      "key_points": [
+        "Self‑hosted workflows",
+        "Orchestrates CodeBuddy, Codex, Claude"
+      ],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://opengraph.githubassets.com/d0b19b0d1eb53546f8245eac068062820d9d2b1645628bcb52d52878bf6ee67b/Tencent/LoopForge",
+      "related": {}
+    },
+    {
+      "title": "ggml-org/ggml",
+      "url": "https://github.com/ggml-org/ggml",
+      "source": "GitHub trending · c++",
+      "section": "repos",
+      "published": null,
+      "points": 15796,
+      "score": 2.5,
+      "id": "dfedfa4966b602195df85786c0cf603c85c9fec5",
+      "summary": "ggml is a C++ tensor library optimized for machine‑learning inference on CPUs.",
+      "detail": "The library focuses on minimal dependencies and high performance for transformer models, enabling developers to run large language models locally without GPU acceleration.",
+      "key_points": [
+        "C++ library",
+        "CPU inference"
+      ],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://opengraph.githubassets.com/99e9d97688722b5f54eba0f60fcd6a758dc5759f73dc3a5e1f2439b336c6ad9c/ggml-org/ggml",
+      "related": {}
+    },
+    {
+      "title": "FujiwaraChoki/supoclip",
+      "url": "https://github.com/FujiwaraChoki/supoclip",
+      "source": "GitHub trending · python",
+      "section": "repos",
+      "published": null,
+      "points": 3154,
+      "score": 2.0,
+      "id": "cf6f267958831fe047681aad26310c0f1dd4eff0",
+      "summary": "Supoclip is an open-source Python implementation that serves as an alternative to OpusClip.",
+      "detail": "The project is listed on GitHub trending and aims to replicate OpusClip's video‑clip generation capabilities while remaining fully open source, making it easy to integrate into custom pipelines.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://opengraph.githubassets.com/01fd6a509204c9e25d681eb5113b8b909976a3b13a1a34e209a16870f3e30534/FujiwaraChoki/supoclip",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "Model: Edge0/Edge0-145B-NVFP4",
+          "url": "https://huggingface.co/Edge0/Edge0-145B-NVFP4",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-11-11T05:22:51.000Z",
+          "points": 272,
+          "score": 1.5,
+          "id": "68431e57dcdc481b34df3593a1b42dd08b7631b3",
+          "summary": "Edge0/Edge0-145B-NVFP4 is a 145‑billion‑parameter text‑generation model on Hugging Face with 33,819 downloads.",
+          "detail": "The model targets large‑scale language tasks and is part of the Edge0 series optimized for NVIDIA FP4 precision. It has attracted moderate community interest, reflected in its like count.",
+          "key_points": [
+            "145B parameters",
+            "33,819 downloads",
+            "272 likes"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Edge0/Edge0-145B-NVFP4.png",
+          "related": {}
+        },
+        {
+          "title": "Model: Qwen/Qwen3.8-27B",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-08-05T08:22:59.000Z",
+          "points": 20046,
+          "score": 1.5,
+          "id": "6c64301c09e02d7e8d6e522560d6fff28093dbeb",
+          "summary": "image-text-to-text · 6,547,772 downloads · 20046 likes",
+          "detail": "The model supports converting visual inputs into textual descriptions and has become one of the most downloaded multimodal models on the platform, indicating strong demand for such capabilities.",
+          "key_points": [
+            "27B parameters",
+            "6,547,772 downloads",
+            "20,046 likes"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Qwen/Qwen3.8-27B.png",
+          "related": {}
+        },
+        {
+          "title": "Model: higurashi-ai/Haru-4B",
+          "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-11-12T11:05:59.000Z",
+          "points": 257,
+          "score": 1.5,
+          "id": "6518fbd35a14573fd295ba32c6359ce4c1a8bf63",
+          "summary": "higurashi-ai/Haru-4B is a 4‑billion‑parameter audio‑to‑audio model on Hugging Face with 1,262 downloads.",
+          "detail": "Haru‑4B focuses on tasks like voice conversion and audio style transfer, offering a compact alternative to larger audio models while gathering a niche user base.",
+          "key_points": [
+            "4B parameters",
+            "1,262 downloads",
+            "257 likes"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/higurashi-ai/Haru-4B.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "DIVINER: Occult Synth Firmware for the Cardputer",
+          "url": "https://hackaday.com/2026/11/14/diviner-occult-synth-firmware-for-the-cardputer/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-15T00:00:11+00:00",
+          "points": null,
+          "score": 4.5,
+          "id": "18901218705f5b0f82876b0255f4945ad5386bed",
+          "summary": "DIVINER is custom firmware that adds occult‑synth functionality to the M5 Cardputer handheld device.",
+          "detail": "The firmware repurposes the Cardputer's hardware for experimental audio synthesis, demonstrating the flexibility of the platform for hobbyist firmware projects.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": true,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/8459231792676999283.png",
+          "related": {}
+        },
+        {
+          "title": "A Hazeltine 1420 Lives Again",
+          "url": "https://hackaday.com/2026/11/14/a-hazeltine-1420-lives-again/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-14T18:00:19+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "8c33b23b2f5b10ff4a9a3e22bd303e481c828ee8",
+          "summary": "A recreated Hazeltine 1420 terminal has been brought back to life using modern components.",
+          "detail": "The project rebuilds the classic terminal's display and keyboard interfaces, allowing vintage software to run on contemporary hardware while preserving historical computing experiences.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/haze.png",
+          "related": {}
+        },
+        {
+          "title": "Bringing a Cloud Based Monitor Home",
+          "url": "https://hackaday.com/2026/11/14/bringing-a-cloud-based-monitor-home/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-15T06:00:02+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "7300b00a8c21037181af0d722f8de80674f128da",
+          "summary": "Joziti built a cloud‑based monitor for home hydroponics, tracking temperature, pH, and conductivity.",
+          "detail": "The system streams sensor data to a remote dashboard, enabling real‑time adjustments and data logging for hobby growers seeking tighter environmental control.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/05-feather-installed-banner.png",
+          "related": {}
+        },
+        {
+          "title": "IRis Learning Remote Has Five Buttons, Supports Thousands of Devices",
+          "url": "https://hackaday.com/2026/11/14/iris-learning-remote-has-five-buttons-supports-thousands-of-devices/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-14T15:00:13+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "1a08ff51acae4445df1a842a0a16cd67cc73cd9f",
+          "summary": "The IRis learning remote features five buttons and can store infrared codes for thousands of devices.",
+          "detail": "It revives the once‑popular universal IR remote concept while keeping the hardware simple. The device learns codes from existing remotes, making it useful for DIY home‑automation projects without needing complex setups.",
+          "key_points": [
+            "5 buttons",
+            "supports thousands devices"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/IRis-remote-banner.png",
+          "related": {}
+        },
+        {
+          "title": "RPN Loved Honk If (or, Write Your Own PostScript Interpreter)",
+          "url": "https://hackaday.com/2026/11/14/rpn-loved-honk-if-or-write-your-own-postscript-interpreter/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-15T03:00:49+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "1d592f66d67fa78ddd9a2b4ae9ef5fecabc63f2d",
+          "summary": "A tutorial walks readers through building a PostScript‑style interpreter using reverse Polish notation concepts.",
+          "detail": "The guide ties together ideas from HP calculators, Forth, and classic laser‑printer languages, offering code snippets and explanations for each interpreter component. It targets hobbyists who enjoy low‑level language design.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/post.png",
+          "related": {}
+        },
+        {
+          "title": "Reverse Engineer that USB Device in Style",
+          "url": "https://hackaday.com/2026/11/15/reverse-engineer-that-usb-device-in-style/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-15T09:00:44+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "74a9b4fc7bc0899314a36e888e7451767f3460af",
+          "summary": "The article shows how to capture and decode USB traffic with open‑source tools to reverse‑engineer proprietary devices.",
+          "detail": "It recommends using packet sniffers and USB protocol analyzers, then demonstrates extracting command sequences for custom driver development. The approach helps developers avoid closed‑source driver lock‑in.",
+          "key_points": [],
+          "tag": "Analysis",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2024/04/usb-featured.jpg",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "LibreTranslate/LibreTranslate",
+          "url": "https://github.com/LibreTranslate/LibreTranslate",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 17736,
+          "score": 3.0,
+          "id": "d7ce53251c694396fe6895d376dac4f76089d745",
+          "summary": "LibreTranslate provides a free, open‑source machine‑translation API that can be self‑hosted and run offline.",
+          "detail": "The service supports multiple language pairs and can be deployed on modest hardware, offering an alternative to cloud‑based translators for privacy‑focused applications.",
+          "key_points": [
+            "Free",
+            "Open source",
+            "Offline capable"
+          ],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://opengraph.githubassets.com/27072b54558cbb0fa3ae732974d5b86e86ccc6e523010fef7bb4ccc486674b23/LibreTranslate/LibreTranslate",
+          "related": {}
+        },
+        {
+          "title": "Tencent/LoopForge",
+          "url": "https://github.com/Tencent/LoopForge",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 1071,
+          "score": 3.0,
+          "id": "6a36938791d1414032b664a2072bc8d6d8996c6c",
+          "summary": "LoopForge is a self‑hosted platform that orchestrates coding agents like CodeBuddy, Codex, and Claude with scriptable workflows and approval gates.",
+          "detail": "It lets teams define local pipelines for AI‑assisted code generation, insert human review steps, and integrate multiple models, facilitating secure and customizable development automation.",
+          "key_points": [
+            "Self‑hosted workflows",
+            "Orchestrates CodeBuddy, Codex, Claude"
+          ],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://opengraph.githubassets.com/d0b19b0d1eb53546f8245eac068062820d9d2b1645628bcb52d52878bf6ee67b/Tencent/LoopForge",
+          "related": {}
+        },
+        {
+          "title": "ggml-org/ggml",
+          "url": "https://github.com/ggml-org/ggml",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 15796,
+          "score": 2.5,
+          "id": "dfedfa4966b602195df85786c0cf603c85c9fec5",
+          "summary": "ggml is a C++ tensor library optimized for machine‑learning inference on CPUs.",
+          "detail": "The library focuses on minimal dependencies and high performance for transformer models, enabling developers to run large language models locally without GPU acceleration.",
+          "key_points": [
+            "C++ library",
+            "CPU inference"
+          ],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://opengraph.githubassets.com/99e9d97688722b5f54eba0f60fcd6a758dc5759f73dc3a5e1f2439b336c6ad9c/ggml-org/ggml",
+          "related": {}
+        },
+        {
+          "title": "FujiwaraChoki/supoclip",
+          "url": "https://github.com/FujiwaraChoki/supoclip",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 3154,
+          "score": 2.0,
+          "id": "cf6f267958831fe047681aad26310c0f1dd4eff0",
+          "summary": "Supoclip is an open-source Python implementation that serves as an alternative to OpusClip.",
+          "detail": "The project is listed on GitHub trending and aims to replicate OpusClip's video‑clip generation capabilities while remaining fully open source, making it easy to integrate into custom pipelines.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://opengraph.githubassets.com/01fd6a509204c9e25d681eb5113b8b909976a3b13a1a34e209a16870f3e30534/FujiwaraChoki/supoclip",
+          "related": {}
+        },
+        {
+          "title": "Helldez/BigMoeOnEdge",
+          "url": "https://github.com/Helldez/BigMoeOnEdge",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 855,
+          "score": 2.0,
+          "id": "1e150b34a92e60229812edea05e5f4d174650446",
+          "summary": "BigMoeOnEdge is a C++ tool that enables running frontier‑size mixture‑of‑experts models larger than device RAM on phones, laptops and other edge hardware via adaptive streaming on top of llama.cpp.",
+          "detail": "It provides lossless execution on stock llama.cpp, supports any hardware, OS, model and quantization, and exposes a local OpenAI‑compatible server, allowing developers to serve huge MoE models without cloud resources.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/394360bc9323114230a74534b73fcf1d3a9e34a95161265d3eed712d39d1fccf/Helldez/BigMoeOnEdge",
+          "related": {}
+        },
+        {
+          "title": "QwenLM/qwen-code",
+          "url": "https://github.com/QwenLM/qwen-code",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 30456,
+          "score": 2.0,
+          "id": "5ad23f0e2e10f315deed8d07ecf2597dbe05536c",
+          "summary": "Qwen‑code is an open-source AI coding agent that runs directly in the terminal, allowing code generation and assistance from the command line.",
+          "detail": "Hosted on GitHub, the agent integrates with shell workflows, enabling developers to invoke AI‑powered coding help without leaving their console environment.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/450fdee734841f8a166edc69c67d6ba6979717fedc6e71a1cd3cfb2e5f855e87/QwenLM/qwen-code",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "week": "2026-W46",
+  "start": "2026-11-09",
+  "end": "2026-11-15",
+  "title": "Agents, Benchmarks, and Embedded Play",
+  "intro": "This week the AI world doubled down on agentic tricks while the hardware crowd kept tinkering with tiny silicon. From recovering lost checkpoints to running X servers on ESP32, engineers got busy on both fronts.",
+  "themes": [
+    {
+      "headline": "Agentic LLMs go on‑device",
+      "body": "**Lead‑in:** The push to shrink and specialize agents is heating up. Agentic‑OPD recovers discarded checkpoints, EngineAgent adds hardware‑aware indexing, BotPsy ships a sub‑billion‑parameter assistant, and CapLite hardens small models against prompt injection. Together they show a trend toward lightweight, on‑device agency.",
+      "items": [
+        {
+          "id": "719682cd7e7b5761f08476935b8df330db7b0934",
+          "title": "Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Distillation for Agentic Tasks",
+          "url": "https://arxiv.org/abs/2611.12799v1",
+          "date": "2026-11-10",
+          "source": "arXiv cs.LG",
+          "section": "AI & ML"
+        },
+        {
+          "id": "e700096f78e00b91092906c1f93f8fc613a578bc",
+          "title": "EngineAgent: Agentizing On-Device LLM Inference Engines with Inference Stack Hierarchy Awareness and Hardware Abilities",
+          "url": "https://arxiv.org/abs/2611.14356v1",
+          "date": "2026-11-11",
+          "source": "arXiv cs.OS",
+          "section": "AI & ML"
+        },
+        {
+          "id": "b22522d14a17f95f283880f472cfa6e801354fb8",
+          "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+          "url": "https://huggingface.co/blog/qvac/botpsy",
+          "date": "2026-11-11",
+          "source": "huggingface blog",
+          "section": "AI & ML"
+        },
+        {
+          "id": "97d3c2a1ce2bc00f48c05953551c28fd930c39fc",
+          "title": "CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts",
+          "url": "https://arxiv.org/abs/2611.17115v1",
+          "date": "2026-11-13",
+          "source": "arXiv cs.AI",
+          "section": "AI & ML"
+        }
+      ]
+    },
+    {
+      "headline": "New benchmarks for multi‑agent workflows",
+      "body": "**Lead‑in:** Researchers are finally measuring how well LLM teams juggle complex tasks. WorkflowArena tests 145 long‑horizon tasks across eight domains, while a world‑model audit shows five LLMs passing 134 of 135 scenarios. NCode’s universal AutoML also frames search as a multi‑agent problem, underscoring a broader focus on systematic evaluation.",
+      "items": [
+        {
+          "id": "f1d74286b41ab3117433d6cc3464fe9d54c39517",
+          "title": "WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems",
+          "url": "https://arxiv.org/abs/2611.12856v1",
+          "date": "2026-11-10",
+          "source": "arXiv cs.CL",
+          "section": "AI & ML"
+        },
+        {
+          "id": "872cf8e087270b8e7946f1c5630e25c81710495a",
+          "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
+          "url": "https://arxiv.org/abs/2611.14419v1",
+          "date": "2026-11-11",
+          "source": "arXiv cs.AI",
+          "section": "AI & ML"
+        },
+        {
+          "id": "5790ccf7899d5120943d1340e07b38cf56f27d5b",
+          "title": "Large Language Models as a Universal Searcher for Open-World Automated Machine Learning",
+          "url": "https://arxiv.org/abs/2611.12791v1",
+          "date": "2026-11-10",
+          "source": "arXiv cs.CL",
+          "section": "AI & ML"
+        }
+      ]
+    },
+    {
+      "headline": "Embedded hacking hits nostalgia and new OSes",
+      "body": "**Lead‑in:** The embedded scene mixed retro flair with fresh OS launches. An X Window server now runs on ESP32‑S3, a desktop OS targets the ESP32‑P4’s dual RISC‑V cores, and an FPGA recreation revives the 1985 AT&T UNIX PC. Meanwhile, Buildroot celebrated 25 years, reminding us that long‑term tooling still matters.",
+      "items": [
+        {
+          "id": "104402904ce921a161e180470da68b79f5c2761e",
+          "title": "X Window System on the ESP32",
+          "url": "https://hackaday.com/2026/11/13/x-window-system-on-the-esp32/",
+          "date": "2026-11-14",
+          "source": "hackaday",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "330aed30a738db4b4a1cfb3b70a54d0d41ed82dc",
+          "title": "A Desktop OS for the ESP32-P4",
+          "url": "https://hackaday.com/2026/11/12/a-desktop-os-for-the-esp32-p4/",
+          "date": "2026-11-13",
+          "source": "hackaday",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "bd8f8852f831517a443b5603a89a2e54dc600694",
+          "title": "An FPGA Version of the AT&T UNIX PC for MiSTer",
+          "url": "https://hackaday.com/2026/11/08/an-fpga-version-of-the-att-unix-pc-for-mister/",
+          "date": "2026-11-09",
+          "source": "hackaday",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "583628dcaa0c83d32187a40af2789583c9109096",
+          "title": "[$] 25 years of Buildroot",
+          "url": "https://lwn.net/Articles/1103395/",
+          "date": "2026-11-14",
+          "source": "lwn",
+          "section": "Embedded & systems"
+        }
+      ]
+    },
+    {
+      "headline": "Open‑source tooling for AI pipelines",
+      "body": "**Lead‑in:** A wave of repos is making AI pipelines more plug‑and‑play. LoopForge orchestrates coding agents, LibreTranslate offers offline translation, ggml provides a CPU‑focused tensor library, and browser‑use adds stealth browser agents. The ecosystem is maturing into ready‑to‑run components.",
+      "items": [
+        {
+          "id": "6a36938791d1414032b664a2072bc8d6d8996c6c",
+          "title": "Tencent/LoopForge",
+          "url": "https://github.com/Tencent/LoopForge",
+          "date": "2026-11-15",
+          "source": "GitHub trending",
+          "section": "Trending repos"
+        },
+        {
+          "id": "d7ce53251c694396fe6895d376dac4f76089d745",
+          "title": "LibreTranslate/LibreTranslate",
+          "url": "https://github.com/LibreTranslate/LibreTranslate",
+          "date": "2026-11-15",
+          "source": "GitHub trending · python",
+          "section": "Trending repos"
+        },
+        {
+          "id": "dfedfa4966b602195df85786c0cf603c85c9fec5",
+          "title": "ggml-org/ggml",
+          "url": "https://github.com/ggml-org/ggml",
+          "date": "2026-11-15",
+          "source": "GitHub trending · c++",
+          "section": "Trending repos"
+        },
+        {
+          "id": "44f0426e6105e13918b72ca4b0ce3aa0d8872c83",
+          "title": "browser-use/browser-use",
+          "url": "https://github.com/browser-use/browser-use",
+          "date": "2026-11-12",
+          "source": "GitHub trending · python",
+          "section": "Trending repos"
+        }
+      ]
+    }
+  ],
+  "numbers": [
+    {
+      "value": "145",
+      "label": "tasks evaluated in WorkflowArena benchmark",
+      "item": {
+        "id": "f1d74286b41ab3117433d6cc3464fe9d54c39517",
+        "title": "WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems",
+        "url": "https://arxiv.org/abs/2611.12856v1",
+        "date": "2026-11-10",
+        "source": "arXiv cs.CL",
+        "section": "AI & ML"
+      }
+    },
+    {
+      "value": "22nm",
+      "label": "process node of Baochip‑1x high‑assurance SoC",
+      "item": {
+        "id": "a8d0a71855f612b62b01fce3a94afc09df834c8b",
+        "title": "Baochip-1x: A Mostly-Open, 22nm SoC for High Assurance Applications",
+        "url": "https://hackaday.com/2026/11/12/baochip-1x-a-mostly-open-22nm-soc-for-high-assurance-applications/",
+        "date": "2026-11-13",
+        "source": "hackaday",
+        "section": "Embedded & systems"
+      }
+    },
+    {
+      "value": "25y",
+      "label": "Buildroot’s lifespan celebrated at ELC Europe",
+      "item": {
+        "id": "583628dcaa0c83d32187a40af2789583c9109096",
+        "title": "[$] 25 years of Buildroot",
+        "url": "https://lwn.net/Articles/1103395/",
+        "date": "2026-11-14",
+        "source": "lwn",
+        "section": "Embedded & systems"
+      }
+    }
+  ],
+  "watch": "Keep an eye on next week’s releases of on‑device agent stacks and any follow‑up security patches for the new ESP32‑P4 OS.",
+  "item_count": 149
+}
