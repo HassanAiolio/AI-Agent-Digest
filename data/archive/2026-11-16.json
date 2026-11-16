@@ -1,0 +1,513 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T10:01:17+00:00",
+  "stats": {
+    "fetched": 129,
+    "new_after_dedupe": 77,
+    "published": 16,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 13,
+      "supported": 12,
+      "dropped": 0,
+      "unverifiable": 0,
+      "summaries_reverted": 1,
+      "rate": 0.9231
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. The kernel shipped another prepatch while AI researchers tried to lattice‑ify the universe.",
+    "stories": [
+      {
+        "kicker": "Embedded",
+        "headline": "Linux 7.4‑rc3 lands with driver tweaks",
+        "body": "**Small updates, big impact:** The 7.4‑rc3 prepatch is out, mostly polishing drivers. It’s a test release, so expect a few regressions before final.",
+        "why": "If you write or maintain drivers, this is the code you’ll be compiling next week.",
+        "ids": [
+          "6aef44b82c2964e54b9cbfbf972f8d7c620e5d73"
+        ]
+      },
+      {
+        "kicker": "Research",
+        "headline": "GPT‑6 helps define Standard Model on lattice",
+        "body": "**AI meets particle physics:** Researchers used GPT‑6 Astra to draft a non‑perturbative lattice definition of the Standard Model, producing a detailed proof that was previously out of reach.",
+        "why": "Shows how large language models can accelerate theoretical work you might cite in a paper.",
+        "ids": [
+          "87d7014c15ee68a3a258e4931bcaef4b31534b44"
+        ]
+      },
+      {
+        "kicker": "Trending repos",
+        "headline": "SunshineStream offers self‑hosted game streaming",
+        "body": "**C++ server for Moonlight clients:** SunshineStream’s new repo lets you run a lightweight streaming server on any PC, compatible with the popular Moonlight client.",
+        "why": "Great for engineers who want low‑latency remote gaming without a cloud subscription.",
+        "ids": [
+          "bb4bafbe9a495f87b2ed33db4dcb801558f1a50d"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Partnership:** LVMH Media teams up with OpenAI to embed ChatGPT in journalism.",
+        "id": "91e58e2ea930c2fabc271a22401b1d1a40419d3b"
+      },
+      {
+        "text": "**Science blog:** OpenAI launches a new site for research and AI methods.",
+        "id": "4b0fc5b701ffd77dc12523f912000158b7c589e6"
+      },
+      {
+        "text": "**Safety tip:** Orbital sanders can cause hand‑arm vibration syndrome.",
+        "id": "b5a633502f28a9fa3e698f6d5e796cadf0211bc0"
+      },
+      {
+        "text": "**Arduino hack:** Detect mains frequency by sampling the AC grid.",
+        "id": "2689f3dff7a6214a55b70e347ee80c0ab6a06a99"
+      },
+      {
+        "text": "**Agent library:** stitch‑skills adds reusable AI skills for the Stitch server.",
+        "id": "52adf762d4075bfab29f2cf8673a9747c2f4005f"
+      },
+      {
+        "text": "**Math animations:** ManimCommunity keeps Python animation alive.",
+        "id": "6b2f527da8ea645756b3f8321c46e6d8abf18d69"
+      }
+    ],
+    "number": null,
+    "sign_off": "Catch you tomorrow – same code, new jokes.",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "60822431f06b8f490ded560d5c8c4719addfcb38",
+      "title": "Codeforces Round (Div. 1)",
+      "url": "https://codeforces.com/contests/2287",
+      "source": "Codeforces",
+      "starts": "2026-11-21T14:35:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sat 21 Nov 14:35 UTC"
+    },
+    {
+      "id": "94f95405e790ebb27551dc384896cec5feb7e3e3",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2288",
+      "source": "Codeforces",
+      "starts": "2026-11-21T14:35:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sat 21 Nov 14:35 UTC"
+    },
+    {
+      "id": "b0cf30dadb32a34b8ca2aa2411be7de1391e9c5c",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2289",
+      "source": "Codeforces",
+      "starts": "2026-11-22T09:05:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sun 22 Nov 09:05 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Kernel prepatch 7.4-rc3",
+      "url": "https://lwn.net/Articles/1107606/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-11-16T09:07:45+00:00",
+      "points": null,
+      "score": 4.0,
+      "id": "6aef44b82c2964e54b9cbfbf972f8d7c620e5d73",
+      "summary": "Linux kernel 7.4‑rc3 prepatch was released for testing, with most changes being small driver updates.",
+      "detail": "Linus Torvalds described the release as “fairly normal,” noting networking and GPU drivers contributed the bulk of modifications. The patch set continues the usual release‑candidate cadence ahead of the final 7.4 launch.",
+      "key_points": [
+        "7.4-rc3"
+      ],
+      "tag": "Release",
+      "highlight": true,
+      "image": "",
+      "related": {
+        "title": "Three new stable kernels for Tuesday",
+        "url": "https://lwn.net/Articles/1106569/",
+        "date": "2026-11-11",
+        "id": "fba72f2e2d13857cd8b1333557b0e7025f883426"
+      }
+    },
+    {
+      "title": "A step toward defining the Standard Model on a lattice",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "source": "openai blog",
+      "section": "ai-ml",
+      "published": "2026-11-15T22:00:01+00:00",
+      "points": null,
+      "score": 3.0,
+      "id": "87d7014c15ee68a3a258e4931bcaef4b31534b44",
+      "summary": "A candidate nonperturbative lattice definition of the Standard Model was explored, with GPT‑6 Astra assisting in producing a detailed proof.",
+      "detail": "The work proposes a concrete formulation of the Standard Model on a discrete spacetime lattice, aiming to bypass perturbative limitations. GPT‑6 Astra was used to automate parts of the derivation, demonstrating AI's role in theoretical physics. The approach remains speculative and requires further validation against known particle physics results.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "source": "openai blog",
+      "section": "ai-ml",
+      "published": "2026-11-16T09:00:00+00:00",
+      "points": null,
+      "score": 3.0,
+      "id": "91e58e2ea930c2fabc271a22401b1d1a40419d3b",
+      "summary": "LVMH’s Media Division and OpenAI announced a partnership to integrate AI tools into journalism and improve accessibility via ChatGPT.",
+      "detail": "The collaboration will provide LVMH’s publications with AI‑generated summaries, translations, and interactive features. It aims to streamline content creation and reach broader audiences, while both parties emphasize responsible AI use. No financial terms were disclosed.",
+      "key_points": [],
+      "tag": "News",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "Our new blog for science",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "source": "openai blog",
+      "section": "ai-ml",
+      "published": "2026-11-15T22:00:00+00:00",
+      "points": null,
+      "score": 3.0,
+      "id": "4b0fc5b701ffd77dc12523f912000158b7c589e6",
+      "summary": "OpenAI launched a science‑focused blog to share research findings, practical AI methods, and user experiences in scientific discovery.",
+      "detail": "The blog will feature posts from internal and external researchers, covering topics from model‑driven experiments to AI‑assisted data analysis. It serves as a centralized venue for the community to track how AI is applied across scientific domains.",
+      "key_points": [],
+      "tag": "News",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "SunshineStream/Sunshine",
+      "url": "https://github.com/SunshineStream/Sunshine",
+      "source": "GitHub trending · c++",
+      "section": "repos",
+      "published": null,
+      "points": 43457,
+      "score": 3.0,
+      "id": "bb4bafbe9a495f87b2ed33db4dcb801558f1a50d",
+      "summary": "SunshineStream is a C++ self‑hosted game‑streaming server compatible with Moonlight clients.",
+      "detail": "The repository includes source code for encoding video frames and handling input latency. It targets low‑power PCs and can be compiled on Linux, offering an open‑source alternative to proprietary streaming solutions.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://repository-images.githubusercontent.com/438803890/cee99a24-0230-411e-b444-3e261c8b01d3",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "A step toward defining the Standard Model on a lattice",
+          "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-15T22:00:01+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "87d7014c15ee68a3a258e4931bcaef4b31534b44",
+          "summary": "A candidate nonperturbative lattice definition of the Standard Model was explored, with GPT‑6 Astra assisting in producing a detailed proof.",
+          "detail": "The work proposes a concrete formulation of the Standard Model on a discrete spacetime lattice, aiming to bypass perturbative limitations. GPT‑6 Astra was used to automate parts of the derivation, demonstrating AI's role in theoretical physics. The approach remains speculative and requires further validation against known particle physics results.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+          "url": "https://openai.com/index/lvmh-media-division-partnership",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-16T09:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "91e58e2ea930c2fabc271a22401b1d1a40419d3b",
+          "summary": "LVMH’s Media Division and OpenAI announced a partnership to integrate AI tools into journalism and improve accessibility via ChatGPT.",
+          "detail": "The collaboration will provide LVMH’s publications with AI‑generated summaries, translations, and interactive features. It aims to streamline content creation and reach broader audiences, while both parties emphasize responsible AI use. No financial terms were disclosed.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Our new blog for science",
+          "url": "https://openai.com/index/our-new-blog-for-science",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-15T22:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "4b0fc5b701ffd77dc12523f912000158b7c589e6",
+          "summary": "OpenAI launched a science‑focused blog to share research findings, practical AI methods, and user experiences in scientific discovery.",
+          "detail": "The blog will feature posts from internal and external researchers, covering topics from model‑driven experiments to AI‑assisted data analysis. It serves as a centralized venue for the community to track how AI is applied across scientific domains.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Model: unsloth/Qwen3.8-27B-GGUF",
+          "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-08-13T08:28:40.000Z",
+          "points": 6019,
+          "score": 1.5,
+          "id": "24ab2f6838765324fab64b461a783d94cf803352",
+          "summary": "6,566,295 downloads · 6019 likes",
+          "detail": "The model is a 27‑billion‑parameter Qwen variant optimized for GGUF format, targeting efficient inference on consumer hardware. Its popularity reflects growing interest in high‑capacity open‑source LLMs for diverse applications.",
+          "key_points": [
+            "6,566,295 downloads",
+            "6,019 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/unsloth/Qwen3.8-27B-GGUF.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "Kernel prepatch 7.4-rc3",
+          "url": "https://lwn.net/Articles/1107606/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-16T09:07:45+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "6aef44b82c2964e54b9cbfbf972f8d7c620e5d73",
+          "summary": "Linux kernel 7.4‑rc3 prepatch was released for testing, with most changes being small driver updates.",
+          "detail": "Linus Torvalds described the release as “fairly normal,” noting networking and GPU drivers contributed the bulk of modifications. The patch set continues the usual release‑candidate cadence ahead of the final 7.4 launch.",
+          "key_points": [
+            "7.4-rc3"
+          ],
+          "tag": "Release",
+          "highlight": true,
+          "image": "",
+          "related": {
+            "title": "Three new stable kernels for Tuesday",
+            "url": "https://lwn.net/Articles/1106569/",
+            "date": "2026-11-11",
+            "id": "fba72f2e2d13857cd8b1333557b0e7025f883426"
+          }
+        },
+        {
+          "title": "An Orbital Sanders Crash Course and the Threat of HAVS",
+          "url": "https://hackaday.com/2026/11/15/an-orbital-sanders-crash-course-and-the-threat-of-havs/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-15T18:00:48+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "b5a633502f28a9fa3e698f6d5e796cadf0211bc0",
+          "summary": "A Hackaday article explains how orbital sanders work and highlights the occupational hazard of hand‑arm vibration syndrome (HAVS).",
+          "detail": "The piece details the mechanics of orbital sanding tools and presents safety guidelines to mitigate vibration exposure. It cites medical studies linking prolonged use to nerve damage, urging users to adopt protective equipment and limit session length.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/orbital_sander_brake_and_damper_ring_five_duck_studio_youtube.jpg",
+          "related": {}
+        },
+        {
+          "title": "Follow The Grid With An Arduino Uno",
+          "url": "https://hackaday.com/2026/11/16/follow-the-grid-with-an-arduino-uno/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-16T09:00:13+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "2689f3dff7a6214a55b70e347ee80c0ab6a06a99",
+          "summary": "A tutorial shows how to use an Arduino Uno to detect the 50 Hz or 60 Hz mains frequency by sampling the AC grid waveform.",
+          "detail": "The guide explains wiring the Arduino to a voltage divider and using interrupt timing to measure zero‑crossings. It discusses handling both US and European standards and provides sample code for real‑time frequency display.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/grid-monitor-featured.jpg",
+          "related": {}
+        },
+        {
+          "title": "Hackaday Links: November 15, 2026",
+          "url": "https://hackaday.com/2026/11/15/hackaday-links-november-15-2026/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-16T00:00:27+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "6f333e184f51c2d98d92426f4ab4f46b4aa4616e",
+          "summary": "Hackaday Supercon recap published on November 15, 2026 notes record attendance and a new venue with excess capacity.",
+          "detail": "The event featured expanded speaker line‑ups and additional workshops compared to prior years. Organizers highlighted improved networking spaces and a larger exhibition hall, suggesting the conference is scaling sustainably.",
+          "key_points": [
+            "Nov 15, 2026"
+          ],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2014/11/had-links-banner.jpg",
+          "related": {}
+        },
+        {
+          "title": "It’s A NAS, For Sony Mavica Disks",
+          "url": "https://hackaday.com/2026/11/15/its-a-nas-for-sony-mavica-disks/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-16T06:00:27+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "4304bcc1856b1e50fa802742adb6a5a740d6d1e5",
+          "summary": "An article examines a discontinued Sony Mavica‑compatible NAS that stored images on proprietary disks.",
+          "detail": "The piece places the device in the early digital camera era, noting its limited market lifespan of only a few years before SD cards became dominant. It also details the hardware’s reliance on legacy ATA interfaces.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/mavica-nas-featured.jpg",
+          "related": {}
+        },
+        {
+          "title": "Loop Antennas for Transmitting",
+          "url": "https://hackaday.com/2026/11/15/loop-antennas-for-transmitting/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-15T21:00:35+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "cc7fc3fffdaf1db920991fafaae6acd5bafbea45",
+          "summary": "A guide compares loop antennas to traditional outdoor designs, highlighting their compact size and trade‑offs for amateur radio operators.",
+          "detail": "Loop antennas offer lower visual impact and easier indoor installation but typically have reduced gain and bandwidth. The article provides construction tips and performance measurements for common loop dimensions.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/loop.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "SunshineStream/Sunshine",
+          "url": "https://github.com/SunshineStream/Sunshine",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 43457,
+          "score": 3.0,
+          "id": "bb4bafbe9a495f87b2ed33db4dcb801558f1a50d",
+          "summary": "SunshineStream is a C++ self‑hosted game‑streaming server compatible with Moonlight clients.",
+          "detail": "The repository includes source code for encoding video frames and handling input latency. It targets low‑power PCs and can be compiled on Linux, offering an open‑source alternative to proprietary streaming solutions.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://repository-images.githubusercontent.com/438803890/cee99a24-0230-411e-b444-3e261c8b01d3",
+          "related": {}
+        },
+        {
+          "title": "google-labs-code/stitch-skills",
+          "url": "https://github.com/google-labs-code/stitch-skills",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 9528,
+          "score": 3.0,
+          "id": "52adf762d4075bfab29f2cf8673a9747c2f4005f",
+          "summary": "stitch-skills provides a library of Agent Skills for the Stitch MCP server, adhering to the Agent Skills open standard.",
+          "detail": "Skills are pre‑built modules that enable coding agents like Antigravity, Gemini CLI, Claude Code, and Cursor to perform tasks such as file manipulation and API calls. The library is written in Python and designed for easy extension.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/6fea680fe8d364e46b80f0f5ecd10ee6e8eb9f1ede2fd03fb51208b141783ad2/google-labs-code/stitch-skills",
+          "related": {}
+        },
+        {
+          "title": "ManimCommunity/manim",
+          "url": "https://github.com/ManimCommunity/manim",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 42601,
+          "score": 2.5,
+          "id": "6b2f527da8ea645756b3f8321c46e6d8abf18d69",
+          "summary": "ManimCommunity/manim is a community-maintained Python library for generating mathematical animations.",
+          "detail": "The project continues the original Manim framework, adding community contributions and updated documentation. It supports vector graphics, LaTeX rendering, and integrates with Jupyter notebooks. The library is open source under the MIT license and is frequently updated on GitHub.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/ad74b4fd5044e7cfdfea630bf203d79173a6866b2bc37d248565308bb047600b/ManimCommunity/manim",
+          "related": {}
+        },
+        {
+          "title": "huytieu/COG-second-brain",
+          "url": "https://github.com/huytieu/COG-second-brain",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 1485,
+          "score": 2.5,
+          "id": "d3070f095c4ac5facaacc0bdf52fb58390b3293b",
+          "summary": "COG-second-brain is a self‑evolving personal knowledge system offering 35 AI skills, 10 autonomous agents, and a built‑in CRM.",
+          "detail": "It uses a V‑model verification lifecycle to prevent agents from grading their own output, improving reliability. The system integrates with Claude Code, Cursor, Kiro, Gemini CLI, and Codex, enabling code generation and UI design assistance. Designed for marketing and product teams, it includes anti‑slop design patterns.",
+          "key_points": [
+            "35 AI skills",
+            "10 agents"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/9e80184137be1c309720cb11020261da566d26edda9e8a5b2ef0e480edbdfdcb/huytieu/COG-second-brain",
+          "related": {}
+        },
+        {
+          "title": "Canner/WrenAI",
+          "url": "https://github.com/Canner/WrenAI",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 18295,
+          "score": 2.0,
+          "id": "7cc42753ef1830037ca506255e9885149490a0dc",
+          "summary": "WrenAI provides GenBI, an open‑source text‑to‑SQL layer that creates trusted dashboards from natural‑language queries across 20+ data sources.",
+          "detail": "Supported backends include BigQuery, Snowflake, PostgreSQL, ClickHouse, Amazon Redshift, and Databricks. The system adds governance by exposing the generated SQL for review, reducing hallucination risk. It aims to simplify business intelligence for developers and data analysts without proprietary SaaS.",
+          "key_points": [
+            "20+ data sources"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/9d8d57559e744e33ff2f8f48731700ab7a67234bbe1774f37ccecb8c049edd96/Canner/WrenAI",
+          "related": {}
+        },
+        {
+          "title": "PrefectHQ/fastmcp",
+          "url": "https://github.com/PrefectHQ/fastmcp",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 28568,
+          "score": 2.0,
+          "id": "cb8da5cee1d5fae25683ee857e6e0bb09967046c",
+          "summary": "fastmcp is a Pythonic library for quickly building MCP (Message Control Protocol) servers and clients.",
+          "detail": "The package offers high‑performance asynchronous I/O and a concise API for defining message schemas. It includes utilities for connection management, serialization, and testing. The project targets developers needing lightweight, scalable inter‑process communication in Python.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/0fc3ec9e8f3f58edbd34652a9257100ac166d52f368a4763c9a2b40eca978f57/PrefectHQ/fastmcp",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
