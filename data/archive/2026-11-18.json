@@ -1,0 +1,757 @@
+{
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T10:30:31+00:00",
+  "stats": {
+    "fetched": 215,
+    "new_after_dedupe": 162,
+    "published": 28,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 29,
+      "supported": 29,
+      "dropped": 0,
+      "unverifiable": 2,
+      "summaries_reverted": 0,
+      "rate": 1.0
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. CI runners got a turbo boost while a privacy phone hit the shelves.",
+    "stories": [
+      {
+        "kicker": "CI",
+        "headline": "Self‑optimizing CI slashes build times",
+        "body": "**AI‑driven runners cut CI latency:** StarSling runs GitHub Actions on Zen 5 chips, dropping average PR build from 29 min 56 s to 5 min 06 s, a 5.87× speedup.",
+        "why": "Faster feedback means you ship code sooner.",
+        "ids": [
+          "3e72391ba79d2c26701bdfb6e30bac0130d053f2"
+        ]
+      },
+      {
+        "kicker": "Embedded",
+        "headline": "Purism ships RISC‑V privacy phone",
+        "body": "**RISC‑V phone hits market:** Purism unveiled Librem 5 v2, a smartphone built on open‑source RISC‑V silicon, targeting users who want hardware control and privacy.",
+        "why": "Shows a viable open‑hardware mobile platform for developers.",
+        "ids": [
+          "3c581d5bc45a1b01bb4db90ac814cfa574099ef6"
+        ]
+      },
+      {
+        "kicker": "Research",
+        "headline": "Graph superoptimizer boosts NPU performance",
+        "body": "**Superoptimizer lifts transformer speed:** Adapting Mirage to Huawei Ascend 910B3 NPU delivered up to 87.0% faster fused transformer workloads.",
+        "why": "Demonstrates big gains from compiler tricks on specialized hardware.",
+        "ids": [
+          "bed6c19b5746228ab951efc03c0c38b273e0ce4b"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Goal inference**: WoRD uses diffusion to guess agent goals from partial paths.",
+        "id": "dc240e0aee5871d1404f597490a468b13d9892b4"
+      },
+      {
+        "text": "**Impaired driving**: ID‑MAE predicts driver impairment while reconstructing gaze and trajectory.",
+        "id": "50af567d4cdbed4ec50028223025d7a2f4a7079f"
+      },
+      {
+        "text": "**LLM myth**: Community argues not every problem needs a large language model.",
+        "id": "b8930a9a56df63fc87e339b0b09cd1a8f60cf195"
+      },
+      {
+        "text": "**PaperOrchestra**: Multi‑agent tool automates AI paper writing on GitHub.",
+        "id": "14832d8209b1a065a42f45170960b4963ddc015a"
+      },
+      {
+        "text": "**Sales plugin**: ChatGPT adds 30+ tools for prospect research and CRM updates.",
+        "id": "c6c361c53bc4ce2d407e4ebf6ba55c1f510e586f"
+      }
+    ],
+    "number": {
+      "value": "5.87×",
+      "label": "speedup factor for CI builds",
+      "id": "3e72391ba79d2c26701bdfb6e30bac0130d053f2"
+    },
+    "sign_off": "Catch you tomorrow, code wizard.",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "60822431f06b8f490ded560d5c8c4719addfcb38",
+      "title": "Codeforces Round (Div. 1)",
+      "url": "https://codeforces.com/contests/2287",
+      "source": "Codeforces",
+      "starts": "2026-11-21T14:35:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sat 21 Nov 14:35 UTC"
+    },
+    {
+      "id": "94f95405e790ebb27551dc384896cec5feb7e3e3",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2288",
+      "source": "Codeforces",
+      "starts": "2026-11-21T14:35:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sat 21 Nov 14:35 UTC"
+    },
+    {
+      "id": "b0cf30dadb32a34b8ca2aa2411be7de1391e9c5c",
+      "title": "Codeforces Round (Div. 2)",
+      "url": "https://codeforces.com/contests/2289",
+      "source": "Codeforces",
+      "starts": "2026-11-22T09:05:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sun 22 Nov 09:05 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "WoRD: Diffusion-Based Posterior Inference for Online Goal Recognition",
+      "url": "https://arxiv.org/abs/2611.23192v1",
+      "source": "arXiv cs.AI",
+      "section": "ai-ml",
+      "published": "2026-11-17T18:35:53+00:00",
+      "points": null,
+      "score": 7.5,
+      "id": "dc240e0aee5871d1404f597490a468b13d9892b4",
+      "summary": "WoRD infers an agent's goal from partial trajectories by running a warm‑started diffusion denoising chain per candidate and reweighting with a closed‑form log‑likelihood gradient.",
+      "detail": "The method learns a trajectory prior instead of relying on an explicit dynamics model, allowing it to handle continuous motion across settings. It targets ambiguous trajectory prefixes where prior approaches struggle, and integrates the observed partial path directly into the diffusion process.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "Multimodal Masked Diffusion Autoencoder for Modeling Impaired Driving",
+      "url": "https://arxiv.org/abs/2611.23211v1",
+      "source": "arXiv cs.CV",
+      "section": "ai-ml",
+      "published": "2026-11-17T18:50:22+00:00",
+      "points": null,
+      "score": 7.0,
+      "id": "50af567d4cdbed4ec50028223025d7a2f4a7079f",
+      "summary": "ID-MAE is a multimodal masked‑diffusion autoencoder that jointly predicts impairment labels and reconstructs masked gaze and vehicle trajectory, improving impairment inference.",
+      "detail": "The model adds a self‑supervised token‑masking objective to leverage unlabeled driving data, and is evaluated on the DIVERT simulator dataset covering cognitive, visual, and emotional impairments. Results show notable gains over baselines in predicting driver state without requiring large labeled corpora.",
+      "key_points": [
+        "103 hours data",
+        "109 participants",
+        "10 impairment types"
+      ],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
+      "url": "https://news.ycombinator.com/item?id=50536468",
+      "source": "Hacker News",
+      "section": "ai-ml",
+      "published": "2026-11-17T19:01:43+00:00",
+      "points": 81,
+      "score": 6.0,
+      "id": "3e72391ba79d2c26701bdfb6e30bac0130d053f2",
+      "summary": "StarSling provides fast GitHub Actions runners on Zen 5 hardware with AI agents that continuously improve CI speed and cut costs.",
+      "detail": "Each CI job runs in an isolated sandbox on NVMe‑backed Zen 5 machines with unlimited concurrency, allowing many agent‑generated PRs to execute in parallel. The system learns to propose workflow optimizations, exemplified by reducing a month‑old bottleneck workflow dramatically.",
+      "key_points": [
+        "1,800 PRs/month",
+        "29m56s → 5m06s",
+        "5.87× speedup"
+      ],
+      "tag": "Release",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "Learning Stratified Policies for Inference-Time Objectives",
+      "url": "https://arxiv.org/abs/2611.23154v1",
+      "source": "arXiv cs.LG",
+      "section": "ai-ml",
+      "published": "2026-11-17T18:06:12+00:00",
+      "points": null,
+      "score": 6.0,
+      "id": "aeaa43eb806792ed1073860c4dccda6e2f5c920a",
+      "summary": "Stratified policies allocate inference‑time samples across multiple LoRA‑adapted policies, enabling zero approximation error for best‑of‑k objectives in linear settings.",
+      "detail": "A population of k learned policies each contributes one response, optimized for pass@k using separate LoRA adapters on a shared backbone. Theoretical analysis shows the approach can eliminate best‑of‑k error when individual policies have positive error, and experiments confirm gains over single‑policy sampling.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "Custom Firmware for Fortinet FortiGate 60 Firewall/Router",
+      "url": "https://hackaday.com/2026/11/17/custom-firmware-for-fortinet-fortigate-60-firewall-router/",
+      "source": "hackaday",
+      "section": "embedded",
+      "published": "2026-11-17T21:00:26+00:00",
+      "points": null,
+      "score": 4.5,
+      "id": "bb714363e836d4897d841517e2d7e87f1dc9f7b6",
+      "summary": "A custom firmware project revives a discarded Fortinet FortiGate 60 firewall/router for modern use.",
+      "detail": "The firmware adds open‑source networking features and restores functionality to hardware from the early 2000s, demonstrating reuse of legacy security appliances.",
+      "key_points": [
+        "FortiGate 60"
+      ],
+      "tag": "News",
+      "highlight": true,
+      "image": "https://hackaday.com/wp-content/uploads/2026/11/Linux_fbdoom.jpg",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "WoRD: Diffusion-Based Posterior Inference for Online Goal Recognition",
+          "url": "https://arxiv.org/abs/2611.23192v1",
+          "source": "arXiv cs.AI",
+          "section": "ai-ml",
+          "published": "2026-11-17T18:35:53+00:00",
+          "points": null,
+          "score": 7.5,
+          "id": "dc240e0aee5871d1404f597490a468b13d9892b4",
+          "summary": "WoRD infers an agent's goal from partial trajectories by running a warm‑started diffusion denoising chain per candidate and reweighting with a closed‑form log‑likelihood gradient.",
+          "detail": "The method learns a trajectory prior instead of relying on an explicit dynamics model, allowing it to handle continuous motion across settings. It targets ambiguous trajectory prefixes where prior approaches struggle, and integrates the observed partial path directly into the diffusion process.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Multimodal Masked Diffusion Autoencoder for Modeling Impaired Driving",
+          "url": "https://arxiv.org/abs/2611.23211v1",
+          "source": "arXiv cs.CV",
+          "section": "ai-ml",
+          "published": "2026-11-17T18:50:22+00:00",
+          "points": null,
+          "score": 7.0,
+          "id": "50af567d4cdbed4ec50028223025d7a2f4a7079f",
+          "summary": "ID-MAE is a multimodal masked‑diffusion autoencoder that jointly predicts impairment labels and reconstructs masked gaze and vehicle trajectory, improving impairment inference.",
+          "detail": "The model adds a self‑supervised token‑masking objective to leverage unlabeled driving data, and is evaluated on the DIVERT simulator dataset covering cognitive, visual, and emotional impairments. Results show notable gains over baselines in predicting driver state without requiring large labeled corpora.",
+          "key_points": [
+            "103 hours data",
+            "109 participants",
+            "10 impairment types"
+          ],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
+          "url": "https://news.ycombinator.com/item?id=50536468",
+          "source": "Hacker News",
+          "section": "ai-ml",
+          "published": "2026-11-17T19:01:43+00:00",
+          "points": 81,
+          "score": 6.0,
+          "id": "3e72391ba79d2c26701bdfb6e30bac0130d053f2",
+          "summary": "StarSling provides fast GitHub Actions runners on Zen 5 hardware with AI agents that continuously improve CI speed and cut costs.",
+          "detail": "Each CI job runs in an isolated sandbox on NVMe‑backed Zen 5 machines with unlimited concurrency, allowing many agent‑generated PRs to execute in parallel. The system learns to propose workflow optimizations, exemplified by reducing a month‑old bottleneck workflow dramatically.",
+          "key_points": [
+            "1,800 PRs/month",
+            "29m56s → 5m06s",
+            "5.87× speedup"
+          ],
+          "tag": "Release",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Learning Stratified Policies for Inference-Time Objectives",
+          "url": "https://arxiv.org/abs/2611.23154v1",
+          "source": "arXiv cs.LG",
+          "section": "ai-ml",
+          "published": "2026-11-17T18:06:12+00:00",
+          "points": null,
+          "score": 6.0,
+          "id": "aeaa43eb806792ed1073860c4dccda6e2f5c920a",
+          "summary": "Stratified policies allocate inference‑time samples across multiple LoRA‑adapted policies, enabling zero approximation error for best‑of‑k objectives in linear settings.",
+          "detail": "A population of k learned policies each contributes one response, optimized for pass@k using separate LoRA adapters on a shared backbone. Theoretical analysis shows the approach can eliminate best‑of‑k error when individual policies have positive error, and experiments confirm gains over single‑policy sampling.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Not Everything Needs an LLM",
+          "url": "https://newsletter.posthog.com/p/decision-models",
+          "source": "Hacker News",
+          "section": "ai-ml",
+          "published": "2026-11-17T18:16:18+00:00",
+          "points": 159,
+          "score": 4.0,
+          "id": "b8930a9a56df63fc87e339b0b09cd1a8f60cf195",
+          "summary": "Discussion highlights that not every problem requires a large language model solution.",
+          "detail": "The post argues for evaluating simpler or more specialized approaches before defaulting to LLMs, emphasizing considerations like latency, cost, and suitability to the task.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://substackcdn.com/image/fetch/$s_!wD8h!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff406379a-4ff2-4e21-aaac-69cda7d7b37e_1200x630.png",
+          "related": {}
+        },
+        {
+          "title": "Introducing ChatGPT for Sales",
+          "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-17T08:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "c6c361c53bc4ce2d407e4ebf6ba55c1f510e586f",
+          "summary": "OpenAI released a ChatGPT Sales plugin and added over 30 new or expanded partner plugins for prospect research, pitch preparation, CRM updates, and deal progression.",
+          "detail": "The Sales plugin integrates directly into ChatGPT, allowing users to automate common sales workflows. Additional partner plugins broaden the ecosystem, enabling seamless access to external tools and data sources within the chat interface.",
+          "key_points": [
+            "30+ new plugins"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "Broadening access to AI for scientists",
+            "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+            "date": "2026-11-17",
+            "id": "f26f2a4dfd6b9b957c1544d02f570339b8f668d2"
+          }
+        },
+        {
+          "title": "Introducing GPT-6.2 Astra and Sol",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-17T17:45:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "549a77347d5e1e5f25e081258d641a2b8758c868",
+          "summary": "OpenAI released GPT‑6.2 Astra and Sol, offering improved professional output, coding assistance, computer use, and higher efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+          "detail": "The two variants target different usage patterns: Astra focuses on general-purpose tasks while Sol is tuned for code generation and system interaction. Both models aim to reduce token pricing for enterprise customers. They are available immediately via OpenAI's platform.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+          "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-18T00:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "6cab9c8cd38347e314ec19080853721e61b4aabd",
+          "summary": "Le Groupe Figaro partnered with OpenAI to integrate Figaro journalism into ChatGPT via summaries and excerpts linked to original articles.",
+          "detail": "The integration allows ChatGPT users to request concise overviews of Figaro pieces, with clickable links for full reading. This marks one of the first major French newspaper collaborations with the AI service.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+            "url": "https://openai.com/index/lvmh-media-division-partnership",
+            "date": "2026-11-16",
+            "id": "91e58e2ea930c2fabc271a22401b1d1a40419d3b"
+          }
+        },
+        {
+          "title": "Model: harness-hub/Qwen3.8-27B-pi-adapted",
+          "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-11-16T06:52:31.000Z",
+          "points": 248,
+          "score": 1.5,
+          "id": "dc79824f7494a51ac8735e0ebe28b64f6019562e",
+          "summary": "The Hugging Face model harness-hub/Qwen3.8-27B-pi-adapted supports image‑text‑to‑text tasks and has received 248 likes.",
+          "detail": "The model is a fine‑tuned version of Qwen‑3.8‑27B, adapted for multimodal prompting. It is hosted on the Hugging Face hub for easy API access.",
+          "key_points": [
+            "248 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/harness-hub/Qwen3.8-27B-pi-adapted.png",
+          "related": {}
+        },
+        {
+          "title": "Model: maxwell-model/Maxwell-V1-Flash",
+          "url": "https://huggingface.co/maxwell-model/Maxwell-V1-Flash",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-13T07:53:39.000Z",
+          "points": 208,
+          "score": 1.5,
+          "id": "427397f9a75af9e1a0027bbdbf66663f77487b26",
+          "summary": "maxwell-model/Maxwell-V1-Flash is a text‑generation model on Hugging Face with 287 downloads and 208 likes.",
+          "detail": "The model emphasizes fast inference and low memory footprint, suitable for edge deployments. It is openly licensed for commercial use.",
+          "key_points": [
+            "287 downloads",
+            "208 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/maxwell-model/Maxwell-V1-Flash.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "Custom Firmware for Fortinet FortiGate 60 Firewall/Router",
+          "url": "https://hackaday.com/2026/11/17/custom-firmware-for-fortinet-fortigate-60-firewall-router/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-17T21:00:26+00:00",
+          "points": null,
+          "score": 4.5,
+          "id": "bb714363e836d4897d841517e2d7e87f1dc9f7b6",
+          "summary": "A custom firmware project revives a discarded Fortinet FortiGate 60 firewall/router for modern use.",
+          "detail": "The firmware adds open‑source networking features and restores functionality to hardware from the early 2000s, demonstrating reuse of legacy security appliances.",
+          "key_points": [
+            "FortiGate 60"
+          ],
+          "tag": "News",
+          "highlight": true,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/Linux_fbdoom.jpg",
+          "related": {}
+        },
+        {
+          "title": "Purism Launches Librem 5 v2, a RISC-V Phone to Empower People",
+          "url": "https://puri.sm/posts/purism-launches-librem-5-v2-a-risc-v-phone-to-empower-people/",
+          "source": "Hacker News",
+          "section": "embedded",
+          "published": "2026-11-17T18:34:10+00:00",
+          "points": 96,
+          "score": 4.0,
+          "id": "3c581d5bc45a1b01bb4db90ac814cfa574099ef6",
+          "summary": "Purism announced the Librem 5 v2, a RISC‑V based smartphone aimed at user privacy and hardware control.",
+          "detail": "The second‑generation device retains the original Librem 5's open‑source software stack while switching to a RISC‑V processor, promising longer support and better security isolation.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://puri.sm/wp-content/uploads/2026/11/l5v2-absolute-freedom-dark-bg.png",
+          "related": {}
+        },
+        {
+          "title": "Security updates for Tuesday",
+          "url": "https://lwn.net/Articles/1108140/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-17T14:15:33+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "f6b627740508a9d9502bf5cd5bca04f4284115d9",
+          "summary": "AlmaLinux released a batch of security updates covering dozens of packages such as .NET 10.0‑11.0, bind9.18, gcc‑toolset‑16, the kernel, nginx 1.24/1.26, and nodejs 24/26.",
+          "detail": "The update list also includes libraries and tools like glibc, emacs, firefox, and grafana, reflecting a broad effort to patch vulnerabilities across the distribution. Administrators should apply the updates promptly to maintain system integrity.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Linux in a Browser Tab",
+          "url": "https://hackaday.com/2026/11/17/linux-in-a-browser-tab/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-18T06:00:44+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "f5d9a93dea885febe2cdbdded58ba4eec81645ca",
+          "summary": "Hackaday reports that a Linux kernel can now be executed directly inside a web browser tab, eliminating the need for physical media or virtual machines.",
+          "detail": "The approach leverages WebAssembly and modern browser APIs to emulate the kernel environment, offering a lightweight way to experiment with Linux without installation. It demonstrates how browser capabilities have matured to support full OS kernels.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/Screenshot-2026-11-18-113538-1-e1794962722312.png",
+          "related": {}
+        },
+        {
+          "title": "Redict deprecated in favor of Valkey",
+          "url": "https://lwn.net/Articles/1108155/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-17T16:20:44+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "112bf2aab6c8f391e5228ce8d05d65d9d8fc30dc",
+          "summary": "Drew DeVault announced the deprecation of Redict, a Redis fork, and recommends users switch to Valkey, a permissively licensed Redis alternative supported by the Linux Foundation.",
+          "detail": "Redict was created after Redis changed its license in 2024, but Valkey's success and Redis's return to a copyleft license reduced community interest. The migration involves installing Valkey and renaming the configuration file, with no need to revert to Redis.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Three stable kernels for Tuesday",
+          "url": "https://lwn.net/Articles/1108142/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-17T14:25:10+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "93abb801bbea75c6fea2c6e50ea025752a3f6a0f",
+          "summary": "Greg Kroah‑Hartman announced three new stable Linux kernel releases: 7.3.5, 6.18.64, and 6.12.118, each containing numerous important fixes.",
+          "detail": "These kernels continue the regular stable update cycle, providing backported security patches and bug fixes for users of the respective series. Upgrading is recommended for systems that rely on long‑term support kernels.",
+          "key_points": [
+            "7.3.5",
+            "6.18.64",
+            "6.12.118"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "Two stable kernels for Friday",
+            "url": "https://lwn.net/Articles/1105899/",
+            "date": "2026-11-07",
+            "id": "b770729e708d70991016e9469a0ef2c89fc74272"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cs-research",
+      "title": "CS research",
+      "tier": 4,
+      "items": [
+        {
+          "title": "A Unifying Metatheorem on Weak-Memory Robustness",
+          "url": "https://arxiv.org/abs/2611.22663v1",
+          "source": "arXiv cs.PL",
+          "section": "cs-research",
+          "published": "2026-11-17T12:20:33+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "29d40743c229c2f0df06a1cbc793f01adff1bc3b",
+          "summary": "The paper proves that robustness checking for any prefix‑closed memory model definable in Kleene Algebra with Tests lies in PSPACE, unifying prior results for models like TSO and PSO.",
+          "detail": "By framing memory models within KAT, the authors avoid separate proofs for each model and provide a single algorithmic framework. This advances theoretical understanding of weak‑memory verification and may simplify tool development.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "How well does graph superoptimization transfer? Adapting tensor-graph superoptimizer to a Triton-based NPU",
+          "url": "https://arxiv.org/abs/2611.22844v1",
+          "source": "arXiv cs.PF",
+          "section": "cs-research",
+          "published": "2026-11-17T14:25:11+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "bed6c19b5746228ab951efc03c0c38b273e0ce4b",
+          "summary": "Adapting the Mirage graph‑level superoptimizer to Huawei's Ascend 910B3 NPU achieved up to 87.0% performance improvement on fused transformer workloads.",
+          "detail": "The study shows that graph‑level optimizations can transfer across architectures, though gains vary with tensor shapes and workload structure. It highlights the need for target‑specific partitioning and resource modeling to avoid regressions on other configurations.",
+          "key_points": [
+            "87.0% speedup"
+          ],
+          "tag": "Analysis",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Statically Typed Purely Functional Definitional Interpreters for {\\it Essentials of Programming Languages}",
+          "url": "https://arxiv.org/abs/2611.22748v1",
+          "source": "arXiv cs.PL",
+          "section": "cs-research",
+          "published": "2026-11-17T13:16:39+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "29c3fb1414eb1235e6e539ad465a66c606a7d311",
+          "summary": "Reimplemented the Essentials of Programming Languages interpreters in Haskell, exposing semantic components explicitly across 15 interpreters and 6 type checkers.",
+          "detail": "The Haskell version preserves all original object languages, examples, and tests while using algebraic data types and explicit evaluator signatures. This makes the impact of language extensions visible in the interpreter structure. The work serves as a pedagogical resource for teaching semantics with a statically typed, purely functional metalanguage.",
+          "key_points": [
+            "15 interpreters",
+            "6 type checkers"
+          ],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "XM-Sparse: High-Throughput Sparse-Attention LLM Serving over Scale-up Memory Pools",
+          "url": "https://arxiv.org/abs/2611.22280v1",
+          "source": "arXiv cs.DC",
+          "section": "cs-research",
+          "published": "2026-11-17T06:32:15+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "88fac2ed3a14a19bed4431393965bdcaad139def",
+          "summary": "XM-Sparse offloads sparse‑attention state to scale‑up memory pools but shows decode throughput remains limited by GPU HBM capacity.",
+          "detail": "The system analyses KV cache and K‑index patterns, finding that hot buffers and the fully resident indexer occupy significant HBM. By leveraging emerging scale‑up memory like X‑Mem, XM‑Sparse reduces PCIe bandwidth pressure, yet HBM remains the bottleneck for concurrency. The paper proposes architectural changes to mitigate this limitation.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Errpedia: Is Your Exact $k$-NN Vector Search Really Exact?",
+          "url": "https://arxiv.org/abs/2611.22474v1",
+          "source": "arXiv cs.DB",
+          "section": "cs-research",
+          "published": "2026-11-17T09:33:17+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "1ef2dd942fb2b48eb6cc15a896b5fea7394b09fc",
+          "summary": "Errpedia dataset of 1,616 queries across 21 error categories shows every one of 20 exact k‑NN configurations returns at least one mathematically incorrect top‑10 result.",
+          "detail": "Errpedia provides ground truth using exact rational arithmetic, exposing floating‑point rounding and overflow bugs that are invisible in typical testing. The evaluation covers popular vector libraries and database systems, highlighting the need for rigorous correctness checks in exact search pipelines.",
+          "key_points": [
+            "1,616 queries",
+            "21 error categories",
+            "20 configurations"
+          ],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "MoL-SQL: A Controlled Benchmark for Mixture-of-Language Text-to-SQL",
+          "url": "https://arxiv.org/abs/2611.22333v1",
+          "source": "arXiv cs.DB",
+          "section": "cs-research",
+          "published": "2026-11-17T07:32:31+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "14295cc0d148e21cf7f4cd28c227485951c2526c",
+          "summary": "MoL‑SQL benchmark creates mixture‑of‑language Text‑to‑SQL tasks by independently switching question, schema, and value languages across five migrated benchmarks.",
+          "detail": "Each task keeps the underlying database and constraints fixed while varying language components, enabling fine‑grained analysis of cross‑lingual entity mapping difficulty. The benchmark grades entity mappings into four difficulty levels, helping isolate sources of accuracy loss beyond translation errors.",
+          "key_points": [
+            "5 benchmarks"
+          ],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "google-research/paper-orchestra",
+          "url": "https://github.com/google-research/paper-orchestra",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 3564,
+          "score": 2.5,
+          "id": "14832d8209b1a065a42f45170960b4963ddc015a",
+          "summary": "PaperOrchestra is a multi‑agent framework that automates AI research paper writing.",
+          "detail": "The open‑source project coordinates several AI agents to generate sections, citations, and revisions, aiming to streamline the drafting process. It integrates with common language models and can be extended with custom tooling.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/59009605392e51a6600cb66883931f0f2fd6400ad12e95cdd24da1c8ec957a90/google-research/paper-orchestra",
+          "related": {}
+        },
+        {
+          "title": "jlcodes99/cockpit-tools",
+          "url": "https://github.com/jlcodes99/cockpit-tools",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 20103,
+          "score": 2.5,
+          "id": "c35dbcc419801bfa76fa1948c6e8219fcd86053c",
+          "summary": "cockpit-tools is a Rust AI IDE account manager supporting multiple services with multi‑account switching, quota monitoring, and auto‑wake.",
+          "detail": "The tool unifies authentication for services like Antigravity, Codex, GitHub Copilot, and Gemini‑cli, offering a command‑line interface to monitor usage limits and automatically wake sleeping instances. It targets developers who juggle several AI assistants in their workflow.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/9e8ed2e134b116325d94e85fc8724c5c8fcf40829fafb51f3ba120d910a4a1f0/jlcodes99/cockpit-tools",
+          "related": {}
+        },
+        {
+          "title": "usestrix/strix",
+          "url": "https://github.com/usestrix/strix",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 76410,
+          "score": 2.5,
+          "id": "9d0f79dbc94561efbd2eb9f3f93268f10295bd1c",
+          "summary": "Open-source AI penetration testing tool that scans applications for vulnerabilities and suggests fixes.",
+          "detail": "The project provides a command-line interface and integrates with common AI models to automate security testing. It aims to lower the barrier for developers to incorporate AI-driven security checks into their CI pipelines.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/8889ad8b71f6f23918975b073c39ba94b7eecee8e0aa625284e2349cc74b3202/usestrix/strix",
+          "related": {}
+        },
+        {
+          "title": "3441293738/creatorhub",
+          "url": "https://github.com/3441293738/creatorhub",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 3656,
+          "score": 2.0,
+          "id": "b516f63f5f161c3d567ea83c02a1b2639f2df426",
+          "summary": "Multi‑platform content monitoring and scraping web panel for TikTok, Douyin, Xiaohongshu, Kuaishou, and Video Number.",
+          "detail": "The Chinese‑language tool aggregates posts, comments, and media across the listed services, offering batch download and re‑posting features. It is designed for users who need centralized oversight of short‑form video content across markets.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/3dc7031d19e9ed5437761dbae8746d364ac999f1ca4dcdc0baeef663f345febc/3441293738/creatorhub",
+          "related": {}
+        },
+        {
+          "title": "CleverRaven/Cataclysm-DDA",
+          "url": "https://github.com/CleverRaven/Cataclysm-DDA",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 13545,
+          "score": 2.0,
+          "id": "ee209f646c1da04b57cc0b8c7508042915582c7b",
+          "summary": "Cataclysm‑DDA is a turn‑based survival game set in a post‑apocalyptic world.",
+          "detail": "The open‑source C++ project continues to receive community contributions, expanding its crafting, combat, and world‑generation systems. It serves as both a playable roguelike and a platform for modders to experiment with complex simulation mechanics.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/6cedd7a42c7fe71c9bd1058750ec9f2d75b2ae71a207e979f6e1c3eb3c1a3ed6/CleverRaven/Cataclysm-DDA",
+          "related": {}
+        },
+        {
+          "title": "ComposioHQ/awesome-claude-skills",
+          "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 79771,
+          "score": 2.0,
+          "id": "6b401487edf87a35ce285a9ef975dcbc9dc63f67",
+          "summary": "Curated list of Claude AI skills, resources, and tools for building custom Claude workflows.",
+          "detail": "The repository aggregates community‑contributed skill definitions, example prompts, and integration snippets for Claude, helping developers quickly prototype AI assistants. It also links to tutorials and best‑practice guides for extending Claude's capabilities.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/b63912053a4f4bff537406697a0d57ed7dde3f3436e25fede6cfe6775668245f/ComposioHQ/awesome-claude-skills",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
