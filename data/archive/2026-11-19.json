@@ -1,0 +1,735 @@
+{
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T10:37:37+00:00",
+  "stats": {
+    "fetched": 231,
+    "new_after_dedupe": 183,
+    "published": 28,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 11,
+      "supported": 9,
+      "dropped": 1,
+      "unverifiable": 4,
+      "summaries_reverted": 1,
+      "rate": 0.8182
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. Your overnight feed includes a meta‑shaper that refuses work before it’s ready, and a bug that lets strangers into your web server.",
+    "stories": [
+      {
+        "kicker": "Agentic",
+        "headline": "Requirement‑centered loops curb narrow patches",
+        "body": "**Loop that listens to your bugs:** AHE‑Beta adds a feedback loop where users raise issues, a team edits the agent harness, and changes are selected against explicit requirements. It aims to stop tweaks that only pass a single benchmark.",
+        "why": "Engineers get a systematic way to evolve agents without overfitting to test suites.",
+        "ids": [
+          "b034d9ec96a209c13091aef36b9b2eeab60c46f9"
+        ]
+      },
+      {
+        "kicker": "LLM Ops",
+        "headline": "Meta shaper respects shifting inference capacity",
+        "body": "**Fail‑fast signals steer traffic:** Cap‑and‑Track probes current LLM fleet capacity with quick refusals, then routes requests only while capacity exists, skipping length predictions. It keeps throughput stable as the backend scales up or down.",
+        "why": "Your inference pipelines stay responsive even when the model farm fluctuates.",
+        "ids": [
+          "9cf28fb2e9d31146e8190328651943b75ce3923f"
+        ]
+      },
+      {
+        "kicker": "Embedded",
+        "headline": "Five critical NGINX bugs expose unauthenticated RCE",
+        "body": "**HTTP/2 opens a backdoor:** Researchers found five critical flaws in NGINX, one letting an attacker execute code remotely when HTTP/2 is enabled without authentication. Another bug can elevate privileges via a kernel issue.",
+        "why": "Patch your servers now or risk full compromise of any exposed service.",
+        "ids": [
+          "419373c3eee511e84f4a5b9a716cda30a2b78b7c"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Consensus:** DispersedBFT removes primary bottleneck with backup replication.",
+        "id": "721a46d2c0033626f5e7c0f1a321a88df09e1e36"
+      },
+      {
+        "text": "**Reverse‑engineer:** LLMs can suggest de‑obfuscation strategies.",
+        "id": "ba05f6db61a4ecf75620df384931597ba20e6b8e"
+      },
+      {
+        "text": "**IPO:** Anthropic files pricing for its public offering.",
+        "id": "25c96fa5a216b598c655d15d6ce759d17aca4980"
+      },
+      {
+        "text": "**Updates:** Linux distros push security patches across dozens of packages.",
+        "id": "1ac032b9faa937fff6661d1cb3ce4b0d367b8eea"
+      },
+      {
+        "text": "**CLI tool:** SaladDay’s cc‑switch‑cli bundles Claude, Codex, Gemini commands.",
+        "id": "6a103728d551a8d578a48aeb73b09ec8a03f5a65"
+      }
+    ],
+    "number": {
+      "value": "500k",
+      "label": "Occurrences of new NVIDIA SASS control field in cuBLAS/cuDNN",
+      "id": "992507e21138e18171a43927939f623df9d86f22"
+    },
+    "sign_off": "Stay sharp, and happy debugging",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "60822431f06b8f490ded560d5c8c4719addfcb38",
+      "title": "Codeforces Round 1136 (Div. 1)",
+      "url": "https://codeforces.com/contests/2287",
+      "source": "Codeforces",
+      "starts": "2026-11-21T14:35:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sat 21 Nov 14:35 UTC"
+    },
+    {
+      "id": "94f95405e790ebb27551dc384896cec5feb7e3e3",
+      "title": "Codeforces Round 1136 (Div. 2)",
+      "url": "https://codeforces.com/contests/2288",
+      "source": "Codeforces",
+      "starts": "2026-11-21T14:35:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sat 21 Nov 14:35 UTC"
+    },
+    {
+      "id": "b0cf30dadb32a34b8ca2aa2411be7de1391e9c5c",
+      "title": "Codeforces Round 1137 (Div. 2)",
+      "url": "https://codeforces.com/contests/2289",
+      "source": "Codeforces",
+      "starts": "2026-11-22T09:05:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sun 22 Nov 09:05 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
+      "url": "https://arxiv.org/abs/2611.24924v1",
+      "source": "arXiv cs.SE",
+      "section": "ai-ml",
+      "published": "2026-11-18T18:52:13+00:00",
+      "points": null,
+      "score": 6.5,
+      "id": "b034d9ec96a209c13091aef36b9b2eeab60c46f9",
+      "summary": "Agentic Harness Engineering Beta (AHE-Beta) introduces a requirement‑centered loop that lets users raise issues, applies team‑based modifications, and selects changes based on those requirements, aiming to avoid narrow, benchmark‑specific patches.",
+      "detail": "The loop operates in three stages: user‑driven evaluation, team‑based modification, and requirement‑driven selection. It mirrors real‑world engineering practices by focusing on implicit and explicit requirements rather than a single evolution agent. This approach seeks more generalizable harness updates and reduces overfitting to specific benchmarks.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "Cap-and-Track: Optimizing LLM Inference Request Dispatch Across Shifting Capacity",
+      "url": "https://arxiv.org/abs/2611.24891v1",
+      "source": "arXiv cs.LG",
+      "section": "ai-ml",
+      "published": "2026-11-18T18:34:10+00:00",
+      "points": null,
+      "score": 6.5,
+      "id": "9cf28fb2e9d31146e8190328651943b75ce3923f",
+      "summary": "Cap-and-Track is a Meta shaper that uses fail‑fast refusal signals to dynamically probe and respect current LLM inference capacity without predicting output length, improving dispatch under shifting fleet sizes.",
+      "detail": "The system places refusals in a durable priority queue and uses them to adjust admission ceilings in real time. It operates asynchronously across provider capacity and internal GPUs, handling both post and live‑video workloads. An A/B test showed per‑replica Cap‑plus‑Track reduced wait times compared to static rates.",
+      "key_points": [],
+      "tag": "Release",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "Auditing black-box clinical prediction models with a large language model through queries alone: a blinded test with planted flaws",
+      "url": "https://arxiv.org/abs/2611.24877v1",
+      "source": "arXiv cs.LG",
+      "section": "ai-ml",
+      "published": "2026-11-18T18:24:54+00:00",
+      "points": null,
+      "score": 6.0,
+      "id": "8a51f2d7c2e67fc06f6ca8ac0ee7accec1b5bc70",
+      "summary": "Large language models (LLMs) are used to explain clinical prediction models, on the promise that they can say what a model computes, find its faults and even reveal new knowledge in it. We tested the three promises where…",
+      "detail": "The audit covered four model types (logistic regression, EBM, gradient‑boosted trees, neural network) for two stroke outcomes, each with a hidden flaw. GPT‑6 performed three blind audits per model via a tool that returned only predictions. Judging rules were pre‑committed and applied programmatically, allowing objective assessment of the LLM's explanatory capability.",
+      "key_points": [
+        "128 terms median"
+      ],
+      "tag": "Analysis",
+      "highlight": true,
+      "image": "",
+      "related": {
+        "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
+        "url": "https://arxiv.org/abs/2611.14419v1",
+        "date": "2026-11-11",
+        "id": "872cf8e087270b8e7946f1c5630e25c81710495a"
+      }
+    },
+    {
+      "title": "Dissecting an Unexplored SASS Control-Code Field: Barrier Exemption and Programmable Warp Priority",
+      "url": "https://arxiv.org/abs/2611.24437v1",
+      "source": "arXiv cs.AR",
+      "section": "cs-research",
+      "published": "2026-11-18T13:53:40+00:00",
+      "points": null,
+      "score": 4.5,
+      "id": "992507e21138e18171a43927939f623df9d86f22",
+      "summary": "A newly identified NVIDIA SASS control‑code field appears over 500 000 times in cuBLAS and cuDNN libraries and governs barrier exemption and programmable warp priority.",
+      "detail": "Microbenchmarking across Volta to Blackwell GPUs shows the field lets instructions bypass pending barriers and move warps among START, TILE, and END priority queues. The field is never emitted by nvcc for user code, suggesting it is reserved for vendor‑optimized kernels.",
+      "key_points": [
+        "500000+ occurrences",
+        "Controls barrier exemption",
+        "Sets warp priority levels"
+      ],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "Why your fine-tuning job takes longer than the FLOPs say",
+      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "source": "huggingface blog",
+      "section": "ai-ml",
+      "published": "2026-11-18T18:53:43+00:00",
+      "points": null,
+      "score": 4.5,
+      "id": "75623b38e68bd27d92e36a52d6a4cbbd66f1e8a3",
+      "summary": "The Hugging Face blog explains why fine‑tuning jobs often run longer than FLOPs calculations would suggest.",
+      "detail": "The article discusses practical overheads such as data loading, hardware inefficiencies, and optimizer dynamics that add runtime beyond theoretical compute estimates. Understanding these factors helps engineers set realistic expectations and optimize pipelines.",
+      "key_points": [],
+      "tag": "News",
+      "highlight": true,
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/J6DIf4Len_31Tj-CQlQXY.png",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
+          "url": "https://arxiv.org/abs/2611.24924v1",
+          "source": "arXiv cs.SE",
+          "section": "ai-ml",
+          "published": "2026-11-18T18:52:13+00:00",
+          "points": null,
+          "score": 6.5,
+          "id": "b034d9ec96a209c13091aef36b9b2eeab60c46f9",
+          "summary": "Agentic Harness Engineering Beta (AHE-Beta) introduces a requirement‑centered loop that lets users raise issues, applies team‑based modifications, and selects changes based on those requirements, aiming to avoid narrow, benchmark‑specific patches.",
+          "detail": "The loop operates in three stages: user‑driven evaluation, team‑based modification, and requirement‑driven selection. It mirrors real‑world engineering practices by focusing on implicit and explicit requirements rather than a single evolution agent. This approach seeks more generalizable harness updates and reduces overfitting to specific benchmarks.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Cap-and-Track: Optimizing LLM Inference Request Dispatch Across Shifting Capacity",
+          "url": "https://arxiv.org/abs/2611.24891v1",
+          "source": "arXiv cs.LG",
+          "section": "ai-ml",
+          "published": "2026-11-18T18:34:10+00:00",
+          "points": null,
+          "score": 6.5,
+          "id": "9cf28fb2e9d31146e8190328651943b75ce3923f",
+          "summary": "Cap-and-Track is a Meta shaper that uses fail‑fast refusal signals to dynamically probe and respect current LLM inference capacity without predicting output length, improving dispatch under shifting fleet sizes.",
+          "detail": "The system places refusals in a durable priority queue and uses them to adjust admission ceilings in real time. It operates asynchronously across provider capacity and internal GPUs, handling both post and live‑video workloads. An A/B test showed per‑replica Cap‑plus‑Track reduced wait times compared to static rates.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Auditing black-box clinical prediction models with a large language model through queries alone: a blinded test with planted flaws",
+          "url": "https://arxiv.org/abs/2611.24877v1",
+          "source": "arXiv cs.LG",
+          "section": "ai-ml",
+          "published": "2026-11-18T18:24:54+00:00",
+          "points": null,
+          "score": 6.0,
+          "id": "8a51f2d7c2e67fc06f6ca8ac0ee7accec1b5bc70",
+          "summary": "Large language models (LLMs) are used to explain clinical prediction models, on the promise that they can say what a model computes, find its faults and even reveal new knowledge in it. We tested the three promises where…",
+          "detail": "The audit covered four model types (logistic regression, EBM, gradient‑boosted trees, neural network) for two stroke outcomes, each with a hidden flaw. GPT‑6 performed three blind audits per model via a tool that returned only predictions. Judging rules were pre‑committed and applied programmatically, allowing objective assessment of the LLM's explanatory capability.",
+          "key_points": [
+            "128 terms median"
+          ],
+          "tag": "Analysis",
+          "highlight": true,
+          "image": "",
+          "related": {
+            "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
+            "url": "https://arxiv.org/abs/2611.14419v1",
+            "date": "2026-11-11",
+            "id": "872cf8e087270b8e7946f1c5630e25c81710495a"
+          }
+        },
+        {
+          "title": "Why your fine-tuning job takes longer than the FLOPs say",
+          "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+          "source": "huggingface blog",
+          "section": "ai-ml",
+          "published": "2026-11-18T18:53:43+00:00",
+          "points": null,
+          "score": 4.5,
+          "id": "75623b38e68bd27d92e36a52d6a4cbbd66f1e8a3",
+          "summary": "The Hugging Face blog explains why fine‑tuning jobs often run longer than FLOPs calculations would suggest.",
+          "detail": "The article discusses practical overheads such as data loading, hardware inefficiencies, and optimizer dynamics that add runtime beyond theoretical compute estimates. Understanding these factors helps engineers set realistic expectations and optimize pipelines.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": true,
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/J6DIf4Len_31Tj-CQlQXY.png",
+          "related": {}
+        },
+        {
+          "title": "How Meta Uses AI Agents to Scale ML Innovations Across Ads Ranking Models",
+          "url": "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/",
+          "source": "meta ai blog",
+          "section": "ai-ml",
+          "published": "2026-11-18T17:00:00+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "0f9be8abc3972160b7ede4feaa47bfe50c910a5e",
+          "summary": "Meta expands its Ranking Engineer Agent (REA) to automatically propagate architectural and training improvements across a large, diverse fleet of ads ranking models.",
+          "detail": "REA autonomously generates hypotheses, designs experiments, and validates new ML techniques before scaling them. The new propagation system coordinates rollout, ensuring consistent performance gains while handling the heterogeneity of ads models in production.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://engineering.fb.com/wp-content/uploads/2026/11/Meta-Scaling-Techniques-image-2-2.png",
+          "related": {}
+        },
+        {
+          "title": "LLM assisted reverse engineering",
+          "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+          "source": "Hacker News",
+          "section": "ai-ml",
+          "published": "2026-11-18T22:29:13+00:00",
+          "points": 215,
+          "score": 4.0,
+          "id": "ba05f6db61a4ecf75620df384931597ba20e6b8e",
+          "summary": "A Hacker News thread discusses techniques for using large language models to assist reverse engineering of software.",
+          "detail": "The discussion covers practical prompts, tool integrations, and limitations when applying LLMs to understand binary code or reconstruct algorithms, highlighting both promising results and security considerations.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://www.slowchronicle.com/og-default.png",
+          "related": {}
+        },
+        {
+          "title": "Anthropic prices initial public offering",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+          "source": "Anthropic",
+          "section": "ai-ml",
+          "published": null,
+          "points": null,
+          "score": 3.0,
+          "id": "25c96fa5a216b598c655d15d6ce759d17aca4980",
+          "summary": "Anthropic announced the pricing for its initial public offering.",
+          "detail": "The company disclosed the valuation range and share price it expects to set for the IPO, marking a key step toward going public. No further financial details were provided in the brief announcement.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+          "related": {
+            "title": "Anthropic launches roadshow for proposed initial public offering",
+            "url": "https://www.anthropic.com/news/roadshow-launch",
+            "date": "2026-11-11",
+            "id": "26b496ffaa34d81812a4794f89edcd64731ef3db"
+          }
+        },
+        {
+          "title": "Design Once, Deploy at Scale: Building a Template-Driven ML Ecosystem",
+          "url": "https://engineering.fb.com/2026/11/18/ml-applications/design-once-deploy-at-scale-template-driven-ml-ecosystem/",
+          "source": "meta ai blog",
+          "section": "ai-ml",
+          "published": "2026-11-18T16:59:38+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "53f341ad0b87779167373aea78f9f9612f2c4cf7",
+          "summary": "Meta released a template‑driven framework to standardize design and deployment of production ML models at scale.",
+          "detail": "The approach aims to reduce engineering bottlenecks by providing reusable templates for model architecture, training pipelines, and serving infrastructure. It is intended to improve reliability across a fragmented model ecosystem and accelerate rollout of new models.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://engineering.fb.com/wp-content/uploads/2026/11/Meta-Standard-Model-Templates-SMT.png",
+          "related": {}
+        },
+        {
+          "title": "Genie 4 is now available",
+          "url": "https://deepmind.google/blog/genie-4-is-now-available/",
+          "source": "deepmind blog",
+          "section": "ai-ml",
+          "published": "2026-11-18T18:13:42+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "50e3ea47cbae988d3477f301b521889b55c9580b",
+          "summary": "DeepMind announced that Genie 4 is now publicly available.",
+          "detail": "Genie 4 is the latest iteration of DeepMind's AI system, offering improved capabilities over prior versions. The release includes access through DeepMind's API and documentation for developers.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_ProjectGenie_Thumbnail_v02.width-1300.png",
+          "related": {}
+        },
+        {
+          "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+          "url": "https://openai.com/business/customer-stories/sumitomo-life",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-18T08:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "b527b6f0ddceafec7084d672744f5ae005b63c0e",
+          "summary": "Sumitomo Life adopted ChatGPT Enterprise for research, proposal drafting, and code generation in investment analysis.",
+          "detail": "Executive‑level early use helped drive broader team adoption within the insurer. The use cases span market research, automated document creation, and generating prototype code for financial models.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "NGINX2Root: Remote Code Execution vulnerabilities in nginx",
+          "url": "https://lwn.net/Articles/1108362/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-18T16:13:34+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "419373c3eee511e84f4a5b9a716cda30a2b78b7c",
+          "summary": "Five critical vulnerabilities were found in NGINX, including an unauthenticated remote code execution when HTTP/2 is enabled.",
+          "detail": "One flaw allows attackers to execute commands on the host without credentials; another kernel issue in the SCTP subsystem, present since Linux 4.15, can be chained to gain root. No kernel patch is available yet, and the vulnerabilities affect Docker deployments as well.",
+          "key_points": [
+            "Unauthenticated RCE via HTTP/2",
+            "Local privilege escalation kernel bug"
+          ],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Security updates for Wednesday",
+          "url": "https://lwn.net/Articles/1108354/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-18T14:17:35+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "1ac032b9faa937fff6661d1cb3ce4b0d367b8eea",
+          "summary": "Multiple Linux distributions released security updates for a range of packages on Wednesday.",
+          "detail": "Updates cover components such as .NET runtimes, GCC toolchains, Firefox, and the Linux kernel across AlmaLinux, Debian, Fedora, Mageia, Red Hat, and SUSE. The patches address various CVEs and improve system stability.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Handheld Motor Cancels Out Every Twist and Turn",
+          "url": "https://hackaday.com/2026/11/18/handheld-motor-cancels-out-every-twist-and-turn/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-18T19:30:37+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "5b518652fb9fccfd73744ff43354ead41d71b6e4",
+          "summary": "A handheld device uses a motor that actively cancels motion-sensor input, providing real‑time counter‑steering.",
+          "detail": "The article shows the motor and sensor interacting so that any twist or turn detected by the sensor is immediately opposed by the motor, creating a stable platform. It highlights the tactile feedback and potential uses in haptic control or stabilization, but does not provide performance metrics.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/CAN-do-GYRO-0-7-screenshot.png",
+          "related": {}
+        },
+        {
+          "title": "[$] Julia 1.13 brings REPL improvements and more",
+          "url": "https://lwn.net/Articles/1108153/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-18T15:56:18+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "ff0c18822df444913ebe353aa3f4973f988e138f",
+          "summary": "Julia 1.13 was released on September 10, 2026, adding REPL enhancements, a GUI installer, and various performance tweaks.",
+          "detail": "The update follows the 1.12 release reviewed a year earlier and focuses on developer ergonomics, such as a smoother REPL experience and a graphical installer. Performance improvements target high‑performance numerical workloads, reinforcing Julia's appeal to scientists and mathematicians.",
+          "key_points": [
+            "Version 1.13",
+            "Release date Sep 10 2026"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "[$] LWN.net Weekly Edition for November 19, 2026",
+          "url": "https://lwn.net/Articles/1107147/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-19T01:05:03+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "710cebdae6978e3cf03579fb5b69ab35eeeb8423",
+          "summary": "The November 19, 2026 LWN weekly edition covers the upcoming C++26 standard, Buildroot updates, faster futexes, Zellij, and Julia language news.",
+          "detail": "In addition to the front‑page topics, the issue includes briefs on Glasswing, an NGINX remote code execution, XRAID, Manjaro's nonprofit status, 30 years of curl, MATE, Redict deprecation, and Rust 1.100, plus announcements about newsletters and conferences.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "How Hough Transforms Enable Computers to See",
+          "url": "https://hackaday.com/2026/11/18/how-hough-transforms-enable-computers-to-see/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-19T03:00:48+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "97a6ae48cc4e53f60ba1a588b0c2babbf3472441",
+          "summary": "An article explains how Hough transforms allow computers to detect geometric features in images.",
+          "detail": "The piece outlines the mathematical basis of the transform, its robustness to noise, and typical applications such as line and circle detection. It contrasts the method with modern deep‑learning approaches, noting its interpretability and low computational cost for certain tasks.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/hough_transform_the_synthetic_mind_youtube.jpg",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "cs-research",
+      "title": "CS research",
+      "tier": 4,
+      "items": [
+        {
+          "title": "Dissecting an Unexplored SASS Control-Code Field: Barrier Exemption and Programmable Warp Priority",
+          "url": "https://arxiv.org/abs/2611.24437v1",
+          "source": "arXiv cs.AR",
+          "section": "cs-research",
+          "published": "2026-11-18T13:53:40+00:00",
+          "points": null,
+          "score": 4.5,
+          "id": "992507e21138e18171a43927939f623df9d86f22",
+          "summary": "A newly identified NVIDIA SASS control‑code field appears over 500 000 times in cuBLAS and cuDNN libraries and governs barrier exemption and programmable warp priority.",
+          "detail": "Microbenchmarking across Volta to Blackwell GPUs shows the field lets instructions bypass pending barriers and move warps among START, TILE, and END priority queues. The field is never emitted by nvcc for user code, suggesting it is reserved for vendor‑optimized kernels.",
+          "key_points": [
+            "500000+ occurrences",
+            "Controls barrier exemption",
+            "Sets warp priority levels"
+          ],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "DispersedBFT: Bottleneck-Free Primary-Backup Consensus using Dispersed Replication",
+          "url": "https://arxiv.org/abs/2611.24833v1",
+          "source": "arXiv cs.DB",
+          "section": "cs-research",
+          "published": "2026-11-18T18:01:37+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "721a46d2c0033626f5e7c0f1a321a88df09e1e36",
+          "summary": "DispersedBFT proposes a PBFT‑like consensus protocol that removes the primary bottleneck by distributing replication work to backups.",
+          "detail": "The design uses information dispersal, MACs, and Merkle proofs to keep CPU overhead low while achieving higher throughput than traditional primary‑backup PBFT. Several variants are described, targeting different trade‑offs between security and performance.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "A Principled Approach to Concurrency, Nondeterminism, and Asynchrony in Choreographies",
+          "url": "https://arxiv.org/abs/2611.24649v1",
+          "source": "arXiv cs.PL",
+          "section": "cs-research",
+          "published": "2026-11-18T15:52:18+00:00",
+          "points": null,
+          "score": 3.5,
+          "id": "e94419b86b0556cd6af6e0c328607eb8a2b289d3",
+          "summary": "Nyarlathotep is the first asynchronous nondeterministic choreographic programming framework, supporting general branching, out-of-order execution, and parameterised recursive procedures with proven sound and complete endpoint projection.",
+          "detail": "The framework defines operational semantics for both choreographies and their network implementations using labelled transition systems, extending prior CP models that lacked combined asynchrony and nondeterminism. It enables independent entry into recursive procedures, broadening expressive power for distributed system design.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Harvesting Expert-Parallel Bubbles for Fine-Tuning",
+          "url": "https://arxiv.org/abs/2611.24496v1",
+          "source": "arXiv cs.OS",
+          "section": "cs-research",
+          "published": "2026-11-18T14:24:23+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "3ca87c5cace62b1e7869bb0ae7af44eb271ab580",
+          "summary": "BubbleTea is a colocation system that fills expert-parallel bubbles with fine‑tuning work, addressing 8–13% idle time in MoE LLM prefill layers.",
+          "detail": "Unlike prior colocation approaches that schedule per‑GPU once per forward pass, BubbleTea predicts bubble availability per GPU at each layer based on token routing, allowing fine‑grained utilization of otherwise idle capacity during inference.",
+          "key_points": [
+            "8-13% prefill bubble time"
+          ],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "eFAIR: Fair LLM Serving under Hourly Electricity Commitments",
+          "url": "https://arxiv.org/abs/2611.24119v1",
+          "source": "arXiv cs.DC",
+          "section": "cs-research",
+          "published": "2026-11-18T09:36:28+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "02ef0bed93c8d475189cf2f524dfb59d6d9a0b68",
+          "summary": "eFAIR formulates fair LLM serving as a leximin optimization problem under hourly electricity commitments, prioritizing requests with lowest normalized throughput.",
+          "detail": "Normalized throughput measures each request's output rate relative to its standalone performance and entitlement weight. The approach balances aggregate throughput with fairness, reserving energy for future uncertain demand while improving service for poorly served requests.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Locality-Aware Scheduling for Stream Processing Applications in Serverless Environments",
+          "url": "https://arxiv.org/abs/2611.23879v1",
+          "source": "arXiv cs.DC",
+          "section": "cs-research",
+          "published": "2026-11-18T05:32:28+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "fe0cb843cbabd5a9e2ed49dce0a696d962f40b73",
+          "summary": "A locality‑aware scheduler for stateful serverless stream processing reduces network overhead by routing chained function requests directly to workers that host the required state.",
+          "detail": "The design co‑locates state servers with computation on worker nodes, dramatically lowering access latency. It improves on distributed worker‑level models by ensuring state‑heavy operators are placed where their state resides, enhancing pipeline efficiency.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "SaladDay/cc-switch-cli",
+          "url": "https://github.com/SaladDay/cc-switch-cli",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 5540,
+          "score": 3.5,
+          "id": "6a103728d551a8d578a48aeb73b09ec8a03f5a65",
+          "summary": "SaladDay/cc-switch-cli is a cross‑platform Rust CLI that provides an all‑in‑one assistant for Claude Code, Codex, and Gemini command‑line interfaces.",
+          "detail": "The tool bundles interactions with multiple LLM code assistants into a single executable, simplifying workflow for developers who switch between different AI coding backends from the terminal.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/c4198f1481391f925d76afdff87c76c72f63361b2e08b249762f6a5c60685aa8/SaladDay/cc-switch-cli",
+          "related": {}
+        },
+        {
+          "title": "HKUDS/CLI-Anything",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 60161,
+          "score": 3.0,
+          "id": "6096cc3a83ecce402b3936c5c56c1a09bfae4930",
+          "summary": "HKUDS/CLI-Anything is a GitHub‑trending project that aims to make all software agent‑native via a unified CLI hub.",
+          "detail": "The project provides a central command‑line interface that can wrap and control various software agents, promoting a consistent interaction model across disparate tools.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/3c619288132c189527a5209fb28bba3b4b0f07f5b080c8b29ada0eb547304edc/HKUDS/CLI-Anything",
+          "related": {}
+        },
+        {
+          "title": "jquery/jquery",
+          "url": "https://github.com/jquery/jquery",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 60092,
+          "score": 2.5,
+          "id": "2ecf0a57a84a79c7d4d6c425175012c106008a54",
+          "summary": "jQuery is a JavaScript library that simplifies DOM manipulation, event handling, and Ajax interactions.",
+          "detail": "First released in 2006, jQuery remains popular for its concise syntax and cross‑browser compatibility, often used in legacy web projects and quick prototypes.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/4fa50fff1d0ea536825fc93c9ae894046cffb1f5c04bb55f29f5ee84bc22ccc9/jquery/jquery",
+          "related": {}
+        },
+        {
+          "title": "solidjs/solid",
+          "url": "https://github.com/solidjs/solid",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 36741,
+          "score": 2.5,
+          "id": "0edb74315f9fc01ebb205f56e31512ec300b1df4",
+          "summary": "Solid is a declarative JavaScript library focused on efficient UI rendering and fine‑grained reactivity.",
+          "detail": "It compiles components to plain JavaScript without a virtual DOM, offering fast updates and low memory overhead, making it suitable for performance‑critical front‑ends.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/130884470/ad63fd00-7ab2-11ea-9c57-6c114391183a",
+          "related": {}
+        },
+        {
+          "title": "Automattic/harper",
+          "url": "https://github.com/Automattic/harper",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 17853,
+          "score": 2.0,
+          "id": "8843f2689c56fc5e51c258a7327fe27429255181",
+          "summary": "Harper is an offline, privacy‑first grammar checker written in Rust.",
+          "detail": "The tool runs locally without sending text to external services, leveraging Rust's speed and safety to provide real‑time suggestions for spelling and grammar.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/c34af1b6a1ac74ec9224beef33ae684a0246c866fa1d74b1d1e2994be56f61e7/Automattic/harper",
+          "related": {}
+        },
+        {
+          "title": "BurntSushi/ripgrep",
+          "url": "https://github.com/BurntSushi/ripgrep",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 70056,
+          "score": 2.0,
+          "id": "687ce576e92bd9bb322688517b7cd87b547befff",
+          "summary": "ripgrep is a command‑line tool that recursively searches files for regex patterns while respecting .gitignore rules.",
+          "detail": "Built in Rust, it combines the speed of grep with git‑aware file exclusion, making it a preferred choice for developers needing fast codebase searches.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/1053ee0e269db7b1349516012db7040f4cc40170d40efa4ab831cd2021e6caaa/BurntSushi/ripgrep",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
