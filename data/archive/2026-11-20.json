@@ -1,0 +1,713 @@
+{
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T10:18:47+00:00",
+  "stats": {
+    "fetched": 222,
+    "new_after_dedupe": 179,
+    "published": 25,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 24,
+      "supported": 24,
+      "dropped": 0,
+      "unverifiable": 3,
+      "summaries_reverted": 0,
+      "rate": 1.0
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. While LLMs are busy reading X‑rays, Google is busy telling phone makers to lock down their phones.",
+    "stories": [
+      {
+        "kicker": "Medical AI",
+        "headline": "LLM cross‑checks X‑ray reports with images",
+        "body": "**Quick sanity check:** Rad‑Linter fine‑tunes a 1.5 B‑parameter model on 1,816 examples and scores 98.5% agreement when matching reports to image‑derived pathology scores.",
+        "why": "It shows language models can audit radiology notes without extra data pipelines.",
+        "ids": [
+          "06c7e74f1fc574d6a01d9d52eedab147128444c4"
+        ]
+      },
+      {
+        "kicker": "LLM serving",
+        "headline": "Hybrid LLMs get transparent cache layer",
+        "body": "**Cache‑aware serving:** TideCache runs on CPU‑GPU superchips, automatically juggling heterogeneous caches and streaming layers so GPUs stay busy only when needed.",
+        "why": "Reduces GPU memory pressure, letting you host larger models on the same hardware.",
+        "ids": [
+          "12877b5afe14acde1f02dbf4a1ac73ba5867296b"
+        ]
+      },
+      {
+        "kicker": "Embedded",
+        "headline": "Google pressures OEMs to block GrapheneOS",
+        "body": "**Policy push:** Google is urging device makers to discourage GrapheneOS installs and to stop offering bootloader unlocks, tightening control over custom ROMs.",
+        "why": "Limits developers’ ability to run hardened OSes, affecting security research and custom firmware work.",
+        "ids": [
+          "e64effe108042ab84f5f43987924646d005d989f"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Performance:** OpenAI’s Performance Factory auto‑fixes regressions to keep ChatGPT snappy.",
+        "id": "6687f7be62c34e4af8b14ad1fa0bb36ceef40b28"
+      },
+      {
+        "text": "**Model size:** SmolVLM2‑256M‑Video‑Instruct packs 256 M parameters and already has 45 k downloads.",
+        "id": "da33416f4e99613e8fedd666267ce041e7d14b22"
+      },
+      {
+        "text": "**Security:** Thursday updates hit AlmaLinux, Debian, Fedora, Mageia, Slackware, and SUSE.",
+        "id": "34d422fdb0b0608ef712de5fd10575b3b98b73ad"
+      },
+      {
+        "text": "**Framework:** Tenon unifies PIM compilation across heterogeneous memory‑centric accelerators.",
+        "id": "66037adeb7fc82e1c1c173a29b700354df291fa9"
+      }
+    ],
+    "number": {
+      "value": "98.5%",
+      "label": "pair‑accuracy of Rad‑Linter on X‑ray report matching",
+      "id": "06c7e74f1fc574d6a01d9d52eedab147128444c4"
+    },
+    "sign_off": "Catch you tomorrow, and keep those caches clean.",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "60822431f06b8f490ded560d5c8c4719addfcb38",
+      "title": "Codeforces Round 1136 (Div. 1)",
+      "url": "https://codeforces.com/contests/2287",
+      "source": "Codeforces",
+      "starts": "2026-11-21T14:35:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sat 21 Nov 14:35 UTC"
+    },
+    {
+      "id": "94f95405e790ebb27551dc384896cec5feb7e3e3",
+      "title": "Codeforces Round 1136 (Div. 2)",
+      "url": "https://codeforces.com/contests/2288",
+      "source": "Codeforces",
+      "starts": "2026-11-21T14:35:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sat 21 Nov 14:35 UTC"
+    },
+    {
+      "id": "b0cf30dadb32a34b8ca2aa2411be7de1391e9c5c",
+      "title": "Codeforces Round 1137 (Div. 2)",
+      "url": "https://codeforces.com/contests/2289",
+      "source": "Codeforces",
+      "starts": "2026-11-22T09:05:00+00:00",
+      "detail": "CF contest, 2.0h, starts Sun 22 Nov 09:05 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Multimodal Error Detection in Chest X-ray Reports: A Large Language Model Reading Image Evidence",
+      "url": "https://arxiv.org/abs/2611.26492v1",
+      "source": "arXiv cs.CL",
+      "section": "ai-ml",
+      "published": "2026-11-19T17:46:42+00:00",
+      "points": null,
+      "score": 7.5,
+      "id": "06c7e74f1fc574d6a01d9d52eedab147128444c4",
+      "summary": "Rad-Linter uses a 1.5B-parameter language model fine‑tuned on 1,816 examples to compare chest X‑ray reports with image‑derived pathology scores, achieving 98.5% pair accuracy on a controlled 131‑quad evaluation.",
+      "detail": "The system pairs each report with score vectors from other patients to create consistent and inconsistent pairs, ensuring that any single input yields only 50% chance of correct classification. It outperforms a keyword‑and‑negation rule baseline, which reaches 80.5% accuracy under the same conditions.",
+      "key_points": [
+        "1.5B parameters",
+        "1,816 fine‑tune examples",
+        "98.5% pair accuracy"
+      ],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
+      "url": "https://arxiv.org/abs/2611.26619v1",
+      "source": "arXiv cs.DC",
+      "section": "ai-ml",
+      "published": "2026-11-19T18:58:31+00:00",
+      "points": null,
+      "score": 7.5,
+      "id": "12877b5afe14acde1f02dbf4a1ac73ba5867296b",
+      "summary": "TideCache is a serving system for hybrid LLMs on CPU‑GPU superchips that transparently manages heterogeneous caches and streams layer‑wise data to reduce GPU residency.",
+      "detail": "It introduces a Transparent Cache Pool that reallocates physical pages while keeping virtual addresses stable, and a Cache Streamer that prefetches global‑attention prefixes during bounded‑state layer intervals, overlapping transfers with computation. The Request Scheduler decides between resident and streamed cache usage based on workload.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
+      "url": "https://arxiv.org/abs/2611.26450v1",
+      "source": "arXiv cs.AI",
+      "section": "ai-ml",
+      "published": "2026-11-19T17:18:38+00:00",
+      "points": null,
+      "score": 6.5,
+      "id": "5c7e324ff775b32a456bca760700d12eaf73fa1b",
+      "summary": "The authors present a zero‑gradient method that compiles exact arithmetic circuits directly into pretrained LLM weights without any training data, preserving natural‑language ability.",
+      "detail": "The technique leverages Mellin‑GLU quadrature over bias‑free SwiGLU/GeGLU layers to map RMSNorm scaling onto a log‑spaced gate grid, and uses Chebyshev‑based self‑sink attention with SiLU‑antisymmetric shifts to cancel cross‑token scaling. It provides IEEE‑754 error bounds while keeping the model’s original competencies intact.",
+      "key_points": [
+        "0 training examples",
+        ">250× dynamic range"
+      ],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {
+        "title": "Gödel's Incompleteness Theorems in Grounded Arithmetic",
+        "url": "https://arxiv.org/abs/2611.13697v1",
+        "date": "2026-11-11",
+        "id": "0c56130b3180de435f7a3dd3e3f3d099060b8607"
+      }
+    },
+    {
+      "title": "Google is pushing OEMs against GrapheneOS and bootloader unlocking",
+      "url": "https://grapheneos.social/@GrapheneOS/117645038299496084",
+      "source": "Hacker News",
+      "section": "embedded",
+      "published": "2026-11-20T05:21:02+00:00",
+      "points": 372,
+      "score": 4.0,
+      "id": "e64effe108042ab84f5f43987924646d005d989f",
+      "summary": "Google is pressuring OEMs to discourage the use of GrapheneOS and to block bootloader unlocking.",
+      "detail": "The move is being discussed on Hacker News, reflecting concerns that the policy could limit user‑controlled devices and affect the security‑focused Android ecosystem.",
+      "key_points": [],
+      "tag": "News",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "Towards Scale-Up Networking: Challenges and Open Questions",
+      "url": "https://arxiv.org/abs/2611.26156v1",
+      "source": "arXiv cs.NI",
+      "section": "cs-research",
+      "published": "2026-11-19T14:12:24+00:00",
+      "points": null,
+      "score": 4.0,
+      "id": "04166be7021276fc8235210247b5e54685242f5a",
+      "summary": "The rapid growth of AI models and the widespread use of distributed training and inference have made inter-accelerator communication a critical system bottleneck. Scale-up fabrics address this bottleneck by combining hig…",
+      "detail": "The rapid growth of AI models and the widespread use of distributed training and inference have made inter-accelerator communication a critical system bottleneck. Scale-up fabrics address this bottleneck by combining high per-accelerator bandwidth with low and predictable latency over tightly coupled accelerator domains. However, the appropriate topology, protocol mechanisms, communication semantics, and system integration remain actively debated. We analyze the critical-path communication generated by parallelism strategies and derive the resulting requirements for domain scale, per-accelerat…",
+      "key_points": [],
+      "tag": "",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "Multimodal Error Detection in Chest X-ray Reports: A Large Language Model Reading Image Evidence",
+          "url": "https://arxiv.org/abs/2611.26492v1",
+          "source": "arXiv cs.CL",
+          "section": "ai-ml",
+          "published": "2026-11-19T17:46:42+00:00",
+          "points": null,
+          "score": 7.5,
+          "id": "06c7e74f1fc574d6a01d9d52eedab147128444c4",
+          "summary": "Rad-Linter uses a 1.5B-parameter language model fine‑tuned on 1,816 examples to compare chest X‑ray reports with image‑derived pathology scores, achieving 98.5% pair accuracy on a controlled 131‑quad evaluation.",
+          "detail": "The system pairs each report with score vectors from other patients to create consistent and inconsistent pairs, ensuring that any single input yields only 50% chance of correct classification. It outperforms a keyword‑and‑negation rule baseline, which reaches 80.5% accuracy under the same conditions.",
+          "key_points": [
+            "1.5B parameters",
+            "1,816 fine‑tune examples",
+            "98.5% pair accuracy"
+          ],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
+          "url": "https://arxiv.org/abs/2611.26619v1",
+          "source": "arXiv cs.DC",
+          "section": "ai-ml",
+          "published": "2026-11-19T18:58:31+00:00",
+          "points": null,
+          "score": 7.5,
+          "id": "12877b5afe14acde1f02dbf4a1ac73ba5867296b",
+          "summary": "TideCache is a serving system for hybrid LLMs on CPU‑GPU superchips that transparently manages heterogeneous caches and streams layer‑wise data to reduce GPU residency.",
+          "detail": "It introduces a Transparent Cache Pool that reallocates physical pages while keeping virtual addresses stable, and a Cache Streamer that prefetches global‑attention prefixes during bounded‑state layer intervals, overlapping transfers with computation. The Request Scheduler decides between resident and streamed cache usage based on workload.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
+          "url": "https://arxiv.org/abs/2611.26450v1",
+          "source": "arXiv cs.AI",
+          "section": "ai-ml",
+          "published": "2026-11-19T17:18:38+00:00",
+          "points": null,
+          "score": 6.5,
+          "id": "5c7e324ff775b32a456bca760700d12eaf73fa1b",
+          "summary": "The authors present a zero‑gradient method that compiles exact arithmetic circuits directly into pretrained LLM weights without any training data, preserving natural‑language ability.",
+          "detail": "The technique leverages Mellin‑GLU quadrature over bias‑free SwiGLU/GeGLU layers to map RMSNorm scaling onto a log‑spaced gate grid, and uses Chebyshev‑based self‑sink attention with SiLU‑antisymmetric shifts to cancel cross‑token scaling. It provides IEEE‑754 error bounds while keeping the model’s original competencies intact.",
+          "key_points": [
+            "0 training examples",
+            ">250× dynamic range"
+          ],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {
+            "title": "Gödel's Incompleteness Theorems in Grounded Arithmetic",
+            "url": "https://arxiv.org/abs/2611.13697v1",
+            "date": "2026-11-11",
+            "id": "0c56130b3180de435f7a3dd3e3f3d099060b8607"
+          }
+        },
+        {
+          "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+          "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-19T08:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "6687f7be62c34e4af8b14ad1fa0bb36ceef40b28",
+          "summary": "OpenAI’s Performance Factory is a Codex‑driven workflow system that automatically discovers and fixes performance regressions to keep ChatGPT responsive.",
+          "detail": "The factory continuously profiles the service, generates patches for identified bottlenecks, and validates improvements before deployment. By integrating code generation and testing, it reduces manual tuning effort and helps maintain low latency as the model and infrastructure evolve.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "Broadening access to AI for scientists",
+            "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+            "date": "2026-11-17",
+            "id": "f26f2a4dfd6b9b957c1544d02f570339b8f668d2"
+          }
+        },
+        {
+          "title": "Model: HuggingFaceTB/SmolVLM2-256M-Video-Instruct",
+          "url": "https://huggingface.co/HuggingFaceTB/SmolVLM2-256M-Video-Instruct",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2025-02-11T07:06:01.000Z",
+          "points": 286,
+          "score": 1.5,
+          "id": "da33416f4e99613e8fedd666267ce041e7d14b22",
+          "summary": "SmolVLM2‑256M‑Video‑Instruct is a 256‑million‑parameter image‑text‑to‑text model on Hugging Face with over 45k downloads and 286 likes.",
+          "detail": "The model is designed for video instruction tasks, supporting multimodal inputs and generating textual responses. Its popularity reflects community interest in lightweight video‑capable vision‑language models.",
+          "key_points": [
+            "256M parameters",
+            "45,338 downloads",
+            "286 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/HuggingFaceTB/SmolVLM2-256M-Video-Instruct.png",
+          "related": {}
+        },
+        {
+          "title": "Model: apple/FastFrames-L",
+          "url": "https://huggingface.co/apple/FastFrames-L",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-11-16T17:21:04.000Z",
+          "points": 366,
+          "score": 1.5,
+          "id": "6f06a2856d598e84aead7470a16492577b196076",
+          "summary": "apple/FastFrames‑L is a text‑to‑video model on Hugging Face that has received 366 community likes.",
+          "detail": "FastFrames‑L focuses on generating short video clips from textual prompts, leveraging Apple's research on efficient video synthesis. The model is publicly available for experimentation and integration.",
+          "key_points": [
+            "366 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/apple/FastFrames-L.png",
+          "related": {}
+        },
+        {
+          "title": "Model: briaai/RMBG-3.0",
+          "url": "https://huggingface.co/briaai/RMBG-3.0",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-11-10T15:41:35.000Z",
+          "points": 164,
+          "score": 1.5,
+          "id": "fd77c135cb97684ed5ecb37baf2c7a745605b485",
+          "summary": "The briaai/RMBG-3.0 model for image‑segmentation on Hugging Face has been downloaded 103 times and received 164 likes.",
+          "detail": "It provides background‑removal capabilities for images and is listed among trending models, indicating community interest despite modest download numbers.",
+          "key_points": [
+            "103 downloads",
+            "164 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/briaai/RMBG-3.0.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "Google is pushing OEMs against GrapheneOS and bootloader unlocking",
+          "url": "https://grapheneos.social/@GrapheneOS/117645038299496084",
+          "source": "Hacker News",
+          "section": "embedded",
+          "published": "2026-11-20T05:21:02+00:00",
+          "points": 372,
+          "score": 4.0,
+          "id": "e64effe108042ab84f5f43987924646d005d989f",
+          "summary": "Google is pressuring OEMs to discourage the use of GrapheneOS and to block bootloader unlocking.",
+          "detail": "The move is being discussed on Hacker News, reflecting concerns that the policy could limit user‑controlled devices and affect the security‑focused Android ecosystem.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Security updates for Thursday",
+          "url": "https://lwn.net/Articles/1108551/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-19T14:05:42+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "34d422fdb0b0608ef712de5fd10575b3b98b73ad",
+          "summary": "Thursday’s security updates were issued for AlmaLinux, Debian, Fedora, Mageia, Slackware, and SUSE, covering dozens of packages.",
+          "detail": "Updates include components such as nginx, OpenJDK 21/25, Firefox, and the Linux kernel, aiming to patch known vulnerabilities across the major distributions.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "[$] Added indirection allows for larger BPF programs",
+          "url": "https://lwn.net/Articles/1106537/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-19T17:32:42+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "050cab0e1265608ddaae1ec4e8fba3c10f55048e",
+          "summary": "A new indirection feature in the BPF verifier reduces the exponential state‑space growth caused by complex control flow.",
+          "detail": "Patch author Alexei Starovoitov reworks state tracking, improving verification performance for large BPF programs while preserving existing safety guarantees.",
+          "key_points": [],
+          "tag": "Analysis",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Four PHP security releases including fixes for critical vulnerabilities",
+          "url": "https://lwn.net/Articles/1108552/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-19T14:29:04+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "a54d05658c788a831d0f7261156c67458ec70cde",
+          "summary": "PHP released security updates 8.5.13, 8.4.28, 8.3.37, and 8.2.36, fixing critical remote‑code‑execution bugs that require non‑default configurations.",
+          "detail": "The pre‑release announcement on November 18 notes that the critical flaws are exploitable only in uncommon setups, and Linux vendors are expected to push updated packages soon.",
+          "key_points": [
+            "8.5.13",
+            "8.4.28",
+            "8.3.37"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "PHP 8.6.0 released",
+          "url": "https://lwn.net/Articles/1108555/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-19T14:43:09+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "bc6cc3cd87974718096d70ee906be44a5224ad9e",
+          "summary": "PHP 8.6.0 was released, adding a polling API, clamp() function, SortDirection enum, and a Time\\Duration class.",
+          "detail": "The new features aim to simplify asynchronous I/O, numeric clamping, sorting direction handling, and duration manipulation, expanding the language’s standard library.",
+          "key_points": [
+            "8.6.0"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "PostgreSQL 19 released",
+          "url": "https://lwn.net/Articles/1108561/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-19T16:39:16+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "86f1692ab77f6cfc420c75abc6d5252b50ade1d5",
+          "summary": "PostgreSQL 19 has been released, adding a REPACK (CONCURRENTLY) command for non‑disruptive table optimization, a pg_plan_advice extension for plan stability, and various performance improvements.",
+          "detail": "The new REPACK command lets administrators reorganize tables while they remain online, reducing downtime for maintenance. pg_plan_advice provides actionable hints to keep query plans stable across schema changes. The release also includes broader performance tweaks, though the full list is in the official release notes.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "cs-research",
+      "title": "CS research",
+      "tier": 4,
+      "items": [
+        {
+          "title": "Towards Scale-Up Networking: Challenges and Open Questions",
+          "url": "https://arxiv.org/abs/2611.26156v1",
+          "source": "arXiv cs.NI",
+          "section": "cs-research",
+          "published": "2026-11-19T14:12:24+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "04166be7021276fc8235210247b5e54685242f5a",
+          "summary": "The rapid growth of AI models and the widespread use of distributed training and inference have made inter-accelerator communication a critical system bottleneck. Scale-up fabrics address this bottleneck by combining hig…",
+          "detail": "The rapid growth of AI models and the widespread use of distributed training and inference have made inter-accelerator communication a critical system bottleneck. Scale-up fabrics address this bottleneck by combining high per-accelerator bandwidth with low and predictable latency over tightly coupled accelerator domains. However, the appropriate topology, protocol mechanisms, communication semantics, and system integration remain actively debated. We analyze the critical-path communication generated by parallelism strategies and derive the resulting requirements for domain scale, per-accelerat…",
+          "key_points": [],
+          "tag": "",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Tenon: A Unified Programming Framework for Retargetable PIM Compilation",
+          "url": "https://arxiv.org/abs/2611.25636v1",
+          "source": "arXiv cs.PL",
+          "section": "cs-research",
+          "published": "2026-11-19T07:23:03+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "66037adeb7fc82e1c1c173a29b700354df291fa9",
+          "summary": "Processing-in-memory (PIM) is emerging as a building block of heterogeneous systems for memory-bound workloads, and commercial prototypes now span near-bank SIMD engines, bank-level GDDR accelerators, programmable DRAM c…",
+          "detail": "Processing-in-memory (PIM) is emerging as a building block of heterogeneous systems for memory-bound workloads, and commercial prototypes now span near-bank SIMD engines, bank-level GDDR accelerators, programmable DRAM cores, and bit-level in-SRAM processors. Their programming stacks are fragmented: no abstraction or compiler is shared across vendors, and per-device models range from instruction sequences to C-like languages. Data layout further complicates the problem: tight compute-memory integration makes data layout a first-order optimization, yet existing PIM compilers lack a unified way …",
+          "key_points": [],
+          "tag": "",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "How We Built TLX: A Hardware-Native GPU Compiler for Production ML at Scale",
+            "url": "https://engineering.fb.com/2026/11/10/open-source/tlx-a-hardware-native-gpu-compiler-for-production-ml/",
+            "date": "2026-11-11",
+            "id": "e2117a1184bb4bd948590a1b85553e6a8672535b"
+          }
+        },
+        {
+          "title": "You Have Mail: Set-Theoretic Types for Actors",
+          "url": "https://arxiv.org/abs/2611.26563v1",
+          "source": "arXiv cs.PL",
+          "section": "cs-research",
+          "published": "2026-11-19T18:30:14+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "3c43afef9f63feea2e94f02c73bcdda1229d6b6d",
+          "summary": "We present a type system for the processes of Elixir, a dynamic language based on the actor model whose static type system covers only its functional core. Each process is typed by $\\mathtt{pid}(t)$, where the ``interfac…",
+          "detail": "We present a type system for the processes of Elixir, a dynamic language based on the actor model whose static type system covers only its functional core. Each process is typed by $\\mathtt{pid}(t)$, where the ``interface'' $t$ is the type of the messages the process expects in its mailbox: sends are checked against the recipient's interface, and receives rely on the interface of the process that performs them. One of the difficulties of typing Elixir is that mailboxes are implicit: a function shipped in a message may evaluate $\\mathtt{self()}$ and execute receive instructions, and both refer …",
+          "key_points": [],
+          "tag": "",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "Statically Typed Purely Functional Definitional Interpreters for {\\it Essentials of Programming Languages}",
+            "url": "https://arxiv.org/abs/2611.22748v1",
+            "date": "2026-11-18",
+            "id": "29c3fb1414eb1235e6e539ad465a66c606a7d311"
+          }
+        },
+        {
+          "title": "Sightline: Calibrated Data-Flow Summaries for LLM-Integrated Applications",
+          "url": "https://arxiv.org/abs/2611.26221v1",
+          "source": "arXiv cs.PL",
+          "section": "cs-research",
+          "published": "2026-11-19T15:00:25+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "209f641b03f2ac332f55c2da78c69c1f85444248",
+          "summary": "Programs increasingly call large language models (LLMs), filling prompt placeholders with program values and consuming the output. Such a call crosses the boundary between natural language and programming language (NL/PL…",
+          "detail": "Programs increasingly call large language models (LLMs), filling prompt placeholders with program values and consuming the output. Such a call crosses the boundary between natural language and programming language (NL/PL). To follow data across it, an analysis needs a data-flow summary of which placeholders the output uses, but no code describes what the model does. Analyses of these LLM-integrated applications therefore taint every output with every input, creating spurious flows, or ask a second model to label each call, which is costly. We prove, and mechanize in Lean 4, that a placeholder …",
+          "key_points": [],
+          "tag": "",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "Auditing black-box clinical prediction models with a large language model through queries alone: a blinded test with planted flaws",
+            "url": "https://arxiv.org/abs/2611.24877v1",
+            "date": "2026-11-19",
+            "id": "8a51f2d7c2e67fc06f6ca8ac0ee7accec1b5bc70"
+          }
+        },
+        {
+          "title": "Aggron: Aggressive Compression of Agentic KV Caches during Head-of-Line Stalls in the Request Queue",
+          "url": "https://arxiv.org/abs/2611.26435v1",
+          "source": "arXiv cs.DC",
+          "section": "cs-research",
+          "published": "2026-11-19T17:09:37+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "d398bdbe9ae86b92899ca16341d281edd2a1631d",
+          "summary": "LLM agents run long, multi-turn programs whose contexts grow at every step, and serving them is limited by KV cache capacity. To alleviate this limitation, systems use context compression techniques, which typically wait…",
+          "detail": "LLM agents run long, multi-turn programs whose contexts grow at every step, and serving them is limited by KV cache capacity. To alleviate this limitation, systems use context compression techniques, which typically wait until the KV cache crosses a large threshold and then summarize large spans of history at once, either in the background while the agent progresses or on the critical path. These summarizations can be done using the same model running on the same engine, or using the same or a different model running on extra hardware. When running on the same engine, summarization competes wi…",
+          "key_points": [],
+          "tag": "",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "Reducing Batch Makespan for LLM Agent Workloads through Inference-Environment Coordination",
+            "url": "https://arxiv.org/abs/2611.16661v1",
+            "date": "2026-11-13",
+            "id": "b48a6c03398c2d63b5267eb61b8e90fe2a522d5c"
+          }
+        },
+        {
+          "title": "Matching Architecture to Workload: Comparing RISC-V Parallel Accelerators for Energy-Efficient Embedded Computing",
+          "url": "https://arxiv.org/abs/2611.25947v1",
+          "source": "arXiv cs.DC",
+          "section": "cs-research",
+          "published": "2026-11-19T11:34:18+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "8446319a541a963e9f9712cf560c091afaa1f7a0",
+          "summary": "A comparative study of three open-source RISC‑V accelerators—PULP Cluster (scalar multicore), Snitch Cluster (streaming multicore), and Spatz (vector processing)—implemented in the same 12 nm process shows no single model dominates all workload classes.",
+          "detail": "The evaluation uses a common benchmark suite to measure energy efficiency across diverse embedded workloads. Spatz excels on regular, highly vectorizable tasks, while the other two perform better on irregular or scalar‑heavy kernels. The results guide architects in selecting execution models based on workload characteristics.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "awslabs/cli-agent-orchestrator",
+          "url": "https://github.com/awslabs/cli-agent-orchestrator",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 1603,
+          "score": 3.0,
+          "id": "0fa0232fce0d48b0636706fdcd36733a23caf5ff",
+          "summary": "aws‑labs/cli‑agent‑orchestrator is a Python tool that runs multiple AI coding agents like Claude Code, Kiro, and Codex in isolated tmux sessions for coordinated execution.",
+          "detail": "The orchestrator launches each agent in its own tmux pane, allowing parallel interaction and easy switching. It abstracts the underlying CLI differences, enabling users to experiment with several models without manual session management.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/1028432181/84fd0414-9f32-41ea-aa78-3f7fd5fd8993",
+          "related": {}
+        },
+        {
+          "title": "wshobson/agents",
+          "url": "https://github.com/wshobson/agents",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 42717,
+          "score": 3.0,
+          "id": "30905c3403f9ca5b835763620addea9619a728f3",
+          "summary": "wshobson/agents provides a Markdown‑based framework to define plugins, agents, skills, and commands for various AI coding tools, then generates validated adapters for each target.",
+          "detail": "Authors write a single specification in Markdown, and generators produce compatible code for Claude Code, Codex CLI, Cursor, OpenCode, Antigravity CLI, GitHub Copilot, and Pi. Validation and evaluation steps ensure the generated adapters meet each tool's requirements.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/f47266f5a10f81aed0aa6526cd830c13a4a2ed0cf2ff65f967f8b836e9ce1046/wshobson/agents",
+          "related": {}
+        },
+        {
+          "title": "intrinsic-ai/intrinsic-core",
+          "url": "https://github.com/intrinsic-ai/intrinsic-core",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 765,
+          "score": 2.5,
+          "id": "1da2a08d34f3e447a7be0ee12b1bd7894d3488fd",
+          "summary": "intrinsic‑ai/intrinsic‑core offers an open, hardware‑agnostic runtime and SDK for real‑time control of industrial robots, running locally without cloud dependencies.",
+          "detail": "The framework abstracts robot hardware details, providing a unified API for motion planning and sensor integration. Its local execution model reduces latency and improves safety for time‑critical automation tasks.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/b342e8508a4fb3d1f41a4687c070bd335de681265b04bce895ce09895832a8a0/intrinsic-ai/intrinsic-core",
+          "related": {}
+        },
+        {
+          "title": "microsoft/markitdown",
+          "url": "https://github.com/microsoft/markitdown",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 197137,
+          "score": 2.5,
+          "id": "8d319652f14e2c9b8e52876942138d38a8ba7725",
+          "summary": "microsoft/markitdown is a Python utility that converts various file formats and Office documents into Markdown.",
+          "detail": "It supports batch processing and preserves basic formatting such as headings, tables, and lists. The tool simplifies migration of legacy documentation to Markdown‑friendly platforms like GitHub or static site generators.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/f172bbb206b3c28f8fcce60b90212679eceaa4612504ee2a72cccab0ef717125/microsoft/markitdown",
+          "related": {}
+        },
+        {
+          "title": "0xPlaygrounds/rig",
+          "url": "https://github.com/0xPlaygrounds/rig",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 9199,
+          "score": 2.0,
+          "id": "70ed01e3236dd1ccdf8ee1a027a872279242a31c",
+          "summary": "0xPlaygrounds/rig is a Rust library for building modular, scalable LLM applications.",
+          "detail": "The crate provides composable components for prompt management, response handling, and integration with multiple language model providers. Its design emphasizes type safety and performance for production‑grade AI services.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/6722df8a3a5acc4f61c975752d35648d84a0ed89e35403c0cb8774360eae39ff/0xPlaygrounds/rig",
+          "related": {}
+        },
+        {
+          "title": "FlashML-org/FreeVideo",
+          "url": "https://github.com/FlashML-org/FreeVideo",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 3580,
+          "score": 2.0,
+          "id": "124a9c7ca6b2e460a92294aac46b0faf2bfab7cd",
+          "summary": "FreeVideo is an open‑source Python tool that generates videos using the MiniMax H3 model, requiring as little as 8 GB VRAM and 16 GB system RAM.",
+          "detail": "The software automatically selects the optimal acceleration path based on the host hardware, allowing it to run on consumer‑grade machines without specialized GPUs. It is hosted on GitHub and currently trending among Python repositories.",
+          "key_points": [
+            "MiniMax H3",
+            "8 GB VRAM",
+            "16 GB RAM"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/15d1e03c08ab1ae5c4102ba84f730a510ebdbb1305cf22e12f6123b1baee1ba2/FlashML-org/FreeVideo",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
