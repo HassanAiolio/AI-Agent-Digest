@@ -1,0 +1,201 @@
+{
+  "week": "2026-W47",
+  "start": "2026-11-16",
+  "end": "2026-11-22",
+  "title": "Agents, Efficiency, and Multimodal Frontiers",
+  "intro": "This week the AI world leaned into smarter agents and tighter runtimes, while multimodal models kept proving they can read more than just text. Embedded and systems news reminded us hardware still matters.",
+  "themes": [
+    {
+      "headline": "Agentic tooling goes mainstream",
+      "body": "Researchers unveiled new ways to write and evolve agent‑centric software. The Agent‑Native language (de22f307) unifies LLM ops with state, while AHE‑Beta (b034d9ec) adds a requirement‑driven loop to keep agents from over‑fitting benchmarks. DispersedBPT (721a46d2) tackles consensus bottlenecks for distributed agents, and StarSling (3e72391b) uses AI agents to auto‑tune CI pipelines. Together they signal a shift from ad‑hoc prompts to proper engineering practices.",
+      "items": [
+        {
+          "id": "de22f307aa4450d2009b68453415662559df8604",
+          "title": "Agent-Native by Design: A Programming Language for Agentic Applications",
+          "url": "https://arxiv.org/abs/2611.21298v1",
+          "date": "2026-11-17",
+          "source": "arXiv cs.PL",
+          "section": "CS research"
+        },
+        {
+          "id": "b034d9ec96a209c13091aef36b9b2eeab60c46f9",
+          "title": "Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
+          "url": "https://arxiv.org/abs/2611.24924v1",
+          "date": "2026-11-19",
+          "source": "arXiv cs.SE",
+          "section": "AI & ML"
+        },
+        {
+          "id": "721a46d2c0033626f5e7c0f1a321a88df09e1e36",
+          "title": "DispersedBFT: Bottleneck-Free Primary-Backup Consensus using Dispersed Replication",
+          "url": "https://arxiv.org/abs/2611.24833v1",
+          "date": "2026-11-19",
+          "source": "arXiv cs.DB",
+          "section": "CS research"
+        },
+        {
+          "id": "3e72391ba79d2c26701bdfb6e30bac0130d053f2",
+          "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
+          "url": "https://news.ycombinator.com/item?id=50536468",
+          "date": "2026-11-18",
+          "source": "Hacker News",
+          "section": "AI & ML"
+        }
+      ]
+    },
+    {
+      "headline": "LLM serving gets leaner",
+      "body": "Efficiency took center stage as new serving stacks emerged. TideCache (12877b5a) streams layers and balances CPU‑GPU caches, while Cap‑and‑Track (9cf28fb2) uses fail‑fast signals to respect shifting inference capacity. StarSling (3e72391b) also cuts CI runtimes with AI‑driven optimizations, and the zero‑gradient compilation trick (5c7e324f) shows you can embed exact circuits into pretrained weights without any data. The common thread is squeezing more work out of existing hardware.",
+      "items": [
+        {
+          "id": "12877b5afe14acde1f02dbf4a1ac73ba5867296b",
+          "title": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
+          "url": "https://arxiv.org/abs/2611.26619v1",
+          "date": "2026-11-20",
+          "source": "arXiv cs.DC",
+          "section": "AI & ML"
+        },
+        {
+          "id": "9cf28fb2e9d31146e8190328651943b75ce3923f",
+          "title": "Cap-and-Track: Optimizing LLM Inference Request Dispatch Across Shifting Capacity",
+          "url": "https://arxiv.org/abs/2611.24891v1",
+          "date": "2026-11-19",
+          "source": "arXiv cs.LG",
+          "section": "AI & ML"
+        },
+        {
+          "id": "3e72391ba79d2c26701bdfb6e30bac0130d053f2",
+          "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
+          "url": "https://news.ycombinator.com/item?id=50536468",
+          "date": "2026-11-18",
+          "source": "Hacker News",
+          "section": "AI & ML"
+        },
+        {
+          "id": "5c7e324ff775b32a456bca760700d12eaf73fa1b",
+          "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
+          "url": "https://arxiv.org/abs/2611.26450v1",
+          "date": "2026-11-20",
+          "source": "arXiv cs.AI",
+          "section": "AI & ML"
+        }
+      ]
+    },
+    {
+      "headline": "Multimodal models prove clinical worth",
+      "body": "Multimodal LLMs kept expanding beyond text. Rad‑Linter (06c7e74f) matched X‑ray reports to image scores with 98.5% pair accuracy, while ID‑MAE (50af567d) fused gaze, trajectory, and impairment labels to spot drunk driving. An audit study (8a51f2d7) used LLMs to query black‑box clinical predictors, exposing hidden flaws. These works illustrate a growing confidence in AI‑augmented diagnostics.",
+      "items": [
+        {
+          "id": "06c7e74f1fc574d6a01d9d52eedab147128444c4",
+          "title": "Multimodal Error Detection in Chest X-ray Reports: A Large Language Model Reading Image Evidence",
+          "url": "https://arxiv.org/abs/2611.26492v1",
+          "date": "2026-11-20",
+          "source": "arXiv cs.CL",
+          "section": "AI & ML"
+        },
+        {
+          "id": "50af567d4cdbed4ec50028223025d7a2f4a7079f",
+          "title": "Multimodal Masked Diffusion Autoencoder for Modeling Impaired Driving",
+          "url": "https://arxiv.org/abs/2611.23211v1",
+          "date": "2026-11-18",
+          "source": "arXiv cs.CV",
+          "section": "AI & ML"
+        },
+        {
+          "id": "8a51f2d7c2e67fc06f6ca8ac0ee7accec1b5bc70",
+          "title": "Auditing black-box clinical prediction models with a large language model through queries alone: a blinded test with planted flaws",
+          "url": "https://arxiv.org/abs/2611.24877v1",
+          "date": "2026-11-19",
+          "source": "arXiv cs.LG",
+          "section": "AI & ML"
+        }
+      ]
+    },
+    {
+      "headline": "Embedded & systems updates keep pace",
+      "body": "On the hardware side, Linux kernel 7.4‑rc3 (6aef44b8) landed with driver tweaks, LLVM wrapped up its relicensing (2f274858) reaching 99.5% Apache‑2.0 coverage, and Purism unveiled a RISC‑V Librem 5 v2 (3c581d5b). Meanwhile, an ESP32‑driven MDA terminal (1d1f037a) and a revived FortiGate firmware (bb714363) show hobbyists still pushing legacy gear forward.",
+      "items": [
+        {
+          "id": "6aef44b82c2964e54b9cbfbf972f8d7c620e5d73",
+          "title": "Kernel prepatch 7.4-rc3",
+          "url": "https://lwn.net/Articles/1107606/",
+          "date": "2026-11-16",
+          "source": "lwn",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "2f27485864d564c11245f44535d88b1a5e9738fe",
+          "title": "Beyls: Wrapping up LLVM's relicensing effort",
+          "url": "https://lwn.net/Articles/1108818/",
+          "date": "2026-11-21",
+          "source": "lwn",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "3c581d5bc45a1b01bb4db90ac814cfa574099ef6",
+          "title": "Purism Launches Librem 5 v2, a RISC-V Phone to Empower People",
+          "url": "https://puri.sm/posts/purism-launches-librem-5-v2-a-risc-v-phone-to-empower-people/",
+          "date": "2026-11-18",
+          "source": "Hacker News",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "1d1f037aac76cf1916ad565583e68265340a9ec5",
+          "title": "ESP32 Drives MDA Display For Wireless Terminal",
+          "url": "https://hackaday.com/2026/11/21/esp32-drives-mda-display-for-wireless-terminal/",
+          "date": "2026-11-22",
+          "source": "hackaday",
+          "section": "Embedded & systems"
+        },
+        {
+          "id": "bb714363e836d4897d841517e2d7e87f1dc9f7b6",
+          "title": "Custom Firmware for Fortinet FortiGate 60 Firewall/Router",
+          "url": "https://hackaday.com/2026/11/17/custom-firmware-for-fortinet-fortigate-60-firewall-router/",
+          "date": "2026-11-18",
+          "source": "hackaday",
+          "section": "Embedded & systems"
+        }
+      ]
+    }
+  ],
+  "numbers": [
+    {
+      "value": "98.5%",
+      "label": "pair accuracy on Rad‑Linter evaluation",
+      "item": {
+        "id": "06c7e74f1fc574d6a01d9d52eedab147128444c4",
+        "title": "Multimodal Error Detection in Chest X-ray Reports: A Large Language Model Reading Image Evidence",
+        "url": "https://arxiv.org/abs/2611.26492v1",
+        "date": "2026-11-20",
+        "source": "arXiv cs.CL",
+        "section": "AI & ML"
+      }
+    },
+    {
+      "value": "1.5B",
+      "label": "parameters in Rad‑Linter language model",
+      "item": {
+        "id": "06c7e74f1fc574d6a01d9d52eedab147128444c4",
+        "title": "Multimodal Error Detection in Chest X-ray Reports: A Large Language Model Reading Image Evidence",
+        "url": "https://arxiv.org/abs/2611.26492v1",
+        "date": "2026-11-20",
+        "source": "arXiv cs.CL",
+        "section": "AI & ML"
+      }
+    },
+    {
+      "value": "64M",
+      "label": "parameters trained in two‑hour minimind run",
+      "item": {
+        "id": "1555ed6bcb1233ac9c007e37e60bc1ee6a65594c",
+        "title": "jingyaogong/minimind",
+        "url": "https://github.com/jingyaogong/minimind",
+        "date": "2026-11-22",
+        "source": "GitHub trending",
+        "section": "Trending repos"
+      }
+    }
+  ],
+  "watch": "Watch for next‑week releases of AI‑centric compilers and any follow‑up on the zero‑gradient circuit embedding technique.",
+  "item_count": 155
+}
