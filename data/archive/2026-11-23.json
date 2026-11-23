@@ -1,0 +1,505 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T11:00:47+00:00",
+  "stats": {
+    "fetched": 131,
+    "new_after_dedupe": 70,
+    "published": 16,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 17,
+      "supported": 17,
+      "dropped": 0,
+      "unverifiable": 0,
+      "summaries_reverted": 0,
+      "rate": 1.0
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. Kernel rc4 landed, and a USB GPU fits on a stick.",
+    "stories": [
+      {
+        "kicker": "Embedded",
+        "headline": "Linux 7.4‑rc4 lands with driver focus",
+        "body": "**Patch drop, half drivers:** Linux kernel 7.4‑rc4 arrives for testing, packing dozens of fixes. Drivers make up roughly half of the changes, so expect smoother hardware support soon.",
+        "why": "Keeps your peripherals from silently failing after updates.",
+        "ids": [
+          "2343356475621e9f6641cc70fc0d86c9840db3d9"
+        ]
+      },
+      {
+        "kicker": "Embedded",
+        "headline": "USB GPU fits on a single chip",
+        "body": "**Graphics on a stick:** Hackaday details a DIY USB GPU built on one chip, targeting pure graphics generation instead of repurposed compute. It shows you can offload rendering without a full GPU board.",
+        "why": "Offers a low‑cost path for niche visual output in embedded projects.",
+        "ids": [
+          "09c7fa44b089f67b00475cf921be2d1e7a65a8d9"
+        ]
+      },
+      {
+        "kicker": "AI",
+        "headline": "Sulphur‑3 hits over a hundred‑thousand downloads",
+        "body": "**Model hype, real numbers:** Hugging Face reports Sulphur‑3 has been downloaded 133,732 times and earned 815 likes. The traction signals strong community interest in its capabilities.",
+        "why": "Popular models often get better community support and faster bug fixes.",
+        "ids": [
+          "51845c6107b0c0ac570f178c0749d5655761630d"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Rust Minecraft:** arnis library creates high‑detail real‑world locations inside Minecraft.",
+        "id": "b4ab4cbec9719ef1a5967bf7efbffc4013cce39b"
+      },
+      {
+        "text": "**Rust DB rewrite:** pgrust claims performance beating PostgreSQL and ClickHouse.",
+        "id": "b8c7fd931d56f1062770192e20cbf04f91cb0311"
+      },
+      {
+        "text": "**App Store guard:** compliance playbook lists 124 rejection patterns and 112 deadlines.",
+        "id": "d664b5a459f3111ea24a468a6fe0270ddde134b1"
+      },
+      {
+        "text": "**Image‑text model:** SenseNova‑Loop‑9B logged 2,036 downloads and 599 likes.",
+        "id": "4b443d68faa9454bf6f6c313b21a299242deb3bb"
+      },
+      {
+        "text": "**Port zero oddity:** about 0.25% of hosts still use TCP port zero.",
+        "id": "79a997b49ea0d157ed441646ad25fd82ba354a69"
+      }
+    ],
+    "number": {
+      "value": "133,732",
+      "label": "downloads of Sulphur‑3 model",
+      "id": "51845c6107b0c0ac570f178c0749d5655761630d"
+    },
+    "sign_off": "Catch you tomorrow, and keep hacking.",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "bd7d83d6d2eb531fac5633ad71417f9e1e74faf3",
+      "title": "Kotlin Heroes: Practice 15",
+      "url": "https://codeforces.com/contests/2286",
+      "source": "Codeforces",
+      "starts": "2026-12-01T14:30:00+00:00",
+      "detail": "ICPC contest, 168.0h, starts Tue 01 Dec 14:30 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Kernel prepatch 7.4-rc4",
+      "url": "https://lwn.net/Articles/1108900/",
+      "source": "lwn",
+      "section": "embedded",
+      "published": "2026-11-23T00:32:07+00:00",
+      "points": null,
+      "score": 4.0,
+      "id": "2343356475621e9f6641cc70fc0d86c9840db3d9",
+      "summary": "Linux kernel 7.4‑rc4 is out for testing, featuring many small fixes with drivers comprising roughly half of the changes.",
+      "detail": "Linus Torvalds noted the release is large, with updates across GPU, networking, USB, IIO, NVMe, and sound subsystems, indicating broad hardware support improvements ahead of the final 7.4 launch.",
+      "key_points": [
+        "7.4-rc4"
+      ],
+      "tag": "Release",
+      "highlight": true,
+      "image": "",
+      "related": {
+        "title": "Three new stable kernels for Tuesday",
+        "url": "https://lwn.net/Articles/1106569/",
+        "date": "2026-11-11",
+        "id": "fba72f2e2d13857cd8b1333557b0e7025f883426"
+      }
+    },
+    {
+      "title": "Show HN: I built a game where you are an LLM's subagent",
+      "url": "https://github.com/gulivan/worker755",
+      "source": "Hacker News",
+      "section": "ai-ml",
+      "published": "2026-11-22T13:56:58+00:00",
+      "points": 321,
+      "score": 4.0,
+      "id": "3c4f4993adcaa465da5801177e8227155c28464e",
+      "summary": "A Hacker News post showcases a game where the player acts as a sub‑agent of a large language model.",
+      "detail": "The project lets users interact with an LLM indirectly by issuing commands that the model executes, turning the LLM into a collaborative partner rather than a direct chatbot.",
+      "key_points": [],
+      "tag": "News",
+      "highlight": true,
+      "image": "https://opengraph.githubassets.com/67ea541349c04b1be04aa3e2813d4656cf19ff73be623018d9cde55e2ce7bc49/gulivan/worker755",
+      "related": {}
+    },
+    {
+      "title": "louis-e/arnis",
+      "url": "https://github.com/louis-e/arnis",
+      "source": "GitHub trending · rust",
+      "section": "repos",
+      "published": null,
+      "points": 18799,
+      "score": 2.0,
+      "id": "b4ab4cbec9719ef1a5967bf7efbffc4013cce39b",
+      "summary": "The arnis Rust library generates high‑detail real‑world locations inside Minecraft.",
+      "detail": "By mapping geographic data to Minecraft coordinates, arnis lets users recreate precise terrain features, useful for educational or creative projects.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://repository-images.githubusercontent.com/535010087/acf2a094-9d25-4dd6-a1cf-c030d45ecc55",
+      "related": {}
+    },
+    {
+      "title": "malisper/pgrust",
+      "url": "https://github.com/malisper/pgrust",
+      "source": "GitHub trending · rust",
+      "section": "repos",
+      "published": null,
+      "points": 6016,
+      "score": 2.0,
+      "id": "b8c7fd931d56f1062770192e20cbf04f91cb0311",
+      "summary": "The pgrust project rewrites PostgreSQL in Rust and claims performance exceeding both PostgreSQL and ClickHouse.",
+      "detail": "Leveraging Rust’s safety and concurrency features, pgrust aims to provide a faster, memory‑safe database engine, though benchmark details are not included in the brief.",
+      "key_points": [],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://opengraph.githubassets.com/d5dbfaa082e5e6a1969d883865e2ad96369eaf059ee94b3d016f7028b9503247/malisper/pgrust",
+      "related": {}
+    },
+    {
+      "title": "mjmirza/app-store-compliance",
+      "url": "https://github.com/mjmirza/app-store-compliance",
+      "source": "GitHub trending",
+      "section": "repos",
+      "published": null,
+      "points": 4403,
+      "score": 2.0,
+      "id": "d664b5a459f3111ea24a468a6fe0270ddde134b1",
+      "summary": "A compliance playbook and pre‑submission guard for App Store and Google Play includes 124 documented rejection patterns and 112 tracked regulatory deadlines.",
+      "detail": "The repository also provides a privacy manifest, Data Safety checks, and a skill designed for AI coding agents to automate compliance verification. It covers EU AI Act, DSA, COPPA, and age‑related laws, helping developers avoid common submission rejections.",
+      "key_points": [
+        "124 rejection patterns",
+        "112 tracked deadlines"
+      ],
+      "tag": "Repo",
+      "highlight": true,
+      "image": "https://opengraph.githubassets.com/1875ec8a4ce4538999da3b4d55758204a1e6bdc30e17d2699ed869f4398c0f4f/mjmirza/app-store-compliance",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "Show HN: I built a game where you are an LLM's subagent",
+          "url": "https://github.com/gulivan/worker755",
+          "source": "Hacker News",
+          "section": "ai-ml",
+          "published": "2026-11-22T13:56:58+00:00",
+          "points": 321,
+          "score": 4.0,
+          "id": "3c4f4993adcaa465da5801177e8227155c28464e",
+          "summary": "A Hacker News post showcases a game where the player acts as a sub‑agent of a large language model.",
+          "detail": "The project lets users interact with an LLM indirectly by issuing commands that the model executes, turning the LLM into a collaborative partner rather than a direct chatbot.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": true,
+          "image": "https://opengraph.githubassets.com/67ea541349c04b1be04aa3e2813d4656cf19ff73be623018d9cde55e2ce7bc49/gulivan/worker755",
+          "related": {}
+        },
+        {
+          "title": "Model: SulphurAI/Sulphur-3",
+          "url": "https://huggingface.co/SulphurAI/Sulphur-3",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-10-31T20:31:01.000Z",
+          "points": 815,
+          "score": 1.5,
+          "id": "51845c6107b0c0ac570f178c0749d5655761630d",
+          "summary": "The Sulphur‑3 model on Hugging Face has been downloaded 133,732 times and received 815 likes.",
+          "detail": "Sulphur‑3 is a recent addition to the HF model hub, gaining rapid community interest, though the description does not specify its architecture or intended tasks.",
+          "key_points": [
+            "133,732 downloads",
+            "815 likes"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/SulphurAI/Sulphur-3.png",
+          "related": {}
+        },
+        {
+          "title": "Model: sensenova/SenseNova-Loop-9B",
+          "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-11-17T10:16:41.000Z",
+          "points": 599,
+          "score": 1.5,
+          "id": "4b443d68faa9454bf6f6c313b21a299242deb3bb",
+          "summary": "SenseNova‑Loop‑9B, an image‑text‑to‑text model, has 2,036 downloads and 599 likes on Hugging Face.",
+          "detail": "The model targets multimodal generation, converting visual inputs into textual output, and its popularity suggests growing demand for such capabilities.",
+          "key_points": [
+            "2,036 downloads",
+            "599 likes"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/sensenova/SenseNova-Loop-9B.png",
+          "related": {}
+        },
+        {
+          "title": "Model: tencent/Hy4-flash",
+          "url": "https://huggingface.co/tencent/Hy4-flash",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-11-17T03:44:46.000Z",
+          "points": 632,
+          "score": 1.5,
+          "id": "b4f1a99333cf7b25ed8b3a7960de8debc1f865a8",
+          "summary": "Tencent's Hy4‑flash model, also for image‑text‑to‑text tasks, recorded 7,696 downloads and 632 likes on Hugging Face.",
+          "detail": "Hy4‑flash joins the trend of multimodal models, offering fast inference for converting images to descriptive text, though specific performance metrics are not listed.",
+          "key_points": [
+            "7,696 downloads",
+            "632 likes"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/tencent/Hy4-flash.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "Kernel prepatch 7.4-rc4",
+          "url": "https://lwn.net/Articles/1108900/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-23T00:32:07+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "2343356475621e9f6641cc70fc0d86c9840db3d9",
+          "summary": "Linux kernel 7.4‑rc4 is out for testing, featuring many small fixes with drivers comprising roughly half of the changes.",
+          "detail": "Linus Torvalds noted the release is large, with updates across GPU, networking, USB, IIO, NVMe, and sound subsystems, indicating broad hardware support improvements ahead of the final 7.4 launch.",
+          "key_points": [
+            "7.4-rc4"
+          ],
+          "tag": "Release",
+          "highlight": true,
+          "image": "",
+          "related": {
+            "title": "Three new stable kernels for Tuesday",
+            "url": "https://lwn.net/Articles/1106569/",
+            "date": "2026-11-11",
+            "id": "fba72f2e2d13857cd8b1333557b0e7025f883426"
+          }
+        },
+        {
+          "title": "Building a Single-Chip USB GPU",
+          "url": "https://hackaday.com/2026/11/22/building-a-single-chip-usb-gpu/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-22T18:00:49+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "09c7fa44b089f67b00475cf921be2d1e7a65a8d9",
+          "summary": "Hackaday details a project building a single‑chip USB GPU that focuses on graphics generation rather than repurposed compute tasks.",
+          "detail": "The article explores the design challenges of integrating GPU functionality onto a compact USB form factor, highlighting potential niche applications where dedicated graphics output is needed without a full‑scale GPU.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/usb_gpu.png",
+          "related": {}
+        },
+        {
+          "title": "Hackaday Links: November 22, 2026",
+          "url": "https://hackaday.com/2026/11/22/hackaday-links-november-22-2026/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-23T00:00:30+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "be91b38c52eccf539d1113ca5a02150c5ecdce4c",
+          "summary": "Hackaday notes the release of Grand Theft Auto 6 this week, marking a major gaming launch despite the site’s usual focus.",
+          "detail": "The article highlights the cultural impact of GTA 6’s launch and suggests readers may find related hardware hacks interesting, though it does not delve into technical specifics.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2014/11/had-links-banner.jpg",
+          "related": {}
+        },
+        {
+          "title": "I Heard There Was a Secret Port…",
+          "url": "https://hackaday.com/2026/11/22/i-heard-there-was-a-secret-port/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-23T03:00:47+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "79a997b49ea0d157ed441646ad25fd82ba354a69",
+          "summary": "A study found that about 0.25% of hosts use TCP port zero, despite the protocol allowing 65,536 ports.",
+          "detail": "Port zero is rarely utilized in practice, and the finding underscores how a small fraction of network devices deviate from typical port usage patterns.",
+          "key_points": [
+            "0.25% hosts use port zero",
+            "65536 TCP ports"
+          ],
+          "tag": "Analysis",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/06/UDP.jpg",
+          "related": {}
+        },
+        {
+          "title": "Recycling Thousands of Coffee Capsules into a Moka Pot",
+          "url": "https://hackaday.com/2026/11/22/recycling-thousands-of-coffee-capsules-into-a-moka-pot/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-22T21:00:56+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "86c244184993e82dac65bad39b7f1116e8878e1e",
+          "summary": "A DIY guide shows how to repurpose thousands of used coffee capsules into a functional moka pot.",
+          "detail": "The project reduces waste by converting Nespresso‑style pods into a stovetop espresso maker, offering a sustainable alternative for coffee enthusiasts.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/moka_pot_coffee_capsules_shake_the_future_youtube.jpg",
+          "related": {}
+        },
+        {
+          "title": "Repairing a Cheap Rotary Evaporator for the Home Lab",
+          "url": "https://hackaday.com/2026/11/23/repairing-a-cheap-rotary-evaporator-for-the-home-lab/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-23T09:00:28+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "699a4d0989e07b72d5b586d8dbf4779356387a9a",
+          "summary": "Instructions detail repairing a low‑cost rotary evaporator for home laboratory use.",
+          "detail": "The guide covers common failure points, replacement parts, and safety considerations, enabling hobbyists to reclaim solvent recovery equipment without professional service.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/used_rotovap_repaired_projectsinflight_youtube.jpg",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "louis-e/arnis",
+          "url": "https://github.com/louis-e/arnis",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 18799,
+          "score": 2.0,
+          "id": "b4ab4cbec9719ef1a5967bf7efbffc4013cce39b",
+          "summary": "The arnis Rust library generates high‑detail real‑world locations inside Minecraft.",
+          "detail": "By mapping geographic data to Minecraft coordinates, arnis lets users recreate precise terrain features, useful for educational or creative projects.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://repository-images.githubusercontent.com/535010087/acf2a094-9d25-4dd6-a1cf-c030d45ecc55",
+          "related": {}
+        },
+        {
+          "title": "malisper/pgrust",
+          "url": "https://github.com/malisper/pgrust",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 6016,
+          "score": 2.0,
+          "id": "b8c7fd931d56f1062770192e20cbf04f91cb0311",
+          "summary": "The pgrust project rewrites PostgreSQL in Rust and claims performance exceeding both PostgreSQL and ClickHouse.",
+          "detail": "Leveraging Rust’s safety and concurrency features, pgrust aims to provide a faster, memory‑safe database engine, though benchmark details are not included in the brief.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://opengraph.githubassets.com/d5dbfaa082e5e6a1969d883865e2ad96369eaf059ee94b3d016f7028b9503247/malisper/pgrust",
+          "related": {}
+        },
+        {
+          "title": "mjmirza/app-store-compliance",
+          "url": "https://github.com/mjmirza/app-store-compliance",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 4403,
+          "score": 2.0,
+          "id": "d664b5a459f3111ea24a468a6fe0270ddde134b1",
+          "summary": "A compliance playbook and pre‑submission guard for App Store and Google Play includes 124 documented rejection patterns and 112 tracked regulatory deadlines.",
+          "detail": "The repository also provides a privacy manifest, Data Safety checks, and a skill designed for AI coding agents to automate compliance verification. It covers EU AI Act, DSA, COPPA, and age‑related laws, helping developers avoid common submission rejections.",
+          "key_points": [
+            "124 rejection patterns",
+            "112 tracked deadlines"
+          ],
+          "tag": "Repo",
+          "highlight": true,
+          "image": "https://opengraph.githubassets.com/1875ec8a4ce4538999da3b4d55758204a1e6bdc30e17d2699ed869f4398c0f4f/mjmirza/app-store-compliance",
+          "related": {}
+        },
+        {
+          "title": "mvanhorn/last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 73080,
+          "score": 2.0,
+          "id": "01e478ba125afa0c8a152dffa4c867cb312e0121",
+          "summary": "An AI agent skill that aggregates information from Reddit, X, YouTube, Hacker News, Polymarket, and the web to produce a grounded summary on any topic.",
+          "detail": "The skill automates multi‑source research, normalizing diverse content formats before synthesis. It is intended for use with AI assistants to streamline knowledge gathering without manual browsing.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/04449b58b2a5e6a68548cc03e3cf22475d16c6c3032e2de95a4c5f645ce93443/mvanhorn/last30days-skill",
+          "related": {}
+        },
+        {
+          "title": "nginx/nginx",
+          "url": "https://github.com/nginx/nginx",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 32965,
+          "score": 2.0,
+          "id": "de50248ee731c2a4effe2f233b61292fe1427640",
+          "summary": "The official open‑source repository for the NGINX web server.",
+          "detail": "NGINX provides high‑performance HTTP, reverse proxy, and load‑balancing capabilities, widely used in production environments. The repo hosts the core code, documentation, and issue tracking for community contributions.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/2933dfd6c410da35982b45b3c51da6b9ade93aa068e923c8770785fcc48d4a13/nginx/nginx",
+          "related": {}
+        },
+        {
+          "title": "nlohmann/json",
+          "url": "https://github.com/nlohmann/json",
+          "source": "GitHub trending · c++",
+          "section": "repos",
+          "published": null,
+          "points": 50965,
+          "score": 2.0,
+          "id": "b888c51df05a7452c1b79269d751fa3bcb079614",
+          "summary": "A header‑only C++ library that implements JSON parsing and serialization with a modern API.",
+          "detail": "The library supports intuitive syntax, compile‑time type safety, and integrates with standard C++ containers. It is popular for embedding JSON handling directly into C++ projects without external dependencies.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/11171548/1e0a4a60-dccd-46c2-841f-98697f034f62",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
