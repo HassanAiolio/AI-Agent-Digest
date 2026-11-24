@@ -1,0 +1,746 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T12:49:12+00:00",
+  "stats": {
+    "fetched": 211,
+    "new_after_dedupe": 140,
+    "published": 28,
+    "failed_sources": [],
+    "summarizer": "groq",
+    "faithfulness": {
+      "checked": 25,
+      "supported": 25,
+      "dropped": 0,
+      "unverifiable": 6,
+      "summaries_reverted": 0,
+      "rate": 1.0
+    },
+    "brief": "llm"
+  },
+  "brief": {
+    "greeting": "Good morning. Your overnight feed includes a RL audit, a 27‑billion‑parameter model that fits in your pocket, and a patch‑proof Linux runtime.",
+    "stories": [
+      {
+        "kicker": "RL Attribution",
+        "headline": "CO‑GRAFT isolates RL gains in search agents",
+        "body": "**Exact‑match gain breakdown:** CO‑GRAFT uses Shapley values to split up to 32 EM points across four functional roles, showing which parts of the policy actually improve performance.",
+        "why": "It lets you pinpoint which role tweaks are worth the RL training budget.",
+        "ids": [
+          "1b73d0470bd363d29b0cdbd57a84ea99f5f55a8a"
+        ]
+      },
+      {
+        "kicker": "Quantization",
+        "headline": "NariQ squeezes 27B model to 3‑bit",
+        "body": "**BF16‑level quality at 3‑bit:** NariQ compresses the Qwen3.8‑27B transformer to a 10 GB file while keeping long‑horizon task fidelity, and runs fast on an RTX PRO 6000.",
+        "why": "You can deploy a massive LLM on a single GPU without sacrificing output quality.",
+        "ids": [
+          "81ecb7742efe538344d71d668a0d262330fe4e45"
+        ]
+      },
+      {
+        "kicker": "Runtime Security",
+        "headline": "Shirudo protects Linux during patch rollouts",
+        "body": "**Open‑source patch guard:** OpenAI and Cisco’s Shirudo adds a Linux runtime that isolates running services while patches apply, preventing crashes from bad updates.",
+        "why": "It reduces downtime risk when you need to push critical fixes across fleets.",
+        "ids": [
+          "1d0c151fefed0deaf7f3ec56aad3faaff42e5184"
+        ]
+      }
+    ],
+    "quick_hits": [
+      {
+        "text": "**Learning‑rate scaling:** TipSweep predicts optimal rates for any transformer block count from a single‑block experiment.",
+        "id": "a4d26c1e8b553ca79aa0a22580b4e64f79526f8a"
+      },
+      {
+        "text": "**Network intent AI:** A triadic framework turns high‑level network goals into optimizer actions via a language model interpreter.",
+        "id": "e626fa35fd0b07a7dc6ca457338e63c90e19a802"
+      },
+      {
+        "text": "**ESP32 Ethernet guide:** Hackaday walks you through debugging wired connections on the popular Wi‑Fi MCU.",
+        "id": "ea1f46f80c33db71aac2714e5a76be2a156a2b86"
+      },
+      {
+        "text": "**Linux distro patches:** LWN lists kernel and library security fixes across AlmaLinux, Debian, and Fedora.",
+        "id": "29a2b815730213b77fa74518424ea05455abb0c0"
+      },
+      {
+        "text": "**Failure detector benchmark:** 13 of 14 $\\Diamond P$ algorithms evaluated on real network traces for detection speed and error rate.",
+        "id": "58602874e39ce26a5ea9b24f1b641fa89c775b65"
+      }
+    ],
+    "number": {
+      "value": "27B",
+      "label": "parameters in the Qwen3.8 model compressed by NariQ",
+      "id": "81ecb7742efe538344d71d668a0d262330fe4e45"
+    },
+    "sign_off": "That’s it—keep coding, keep curious, and enjoy the weekend",
+    "generated": "llm"
+  },
+  "upcoming": [
+    {
+      "id": "67d8825fba719eb31c63db2a391bb3eab4962c9b",
+      "title": "Codeforces Round 1138 (Div. 3)",
+      "url": "https://codeforces.com/contests/2292",
+      "source": "Codeforces",
+      "starts": "2026-11-27T14:35:00+00:00",
+      "detail": "ICPC contest, 2.2h, starts Fri 27 Nov 14:35 UTC"
+    },
+    {
+      "id": "bd7d83d6d2eb531fac5633ad71417f9e1e74faf3",
+      "title": "Kotlin Heroes: Practice 15",
+      "url": "https://codeforces.com/contests/2286",
+      "source": "Codeforces",
+      "starts": "2026-12-01T14:30:00+00:00",
+      "detail": "ICPC contest, 168.0h, starts Tue 01 Dec 14:30 UTC"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "CO-GRAFT: Attributing Reinforcement Learning Gains in Search Agents via Role-Level Policy Grafting",
+      "url": "https://arxiv.org/abs/2611.31185v1",
+      "source": "arXiv cs.IR",
+      "section": "ai-ml",
+      "published": "2026-11-23T18:38:53+00:00",
+      "points": null,
+      "score": 7.5,
+      "id": "1b73d0470bd363d29b0cdbd57a84ea99f5f55a8a",
+      "summary": "CO-GRAFT attributes up to 32 exact-match point gains from RL training of search agents by decomposing contributions of four functional roles via Shapley values.",
+      "detail": "The framework runs the RL-trained policy and its pre‑RL version together on the same trajectory, assigning each to exclusive roles such as reasoning or query generation. By evaluating all subsets without weight changes, it forms a cooperative game whose Shapley values reveal each role's impact, while Möbius terms capture interactions.",
+      "key_points": [
+        "32 EM points",
+        "16 role assignments"
+      ],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "Precision-Aware Learning Rate Transfer Across Block Count in LLM Post-Training",
+      "url": "https://arxiv.org/abs/2611.31166v1",
+      "source": "arXiv cs.LG",
+      "section": "ai-ml",
+      "published": "2026-11-23T18:27:57+00:00",
+      "points": null,
+      "score": 7.5,
+      "id": "a4d26c1e8b553ca79aa0a22580b4e64f79526f8a",
+      "summary": "TipSweep predicts optimal learning rates for any number of trainable transformer blocks by scaling rates found on a single block.",
+      "detail": "The method searches only the last block (often just one) to locate the best rate, then applies precision‑dependent scaling rules to extrapolate to larger block sets, including full‑model fine‑tuning. Experiments on 1‑ to 7‑billion‑parameter models confirm the rule’s accuracy, reducing costly grid searches.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {}
+    },
+    {
+      "title": "Agentic AI for Intent Management and Control in Autonomous Communication Networks",
+      "url": "https://arxiv.org/abs/2611.31223v1",
+      "source": "arXiv cs.LG",
+      "section": "ai-ml",
+      "published": "2026-11-23T18:57:32+00:00",
+      "points": null,
+      "score": 7.0,
+      "id": "e626fa35fd0b07a7dc6ca457338e63c90e19a802",
+      "summary": "A triadic agentic AI framework combines a language‑model interpreter, an optimizer, and a controller to translate network intents into concrete optimization actions.",
+      "detail": "The interpreter converts high‑level intents into machine‑readable templates, the optimizer adapts controller policies to meet those specifications, and the controller executes fast decisions. The design spans multiple network architectural domains, aiming to close the gap between intent management and actual network control.",
+      "key_points": [],
+      "tag": "Research",
+      "highlight": true,
+      "image": "",
+      "related": {
+        "title": "Agent-Native by Design: A Programming Language for Agentic Applications",
+        "url": "https://arxiv.org/abs/2611.21298v1",
+        "date": "2026-11-17",
+        "id": "de22f307aa4450d2009b68453415662559df8604"
+      }
+    },
+    {
+      "title": "Troubleshooting Ethernet Networks with the ESP32",
+      "url": "https://hackaday.com/2026/11/24/troubleshooting-ethernet-networks-with-the-esp32/",
+      "source": "hackaday",
+      "section": "embedded",
+      "published": "2026-11-24T12:00:35+00:00",
+      "points": null,
+      "score": 4.5,
+      "id": "ea1f46f80c33db71aac2714e5a76be2a156a2b86",
+      "summary": "Hackaday published a guide on troubleshooting Ethernet networks using the ESP32 microcontroller.",
+      "detail": "The article compares inexpensive handheld testers with a DIY ESP32‑based solution, detailing how to detect wiring errors and cable faults programmatically. It emphasizes the flexibility of firmware customization for deeper diagnostics.",
+      "key_points": [],
+      "tag": "Analysis",
+      "highlight": true,
+      "image": "https://hackaday.com/wp-content/uploads/2026/11/syndetis_feat.jpg",
+      "related": {}
+    },
+    {
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "source": "deepmind blog",
+      "section": "ai-ml",
+      "published": "2026-11-23T16:59:40+00:00",
+      "points": null,
+      "score": 4.0,
+      "id": "61dcf1169479ac822b31a5cef7d46fd39c77927b",
+      "summary": "DeepMind uses teams of agents together with formal verification to discover faster quantum algorithms for fusion and chemistry applications.",
+      "detail": "The approach lets agents explore algorithmic design spaces while formal verification ensures correctness, accelerating the search for quantum methods that could improve simulation speed in scientific domains.",
+      "key_points": [],
+      "tag": "News",
+      "highlight": true,
+      "image": "https://lh3.googleusercontent.com/jIoM2lo98EDqLMQjIaXBlXPmXgPbUPpM2GgtXcDsGekZBOPUY41IjBsnuZIhLac7MSOuRkklNBsp20a5M25oDz-xTIY0BIqoBxUqmmXvEHwlM3MJJw=w1200-h630-n-nu-rw",
+      "related": {}
+    }
+  ],
+  "sections": [
+    {
+      "id": "ai-ml",
+      "title": "AI & ML",
+      "tier": 1,
+      "items": [
+        {
+          "title": "CO-GRAFT: Attributing Reinforcement Learning Gains in Search Agents via Role-Level Policy Grafting",
+          "url": "https://arxiv.org/abs/2611.31185v1",
+          "source": "arXiv cs.IR",
+          "section": "ai-ml",
+          "published": "2026-11-23T18:38:53+00:00",
+          "points": null,
+          "score": 7.5,
+          "id": "1b73d0470bd363d29b0cdbd57a84ea99f5f55a8a",
+          "summary": "CO-GRAFT attributes up to 32 exact-match point gains from RL training of search agents by decomposing contributions of four functional roles via Shapley values.",
+          "detail": "The framework runs the RL-trained policy and its pre‑RL version together on the same trajectory, assigning each to exclusive roles such as reasoning or query generation. By evaluating all subsets without weight changes, it forms a cooperative game whose Shapley values reveal each role's impact, while Möbius terms capture interactions.",
+          "key_points": [
+            "32 EM points",
+            "16 role assignments"
+          ],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Precision-Aware Learning Rate Transfer Across Block Count in LLM Post-Training",
+          "url": "https://arxiv.org/abs/2611.31166v1",
+          "source": "arXiv cs.LG",
+          "section": "ai-ml",
+          "published": "2026-11-23T18:27:57+00:00",
+          "points": null,
+          "score": 7.5,
+          "id": "a4d26c1e8b553ca79aa0a22580b4e64f79526f8a",
+          "summary": "TipSweep predicts optimal learning rates for any number of trainable transformer blocks by scaling rates found on a single block.",
+          "detail": "The method searches only the last block (often just one) to locate the best rate, then applies precision‑dependent scaling rules to extrapolate to larger block sets, including full‑model fine‑tuning. Experiments on 1‑ to 7‑billion‑parameter models confirm the rule’s accuracy, reducing costly grid searches.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Agentic AI for Intent Management and Control in Autonomous Communication Networks",
+          "url": "https://arxiv.org/abs/2611.31223v1",
+          "source": "arXiv cs.LG",
+          "section": "ai-ml",
+          "published": "2026-11-23T18:57:32+00:00",
+          "points": null,
+          "score": 7.0,
+          "id": "e626fa35fd0b07a7dc6ca457338e63c90e19a802",
+          "summary": "A triadic agentic AI framework combines a language‑model interpreter, an optimizer, and a controller to translate network intents into concrete optimization actions.",
+          "detail": "The interpreter converts high‑level intents into machine‑readable templates, the optimizer adapts controller policies to meet those specifications, and the controller executes fast decisions. The design spans multiple network architectural domains, aiming to close the gap between intent management and actual network control.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": true,
+          "image": "",
+          "related": {
+            "title": "Agent-Native by Design: A Programming Language for Agentic Applications",
+            "url": "https://arxiv.org/abs/2611.21298v1",
+            "date": "2026-11-17",
+            "id": "de22f307aa4450d2009b68453415662559df8604"
+          }
+        },
+        {
+          "title": "Finding faster quantum algorithms with agents and formal verification",
+          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+          "source": "deepmind blog",
+          "section": "ai-ml",
+          "published": "2026-11-23T16:59:40+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "61dcf1169479ac822b31a5cef7d46fd39c77927b",
+          "summary": "DeepMind uses teams of agents together with formal verification to discover faster quantum algorithms for fusion and chemistry applications.",
+          "detail": "The approach lets agents explore algorithmic design spaces while formal verification ensures correctness, accelerating the search for quantum methods that could improve simulation speed in scientific domains.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": true,
+          "image": "https://lh3.googleusercontent.com/jIoM2lo98EDqLMQjIaXBlXPmXgPbUPpM2GgtXcDsGekZBOPUY41IjBsnuZIhLac7MSOuRkklNBsp20a5M25oDz-xTIY0BIqoBxUqmmXvEHwlM3MJJw=w1200-h630-n-nu-rw",
+          "related": {}
+        },
+        {
+          "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+          "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+          "source": "Hacker News",
+          "section": "ai-ml",
+          "published": "2026-11-23T13:42:38+00:00",
+          "points": 175,
+          "score": 4.0,
+          "id": "81ecb7742efe538344d71d668a0d262330fe4e45",
+          "summary": "NariQ quantizes the 27‑billion‑parameter Qwen3.8‑27B model to 3‑bit (or lower) while keeping BF16‑level quality on long‑horizon agentic tasks.",
+          "detail": "Benchmarks show near‑identical scores to BF16 across tasks such as DeepSWE, Terminal‑Bench, and RealWorldQA, with only minor drops at 2‑bit. Context‑length throughput remains comparable to other quantizations on an RTX PRO 6000 GPU.",
+          "key_points": [
+            "27B parameters",
+            "3‑bit retains BF16",
+            "Decode speed RTX PRO 6000"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/nari-labs/Qwen3.8-27B-NariQ-GGUF.png",
+          "related": {}
+        },
+        {
+          "title": "Connected intelligence for in-house legal",
+          "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-23T08:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "f8a4e02f421246931880184e0500ae92d6ece8c1",
+          "summary": "OpenAI’s blog discusses how AI can help in‑house legal teams connect business context, build reusable workflows, and enhance collaboration with outside counsel.",
+          "detail": "The conversation features OpenAI staff and legal professionals exploring practical AI integrations, emphasizing workflow automation and knowledge sharing within corporate legal departments.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/40q0vnGDp1zwWuJrVjXtu6/79ebb13b84e11ce1711a27adfd6ffafe/connected-intelligence-for-in-house-legal-cover.png?w=1600&h=900&fit=fill",
+          "related": {
+            "title": "Gilbert + Tobin rethinks the business of law with AI",
+            "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+            "date": "2026-11-11",
+            "id": "f28f90d2895a812ca579d518fcae44bbc0ce22af"
+          }
+        },
+        {
+          "title": "OpenAI and Cisco introduce Shirudo",
+          "url": "https://openai.com/index/introducing-shirudo",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-23T21:20:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "1d0c151fefed0deaf7f3ec56aad3faaff42e5184",
+          "summary": "OpenAI and Cisco released Shirudo, an open-source Linux runtime that safeguards running systems during patch deployment.",
+          "detail": "Shirudo integrates with existing Linux environments to monitor and protect active processes while updates are applied, reducing downtime risk. It is provided under an open-source license, encouraging community contributions and broader adoption across enterprise infrastructures.",
+          "key_points": [],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/5K7gFDr3r8vgjdIcsW6RVY/aba5325ce7902e5d1499b907f8e78f0b/shirudo-partner-logos-landscape-2x.png?w=1600&h=900&fit=fill",
+          "related": {}
+        },
+        {
+          "title": "Richpanel helps companies automate 50% of support in 30 days",
+          "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+          "source": "openai blog",
+          "section": "ai-ml",
+          "published": "2026-11-23T08:00:00+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "680b35173b971311b4b8603cf638c317fd3576b6",
+          "summary": "Richpanel claims its AI support agents can automate 50% of customer support tickets within 30 days using GPT‑6 models.",
+          "detail": "The system combines GPT‑6 Astra and GPT‑6.1 Sol for tool integration and GPT‑6 Luna for conversational handling. This layered model approach aims to reduce human workload while maintaining response quality, though performance metrics beyond the headline claim are not disclosed.",
+          "key_points": [
+            "50% automation",
+            "30‑day rollout"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/4aVhQ1EicxWg7i6lIkBrLQ/cdabc180f7e5f780dbb43c302e7163d8/richpanel-social.png?w=1600&h=900&fit=fill",
+          "related": {}
+        },
+        {
+          "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+          "url": "https://huggingface.co/blog/allenai/robotrack",
+          "source": "huggingface blog",
+          "section": "ai-ml",
+          "published": "2026-11-23T17:20:37+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "ca38829e731287133c5ce858c81137975894da48",
+          "summary": "RoboTrack introduces a point‑tracking method designed for real‑world robotic manipulation tasks.",
+          "detail": "The blog post outlines a vision‑based algorithm that maintains object point consistency across frames, enabling more precise grasping and movement. It targets applications where traditional simulation‑only tracking falls short, though quantitative benchmarks are not provided.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/0KlbITzhyUGtGPyvi09um.png",
+          "related": {}
+        },
+        {
+          "title": "Model: inclusionAI/Ling-3.2-air",
+          "url": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+          "source": "HF trending",
+          "section": "ai-ml",
+          "published": "2026-11-23T03:55:12.000Z",
+          "points": 146,
+          "score": 1.5,
+          "id": "cd73459784d8123691a6d92269d64e77ffe422d3",
+          "summary": "The inclusionAI/Ling-3.2-air model on Hugging Face has been downloaded 733 times and received 146 likes.",
+          "detail": "This lightweight language model is part of the inclusionAI series, focusing on efficient inference for edge devices. Community feedback appears positive, but no performance figures are included in the listing.",
+          "key_points": [
+            "733 downloads",
+            "146 likes"
+          ],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/inclusionAI/Ling-3.2-air.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "embedded",
+      "title": "Embedded & systems",
+      "tier": 2,
+      "items": [
+        {
+          "title": "Troubleshooting Ethernet Networks with the ESP32",
+          "url": "https://hackaday.com/2026/11/24/troubleshooting-ethernet-networks-with-the-esp32/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-24T12:00:35+00:00",
+          "points": null,
+          "score": 4.5,
+          "id": "ea1f46f80c33db71aac2714e5a76be2a156a2b86",
+          "summary": "Hackaday published a guide on troubleshooting Ethernet networks using the ESP32 microcontroller.",
+          "detail": "The article compares inexpensive handheld testers with a DIY ESP32‑based solution, detailing how to detect wiring errors and cable faults programmatically. It emphasizes the flexibility of firmware customization for deeper diagnostics.",
+          "key_points": [],
+          "tag": "Analysis",
+          "highlight": true,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/syndetis_feat.jpg",
+          "related": {}
+        },
+        {
+          "title": "Security updates for Monday",
+          "url": "https://lwn.net/Articles/1109268/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-23T14:10:48+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "29a2b815730213b77fa74518424ea05455abb0c0",
+          "summary": "LWN reported security updates for multiple Linux distributions, including kernel patches and library fixes across AlmaLinux, Debian, and Fedora.",
+          "detail": "Updates address vulnerabilities in components such as curl, nginx, OpenSSH, and the Linux kernel (e.g., Linux‑6.12 for Debian). Administrators are urged to apply the patches promptly to mitigate exposure.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "CachyOS November 2026 release",
+          "url": "https://lwn.net/Articles/1109269/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-23T14:21:41+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "b45cfdd1a1cc6fb31a29ded0565ad1f235486e48",
+          "summary": "CachyOS November 2026 release adds a recovery environment, Easy Anti-Cheat v2 support, and Package Installer 2.0.0.",
+          "detail": "The new recovery environment, named cachyos-recovery, lets users roll back broken systems. Easy Anti-Cheat v2 enables compatibility with games that require this anti-cheat layer. The updated installer simplifies package management for the rolling-release distro.",
+          "key_points": [
+            "cachyos-recovery added",
+            "EAC v2 support",
+            "Installer 2.0.0"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Seven stable kernels for Monday",
+          "url": "https://lwn.net/Articles/1108909/",
+          "source": "lwn",
+          "section": "embedded",
+          "published": "2026-11-23T13:23:43+00:00",
+          "points": null,
+          "score": 2.0,
+          "id": "5b8086e6fc09e60ab2f7d512652c254a9cd2a681",
+          "summary": "Linux stable kernels 7.3.6, 6.18.65, 6.12.119, 6.6.163, 6.1.193, 5.15.226, and 5.10.275 released, with 6.12.119 containing ~1,700 patches and 6.6.163 over 3,300 patches.",
+          "detail": "Each kernel version includes numerous security and bug‑fix patches across the tree. Users are encouraged to upgrade to benefit from the latest fixes. The patch counts highlight the varying maintenance load among the releases.",
+          "key_points": [
+            "6.12.119 ~1,700 patches",
+            "6.6.163 >3,300 patches"
+          ],
+          "tag": "Release",
+          "highlight": false,
+          "image": "",
+          "related": {
+            "title": "Three new stable kernels for Tuesday",
+            "url": "https://lwn.net/Articles/1106569/",
+            "date": "2026-11-11",
+            "id": "fba72f2e2d13857cd8b1333557b0e7025f883426"
+          }
+        },
+        {
+          "title": "A Dozen Completely DIY Robot Actuators",
+          "url": "https://hackaday.com/2026/11/23/a-dozen-completely-diy-robot-actuators/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-23T19:30:53+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "8fd9dadfa79f14b3e88818bae115122b6c479e12",
+          "summary": "It’s one of those tropes that comes up every so often on Hackaday: Someone says they made something “completely” DIY, and then someone in the comments asks if they grew …read more",
+          "detail": "It’s one of those tropes that comes up every so often on Hackaday: Someone says they made something “completely” DIY, and then someone in the comments asks if they grew …read more",
+          "key_points": [],
+          "tag": "",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/i-built-12-actuators-for-my-robot-dog-y-6smifwocy-webm-shot0004_featured.png",
+          "related": {}
+        },
+        {
+          "title": "Debian Comes to the Surface Duo 2",
+          "url": "https://hackaday.com/2026/11/23/debian-comes-to-the-surface-duo-2/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-23T21:00:15+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "9c2a32598f63d48f3bc4af07700e83fec280b349",
+          "summary": "With all the hubub about the iPhone Duo, it’s nice to look back on other dual screen devices that have come before. I turns out, some are still seeing active …read more",
+          "detail": "With all the hubub about the iPhone Duo, it’s nice to look back on other dual screen devices that have come before. I turns out, some are still seeing active …read more",
+          "key_points": [],
+          "tag": "",
+          "highlight": false,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/OpenDuo-Debian-Surface-Duo-2.png",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "cs-research",
+      "title": "CS research",
+      "tier": 4,
+      "items": [
+        {
+          "title": "Which $\\Diamond \\mathcal{P}$ Algorithm is Suitable for You? An Empirical Benchmark on Real Network Traces",
+          "url": "https://arxiv.org/abs/2611.30815v1",
+          "source": "arXiv cs.DC",
+          "section": "cs-research",
+          "published": "2026-11-23T15:07:14+00:00",
+          "points": null,
+          "score": 4.0,
+          "id": "58602874e39ce26a5ea9b24f1b641fa89c775b65",
+          "summary": "Benchmark implements 13 of 14 $◇ P$ unreliable failure detectors and provides a reusable suite evaluating detection time, mistake rate, and query accuracy on real network traces.",
+          "detail": "The suite replays identical network traces for fair comparison and also supports live deployment where detectors need active probing. Results are reported using common QoS metrics, enabling practitioners to choose detectors matching their workload requirements.",
+          "key_points": [
+            "14 algorithms",
+            "13 implemented"
+          ],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "When an AI agent makes a mistake in a database, what decides the damage?",
+          "url": "https://arxiv.org/abs/2611.30483v1",
+          "source": "arXiv cs.SE",
+          "section": "cs-research",
+          "published": "2026-11-23T11:06:44+00:00",
+          "points": null,
+          "score": 3.5,
+          "id": "14978b04749d525e5c38f2dd34a19775ad58a259",
+          "summary": "Study evaluates AI agents using models from 4 B to 35 B parameters on database mistake scenarios across four engines and multiple permission/recovery settings.",
+          "detail": "Layer A applies a frozen library of 22 typical mistakes without a model, while Layer B runs a minimal tool‑calling agent driven by six open‑weight models. Experiments cover five permission arms and two recovery arms, totaling 874 drill runs to assess damage determinants.",
+          "key_points": [
+            "4B‑12B params",
+            "35B MoE 3B active",
+            "4 engines"
+          ],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Torcalia.jl: An MPI-based Runtime System for Asynchronous Task Parallelism in Julia",
+          "url": "https://arxiv.org/abs/2611.30776v1",
+          "source": "arXiv cs.DC",
+          "section": "cs-research",
+          "published": "2026-11-23T14:44:16+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "4fac6f2c0609558618a1a0f293472984ae3a1cc1",
+          "summary": "Torcalia.jl is a Julia package that provides an MPI- and multithreading‑based runtime for asynchronous task parallelism across shared and distributed memory systems.",
+          "detail": "It targets irregular, adaptive workloads where bulk‑synchronous models underperform, using dependency‑aware scheduling to dynamically map fine‑grained tasks onto modern HPC hierarchies. The system builds on MPI.jl and Julia's native threading.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Ziv: A Language for Correctly Rounded Math Libraries",
+          "url": "https://arxiv.org/abs/2611.30346v1",
+          "source": "arXiv cs.PL",
+          "section": "cs-research",
+          "published": "2026-11-23T09:18:50+00:00",
+          "points": null,
+          "score": 3.0,
+          "id": "832e0940456901d81460acf79b103d4b45a91e3a",
+          "summary": "Ziv is a small language and compiler that enables development of correctly rounded math libraries with high‑level numerical abstractions, emitting provably sound C code.",
+          "detail": "The system integrates types and operations for extended‑precision arithmetic and staged computation, allowing precomputed constants and runtime calculations to coexist in one source file, improving readability and maintainability over existing ad‑hoc approaches.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "CGSpec: Consistency-Guided Speculative Decoding with Overlap-Aware Verification Scheduling for Edge-Cloud Inference",
+          "url": "https://arxiv.org/abs/2611.30455v1",
+          "source": "arXiv cs.DC",
+          "section": "cs-research",
+          "published": "2026-11-23T10:46:17+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "56daff404e292e57ff462f2affd3949859757785",
+          "summary": "CGSpec introduces a consistency‑guided framework that adapts speculative decoding budgets and schedules verification to improve edge‑cloud LLM inference efficiency.",
+          "detail": "It uses draft target divergence to limit wasted verification, a nomination‑competition mechanism for candidate token trees, and an overlap‑aware scheduler that predicts remaining work and client return times, boosting verifier utilization across heterogeneous networks.",
+          "key_points": [],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        },
+        {
+          "title": "Geometry, Reliability, and Spacetime Dynamics of Hyper-Simplex Fractal Networks",
+          "url": "https://arxiv.org/abs/2611.31161v1",
+          "source": "arXiv cs.NI",
+          "section": "cs-research",
+          "published": "2026-11-23T18:23:45+00:00",
+          "points": null,
+          "score": 2.5,
+          "id": "45270204284fd65158e0435b108177e9e5180d09",
+          "summary": "The hyper‑simplex fractal network G(N,m) achieves deterministic routing and linear PBFT message load by embedding N peers in a recursive N‑clique topology with dimension log₂ N.",
+          "detail": "Nodes use digit‑word addresses to determine adjacency without routing tables, forwarding greedily along exact shortest paths. Hierarchical PBFT runs on the same prefix tree, yielding logarithmic fault‑free latency while maintaining strong consistency.",
+          "key_points": [
+            "linear message load",
+            "logarithmic latency",
+            "dimension log2 N"
+          ],
+          "tag": "Research",
+          "highlight": false,
+          "image": "",
+          "related": {}
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "title": "Trending repos",
+      "tier": 5,
+      "items": [
+        {
+          "title": "odoo/odoo",
+          "url": "https://github.com/odoo/odoo",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 56065,
+          "score": 2.0,
+          "id": "7e6d44f2920e6aa023dcd89bf7414c43426aa7e8",
+          "summary": "Odoo is an open‑source suite of business applications for ERP, CRM, and e‑commerce.",
+          "detail": "The project provides modular apps that can be combined to grow a business, with a Python backend and a web‑based UI. Community contributions extend its functionality across many domains.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/0ce772f6b20d7d27a6cc0c5431be879b1d0329144f92ab4f79d59ed873e76daf/odoo/odoo",
+          "related": {}
+        },
+        {
+          "title": "openvinotoolkit/openvino",
+          "url": "https://github.com/openvinotoolkit/openvino",
+          "source": "GitHub trending",
+          "section": "repos",
+          "published": null,
+          "points": 12379,
+          "score": 2.0,
+          "id": "c668885413064aa1c3fae77228802d4718da1d11",
+          "summary": "OpenVINO™ is an open‑source toolkit for optimizing and deploying AI inference on heterogeneous hardware.",
+          "detail": "It supports model conversion, graph optimizations, and runtime execution across CPUs, GPUs, VPUs, and accelerators, enabling developers to achieve lower latency and higher throughput for deep learning workloads.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/4302eb85fae34a0bba43229eb58489439688e9a351b03aa3024b27367e4c0e1f/openvinotoolkit/openvino",
+          "related": {}
+        },
+        {
+          "title": "p-e-w/heretic",
+          "url": "https://github.com/p-e-w/heretic",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 42926,
+          "score": 2.0,
+          "id": "154fbef78131eecfc3a43c713cde33a89a07433f",
+          "summary": "p-e-w/heretic is a Python tool that modifies language models without training to remove censorship, suppress slop, and reduce sycophancy.",
+          "detail": "The approach works by applying post‑processing adjustments directly to model outputs, avoiding the need for costly fine‑tuning. It targets common undesirable behaviors in large language models, offering a lightweight alternative for developers seeking more controlled responses.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/c391139d967f2ab492c794de5bff75727c5f3979ff7d35ac6e587af64e265939/p-e-w/heretic",
+          "related": {}
+        },
+        {
+          "title": "perspective-dev/perspective",
+          "url": "https://github.com/perspective-dev/perspective",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 11750,
+          "score": 2.0,
+          "id": "acf9751f39b852c6486423abe8250e36e1fa8415",
+          "summary": "perspective-dev/perspective is a Rust library for visualizing and analyzing large or streaming datasets.",
+          "detail": "Designed for high‑throughput scenarios, it provides components that can render real‑time charts and perform statistical analytics on the fly. Its performance focus makes it suitable for monitoring systems and dashboards handling continuous data streams.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://repository-images.githubusercontent.com/109291007/a79cd3e3-4868-445c-9b13-2371066054db",
+          "related": {}
+        },
+        {
+          "title": "phone-harness/phone-harness",
+          "url": "https://github.com/phone-harness/phone-harness",
+          "source": "GitHub trending · python",
+          "section": "repos",
+          "published": null,
+          "points": 5630,
+          "score": 2.0,
+          "id": "a7cf62d343d0c00b113eea7391198d2d04b5e555",
+          "summary": "phone-harness/phone-harness is a Python framework that lets an AI agent control a smartphone.",
+          "detail": "The tool exposes phone functions such as app launching, UI interaction, and sensor access to autonomous agents, enabling research in mobile automation and human‑AI interaction. It abstracts device communication details, simplifying integration with reinforcement‑learning pipelines.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/4302eb85fae34a0bba43229eb58489439688e9a351b03aa3024b27367e4c0e1f/phone-harness/phone-harness",
+          "related": {}
+        },
+        {
+          "title": "pola-rs/polars",
+          "url": "https://github.com/pola-rs/polars",
+          "source": "GitHub trending · rust",
+          "section": "repos",
+          "published": null,
+          "points": 40472,
+          "score": 2.0,
+          "id": "7f230ade70cb81ce2a7afc8ee6fd22c85409fde0",
+          "summary": "pola-rs/polars is a Rust‑based DataFrame query engine noted for extreme speed.",
+          "detail": "Polars leverages columnar storage and parallel execution to outperform many traditional DataFrame libraries, especially on large datasets. It offers an expressive API compatible with Python and Rust, making it attractive for performance‑critical data processing tasks.",
+          "key_points": [],
+          "tag": "Repo",
+          "highlight": false,
+          "image": "https://opengraph.githubassets.com/089ead397232c5e7b4d3aae57c60679805cf1af421574a4a45af3ec96473f58b/pola-rs/polars",
+          "related": {}
+        }
+      ]
+    }
+  ]
+}
