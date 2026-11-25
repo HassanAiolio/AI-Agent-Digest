@@ -269,11 +269,6 @@
 "title": "2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale",
 "url": "https://engineering.fb.com/2026/10/15/production-engineering/2026-world-cup-record-traffic-reliability-at-scale/"
 },
-"06e27b71452bd1f124c68f90710555f3188c73e4": {
-"date": "2026-08-26",
-"title": "NoC-Out: A Formally-verified Network-on-Chip Library for Rule-based Hardware Designs",
-"url": "https://arxiv.org/abs/2608.24478v1"
-},
 "0703988e3a3319168a4bed769fe486164f0f87f1": {
 "date": "2026-09-01",
 "title": "OpenAI supports California’s bill to advance youth AI safety",
@@ -373,11 +368,6 @@
 "date": "2026-09-18",
 "title": "LLM Classification Is Feature Engineering",
 "url": "https://minimallysufficient.com/posts/llm-classification-is-feature-extraction/"
-},
-"094b4bbee90e10500cf11dad4fd3d8ef3640c039": {
-"date": "2026-08-26",
-"title": "M2Team/NanaZip",
-"url": "https://github.com/M2Team/NanaZip"
 },
 "094d59c464deb6eacbc54b4ab6d1405d9d5fa890": {
 "date": "2026-09-04",
@@ -479,6 +469,11 @@
 "title": "xerj-org/xerj",
 "url": "https://github.com/xerj-org/xerj"
 },
+"0b6bd86f0f5a57bafa0802f0e390f3a4e86c65b2": {
+"date": "2026-11-25",
+"title": "Security updates for Tuesday",
+"url": "https://lwn.net/Articles/1109472/"
+},
 "0b7b6272faafd263a3f9d89c1970b72b9a758f48": {
 "date": "2026-09-03",
 "title": "[$] Securely suspending LUKS-encrypted disks",
@@ -508,11 +503,6 @@
 "date": "2026-11-21",
 "title": "agentscope-ai/agentscope",
 "url": "https://github.com/agentscope-ai/agentscope"
-},
-"0c42f57d5906be60b531f4739a8a61a4a73a8f39": {
-"date": "2026-08-26",
-"title": "MemPalace/mempalace",
-"url": "https://github.com/MemPalace/mempalace"
 },
 "0c4513f9c8725532a1de2f51a2d6ed7aae0d9869": {
 "date": "2026-09-07",
@@ -579,6 +569,11 @@
 "title": "Bridging the Vendor Gap: Enabling AMD GPU Support for Awkward Array via ROCm/HIP for the HL-LHC Era",
 "url": "https://arxiv.org/abs/2609.24628v1"
 },
+"0d8869dcea8dc56b6c238b3de094976a40f813d8": {
+"date": "2026-11-25",
+"title": "A Switchboard Operator Simulator, On Real Hardware",
+"url": "https://hackaday.com/2026/11/24/a-switchboard-operator-simulator-on-real-hardware/"
+},
 "0d88eaa1830b5f5119b854718441aa33e86a80a8": {
 "date": "2026-09-15",
 "title": "OpenBMB/VoxCPM",
@@ -623,6 +618,11 @@
 "date": "2026-10-29",
 "title": "RxNaison/Epson-Waste-Reset",
 "url": "https://github.com/RxNaison/Epson-Waste-Reset"
+},
+"0ed5abc0701ccafc8b15a18374c21bb60f447f97": {
+"date": "2026-11-25",
+"title": "Blockchain-IoT Convergence for Spatiotemporal Data Systems: Challenges, Solutions, and Research Gaps",
+"url": "https://arxiv.org/abs/2611.33019v1"
 },
 "0edb74315f9fc01ebb205f56e31512ec300b1df4": {
 "date": "2026-11-19",
@@ -684,11 +684,6 @@
 "title": "On Turn-Level Best-of-N Sampling for Scaling LLM Agents",
 "url": "https://arxiv.org/abs/2611.06868v1"
 },
-"101d64ec09c10a51ba475fd5af489eb7b978f1ba": {
-"date": "2026-08-26",
-"title": "MoTE: Mixture of Task Experts for Multi-Task Video Understanding",
-"url": "https://arxiv.org/abs/2608.24763v1"
-},
 "1040963ccfe21897bb21fdcaf5ac9301d14ab0aa": {
 "date": "2026-10-12",
 "title": "Inside a Mystery 1980s Filter IC Featuring Switched Capacitors",
@@ -703,11 +698,6 @@
 "date": "2026-11-14",
 "title": "X Window System on the ESP32",
 "url": "https://hackaday.com/2026/11/13/x-window-system-on-the-esp32/"
-},
-"1051691132d5ea69669ed0f4c7e5c17b6aafc4d4": {
-"date": "2026-08-26",
-"title": "Security updates for Tuesday",
-"url": "https://lwn.net/Articles/1090524/"
 },
 "107fa284a0c68c92aa3fb20a3fc12d2f1b845bf6": {
 "date": "2026-09-06",
@@ -954,11 +944,6 @@
 "title": "CursorTouch/Windows-MCP",
 "url": "https://github.com/CursorTouch/Windows-MCP"
 },
-"15bd315b2bc31d3199257af38b6061f648778b8a": {
-"date": "2026-08-26",
-"title": "MGQL: An Executable, Small-Step Semantics of GQL",
-"url": "https://arxiv.org/abs/2608.24565v1"
-},
 "15c1f8ef7a582594bf056b85165849e9f70ce0f3": {
 "date": "2026-10-23",
 "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
@@ -988,6 +973,11 @@
 "date": "2026-10-02",
 "title": "dmtrKovalenko/fframes",
 "url": "https://github.com/dmtrKovalenko/fframes"
+},
+"16565a3f5dc091b0864725078fd4c4547458c83f": {
+"date": "2026-11-25",
+"title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+"url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance"
 },
 "1673cfd4c00e76083dcdf001daa9623fcadf2b53": {
 "date": "2026-08-28",
@@ -1143,11 +1133,6 @@
 "date": "2026-09-25",
 "title": "Mesh-LLM/mesh-llm",
 "url": "https://github.com/Mesh-LLM/mesh-llm"
-},
-"19c48448cb18740e92a6d31b2b3f32b863480bd5": {
-"date": "2026-08-26",
-"title": "Vanilla OS 3 released",
-"url": "https://lwn.net/Articles/1090527/"
 },
 "19db7cc5ca5cc5ea9756742a5f11d351db2a9625": {
 "date": "2026-09-30",
@@ -1374,11 +1359,6 @@
 "title": "Kernel prepatch 7.3-rc4",
 "url": "https://lwn.net/Articles/1095491/"
 },
-"1e63a1cf71912b03dcc236faef03fbb62a79788c": {
-"date": "2026-08-26",
-"title": "Next-generation O-RAN Edge: Energy-aware Joint Placement and Migration of Cloud-Native Functions",
-"url": "https://arxiv.org/abs/2608.24841v1"
-},
 "1e6a4c8a6bb1da0bb0a5451ff5d606af4d976103": {
 "date": "2026-09-01",
 "title": "ELASTIC: Trajectory-Based Synchronization of Event and Tracking Data in Soccer",
@@ -1483,6 +1463,11 @@
 "date": "2026-08-30",
 "title": "Laser Your Way to Smoother FDM 3D Prints",
 "url": "https://hackaday.com/2026/08/29/laser-your-way-to-smoother-fdm-3d-prints/"
+},
+"2164a3d31daa40a617977220b03f2375cc6fecea": {
+"date": "2026-11-25",
+"title": "Can a Frontier LLM Repair a Quantized Network by Tool-Free Weight-Space Programming?",
+"url": "https://arxiv.org/abs/2611.33031v1"
 },
 "2167f85e86bee0f38967a517985b3d4ed69710cc": {
 "date": "2026-11-04",
@@ -2134,6 +2119,11 @@
 "title": "CompCert4Lean: Porting a Verified C Compiler to Lean in Six Weeks with Parallel Coding Agents",
 "url": "https://arxiv.org/abs/2611.21084v1"
 },
+"307ee10e51005546be364a587c7489adf434d5a8": {
+"date": "2026-11-25",
+"title": "Firefox 161.0 released",
+"url": "https://lwn.net/Articles/1109478/"
+},
 "3085025428289593f30465822f194b31f464bc13": {
 "date": "2026-09-09",
 "title": "Jellyfin 12.0 released",
@@ -2258,6 +2248,11 @@
 "date": "2026-10-17",
 "title": "Hackaday Podcast Episode 391: Tuned in to ESP32 SDR, New Old Pagers, and Bugs on Mars",
 "url": "https://hackaday.com/2026/10/16/hackaday-podcast-episode-391-tuned-in-to-esp32-sdr-new-old-pagers-and-bugs-on-mars/"
+},
+"341b0d6fbcc3477d255469de8ef8ef02330e3341": {
+"date": "2026-11-25",
+"title": "vllm-project/vllm-ascend",
+"url": "https://github.com/vllm-project/vllm-ascend"
 },
 "342677ae7eadb2eb62e4a38c30f07848c459226e": {
 "date": "2026-10-07",
@@ -2459,6 +2454,11 @@
 "title": "How AI-native companies turn workflows into operating capability",
 "url": "https://openai.com/index/ai-native-company-workflows"
 },
+"3b6ae675819ab40c963f40ec436871582c42f64c": {
+"date": "2026-11-25",
+"title": "rustdesk/rustdesk",
+"url": "https://github.com/rustdesk/rustdesk"
+},
 "3bbc16e0bfc64fc1d73d69b696ec0b3cad72c27e": {
 "date": "2026-11-05",
 "title": "[$] Portable Python scripts with dependencies",
@@ -2503,6 +2503,11 @@
 "date": "2026-11-18",
 "title": "Purism Launches Librem 5 v2, a RISC-V Phone to Empower People",
 "url": "https://puri.sm/posts/purism-launches-librem-5-v2-a-risc-v-phone-to-empower-people/"
+},
+"3c6728c1bfd198791155e7911f8c578086a9a218": {
+"date": "2026-11-25",
+"title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+"url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
 },
 "3ca87c5cace62b1e7869bb0ae7af44eb271ab580": {
 "date": "2026-11-19",
@@ -2753,11 +2758,6 @@
 "date": "2026-09-10",
 "title": "[$] Typst makes big strides",
 "url": "https://lwn.net/Articles/1092993/"
-},
-"45187fa653274045615099440639feabea094dff": {
-"date": "2026-08-26",
-"title": "Bookshelf – Self-hosted eBook library that runs on object storage",
-"url": "https://github.com/murerkinn/bookshelf"
 },
 "45270204284fd65158e0435b108177e9e5180d09": {
 "date": "2026-11-24",
@@ -3174,11 +3174,6 @@
 "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
 "url": "https://stateofutopia.com/experiments/microllmlab/"
 },
-"513ad6acdf15c6ad9dac5b95c611cf1323c9e8cb": {
-"date": "2026-08-26",
-"title": "mklinux-v7.0-mk2 released",
-"url": "https://lwn.net/Articles/1090582/"
-},
 "5171d7a0e0a9eb384fa01ce7b801f37f3d432c15": {
 "date": "2026-09-10",
 "title": "pascalorg/editor",
@@ -3263,6 +3258,11 @@
 "date": "2026-10-01",
 "title": "colbymchenry/codegraph",
 "url": "https://github.com/colbymchenry/codegraph"
+},
+"52d9f51db01681be72d0565dddcbdbed06393d46": {
+"date": "2026-11-25",
+"title": "Vx: A Programming Language for Scalable, Maintainable and Secure Systems",
+"url": "https://arxiv.org/abs/2611.32217v1"
 },
 "530db518a73a571777c529207d091f26be78d527": {
 "date": "2026-09-22",
@@ -3563,6 +3563,11 @@
 "date": "2026-10-10",
 "title": "Model: Cactus-Compute/whistle",
 "url": "https://huggingface.co/Cactus-Compute/whistle"
+},
+"5badc70e358eaccd212693c8cc55228436856984": {
+"date": "2026-11-25",
+"title": "Concurrent Visibility: Higher-Order Concurrency with First-Order Store",
+"url": "https://arxiv.org/abs/2611.32234v1"
 },
 "5bb1b87db247d8b58151e0ce9fec4f7f3f1e00cd": {
 "date": "2026-10-30",
@@ -3954,6 +3959,11 @@
 "title": "[$] LWN.net Weekly Edition for September 3, 2026",
 "url": "https://lwn.net/Articles/1090824/"
 },
+"65afd63f74d0b10eacdd2b7d03224e6e56e2ca83": {
+"date": "2026-11-25",
+"title": "The 3D Printer Scam Targeting UK Hackerspaces",
+"url": "https://hackaday.com/2026/11/24/the-3d-printer-scam-targeting-uk-hackerspaces/"
+},
 "65c0037a397e26efcef338a3c741ba2dbaf88627": {
 "date": "2026-11-06",
 "title": "blacklanternsecurity/bbot",
@@ -4034,6 +4044,11 @@
 "title": "Security updates for Monday",
 "url": "https://lwn.net/Articles/1091536/"
 },
+"678adf795ae6b4ae5cd3a728bc4a5b832a3c5174": {
+"date": "2026-11-25",
+"title": "Keeping your Molten Salt Reactor Fuel Fresh with Helium Bubbles",
+"url": "https://hackaday.com/2026/11/24/keeping-your-molten-salt-reactor-fuel-fresh-with-helium-bubbles/"
+},
 "6790a6c53c6649e4dd0f49771edfd7ec1242ff17": {
 "date": "2026-09-27",
 "title": "bregman-arie/devops-exercises",
@@ -4078,6 +4093,11 @@
 "date": "2026-10-14",
 "title": "Asterinas 0.19.0 released",
 "url": "https://lwn.net/Articles/1100055/"
+},
+"686e7595812012684d4013900b2f6cd05c05ca0b": {
+"date": "2026-11-25",
+"title": "ruffle-rs/ruffle",
+"url": "https://github.com/ruffle-rs/ruffle"
 },
 "687ce576e92bd9bb322688517b7cd87b547befff": {
 "date": "2026-11-19",
@@ -4483,11 +4503,6 @@
 "date": "2026-09-29",
 "title": "samugit83/redamon",
 "url": "https://github.com/samugit83/redamon"
-},
-"74043a2c13e42e05cf84893560f1fd94bb4edd2e": {
-"date": "2026-08-26",
-"title": "Granite 4.2 LLMs: How They're Built",
-"url": "https://huggingface.co/blog/ibm-granite/granite-4-2"
 },
 "742f47978a6f66229dcf08be5963afe3f523198f": {
 "date": "2026-10-03",
@@ -5459,6 +5474,11 @@
 "title": "Comments Paper: Counterexample for Schedulability Analysis for Self-Suspending Tasks under EDF-Like Scheduling",
 "url": "https://arxiv.org/abs/2610.26274v1"
 },
+"8cd298b0622be8c62752732e8754478276bf77c5": {
+"date": "2026-11-25",
+"title": "Estimating GPU Roofline Arithmetic Intensity with Off-the-Shelf LLMs and Compiler Artifacts",
+"url": "https://arxiv.org/abs/2611.32975v1"
+},
 "8cf352f77dfa55eb14ce8c06ef962dccb5fd1233": {
 "date": "2026-10-13",
 "title": "Model: nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
@@ -5709,6 +5729,11 @@
 "title": "GoogleChrome/modern-web-guidance-src",
 "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
 },
+"95f66e605143951cf4404ed00e5ff6b01702b15f": {
+"date": "2026-11-25",
+"title": "Model: llamaindex/OCRia-nano-1",
+"url": "https://huggingface.co/llamaindex/OCRia-nano-1"
+},
 "9658836c8e4ce085379b1e2b45c13ca01d1782f7": {
 "date": "2026-09-02",
 "title": "Introducing agentic video understanding with Gemini",
@@ -5909,11 +5934,6 @@
 "title": "google-gemini/gemini-cli",
 "url": "https://github.com/google-gemini/gemini-cli"
 },
-"9ad99bb5f40a3110bd8575be9a0ebe1e31025100": {
-"date": "2026-08-26",
-"title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-"url": "https://openai.com/index/jalapeno-first-results"
-},
 "9b13d6a721a0c27049840c9b9a043dabdb98a309": {
 "date": "2026-10-18",
 "title": "Model: deepseek-ai/DeepSeek-V4.1-Flash-1017",
@@ -5948,6 +5968,11 @@
 "date": "2026-09-12",
 "title": "Hackaday Podcast Episode 386: Doomscroll Tamagotchis, Clavichords, and Vibrotrucks",
 "url": "https://hackaday.com/2026/09/11/hackaday-podcast-episode-386-doomscroll-tamagotchis-clavichords-and-vibrotrucks/"
+},
+"9b60f3c3da8786c50204dc31596cb63f81f91aea": {
+"date": "2026-11-25",
+"title": "From CUDA and Jax to TorchTPU: Lessons from a Cayley Graph Solver",
+"url": "https://andlukyane.com/blog/cayley-graphs-and-torchtpu"
 },
 "9b702d94feb2eae1b083a9c2b22992c0427be968": {
 "date": "2026-10-20",
@@ -6594,6 +6619,11 @@
 "title": "bytedance/deer-flow",
 "url": "https://github.com/bytedance/deer-flow"
 },
+"ab374f53b7501bdbc9399b76fbeed4ae57b26673": {
+"date": "2026-11-25",
+"title": "Verifying Type Soundness for Nontransitive Information Flow Security",
+"url": "https://arxiv.org/abs/2611.32123v1"
+},
 "ab4db0e79ddbc61ae5929623844a2d8d24c88730": {
 "date": "2026-11-02",
 "title": "guillaumeblanc/ozz-animation",
@@ -6623,11 +6653,6 @@
 "date": "2026-11-13",
 "title": "ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
 "url": "https://arxiv.org/abs/2611.17332v1"
-},
-"abf8c195f2e9dfc32f7a85f74dfae4b7d7ba870d": {
-"date": "2026-08-26",
-"title": "AI Book Scanning: Just What Is A Rare Book?",
-"url": "https://hackaday.com/2026/08/25/ai-book-scanning-just-what-is-a-rare-book/"
 },
 "ac17b3678b1b40432efd1ce7dc6165d46b18c7bf": {
 "date": "2026-08-27",
@@ -7429,6 +7454,11 @@
 "title": "FareedKhan-dev/train-llm-from-scratch",
 "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch"
 },
+"c07b1f74d8c172d6f064f966412c7a84b508bb2c": {
+"date": "2026-11-25",
+"title": "pytorch/torchtitan",
+"url": "https://github.com/pytorch/torchtitan"
+},
 "c09f0d40ed19cff13e11fd788c7f6d588eb4f00f": {
 "date": "2026-09-28",
 "title": "Center-Pivot System Modified to Mow Lawn",
@@ -7443,11 +7473,6 @@
 "date": "2026-11-06",
 "title": "Critical security vulnerability affects OpenSSH on Alpine Linux systems",
 "url": "https://lwn.net/Articles/1105464/"
-},
-"c0e9bfb426573132760dd1052c06834d369efc2c": {
-"date": "2026-08-26",
-"title": "[$] Old-school calendaring at the command line with Remind",
-"url": "https://lwn.net/Articles/1090376/"
 },
 "c0ef9cda400badbd01ab461074cc49015cd01cd8": {
 "date": "2026-09-09",
@@ -7524,11 +7549,6 @@
 "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
 "url": "https://openai.com/index/cognition-devin-testing-with-astra"
 },
-"c3c1fead5b343aeb3eb33a8ed4bbc3e694fcdb2c": {
-"date": "2026-08-26",
-"title": "Quest VR Headset Becomes Unlocked Hardware",
-"url": "https://hackaday.com/2026/08/25/quest-vr-headset-becomes-unlocked-hardware/"
-},
 "c3d9cbd20943ff710fd4d5b6bab65fa7a4cad565": {
 "date": "2026-10-21",
 "title": "Local Inference of LLMs on Long Contexts: A Data Systems Perspective",
@@ -7599,20 +7619,10 @@
 "title": "WerWolv/ImHex",
 "url": "https://github.com/WerWolv/ImHex"
 },
-"c5517eb0fd89fb11c774fee54d42098a3badacac": {
-"date": "2026-08-26",
-"title": "Scalable datacenter replication with mostly-synchronous consensus on hardware",
-"url": "https://arxiv.org/abs/2608.24622v1"
-},
 "c55904e21a85a75ce7c8f881a764bdd05b06b741": {
 "date": "2026-10-29",
 "title": "Model: baidu/Unlimited-OCR-2",
 "url": "https://huggingface.co/baidu/Unlimited-OCR-2"
-},
-"c571e1432e10cd8db85068f307d11f7d3edc13ff": {
-"date": "2026-08-26",
-"title": "IncSFS: Incremental Full-Sparse Flow-Sensitive Pointer Analysis for C/C++",
-"url": "https://arxiv.org/abs/2608.24391v1"
 },
 "c57dfd8e10aff19dd248f5f6d54142be0115db4d": {
 "date": "2026-11-14",
@@ -7699,6 +7709,11 @@
 "title": "[$] Reducing undefined behavior in the C language",
 "url": "https://lwn.net/Articles/1095811/"
 },
+"c7029788edd1bbb3290f13057683f488222f41de": {
+"date": "2026-11-25",
+"title": "Ask Hackaday: Putting the C in CPU",
+"url": "https://hackaday.com/2026/11/24/ask-hackaday-putting-the-c-in-cpu/"
+},
 "c703ca8c2001b3de021955679a1a26317704d8bd": {
 "date": "2026-09-18",
 "title": "A Simulation Platform for AUV Fault Recovery: Exploring LLM-Based Diagnostic Strategies",
@@ -7783,11 +7798,6 @@
 "date": "2026-09-12",
 "title": "All The Best Computers Boot To… Python?",
 "url": "https://hackaday.com/2026/09/11/all-the-best-computers-boot-to-python/"
-},
-"c937883d7b05aec06ffdc2dbd6f6082ee3b35868": {
-"date": "2026-08-26",
-"title": "xingkongliang/skills-manager",
-"url": "https://github.com/xingkongliang/skills-manager"
 },
 "c95d4b65fb7cab4e0761e355a6fde4a2bf408493": {
 "date": "2026-11-10",
@@ -8059,6 +8069,11 @@
 "title": "Towards safety cases for frontier AI training",
 "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training"
 },
+"cf518275b38f17da838758133b5849918c673b58": {
+"date": "2026-11-25",
+"title": "Can LLM Judges Catch Unsafe Clinical Actions? A Fault-Injection Study",
+"url": "https://arxiv.org/abs/2611.33012v1"
+},
 "cf637d353ea8bc6fa1e578ea06e7070eac034312": {
 "date": "2026-10-21",
 "title": "OpenBSD 8.0 released",
@@ -8083,11 +8098,6 @@
 "date": "2026-11-13",
 "title": "[Experiment, Analysis, and Benchmark] How well do LLMs comprehend and design relational database schemata?",
 "url": "https://arxiv.org/abs/2611.17044v1"
-},
-"cfc376addf8c822433f0700057e399bca195ee0e": {
-"date": "2026-08-26",
-"title": "Introducing the Admin plugin for ChatGPT Work and Codex",
-"url": "https://openai.com/index/introducing-admin-plugin"
 },
 "cfe0b4420dd5ea9eacaf8dffb55fb7bfd229e024": {
 "date": "2026-09-20",
@@ -8128,6 +8138,11 @@
 "date": "2026-10-21",
 "title": "eMudhra intermediate CA compromise",
 "url": "https://lwn.net/Articles/1101643/"
+},
+"d0a3a7f662b58965bac4af6309f496652b034a9c": {
+"date": "2026-11-25",
+"title": "An Indic Voice Agent with CUGA",
+"url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"
 },
 "d0b5754fb37fce707dd4df7f25fddcce3bc3cc11": {
 "date": "2026-09-07",
@@ -8223,6 +8238,11 @@
 "date": "2026-09-10",
 "title": "Maverick: Private and Verifiable LLM Inference Made Practical via Matrix-Vector Multiplication Delegation",
 "url": "https://arxiv.org/abs/2609.10264v1"
+},
+"d3d71383aba0932dc3487765ad049e3af1bee44c": {
+"date": "2026-11-25",
+"title": "Parallel Memory Management in Goose, C++, and Rust: An Experimental Study of Allocation, Reclamation, and Scaling",
+"url": "https://arxiv.org/abs/2611.32653v1"
 },
 "d3e1e98ad4207b5ca58c5f0a8c97ed7d27efcd5e": {
 "date": "2026-08-29",
@@ -8469,11 +8489,6 @@
 "title": "agent-substrate/substrate",
 "url": "https://github.com/agent-substrate/substrate"
 },
-"d93402ba869cdd436f0815bd9c54a4f288b5c175": {
-"date": "2026-08-26",
-"title": "A Literate Programming Environment for Human and Machine Agents",
-"url": "https://arxiv.org/abs/2608.24644v1"
-},
 "d954157c0dae30d35c81085e059d77aa8bc4d169": {
 "date": "2026-09-25",
 "title": "FxEmbed/FxEmbed",
@@ -8493,11 +8508,6 @@
 "date": "2026-11-20",
 "title": "Model: HuggingFaceTB/SmolVLM2-256M-Video-Instruct",
 "url": "https://huggingface.co/HuggingFaceTB/SmolVLM2-256M-Video-Instruct"
-},
-"da55f7d7bd9decaab106ee015dff29c37cee5a81": {
-"date": "2026-08-26",
-"title": "Disrupting a new covert influence campaign from Russia",
-"url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia"
 },
 "da869240778aa8c873d079fe9959c05923c5f911": {
 "date": "2026-11-03",
@@ -8569,11 +8579,6 @@
 "title": "ARACDE: Retrofitting Databases with ABAC using External Authorization Engines",
 "url": "https://arxiv.org/abs/2610.18660v1"
 },
-"dbd5adafc40739487d3203587de8fb38bbf92997": {
-"date": "2026-08-26",
-"title": "DietrichGebert/ponytail",
-"url": "https://github.com/DietrichGebert/ponytail"
-},
 "dbd6f9784b7a8fae01f1b4c42137176713eb5eea": {
 "date": "2026-09-18",
 "title": "Vinix – A modern operating system written in V",
@@ -8633,6 +8638,11 @@
 "date": "2026-10-06",
 "title": "VictorTaelin/OptMem",
 "url": "https://github.com/VictorTaelin/OptMem"
+},
+"dde555db64a1c1fb8d8b2f8aa034ee44b8b232c6": {
+"date": "2026-11-25",
+"title": "A Bias in Disguise: Tiny Gradient Edits Stop a Small Language Model's Thinking Loops and Complement a Frontier Model's Weight Edit",
+"url": "https://arxiv.org/abs/2611.33133v1"
 },
 "ddff5736d9248707a2446bea7f504b09aee4263f": {
 "date": "2026-11-10",
@@ -8904,6 +8914,11 @@
 "title": "Beyond Marginal Monitoring: Distributed Joint-Distribution Testing for Data Concept Drift in Large Scale E-Commerce Operations",
 "url": "https://arxiv.org/abs/2610.08132v1"
 },
+"e535a2f5bfb49c1d354347ca22574e9c4950cfc6": {
+"date": "2026-11-25",
+"title": "superdesigndev/treg",
+"url": "https://github.com/superdesigndev/treg"
+},
 "e53f91b8c346871134bb705daf85e250c15961bd": {
 "date": "2026-10-04",
 "title": "calesthio/OpenMontage",
@@ -8933,11 +8948,6 @@
 "date": "2026-11-09",
 "title": "A Smart Alarm Clock That Doesn’t Sell Your Soul",
 "url": "https://hackaday.com/2026/11/08/a-smart-alarm-clock-that-doesnt-sell-your-soul/"
-},
-"e5f5489ba83b8685af7f516f761793d99bb8f007": {
-"date": "2026-08-26",
-"title": "yhirose/cpp-httplib",
-"url": "https://github.com/yhirose/cpp-httplib"
 },
 "e5fdc92139fff718623f3bdff7ebfd623e56f8c4": {
 "date": "2026-10-07",
@@ -9003,11 +9013,6 @@
 "date": "2026-11-21",
 "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
 "url": "https://www.anthropic.com/news/ipo-close"
-},
-"e73a5d9d6c65f4fbda8bdea37521c3b2ecd10773": {
-"date": "2026-08-26",
-"title": "Right Diagnoses, Decorative Reasoning:A Perturbation Audit of Medical Chain-of-Thought",
-"url": "https://arxiv.org/abs/2608.24790v1"
 },
 "e73decf23007c2a363438e409e5c1e33dcc2de97": {
 "date": "2026-09-08",
@@ -9289,11 +9294,6 @@
 "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
 "url": "https://openai.com/index/sophos"
 },
-"ede4bdc97de2f6a3bbc286a6eb7375e271cdc6a9": {
-"date": "2026-08-26",
-"title": "SkillForge: Evolving Verifiable Skills for Reinforcement Learning Agents",
-"url": "https://arxiv.org/abs/2608.24747v1"
-},
 "edef63b51aedc0121d1aea11f9472c530dce47d4": {
 "date": "2026-10-22",
 "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
@@ -9343,6 +9343,11 @@
 "date": "2026-11-03",
 "title": "Why Tabular Foundation Models Excel on Relational Data They Have Never Seen",
 "url": "https://arxiv.org/abs/2611.02936v1"
+},
+"ef8096d74f5dfd33bbd5ed7fb2e703fe406064ae": {
+"date": "2026-11-25",
+"title": "LLM agents work for their parent companies, not for you",
+"url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/"
 },
 "efa68afd8c472b6b43fbce52790d8e77ca7a0ac7": {
 "date": "2026-09-07",
@@ -9469,6 +9474,11 @@
 "title": "A Living Benchmark for Information Retrieval from Electronic Health Records",
 "url": "https://arxiv.org/abs/2609.30205v1"
 },
+"f3aa9260f1094b3713b95db83158321ea63632fb": {
+"date": "2026-11-25",
+"title": "Searching for distant planets with Astra",
+"url": "https://openai.com/index/searching-for-distant-planets-with-astra"
+},
 "f3d12c0e7b466c4ab0e96d7800bcf655cd1adf9c": {
 "date": "2026-09-24",
 "title": "Bringing Private Processing to Meta AI Glasses",
@@ -9573,11 +9583,6 @@
 "date": "2026-09-03",
 "title": "ankitects/anki",
 "url": "https://github.com/ankitects/anki"
-},
-"f6b26e55a4899220c24a609866e904dd44c2f484": {
-"date": "2026-08-26",
-"title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-"url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing"
 },
 "f6b627740508a9d9502bf5cd5bca04f4284115d9": {
 "date": "2026-11-18",
@@ -9838,6 +9843,11 @@
 "date": "2026-11-20",
 "title": "Model: briaai/RMBG-3.0",
 "url": "https://huggingface.co/briaai/RMBG-3.0"
+},
+"fd97a6d57c43f0eaef95cee794ba37e6b1c72cde": {
+"date": "2026-11-25",
+"title": "toeverything/AFFiNE",
+"url": "https://github.com/toeverything/AFFiNE"
 },
 "fdbb04969eba03442ac5021ada433ce56aa39010": {
 "date": "2026-09-23",
