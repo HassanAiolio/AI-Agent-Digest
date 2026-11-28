@@ -109,11 +109,6 @@
 "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
 "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench"
 },
-"02b19aa1e532c3ebe8f8ecb2dc7e02373e65ef86": {
-"date": "2026-08-29",
-"title": "ajeetdsouza/zoxide",
-"url": "https://github.com/ajeetdsouza/zoxide"
-},
 "02e3f36427f017e568c1848d09ea2fbe8ce5af91": {
 "date": "2026-09-02",
 "title": "RotaryCell: Making an unmodified rotary phone work over LTE with an ESP32-S3",
@@ -1024,6 +1019,11 @@
 "title": "Systemtap 5.6 released",
 "url": "https://lwn.net/Articles/1095220/"
 },
+"17fdf8d3abb799a656bf7c3d2ddacf2b479db5b5": {
+"date": "2026-11-28",
+"title": "Hackaday Podcast Episode 396: Robot Hands, The Inner Life of Mechanical Watches, and the Truth about 3D Scanning",
+"url": "https://hackaday.com/2026/11/27/hackaday-podcast-episode-396-robot-hands-the-inner-life-of-mechanical-watches-and-the-truth-about-3d-scanning/"
+},
 "18177a36d83526b9b37192893506c68dab9c77eb": {
 "date": "2026-10-15",
 "title": "Preparing for the 2026 US midterms",
@@ -1483,6 +1483,11 @@
 "date": "2026-09-03",
 "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
 "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence"
+},
+"232f2b9e65cb69dc61071f12061cff38d7f393dc": {
+"date": "2026-11-28",
+"title": "Model: sand-ai/MAGI-2-preview",
+"url": "https://huggingface.co/sand-ai/MAGI-2-preview"
 },
 "233409616a1b421190ba6a45d2b49ab20e9b6931": {
 "date": "2026-11-14",
@@ -2389,11 +2394,6 @@
 "title": "Standalone DJ System Runs On ESP32",
 "url": "https://hackaday.com/2026/09/24/standalone-dj-system-runs-on-esp32/"
 },
-"3b295edc362ba7a0e5340c9663ef60afaca4ad44": {
-"date": "2026-08-29",
-"title": "Car: Dolphin 26.08 and KIO performance improvements",
-"url": "https://lwn.net/Articles/1091177/"
-},
 "3b5c4dee73adab4ad920d30411802f79459eb606": {
 "date": "2026-10-09",
 "title": "Digital Signage in the Browser With Just a Click",
@@ -2423,11 +2423,6 @@
 "date": "2026-09-22",
 "title": "Harness-Zero: Harness Distillation via Agent-as-Harness",
 "url": "https://arxiv.org/abs/2609.24974v1"
-},
-"3c09e6d884f5af2f83100aea32949e314a792dee": {
-"date": "2026-08-29",
-"title": "Model: tencent/Hy4-preview",
-"url": "https://huggingface.co/tencent/Hy4-preview"
 },
 "3c0eade9d55572472ae2cb2de005cbaad310f844": {
 "date": "2026-09-04",
@@ -2514,11 +2509,6 @@
 "title": "EarlyEval: Cheaper Agent Evaluation via Early Outcome Prediction",
 "url": "https://arxiv.org/abs/2609.02783v1"
 },
-"3de13b42e404c8302ffbab609e0c8670a25364c7": {
-"date": "2026-08-29",
-"title": "anthropics/claude-plugins-official",
-"url": "https://github.com/anthropics/claude-plugins-official"
-},
 "3df84c61681a2322f107ce798b09c9028b478b92": {
 "date": "2026-09-17",
 "title": "Distribution-Aware Distributed Database Testing (Extended Version)",
@@ -2543,6 +2533,11 @@
 "date": "2026-11-21",
 "title": "Combatting adversarial distillation",
 "url": "https://openai.com/index/combatting-adversarial-distillation"
+},
+"3edc0087da837b706733a486ccbf5ddeb594fc88": {
+"date": "2026-11-28",
+"title": "Model: kandinskylab/Kandinsky-ImageSR-2.0",
+"url": "https://huggingface.co/kandinskylab/Kandinsky-ImageSR-2.0"
 },
 "3ee460c6e6e49013eb4aa73efb5fc72c3ca18a09": {
 "date": "2026-09-17",
@@ -2643,6 +2638,11 @@
 "date": "2026-11-16",
 "title": "It’s A NAS, For Sony Mavica Disks",
 "url": "https://hackaday.com/2026/11/15/its-a-nas-for-sony-mavica-disks/"
+},
+"431854a25addfd351d903765a95916d06628a17e": {
+"date": "2026-11-28",
+"title": "A Detailed Breakdown of the 2021 Texas Power Crisis",
+"url": "https://hackaday.com/2026/11/27/a-detailed-breakdown-of-the-2021-texas-power-crisis/"
 },
 "4326bd460e766ab3f45787992fefdee38c5bc5c8": {
 "date": "2026-09-16",
@@ -3038,11 +3038,6 @@
 "date": "2026-10-06",
 "title": "boykopovar/AnyPS5",
 "url": "https://github.com/boykopovar/AnyPS5"
-},
-"4e534703188e7d043b4eae050bc7b28be7349c43": {
-"date": "2026-08-29",
-"title": "3D Printed Piano Action Faithful to the Original",
-"url": "https://hackaday.com/2026/08/29/3d-printed-piano-action-faithful-to-the-original/"
 },
 "4e68455146ddc1e8b8a2b6de443e345533903dad": {
 "date": "2026-09-30",
@@ -3618,11 +3613,6 @@
 "date": "2026-10-28",
 "title": "Genie 4: A new generation of world simulation",
 "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
-},
-"5efba3a4596644649e308778f914a91f6dc0e701": {
-"date": "2026-08-29",
-"title": "Hackaday Podcast Episode 384: OCR MOD Records, Magical PCBs, and the Gravity of Space Stations",
-"url": "https://hackaday.com/2026/08/28/hackaday-podcast-episode-384-ocr-mod-records-magical-pcbs-and-the-gravity-of-space-stations/"
 },
 "5f5392c48b81e9b7192da4b229b67da624be73f7": {
 "date": "2026-10-16",
@@ -4254,11 +4244,6 @@
 "title": "Model: apple/FastFrames-L",
 "url": "https://huggingface.co/apple/FastFrames-L"
 },
-"6f0715608976cb6d921f956ecf1c0311bdad4677": {
-"date": "2026-08-29",
-"title": "I accidentally turned LLM memory into program analysis",
-"url": "https://pwning.systems/posts/llm-memory-program-analysis/"
-},
 "6f333e184f51c2d98d92426f4ab4f46b4aa4616e": {
 "date": "2026-11-16",
 "title": "Hackaday Links: November 15, 2026",
@@ -4674,6 +4659,11 @@
 "title": "Cliff: Learning Process Rewards from the First Mistake",
 "url": "https://arxiv.org/abs/2609.02817v1"
 },
+"79cb4501c5673fa1af05c4bf5002301423d374c2": {
+"date": "2026-11-28",
+"title": "How to Make a Nixie Tube",
+"url": "https://hackaday.com/2026/11/27/how-to-make-a-nixie-tube/"
+},
 "7a2ad2dcd8c80fc0dc1b3737e77654b031818136": {
 "date": "2026-10-24",
 "title": "[$] Seeking smaller kernel stacks",
@@ -4988,11 +4978,6 @@
 "date": "2026-11-22",
 "title": "Model: apple/DepthPro2",
 "url": "https://huggingface.co/apple/DepthPro2"
-},
-"81969aa19672d4664978ce9ff424a0e4408c50ac": {
-"date": "2026-08-29",
-"title": "[$] The \"rnull\" Rust block driver",
-"url": "https://lwn.net/Articles/1090378/"
 },
 "819f22112f1be3fa7663fa38e6bdcd9b35daa2b9": {
 "date": "2026-09-18",
@@ -5544,11 +5529,6 @@
 "title": "Mitigating Front-Running Attacks through Fair and Resilient Transaction Dissemination",
 "url": "https://arxiv.org/abs/2609.24713v1"
 },
-"92a5947edbb6e798134e5b1cfd70b3b78bb592a1": {
-"date": "2026-08-29",
-"title": "Casting Engine Parts from 3D Prints",
-"url": "https://hackaday.com/2026/08/28/casting-engine-parts-from-3d-prints/"
-},
 "92bbf92701939b97f79fa43316300acefeadf487": {
 "date": "2026-09-13",
 "title": "Big Infinity Mirror Clock Invites You To Gaze Deeply",
@@ -5974,6 +5954,11 @@
 "title": "Play PlayStation 2 and XBox 1 Games on Your Jailbroken PS5",
 "url": "https://hackaday.com/2026/10/03/play-playstation-2-and-xbox-1-games-on-your-jailbroken-ps5/"
 },
+"9d5ba7119b154d0cd2beb14e8dbd8557d064005d": {
+"date": "2026-11-28",
+"title": "Model: baidu/ERNIE-5.5-Flash-Preview",
+"url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview"
+},
 "9d67ed885247f3ca1aaf624be6a3a957d7a2c2ca": {
 "date": "2026-10-11",
 "title": "Mars Pathfinder: What Really Happened?",
@@ -6078,11 +6063,6 @@
 "date": "2026-10-14",
 "title": "Eisentraut: The reverts will continue until morale improves",
 "url": "https://lwn.net/Articles/1100182/"
-},
-"a05885ad3d4f29c088689d2a833d7f47e27cfe69": {
-"date": "2026-08-29",
-"title": "apache/datafusion",
-"url": "https://github.com/apache/datafusion"
 },
 "a074e6021064135ce07e3850f3212b9c24c60382": {
 "date": "2026-10-28",
@@ -6243,11 +6223,6 @@
 "date": "2026-10-30",
 "title": "2026 Hackaday Supercon: All the Speakers!",
 "url": "https://hackaday.com/2026/10/29/2026-hackaday-supercon-all-the-speakers/"
-},
-"a51ad146dc6b61a716515b79e4c13aa4e7ad5305": {
-"date": "2026-08-29",
-"title": "Model: zai-org/GLM-5.3",
-"url": "https://huggingface.co/zai-org/GLM-5.3"
 },
 "a52c8c7978ce760d7d9bafd1ed01590e780b7bc4": {
 "date": "2026-09-06",
@@ -6503,11 +6478,6 @@
 "date": "2026-11-09",
 "title": "bradautomates/claude-video",
 "url": "https://github.com/bradautomates/claude-video"
-},
-"aac9553c9b112b0107dca8968ee66f978f448b56": {
-"date": "2026-08-29",
-"title": "Model: unsloth/GLM-5.3-Flash-GGUF",
-"url": "https://huggingface.co/unsloth/GLM-5.3-Flash-GGUF"
 },
 "ab0290d8d854c033e7061e8c8820196ede18c601": {
 "date": "2026-11-02",
@@ -7499,11 +7469,6 @@
 "title": "A Super-Accurate Clock Using a Tiny Microcontroller",
 "url": "https://hackaday.com/2026/09/15/a-super-accurate-clock-using-a-tiny-microcontroller/"
 },
-"c5264a1d16b4fda887a54e0947b42447b56e9dde": {
-"date": "2026-08-29",
-"title": "abi/screenshot-to-code",
-"url": "https://github.com/abi/screenshot-to-code"
-},
 "c531895db965347b972ed897c5147b3360945c0b": {
 "date": "2026-10-26",
 "title": "Simple, Reliable RF Remote Control",
@@ -7588,6 +7553,11 @@
 "date": "2026-10-14",
 "title": "baidu/Unlimited-OCR",
 "url": "https://github.com/baidu/Unlimited-OCR"
+},
+"c67db8797d97abcf527308afab159abf65348848": {
+"date": "2026-11-28",
+"title": "Security updates for Friday",
+"url": "https://lwn.net/Articles/1110189/"
 },
 "c6c361c53bc4ce2d407e4ebf6ba55c1f510e586f": {
 "date": "2026-11-18",
@@ -7718,11 +7688,6 @@
 "date": "2026-09-28",
 "title": "Kernel prepatch 7.3-rc5",
 "url": "https://lwn.net/Articles/1096959/"
-},
-"ca08b1c29b3dcb3dce5103e7b5f099ded6d5bf31": {
-"date": "2026-08-29",
-"title": "abhigyanpatwari/GitNexus",
-"url": "https://github.com/abhigyanpatwari/GitNexus"
 },
 "ca1ec6c6a1a1314d953bafc0b010c073f56e9464": {
 "date": "2026-10-09",
@@ -8134,11 +8099,6 @@
 "title": "Parallel Memory Management in Goose, C++, and Rust: An Experimental Study of Allocation, Reclamation, and Scaling",
 "url": "https://arxiv.org/abs/2611.32653v1"
 },
-"d3e1e98ad4207b5ca58c5f0a8c97ed7d27efcd5e": {
-"date": "2026-08-29",
-"title": "DOOM Played on Series of 555 Timers",
-"url": "https://hackaday.com/2026/08/28/doom-played-on-series-of-555-timers/"
-},
 "d3e6ec4cacdd92248a1f6ad928d7f0a2e3639052": {
 "date": "2026-11-13",
 "title": "Glasswing overwhelms maintainers with underwhelming findings (VulnCheck)",
@@ -8458,6 +8418,11 @@
 "date": "2026-11-01",
 "title": "The-PR-Agent/pr-agent",
 "url": "https://github.com/The-PR-Agent/pr-agent"
+},
+"dbd1dec84628cb6da50a4bdd55899ef01b890574": {
+"date": "2026-11-28",
+"title": "PS3 Boomerang Controller Concept Flies Back Into Your Hands",
+"url": "https://hackaday.com/2026/11/27/ps3-boomerang-controller-concept-flies-back-into-your-hands/"
 },
 "dbd265186e94440b20e4f318038f85a58ee4f88b": {
 "date": "2026-10-14",
@@ -8804,11 +8769,6 @@
 "title": "calesthio/OpenMontage",
 "url": "https://github.com/calesthio/OpenMontage"
 },
-"e55ebaf7adcb0b97b62cb3fae0c008ff76a0d5f5": {
-"date": "2026-08-29",
-"title": "apache/opendal",
-"url": "https://github.com/apache/opendal"
-},
 "e597298fe2b9ac6802978e3b2f31934d433eda13": {
 "date": "2026-10-02",
 "title": "A Mechanical Radio, Sort Of",
@@ -9073,6 +9033,11 @@
 "date": "2026-10-08",
 "title": "Truly Sub-$3^n$ Min-Sum Subset Convolution and Join Ordering",
 "url": "https://arxiv.org/abs/2610.10282v1"
+},
+"ec24f2efb6989631c5b98c09668c18406f1479fd": {
+"date": "2026-11-28",
+"title": "ESP32 Remote Access Done Light",
+"url": "https://hackaday.com/2026/11/27/esp32-remote-access-done-light/"
 },
 "ec49f67720c7266d1013316e9d47d724a0e440ae": {
 "date": "2026-09-02",

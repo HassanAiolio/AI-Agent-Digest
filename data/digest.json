@@ -1,88 +1,84 @@
 {
-  "date": "2026-11-27",
-  "generated_at": "2026-11-27T11:10:28+00:00",
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T10:43:51+00:00",
   "stats": {
-    "fetched": 132,
+    "fetched": 131,
     "new_after_dedupe": 49,
-    "published": 10,
+    "published": 9,
     "failed_sources": [],
     "summarizer": "groq",
     "faithfulness": {
       "checked": 11,
       "supported": 11,
       "dropped": 0,
-      "unverifiable": 1,
+      "unverifiable": 0,
       "summaries_reverted": 0,
       "rate": 1.0
     },
     "brief": "llm"
   },
   "brief": {
-    "greeting": "Good morning. AMD finally got its turn on the llama.cpp leaderboard, and the numbers look less like a sprint and more like a jog.",
+    "greeting": "Good morning. ESP32 now has a traffic light for staying online, and nobody needed a traffic cop.",
     "stories": [
       {
-        "kicker": "AI benchmarks",
-        "headline": "Llama.cpp adds AMD Ryzen and Radeon support",
-        "body": "**New performance window opens:** the llama.cpp dashboard now tracks inference speed on AMD Ryzen CPUs and Radeon GPUs, letting you compare against the usual Nvidia baseline.",
-        "why": "You can spot hardware bottlenecks before they bite your production runs.",
+        "kicker": "Open models",
+        "headline": "Baidu drops ERNIE‑5.5‑Flash preview",
+        "body": "**New text generator lands:** Baidu posted ERNIE‑5.5‑Flash‑Preview on Hugging Face, already pulled 2,609 downloads and 394 likes. It’s a flash‑fast, 2‑stage transformer for quick prompts.",
+        "why": "If you prototype LLM pipelines, this model gives you a ready‑made, lightweight baseline.",
         "ids": [
-          "02a088434703556c0ebb46d05bae744860572362"
+          "9d5ba7119b154d0cd2beb14e8dbd8557d064005d"
+        ]
+      },
+      {
+        "kicker": "Open models",
+        "headline": "Kandinsky‑ImageSR‑2.0 ups image quality",
+        "body": "**Upscaling gets a boost:** Kandinskylab released ImageSR‑2.0 on Hugging Face, an image‑to‑image upscaler that has been downloaded 582 times and earned 213 likes. It sharpens details without hallucinating new content.",
+        "why": "For vision research, it offers a plug‑and‑play super‑resolution head you can benchmark instantly.",
+        "ids": [
+          "3edc0087da837b706733a486ccbf5ddeb594fc88"
         ]
       },
       {
         "kicker": "Security",
-        "headline": "Thursday updates patch kernel and key packages",
-        "body": "**Patch Tuesday arrives early:** AlmaLinux, Debian, Fedora, Mageia and Oracle all received kernel upgrades plus nginx 1.26 and Ruby 4.0, tightening the attack surface across the stack.",
-        "why": "Up‑to‑date packages keep your servers from becoming easy targets.",
+        "headline": "Friday patches hit major Linux distros",
+        "body": "**Critical fixes roll out:** LWN reports Friday security updates across AlmaLinux, Debian, Fedora and others, covering kernels, MariaDB, nginx and other core packages. The patches close known remote‑code‑execution vectors.",
+        "why": "Keeping your dev boxes patched avoids surprise break‑ins during on‑call rotations.",
         "ids": [
-          "6defd67066e1061f932d8e42f1193849e996db40"
-        ]
-      },
-      {
-        "kicker": "Model popularity",
-        "headline": "Inkling‑2‑Mini‑Strata hits nearly 3K downloads",
-        "body": "**Community love spikes:** the Strata‑engine Inkling‑2‑Mini‑Strata model logged 2,965 downloads and 254 likes on Hugging Face, showing strong interest in compact image‑text‑to‑text tools.",
-        "why": "High download counts signal a model worth testing in low‑resource pipelines.",
-        "ids": [
-          "8b660d9f0988f75310eb4bf76007dbd0e6c82644"
+          "c67db8797d97abcf527308afab159abf65348848"
         ]
       }
     ],
     "quick_hits": [
       {
-        "text": "**Modular 6502:** a plug‑in board revives the classic microprocessor for hobbyists.",
-        "id": "fd501dc99006f032eae0b5b6ecc7d671e70b1330"
+        "text": "**Embedded:** ESP32 Remote Access Done Light keeps low‑RAM devices online.",
+        "id": "ec24f2efb6989631c5b98c09668c18406f1479fd"
       },
       {
-        "text": "**Print‑your‑flap:** a DIY split‑flap display lets you recreate airport signage at home.",
-        "id": "7c1c543526feff68cc5bed39197fa04bded19367"
+        "text": "**Podcast:** Hackaday 396 dives into robot hands and watch guts.",
+        "id": "17fdf8d3abb799a656bf7c3d2ddacf2b479db5b5"
       },
       {
-        "text": "**Gecko weather:** a sensor kit monitors temperature and humidity for reptile terrariums.",
-        "id": "7163ac279e609f4b006906f42d30a2f773543c28"
+        "text": "**Nixie:** Polymatt builds a functional Nixie tube in two weeks.",
+        "id": "79cb4501c5673fa1af05c4bf5002301423d374c2"
       },
       {
-        "text": "**Fridge fix:** step‑by‑step guide to revive a dead ice maker in an LG fridge.",
-        "id": "d81ea643801d5cd28c3a7d3fe6e56f36ffb4f834"
+        "text": "**Controller:** PS3 Boomerang concept now testable by hobbyists.",
+        "id": "dbd1dec84628cb6da50a4bdd55899ef01b890574"
+      },
+      {
+        "text": "**Analysis:** Hackaday revisits the 2021 Texas power crisis.",
+        "id": "431854a25addfd351d903765a95916d06628a17e"
       }
     ],
     "number": {
-      "value": "2,965",
-      "label": "downloads of Inkling‑2‑Mini‑Strata model",
-      "id": "8b660d9f0988f75310eb4bf76007dbd0e6c82644"
+      "value": "2,609",
+      "label": "downloads of Baidu's ERNIE‑5.5‑Flash preview",
+      "id": "9d5ba7119b154d0cd2beb14e8dbd8557d064005d"
     },
-    "sign_off": "That’s it—keep coding, keep curious, and enjoy the bugs (the good kind).",
+    "sign_off": "That’s your two‑minute tech sprint. Catch you tomorrow",
     "generated": "llm"
   },
   "upcoming": [
-    {
-      "id": "67d8825fba719eb31c63db2a391bb3eab4962c9b",
-      "title": "Codeforces Round 1138 (Div. 3)",
-      "url": "https://codeforces.com/contests/2292",
-      "source": "Codeforces",
-      "starts": "2026-11-27T14:35:00+00:00",
-      "detail": "ICPC contest, 2.2h, starts Fri 27 Nov 14:35 UTC"
-    },
     {
       "id": "bd7d83d6d2eb531fac5633ad71417f9e1e74faf3",
       "title": "Kotlin Heroes: Practice 15",
@@ -94,97 +90,93 @@
   ],
   "highlights": [
     {
-      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
-      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
-      "source": "huggingface blog",
-      "section": "ai-ml",
-      "published": "2026-11-26T11:37:17+00:00",
+      "title": "ESP32 Remote Access Done Light",
+      "url": "https://hackaday.com/2026/11/27/esp32-remote-access-done-light/",
+      "source": "hackaday",
+      "section": "embedded",
+      "published": "2026-11-28T00:00:09+00:00",
       "points": null,
       "score": 4.5,
-      "id": "02a088434703556c0ebb46d05bae744860572362",
-      "summary": "The llama.cpp benchmark dashboard now supports performance tracking on AMD Ryzen CPUs and Radeon GPUs.",
-      "detail": "The dashboard visualizes latency and throughput across various model sizes, helping developers compare AMD hardware against prior Intel‑focused results. It integrates with existing llama.cpp scripts and is open‑source.",
+      "id": "ec24f2efb6989631c5b98c09668c18406f1479fd",
+      "summary": "Pinscope’s team built ESP32 Remote Access Done Light to keep an ESP32 securely connected to a server despite limited RAM.",
+      "detail": "The project solves a common embedded‑system issue by offloading heavy networking tasks, enabling reliable remote access for low‑resource devices. Source code and schematics are shared on Hackaday.",
       "key_points": [],
-      "tag": "Release",
+      "tag": "News",
       "highlight": true,
-      "image": "https://cdn-uploads.huggingface.co/production/uploads/67289c93ff90038d9a6e5675/tbIvyMSISXCm64WYP3atl.png",
+      "image": "https://hackaday.com/wp-content/uploads/2026/11/ESP32-remote-access-in-9.4-KB-of-RAM_-logs-crashes-and-OTA-updates-_-Pinscope-2-15-screenshot-e1795678010431.png",
       "related": {}
     },
     {
-      "title": "Security updates for Thursday",
-      "url": "https://lwn.net/Articles/1109990/",
+      "title": "Security updates for Friday",
+      "url": "https://lwn.net/Articles/1110189/",
       "source": "lwn",
       "section": "embedded",
-      "published": "2026-11-26T14:06:22+00:00",
+      "published": "2026-11-27T14:22:47+00:00",
       "points": null,
-      "score": 3.0,
-      "id": "6defd67066e1061f932d8e42f1193849e996db40",
-      "summary": "Thursday security updates were released for AlmaLinux, Debian, Fedora, Mageia, and Oracle, including kernel and major package patches.",
-      "detail": "Updates address CVEs across networking, graphics, and runtime components; administrators should apply them promptly to maintain system integrity.",
-      "key_points": [
-        "nginx 1.24 → 1.26",
-        "ruby 4.0 added",
-        "kernel updated"
-      ],
+      "score": 4.0,
+      "id": "c67db8797d97abcf527308afab159abf65348848",
+      "summary": "Friday security updates were issued for many Linux distributions, covering kernels, MariaDB, nginx, and other critical packages across AlmaLinux, Debian, Fedora, and more.",
+      "detail": "The updates address vulnerabilities in core system components and popular services, requiring administrators to apply patches promptly. Each distro’s advisory lists specific CVE identifiers and version bumps.",
+      "key_points": [],
       "tag": "News",
       "highlight": true,
       "image": "",
       "related": {}
     },
     {
-      "title": "A Modular 6502 Computer",
-      "url": "https://hackaday.com/2026/11/26/a-modular-6502-computer/",
+      "title": "A Detailed Breakdown of the 2021 Texas Power Crisis",
+      "url": "https://hackaday.com/2026/11/27/a-detailed-breakdown-of-the-2021-texas-power-crisis/",
       "source": "hackaday",
       "section": "embedded",
-      "published": "2026-11-27T06:00:46+00:00",
+      "published": "2026-11-28T03:00:46+00:00",
       "points": null,
       "score": 1.5,
-      "id": "fd501dc99006f032eae0b5b6ecc7d671e70b1330",
-      "summary": "Hackaday featured a modular 6502 computer design that revives the classic microprocessor in a compact, extensible board.",
-      "detail": "The project provides schematics and firmware for hobbyists, enabling easy integration of peripherals and serving as a teaching platform for low‑level hardware concepts.",
+      "id": "431854a25addfd351d903765a95916d06628a17e",
+      "summary": "Hackaday published a detailed breakdown of the February 2021 Texas power crisis, examining the grid’s emergency measures and failures.",
+      "detail": "The analysis outlines how the grid operator exhausted all available safeguards, the sequence of rolling blackouts, and the long‑term lessons for grid resilience. It includes data visualizations of demand versus supply.",
       "key_points": [],
-      "tag": "News",
+      "tag": "Analysis",
       "highlight": true,
-      "image": "https://hackaday.com/wp-content/uploads/2026/11/The-20c-Episodio-0-Hola-0-0-screenshot.png",
-      "related": {
-        "title": "A Switchboard Operator Simulator, On Real Hardware",
-        "url": "https://hackaday.com/2026/11/24/a-switchboard-operator-simulator-on-real-hardware/",
-        "date": "2026-11-25",
-        "id": "0d8869dcea8dc56b6c238b3de094976a40f813d8"
-      }
-    },
-    {
-      "title": "Another Split Flap Display You Can Print Yourself",
-      "url": "https://hackaday.com/2026/11/26/another-split-flap-display-you-can-print-yourself/",
-      "source": "hackaday",
-      "section": "embedded",
-      "published": "2026-11-26T21:00:35+00:00",
-      "points": null,
-      "score": 1.5,
-      "id": "7c1c543526feff68cc5bed39197fa04bded19367",
-      "summary": "A printable split‑flap display design is shared, reviving the mechanical alphanumeric boards once common in airports and clocks.",
-      "detail": "The project provides source files and assembly instructions so hobbyists can fabricate their own display using 3D‑printed parts and off‑the‑shelf components. It highlights the nostalgic aesthetic while offering a low‑cost, customizable alternative to electronic screens.",
-      "key_points": [],
-      "tag": "News",
-      "highlight": true,
-      "image": "https://hackaday.com/wp-content/uploads/2026/11/DIY-Split-Flap-Display_-3D-Printed-Open-Source-_-OpenFlaps-0-46-screenshot.png",
+      "image": "https://hackaday.com/wp-content/uploads/2026/11/texas_2021_blackout_ercot_grid_the_electric_brit_youtube.jpg",
       "related": {}
     },
     {
-      "title": "Diagnosing a Failed LG Fridge Ice Maker",
-      "url": "https://hackaday.com/2026/11/26/diagnosing-a-failed-lg-fridge-ice-maker/",
+      "title": "Hackaday Podcast Episode 396: Robot Hands, The Inner Life of Mechanical Watches, and the Truth about 3D Scanning",
+      "url": "https://hackaday.com/2026/11/27/hackaday-podcast-episode-396-robot-hands-the-inner-life-of-mechanical-watches-and-the-truth-about-3d-scanning/",
       "source": "hackaday",
       "section": "embedded",
-      "published": "2026-11-27T00:00:23+00:00",
+      "published": "2026-11-27T17:00:05+00:00",
       "points": null,
       "score": 1.5,
-      "id": "d81ea643801d5cd28c3a7d3fe6e56f36ffb4f834",
-      "summary": "A step‑by‑step guide explains how to troubleshoot and repair a failed ice‑maker in an LG refrigerator.",
-      "detail": "The article outlines common failure points such as clogged water lines, faulty sensors, and motor issues, and provides diagnostic tests and part replacements. It aims to help owners avoid service calls by performing the repair themselves.",
+      "id": "17fdf8d3abb799a656bf7c3d2ddacf2b479db5b5",
+      "summary": "Hackaday Podcast Episode 396 covers robot hands, mechanical watch internals, and 3D scanning misconceptions.",
+      "detail": "The episode features editors Elliot and Al Williams discussing recent hardware projects, including a new robotic hand prototype, a deep dive into the mechanics of vintage watches, and a critical look at common 3D scanning myths.",
       "key_points": [],
       "tag": "News",
       "highlight": true,
-      "image": "https://hackaday.com/wp-content/uploads/2026/11/ice_cube_tray_adrians_digital_basement_extras_youtube.jpg",
+      "image": "https://hackaday.com/wp-content/uploads/2016/05/microphone.jpg",
+      "related": {
+        "title": "Building a Robotic Hand on a Budget",
+        "url": "https://hackaday.com/2026/11/21/building-a-robotic-hand-on-a-budget/",
+        "date": "2026-11-22",
+        "id": "5fc2913f5d6362070fa0e35332f540b314814d95"
+      }
+    },
+    {
+      "title": "How to Make a Nixie Tube",
+      "url": "https://hackaday.com/2026/11/27/how-to-make-a-nixie-tube/",
+      "source": "hackaday",
+      "section": "embedded",
+      "published": "2026-11-27T21:00:20+00:00",
+      "points": null,
+      "score": 1.5,
+      "id": "79cb4501c5673fa1af05c4bf5002301423d374c2",
+      "summary": "Polymatt built a functional Nixie tube over two weeks, documenting the process.",
+      "detail": "The maker recreated the classic neon-filled display by fabricating the glass envelope, assembling the cathode elements, and sealing the tube, providing a step‑by‑step guide for hobbyists interested in retro electronics.",
+      "key_points": [],
+      "tag": "News",
+      "highlight": true,
+      "image": "https://hackaday.com/wp-content/uploads/2026/11/diy_nixie_tube_polymatt_youtube.jpg",
       "related": {}
     }
   ],
@@ -195,79 +187,62 @@
       "tier": 1,
       "items": [
         {
-          "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
-          "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
-          "source": "huggingface blog",
+          "title": "Model: baidu/ERNIE-5.5-Flash-Preview",
+          "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
+          "source": "HF trending",
           "section": "ai-ml",
-          "published": "2026-11-26T11:37:17+00:00",
-          "points": null,
-          "score": 4.5,
-          "id": "02a088434703556c0ebb46d05bae744860572362",
-          "summary": "The llama.cpp benchmark dashboard now supports performance tracking on AMD Ryzen CPUs and Radeon GPUs.",
-          "detail": "The dashboard visualizes latency and throughput across various model sizes, helping developers compare AMD hardware against prior Intel‑focused results. It integrates with existing llama.cpp scripts and is open‑source.",
-          "key_points": [],
+          "published": "2026-11-23T09:00:29.000Z",
+          "points": 394,
+          "score": 1.5,
+          "id": "9d5ba7119b154d0cd2beb14e8dbd8557d064005d",
+          "summary": "Baidu released ERNIE-5.5-Flash-Preview on Hugging Face, a text‑generation model with 2,609 downloads and 394 likes.",
+          "detail": "The model is listed under the text‑generation category and is trending on the platform, indicating community interest. It joins Baidu's series of large language models aimed at fast inference.",
+          "key_points": [
+            "2,609 downloads",
+            "394 likes"
+          ],
           "tag": "Release",
-          "highlight": true,
-          "image": "https://cdn-uploads.huggingface.co/production/uploads/67289c93ff90038d9a6e5675/tbIvyMSISXCm64WYP3atl.png",
+          "highlight": false,
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/baidu/ERNIE-5.5-Flash-Preview.png",
           "related": {}
         },
         {
-          "title": "Model: ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF",
-          "url": "https://huggingface.co/ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF",
+          "title": "Model: kandinskylab/Kandinsky-ImageSR-2.0",
+          "url": "https://huggingface.co/kandinskylab/Kandinsky-ImageSR-2.0",
           "source": "HF trending",
           "section": "ai-ml",
-          "published": "2026-11-26T13:01:01.000Z",
-          "points": 175,
+          "published": "2026-11-24T08:51:19.000Z",
+          "points": 213,
           "score": 1.5,
-          "id": "74c0c0ba388d0aa9cc5516e0817ace6b6498dd6e",
-          "summary": "The ISTA‑DASLab Inkling‑2‑Mini‑GSQ‑RCO model in GGUF format is listed on Hugging Face with 175 likes.",
-          "detail": "Targeted at text‑generation tasks, the model is available for download in the efficient GGUF container, facilitating faster inference on compatible runtimes.",
+          "id": "3edc0087da837b706733a486ccbf5ddeb594fc88",
+          "summary": "Kandinskylab introduced Kandinsky-ImageSR-2.0 on Hugging Face, an image‑to‑image upscaling model with 582 downloads and 213 likes.",
+          "detail": "The model targets super‑resolution tasks and is part of the Kandinsky family of generative tools. Its popularity reflects demand for high‑quality image enhancement in creative workflows.",
           "key_points": [
-            "175 likes"
+            "582 downloads",
+            "213 likes"
           ],
-          "tag": "Repo",
+          "tag": "Release",
           "highlight": false,
-          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF.png",
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/kandinskylab/Kandinsky-ImageSR-2.0.png",
           "related": {}
         },
         {
-          "title": "Model: strata-engine/Inkling-2-Mini-Strata",
-          "url": "https://huggingface.co/strata-engine/Inkling-2-Mini-Strata",
+          "title": "Model: sand-ai/MAGI-2-preview",
+          "url": "https://huggingface.co/sand-ai/MAGI-2-preview",
           "source": "HF trending",
           "section": "ai-ml",
-          "published": "2026-11-21T18:46:06.000Z",
-          "points": 254,
+          "published": "2026-08-03T12:34:20.000Z",
+          "points": 377,
           "score": 1.5,
-          "id": "8b660d9f0988f75310eb4bf76007dbd0e6c82644",
-          "summary": "The strata‑engine Inkling‑2‑Mini‑Strata model for image‑text‑to‑text has been downloaded 2,965 times and received 254 likes on Hugging Face.",
-          "detail": "Built on a compact transformer architecture, the model balances quality and speed for multimodal captioning, and is distributed in a standard repository format.",
+          "id": "232f2b9e65cb69dc61071f12061cff38d7f393dc",
+          "summary": "sand‑ai released MAGI-2-preview, an image‑text‑to‑video model on Hugging Face that has earned 377 likes.",
+          "detail": "MAGI-2-preview generates short video clips from combined visual and textual prompts, extending the capabilities of multimodal generation. It is currently in preview status, inviting community feedback.",
           "key_points": [
-            "2,965 downloads",
-            "254 likes"
+            "377 likes"
           ],
-          "tag": "Repo",
+          "tag": "Release",
           "highlight": false,
-          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/strata-engine/Inkling-2-Mini-Strata.png",
-          "related": {}
-        },
-        {
-          "title": "Model: thinkingmachines/Inkling-2-Mini",
-          "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
-          "source": "HF trending",
-          "section": "ai-ml",
-          "published": "2026-11-17T00:26:57.000Z",
-          "points": 6358,
-          "score": 1.5,
-          "id": "99ccc673a30f224e1e7a0cb714fc166b8d560c67",
-          "summary": "The thinkingmachines Inkling‑2‑Mini image‑text‑to‑text model has amassed 96,527 downloads and 6,358 likes on Hugging Face.",
-          "detail": "Its popularity reflects strong community adoption for low‑resource multimodal tasks, and the model is provided in a ready‑to‑use format for common inference libraries.",
-          "key_points": [
-            "96,527 downloads",
-            "6,358 likes"
-          ],
-          "tag": "Repo",
-          "highlight": false,
-          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/thinkingmachines/Inkling-2-Mini.png",
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/sand-ai/MAGI-2-preview.png",
           "related": {}
         }
       ]
@@ -278,114 +253,110 @@
       "tier": 2,
       "items": [
         {
-          "title": "Security updates for Thursday",
-          "url": "https://lwn.net/Articles/1109990/",
+          "title": "ESP32 Remote Access Done Light",
+          "url": "https://hackaday.com/2026/11/27/esp32-remote-access-done-light/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-28T00:00:09+00:00",
+          "points": null,
+          "score": 4.5,
+          "id": "ec24f2efb6989631c5b98c09668c18406f1479fd",
+          "summary": "Pinscope’s team built ESP32 Remote Access Done Light to keep an ESP32 securely connected to a server despite limited RAM.",
+          "detail": "The project solves a common embedded‑system issue by offloading heavy networking tasks, enabling reliable remote access for low‑resource devices. Source code and schematics are shared on Hackaday.",
+          "key_points": [],
+          "tag": "News",
+          "highlight": true,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/ESP32-remote-access-in-9.4-KB-of-RAM_-logs-crashes-and-OTA-updates-_-Pinscope-2-15-screenshot-e1795678010431.png",
+          "related": {}
+        },
+        {
+          "title": "Security updates for Friday",
+          "url": "https://lwn.net/Articles/1110189/",
           "source": "lwn",
           "section": "embedded",
-          "published": "2026-11-26T14:06:22+00:00",
+          "published": "2026-11-27T14:22:47+00:00",
           "points": null,
-          "score": 3.0,
-          "id": "6defd67066e1061f932d8e42f1193849e996db40",
-          "summary": "Thursday security updates were released for AlmaLinux, Debian, Fedora, Mageia, and Oracle, including kernel and major package patches.",
-          "detail": "Updates address CVEs across networking, graphics, and runtime components; administrators should apply them promptly to maintain system integrity.",
-          "key_points": [
-            "nginx 1.24 → 1.26",
-            "ruby 4.0 added",
-            "kernel updated"
-          ],
+          "score": 4.0,
+          "id": "c67db8797d97abcf527308afab159abf65348848",
+          "summary": "Friday security updates were issued for many Linux distributions, covering kernels, MariaDB, nginx, and other critical packages across AlmaLinux, Debian, Fedora, and more.",
+          "detail": "The updates address vulnerabilities in core system components and popular services, requiring administrators to apply patches promptly. Each distro’s advisory lists specific CVE identifiers and version bumps.",
+          "key_points": [],
           "tag": "News",
           "highlight": true,
           "image": "",
           "related": {}
         },
         {
-          "title": "A Modular 6502 Computer",
-          "url": "https://hackaday.com/2026/11/26/a-modular-6502-computer/",
+          "title": "A Detailed Breakdown of the 2021 Texas Power Crisis",
+          "url": "https://hackaday.com/2026/11/27/a-detailed-breakdown-of-the-2021-texas-power-crisis/",
           "source": "hackaday",
           "section": "embedded",
-          "published": "2026-11-27T06:00:46+00:00",
+          "published": "2026-11-28T03:00:46+00:00",
           "points": null,
           "score": 1.5,
-          "id": "fd501dc99006f032eae0b5b6ecc7d671e70b1330",
-          "summary": "Hackaday featured a modular 6502 computer design that revives the classic microprocessor in a compact, extensible board.",
-          "detail": "The project provides schematics and firmware for hobbyists, enabling easy integration of peripherals and serving as a teaching platform for low‑level hardware concepts.",
+          "id": "431854a25addfd351d903765a95916d06628a17e",
+          "summary": "Hackaday published a detailed breakdown of the February 2021 Texas power crisis, examining the grid’s emergency measures and failures.",
+          "detail": "The analysis outlines how the grid operator exhausted all available safeguards, the sequence of rolling blackouts, and the long‑term lessons for grid resilience. It includes data visualizations of demand versus supply.",
+          "key_points": [],
+          "tag": "Analysis",
+          "highlight": true,
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/texas_2021_blackout_ercot_grid_the_electric_brit_youtube.jpg",
+          "related": {}
+        },
+        {
+          "title": "Hackaday Podcast Episode 396: Robot Hands, The Inner Life of Mechanical Watches, and the Truth about 3D Scanning",
+          "url": "https://hackaday.com/2026/11/27/hackaday-podcast-episode-396-robot-hands-the-inner-life-of-mechanical-watches-and-the-truth-about-3d-scanning/",
+          "source": "hackaday",
+          "section": "embedded",
+          "published": "2026-11-27T17:00:05+00:00",
+          "points": null,
+          "score": 1.5,
+          "id": "17fdf8d3abb799a656bf7c3d2ddacf2b479db5b5",
+          "summary": "Hackaday Podcast Episode 396 covers robot hands, mechanical watch internals, and 3D scanning misconceptions.",
+          "detail": "The episode features editors Elliot and Al Williams discussing recent hardware projects, including a new robotic hand prototype, a deep dive into the mechanics of vintage watches, and a critical look at common 3D scanning myths.",
           "key_points": [],
           "tag": "News",
           "highlight": true,
-          "image": "https://hackaday.com/wp-content/uploads/2026/11/The-20c-Episodio-0-Hola-0-0-screenshot.png",
+          "image": "https://hackaday.com/wp-content/uploads/2016/05/microphone.jpg",
           "related": {
-            "title": "A Switchboard Operator Simulator, On Real Hardware",
-            "url": "https://hackaday.com/2026/11/24/a-switchboard-operator-simulator-on-real-hardware/",
-            "date": "2026-11-25",
-            "id": "0d8869dcea8dc56b6c238b3de094976a40f813d8"
+            "title": "Building a Robotic Hand on a Budget",
+            "url": "https://hackaday.com/2026/11/21/building-a-robotic-hand-on-a-budget/",
+            "date": "2026-11-22",
+            "id": "5fc2913f5d6362070fa0e35332f540b314814d95"
           }
         },
         {
-          "title": "Another Split Flap Display You Can Print Yourself",
-          "url": "https://hackaday.com/2026/11/26/another-split-flap-display-you-can-print-yourself/",
+          "title": "How to Make a Nixie Tube",
+          "url": "https://hackaday.com/2026/11/27/how-to-make-a-nixie-tube/",
           "source": "hackaday",
           "section": "embedded",
-          "published": "2026-11-26T21:00:35+00:00",
+          "published": "2026-11-27T21:00:20+00:00",
           "points": null,
           "score": 1.5,
-          "id": "7c1c543526feff68cc5bed39197fa04bded19367",
-          "summary": "A printable split‑flap display design is shared, reviving the mechanical alphanumeric boards once common in airports and clocks.",
-          "detail": "The project provides source files and assembly instructions so hobbyists can fabricate their own display using 3D‑printed parts and off‑the‑shelf components. It highlights the nostalgic aesthetic while offering a low‑cost, customizable alternative to electronic screens.",
+          "id": "79cb4501c5673fa1af05c4bf5002301423d374c2",
+          "summary": "Polymatt built a functional Nixie tube over two weeks, documenting the process.",
+          "detail": "The maker recreated the classic neon-filled display by fabricating the glass envelope, assembling the cathode elements, and sealing the tube, providing a step‑by‑step guide for hobbyists interested in retro electronics.",
           "key_points": [],
           "tag": "News",
           "highlight": true,
-          "image": "https://hackaday.com/wp-content/uploads/2026/11/DIY-Split-Flap-Display_-3D-Printed-Open-Source-_-OpenFlaps-0-46-screenshot.png",
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/diy_nixie_tube_polymatt_youtube.jpg",
           "related": {}
         },
         {
-          "title": "Diagnosing a Failed LG Fridge Ice Maker",
-          "url": "https://hackaday.com/2026/11/26/diagnosing-a-failed-lg-fridge-ice-maker/",
+          "title": "PS3 Boomerang Controller Concept Flies Back Into Your Hands",
+          "url": "https://hackaday.com/2026/11/27/ps3-boomerang-controller-concept-flies-back-into-your-hands/",
           "source": "hackaday",
           "section": "embedded",
-          "published": "2026-11-27T00:00:23+00:00",
+          "published": "2026-11-27T19:30:15+00:00",
           "points": null,
           "score": 1.5,
-          "id": "d81ea643801d5cd28c3a7d3fe6e56f36ffb4f834",
-          "summary": "A step‑by‑step guide explains how to troubleshoot and repair a failed ice‑maker in an LG refrigerator.",
-          "detail": "The article outlines common failure points such as clogged water lines, faulty sensors, and motor issues, and provides diagnostic tests and part replacements. It aims to help owners avoid service calls by performing the repair themselves.",
-          "key_points": [],
-          "tag": "News",
-          "highlight": true,
-          "image": "https://hackaday.com/wp-content/uploads/2026/11/ice_cube_tray_adrians_digital_basement_extras_youtube.jpg",
-          "related": {}
-        },
-        {
-          "title": "Location-Accurate Weather For Your Gecko",
-          "url": "https://hackaday.com/2026/11/26/location-accurate-weather-for-your-gecko/",
-          "source": "hackaday",
-          "section": "embedded",
-          "published": "2026-11-26T18:00:31+00:00",
-          "points": null,
-          "score": 1.5,
-          "id": "7163ac279e609f4b006906f42d30a2f773543c28",
-          "summary": "A DIY weather‑monitoring system is described for maintaining precise temperature and humidity in a gecko terrarium.",
-          "detail": "The build uses a compact sensor module and microcontroller to log environmental data, enabling automated adjustments to heating and misting devices. It offers a low‑cost solution for hobbyists seeking fine‑grained habitat control.",
+          "id": "dbd1dec84628cb6da50a4bdd55899ef01b890574",
+          "summary": "A concept for a PS3 Boomerang controller has been prototyped and is now available for hands‑on testing.",
+          "detail": "Inspired by the 2005 E3 reveal, the new controller mimics the original's shape and button layout while integrating modern USB connectivity, allowing enthusiasts to experience the nostalgic design with current hardware.",
           "key_points": [],
           "tag": "News",
           "highlight": false,
-          "image": "https://hackaday.com/wp-content/uploads/2026/11/gecko-home-featured.jpg",
-          "related": {}
-        },
-        {
-          "title": "Scientific Analysis of Nontraditional Garden Watering Method",
-          "url": "https://hackaday.com/2026/11/26/scientific-analysis-of-nontraditional-garden-watering-method/",
-          "source": "hackaday",
-          "section": "embedded",
-          "published": "2026-11-26T15:00:07+00:00",
-          "points": null,
-          "score": 1.5,
-          "id": "b5b84560eb60122f0f46896e9d9d662afc5c44ab",
-          "summary": "An analysis evaluates the performance of an unconventional garden‑watering method that relies on passive water collection.",
-          "detail": "The study compares water usage, plant health metrics, and maintenance effort against traditional irrigation, finding comparable moisture levels with reduced municipal water demand. It discusses scalability and potential adaptations for different climates.",
-          "key_points": [],
-          "tag": "Analysis",
-          "highlight": false,
-          "image": "https://hackaday.com/wp-content/uploads/2026/11/rainwater-main.png",
+          "image": "https://hackaday.com/wp-content/uploads/2026/11/PS3-boomerang1.jpg",
           "related": {}
         }
       ]
